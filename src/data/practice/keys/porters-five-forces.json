@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Buyer power is the customers’ ability to demand lower prices or more value. Rivalry is about competitors, substitutes come from other industries, and suppliers sit on the cost side."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Huge capital needs and slow permits are strong barriers to entry, so few newcomers can join. The case says nothing that would make the other forces weak."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A single company still faces substitutes, buyers, suppliers and possible entrants. A monopoly railway can lose passengers to buses and planes, and a powerful fuel supplier can squeeze it."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "When leaving is expensive or slow, customers cannot easily threaten to move to a rival, so they have less leverage on price."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Streaming meets the same need (watching a film) through a different industry, which is what a substitute is. Another cinema is a rival, and the popcorn supplier and landlord are suppliers."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A single source and costly switching both let the mill raise prices. Supermarket bread is a substitute, the new bakery is rivalry, and the app concerns customers, not suppliers."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In X, buyers are weak, entry is hard and substitutes are absent, so firms keep more of the value. In Y, buyers, entrants and substitutes all squeeze prices. The model judges industry structure without company accounts."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The bridge is a substitute that will take most commuters whatever the fare. The lasting answer is a position where the substitute is weak. Price cuts and more ferries fight the substitute where it is strongest, and cheaper fuel does not touch the threat."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The 40,000 businesses are mostly not competing for gluten-free bread buyers in Lviv, and four forces were never checked. Ratings and numbers are normal tools, and government is not a sixth force."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Value leaks to powerful suppliers, price-sensitive buyers take the rest, and empty seats push airlines into price wars. Demand was not the problem, and aircraft making is a supplier industry with very high barriers."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Rivalry is strong: 12 cafés compete within 500 metres for the same students. Buyer power is strong: students are price-sensitive and compare prices on delivery apps, so they switch easily. Supplier power is weak because dozens of roasters compete to sell beans."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names rivalry as strong and cites the 12 nearby cafés",
+					"points": 2
+				},
+				{
+					"criterion": "Names buyer power as strong and cites price comparison or price-sensitive students",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A hotel pays for staff, the building and maintenance whether rooms are full or empty, so an extra guest costs little and almost any price above that small cost helps. When demand drops, every hotel cuts prices to fill rooms, rivals follow, and the price war pulls margins down across the city."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: costs are paid regardless of sales, so filling capacity at a low price still pays",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to a hotel with a concrete detail (empty rooms, staff, building)",
+					"points": 1
+				},
+				{
+					"criterion": "Shows the effect on the whole industry: rivals match cuts and margins fall",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Invest in integrations. The CRM vendor is a new entrant with money and brand, so rivalry will rise. But buyer power is low because switching costs are high, and each integration with imaging and insurance tools raises them further. A price cut would hand margin to clinics that are not leaving anyway. Risk: the vendor may buy an imaging partner, so track which integrations clinics use most and sign those partners first."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses at least three forces with evidence from the case (new entrant, buyer power and switching costs, rivalry)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains how the choice weakens a threatening force or uses a favourable one",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to watch it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "City A. Rivalry there is moderate and fixed, because the licence cap keeps new entrants out, and the third licence would be ours. Public transport is a substitute but also feeds short trips from stations. In City B, the open market means any operator can arrive next month, and cheap bike sharing is a close substitute, so prices would fall fast once others come. The empty market looks attractive but has no protection."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Ranks the main forces in both cities with reasons",
+					"points": 2
+				},
+				{
+					"criterion": "Sees that the licence cap blocks entry and protects profit in City A",
+					"points": 1
+				},
+				{
+					"criterion": "Sees that open entry plus a cheap substitute make City B fragile",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the analysis",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Rivalry: high, 25 new breweries. New entrants: high, $150,000 is a low barrier. Buyers: very high, two chains control 70% of bottled sales and demand discounts. Suppliers: low for hops and malt, but high for cans because there is one producer with a long lead time. Substitutes: high, cheap lager and non-alcoholic drinks. The strongest force is buyer power. Position: sell more through a taproom, local bars and a beer subscription, where the brewery sets the price, and keep supermarkets as a small share of volume. Order cans early or switch part of the range to kegs."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Rates all five forces with evidence from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Names the supermarket chains’ buyer power as the strongest force",
+					"points": 1
+				},
+				{
+					"criterion": "Spots the single can producer as a supplier risk despite cheap hops and malt",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a position that reduces dependence on the chains and explains why it works",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сила покупців означає здатність клієнтів вимагати нижчу ціну чи більше цінності. Суперництво стосується конкурентів, замінники приходять з інших галузей, а постачальники впливають на витрати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Величезні вкладення й довгі дозволи створюють високі бар’єри входу, тож новачків мало. Нічого в умові не вказує, що інші сили слабкі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Навіть єдина компанія стикається із замінниками, покупцями, постачальниками й можливими новими учасниками. Залізниця-монополіст може втрачати пасажирів через автобуси й літаки, а сильний постачальник пального може тиснути на неї."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Коли піти дорого або довго, клієнт не може легко пригрозити переходом до конкурента, тож має менше важелів впливу на ціну."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Стрімінг задовольняє ту саму потребу (подивитися фільм) засобами іншої галузі, а це і є замінник. Інший кінотеатр це суперник, а постачальник попкорну й орендодавець належать до постачальників."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Єдине джерело й дорогий перехід дозволяють млину підвищувати ціни. Хліб із супермаркету це замінник, нова пекарня означає суперництво, а застосунок стосується клієнтів, а не постачальників."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "У галузі X покупці слабкі, вхід складний, замінників немає, тож компанії залишають собі більше цінності. У галузі Y на ціни тиснуть покупці, новачки й замінники. Модель оцінює структуру галузі без звітності окремих компаній."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Міст це замінник, який забере більшість щоденних пасажирів за будь-якого тарифу. Тривалий захист дає позиція, де замінник слабкий. Знижки й нові пороми воюють із замінником там, де він найсильніший, а дешеве пальне загрози не усуває."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Більшість із 40 000 підприємств не змагаються за покупців безглютенового хліба у Львові, а чотири сили взагалі не перевірено. Шкала й цифри це нормальні інструменти, а держава не є шостою силою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Цінність перетікає до сильних постачальників, решту забирають чутливі до ціни покупці, а порожні крісла штовхають авіакомпанії до цінових війн. Проблема не в попиті, а виробництво літаків це галузь постачальників із дуже високими бар’єрами."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Суперництво сильне: 12 кав’ярень у радіусі 500 метрів змагаються за тих самих студентів. Сила покупців висока: студенти чутливі до ціни й порівнюють її в застосунках доставки, тож легко переходять до іншого закладу. Сила постачальників слабка, бо десятки обсмажувальників змагаються за продаж зерна."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає суперництво сильним і згадує 12 кав’ярень поруч",
+					"points": 2
+				},
+				{
+					"criterion": "Називає силу покупців високою й згадує порівняння цін або чутливих до ціни студентів",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Готель платить за персонал, будівлю й обслуговування незалежно від того, заповнені номери чи ні, тож додатковий гість коштує мало, і майже будь-яка ціна понад ці невеликі витрати вигідна. Коли попит падає, кожен готель знижує ціни, щоб заповнити номери, конкуренти роблять те саме, і цінова війна знижує маржу по всьому місту."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: витрати сплачуються за будь-яких продажів, тож заповнити місткість навіть за низькою ціною вигідно",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до готелю з конкретною деталлю (порожні номери, персонал, будівля)",
+					"points": 1
+				},
+				{
+					"criterion": "Показує вплив на всю галузь: конкуренти повторюють знижки, маржа падає",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Інвестувати в інтеграції. CRM-компанія це новий учасник із грошима й брендом, тож суперництво зросте. Але сила покупців низька, бо витрати на перехід високі, і кожна інтеграція зі знімками та страхуванням ще більше їх підвищує. Знижка лише віддала б маржу клінікам, які й так не йдуть. Ризик: конкурент може купити партнера зі знімків, тому стежте, якими інтеграціями клініки користуються найбільше, і першими підписуйте договори з цими партнерами."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує щонайменше три сили з доказами з умови (новий учасник, сила покупців і витрати на перехід, суперництво)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, як вибір послаблює загрозливу силу або використовує сприятливу",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Місто A. Суперництво там помірне й стале, бо обмеження ліцензій не пускає нових учасників, а третя ліцензія дістанеться нам. Громадський транспорт є замінником, але й створює короткі поїздки від зупинок. У місті B відкритий ринок означає, що будь-який оператор може прийти наступного місяця, а дешевий велопрокат це близький замінник, тож ціни швидко впадуть, щойно з’являться інші. Порожній ринок виглядає привабливо, але нічим не захищений."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розставляє головні сили в обох містах з обґрунтуванням",
+					"points": 2
+				},
+				{
+					"criterion": "Бачить, що обмеження ліцензій блокує вхід і захищає прибуток у місті A",
+					"points": 1
+				},
+				{
+					"criterion": "Бачить, що відкритий вхід і дешевий замінник роблять місто B вразливим",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з аналізу",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Суперництво: високе, 25 нових броварень. Нові учасники: висока загроза, $150 000 це низький бар’єр. Покупці: дуже сильні, дві мережі контролюють 70% пляшкових продажів і вимагають знижок. Постачальники: слабкі щодо хмелю й солоду, але сильні щодо банок, бо виробник один і постачає довго. Замінники: сильні, дешевий лагер і безалкогольні напої. Найсильніша сила це покупці. Позиція: більше продавати через власний пивний бар, місцеві заклади й пивну підписку, де ціну встановлює броварня, а супермаркетам залишити невелику частку обсягу. Замовляти банки заздалегідь або перевести частину асортименту в кеги."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Оцінює всі п’ять сил з доказами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Називає силу мереж супермаркетів найсильнішою",
+					"points": 1
+				},
+				{
+					"criterion": "Помічає єдиного виробника банок як ризик із боку постачальників попри дешевий хміль і солод",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує позицію, що зменшує залежність від мереж, і пояснює, чому вона працює",
+					"points": 2
+				}
+			]
+		}
+	}
+}
