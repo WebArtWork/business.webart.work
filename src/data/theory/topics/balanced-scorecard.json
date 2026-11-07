@@ -1,0 +1,26 @@
+{
+	"slug": "balanced-scorecard",
+	"related": [
+		"okrs",
+		"pdca-cycle",
+		"pareto-principle"
+	],
+	"en": {
+		"short": "Assess strategy through several complementary perspectives instead of relying only on financial results. Leading measures can reveal whether future performance is being built. Translate strategy into objectives for each perspective, select a few indicators, define owners and targets, and review causal assumptions and trade-offs regularly.",
+		"origin": "Robert Kaplan and David Norton introduced the Balanced Scorecard in a 1992 *Harvard Business Review* article, expanding the approach in subsequent work. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
+		"core": "Assess strategy through several complementary perspectives instead of relying only on financial results. Leading measures can reveal whether future performance is being built. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
+		"components": "Four classic perspectives: financial, customer, internal processes, and learning and growth. Link objectives, measures, targets and initiatives through a strategy map. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
+		"apply": "Translate strategy into objectives for each perspective, select a few indicators, define owners and targets, and review causal assumptions and trade-offs regularly. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
+		"example": "A hotel tracks profitability, guest satisfaction, room-turnaround time and employee training. Together these indicators show whether service improvements support long-term returns. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
+		"limitations": "A crowded dashboard is not a strategy. Poor causal links, vanity metrics and excessive reporting make the scorecard ineffective. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+	},
+	"ua": {
+		"short": "Стратегію оцінюють з кількох взаємодоповнювальних боків, а не лише за фінансовим результатом. Випереджальні показники допомагають побачити, що впливатиме на майбутні результати. Перекладіть стратегію на цілі в кожній перспективі, оберіть небагато метрик, призначте відповідальних, встановіть орієнтири та регулярно перевіряйте причинні зв’язки.",
+		"origin": "Роберт Каплан і Девід Нортон представили збалансовану систему показників (Balanced Scorecard) у статті Harvard Business Review 1992 року, а пізніше розвинули метод. Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
+		"core": "Стратегію оцінюють з кількох взаємодоповнювальних боків, а не лише за фінансовим результатом. Випереджальні показники допомагають побачити, що впливатиме на майбутні результати. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
+		"components": "Чотири класичні перспективи: фінанси, клієнти, внутрішні процеси, навчання та розвиток. Цілі, показники, орієнтири й ініціативи пов’язують картою стратегії (strategy map). Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
+		"apply": "Перекладіть стратегію на цілі в кожній перспективі, оберіть небагато метрик, призначте відповідальних, встановіть орієнтири та регулярно перевіряйте причинні зв’язки. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
+		"example": "Готель відстежує прибутковість, задоволеність гостей, час підготовки номерів і навчання персоналу. Разом показники пояснюють, чи підтримує якісний сервіс довгостроковий результат. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
+		"limitations": "Перевантажена панель метрик не замінює стратегію. Слабкі причинні зв’язки, показники заради звітності та надмірна бюрократія знижують користь. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+	}
+}

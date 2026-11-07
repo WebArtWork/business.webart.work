@@ -1,0 +1,107 @@
+<section class="pb-10 pt-10 max-md:pt-4" [attr.aria-label]="'Business theories' | t">
+	<h1 class="max-md:sr-only text-2xl font-semibold tracking-tight">{{ 'Learn' | t }}</h1>
+	<ng-template #filters>
+		<div>
+			<input
+				[attr.aria-label]="'Search lessons' | t"
+				class="w-full max-w-md rounded-lg border border-line bg-card px-4 py-3 placeholder:text-mute"
+				type="search"
+				autocomplete="off"
+				[placeholder]="'Search lessons' | t"
+				[value]="query()"
+				(input)="query.set($any($event.target).value)"
+			/>
+			<p class="mt-2 text-sm text-mute" role="status">
+				{{ '{count} lessons' | t: { count: shown() } }}
+			</p>
+		</div>
+
+		<nav class="flex flex-wrap gap-2" [attr.aria-label]="'Modules' | t">
+			@for (module of modules(); track module.slug) {
+				<a
+					class="rounded-full border border-line px-3 py-1 text-sm hover:border-brand hover:text-brand"
+					routerLink="/theories"
+					[fragment]="module.slug"
+					(click)="openModule.set(module.slug); filtersService.close()"
+					>{{ pick(module.title, language()) }}</a
+				>
+			}
+		</nav>
+	</ng-template>
+
+	<div class="mt-8 max-md:hidden md:flex md:flex-col md:gap-6">
+		<ng-container *ngTemplateOutlet="filters" />
+	</div>
+
+	@for (module of modules(); track module.slug; let index = $index) {
+		<section
+			class="lazy-section mt-8 scroll-mt-6"
+			[class.max-md:mt-0]="index === 0"
+			[id]="module.slug"
+			[attr.aria-labelledby]="module.slug + '-title'"
+		>
+			<h2 class="m-0!">
+				<button
+					class="flex w-full items-center justify-between gap-4 rounded-xl text-left"
+					type="button"
+					[attr.aria-expanded]="isOpen(module.slug)"
+					[attr.aria-controls]="module.slug + '-list'"
+					(click)="toggle(module.slug)"
+				>
+					<span class="min-w-0">
+						<span id="{{ module.slug }}-title" class="block text-2xl font-semibold">{{
+							pick(module.title, language())
+						}}</span>
+					</span>
+					<span
+						class="flex size-10 shrink-0 items-center justify-center rounded-full border border-line"
+					>
+						<svg
+							class="size-5 transition-transform"
+							[class.-rotate-90]="!isOpen(module.slug)"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							aria-hidden="true"
+						>
+							<path d="m6 9 6 6 6-6" />
+						</svg>
+					</span>
+				</button>
+			</h2>
+			<p class="mt-2 max-w-2xl text-fg/80">{{ pick(module.summary, language()) }}</p>
+			@if (isOpen(module.slug)) {
+				<ol
+					[id]="module.slug + '-list'"
+					class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3"
+				>
+					@for (topic of module.topics; track topic.slug) {
+						<li
+							class="relative grid grid-cols-[1.5rem_minmax(0,1fr)_auto] items-baseline gap-x-3 gap-y-1 rounded-xl border border-line bg-card px-4 py-3 hover:border-brand"
+						>
+							<span class="text-xs tabular-nums text-brand">{{ topic.number }}</span>
+							<h3 class="font-semibold">
+								<a
+									class="hover:text-brand after:absolute after:inset-0 after:rounded-xl"
+									[routerLink]="['/theories', topic.slug]"
+									>{{ pick(topic.title, language()) }}</a
+								>
+							</h3>
+							<span class="text-xs text-mute">{{
+								'{n} min' | t: { n: topic.minutes }
+							}}</span>
+							<p class="col-span-3 line-clamp-2 text-sm leading-relaxed text-fg/80">
+								{{ pick(topic.summary, language()) }}
+							</p>
+						</li>
+					}
+				</ol>
+			}
+		</section>
+	} @empty {
+		<p class="mt-12 text-fg/80">{{ 'No lessons match your search.' | t }}</p>
+	}
+</section>

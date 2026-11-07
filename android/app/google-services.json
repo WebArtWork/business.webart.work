@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "759146969483",
+    "project_id": "coder-50e2e",
+    "storage_bucket": "coder-50e2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759146969483:android:85a3052cdcd52543e2d78e",
+        "android_client_info": {
+          "package_name": "work.webart.coder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759146969483-p81apt66f01nppp98ontjoacjslpki84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB80B_AaMTf9HNYwjxqgF3Bk-m8Snrti8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759146969483-p81apt66f01nppp98ontjoacjslpki84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "759146969483-egugn6s2l76dg07127toifa7ubooaj8l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "work.webart.coder"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

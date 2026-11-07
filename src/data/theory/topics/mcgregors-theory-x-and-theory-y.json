@@ -1,0 +1,27 @@
+{
+	"slug": "mcgregors-theory-x-and-theory-y",
+	"related": [
+		"herzbergs-two-factor-theory",
+		"situational-leadership",
+		"transformational-leadership"
+	],
+	"en": {
+		"short": "McGregor's Theory X and Theory Y offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+		"origin": "Douglas McGregor presented these contrasting managerial assumptions in his 1960 book The Human Side of Enterprise. They describe beliefs about workers rather than two scientific personality types. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
+		"core": "Managers act according to assumptions about whether people avoid work or can exercise self-direction. Those assumptions shape rules, trust, incentives, and ultimately team behavior. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
+		"components": "Theory X assumes workers need close control and external pressure. Theory Y assumes work can be natural, people can accept responsibility, and commitment grows when goals are meaningful. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
+		"apply": "Audit approval chains, monitoring practices, and decision rights. Set clear outcomes, give employees resources and discretion, and use transparent reviews. Keep necessary controls for safety and compliance. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
+		"example": "An engineering manager replaces hourly status checks with weekly delivery goals, shared quality standards, and peer reviews. Developers gain autonomy while reliability remains measurable. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
+		"limitations": "The contrast can oversimplify people and situations. New hires may need structure; experienced staff may still need accountability. Theory Y does not mean removing standards or management. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+	},
+	"ua": {
+		"short": "«Теорії X та Y Макгрегора» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
+		"origin": "Дуглас Макгрегор представив протилежні управлінські припущення у книжці «The Human Side of Enterprise» 1960 року. Це погляди керівника на працівників, а не два типи особистості. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
+		"core": "Керівники діють відповідно до своїх уявлень: чи люди уникають роботи, чи здатні самі себе спрямовувати. Ці уявлення впливають на правила, довіру й поведінку команди. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
+		"components": "Теорія X припускає потребу в жорсткому контролі та зовнішньому примусі. Теорія Y виходить із можливості самокерування, відповідальності й залученості за змістовних цілей. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
+		"apply": "Перевірте ланцюги погоджень, контроль і право ухвалювати рішення. Визначайте результати, надавайте ресурси й автономію, проводьте прозорі огляди. Зберігайте потрібний контроль безпеки та відповідності вимогам. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
+		"example": "Керівник розробки замінює щогодинні звіти тижневими цілями, спільними стандартами якості й перевіркою коду колегами. Автономія зростає, а надійність залишається вимірюваною. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
+		"limitations": "Протиставлення спрощує людей і ситуації. Новачкам може бути потрібна чітка структура, а досвідченим — підзвітність. Теорія Y не означає відмови від стандартів чи керівництва. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
+		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+	}
+}

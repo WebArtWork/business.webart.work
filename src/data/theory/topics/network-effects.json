@@ -1,0 +1,26 @@
+{
+	"slug": "network-effects",
+	"related": [
+		"two-sided-multi-sided-markets",
+		"platform-business-model",
+		"switching-costs-and-lock-in"
+	],
+	"en": {
+		"short": "Network effects occur when a product becomes more valuable to a user as more relevant participants join or interact. They can support platform growth but may also create congestion, quality problems, or dependence on one dominant service.",
+		"origin": "Network externalities were studied in economics well before the internet. Michael Katz and Carl Shapiro published influential formal work on network externalities in 1985. Robert Metcalfe’s commonly cited rule about network value is a rough heuristic, not a general empirical law.",
+		"core": "Unlike ordinary scale economies, network effects change the value users receive, not merely the provider’s cost per unit. A messaging service becomes more useful when contacts join. A marketplace becomes more useful when it has enough suitable buyers and sellers. However, additional users are valuable only when they create relevant interactions; an irrelevant or low-quality crowd can reduce value.",
+		"components": "**Direct network effects** arise among users of the same type, as with messaging. **Indirect or cross-side effects** connect different groups, such as drivers and riders. **Local network density** measures relevant connections within a city, profession, or community. **Positive effects** improve matching or content; **negative effects** include spam, congestion, fraud, and competition for attention. **Critical mass** is the participation level at which a network becomes useful enough to sustain activity.",
+		"apply": "Define the interaction that produces value and the minimum viable network around it. Start with a dense niche rather than acquiring scattered users. Measure successful matches, response times, repeat transactions, and participant quality—not registrations alone. Identify which side needs incentives and whether subsidies can be sustained. Invest in moderation, trust, and liquidity. Test whether growth improves user outcomes in each local market.",
+		"example": "A neighborhood sports app is useful when enough players nearby organize matches at compatible times. Ten thousand users across a country may deliver less value than 200 active players in one city who regularly fill games.",
+		"limitations": "Network effects are frequently confused with viral marketing or economies of scale. Growth can weaken quality, and multi-homing lets users join several competing networks. Strong network effects do not automatically create profit or prevent regulatory intervention."
+	},
+	"ua": {
+		"short": "Мережевий ефект виникає, коли цінність сервісу для користувача зростає завдяки участі інших людей або компаній. Він може прискорювати розвиток платформи, але не гарантує успіху.",
+		"origin": "Економісти досліджували мережеві зовнішні ефекти задовго до сучасних онлайн-платформ. Впливову формальну працю Майкл Кац і Карл Шапіро опублікували 1985 року. Так званий закон Меткалфа є приблизною евристикою, а не універсально доведеною формулою.",
+		"core": "Мережевий ефект (network effect) означає, що участь інших користувачів змінює цінність продукту для конкретної людини. Месенджер корисніший, коли там є друзі. Маркетплейс працює краще, коли достатньо відповідних покупців і продавців. Це відрізняється від економії на масштабі, яка зменшує витрати постачальника. Важлива не кількість людей сама по собі, а якість взаємодій.",
+		"components": "**Прямий мережевий ефект (direct network effect)** виникає між учасниками однієї групи. **Непрямий, або міжсторонній ефект (cross-side effect)** поєднує різні групи, наприклад водіїв і пасажирів. **Локальна щільність мережі** показує кількість корисних зв’язків у конкретній спільноті. **Позитивні ефекти** покращують пошук і взаємодію; **негативні** створюють спам, шахрайство й перевантаження. **Критична маса (critical mass)** — рівень участі, за якого мережа стає самодостатньо корисною.",
+		"apply": "Визначте, яка саме взаємодія створює користь. Почніть із невеликого щільного сегмента, а не з розпорошеного набору реєстрацій. Вимірюйте успішні збіги, швидкість відповіді, повторні угоди та якість учасників. З’ясуйте, яку сторону платформи потрібно підтримувати на старті. Інвестуйте в довіру, модерацію й доступність пропозицій. Перевіряйте ефект окремо для кожного локального ринку.",
+		"example": "Застосунок для спортивних зустрічей корисний, коли поруч є достатньо гравців із сумісним розкладом. Десять тисяч користувачів по всій країні можуть дати менше результату, ніж двісті активних людей в одному місті, які регулярно збирають команди.",
+		"limitations": "Мережевий ефект часто плутають із вірусним поширенням або економією на масштабі. Надмірне зростання може погіршити якість. Користувачі можуть одночасно працювати з конкурентами, а велика мережа не обов’язково є прибутковою."
+	}
+}

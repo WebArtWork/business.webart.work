@@ -1,0 +1,244 @@
+/* Light skin: Bevel */
+html:not([data-mode='dark']) {
+  --background: oklch(0.97 0.0029 264.54);
+  --foreground: oklch(0.1593 0.0111 267.98);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.1593 0.0111 267.98);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.1593 0.0111 267.98);
+  --inner: oklch(0.9745 0.0028 264.5);
+  --inner-foreground: oklch(0.1593 0.0111 267.98);
+  --primary: oklch(0.5418 0.1798 264.36);
+  --primary-from: oklch(0.59 0.175 264.6);
+  --primary-to: oklch(0.505 0.183 263.4);
+  --primary-hover-from: oklch(0.625 0.168 264.8);
+  --primary-hover-to: oklch(0.54 0.18 263.6);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(1 0 0);
+  --secondary-foreground: oklch(0.1593 0.0111 267.98);
+  --muted: oklch(0.9584 0.0033 264.5);
+  --muted-foreground: oklch(0.54 0.0234 264.36);
+  --accent: oklch(0.9505 0.0119 264.5);
+  --accent-foreground: oklch(0.4 0.14 264);
+  --destructive: oklch(0.5762 0.2149 25.5);
+  --destructive-from: oklch(0.624 0.208 25.9);
+  --destructive-to: oklch(0.539 0.216 25.2);
+  --destructive-foreground: oklch(1 0 0);
+  --success: oklch(0.5695 0.1372 158);
+  --warning: oklch(0.6802 0.1568 62);
+  --text: var(--foreground);
+  --muted-text: var(--muted-foreground);
+  --strong: oklch(0.3382 0.0208 265.5);
+  --track: oklch(0.9306 0.0058 264.53);
+  --border: var(--track);
+  --input: oklch(1 0 0);
+  --ring: oklch(0.5418 0.1798 264.36);
+  --radius: 1.25rem;
+  --radius-device: 3.375rem;
+  --font-sans: "Inter Tight Variable", ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  --font-serif: "Inter Tight Variable", ui-sans-serif, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  --tracking-display: -0.0563rem;
+  --tracking-title: -0.0438rem;
+  --tracking-heading: -0.0375rem;
+  --tracking-body: 0.0188rem;
+  --shadow-ring: 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.06);
+  --shadow-xs: 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.05), 0 0.0625rem 0.0625rem -0.0313rem oklch(0.1593 0.0111 267.98 / 0.06);
+  --shadow-sm: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9), 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.055), 0 0.0625rem 0.125rem -0.0625rem oklch(0.1593 0.0111 267.98 / 0.08);
+  --shadow-md: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9), 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.055), 0 0.0625rem 0.125rem -0.0625rem oklch(0.1593 0.0111 267.98 / 0.08), 0 0.5rem 1.25rem -0.75rem oklch(0.1593 0.0111 267.98 / 0.18);
+  --shadow-lg: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9), 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.06), 0 0.125rem 0.25rem -0.125rem oklch(0.1593 0.0111 267.98 / 0.08), 0 1rem 2rem -1rem oklch(0.1593 0.0111 267.98 / 0.22);
+  --shadow-xl: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9), 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.07), 0 0.25rem 0.5rem -0.25rem oklch(0.1593 0.0111 267.98 / 0.1), 0 1.75rem 3.5rem -1.5rem oklch(0.1593 0.0111 267.98 / 0.26);
+  --shadow-s: var(--shadow-sm);
+  --shadow-m: var(--shadow-md);
+  --shadow-l: var(--shadow-lg);
+  --shadow-card: var(--shadow-md);
+  --shadow-card-hover: var(--shadow-lg);
+  --shadow-inset: inset 0 0.0625rem 0.125rem 0 oklch(0.1593 0.0111 267.98 / 0.06), inset 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.045);
+  --shadow-button: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.85), inset 0 -0.375rem 0.625rem -0.5rem oklch(0.1593 0.0111 267.98 / 0.28), 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.07), 0 0.0625rem 0.125rem oklch(0.1593 0.0111 267.98 / 0.07), 0 0.375rem 0.875rem -0.625rem oklch(0.1593 0.0111 267.98 / 0.2);
+  --shadow-button-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9), inset 0 -0.375rem 0.625rem -0.5rem oklch(0.1593 0.0111 267.98 / 0.22), 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.08), 0 0.125rem 0.25rem oklch(0.1593 0.0111 267.98 / 0.08), 0 0.625rem 1.25rem -0.75rem oklch(0.1593 0.0111 267.98 / 0.26);
+  --shadow-primary: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.3), inset 0 -0.375rem 0.625rem -0.5rem oklch(0.28 0.13 263 / 0.55), 0 0 0 0.0625rem oklch(0.44 0.175 263.4 / 0.9), 0 0.0625rem 0.125rem oklch(0.3 0.14 263 / 0.24), 0 0.5rem 1.125rem -0.625rem oklch(0.3 0.14 263 / 0.4);
+  --shadow-primary-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.36), inset 0 -0.375rem 0.625rem -0.5rem oklch(0.28 0.13 263 / 0.45), 0 0 0 0.0625rem oklch(0.47 0.172 263.6 / 0.9), 0 0.125rem 0.25rem oklch(0.3 0.14 263 / 0.26), 0 0.75rem 1.5rem -0.75rem oklch(0.3 0.14 263 / 0.46);
+  --shadow-destructive: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.3), inset 0 -0.375rem 0.625rem -0.5rem oklch(0.34 0.16 26 / 0.5), 0 0 0 0.0625rem oklch(0.49 0.212 25.4 / 0.9), 0 0.0625rem 0.125rem oklch(0.36 0.16 26 / 0.24), 0 0.5rem 1.125rem -0.625rem oklch(0.36 0.16 26 / 0.4);
+  --shadow-destructive-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.36), inset 0 -0.375rem 0.625rem -0.5rem oklch(0.34 0.16 26 / 0.42), 0 0 0 0.0625rem oklch(0.52 0.21 25.6 / 0.9), 0 0.125rem 0.25rem oklch(0.36 0.16 26 / 0.26), 0 0.75rem 1.5rem -0.75rem oklch(0.36 0.16 26 / 0.46);
+  --chart-1: oklch(0.42 0.165 263);
+  --chart-2: oklch(0.5418 0.1798 264.36);
+  --chart-3: oklch(0.66 0.133 265);
+  --chart-4: oklch(0.8 0.076 265.5);
+  --chart-5: oklch(0.9306 0.0058 264.53);
+  --pop-blue: oklch(0.9426 0.0308 264.5);
+  --pop-blue-foreground: oklch(0.4416 0.1683 264);
+  --pop-green: oklch(0.9426 0.0455 158);
+  --pop-green-foreground: oklch(0.4319 0.1055 158);
+  --pop-orange: oklch(0.9506 0.045 62);
+  --pop-orange-foreground: oklch(0.5111 0.135 52);
+  --pop-yellow: oklch(0.9613 0.0641 95);
+  --pop-yellow-foreground: oklch(0.4913 0.1074 84);
+  --pop-purple: oklch(0.9427 0.0432 293.5);
+  --pop-purple-foreground: oklch(0.4813 0.1454 293.5);
+}
+html:not([data-mode='dark']) {
+  --font-sans: "Inter Tight Variable", ui-sans-serif, -apple-system,
+    BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  --font-serif: "Inter Tight Variable", ui-sans-serif, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "SFMono-Regular", Menlo, Consolas,
+    monospace;
+}
+html:not([data-mode='dark']) {
+  --radius-device: 3.375rem;
+  --radius-sm: calc(var(--radius) - 0.25rem);
+  --radius-md: calc(var(--radius) - 0.125rem);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 0.25rem);
+  --radius-chip: 0.5rem;
+  --radius-row: 0.75rem;
+  --radius-menu: 0.875rem;
+  --radius-card: 1.25rem;
+}
+html:not([data-mode='dark']) {
+  --shadow-ring: 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.06);
+  --shadow-xs: 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.05),
+    0 0.0625rem 0.0625rem -0.0313rem oklch(0.1593 0.0111 267.98 / 0.06);
+  --shadow-sm: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9),
+    0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.055),
+    0 0.0625rem 0.125rem -0.0625rem oklch(0.1593 0.0111 267.98 / 0.08);
+  --shadow-md: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9),
+    0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.055),
+    0 0.0625rem 0.125rem -0.0625rem oklch(0.1593 0.0111 267.98 / 0.08),
+    0 0.5rem 1.25rem -0.75rem oklch(0.1593 0.0111 267.98 / 0.18);
+  --shadow-lg: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9),
+    0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.06),
+    0 0.125rem 0.25rem -0.125rem oklch(0.1593 0.0111 267.98 / 0.08),
+    0 1rem 2rem -1rem oklch(0.1593 0.0111 267.98 / 0.22);
+  --shadow-xl: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9),
+    0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.07),
+    0 0.25rem 0.5rem -0.25rem oklch(0.1593 0.0111 267.98 / 0.1),
+    0 1.75rem 3.5rem -1.5rem oklch(0.1593 0.0111 267.98 / 0.26);
+  --shadow-s: var(--shadow-sm);
+  --shadow-m: var(--shadow-md);
+  --shadow-l: var(--shadow-lg);
+  --shadow-card: var(--shadow-md);
+  --shadow-card-hover: var(--shadow-lg);
+  --shadow-inset: inset 0 0.0625rem 0.125rem 0 oklch(0.1593 0.0111 267.98 / 0.06),
+    inset 0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.045);
+  --shadow-button: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.85),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.1593 0.0111 267.98 / 0.28),
+    0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.07),
+    0 0.0625rem 0.125rem oklch(0.1593 0.0111 267.98 / 0.07),
+    0 0.375rem 0.875rem -0.625rem oklch(0.1593 0.0111 267.98 / 0.2);
+  --shadow-button-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.9),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.1593 0.0111 267.98 / 0.22),
+    0 0 0 0.0625rem oklch(0.1593 0.0111 267.98 / 0.08),
+    0 0.125rem 0.25rem oklch(0.1593 0.0111 267.98 / 0.08),
+    0 0.625rem 1.25rem -0.75rem oklch(0.1593 0.0111 267.98 / 0.26);
+  --shadow-primary: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.3),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.28 0.13 263 / 0.55),
+    0 0 0 0.0625rem oklch(0.44 0.175 263.4 / 0.9),
+    0 0.0625rem 0.125rem oklch(0.3 0.14 263 / 0.24),
+    0 0.5rem 1.125rem -0.625rem oklch(0.3 0.14 263 / 0.4);
+  --shadow-primary-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.36),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.28 0.13 263 / 0.45),
+    0 0 0 0.0625rem oklch(0.47 0.172 263.6 / 0.9),
+    0 0.125rem 0.25rem oklch(0.3 0.14 263 / 0.26),
+    0 0.75rem 1.5rem -0.75rem oklch(0.3 0.14 263 / 0.46);
+  --shadow-destructive: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.3),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.34 0.16 26 / 0.5),
+    0 0 0 0.0625rem oklch(0.49 0.212 25.4 / 0.9),
+    0 0.0625rem 0.125rem oklch(0.36 0.16 26 / 0.24),
+    0 0.5rem 1.125rem -0.625rem oklch(0.36 0.16 26 / 0.4);
+  --shadow-destructive-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.36),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.34 0.16 26 / 0.42),
+    0 0 0 0.0625rem oklch(0.52 0.21 25.6 / 0.9),
+    0 0.125rem 0.25rem oklch(0.36 0.16 26 / 0.26),
+    0 0.75rem 1.5rem -0.75rem oklch(0.36 0.16 26 / 0.46);
+  --shadow-ring: 0 0 0 0.0625rem oklch(1 0 0 / 0.07);
+  --shadow-xs: 0 0 0 0.0625rem oklch(1 0 0 / 0.06),
+    0 0.0625rem 0.0625rem -0.0313rem oklch(0 0 0 / 0.4);
+  --shadow-sm: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.06),
+    0 0 0 0.0625rem oklch(1 0 0 / 0.07),
+    0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.5);
+  --shadow-md: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.06),
+    0 0 0 0.0625rem oklch(1 0 0 / 0.07),
+    0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.5),
+    0 0.5rem 1.25rem -0.75rem oklch(0 0 0 / 0.7);
+  --shadow-lg: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.07),
+    0 0 0 0.0625rem oklch(1 0 0 / 0.08),
+    0 0.125rem 0.25rem -0.125rem oklch(0 0 0 / 0.5),
+    0 1rem 2rem -1rem oklch(0 0 0 / 0.75);
+  --shadow-xl: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.08),
+    0 0 0 0.0625rem oklch(1 0 0 / 0.09),
+    0 0.25rem 0.5rem -0.25rem oklch(0 0 0 / 0.55),
+    0 1.75rem 3.5rem -1.5rem oklch(0 0 0 / 0.8);
+  --shadow-inset: inset 0 0.0625rem 0.125rem 0 oklch(0 0 0 / 0.45),
+    inset 0 0 0 0.0625rem oklch(1 0 0 / 0.05);
+  --shadow-button: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.08),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0 0 0 / 0.5),
+    0 0 0 0.0625rem oklch(1 0 0 / 0.08),
+    0 0.0625rem 0.125rem oklch(0 0 0 / 0.4),
+    0 0.375rem 0.875rem -0.625rem oklch(0 0 0 / 0.6);
+  --shadow-button-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.1),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0 0 0 / 0.42),
+    0 0 0 0.0625rem oklch(1 0 0 / 0.1),
+    0 0.125rem 0.25rem oklch(0 0 0 / 0.42),
+    0 0.625rem 1.25rem -0.75rem oklch(0 0 0 / 0.66);
+  --shadow-primary: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.24),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.3 0.13 263 / 0.5),
+    0 0 0 0.0625rem oklch(0.52 0.17 264 / 0.9),
+    0 0.0625rem 0.125rem oklch(0 0 0 / 0.4),
+    0 0.5rem 1.125rem -0.625rem oklch(0.35 0.15 263 / 0.55);
+  --shadow-primary-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.3),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.3 0.13 263 / 0.4),
+    0 0 0 0.0625rem oklch(0.56 0.168 264.4 / 0.9),
+    0 0.125rem 0.25rem oklch(0 0 0 / 0.42),
+    0 0.75rem 1.5rem -0.75rem oklch(0.35 0.15 263 / 0.62);
+  --shadow-destructive: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.24),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.34 0.15 26 / 0.5),
+    0 0 0 0.0625rem oklch(0.56 0.2 25.6 / 0.9),
+    0 0.0625rem 0.125rem oklch(0 0 0 / 0.4),
+    0 0.5rem 1.125rem -0.625rem oklch(0.4 0.17 26 / 0.55);
+  --shadow-destructive-hover: inset 0 0.0625rem 0 0 oklch(1 0 0 / 0.3),
+    inset 0 -0.375rem 0.625rem -0.5rem oklch(0.34 0.15 26 / 0.4),
+    0 0 0 0.0625rem oklch(0.6 0.196 25.8 / 0.9),
+    0 0.125rem 0.25rem oklch(0 0 0 / 0.42),
+    0 0.75rem 1.5rem -0.75rem oklch(0.4 0.17 26 / 0.62);
+  --shadow-s: var(--shadow-sm);
+  --shadow-m: var(--shadow-md);
+  --shadow-l: var(--shadow-lg);
+  --shadow-card: var(--shadow-md);
+  --shadow-card-hover: var(--shadow-lg);
+  --shadow-s: var(--shadow-s);
+  --shadow-m: var(--shadow-m);
+  --shadow-l: var(--shadow-l);
+  --shadow-ring: var(--shadow-ring);
+  --shadow-card: var(--shadow-card);
+  --shadow-card-hover: var(--shadow-card-hover);
+  --shadow-inset: var(--shadow-inset);
+  --shadow-button: var(--shadow-button);
+  --shadow-button-hover: var(--shadow-button-hover);
+  --shadow-primary: var(--shadow-primary);
+  --shadow-primary-hover: var(--shadow-primary-hover);
+  --shadow-destructive: var(--shadow-destructive);
+  --shadow-destructive-hover: var(--shadow-destructive-hover);
+}
+
+html:not([data-mode='dark']) .bd-btn, html:not([data-mode='dark']) .bd-view, html:not([data-mode='dark']) .ds-btn { border-radius: 9999px; }
+html:not([data-mode='dark']) .bd-btn-primary, html:not([data-mode='dark']) .bd-view, html:not([data-mode='dark']) .ds-btn-primary { box-shadow: var(--shadow-primary); }
+html:not([data-mode='dark']) .bd-btn-primary, html:not([data-mode='dark']) .bd-view, html:not([data-mode='dark']) .ds-btn-primary { background-image: linear-gradient(180deg,var(--primary-from) 0%,var(--primary-to) 100%); }
+html:not([data-mode='dark']) .ds-card { box-shadow: var(--shadow-card); }
+html:not([data-mode='dark']) .ds-switch-track.on { background-image: linear-gradient(180deg,var(--primary-from) 0%,var(--primary-to) 100%); }
+html:not([data-mode='dark']) .ds-switch-track.on { box-shadow: var(--shadow-primary); }
+html:not([data-mode='dark']) *, html:not([data-mode='dark']) ::before, html:not([data-mode='dark']) ::after, html:not([data-mode='dark']) ::backdrop {--tw-ring-color:currentcolor;--tw-ring-shadow:0 0 0 transparent;--tw-ring-offset-shadow:0 0 0 transparent;--tw-ring-offset-width:0px;--tw-ring-offset-color:oklch(1 0 0);--tw-ring-inset:;--tw-shadow:0 0 0 transparent;--tw-inset-shadow:0 0 0 transparent;--tw-inset-ring-shadow:0 0 0 transparent;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:;--tw-rotate-y:;--tw-rotate-z:;--tw-skew-x:;--tw-skew-y:;--tw-gradient-from:transparent;--tw-gradient-to:transparent;--tw-gradient-stops:;--tw-blur:;--tw-brightness:;--tw-contrast:;--tw-saturate:;--tw-content:''}
+html:not([data-mode='dark']) .ds-badge { display:inline-flex; align-items:center; gap:0.25rem; border-radius:0.625rem; padding-left:0.625rem;padding-right:0.625rem; padding-top:0.25rem;padding-bottom:0.25rem; font-size:0.7813rem; line-height:1rem; font-weight:600; letter-spacing:0.0188rem; transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms; animation-duration:0.15s;--tw-animation-duration:0.15s; background-color:var(--inner); color:var(--strong); box-shadow:var(--shadow-ring) }
+html:not([data-mode='dark']) .ds-btn { position:relative; display:inline-flex; align-items:center; justify-content:center; gap:0.5rem; white-space:nowrap; font-size:0.9063rem; font-weight:600; letter-spacing:-0.0125rem; border-radius:0.75rem; transition-property:box-shadow,transform,background-color;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms; animation-duration:0.15s;--tw-animation-duration:0.15s; transition-timing-function:cubic-bezier(0,0,0.2,1) }
+html:not([data-mode='dark']) .ds-btn:focus-visible { outline:2px solid transparent;outline-offset:2px; --tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow); --tw-ring-color:var(--ring); --tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color); --tw-ring-offset-color:var(--background) }
+html:not([data-mode='dark']) .ds-btn:disabled { pointer-events:none; opacity:0.5 }
+html:not([data-mode='dark']) .ds-btn:active { --tw-translate-y:1px;translate:var(--tw-translate-x) var(--tw-translate-y) }
+html:not([data-mode='dark']) .ds .ds-btn-primary { color:var(--primary-foreground); background-image:linear-gradient(180deg,var(--primary-from) 0%,var(--primary-to) 100%); box-shadow:var(--shadow-primary) }
+html:not([data-mode='dark']) .ds .ds-btn-primary:hover { background-image:linear-gradient(180deg,var(--primary-hover-from) 0%,var(--primary-hover-to) 100%); box-shadow:var(--shadow-primary-hover) }
+html:not([data-mode='dark']) .ds .ds-btn-secondary { color:var(--foreground); background-color:var(--card); box-shadow:var(--shadow-button) }
+html:not([data-mode='dark']) .ds .ds-btn-secondary:hover { box-shadow:var(--shadow-button-hover) }
+html:not([data-mode='dark']) .ds .ds-btn-outline { color:var(--foreground); background-color:transparent; box-shadow:var(--shadow-ring) }
+html:not([data-mode='dark']) .ds .ds-btn-outline:hover { background-color:var(--muted) }
+html:not([data-mode='dark']) .ds .ds-btn-ghost { background-color:transparent; color:var(--foreground) }
+html:not([data-mode='dark']) .ds .ds-btn-ghost:hover { background-color:var(--muted) }
+html:not([data-mode='dark']) .ds-input::file-selector-button, html:not([data-mode='dark']) .ds-textarea::file-selector-button, html:not([data-mode='dark']) .ds-select::file-selector-button { border-width:0; background-color:transparent; font-size:0.875rem;line-height:1.25rem; font-weight:500; color:var(--foreground) }
+html:not([data-mode='dark']) .ds-card { border-radius:1.25rem; background-color:var(--card); color:var(--card-foreground) }

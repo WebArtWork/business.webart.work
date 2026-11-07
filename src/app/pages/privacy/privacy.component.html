@@ -1,0 +1,172 @@
+<article class="mx-auto flex w-full max-w-3xl flex-col gap-10 px-4 py-16 sm:px-6">
+	<header>
+		<h1 class="text-4xl font-semibold">{{ 'Privacy Policy' | t }}</h1>
+		<p class="mt-2 text-sm text-mute">{{ 'Last updated {date}' | t: { date: (updated | t) } }}</p>
+	</header>
+
+	<p class="leading-8 text-fg/80">
+		{{
+			'Business (business.webart.work and its Android and iOS apps, package work.webart.business) is a business learning platform. We collect as little as we can: every lesson and exercise works without an account, we show no ads, we do not sell your data and we do not share it for advertising.'
+				| t
+		}}
+	</p>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'Who is responsible' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{ 'Business is operated by WebArt Work. For any question about this policy or your data, write to' | t }}
+			<a [href]="'mailto:' + email">{{ email }}</a>.
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'What we collect' | t }}</h2>
+		<h3 class="text-lg font-semibold">{{ 'Without signing in' | t }}</h3>
+		<p class="leading-8 text-fg/80">
+			{{
+				'Business signs you in as an anonymous guest so your results can be saved. This creates a random guest identifier. Your answers are checked in your browser or app, and only your best result for each lesson is stored under that identifier. No name, email or other personal details are collected.'
+					| t
+			}}
+		</p>
+		<h3 class="text-lg font-semibold">{{ 'If you sign in with Google' | t }}</h3>
+		<p class="leading-8 text-fg/80">{{ 'Signing in is optional. If you do, we store:' | t }}</p>
+		<ul class="flex list-disc flex-col gap-2 pl-5 leading-8 text-fg/80">
+			<li>{{ 'the name, email address and profile photo link of your Google account;' | t }}</li>
+			<li>{{ 'your best result for each lesson;' | t }}</li>
+		</ul>
+		<h3 class="text-lg font-semibold">{{ 'On your device' | t }}</h3>
+		<p class="leading-8 text-fg/80">
+			{{
+				'Your chosen language and theme are kept in your browser or app storage on your device. Clearing the site data or the app data removes them.'
+					| t
+			}}
+		</p>
+		<h3 class="text-lg font-semibold">{{ 'Technical data' | t }}</h3>
+		<p class="leading-8 text-fg/80">
+			{{
+				'Like any website, the hosting provider and Google services may process technical request data such as your IP address, device and browser type to deliver the service and keep it secure.'
+					| t
+			}}
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'How we use it' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{
+				'Only to run Business: to sign you in, show your profile and keep your progress between visits and devices. We do not use it for advertising, profiling or analytics. Our database rules let each account read and write only its own data.'
+					| t
+			}}
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'Who we share it with' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{ 'We share data only with the services that run the app on our behalf, and only as needed for that:' | t }}
+		</p>
+		<ul class="flex list-disc flex-col gap-2 pl-5 leading-8 text-fg/80">
+			<li>
+				<strong>Google Firebase</strong>
+				{{ '(Authentication and Cloud Firestore) handles sign-in and stores the account data above.' | t }}
+				<a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">{{
+					'Firebase privacy' | t
+				}}</a>
+			</li>
+			<li>
+				<strong>Google Sign-In</strong>
+				{{ 'processes your Google account when you choose to sign in with it.' | t }}
+				<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">{{
+					'Google Privacy Policy' | t
+				}}</a>
+			</li>
+			<li>
+				<strong>GitHub Pages</strong>
+				{{ 'hosts the website and, like any web server, logs technical data such as your IP address.' | t }}
+				<a
+					href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+					target="_blank"
+					rel="noopener"
+					>{{ 'GitHub privacy statement' | t }}</a
+				>
+			</li>
+		</ul>
+		<p class="leading-8 text-fg/80">
+			{{
+				'Data is transmitted over encrypted connections (HTTPS). We may disclose data only if the law requires it.'
+					| t
+			}}
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'How long we keep it' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{
+				'We keep account data until you delete your account. Guest data is kept until you delete it or stops being used.'
+					| t
+			}}
+		</p>
+	</section>
+
+	<section id="delete-account" class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'Delete your account and data' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			<a routerLink="/profile">{{ 'Open your profile' | t }}</a>
+			{{ 'on the website or in the app and choose' | t }}
+			<strong>{{ 'Delete account' | t }}</strong>.
+			{{
+				'You may be asked to sign in once more, then your account and everything stored for it are deleted right away.'
+					| t
+			}}
+		</p>
+		<p class="leading-8 text-fg/80">
+			{{ 'If you can no longer sign in, email' | t }} <a [href]="'mailto:' + email">{{ email }}</a>
+			{{ 'from the address of your account and we will delete the data for you.' | t }}
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'Your rights' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{
+				'You can ask to see, correct, export or delete the data we hold about you, and to object to or restrict its processing. Email'
+					| t
+			}}
+			<a [href]="'mailto:' + email">{{ email }}</a>
+			{{
+				'and we will reply within 30 days. You may also complain to your local data protection authority.'
+					| t
+			}}
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'Children' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{
+				'Business is not directed at children under 13 and we do not knowingly collect their personal data. Signing in with Google follows Google’s own age rules. If you believe a child has given us personal data, write to'
+					| t
+			}}
+			<a [href]="'mailto:' + email">{{ email }}</a>
+			{{ 'and we will delete it.' | t }}
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'Changes to this policy' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{
+				'If we change what we collect or how we use it, we update this page and the date at the top before the change takes effect.'
+					| t
+			}}
+		</p>
+	</section>
+
+	<section class="flex flex-col gap-3">
+		<h2 class="text-2xl font-semibold">{{ 'Contact' | t }}</h2>
+		<p class="leading-8 text-fg/80">
+			{{ 'Support and privacy questions:' | t }} <a [href]="'mailto:' + email">{{ email }}</a>
+		</p>
+	</section>
+</article>

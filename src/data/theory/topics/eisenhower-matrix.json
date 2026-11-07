@@ -1,0 +1,27 @@
+{
+	"slug": "eisenhower-matrix",
+	"related": [
+		"okrs",
+		"balanced-scorecard",
+		"pdca-cycle"
+	],
+	"en": {
+		"short": "Eisenhower Matrix offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+		"origin": "Dwight D. Eisenhower is associated with the distinction between urgent and important work; Stephen Covey popularized the four-quadrant time-management matrix in his 1989 book. Eisenhower did not publish this exact modern template. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
+		"core": "Prioritize work by separating importance, meaning contribution to long-term goals, from urgency, meaning time pressure. A deadline can make a task urgent without making it valuable. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
+		"components": "Four quadrants: important and urgent—do; important but not urgent—schedule; urgent but not important—delegate where possible; neither—eliminate or limit. Review decisions as circumstances change. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
+		"apply": "List actual commitments, assign each a measurable business outcome and a real deadline, classify them, and protect calendar time for important nonurgent work. Recheck classifications weekly with the team. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
+		"example": "A software founder handles a production outage immediately, schedules customer interviews, delegates routine meeting coordination, and drops unnecessary dashboard polishing. The matrix makes trade-offs visible rather than automatic. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
+		"limitations": "Importance is subjective; some urgent requests cannot be delegated. Overusing the matrix may ignore dependencies, emotional load, or the value of exploration. It is a prioritization aid, not a complete project plan. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+	},
+	"ua": {
+		"short": "«Матриця Ейзенхауера» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
+		"origin": "Двайту Ейзенхауеру приписують розрізнення термінових і важливих справ; Стівен Кові популяризував матрицю з чотирьох секторів у книжці 1989 року. Сам Ейзенхауер не публікував сучасний шаблон. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
+		"core": "Розставляйте пріоритети, відокремлюючи важливість для довгострокових цілей від терміновості, тобто часового тиску. Близький дедлайн не робить справу стратегічно цінною. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
+		"components": "Чотири сектори: важливе й термінове — виконати; важливе й нетермінове — запланувати; термінове й неважливе — за можливості делегувати; неважливе й нетермінове — прибрати або обмежити. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
+		"apply": "Запишіть усі зобов’язання, визначте результат і реальний строк кожного, розподіліть за секторами й виділіть у календарі час на важливу нетермінову роботу. Переглядайте пріоритети щотижня. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
+		"example": "Засновник ІТ-компанії негайно усуває збій сервісу, планує інтерв’ю з клієнтами, делегує організацію зустрічей і відмовляється від зайвого полірування панелі показників. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
+		"limitations": "Важливість суб’єктивна, а частину термінових завдань не можна делегувати. Матриця не враховує всі залежності, навантаження та користь експериментів; це допоміжний інструмент, а не повний план. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
+		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+	}
+}

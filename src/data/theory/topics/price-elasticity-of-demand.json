@@ -1,0 +1,28 @@
+{
+	"slug": "price-elasticity-of-demand",
+	"related": [
+		"marginal-cost-and-marginal-revenue",
+		"pricing-strategy-theories",
+		"supply-and-demand"
+	],
+	"en": {
+		"short": "Price elasticity of demand measures how strongly quantity demanded changes when price changes. It helps businesses anticipate whether a price increase is likely to reduce sales volume enough to hurt revenue.",
+		"origin": "The concept grew from nineteenth-century economic analysis; Alfred Marshall formalized and popularized elasticity in *Principles of Economics* (1890). Earlier economists also studied demand responses.",
+		"core": "Elasticity compares percentage changes, making sensitivity comparable across products and price levels. Demand usually falls when price rises, but the size of the response varies.",
+		"components": "Price elasticity is percentage change in quantity demanded divided by percentage change in price, holding other relevant factors constant. Absolute elasticity above one is called elastic; below one, inelastic; equal to one, unit elastic. Substitutes, necessity, budget share and time horizon affect sensitivity. The midpoint method is useful for discrete changes.",
+		"apply": "Collect price, units sold, promotions and competitor information over time. Avoid confusing seasonal demand changes with price effects. Where feasible, run randomized price tests or use credible natural experiments. Estimate elasticity by segment and price range, not only as one permanent number. Model expected revenue and contribution margin at candidate prices. Check fairness, customer trust and legal requirements before deployment.",
+		"example": "If a 10% price rise coincides with a 15% fall in units, a rough elasticity is −1.5. That suggests elastic demand, but the observation alone does not establish causation because other factors may have changed.",
+		"limitations": "Elasticity is not fixed across prices, customers or time. Correlation can mislead when promotions, supply or competitors change. Revenue optimization differs from profit optimization.",
+		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+	},
+	"ua": {
+		"short": "Цінова еластичність попиту показує, наскільки змінюється кількість покупок у відповідь на зміну ціни. Вона допомагає оцінити, чи підвищення ціни збільшить виручку, чи втрати обсягу продажів переважать.",
+		"origin": "Поняття розвивалося в економіці XIX століття. Альфред Маршалл систематизував і популяризував еластичність у праці *Principles of Economics* (1890), хоча попередники теж вивчали реакцію попиту.",
+		"core": "Показник порівнює відсоткову зміну попиту з відсотковою зміною ціни. Тому можна оцінювати чутливість різних товарів незалежно від їхньої номінальної вартості.",
+		"components": "Цінова еластичність попиту (price elasticity of demand) дорівнює відсотковій зміні кількості покупок, поділеній на відсоткову зміну ціни за інших незмінних умов. За абсолютного значення понад одиницю попит еластичний, менше одиниці — нееластичний. На реакцію впливають замінники, необхідність товару, частка витрат у бюджеті та час на адаптацію.",
+		"apply": "Зберіть дані про ціни, обсяг продажів, акції та конкурентів. Відокремте сезонність від впливу ціни. За можливості проведіть контрольований експеримент. Оцініть еластичність окремо для сегментів і цінових діапазонів. Порівняйте прогнозовану виручку та маржинальний прибуток за різних цін. Перед змінами врахуйте довіру покупців і правові вимоги.",
+		"example": "Якщо ціна зросла на 10%, а кількість продажів упала на 15%, приблизна еластичність становить −1,5. Це свідчить про чутливий попит, але саме спостереження не доводить, що причиною була лише ціна.",
+		"limitations": "Еластичність змінюється залежно від клієнта, періоду та рівня ціни. Акції, дефіцит і дії конкурентів спотворюють оцінку. Найбільша виручка не обов’язково означає найбільший прибуток.",
+		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+	}
+}

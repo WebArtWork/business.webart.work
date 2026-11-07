@@ -1,0 +1,27 @@
+{
+	"slug": "stakeholder-theory",
+	"related": [
+		"balanced-scorecard",
+		"kotters-8-step-change-model",
+		"organizational-culture-model"
+	],
+	"en": {
+		"short": "Stakeholder Theory offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+		"origin": "R. Edward Freeman popularized the modern strategic formulation in his 1984 book Strategic Management: A Stakeholder Approach. Earlier work also used the stakeholder concept. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
+		"core": "A business affects and depends on groups beyond its shareholders. Sustainable decisions consider customers, employees, suppliers, communities, investors, and other affected parties. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
+		"components": "Identify stakeholders, their legitimate interests, influence, exposure to harm, and possible conflicts. Distinguish mapping and engagement from the ethical question of whose interests deserve consideration. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
+		"apply": "Map affected groups before major decisions, speak with representatives, document trade-offs, and define measures such as safety, retention, reliability, and community impact. Explain decisions transparently. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
+		"example": "A logistics company planning a new warehouse consults employees, neighbors, customers, and local officials. It changes delivery hours to reduce noise while preserving service commitments. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
+		"limitations": "Stakeholder interests often conflict, and the theory does not prescribe one universal ranking. Consultation can become symbolic unless groups influence outcomes. Accountability and clear decision rules remain essential. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+	},
+	"ua": {
+		"short": "«Теорія зацікавлених сторін» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
+		"origin": "Р. Едвард Фрімен популяризував сучасний стратегічний підхід у книжці «Strategic Management: A Stakeholder Approach» 1984 року. Сам термін використовували й раніше. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
+		"core": "Бізнес впливає не лише на акціонерів і залежить не лише від них. Стійкі рішення враховують клієнтів, працівників, постачальників, громади, інвесторів та інші групи. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
+		"components": "Визначте зацікавлені сторони, їхні законні інтереси, вплив, ризики шкоди та конфлікти. Розрізняйте аналіз впливу й етичне питання, чиї інтереси слід враховувати. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
+		"apply": "Перед важливим рішенням складіть карту сторін, поспілкуйтеся з представниками, зафіксуйте компроміси та показники безпеки, утримання персоналу, надійності й впливу на громаду. Пояснюйте рішення відкрито. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
+		"example": "Логістична компанія перед будівництвом складу консультується з працівниками, мешканцями, клієнтами й владою. Вона змінює графік доставок, щоб зменшити шум без втрати якості послуг. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
+		"limitations": "Інтереси сторін часто суперечать одне одному, а теорія не дає універсального рейтингу пріоритетів. Консультації можуть бути формальністю без реального впливу; потрібні прозорі правила й відповідальність. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
+		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+	}
+}

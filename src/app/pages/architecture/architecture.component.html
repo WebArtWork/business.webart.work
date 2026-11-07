@@ -1,0 +1,132 @@
+@if (mode === 'home' && member()) {
+	<app-dashboard />
+}
+
+@if (mode === 'home' && !member()) {
+	<section class="grid items-center gap-10 py-12 md:grid-cols-2 md:py-24">
+		<div>
+			<p class="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-brand">
+				{{ 'Think like a founder' | t }}
+			</p>
+			<h1 class="text-4xl font-semibold leading-[1.1] tracking-tight sm:text-6xl">
+				{{ 'Build companies.' | t }}<br />{{ 'Understand' | t }}<br /><span class="text-brand">{{
+					'the theory behind them.' | t
+				}}</span>
+			</h1>
+			<p class="mt-6 max-w-lg text-lg leading-relaxed text-fg/80">
+				{{
+					'Learn the theories behind strategy, startups, marketing, finance and leadership. Short and detailed lessons, real business cases and focused practice.'
+						| t
+				}}
+			</p>
+			<div class="mt-8 flex flex-wrap gap-3">
+				<a
+					class="rounded-lg bg-brand px-5 py-3 font-semibold text-brand-fg"
+					routerLink="/theories"
+					>{{ 'Start learning →' | t }}</a
+				>
+				<a
+					class="rounded-lg border border-line px-5 py-3 font-medium"
+					routerLink="/practices"
+					>{{ 'Practice the topics' | t }}</a
+				>
+			</div>
+			<p class="mt-5 text-sm text-mute">
+				{{
+					'{count} lessons · Short and detailed versions · English and Ukrainian · No account required'
+						| t: { count: topicCount }
+				}}
+			</p>
+		</div>
+		<img
+			class="w-full rounded-2xl border border-line"
+			ngSrc="/architecture.jpg"
+			width="1200"
+			height="630"
+			priority
+			[alt]="'Business theory and practice' | t"
+		/>
+	</section>
+	<section class="border-t border-line py-10" aria-labelledby="approach">
+		<h2 id="approach" class="text-2xl font-semibold">
+			{{ 'Make the next decision with confidence.' | t }}
+		</h2>
+		<div class="mt-6 grid gap-6 md:grid-cols-3">
+			@for (
+				item of [
+					{
+						title: 'Understand the principle',
+						text: 'Learn the reasoning behind each framework and when it applies.',
+					},
+					{
+						title: 'Test your reasoning',
+						text: 'Answer questions and written tasks for every lesson, then compare with a sample answer.',
+					},
+					{
+						title: 'Apply it to your project',
+						text: 'Use the exercise in each lesson on the business you run or plan.',
+					},
+				];
+				track item.title
+			) {
+				<div class="rounded-xl border border-line bg-card p-6">
+					<h3 class="font-semibold">{{ item.title | t }}</h3>
+					<p class="mt-3 leading-relaxed text-fg/80">{{ item.text | t }}</p>
+				</div>
+			}
+		</div>
+	</section>
+}
+
+@if (mode === 'home' && !member()) {
+	<section class="py-10" aria-labelledby="catalog-title">
+		<p class="text-xs font-semibold uppercase tracking-[0.2em] text-brand">
+			{{ 'Your learning path' | t }}
+		</p>
+		<h2 id="catalog-title" class="mt-3 text-3xl font-semibold">
+			{{ 'From strategy to leadership and decision making.' | t }}
+		</h2>
+		<p class="mt-4 max-w-2xl leading-relaxed text-fg/80">
+			{{
+				'{count} lessons in {modules} modules. Every lesson has a short and a detailed version, a real example and a practice set.'
+					| t: { count: topicCount, modules: modules.length }
+			}}
+		</p>
+		<ol class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+			@for (module of modules; track module.slug; let index = $index) {
+				<li class="relative flex flex-col rounded-xl border border-line bg-card p-6 hover:border-brand">
+					<p class="text-xs uppercase tracking-widest text-brand">
+						{{ 'Module {number}' | t: { number: index + 1 } }}
+					</p>
+					<h3 class="mt-4 text-xl font-semibold">
+						<a
+							class="hover:text-brand after:absolute after:inset-0 after:rounded-xl"
+							routerLink="/theories"
+							[fragment]="module.slug"
+							>{{ pick(module.title) }}</a
+						>
+					</h3>
+					<p class="mt-3 flex-1 text-sm leading-relaxed text-fg/80">{{ pick(module.summary) }}</p>
+				</li>
+			}
+		</ol>
+	</section>
+}
+
+@if (info; as page) {
+	<article class="mx-auto max-w-3xl py-16">
+		<h1 class="text-4xl font-semibold">{{ page.title | t }}</h1>
+		@for (paragraph of page.paragraphs; track paragraph) {
+			<p class="mt-6 leading-8 text-fg/80">{{ paragraph | t }}</p>
+		}
+		<a class="mt-8 inline-block text-brand" routerLink="/theories"
+			>{{ 'Explore the learning path →' | t }}</a
+		>
+		@if (mode === 'licenses') {
+			<a class="mt-5 block text-brand" href="/3rdpartylicenses.txt"
+				>{{ 'Third-party license notices →' | t }}</a
+			>
+			<a class="mt-3 block text-brand" href="/LICENSE.txt">{{ 'Project license →' | t }}</a>
+		}
+	</article>
+}

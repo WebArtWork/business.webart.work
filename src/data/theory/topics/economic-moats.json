@@ -1,0 +1,26 @@
+{
+	"slug": "economic-moats",
+	"related": [
+		"resource-based-view",
+		"switching-costs-and-lock-in",
+		"vrio-framework"
+	],
+	"en": {
+		"short": "An economic moat is a durable advantage that protects a company's profits from competition. The concept encourages managers and investors to ask why customers or competitors cannot easily erase a firm's strong position.",
+		"origin": "Warren Buffett popularized the metaphor of an economic moat around a business, especially in his shareholder communications and investment commentary. It is a metaphor for durable competitive advantage rather than a formally dated mathematical theory.",
+		"core": "Attractive profits invite competitors. A company has a moat when something structural makes imitation, customer capture, or price competition unusually difficult over time. A popular product or a high current margin is not enough; the advantage must be defensible and economically meaningful.",
+		"components": "**Cost advantages** allow lower production or delivery costs. **Switching costs** make it inconvenient or risky for customers to leave. **Network effects** increase value as participation grows. **Intangible assets** may include trusted brands, patents, licenses, and specialized know-how. **Efficient scale** can protect a business when a market supports only a limited number of viable providers. These categories overlap and are not an exhaustive or universally standardized taxonomy.",
+		"apply": "Identify the company's most profitable customer relationships and why they persist. Compare pricing power, retention, unit costs, and returns on invested capital with competitors. Test whether the advantage survives a well-funded entrant, technological change, or a new distribution channel. Invest in reinforcing genuine strengths rather than merely raising customer exit barriers. Monitor signs of erosion, such as falling retention or rising acquisition costs.",
+		"example": "A specialized accounting platform becomes deeply integrated into a company's workflows and staff training. Reliable data migration may be difficult, giving the platform switching-cost protection; however, poor service can still drive customers to replace it.",
+		"limitations": "Moats can disappear when regulation, technology, or customer behavior changes. A strong brand may not support premium pricing forever, and aggressive lock-in can harm trust and invite regulatory scrutiny."
+	},
+	"ua": {
+		"short": "Економічний захисний бар'єр — це стійка перевага, яка допомагає компанії зберігати прибутковість попри конкуренцію. Він пояснює, чому іншим складно повторити її результат або переманити клієнтів.",
+		"origin": "Метафору економічного захисного бар'єра (economic moat) популяризував інвестор Воррен Баффет у зверненнях до акціонерів та коментарях про інвестиції. Це образне пояснення стійкої конкурентної переваги, а не формальна теорія з однією точною датою створення.",
+		"core": "Високий прибуток приваблює конкурентів. Щоб утримувати його тривалий час, компанії потрібна перевага, яку складно скопіювати або обійти. Тимчасова популярність продукту чи висока маржа за один квартал ще не означає, що бізнес має надійний захист.",
+		"components": "**Перевага у витратах (cost advantage)** дозволяє виробляти або обслуговувати дешевше. **Витрати на перемикання (switching costs)** ускладнюють перехід клієнта до іншого постачальника. **Мережевий ефект (network effect)** підвищує цінність продукту зі збільшенням кількості учасників. **Нематеріальні активи (intangible assets)** включають репутацію бренду, патенти, ліцензії та спеціальні знання. **Ефективний масштаб (efficient scale)** виникає, коли ринок економічно здатний підтримувати лише обмежену кількість постачальників. Це корисні категорії, але не єдина можлива класифікація.",
+		"apply": "З'ясуйте, чому найцінніші клієнти залишаються з компанією. Порівняйте утримання клієнтів, ціни, собівартість і прибутковість вкладеного капіталу з конкурентами. Уявіть появу сильного нового гравця або зміну технології. Визначте, що збережеться за таких умов, і спрямовуйте інвестиції на посилення саме цих чинників.",
+		"example": "Бухгалтерська платформа інтегрована з процесами підприємства, а працівники навчені нею користуватися. Перехід до іншої системи потребує часу й перевірки даних, тому клієнти частіше залишаються.",
+		"limitations": "Захист може зникнути через нові технології, регулювання або зміну потреб. Тому стійкість переваги слід регулярно перевіряти на реальних показниках. Штучне ускладнення відмови від сервісу може зруйнувати довіру клієнтів."
+	}
+}

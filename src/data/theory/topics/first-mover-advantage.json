@@ -1,0 +1,26 @@
+{
+	"slug": "first-mover-advantage",
+	"related": [
+		"disruptive-innovation-theory",
+		"switching-costs-and-lock-in",
+		"network-effects"
+	],
+	"en": {
+		"short": "First-mover advantage describes benefits a company may gain by entering a market before competitors. Early entry can secure customers, resources, or standards, but it can also expose a pioneer to high costs and mistakes that followers avoid.",
+		"origin": "The idea predates its formal academic treatment. Marvin Lieberman and David Montgomery's 1988 article on first-mover advantages helped organize the mechanisms and disadvantages; there is no single universally accepted inventor.",
+		"core": "Being first is not automatically valuable. An early entrant may build a lasting position if it captures scarce resources, creates customer switching costs, or learns faster than rivals. But a follower may copy what works without paying the full cost of experimentation and market education.",
+		"components": "**Technological leadership** can produce learning advantages, patents, or proprietary know-how. **Preemption of assets** can secure locations, distribution partners, talent, or other scarce inputs. **Buyer switching costs** can make established relationships hard to replace. Countervailing **first-mover disadvantages** include uncertain demand, immature technology, expensive customer education, and the risk that later firms improve the original design.",
+		"apply": "Identify what being early would let the business secure that a follower could not easily obtain. Estimate the cost of educating customers and building infrastructure. Test whether patents, partnerships, data, brand, or network effects can defend the initial lead. Compare an early launch with a smaller pilot or a deliberate fast-follower strategy. Track whether the lead survives once rivals enter.",
+		"example": "A startup introduces digital booking to a local service category. It signs exclusive partnerships with important venues and develops a trusted brand. Its early position helps only if customers and venues continue to prefer it when competing booking apps appear.",
+		"limitations": "Successful pioneers are more visible than failed ones, creating survivorship bias. Being first in a narrow niche does not mean being first in the eventual mass market, and timing alone rarely protects a weak product."
+	},
+	"ua": {
+		"short": "Перевага першопрохідця виникає, коли компанія раніше за конкурентів виходить на ринок і встигає закріпити цінні позиції. Але ранній старт також означає витрати на експерименти, навчання клієнтів і ризик помилитися з продуктом.",
+		"origin": "Ідея переваги першопрохідця (first-mover advantage) існувала в бізнес-практиці задовго до систематичних досліджень. Стаття Марвіна Лібермана та Девіда Монтгомері 1988 року впорядкувала основні механізми й недоліки раннього виходу. Єдиного загальновизнаного автора концепції немає.",
+		"core": "Перший вихід на ринок сам по собі не гарантує успіху. Перевага з'являється тоді, коли компанія встигає отримати ресурси, зв'язки, знання або лояльність клієнтів, які складно відтворити конкурентам. Водночас наступники можуть використати досвід першопрохідця, уникнути його помилок і запропонувати кращий продукт.",
+		"components": "**Технологічне лідерство (technological leadership)** — швидше навчання, патенти та власні розробки. **Закріплення ресурсів (preemption of assets)** — доступ до важливих партнерів, каналів продажу, фахівців або локацій. **Витрати на зміну постачальника (switching costs)** — незручності та втрати, через які клієнти не поспішають переходити до конкурента. Серед недоліків — невідомий попит, недосконалі технології, дорогий маркетинг і потреба пояснювати ринку нову категорію продукту.",
+		"apply": "Визначте, що саме можна отримати завдяки ранньому старту і наскільки це захищене від копіювання. Порахуйте витрати на створення ринку, підтримку продукту та залучення клієнтів. Перевірте, чи допоможуть партнерства, бренд, дані або мережеві ефекти втримати позицію. Порівняйте повний запуск із пілотом або стратегією швидкого послідовника.",
+		"example": "Стартап першим запускає онлайн-бронювання місцевих спортивних майданчиків. Він укладає угоди з популярними залами та формує звичку бронювати через застосунок. Перевага збережеться лише за умови якісного сервісу.",
+		"limitations": "Історії успішних піонерів приховують численні невдачі. Бути першим у невеликій ніші — не те саме, що перемогти на масовому ринку."
+	}
+}

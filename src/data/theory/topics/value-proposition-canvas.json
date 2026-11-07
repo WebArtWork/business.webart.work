@@ -1,0 +1,26 @@
+{
+	"slug": "value-proposition-canvas",
+	"related": [
+		"business-model-canvas",
+		"jobs-to-be-done",
+		"product-market-fit"
+	],
+	"en": {
+		"short": "The Value Proposition Canvas compares what customers need with how a product creates value. It helps teams avoid feature-led thinking and check whether the proposed benefits address meaningful customer problems.",
+		"origin": "Alexander Osterwalder and collaborators developed the canvas as a companion to the Business Model Canvas. It was widely presented in Value Proposition Design (2014), coauthored with Yves Pigneur, Greg Bernarda, and Alan Smith.",
+		"core": "A strong offer fits a specific customer profile. The canvas makes the relationship explicit: what customers try to accomplish, what frustrates them, and what gains they seek must correspond to the products, pain relievers, and gain creators being offered. The diagram represents hypotheses until customers confirm them through behavior.",
+		"components": "The **customer profile** includes **jobs**, **pains**, and **gains**. Jobs can be functional, social, or emotional. Pains include obstacles, risks, and unwanted outcomes. Gains include required, expected, desired, and surprising benefits. The **value map** contains **products and services**, **pain relievers**, and **gain creators**. Fit means important customer needs connect to credible benefits, not that every item has a matching feature.",
+		"apply": "Choose one segment and interview customers about recent situations. List jobs, pains, and gains in their language, then rank them by importance. Separately describe the product and the outcomes it can genuinely deliver. Connect the strongest benefits to the most important needs. Test a prototype or paid offer and observe whether customers achieve the promised outcome. Revise both sides as evidence emerges.",
+		"example": "A small hotel owner needs to confirm reservations quickly, fears double bookings, and wants fewer calls. A booking tool offers channel synchronization and automatic confirmation. Its value should be measured by errors prevented and staff time saved, not the number of dashboard widgets.",
+		"limitations": "Teams often invent customer pains in workshops without interviews. A visually perfect match is not proof of willingness to pay or profitable delivery. The canvas does not cover acquisition, competitive advantage, or the full cost structure."
+	},
+	"ua": {
+		"short": "Канва ціннісної пропозиції допомагає зіставити потреби клієнта з користю продукту. Вона потрібна, щоб команда створювала не просто функції, а рішення важливих завдань.",
+		"origin": "Александр Остервальдер зі співавторами розробив цю канву як доповнення до Business Model Canvas. Широко її представлено в книжці Value Proposition Design (2014), написаній разом з Івом Піньєром, Грегом Бернардою та Аланом Смітом.",
+		"core": "Канва ціннісної пропозиції (Value Proposition Canvas) перевіряє, чи справді продукт відповідає потребам конкретного сегмента. Потрібно порівняти завдання, труднощі та очікувані вигоди клієнтів із тим, що пропонує компанія. Збіг на схемі — лише гіпотеза, доки його не підтверджують реальні дії покупців.",
+		"components": "**Профіль клієнта (customer profile)** містить **завдання (jobs)**, **болі (pains)** і **вигоди (gains)**. Завдання можуть бути практичними, емоційними чи соціальними. Болі — це перешкоди, ризики й небажані наслідки. **Карта цінності (value map)** описує продукти та послуги, способи усунення болю й створення вигод. Важливо відповідати на найсуттєвіші потреби, а не намагатися закрити кожен пункт.",
+		"apply": "Оберіть один сегмент і поговоріть із клієнтами про нещодавні ситуації. Запишіть їхні завдання, труднощі та бажані результати власними словами респондентів. Розставте пріоритети. Окремо опишіть продукт і користь, яку він реально забезпечує. Поєднайте найважливіші потреби з перевірними обіцянками. Запустіть прототип або платний пілот та оцініть фактичний результат.",
+		"example": "Власник малого готелю хоче швидко підтверджувати бронювання, боїться накладок і прагне зменшити кількість дзвінків. Сервіс пропонує синхронізацію каналів та автоматичні підтвердження. Користь вимірюють кількістю уникнених помилок і заощадженим часом, а не числом віджетів.",
+		"limitations": "Команди часто вигадують «болі» без розмов із клієнтами. Ідеальний збіг блоків не доводить готовність платити. Канва не охоплює повністю залучення клієнтів, конкурентні переваги та собівартість обслуговування. Важливо окремо перевіряти, чи помічають клієнти заявлену користь без підказок продавця та чи готові повертатися за нею."
+	}
+}

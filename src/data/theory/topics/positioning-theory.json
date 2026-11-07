@@ -1,0 +1,28 @@
+{
+	"slug": "positioning-theory",
+	"related": [
+		"stp",
+		"blue-ocean-strategy",
+		"brand-equity-model"
+	],
+	"en": {
+		"short": "Positioning is the deliberate effort to make an offer occupy a distinct, relevant place in a customer’s mind relative to alternatives. It helps customers understand when and why to choose a product.",
+		"origin": "Al Ries and Jack Trout popularized positioning through articles in the late 1960s and early 1970s and their 1981 book *Positioning: The Battle for Your Mind*. Related marketing ideas predate their work.",
+		"core": "Customers cannot carefully evaluate every option. They use simple mental categories and comparisons. Effective positioning connects an offer to a meaningful need and credible difference.",
+		"components": "Target customer, category or frame of reference, alternatives, distinctive benefit, evidence and consistent communication. A category choice matters: being “simple payroll for restaurants” creates different expectations from being “business software.”",
+		"apply": "Ask customers what they would use if your product did not exist. Identify the most relevant alternatives, including doing nothing. Choose a benefit that matters and can be demonstrated. Write a positioning statement and test whether customers can repeat it in their own words. Align pricing, onboarding, product features and sales language with the claim. Reassess when competitors or customer needs change.",
+		"example": "A scheduling tool for small clinics positions itself around reducing missed appointments, not around having the largest feature list. Reminders and easy rescheduling provide the proof.",
+		"limitations": "A slogan is not a position. Claims without product evidence damage credibility. A company may need different positioning for distinct segments, and competitors can imitate superficial messages.",
+		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+	},
+	"ua": {
+		"short": "Позиціювання допомагає закріпити у свідомості клієнта чітку відмінність продукту від альтернатив. Завдяки цьому покупцеві простіше зрозуміти, для кого продукт і чому його варто обрати.",
+		"origin": "Ел Райс і Джек Траут популяризували позиціювання в публікаціях кінця 1960-х — початку 1970-х років і книжці *Positioning: The Battle for Your Mind* (1981). Споріднені маркетингові ідеї існували раніше.",
+		"core": "Люди не можуть детально порівнювати всі пропозиції, тому користуються простими категоріями та асоціаціями. Продукт має зайняти зрозуміле місце серед альтернатив.",
+		"components": "Позиціювання (positioning) включає цільового клієнта, ринкову категорію, альтернативи, ключову перевагу, докази та послідовну комунікацію. Категорія визначає очікування: «розклад для невеликих клінік» сприймається інакше, ніж «програмне забезпечення для бізнесу».",
+		"apply": "Запитайте клієнтів, чим вони користувалися б без вашого продукту. Визначте конкурентів, включно з ручною роботою або відмовою від покупки. Оберіть важливу й доказову перевагу. Сформулюйте позицію одним реченням і перевірте, чи клієнти розуміють її без пояснень. Узгодьте функції, ціну, підтримку та рекламу з обіцянкою. Переглядайте позицію за зміни ринку.",
+		"example": "Сервіс запису для невеликих клінік обіцяє менше пропущених прийомів, а не найбільшу кількість функцій. Нагадування та швидке перенесення візиту підтверджують цю обіцянку.",
+		"limitations": "Слоган сам по собі не створює позиції. Без реальних переваг обіцянка втрачає довіру. Різним сегментам можуть бути потрібні різні повідомлення, а конкуренти здатні копіювати формулювання.",
+		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень. Для наступного циклу зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+	}
+}

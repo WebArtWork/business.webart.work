@@ -1,0 +1,26 @@
+{
+	"slug": "ge-mckinsey-nine-box-matrix",
+	"related": [
+		"resource-based-view",
+		"bcg-growth-share-matrix",
+		"porters-five-forces"
+	],
+	"en": {
+		"short": "The GE-McKinsey matrix compares industry attractiveness with a business unit's competitive strength. Its nine cells support more nuanced portfolio decisions than a simple growth-and-share comparison.",
+		"origin": "General Electric and McKinsey developed the nine-box portfolio framework in the 1970s, commonly dated to the early part of that decade. It emerged as a broader alternative to the BCG matrix for businesses operating across different industries.",
+		"core": "A unit deserves investment when its market offers attractive opportunities and the company has a credible ability to compete. Neither market growth nor market share alone captures that judgment. Instead, managers combine several factors into two composite assessments, then discuss priorities across the portfolio.",
+		"components": "The vertical dimension, **industry attractiveness**, may include market size, growth, margins, competitive intensity, regulation, and risk. The horizontal dimension, **competitive strength**, may include brand, distribution, capabilities, cost position, product quality, and customer loyalty. Each dimension is rated high, medium, or low, producing nine cells. Broad strategic zones suggest investing or growing, selectively managing, or harvesting and exiting; they are prompts for analysis rather than automatic commands.",
+		"apply": "List the business units and choose a small set of relevant factors for each dimension. Assign weights transparently and score units using evidence. Plot the results, with bubble size indicating business scale if useful. Test whether different weights change the ranking. Compare the suggested priorities with capital requirements, cash generation, and shared capabilities before committing resources.",
+		"example": "A diversified software group compares cybersecurity, appointment booking, and legacy desktop accounting. Cybersecurity may operate in an attractive market, but the company should invest aggressively only if it has sufficient technical talent and a believable route to customers.",
+		"limitations": "Weights and scores depend on management judgment and can create false precision. Data may be incomparable across industries, and the matrix can miss interactions between units or sudden changes in technology."
+	},
+	"ua": {
+		"short": "Матриця GE-McKinsey оцінює бізнес-напрями за привабливістю галузі та конкурентною силою компанії. Дев’ять клітинок допомагають обирати інвестиційні пріоритети з урахуванням більшої кількості чинників, ніж у матриці BCG.",
+		"origin": "Компанії General Electric і McKinsey розробили дев'ятиклітинкову портфельну матрицю (nine-box matrix) у 1970-х роках, переважно її датують початком десятиліття. Вона стала ширшим інструментом оцінювання бізнес-напрямів, ніж матриця BCG.",
+		"core": "Інвестувати варто не просто в ринки з високими темпами зростання. Потрібно одночасно оцінити, наскільки галузь приваблива та чи здатна конкретна компанія успішно в ній конкурувати. Для цього використовують набір показників, а не одну цифру. Результат допомагає обговорити розподіл бюджету між напрямами.",
+		"components": "**Привабливість галузі (industry attractiveness)** може враховувати обсяг ринку, темпи зростання, середню рентабельність, регулювання, ризики та силу конкурентів. **Конкурентна сила (competitive strength)** охоплює бренд, якість продукту, канали продажів, витрати, компетенції та лояльність клієнтів. Кожен вимір оцінюють як високий, середній або низький. Поєднання утворює дев'ять клітинок із загальними напрямами дій: інвестувати, діяти вибірково або скорочувати участь.",
+		"apply": "Складіть перелік бізнес-напрямів. Оберіть зрозумілі критерії для обох вимірів і призначте їм ваги. Оцініть напрями на основі даних, а не особистих симпатій. Розмістіть результати на матриці й перевірте, як зміна ваг впливає на висновки. Порівняйте рекомендації з бюджетом, грошовими потоками та спільними ресурсами компанії.",
+		"example": "IT-компанія порівнює кібербезпеку, онлайн-бронювання та застарілу бухгалтерську програму. Ринок кібербезпеки може бути привабливим, але без фахівців і каналів продажів конкурентна позиція компанії залишатиметься слабкою.",
+		"limitations": "Оцінки й ваги частково суб'єктивні та можуть створювати ілюзію точності. Матриця погано відображає залежності між продуктами й раптові технологічні зміни. Корисно окремо документувати припущення та пояснювати, чому кожен критерій отримав саме таку оцінку."
+	}
+}

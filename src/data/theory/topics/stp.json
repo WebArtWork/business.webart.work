@@ -1,0 +1,28 @@
+{
+	"slug": "stp",
+	"related": [
+		"customer-journey-mapping",
+		"marketing-mix",
+		"positioning-theory"
+	],
+	"en": {
+		"short": "STP turns a broad market into specific customer groups, selects those worth serving, and defines a clear place for the offer in their minds. It prevents teams from marketing the same message to everyone.",
+		"origin": "Segmentation was developed in marketing literature by Wendell R. Smith in 1956; targeting and positioning evolved through later marketing practice, including work by Al Ries and Jack Trout. STP has no single universally accepted inventor.",
+		"core": "Customers differ in needs, budgets, behavior and alternatives. A company wins by selecting groups it can serve well and explaining a distinct reason to choose its offer.",
+		"components": "Segmentation divides buyers using meaningful variables such as needs, use case, geography or behavior. Targeting evaluates segment size, access, willingness to pay and fit. Positioning specifies the customer, category, benefit and proof. A positioning statement is an internal decision tool, not necessarily an advertisement.",
+		"apply": "Interview users and review actual purchase behavior. Create a few segments with observable differences, rather than dozens of imaginary personas. Estimate the value and cost of reaching each segment. Choose one primary target for a focused launch. Write a positioning statement that identifies the alternative and the advantage. Test messages, channels and conversion rates with that audience; revise when evidence contradicts assumptions.",
+		"example": "A small accounting SaaS targets freelance designers rather than every small business. Its message emphasizes simple project invoicing and tax-ready exports, while competing against spreadsheets and broad accounting suites.",
+		"limitations": "Segments can overlap or change; demographic labels often predict little about needs. Positioning cannot compensate for a weak product. Narrow targeting can also exclude attractive adjacent demand.",
+		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+	},
+	"ua": {
+		"short": "STP допомагає поділити ринок на групи клієнтів, обрати найперспективніші та сформулювати зрозумілу пропозицію для кожної. Завдяки цьому компанія не витрачає бюджет на однакове повідомлення для всіх.",
+		"origin": "Сегментування ринку описав Венделл Сміт у 1956 році. Вибір цільових сегментів і позиціювання розвивалися пізніше; серед відомих авторів про позиціювання — Ел Райс і Джек Траут. Єдиного автора моделі STP немає.",
+		"core": "Клієнти мають різні потреби, бюджети й альтернативи. Компанія має обрати групи, яким справді здатна допомогти, і пояснити, чим її пропозиція відрізняється.",
+		"components": "Сегментування (segmentation) поділяє покупців за потребами, сценаріями використання, поведінкою або географією. Таргетування (targeting) визначає пріоритетні групи за потенціалом і доступністю. Позиціювання (positioning) формулює цільову аудиторію, категорію, головну вигоду та докази переваги.",
+		"apply": "Проведіть інтерв’ю та проаналізуйте реальні покупки. Створіть кілька сегментів із помітними відмінностями, а не десятки вигаданих портретів. Оцініть розмір, платоспроможність і вартість залучення. Оберіть основний сегмент для запуску. Сформулюйте повідомлення з чіткою альтернативою та перевагою. Перевіряйте конверсію й змінюйте рішення за даними.",
+		"example": "Сервіс бухгалтерії для фрилансерів-дизайнерів робить акцент на рахунках за проєкти та підготовці даних для податків, а не на всіх функціях великої облікової системи.",
+		"limitations": "Межі сегментів умовні й змінюються. Вік або професія не завжди пояснюють потребу. Вдале позиціювання не виправить слабкий продукт, а надто вузька аудиторія обмежить зростання.",
+		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень. Для наступного циклу зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+	}
+}

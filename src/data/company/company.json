@@ -1,0 +1,492 @@
+{
+	"_id": "",
+	"name": "Business",
+	"title": "Business | Learn to build and manage companies",
+	"description": "Learn the theories behind strategy, startups, marketing, finance and leadership, then prove what you know in practice.",
+	"image": "https://business.webart.work/seo/dashboard.jpg",
+	"siteUrl": "https://business.webart.work",
+	"defaultSeo": {
+		"image": "/seo/dashboard.jpg",
+		"title": "Business | Learn to build and manage companies",
+		"description": "Learn the theories behind strategy, startups, marketing, finance and leadership, then prove what you know in practice.",
+		"author": "Business"
+	},
+	"pageSeo": {
+		"/": {
+			"title": "Business | Learn to build and manage companies",
+			"description": "Learn the theories behind strategy, startups, marketing, finance and leadership, then prove what you know in practice.",
+			"image": "/seo/dashboard.jpg"
+		},
+		"/theories": {
+			"title": "Business theories",
+			"description": "Business theories and frameworks in English and Ukrainian, each with a short and a detailed version: strategy, startups, marketing, finance, operations and leadership.",
+			"image": "/seo/theory.jpg"
+		},
+		"/practices": {
+			"title": "Business practice",
+			"description": "Practice sets for every business theory, in English and Ukrainian: checked questions and written tasks on real business cases.",
+			"image": "/seo/practice.jpg"
+		},
+		"/privacy": {
+			"title": "Privacy",
+			"description": "How Business handles practice answers and browsing data. Learn business theory without an account.",
+			"image": "/seo/privacy.jpg"
+		},
+		"/licenses": {
+			"title": "Licenses and credits",
+			"description": "Software licensing and credits for the Business learning platform.",
+			"image": "/seo/licenses.jpg"
+		},
+		"/glossary": {
+			"title": "Business glossary",
+			"description": "Business terms explained in everyday language, in English and Ukrainian.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/porters-five-forces": {
+			"title": "Porter’s Five Forces",
+			"description": "Porter’s Five Forces is a strategic framework for understanding how businesses compete and make decisions. Industry profitability depends on competitive pressures, not simply on how well one company operates. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/porters-generic-strategies": {
+			"title": "Porter’s Generic Strategies",
+			"description": "Porter’s Generic Strategies is a strategic framework for understanding how businesses compete and make decisions. Competitive advantage comes from being lower cost or meaningfully different, across a broad market or a narrow segment. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/value-chain-analysis": {
+			"title": "Value Chain Analysis",
+			"description": "Value Chain Analysis is a strategic framework for understanding how businesses compete and make decisions. A company creates value through connected activities; examining them reveals cost drivers and opportunities to stand out. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/swot-analysis": {
+			"title": "SWOT Analysis",
+			"description": "SWOT Analysis is a strategic framework for understanding how businesses compete and make decisions. SWOT organizes internal strengths and weaknesses alongside external opportunities and threats to support strategic choices. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/pestel-analysis": {
+			"title": "PESTEL Analysis",
+			"description": "PESTEL Analysis is a strategic framework for understanding how businesses compete and make decisions. The framework scans large external trends that may create opportunities, costs, constraints, or risks for a business. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/resource-based-view": {
+			"title": "Resource-Based View (RBV)",
+			"description": "Resource-Based View (RBV) is a strategic framework for understanding how businesses compete and make decisions. Lasting advantage can come from valuable company-specific resources and capabilities that competitors struggle to reproduce. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/vrio-framework": {
+			"title": "VRIO Framework",
+			"description": "VRIO Framework is a strategic framework for understanding how businesses compete and make decisions. VRIO tests whether a resource can create competitive advantage and whether the organization can capture its value. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/core-competencies-theory": {
+			"title": "Core Competencies Theory",
+			"description": "Core Competencies Theory is a strategic framework for understanding how businesses compete and make decisions. A company should develop shared capabilities that open multiple markets, deliver customer benefits, and are hard for rivals to imitate. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/blue-ocean-strategy": {
+			"title": "Blue Ocean Strategy",
+			"description": "Blue Ocean Strategy is a strategic framework for understanding how businesses compete and make decisions. Instead of fighting rivals on established terms, businesses can redesign value to create demand in less-contested market space. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/ansoff-matrix": {
+			"title": "Ansoff Matrix",
+			"description": "Ansoff Matrix is a strategic framework for understanding how businesses compete and make decisions. The matrix organizes growth choices by whether products and markets are existing or new, helping managers compare strategic risk. It helps founders and managers replace assumptions with structured analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/bcg-growth-share-matrix": {
+			"title": "BCG Growth-Share Matrix",
+			"description": "The BCG matrix groups a company's products or business units by market growth and relative market share. It helps managers discuss where to invest, maintain, harvest, or withdraw resources, although the categories cannot replace financial analysis.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/ge-mckinsey-nine-box-matrix": {
+			"title": "GE-McKinsey Nine-Box Matrix",
+			"description": "The GE-McKinsey matrix compares industry attractiveness with a business unit's competitive strength. Its nine cells support more nuanced portfolio decisions than a simple growth-and-share comparison.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/game-theory-in-business": {
+			"title": "Game Theory in Business",
+			"description": "Game theory studies decisions whose outcomes depend on what other participants choose. In business, it helps managers reason about pricing, negotiations, partnerships, and competitive responses rather than assuming rivals will remain passive.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/first-mover-advantage": {
+			"title": "First-Mover Advantage",
+			"description": "First-mover advantage describes benefits a company may gain by entering a market before competitors. Early entry can secure customers, resources, or standards, but it can also expose a pioneer to high costs and mistakes that followers avoid.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/economic-moats": {
+			"title": "Economic Moats",
+			"description": "An economic moat is a durable advantage that protects a company's profits from competition. The concept encourages managers and investors to ask why customers or competitors cannot easily erase a firm's strong position.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/disruptive-innovation-theory": {
+			"title": "Disruptive Innovation Theory",
+			"description": "Disruptive innovation explains how entrants can begin with simpler or cheaper offerings for overlooked customers and eventually challenge established companies. It is not a synonym for any successful new technology or rapid industry change.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/diffusion-of-innovations": {
+			"title": "Diffusion of Innovations",
+			"description": "Diffusion of innovations explains how new ideas and products spread through a social system over time. It helps teams understand why early enthusiasts adopt differently from cautious mainstream customers.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/crossing-the-chasm": {
+			"title": "Crossing the Chasm",
+			"description": "Crossing the Chasm describes the challenge of moving a technology product from enthusiastic early adopters to pragmatic mainstream buyers. It argues that winning a narrow, well-served market segment can be more effective than trying to appeal to everyone at once.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/lean-startup": {
+			"title": "Lean Startup (Build–Measure–Learn)",
+			"description": "Lean Startup treats a new business idea as a set of assumptions to test through small experiments. Its Build–Measure–Learn loop aims to reduce wasted effort by turning customer behavior into evidence for product decisions.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/minimum-viable-product": {
+			"title": "Minimum Viable Product (MVP)",
+			"description": "A minimum viable product is the smallest product or experiment that can generate useful learning about a customer need with reasonable effort. Its purpose is to test important assumptions, not to release an unfinished product without regard for user experience or safety.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/product-market-fit": {
+			"title": "Product-Market Fit",
+			"description": "Product-market fit means a product solves an important problem for a sufficiently large, reachable market. It matters because marketing and scaling rarely compensate for a product customers do not value enough to keep using.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/jobs-to-be-done": {
+			"title": "Jobs to Be Done (JTBD)",
+			"description": "Jobs to Be Done studies the progress customers seek when they choose a product or service. It helps teams design around the situation and desired outcome rather than demographic labels or a feature wishlist.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/customer-development-model": {
+			"title": "Customer Development Model",
+			"description": "Customer Development is a process for testing who customers are, what they need, and how a business can reach them. It reduces the risk of building a product and sales organization around untested assumptions.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/business-model-canvas": {
+			"title": "Business Model Canvas",
+			"description": "The Business Model Canvas maps how an organization creates, delivers, and captures value on one page. It helps teams expose assumptions and see how customers, operations, partners, and finances fit together.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/lean-canvas": {
+			"title": "Lean Canvas",
+			"description": "Lean Canvas adapts the one-page business-model map to the uncertainty of early-stage startups. It focuses attention on customer problems, proposed solutions, measurable traction, and unfair advantages.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/value-proposition-canvas": {
+			"title": "Value Proposition Canvas",
+			"description": "The Value Proposition Canvas compares what customers need with how a product creates value. It helps teams avoid feature-led thinking and check whether the proposed benefits address meaningful customer problems.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/effectuation-theory": {
+			"title": "Effectuation Theory",
+			"description": "Effectuation explains how entrepreneurs make decisions when the future cannot be reliably predicted. Instead of starting with a fixed goal, they begin with available means, affordable risks, and commitments from partners.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/innovators-dilemma": {
+			"title": "Innovator's Dilemma",
+			"description": "The Innovator's Dilemma describes why well-managed incumbent companies may lose to simpler or initially weaker technologies. Serving profitable existing customers can make it rational to ignore innovations that later reshape a market.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/hype-cycle": {
+			"title": "Hype Cycle",
+			"description": "The Hype Cycle is a model for how expectations around emerging technologies may rise, collapse, and eventually stabilize. It helps managers question publicity and evaluate maturity separately from business usefulness.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/network-effects": {
+			"title": "Network Effects",
+			"description": "Network effects occur when a product becomes more valuable to a user as more relevant participants join or interact. They can support platform growth but may also create congestion, quality problems, or dependence on one dominant service.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/two-sided-multi-sided-markets": {
+			"title": "Two-Sided / Multi-Sided Markets",
+			"description": "A platform serves two or more distinct groups whose participation creates value for one another. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/platform-business-model": {
+			"title": "Platform Business Model",
+			"description": "Instead of producing all value internally, the business enables other participants to exchange goods, services or information under shared rules. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/economies-of-scale": {
+			"title": "Economies of Scale",
+			"description": "Average cost per unit can fall as output grows because fixed costs spread and processes become more efficient. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/economies-of-scope": {
+			"title": "Economies of Scope",
+			"description": "Producing several related offerings together can cost less than producing each separately when resources can be shared. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/long-tail-theory": {
+			"title": "Long Tail Theory",
+			"description": "Many niche products can collectively generate meaningful demand when digital distribution makes them easy to find and inexpensive to stock. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/flywheel-effect": {
+			"title": "Flywheel Effect",
+			"description": "Several reinforcing activities create momentum: improvement in one step strengthens the next, which feeds back into the first. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/winner-takes-all-markets": {
+			"title": "Winner-Takes-All Markets",
+			"description": "Small differences in performance or adoption can lead to disproportionately large differences in market share or rewards. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/switching-costs-and-lock-in": {
+			"title": "Switching Costs & Lock-In",
+			"description": "Customers may stay with a supplier because moving to an alternative requires money, time, learning or lost connections. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/aggregation-theory": {
+			"title": "Aggregation Theory",
+			"description": "Digital aggregators own customer relationships and demand discovery, then connect that demand to many suppliers whose distribution depends on the aggregator. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/marketing-mix": {
+			"title": "Marketing Mix (4Ps / 7Ps)",
+			"description": "Marketing decisions must fit together across the offer, price, distribution and promotion; services also depend on people, processes and physical evidence. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/stp": {
+			"title": "STP (Segmentation, Targeting, Positioning)",
+			"description": "STP turns a broad market into specific customer groups, selects those worth serving, and defines a clear place for the offer in their minds. It prevents teams from marketing the same message to everyone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/customer-lifetime-value": {
+			"title": "Customer Lifetime Value (CLV/LTV)",
+			"description": "Customer lifetime value estimates the economic value a customer contributes over the relationship with a company. It helps compare acquisition spending with future contribution rather than only the first purchase.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/aarrr-pirate-metrics": {
+			"title": "AARRR Pirate Metrics",
+			"description": "AARRR groups startup growth into acquisition, activation, retention, referral and revenue. It helps teams find the stage where users stop receiving value instead of chasing traffic alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/aida-model": {
+			"title": "AIDA Model",
+			"description": "AIDA describes a possible progression from attention to interest, desire and action in marketing communication. It is useful for planning clear messages, but should not be treated as a universal description of how everyone buys.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/customer-journey-mapping": {
+			"title": "Customer Journey Mapping",
+			"description": "Customer journey mapping visualizes what customers do, think and experience across interactions with a business. It reveals friction between departments and helps improve the complete experience rather than isolated screens.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/brand-equity-model": {
+			"title": "Brand Equity Model",
+			"description": "Brand equity is the extra value associated with a recognizable brand beyond the product’s functional features. It can influence trust, preference, loyalty and the price customers accept.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/positioning-theory": {
+			"title": "Positioning Theory",
+			"description": "Positioning is the deliberate effort to make an offer occupy a distinct, relevant place in a customer’s mind relative to alternatives. It helps customers understand when and why to choose a product.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/freemium-model": {
+			"title": "Freemium Model",
+			"description": "Freemium gives users a useful free product while charging for additional value, capacity or features. It can reduce adoption friction, but only works when paid conversions cover the cost of serving free users.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/pricing-strategy-theories": {
+			"title": "Pricing Strategy Theories (Value-Based, Cost-Plus, Penetration, Skimming)",
+			"description": "Pricing strategies explain different ways to set and change prices based on costs, customer value and market goals. Choosing the right method affects margin, adoption and how customers perceive the product.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/price-elasticity-of-demand": {
+			"title": "Price Elasticity of Demand",
+			"description": "Price elasticity of demand measures how strongly quantity demanded changes when price changes. It helps businesses anticipate whether a price increase is likely to reduce sales volume enough to hurt revenue.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/supply-and-demand": {
+			"title": "Supply and Demand",
+			"description": "Supply and Demand helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/unit-economics": {
+			"title": "Unit Economics",
+			"description": "Unit Economics helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/break-even-analysis": {
+			"title": "Break-Even Analysis",
+			"description": "Break-Even Analysis helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/opportunity-cost": {
+			"title": "Opportunity Cost",
+			"description": "Opportunity Cost helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/sunk-cost-fallacy": {
+			"title": "Sunk Cost Fallacy",
+			"description": "Sunk Cost Fallacy helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/transaction-cost-economics": {
+			"title": "Transaction Cost Economics",
+			"description": "Transaction Cost Economics helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/agency-theory": {
+			"title": "Agency Theory",
+			"description": "Agency Theory helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/time-value-of-money": {
+			"title": "Time Value of Money",
+			"description": "Time Value of Money helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/return-on-investment": {
+			"title": "Return on Investment (ROI)",
+			"description": "Return on Investment (ROI) helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/cash-flow-cycle": {
+			"title": "Cash Flow Cycle",
+			"description": "Cash Flow Cycle helps managers understand a specific economic decision and the trade-offs behind it. It matters because choices about pricing, investment and operations should be based on measurable consequences rather than intuition alone.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/marginal-cost-and-marginal-revenue": {
+			"title": "Marginal Cost and Marginal Revenue",
+			"description": "Marginal cost (MC) is the extra cost of producing one more unit; marginal revenue (MR) is the extra revenue from selling it. Comparing them helps choose output rather than merely maximizing sales. Estimate costs and sales at several volumes, calculate incremental changes, and expand while additional revenue exceeds additional cost.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/pareto-principle": {
+			"title": "Pareto Principle (80/20 Rule)",
+			"description": "A minority of causes often accounts for a large share of outcomes. The 80/20 ratio is a heuristic, not a mathematical law. Rank customers by contribution margin, defects by cost, or tasks by business impact.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/theory-of-constraints": {
+			"title": "Theory of Constraints",
+			"description": "The performance of a system is limited by its most restrictive constraint. Improving nonconstraints may create activity without improving overall throughput. Map the workflow, measure queues and cycle times, identify the bottleneck, protect its productive time, then invest in additional capacity only when needed.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/lean-management": {
+			"title": "Lean Management",
+			"description": "Create more customer value with less waste by improving the flow of work and learning continuously. Waste includes unnecessary waiting, movement, inventory and rework. Interview customers about value, map each handoff, measure delays and defects, remove unnecessary steps, and test small improvements with the team.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/six-sigma": {
+			"title": "Six Sigma",
+			"description": "Reduce variation and defects through measurement, analysis and disciplined process improvement. It is most useful where performance can be defined and measured reliably. Select a costly recurring defect, define what counts as failure, establish a baseline, investigate causes, test a change and monitor whether improvement persists.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/kaizen": {
+			"title": "Kaizen (Continuous Improvement)",
+			"description": "Small, frequent improvements made by people doing the work can accumulate into substantial gains. Learning and standardizing successful changes matter more than one-off campaigns. Invite frontline suggestions, reserve time for experiments, use simple before-and-after metrics, document successful practices and revisit them regularly.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/just-in-time": {
+			"title": "Just-in-Time (JIT)",
+			"description": "Produce or replenish what is needed, when needed, in the needed quantity. The goal is to reduce excess inventory and expose problems in the flow. Measure demand variability, reduce setup time, agree on supplier lead times, pilot replenishment triggers and maintain contingency plans for disruptions.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/okrs": {
+			"title": "OKRs (Objectives and Key Results)",
+			"description": "An objective states a meaningful direction; key results specify measurable evidence of progress. OKRs align attention without prescribing every task. Set a small number of priorities, choose outcome metrics with baselines and targets, assign owners, review progress weekly and adjust initiatives based on evidence.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/balanced-scorecard": {
+			"title": "Balanced Scorecard",
+			"description": "Assess strategy through several complementary perspectives instead of relying only on financial results. Leading measures can reveal whether future performance is being built. Translate strategy into objectives for each perspective, select a few indicators, define owners and targets, and review causal assumptions and trade-offs regularly.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/pdca-cycle": {
+			"title": "PDCA Cycle (Plan–Do–Check–Act)",
+			"description": "Improve processes through repeated experiments: plan a change, try it, evaluate evidence and standardize or revise the approach. Each cycle informs the next. Choose one measurable problem, collect a baseline, run a limited test, review quantitative and qualitative feedback, document the decision and schedule the next cycle.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/eisenhower-matrix": {
+			"title": "Eisenhower Matrix",
+			"description": "Eisenhower Matrix offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/maslows-hierarchy-of-needs": {
+			"title": "Maslow's Hierarchy of Needs",
+			"description": "Maslow's Hierarchy of Needs offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/herzbergs-two-factor-theory": {
+			"title": "Herzberg's Two-Factor Theory",
+			"description": "Herzberg's Two-Factor Theory offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/mcgregors-theory-x-and-theory-y": {
+			"title": "McGregor's Theory X and Theory Y",
+			"description": "McGregor's Theory X and Theory Y offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/situational-leadership": {
+			"title": "Situational Leadership",
+			"description": "Situational Leadership offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/transformational-leadership": {
+			"title": "Transformational Leadership",
+			"description": "Transformational Leadership offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/tuckmans-stages-of-team-development": {
+			"title": "Tuckman's Stages of Team Development",
+			"description": "Tuckman's Stages of Team Development offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/kotters-8-step-change-model": {
+			"title": "Kotter's 8-Step Change Model",
+			"description": "Kotter's 8-Step Change Model offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/organizational-culture-model": {
+			"title": "Organizational Culture Model (Schein)",
+			"description": "Organizational Culture Model (Schein) offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/stakeholder-theory": {
+			"title": "Stakeholder Theory",
+			"description": "Stakeholder Theory offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/peter-principle": {
+			"title": "Peter Principle",
+			"description": "Peter Principle explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/bounded-rationality": {
+			"title": "Bounded Rationality",
+			"description": "Bounded Rationality explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/prospect-theory": {
+			"title": "Prospect Theory",
+			"description": "Prospect Theory explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/loss-aversion": {
+			"title": "Loss Aversion",
+			"description": "Loss Aversion explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/anchoring-effect": {
+			"title": "Anchoring Effect",
+			"description": "Anchoring Effect explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/nudge-theory": {
+			"title": "Nudge Theory",
+			"description": "Nudge Theory explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/decision-matrix": {
+			"title": "Decision Matrix",
+			"description": "Decision Matrix explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/second-order-thinking": {
+			"title": "Second-Order Thinking",
+			"description": "Second-Order Thinking explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		},
+		"/theories/first-principles-thinking": {
+			"title": "First Principles Thinking",
+			"description": "First Principles Thinking explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+			"image": "/seo/theory.jpg"
+		}
+	},
+	"logo": "/logo.png"
+}

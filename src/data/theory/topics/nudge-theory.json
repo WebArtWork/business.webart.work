@@ -1,0 +1,26 @@
+{
+	"slug": "nudge-theory",
+	"related": [
+		"prospect-theory",
+		"anchoring-effect",
+		"customer-journey-mapping"
+	],
+	"en": {
+		"short": "Nudge Theory explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+		"origin": "Richard Thaler and Cass Sunstein popularized the term in their 2008 book Nudge; related behavioral research predates it. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
+		"core": "Small changes to how choices are presented can influence decisions without removing options or imposing large financial incentives. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
+		"components": "Choice architecture; defaults; salience; reminders; simplification; feedback; transparency and freedom to opt out. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
+		"apply": "Identify a recurring decision where users struggle. Remove unnecessary steps, clarify the recommended action and test ethical defaults. Measure actual outcomes, not only clicks. Make opting out easy and avoid hidden consent. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
+		"example": "A payroll app prompts employees to review retirement contributions annually and shows a clear default, while allowing them to change or reject it. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
+		"limitations": "Nudges can become manipulative dark patterns. Effects may be small or context-dependent; they cannot replace affordability, trust or good product design. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+	},
+	"ua": {
+		"short": "«Теорія підштовхування» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
+		"origin": "Річард Талер і Касс Санстейн популяризували термін у книжці «Nudge» (2008); відповідні поведінкові дослідження існували й раніше. Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
+		"core": "Невеликі зміни способу подання вибору можуть впливати на рішення, не забороняючи альтернатив і не створюючи великих фінансових стимулів. Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
+		"components": "Архітектура вибору (choice architecture); стандартні налаштування; помітність; нагадування; спрощення; зворотний зв’язок; прозорість і можливість відмовитися. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
+		"apply": "Знайдіть повторюване рішення, яке викликає труднощі. Приберіть зайві кроки, зробіть корисну дію зрозумілою й перевірте етичні стандартні налаштування. Вимірюйте реальний результат, а не лише кліки. Забезпечте просту відмову й уникайте прихованої згоди. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
+		"example": "Застосунок для зарплати щороку нагадує працівникам перевірити пенсійні внески та пропонує зрозумілий варіант за замовчуванням із можливістю змінити або відхилити його. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
+		"limitations": "Підштовхування може перетворитися на маніпулятивні інтерфейси. Ефект залежить від контексту; він не замінить доступної ціни, довіри чи якісного продукту. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+	}
+}

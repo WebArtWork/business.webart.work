@@ -1,0 +1,28 @@
+{
+	"slug": "customer-lifetime-value",
+	"related": [
+		"pricing-strategy-theories",
+		"customer-journey-mapping",
+		"unit-economics"
+	],
+	"en": {
+		"short": "Customer lifetime value estimates the economic value a customer contributes over the relationship with a company. It helps compare acquisition spending with future contribution rather than only the first purchase.",
+		"origin": "Customer lifetime value developed from direct marketing, customer equity and database marketing research over several decades. There is no single inventor or universally agreed creation date.",
+		"core": "A customer who buys repeatedly may be more valuable than one who makes a large first purchase. The useful measure is expected contribution after variable costs, adjusted for retention and often discounted to present value.",
+		"components": "Average revenue per customer, gross or contribution margin, purchase frequency, retention or churn, expected relationship duration, discount rate and customer acquisition cost (CAC). A simple subscription approximation is monthly contribution margin divided by monthly churn, but it assumes stable churn and margins.",
+		"apply": "Define a customer cohort and the period of analysis. Calculate revenue, direct servicing costs and retention by cohort. Estimate future contribution conservatively, distinguishing observed results from forecasts. Compare LTV with CAC and the time needed to recover acquisition spending. Use findings to prioritize retention improvements, channels and pricing. Track changes as cohorts mature instead of relying on one company-wide average.",
+		"example": "A subscription tool charges $30 monthly and has $20 monthly contribution margin. If monthly churn is 5%, the rough steady-state LTV is $400 before acquisition cost and discounting; real cohorts may differ substantially.",
+		"limitations": "Forecasts are sensitive to churn, margins and discount assumptions. The popular revenue-only formula overstates value. High LTV does not guarantee cash availability or profitable acquisition.",
+		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+	},
+	"ua": {
+		"short": "Пожиттєва цінність клієнта показує, скільки економічної користі приносить клієнт за весь період співпраці. Показник допомагає оцінювати витрати на залучення з урахуванням повторних покупок.",
+		"origin": "Показник сформувався в прямому маркетингу, аналізі клієнтських баз і дослідженнях капіталу клієнтів протягом кількох десятиліть. Одного загальновизнаного автора чи року появи немає.",
+		"core": "Клієнт, який купує регулярно, може бути ціннішим за того, хто зробив одну велику покупку. Важливо оцінювати майбутній внесок у прибуток після змінних витрат, а не лише виручку.",
+		"components": "Пожиттєва цінність клієнта (customer lifetime value, CLV/LTV) залежить від середнього доходу, маржинальності, частоти покупок, утримання, відтоку (churn) та тривалості співпраці. Для точніших розрахунків використовують ставку дисконтування й порівнюють результат із вартістю залучення клієнта (CAC).",
+		"apply": "Визначте когорти клієнтів і період спостереження. Розрахуйте виручку, прямі витрати на обслуговування та частку тих, хто залишається. Обережно спрогнозуйте майбутню маржу. Порівняйте CLV із CAC і строком окупності залучення. Перевірте, чи варто інвестувати в утримання, новий канал або зміну тарифів. Оновлюйте модель за фактичними даними когорт.",
+		"example": "Підписка коштує 30 доларів на місяць, а внесок після змінних витрат — 20 доларів. За умовного стабільного місячного відтоку 5% спрощена оцінка CLV становить 400 доларів без дисконтування та витрат на залучення.",
+		"limitations": "Прогноз сильно залежить від припущень про відтік і маржу. Розрахунок лише за виручкою завищує цінність. Навіть високий CLV не гарантує достатньо грошей для поточних витрат.",
+		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень. Для наступного циклу зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+	}
+}

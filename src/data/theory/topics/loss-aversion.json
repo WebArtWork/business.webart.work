@@ -1,0 +1,26 @@
+{
+	"slug": "loss-aversion",
+	"related": [
+		"prospect-theory",
+		"sunk-cost-fallacy",
+		"switching-costs-and-lock-in"
+	],
+	"en": {
+		"short": "Loss Aversion explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+		"origin": "The concept is central to Kahneman and Tversky’s prospect theory, introduced in 1979. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
+		"core": "A loss often feels more painful than an equally sized gain feels pleasant. This can shape purchasing, negotiation, investment and retention decisions. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
+		"components": "Reference points; perceived gains versus losses; endowment effect; status quo preference; risk attitudes; framing. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
+		"apply": "Identify what customers feel they might lose: money, time, access or progress. Reduce genuine risk with clear trials, transparent cancellation and migration support. For managers, compare future options without treating past spending as recoverable. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
+		"example": "A business hesitates to switch CRM systems because it fears losing historical records. A migration preview and backup reduce that perceived risk. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
+		"limitations": "Loss aversion is not universal or constant. Fear-based messaging can damage trust, and risk avoidance can become costly when it blocks necessary change. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+	},
+	"ua": {
+		"short": "«Неприйняття втрат» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
+		"origin": "Поняття є центральним у теорії перспектив Канемана і Тверскі, опублікованій 1979 року. Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
+		"core": "Втрата часто відчувається сильніше, ніж радість від рівнозначного виграшу. Це впливає на купівлю, переговори, інвестиції та утримання клієнтів. Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
+		"components": "Точка відліку; сприйняття виграшу й втрати; ефект володіння (endowment effect); перевага статус-кво; ставлення до ризику; формулювання пропозиції. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
+		"apply": "З’ясуйте, що клієнт боїться втратити: гроші, час, доступ або прогрес. Зменшуйте реальний ризик через прозорий пробний період, зрозуміле скасування й допомогу з переходом. У менеджменті порівнюйте майбутні варіанти, не вважаючи минулі витрати такими, що можна повернути. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
+		"example": "Компанія не хоче змінювати CRM через страх втратити історію клієнтів. Попередня перевірка міграції та резервна копія знижують ризик. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
+		"limitations": "Неприйняття втрат не є універсальним і незмінним. Повідомлення, побудовані на страху, руйнують довіру, а надмірне уникнення ризику може заважати потрібним змінам. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+	}
+}

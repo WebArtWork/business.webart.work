@@ -1,0 +1,26 @@
+{
+	"slug": "innovators-dilemma",
+	"related": [
+		"disruptive-innovation-theory",
+		"resource-based-view",
+		"first-mover-advantage"
+	],
+	"en": {
+		"short": "The Innovator's Dilemma describes why well-managed incumbent companies may lose to simpler or initially weaker technologies. Serving profitable existing customers can make it rational to ignore innovations that later reshape a market.",
+		"origin": "Clayton Christensen developed the argument through research on industries such as disk drives and presented it in The Innovator’s Dilemma (1997). The book builds on his earlier academic work on technological change and market entry.",
+		"core": "Established firms usually improve products along dimensions valued by their best customers. Some entrants instead offer cheaper, simpler, or more accessible alternatives that initially underperform on mainstream measures. Incumbents have sound short-term reasons to ignore low-margin segments. If entrants improve enough to serve the mainstream, existing leaders may struggle to respond. Not every technological breakthrough follows this pattern.",
+		"components": "**Sustaining innovation** improves products for established customers. **Disruptive innovation** begins in overlooked low-end segments or creates new-market access. **Value networks** shape what customers, margins, and investments a company considers attractive. **Resource allocation** favors proven revenue. **Performance trajectories** determine when an entrant becomes good enough for broader demand.",
+		"apply": "Map customers by needs and willingness to pay. Identify people underserved by complexity or excluded by price and access. Study entrants’ business models, not just technology. Run a small, separately measured experiment with a suitable cost structure. Protect learning from the core business’s immediate margin targets while maintaining clear investment limits. Monitor whether the new offer improves toward mainstream requirements.",
+		"example": "A large accounting-software vendor focuses on advanced features for enterprises. A newcomer offers a simpler cloud tool to freelancers who cannot afford or use the full suite. As the tool improves, small companies begin adopting it.",
+		"limitations": "The framework is often misused to call every startup or breakthrough “disruptive.” It cannot predict winners reliably, and incumbents sometimes adapt successfully. New technologies can also strengthen existing leaders rather than displace them."
+	},
+	"ua": {
+		"short": "Дилема інноватора пояснює, чому успішні компанії іноді програють новим гравцям. Орієнтація на найприбутковіших клієнтів може заважати помітити рішення, які поступово змінюють ринок.",
+		"origin": "Клейтон Крістенсен сформулював аргумент на основі досліджень різних галузей, зокрема виробництва дискових накопичувачів. Він виклав його у книжці The Innovator’s Dilemma (1997), спираючись на попередні наукові роботи про технологічні зміни.",
+		"core": "Дилема інноватора (innovator’s dilemma) виникає, коли успішна компанія розумно вдосконалює продукт для найцінніших клієнтів, але не бачить привабливості простіших альтернатив. Новачки можуть починати з дешевших або раніше недоступних сегментів. Спочатку їхнє рішення поступається традиційному за звичними показниками, але згодом покращується і стає достатнім для ширшого ринку. Такий розвиток не є неминучим.",
+		"components": "**Підтримувальні інновації (sustaining innovation)** покращують пропозицію для наявних клієнтів. **Підривні інновації (disruptive innovation)** стартують у нижньому сегменті або створюють новий доступ. **Мережа створення цінності (value network)** визначає пріоритети компанії. **Розподіл ресурсів** схиляється до перевірених доходів. **Траєкторія якості** показує, коли нове рішення задовольнить основний ринок.",
+		"apply": "Поділіть клієнтів за потребами та готовністю платити. Знайдіть тих, кому традиційні продукти надто дорогі або складні. Аналізуйте не лише технології конкурентів, а й спосіб заробітку. Проведіть невеликий експеримент з окремими показниками та витратами. Не оцінюйте його лише за прибутковістю основного бізнесу. Водночас встановіть межі інвестицій і стежте за покращенням альтернативи.",
+		"example": "Великий постачальник бухгалтерського ПЗ розвиває складні функції для корпорацій. Новий сервіс пропонує фрилансерам простий хмарний облік за доступною ціною. Поступово він додає можливості й починає залучати невеликі компанії.",
+		"limitations": "Не кожна нова технологія або успішний стартап є підривним. Модель не гарантує перемогу новачків, а великі компанії іноді успішно адаптуються. Частина інновацій, навпаки, посилює чинних лідерів. Варто також перевірити, чи новий сегмент має достатню місткість і чи здатна компанія обслуговувати його без збитків."
+	}
+}

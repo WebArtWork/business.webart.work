@@ -1,0 +1,132 @@
+<article class="mx-auto max-w-3xl py-10 sm:py-16">
+	<p class="text-xs font-semibold uppercase tracking-[0.2em] text-mute">
+		{{ card.number }} · {{ pick(module.title, language()) }} ·
+		{{ '{n} min' | t: { n: card.minutes } }}
+	</p>
+	<h1 class="mt-4 text-3xl font-semibold tracking-tight sm:text-5xl">
+		{{ pick(card.title, language()) }}
+	</h1>
+
+	@let content = body();
+	<section class="mt-8" aria-labelledby="short-title">
+		<h2 id="short-title" class="text-xs font-semibold uppercase tracking-[0.2em] text-brand">
+			{{ 'In short' | t }}
+		</h2>
+		<p class="mt-3 text-lg leading-relaxed text-fg/80"><app-rich [text]="content.short" /></p>
+	</section>
+
+	<button
+		class="ds-btn ds-btn-outline mt-6"
+		type="button"
+		aria-controls="detailed"
+		[attr.aria-expanded]="expanded()"
+		(click)="expanded.set(!expanded())"
+	>
+		{{ (expanded() ? 'Show less' : 'Read more') | t }}
+	</button>
+
+	<div id="detailed" [hidden]="!expanded()">
+		@for (section of sections(); track section.key) {
+			@if (section.boxed) {
+				<section class="mt-9 rounded-xl border border-brand/25 bg-brand/5 p-6">
+					<h2 class="font-semibold text-brand">{{ section.title | t }}</h2>
+					<p class="mt-3 leading-8 text-fg"><app-rich [text]="section.text" /></p>
+				</section>
+			} @else {
+				<section class="mt-9">
+					<h2 class="text-xl font-semibold">{{ section.title | t }}</h2>
+					<p class="mt-3 leading-8 text-fg/80"><app-rich [text]="section.text" /></p>
+				</section>
+			}
+		}
+	</div>
+
+	@if (related.length) {
+		<section class="mt-9" aria-labelledby="related-title">
+			<h2 id="related-title" class="text-xl font-semibold">{{ 'Related theories' | t }}</h2>
+			<ul class="mt-3 flex flex-col gap-2">
+				@for (item of related; track item.slug) {
+					<li>
+						<a
+							class="flex items-baseline gap-3 rounded-lg border border-line px-4 py-3 hover:border-brand"
+							[routerLink]="['/theories', item.slug]"
+						>
+							<span class="w-6 shrink-0 text-xs tabular-nums text-brand">{{ item.number }}</span>
+							<span class="font-medium">{{ pick(item.title, language()) }}</span>
+						</a>
+					</li>
+				}
+			</ul>
+		</section>
+	}
+
+	<section
+		class="mt-9 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-line bg-card p-5"
+		aria-labelledby="read-title"
+	>
+		<div>
+			<h2 id="read-title" class="font-semibold">
+				{{
+					(isRead() ? 'You understand this lesson' : 'Did you understand this lesson?')
+						| t
+				}}
+			</h2>
+			<p class="mt-1 text-sm text-mute">
+				{{ 'Understood lessons shape what the dashboard suggests next.' | t }}
+			</p>
+		</div>
+		@if (!isRead() || markedRead()) {
+			<button
+				class="ds-btn"
+				[class]="markedRead() ? 'ds-btn-outline' : 'ds-btn-primary'"
+				type="button"
+				[attr.aria-pressed]="markedRead()"
+				(click)="toggleRead()"
+			>
+				{{ (markedRead() ? 'Undo' : 'I understand') | t }}
+			</button>
+		}
+	</section>
+
+	@if (practice) {
+		<section
+			class="mt-9 rounded-xl border border-brand/25 bg-brand/5 p-6"
+			aria-labelledby="practice-title"
+		>
+			<h2 id="practice-title" class="font-semibold text-brand">
+				{{ 'Practice this lesson' | t }}
+			</h2>
+			@if (score(); as best) {
+				<p class="mt-2 text-sm font-semibold text-brand">
+					{{
+						'Best {score} of {max}' | t: { score: best.quiz + best.written, max: maxPoints }
+					}}
+				</p>
+			}
+			<a
+				class="mt-4 inline-block rounded-lg bg-brand px-5 py-3 font-semibold text-brand-fg"
+				[routerLink]="['/practices', card.slug]"
+				>{{ 'Start the exercises' | t }} →</a
+			>
+		</section>
+	}
+
+	<nav class="mt-10 flex flex-wrap justify-between gap-4" [attr.aria-label]="'Lessons' | t">
+		@if (previous; as item) {
+			<a
+				class="rounded-lg border border-line px-5 py-3"
+				[routerLink]="['/theories', item.slug]"
+				>← {{ pick(item.title, language()) }}</a
+			>
+		} @else {
+			<span></span>
+		}
+		@if (next; as item) {
+			<a
+				class="rounded-lg bg-brand px-5 py-3 font-semibold text-brand-fg"
+				[routerLink]="['/theories', item.slug]"
+				>{{ pick(item.title, language()) }} →</a
+			>
+		}
+	</nav>
+</article>

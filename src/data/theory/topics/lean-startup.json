@@ -1,0 +1,26 @@
+{
+	"slug": "lean-startup",
+	"related": [
+		"minimum-viable-product",
+		"customer-development-model",
+		"product-market-fit"
+	],
+	"en": {
+		"short": "Lean Startup treats a new business idea as a set of assumptions to test through small experiments. Its Build–Measure–Learn loop aims to reduce wasted effort by turning customer behavior into evidence for product decisions.",
+		"origin": "Eric Ries popularized Lean Startup through his writing and the 2011 book *The Lean Startup*. The approach draws on lean manufacturing, customer development associated with Steve Blank, and iterative software development.",
+		"core": "Startups operate under high uncertainty, so detailed plans alone cannot establish what customers want. Teams should state their riskiest assumptions, build the smallest useful experiment, measure what people actually do, and decide whether to continue, change direction, or stop.",
+		"components": "**Build–Measure–Learn** is a feedback loop: create an experiment, collect relevant evidence, and update the business hypothesis. A **minimum viable product (MVP)** is one possible experimental vehicle. **Validated learning** means testing claims with observations rather than opinions. **Innovation accounting** tracks meaningful progress, often through cohorts, conversion, retention, or revenue rather than vanity metrics. A **pivot** is a substantial change in strategy while retaining learning; **persevere** means continuing with evidence-based confidence.",
+		"apply": "Write a falsifiable statement, such as “at least 20% of trial teams will use this workflow weekly.” Identify a metric and threshold before launching. Build only what is needed to test the statement, while meeting safety and quality obligations. Observe behavior and interview participants to understand why results occurred. Decide on the next experiment, pivot, or focused investment. Keep a written record of assumptions and outcomes.",
+		"example": "A founder considering a restaurant inventory platform first tests a manual weekly stock report with ten restaurants. If managers repeatedly use and pay for it, the founder has stronger evidence about the need before building complex integrations.",
+		"limitations": "Small tests can mislead when samples are biased or outcomes take months to appear. Rapid experimentation is inappropriate for bypassing safety, privacy, or regulatory requirements. Learning is useful only when metrics reflect real customer value."
+	},
+	"ua": {
+		"short": "Підхід ощадливого стартапу пропонує перевіряти бізнес-ідеї невеликими експериментами замість тривалої розробки на основі припущень. Цикл «Створити — Виміряти — Навчитися» допомагає ухвалювати продуктові рішення за поведінкою клієнтів.",
+		"origin": "Ерік Ріс популяризував підхід ощадливого стартапу (Lean Startup) у статтях і книжці *The Lean Startup* 2011 року. Він поєднав ідеї ощадливого виробництва, розвитку клієнтів Стіва Бланка та ітеративної розробки програмного забезпечення.",
+		"core": "Стартап працює в умовах високої невизначеності. Навіть докладний бізнес-план не доводить, що люди купуватимуть продукт. Тому команда формулює найризикованіше припущення, проводить мінімальний достатній експеримент, вимірює реальну поведінку клієнтів і вирішує, що робити далі.",
+		"components": "**Цикл «Створити — Виміряти — Навчитися» (Build–Measure–Learn)** поєднує експеримент, збір даних та оновлення гіпотези. **Мінімально життєздатний продукт (minimum viable product, MVP)** може бути одним зі способів перевірки. **Підтверджене навчання (validated learning)** означає висновки на основі спостережень, а не побажань. **Облік інновацій (innovation accounting)** оцінює прогрес через корисні показники: утримання, конверсію, доходи або поведінку окремих груп користувачів. **Зміна курсу (pivot)** — суттєве коригування стратегії на основі даних; альтернативою є продовження обраного напряму.",
+		"apply": "Запишіть перевірювану гіпотезу з конкретним критерієм успіху. Визначте показник до початку експерименту. Створіть лише необхідний для перевірки функціонал, не порушуючи вимог безпеки та якості. Спостерігайте за діями клієнтів і з'ясовуйте причини результатів. Зафіксуйте висновки та оберіть наступний тест або зміну напряму.",
+		"example": "Засновник сервісу обліку запасів для ресторанів спершу вручну готує щотижневі звіти для десяти закладів. Регулярне використання й готовність платити дадуть більше доказів потреби, ніж схвальні відгуки про презентацію.",
+		"limitations": "Малі вибірки та упереджений відбір клієнтів можуть спотворювати результати. Швидкі експерименти не виправдовують порушення правил безпеки чи приватності. Метрики мають відображати реальну цінність."
+	}
+}

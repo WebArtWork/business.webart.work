@@ -1,0 +1,27 @@
+{
+	"slug": "tuckmans-stages-of-team-development",
+	"related": [
+		"situational-leadership",
+		"transformational-leadership",
+		"kotters-8-step-change-model"
+	],
+	"en": {
+		"short": "Tuckman's Stages of Team Development offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+		"origin": "Bruce Tuckman proposed forming, storming, norming, and performing in 1965; with Mary Ann Jensen he added adjourning in 1977. The model summarizes observed patterns, not a guaranteed sequence. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
+		"core": "Teams often change how they interact as members establish roles, negotiate disagreements, and learn to cooperate. Naming these patterns helps managers respond constructively. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
+		"components": "Forming: orientation and uncertainty. Storming: disagreements and power questions. Norming: shared expectations. Performing: coordinated delivery. Adjourning: closure and learning when the group disbands. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
+		"apply": "Clarify purpose and roles early, make conflict safe to discuss, document working agreements, and support autonomy as coordination improves. Revisit agreements when membership or scope changes. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
+		"example": "A newly assembled product team initially waits for instructions, then debates ownership of releases. After agreeing on review and deployment rules, it ships predictably and documents lessons at project end. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
+		"limitations": "Real teams do not always progress linearly; conflict may return and high performance may emerge quickly. Culture, remote work, and organizational constraints affect the pattern. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+	},
+	"ua": {
+		"short": "«Етапи розвитку команди Такмена» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
+		"origin": "Брюс Такмен запропонував етапи формування, конфлікту, нормування та результативної роботи в 1965 році; разом із Мері Енн Дженсен додав завершення в 1977-му. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
+		"core": "Команди змінюють спосіб взаємодії, коли визначають ролі, проходять суперечки й навчаються співпрацювати. Розуміння цих процесів допомагає керівнику діяти вчасно. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
+		"components": "Формування: знайомство й невизначеність. Конфлікт: суперечки щодо ролей. Нормування: спільні правила. Результативність: злагоджена робота. Завершення: підсумки й передача знань. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
+		"apply": "На початку узгодьте мету й ролі, створіть безпечний простір для суперечок, зафіксуйте правила роботи та збільшуйте автономію. Переглядайте домовленості після змін у складі чи завданнях. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
+		"example": "Нова продуктова команда спершу чекає вказівок, потім сперечається про відповідальність за релізи. Узгодивши правила перевірки й випуску, вона працює стабільніше та підбиває підсумки. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
+		"limitations": "Реальні команди не завжди проходять етапи послідовно: конфлікти повертаються, а висока продуктивність інколи виникає швидко. Впливають культура, віддалена робота та обмеження організації. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
+		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+	}
+}

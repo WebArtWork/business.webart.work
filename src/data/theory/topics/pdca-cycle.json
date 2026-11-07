@@ -1,0 +1,26 @@
+{
+	"slug": "pdca-cycle",
+	"related": [
+		"kaizen",
+		"six-sigma",
+		"lean-management"
+	],
+	"en": {
+		"short": "Improve processes through repeated experiments: plan a change, try it, evaluate evidence and standardize or revise the approach. Each cycle informs the next. Choose one measurable problem, collect a baseline, run a limited test, review quantitative and qualitative feedback, document the decision and schedule the next cycle.",
+		"origin": "Walter A. Shewhart developed an earlier iterative improvement cycle in the 1930s. W. Edwards Deming helped disseminate related cycles in Japan; the familiar PDCA naming evolved over time. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
+		"core": "Improve processes through repeated experiments: plan a change, try it, evaluate evidence and standardize or revise the approach. Each cycle informs the next. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
+		"components": "Plan: define problem, hypothesis and measure. Do: pilot the change. Check: compare results with expectations. Act: adopt, adapt or abandon and begin again. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
+		"apply": "Choose one measurable problem, collect a baseline, run a limited test, review quantitative and qualitative feedback, document the decision and schedule the next cycle. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
+		"example": "A subscription app tests a shorter signup form for a subset of users. It compares completed registrations and downstream activation before deciding whether to roll out. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
+		"limitations": "A short test may miss delayed harms or seasonal effects. PDCA works poorly if teams skip measurement or declare success without comparing alternatives. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+	},
+	"ua": {
+		"short": "Процеси покращують повторюваними експериментами: планують зміну, випробовують, оцінюють дані та закріплюють або переглядають рішення. Кожен цикл дає знання для наступного. Оберіть одну вимірювану проблему, зафіксуйте початковий рівень, проведіть обмежений тест, зберіть цифри та відгуки, задокументуйте висновок і заплануйте наступну перевірку.",
+		"origin": "Волтер Шухарт розробив ранній ітеративний цикл удосконалення у 1930-х роках. Вільям Едвардс Демінг поширював споріднені підходи в Японії; сучасна назва PDCA сформувалася поступово. Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
+		"core": "Процеси покращують повторюваними експериментами: планують зміну, випробовують, оцінюють дані та закріплюють або переглядають рішення. Кожен цикл дає знання для наступного. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
+		"components": "Plan — спланувати проблему, гіпотезу й показник; Do — провести пілот; Check — перевірити результат; Act — запровадити, змінити або відхилити рішення та повторити. Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
+		"apply": "Оберіть одну вимірювану проблему, зафіксуйте початковий рівень, проведіть обмежений тест, зберіть цифри та відгуки, задокументуйте висновок і заплануйте наступну перевірку. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
+		"example": "Сервіс передплати тестує коротшу форму реєстрації на частині користувачів. Порівнює завершені реєстрації та подальшу активацію, перш ніж змінювати форму для всіх. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
+		"limitations": "Короткий тест може не показати відкладені наслідки й сезонність. Метод не працює, якщо пропускати вимірювання або оголошувати успіх без порівняння. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+	}
+}

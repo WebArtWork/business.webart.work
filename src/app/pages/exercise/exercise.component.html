@@ -1,0 +1,339 @@
+<!-- a run of text, bold or not -->
+<ng-template #runs let-items>
+	@for (run of items; track $index) {
+		@if (run.b) {
+			<strong><app-linked [text]="run.t" /></strong>
+		} @else {
+			<app-linked [text]="run.t" />
+		}
+	}
+</ng-template>
+
+<!-- paragraphs, quotes and lists -->
+<ng-template #rich let-blocks>
+	@for (block of blocks; track $index) {
+		@switch (block.k) {
+			@case ('quote') {
+				<blockquote
+					class="mt-3 border-l-4 border-brand/50 pl-4 italic leading-relaxed text-fg"
+				>
+					<ng-container *ngTemplateOutlet="runs; context: { $implicit: block.runs }" />
+				</blockquote>
+			}
+			@case ('ul') {
+				<ul
+					class="mt-3 flex list-disc flex-col gap-1.5 pl-5 leading-relaxed marker:text-mute"
+				>
+					@for (item of block.items; track $index) {
+						<li>
+							<ng-container *ngTemplateOutlet="runs; context: { $implicit: item }" />
+						</li>
+					}
+				</ul>
+			}
+			@default {
+				<p class="mt-3 leading-relaxed">
+					<ng-container *ngTemplateOutlet="runs; context: { $implicit: block.runs }" />
+				</p>
+			}
+		}
+	}
+</ng-template>
+
+<article class="mx-auto max-w-3xl py-10 sm:py-16">
+	<p class="text-xs font-semibold uppercase tracking-[0.2em] text-mute">
+		{{ card.number }} · {{ pick(module.title, language()) }}
+	</p>
+	<h1 class="mt-4 text-3xl font-semibold tracking-tight sm:text-5xl">
+		{{ pick(card.title, language()) }}
+	</h1>
+	<p class="mt-5 text-lg leading-relaxed text-fg/80">
+		{{
+			'10 questions that are checked for you, then 5 written tasks. {points} points in all.'
+				| t: { points: totalMax }
+		}}
+	</p>
+	<a
+		class="mt-5 inline-block rounded-lg border border-line px-5 py-3"
+		[routerLink]="['/theories', card.slug]"
+		>{{ 'Read the lesson first' | t }}</a
+	>
+
+	<section class="mt-12" aria-labelledby="quiz-title">
+		<h2 id="quiz-title" class="text-2xl font-semibold">{{ 'Part 1: questions' | t }}</h2>
+		<ol class="mt-6 flex flex-col gap-8">
+			@for (question of quiz(); track question.id; let number = $index) {
+				<li class="rounded-xl border border-line bg-card p-6">
+					<p class="text-xs uppercase tracking-widest text-brand">
+						{{ number + 1 }} · {{ typeLabels[question.type] | t }} ·
+						{{ difficultyLabels[question.difficulty] | t }} ·
+						{{ '{n} pt|{n} pts' | t: { n: question.points, count: question.points } }}
+					</p>
+					<div role="group" [attr.aria-labelledby]="question.id + '-prompt'">
+						<div [id]="question.id + '-prompt'">
+							<ng-container
+								*ngTemplateOutlet="rich; context: { $implicit: question.prompt }"
+							/>
+						</div>
+						@if (question.type === 'multiple_select') {
+							<p class="mt-2 text-sm text-mute">{{ 'Pick exactly two.' | t }}</p>
+						}
+						<ul class="mt-4 flex flex-col gap-2">
+							@for (option of options(question); track option.id) {
+								@let state = optionState(question, option.id);
+								<li>
+									<label
+										class="flex gap-3 rounded-lg border p-3 leading-relaxed"
+										[class]="
+											state === 'correct'
+												? 'border-ok bg-ok/10'
+												: state === 'wrong'
+													? 'border-danger bg-danger/10'
+													: isPicked(question, option.id)
+														? 'border-brand bg-brand/10'
+														: 'cursor-pointer border-line hover:bg-soft'
+										"
+									>
+										<input
+											class="mt-1.5 size-4 shrink-0 self-start accent-brand"
+											[type]="inputType(question)"
+											[name]="question.id"
+											[checked]="isPicked(question, option.id)"
+											[disabled]="locked(question, option.id)"
+											(change)="pickOption(question, option.id)"
+										/>
+										<span>
+											@if (question.type === 'true_false') {
+												{{ option.text | t }}
+											} @else {
+												<span class="font-semibold text-mute"
+													>{{ option.id }}.</span
+												>
+												<app-linked [text]="option.text" />
+											}
+											@if (state === 'correct') {
+												<span class="sr-only">
+													({{ 'correct answer' | t }})</span
+												>
+											} @else if (state === 'wrong') {
+												<span class="sr-only">
+													({{ 'your answer, incorrect' | t }})</span
+												>
+											}
+										</span>
+									</label>
+								</li>
+							}
+						</ul>
+					</div>
+					@if (checked()) {
+						@let verdict = isCorrect(question);
+						<div class="mt-4" aria-live="polite">
+							<p class="font-semibold" [class]="verdict ? 'text-ok' : 'text-danger'">
+								{{ (verdict ? 'Correct' : 'Not quite') | t }}
+							</p>
+							@if (key(question)?.explanation; as explanation) {
+								<div class="text-fg/80">
+									<ng-container
+										*ngTemplateOutlet="
+											rich;
+											context: { $implicit: explanation }
+										"
+									/>
+								</div>
+							}
+						</div>
+					}
+				</li>
+			}
+		</ol>
+
+		<div class="mt-8 flex flex-wrap items-center gap-4">
+			@if (!checked()) {
+				<button
+					class="rounded-lg bg-brand px-5 py-3 font-semibold text-brand-fg"
+					type="button"
+					(click)="check()"
+				>
+					{{ 'Check answers' | t }}
+				</button>
+				<p class="text-sm text-mute" role="status">
+					{{
+						'{done} of {total} answered' | t: { done: answered(), total: quiz().length }
+					}}
+				</p>
+			} @else {
+				<p class="text-lg font-semibold text-brand" role="status">
+					{{ 'Questions: {score} of {max}' | t: { score: quizScore(), max: quizMax } }}
+				</p>
+				<button
+					class="rounded-lg border border-line px-5 py-3"
+					type="button"
+					(click)="retry()"
+				>
+					{{ 'Try again' | t }}
+				</button>
+				@if (quizScore() < quizMax) {
+					<a class="text-brand" [routerLink]="['/theories', card.slug]"
+						>{{ 'Revisit the lesson' | t }} →</a
+					>
+				}
+			}
+		</div>
+		@if (loadFailed()) {
+			<p class="mt-3 text-danger" role="alert">
+				{{ 'Could not load the answers. Check your connection and try again.' | t }}
+			</p>
+		}
+	</section>
+
+	<section class="mt-14" aria-labelledby="written-title">
+		<h2 id="written-title" class="text-2xl font-semibold">{{ 'Part 2: written tasks' | t }}</h2>
+		<p class="mt-3 text-fg/80">
+			{{
+				'Write your answer, then open the sample answer and tick every point your answer made. The sample is one direction, not the only right answer.'
+					| t
+			}}
+		</p>
+		<ol class="mt-6 flex flex-col gap-8">
+			@for (question of written(); track question.id; let number = $index) {
+				<li class="rounded-xl border border-line bg-card p-6">
+					<p class="text-xs uppercase tracking-widest text-brand">
+						{{ number + 1 }} · {{ typeLabels[question.type] | t }} ·
+						{{ difficultyLabels[question.difficulty] | t }} ·
+						{{ '{n} pt|{n} pts' | t: { n: question.points, count: question.points } }}
+					</p>
+					<div [id]="question.id + '-prompt'">
+						<ng-container
+							*ngTemplateOutlet="rich; context: { $implicit: question.prompt }"
+						/>
+					</div>
+					<label class="sr-only" [for]="question.id + '-answer'">{{
+						'Your answer' | t
+					}}</label>
+					<textarea
+						class="mt-4 min-h-32 w-full rounded-lg border border-line bg-card p-3 leading-relaxed placeholder:text-mute"
+						[id]="question.id + '-answer'"
+						[placeholder]="'Your answer' | t"
+						[value]="texts()[question.id] ?? ''"
+						(input)="setText(question, $any($event.target).value)"
+					></textarea>
+					<button
+						class="mt-3 rounded-lg border border-line px-4 py-2"
+						type="button"
+						[attr.aria-expanded]="!!revealed()[question.id]"
+						(click)="toggleSample(question)"
+					>
+						{{
+							(revealed()[question.id] ? 'Hide sample answer' : 'Show sample answer')
+								| t
+						}}
+					</button>
+					@if (revealed()[question.id] && key(question); as answer) {
+						<div class="mt-5 border-t border-line pt-5">
+							<h3 class="text-sm font-semibold text-brand">
+								{{ 'Sample answer' | t }}
+							</h3>
+							<div class="text-fg">
+								<ng-container
+									*ngTemplateOutlet="rich; context: { $implicit: answer.sample }"
+								/>
+							</div>
+							@if (answer.explanation; as explanation) {
+								<h3 class="mt-5 text-sm font-semibold text-brand">
+									{{ 'Why' | t }}
+								</h3>
+								<div class="text-fg/80">
+									<ng-container
+										*ngTemplateOutlet="
+											rich;
+											context: { $implicit: explanation }
+										"
+									/>
+								</div>
+							}
+							<h3 class="mt-5 text-sm font-semibold text-brand">
+								{{ 'Score yourself' | t }}
+							</h3>
+							<ul class="mt-2 flex flex-col gap-2">
+								@for (row of answer.rubric; track $index; let rowIndex = $index) {
+									<li>
+										<label class="flex cursor-pointer gap-3 leading-relaxed">
+											<input
+												class="mt-1.5 size-4 shrink-0 self-start accent-brand"
+												type="checkbox"
+												[checked]="hasPoint(question, rowIndex)"
+												(change)="togglePoint(question, rowIndex)"
+											/>
+											<span
+												><app-linked [text]="row.criterion" />
+												<span class="text-mute"
+													>({{
+														'{n} pt|{n} pts'
+															| t
+																: {
+																		n: row.points,
+																		count: row.points,
+																  }
+													}})</span
+												></span
+											>
+										</label>
+									</li>
+								}
+							</ul>
+							<p class="mt-3 text-sm font-semibold" role="status">
+								{{
+									'This task: {score} of {max}'
+										| t: { score: earned(question), max: question.points }
+								}}
+							</p>
+						</div>
+					}
+				</li>
+			}
+		</ol>
+	</section>
+
+	<section
+		class="mt-14 rounded-xl border border-brand/25 bg-brand/5 p-6"
+		aria-labelledby="result-title"
+	>
+		<h2 id="result-title" class="font-semibold text-brand">{{ 'Your result' | t }}</h2>
+		<p class="mt-3 text-3xl font-semibold" role="status">
+			{{
+				'{score} of {max} points'
+					| t: { score: quizScore() + writtenScore(), max: totalMax }
+			}}
+		</p>
+		<p class="mt-2 text-fg/80">
+			{{ 'Questions: {score} of {max}' | t: { score: quizScore(), max: quizMax } }} ·
+			{{ 'Written: {score} of {max}' | t: { score: writtenScore(), max: writtenMax } }}
+		</p>
+		<p class="mt-3 text-sm text-mute">
+			{{
+				'Your best result for each lesson is saved to your account, as a guest or with Google.'
+					| t
+			}}
+		</p>
+	</section>
+
+	<nav class="mt-10 flex flex-wrap justify-between gap-4" [attr.aria-label]="'Exercises' | t">
+		@if (previous; as item) {
+			<a
+				class="rounded-lg border border-line px-5 py-3"
+				[routerLink]="['/practices', item.slug]"
+				>← {{ pick(item.title, language()) }}</a
+			>
+		} @else {
+			<span></span>
+		}
+		@if (next; as item) {
+			<a
+				class="rounded-lg bg-brand px-5 py-3 font-semibold text-brand-fg"
+				[routerLink]="['/practices', item.slug]"
+				>{{ pick(item.title, language()) }} →</a
+			>
+		}
+	</nav>
+</article>

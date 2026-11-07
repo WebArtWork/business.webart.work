@@ -1,0 +1,27 @@
+{
+	"slug": "organizational-culture-model",
+	"related": [
+		"transformational-leadership",
+		"kotters-8-step-change-model",
+		"stakeholder-theory"
+	],
+	"en": {
+		"short": "Organizational Culture Model (Schein) offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+		"origin": "Edgar H. Schein developed his influential organizational culture framework through work in the 1980s, including his 1985 book Organizational Culture and Leadership. The model was refined in later editions. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
+		"core": "Culture is not only what a company says it values. It also includes visible practices and deeper assumptions that guide decisions when no formal rule applies. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
+		"components": "Three levels: artifacts, such as rituals and workspace; espoused values, such as stated principles; and basic underlying assumptions, often unconscious beliefs about success, trust, and authority. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
+		"apply": "Observe meetings, hiring, promotions, and responses to mistakes. Compare what leaders say with what the organization rewards. Change incentives and leader behavior, not only posters or mission statements. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
+		"example": "A company claims to value experimentation but punishes failed pilots. Employees avoid risk. Leadership introduces bounded experiments and reviews learning publicly, making the declared value credible. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
+		"limitations": "Deep assumptions are difficult to observe and change. Different teams may have different subcultures. The framework helps diagnosis but does not offer a quick formula for culture transformation. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+	},
+	"ua": {
+		"short": "«Модель організаційної культури Шейна» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
+		"origin": "Едгар Шейн розробляв впливову модель організаційної культури у 1980-х роках, зокрема в книжці «Organizational Culture and Leadership» 1985 року. Пізніші видання її уточнювали. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
+		"core": "Культура компанії — це не лише проголошені цінності. Вона охоплює щоденні практики й глибинні припущення, які визначають рішення без прямих інструкцій. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
+		"components": "Три рівні: артефакти — ритуали та видимі практики; проголошені цінності — офіційні принципи; базові припущення — часто неусвідомлені переконання про довіру, успіх і владу. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
+		"apply": "Спостерігайте за нарадами, наймом, підвищеннями й реакціями на помилки. Порівнюйте слова керівництва з тим, за що винагороджують. Змінюйте стимули й поведінку, а не лише плакати. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
+		"example": "Компанія заявляє про цінність експериментів, але карає за невдалі пілоти. Працівники уникають ризику. Керівництво вводить контрольовані експерименти й відкрито аналізує уроки. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
+		"limitations": "Глибинні припущення важко помітити й змінити. Різні команди мають власні субкультури. Модель допомагає діагностувати проблеми, але не дає швидкого рецепта змін. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
+		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+	}
+}

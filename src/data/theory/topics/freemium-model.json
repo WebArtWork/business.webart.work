@@ -1,0 +1,28 @@
+{
+	"slug": "freemium-model",
+	"related": [
+		"customer-lifetime-value",
+		"pricing-strategy-theories",
+		"network-effects"
+	],
+	"en": {
+		"short": "Freemium gives users a useful free product while charging for additional value, capacity or features. It can reduce adoption friction, but only works when paid conversions cover the cost of serving free users.",
+		"origin": "Free basic services with paid upgrades existed before the name. Venture capitalist Fred Wilson discussed the approach in 2006; Jarid Lukin is commonly credited with suggesting the term “freemium.”",
+		"core": "A free tier demonstrates value and can support discovery or sharing. A subset of customers pays for higher usage, advanced features, collaboration or business requirements.",
+		"components": "Valuable free entry, clear upgrade triggers, conversion rate, free-user servicing cost, retention, paid average revenue, acquisition cost and customer lifetime value. Free trials differ: freemium generally has an ongoing free tier.",
+		"apply": "Identify the core outcome that users must experience without paying. Estimate hosting, support and abuse costs per free account. Choose a paid boundary that matches increasing value rather than blocking basic success. Make upgrade benefits understandable. Measure activation, active usage, conversion, churn and contribution margin by cohort. Test limits carefully; aggressive paywalls may reduce adoption while overly generous tiers may undermine revenue.",
+		"example": "A design tool lets individuals create a limited number of projects free, then charges for team permissions, shared libraries and advanced exports.",
+		"limitations": "Large free audiences can be expensive. Conversion rates vary greatly by product and audience; no universal benchmark guarantees success. Users may feel trapped if previously free essentials become paid.",
+		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+	},
+	"ua": {
+		"short": "Freemium дає клієнтам корисну безкоштовну версію продукту, а за розширені можливості пропонує платити. Такий підхід полегшує старт, але потребує контролю витрат і переходу на платні тарифи.",
+		"origin": "Безкоштовні базові продукти з платними розширеннями існували до появи назви. Фред Вілсон описував підхід у 2006 році; авторство слова freemium часто приписують Джаріду Лукіну.",
+		"core": "Безкоштовний рівень дає змогу переконатися в користі продукту. Частина користувачів платить за більші обсяги, додаткові функції, спільну роботу або бізнес-потреби.",
+		"components": "Модель freemium (free + premium) включає корисний безкоштовний тариф, зрозумілі причини оновлення, частку платних користувачів, вартість обслуговування безкоштовних акаунтів, утримання та дохід. На відміну від пробного періоду, безкоштовний тариф зазвичай не має кінцевої дати.",
+		"apply": "Визначте результат, який користувач повинен отримати без оплати. Порахуйте витрати на сервери, підтримку й захист від зловживань. Встановіть межу платного тарифу там, де зростає цінність для клієнта. Чітко поясніть вигоди оновлення. Відстежуйте активацію, активність, конверсію, відтік і маржу за когортами. Перевіряйте зміни обмежень на невеликих групах.",
+		"example": "Сервіс дизайну дозволяє безкоштовно створити кілька проєктів, а за командні ролі, спільні бібліотеки й розширений експорт бере плату.",
+		"limitations": "Велика безкоштовна аудиторія може бути збитковою. Універсальної «правильної» конверсії немає. Якщо забрати раніше безкоштовні базові функції, можна втратити довіру.",
+		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень. Для наступного циклу зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+	}
+}

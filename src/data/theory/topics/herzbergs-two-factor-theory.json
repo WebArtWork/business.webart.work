@@ -1,0 +1,27 @@
+{
+	"slug": "herzbergs-two-factor-theory",
+	"related": [
+		"maslows-hierarchy-of-needs",
+		"mcgregors-theory-x-and-theory-y",
+		"situational-leadership"
+	],
+	"en": {
+		"short": "Herzberg's Two-Factor Theory offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+		"origin": "Frederick Herzberg and colleagues described the motivation–hygiene theory in their 1959 book The Motivation to Work, based on interviews about positive and negative job experiences. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
+		"core": "Removing dissatisfaction does not automatically create strong motivation. Some conditions prevent frustration, while different factors make work meaningful and engaging. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
+		"components": "Hygiene factors include compensation, policy, supervision, conditions, and relationships. Motivators include achievement, recognition, responsibility, growth, and the work itself. These are analytical categories, not universal rules. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
+		"apply": "Fix obvious sources of dissatisfaction before launching engagement campaigns. Then enrich jobs with ownership, feedback, meaningful goals, and advancement. Use surveys and interviews to test what matters locally. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
+		"example": "A support team receives competitive pay but reports low engagement. After improving chaotic schedules, the manager gives agents authority to resolve customer cases and recognizes successful solutions. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
+		"limitations": "The original interview method may bias results because people attribute successes to themselves and failures to context. Pay can motivate as well as prevent dissatisfaction; treat the distinction flexibly. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+	},
+	"ua": {
+		"short": "«Двофакторна теорія Герцберга» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
+		"origin": "Фредерік Герцберг із колегами описав мотиваційно-гігієнічну теорію у книжці «The Motivation to Work» 1959 року на основі інтерв’ю про робочий досвід. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
+		"core": "Усунення невдоволення не обов’язково створює мотивацію. Одні умови запобігають розчаруванню, а інші роблять роботу цікавою та змістовною. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
+		"components": "Гігієнічні чинники: оплата, правила, керівництво, умови й стосунки. Мотиватори: досягнення, визнання, відповідальність, розвиток і зміст роботи. Це аналітичні категорії, а не абсолютні правила. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
+		"apply": "Спочатку усуньте причини невдоволення, а вже потім запускайте програми залученості. Додавайте відповідальність, зворотний зв’язок, зрозумілі цілі й можливості розвитку. Перевіряйте ефект опитуваннями. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
+		"example": "Команда підтримки отримує конкурентну оплату, але має низьку залученість. Після впорядкування графіків керівник дозволяє фахівцям самостійно розв’язувати звернення й відзначає вдалі рішення. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
+		"limitations": "Метод інтерв’ю міг створювати упередження: успіхи люди приписують собі, а невдачі — обставинам. Оплата також може мотивувати, тому поділ не слід вважати жорстким. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
+		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+	}
+}

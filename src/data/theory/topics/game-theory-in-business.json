@@ -1,0 +1,26 @@
+{
+	"slug": "game-theory-in-business",
+	"related": [
+		"pricing-strategy-theories",
+		"first-mover-advantage",
+		"porters-five-forces"
+	],
+	"en": {
+		"short": "Game theory studies decisions whose outcomes depend on what other participants choose. In business, it helps managers reason about pricing, negotiations, partnerships, and competitive responses rather than assuming rivals will remain passive.",
+		"origin": "Modern game theory was formalized by John von Neumann and Oskar Morgenstern in their 1944 book *Theory of Games and Economic Behavior*. John Nash later developed influential equilibrium concepts around 1950–1951. Business applications draw on a wider body of work rather than one single model.",
+		"core": "Your best decision may depend on what competitors, customers, suppliers, or partners do. Each participant has options and incentives. A strategy that looks attractive in isolation can become harmful when others respond, so managers should anticipate reactions and identify outcomes that are stable or mutually beneficial.",
+		"components": "**Players** are decision-makers. **Strategies** are available actions. **Payoffs** are the consequences each player values, including money, market position, and risk. **Information** describes what each player knows. **Timing** distinguishes simultaneous choices from sequential moves. A **Nash equilibrium** is a set of strategies in which no player gains by changing only their own action while others keep theirs unchanged; it need not be the best collective result.",
+		"apply": "Define a specific decision, such as whether to lower subscription prices. Identify the few actors who materially affect the outcome. Write realistic options and possible reactions, then estimate payoffs under several scenarios. Look for incentives to cooperate, retaliate, or change commitments. Test assumptions with market evidence and update the analysis as conditions evolve.",
+		"example": "Two competing gyms consider discounting memberships. Both might earn more by keeping prices stable, yet each fears losing customers if only the other discounts. The resulting price war can leave both worse off.",
+		"limitations": "Real players are not perfectly rational, payoffs are uncertain, and competitors may have hidden goals. Simplified models should guide questions, not justify collusion or claims of exact prediction."
+	},
+	"ua": {
+		"short": "Теорія ігор пояснює ситуації, у яких результат рішення залежить від дій інших учасників. У бізнесі вона допомагає передбачати реакції конкурентів, вести переговори та оцінювати наслідки цінових рішень.",
+		"origin": "Сучасну теорію ігор (game theory) формалізували Джон фон Нейман і Оскар Моргенштерн у книжці *Theory of Games and Economic Behavior* 1944 року. Джон Неш приблизно у 1950–1951 роках розвинув важливі поняття рівноваги. Бізнес використовує різні моделі цієї наукової галузі.",
+		"core": "Вигідність рішення залежить не лише від ваших ресурсів і планів, а й від того, як відреагують інші. Конкурент може знизити ціну, постачальник — змінити умови, партнер — відмовитися від домовленості. Тому варто оцінювати не окремий крок, а можливу послідовність взаємних дій.",
+		"components": "**Гравці (players)** — учасники, які ухвалюють рішення. **Стратегії (strategies)** — доступні варіанти дій. **Виграші (payoffs)** — результати, важливі для кожного: прибуток, частка ринку, ризик або репутація. **Інформація (information)** — що учасники знають один про одного. **Послідовність ходів (timing)** — хто діє першим і хто може відповісти. **Рівновага Неша (Nash equilibrium)** — ситуація, коли ніхто не виграє від одноосібної зміни своєї стратегії, якщо інші не змінюють поведінки.",
+		"apply": "Сформулюйте конкретне рішення, наприклад зміну тарифу. Визначте основних учасників і по два-три реалістичні варіанти їхніх дій. Оцініть наслідки кожного поєднання. Перевірте, які реакції найбільш імовірні та що може змінити стимули учасників. Використовуйте сценарії, а не одну «точну» цифру.",
+		"example": "Два спортзали розглядають знижки на абонементи. Кожен боїться втратити клієнтів, якщо конкурент першим знизить ціну. Обидва запускають акції та зрештою отримують менше прибутку.",
+		"limitations": "Люди не завжди діють раціонально, а справжні цілі конкурентів часто невідомі. Моделі не дають права узгоджувати ціни з конкурентами та не гарантують прогнозу."
+	}
+}

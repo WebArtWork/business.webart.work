@@ -1,0 +1,26 @@
+{
+	"slug": "peter-principle",
+	"related": [
+		"herzbergs-two-factor-theory",
+		"situational-leadership",
+		"organizational-culture-model"
+	],
+	"en": {
+		"short": "Peter Principle explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+		"origin": "Laurence J. Peter and Raymond Hull popularized the principle in their 1969 book. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
+		"core": "People in hierarchies may be promoted because they perform well in their current role, until they reach a role they cannot perform effectively. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
+		"components": "Promotion criteria; difference between technical and management skills; competence at the next level; training; alternative career tracks. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
+		"apply": "Define the target role before promotion. Assess relevant skills through temporary assignments, coaching and structured interviews. Offer expert career paths without mandatory management responsibilities. Review outcomes after promotion and provide support. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
+		"example": "A strong software engineer becomes a team lead but struggles with delegation. The company introduces a trial leadership assignment and a senior individual-contributor track. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
+		"limitations": "It is a satirical generalization, not a law that predicts every promotion. Poor results may reflect inadequate onboarding, unclear expectations or insufficient resources. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+	},
+	"ua": {
+		"short": "«Принцип Пітера» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
+		"origin": "Лоуренс Дж. Пітер і Реймонд Галл популяризували принцип у книжці 1969 року. Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
+		"core": "У службовій ієрархії працівника можуть підвищувати за успіхи на поточній посаді, доки він не опиниться на посаді, для якої бракує навичок. Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
+		"components": "Критерії підвищення; різниця між фаховими та управлінськими навичками; компетентність на новій посаді; навчання; альтернативні кар’єрні шляхи. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
+		"apply": "Спочатку опишіть вимоги нової посади. Перевірте потрібні навички через тимчасові обов’язки, наставництво та структуровані співбесіди. Створіть кар’єрний шлях експерта без обов’язкового керівництва. Після підвищення оцінюйте результати й надавайте підтримку. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
+		"example": "Сильного розробника призначили керівником команди, але делегування дається йому важко. Компанія запроваджує пробний період керівництва й окрему кар’єрну траєкторію технічного експерта. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
+		"limitations": "Це сатиричне узагальнення, а не закон, який передбачає наслідок кожного підвищення. Слабкі результати можуть бути наслідком поганої адаптації, нечітких очікувань або браку ресурсів. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"slug": "customer-journey-mapping",
+	"related": [
+		"stp",
+		"jobs-to-be-done",
+		"aarrr-pirate-metrics"
+	],
+	"en": {
+		"short": "Customer journey mapping visualizes what customers do, think and experience across interactions with a business. It reveals friction between departments and helps improve the complete experience rather than isolated screens.",
+		"origin": "Journey mapping evolved from service design, customer experience and process mapping practices; it has no single universally recognized creator or founding date.",
+		"core": "Customers experience one continuous relationship even when a business organizes work into marketing, sales, support and operations.",
+		"components": "Customer persona or job, goal, stages, touchpoints, actions, expectations, emotions, pain points, backstage processes, owners and measurable outcomes. A journey map describes observed experience; a service blueprint additionally shows internal operations.",
+		"apply": "Choose one customer segment and a specific journey, such as first purchase or problem resolution. Interview customers, review support tickets and observe actual behavior. Plot actions and touchpoints chronologically, including offline interactions. Mark moments of confusion, delay and handoff. Quantify important issues with completion rates, waiting time and complaints. Assign owners and test improvements. Revisit the map after changes, because assumptions become outdated.",
+		"example": "A hotel maps booking, confirmation, arrival and checkout. Guests repeatedly ask whether early check-in is possible. The team adds a clear pre-arrival message and tracks inquiry volume.",
+		"limitations": "A workshop map based on staff guesses is not customer evidence. Averages hide different journeys. Attractive diagrams are useless without decisions, ownership and measurement.",
+		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+	},
+	"ua": {
+		"short": "Карта шляху клієнта показує дії, очікування та труднощі людини під час взаємодії з компанією. Вона допомагає знаходити проблеми між окремими етапами сервісу, а не лише всередині одного екрана.",
+		"origin": "Метод виник на перетині сервісного дизайну, управління клієнтським досвідом і опису процесів. Єдиного загальновизнаного автора та року створення немає.",
+		"core": "Для клієнта маркетинг, продаж, оплата й підтримка — частини одного досвіду, хоча всередині компанії ними керують різні команди.",
+		"components": "Карта шляху клієнта (customer journey map) містить тип клієнта, його мету, етапи, точки контакту (touchpoints), дії, очікування, емоції, труднощі та показники результату. Окремо можна позначити відповідальних і внутрішні процеси. Детальніша схема сервісу називається service blueprint.",
+		"apply": "Оберіть конкретний сценарій, наприклад перше замовлення. Поговоріть із клієнтами, перегляньте звернення до підтримки й поспостерігайте за діями. Відобразіть послідовність контактів, зокрема телефонних та особистих. Позначте затримки, незрозумілі кроки та передачу між відділами. Виміряйте частоту проблем і призначте відповідальних за зміни. Після виправлень перевірте результат.",
+		"example": "Готель аналізує шлях від бронювання до виїзду. Гості часто запитують про раннє заселення. Команда додає пояснення до повідомлення перед приїздом і відстежує кількість запитів.",
+		"limitations": "Карта, створена лише зі слів працівників, може не відображати реальний досвід. Середній сценарій приховує відмінності між клієнтами. Без власників завдань і метрик схема залишається декорацією.",
+		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень. Для наступного циклу зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+	}
+}

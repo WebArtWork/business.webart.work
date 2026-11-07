@@ -1,0 +1,26 @@
+{
+	"slug": "business-model-canvas",
+	"related": [
+		"customer-development-model",
+		"value-proposition-canvas",
+		"lean-canvas"
+	],
+	"en": {
+		"short": "The Business Model Canvas maps how an organization creates, delivers, and captures value on one page. It helps teams expose assumptions and see how customers, operations, partners, and finances fit together.",
+		"origin": "Alexander Osterwalder developed the underlying business-model ontology in his 2004 doctoral research. The nine-block canvas was popularized with Yves Pigneur in Business Model Generation (2010), drawing on collaboration with many practitioners.",
+		"core": "A business model is a system of connected choices, not only a revenue formula. The canvas makes those choices visible so a team can discuss trade-offs and test uncertain parts. A filled canvas is a hypothesis map; it does not establish that customers will buy or that costs are accurate.",
+		"components": "The nine blocks are **customer segments**, **value propositions**, **channels**, **customer relationships**, **revenue streams**, **key resources**, **key activities**, **key partnerships**, and **cost structure**. The right side focuses mainly on customers and value delivery; the left covers operational capabilities. Revenue and cost blocks reveal whether the design could be economically sustainable.",
+		"apply": "Start with one customer segment and its main problem. Write the promised value in customer language, then identify channels and relationship expectations. Estimate what customers pay and why. Map the capabilities and partners needed to deliver the promise. Calculate major costs, mark every uncertain statement, and run tests on the riskiest assumptions. Revise the canvas after interviews and sales experiments rather than treating it as a finished presentation.",
+		"example": "A local marketplace connects independent repair professionals with households. It maps households and technicians as distinct segments, verification as a key activity, payment fees as revenue, and dispute resolution as a significant cost and relationship requirement.",
+		"limitations": "Nine boxes can hide timing, competitive reactions, legal constraints, and platform governance. Teams often write vague words such as “everyone” or “social media.” A neat canvas cannot replace financial modeling, customer research, or execution."
+	},
+	"ua": {
+		"short": "Канва бізнес-моделі показує на одній сторінці, як компанія створює цінність, доставляє її клієнтам і заробляє. Вона допомагає побачити залежності між продуктом, продажами, ресурсами та витратами.",
+		"origin": "Александр Остервальдер розробляв основу моделі у своїй дисертації 2004 року. Дев’ятиблокова канва стала широко відомою завдяки книжці Business Model Generation (2010), створеній разом з Івом Піньєром за участі багатьох практиків.",
+		"core": "Канва бізнес-моделі (Business Model Canvas) описує взаємопов’язані рішення: кому компанія допомагає, яку користь пропонує, як доставляє її та за рахунок чого отримує дохід. Це не лише схема монетизації. Заповнені блоки спочатку є припущеннями, які потрібно перевіряти фактами, а не доказом життєздатності бізнесу.",
+		"components": "Дев’ять блоків: **сегменти клієнтів (customer segments)**, **ціннісні пропозиції (value propositions)**, **канали**, **відносини з клієнтами**, **потоки доходів**, **ключові ресурси**, **ключові види діяльності**, **ключові партнери** та **структура витрат**. Частина блоків описує клієнтів і продажі, інша — внутрішні можливості. Доходи й витрати показують, чи може модель працювати економічно.",
+		"apply": "Почніть з одного сегмента та його проблеми. Сформулюйте цінність зрозумілими словами. Визначте канали продажу й очікуваний рівень підтримки. Оцініть джерела доходу, необхідні ресурси, операції та партнерів. Запишіть основні витрати. Позначте неперевірені припущення й сплануйте інтерв’ю, пілоти або продажі для їх перевірки. Оновлюйте канву після нових даних.",
+		"example": "Місцевий маркетплейс з’єднує майстрів ремонту та власників житла. Він має два сегменти клієнтів, перевірку виконавців як ключову діяльність, комісію з оплати як дохід і вирішення спорів як суттєву статтю витрат. Так стає видно, що сама розробка сайту не забезпечує бізнес-модель.",
+		"limitations": "Канва не показує повноцінно часові ризики, конкурентні відповіді та регулювання. Загальні фрази на кшталт «усі користувачі» приховують проблеми. Гарно заповнена схема не замінює фінансових розрахунків, перевірки попиту й управління."
+	}
+}

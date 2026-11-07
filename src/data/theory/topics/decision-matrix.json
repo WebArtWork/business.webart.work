@@ -1,0 +1,26 @@
+{
+	"slug": "decision-matrix",
+	"related": [
+		"bounded-rationality",
+		"second-order-thinking",
+		"opportunity-cost"
+	],
+	"en": {
+		"short": "Decision Matrix explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
+		"origin": "Weighted decision matrices have no single universally accepted inventor or origin date; they draw on multi-criteria decision analysis developed over decades. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
+		"core": "A decision matrix compares options against explicit criteria, sometimes with weights, to make trade-offs visible and discussions more consistent. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
+		"components": "Alternatives; criteria; weights; scoring scale; weighted totals; sensitivity checks; non-negotiable constraints. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
+		"apply": "List feasible options and remove those failing mandatory requirements. Agree on criteria before scoring. Assign weights, score with evidence, calculate totals and vary uncertain weights to see whether the ranking changes. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
+		"example": "A startup compares three cloud providers on reliability, price, regional availability and integration time. A matrix reveals that the cheapest option is not the best overall fit. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
+		"limitations": "Weights and scores can disguise subjective judgments as objective truth. A high total should not override legal, security or ethical constraints. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+	},
+	"ua": {
+		"short": "«Матриця рішень» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
+		"origin": "Матриці зваженого вибору не мають одного загальновизнаного автора чи дати появи; вони спираються на багатокритеріальний аналіз рішень, що розвивався десятиліттями. Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
+		"core": "Матриця рішень порівнює варіанти за визначеними критеріями, іноді з вагами, щоб зробити компроміси помітними й обговорення послідовним. Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
+		"components": "Альтернативи; критерії; ваги; шкала оцінювання; зважені підсумки; перевірка чутливості; обов’язкові обмеження. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
+		"apply": "Перелічіть реальні варіанти й відкиньте ті, що не відповідають обов’язковим вимогам. Узгодьте критерії до оцінювання. Призначте ваги, поставте оцінки на основі фактів, обчисліть підсумок і перевірте, чи зміниться рейтинг за інших ваг. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
+		"example": "Стартап порівнює трьох хмарних провайдерів за надійністю, ціною, доступністю регіонів і часом інтеграції. Матриця показує, що найдешевший варіант не обов’язково найкращий. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
+		"limitations": "Ваги й оцінки можуть маскувати суб’єктивні судження під точні дані. Високий бал не повинен переважувати юридичні, безпекові чи етичні обмеження. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+	}
+}

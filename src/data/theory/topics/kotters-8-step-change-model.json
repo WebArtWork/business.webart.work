@@ -1,0 +1,27 @@
+{
+	"slug": "kotters-8-step-change-model",
+	"related": [
+		"tuckmans-stages-of-team-development",
+		"organizational-culture-model",
+		"stakeholder-theory"
+	],
+	"en": {
+		"short": "Kotter's 8-Step Change Model offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
+		"origin": "John P. Kotter published the eight-step change process in his 1996 book Leading Change, building on an influential 1995 Harvard Business Review article. Later versions emphasize more iterative change. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
+		"core": "Major organizational change needs more than an announcement. People need a reason to act, a credible coalition, practical support, and evidence that progress is real. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
+		"components": "Eight steps: create urgency; build a guiding coalition; form a vision; enlist volunteers or communicate the vision; remove barriers; generate short-term wins; sustain acceleration; anchor change in culture. Wording varies by edition. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
+		"apply": "Diagnose why change is needed, involve credible staff, define measurable outcomes, pilot a small improvement, and remove policy or tooling blockers. Share results and revise the rollout based on feedback. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
+		"example": "A retailer moving to unified inventory pilots one region, trains store leaders, measures stock accuracy, celebrates reduced errors, then scales processes and changes incentives to sustain adoption. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
+		"limitations": "The steps can look too linear for fast-moving environments. Manufactured urgency can create fear, and visible wins can mask deeper problems. Adapt the sequence to context and feedback. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+	},
+	"ua": {
+		"short": "«Восьмикрокова модель змін Коттера» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
+		"origin": "Джон Коттер опублікував восьмикроковий процес у книжці «Leading Change» 1996 року, розвинувши статтю 1995 року в Harvard Business Review. Пізніші версії більше уваги приділяють ітераціям. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
+		"core": "Для значних організаційних змін недостатньо оголошення. Людям потрібні причина діяти, команда підтримки, практичні умови й докази реального поступу. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
+		"components": "Вісім кроків: створити відчуття необхідності; сформувати коаліцію; визначити бачення; залучити прихильників; прибрати перешкоди; забезпечити швидкі перемоги; підтримувати темп; закріпити зміни в культурі. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
+		"apply": "З’ясуйте причини змін, залучіть авторитетних працівників, визначте вимірювані результати, проведіть пілот і усуньте бар’єри в правилах та інструментах. Публікуйте результати й коригуйте впровадження. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
+		"example": "Мережа магазинів запускає єдиний облік запасів в одному регіоні, навчає керівників, вимірює точність залишків, показує зменшення помилок, а потім масштабує практику. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
+		"limitations": "Послідовність може бути надто лінійною для швидких змін. Штучна терміновість викликає страх, а швидкі перемоги приховують системні проблеми. Модель слід адаптувати. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
+		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+	}
+}

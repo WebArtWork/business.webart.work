@@ -1,0 +1,26 @@
+{
+	"slug": "product-market-fit",
+	"related": [
+		"lean-startup",
+		"minimum-viable-product",
+		"customer-development-model"
+	],
+	"en": {
+		"short": "Product-market fit means a product solves an important problem for a sufficiently large, reachable market. It matters because marketing and scaling rarely compensate for a product customers do not value enough to keep using.",
+		"origin": "The phrase is commonly associated with venture investor Andy Rachleff and was popularized by Marc Andreessen in a 2007 essay. There is no universally agreed date or single inventor of the underlying idea.",
+		"core": "Fit is an observed relationship between a defined market and a product that delivers value, not a certificate a founder can declare. Strong demand appears in repeat behavior, referrals, willingness to pay, and the disappointment users express when access disappears. Fit can be present in one segment and absent in another.",
+		"components": "The **target segment** defines whose problem matters. **Urgency and frequency** indicate how much value solving it creates. **Activation** shows whether people reach the first useful outcome. **Retention** reveals continued value. **Willingness to pay**, **referrals**, and **organic demand** provide additional evidence. The often-cited Sean Ellis survey asks how disappointed users would be without the product; its 40% benchmark is a heuristic, not a law.",
+		"apply": "Interview users who experienced the problem recently. Choose a narrow segment, offer one clear benefit, and instrument activation and cohort retention. Separate new users from repeat users; calculate retention by acquisition month rather than relying on total signups. Ask why satisfied users return and why others leave. Improve the core workflow before buying more traffic. Check whether acquisition costs and pricing could support a business.",
+		"example": "A scheduling app initially serves all service businesses but finds that independent physiotherapy clinics repeatedly use appointment reminders and pay to avoid missed visits. The team focuses on that segment and measures three-month retention before expanding.",
+		"limitations": "High engagement can reflect incentives, contracts, or lack of alternatives. Small samples mislead, survey responses are not purchases, and fit changes when competitors, regulations, or customer expectations change. A product can have fit yet still lack profitable unit economics."
+	},
+	"ua": {
+		"short": "Відповідність продукту ринку означає, що рішення закриває важливу потребу достатньої кількості клієнтів. Без цього масштабування здебільшого лише збільшує витрати.",
+		"origin": "Поняття пов’язують із венчурним інвестором Енді Реклеффом; широкої популярності йому надав Марк Андріссен у статті 2007 року. Єдиного загальновизнаного автора самої ідеї немає.",
+		"core": "Відповідність продукту ринку (product-market fit) існує тоді, коли конкретна група клієнтів регулярно отримує від продукту важливу користь. Це не статус, який можна оголосити після запуску. Ознаки відповідності — повторне використання, рекомендації, готовність платити та помітна втрата цінності для клієнта у разі закриття сервісу. Для різних сегментів результат може відрізнятися.",
+		"components": "**Цільовий сегмент (target segment)** визначає аудиторію. **Гострота проблеми** показує потребу. **Активація (activation)** — момент першої користі; **утримання (retention)** — повернення з часом. Додаткові сигнали: оплата, рекомендації та органічні звернення. Опитування Шона Елліса про розчарування через втрату продукту й орієнтир 40% — лише допоміжний індикатор, а не універсальний стандарт.",
+		"apply": "Проведіть інтерв’ю з людьми, які нещодавно стикалися з проблемою. Зосередьтеся на одному сегменті й одному результаті. Вимірюйте активацію та утримання за когортами, а не лише загальну кількість реєстрацій. З’ясуйте причини повернення й відмови. Вдоскональте основний сценарій до збільшення рекламного бюджету. Перевірте, чи ціна та витрати на залучення дозволяють заробляти.",
+		"example": "Сервіс запису клієнтів спочатку орієнтується на весь ринок послуг. Згодом команда бачить, що приватні фізіотерапевтичні кабінети регулярно використовують нагадування і готові платити за меншу кількість пропущених візитів. Розробники зосереджуються на цій ніші та перевіряють утримання протягом трьох місяців.",
+		"limitations": "Висока активність інколи пояснюється знижками або відсутністю альтернатив. Невелика вибірка спотворює висновки, а позитивні відповіді в опитуванні не дорівнюють оплаті. Навіть за наявності попиту бізнес може залишатися збитковим. Зміни ринку також здатні зруйнувати досягнуту відповідність."
+	}
+}

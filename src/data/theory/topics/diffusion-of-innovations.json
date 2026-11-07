@@ -1,0 +1,26 @@
+{
+	"slug": "diffusion-of-innovations",
+	"related": [
+		"crossing-the-chasm",
+		"product-market-fit",
+		"network-effects"
+	],
+	"en": {
+		"short": "Diffusion of innovations explains how new ideas and products spread through a social system over time. It helps teams understand why early enthusiasts adopt differently from cautious mainstream customers.",
+		"origin": "Everett Rogers synthesized research on the spread of innovations in his 1962 book *Diffusion of Innovations*. His framework builds on earlier work in sociology, agriculture, and communication research.",
+		"core": "Adoption is a social process, not just an individual purchase decision. People learn about an innovation, evaluate it through their circumstances and peers, decide whether to try it, and may continue or abandon its use. Product characteristics and communication channels influence how quickly adoption spreads.",
+		"components": "Rogers described **innovators**, **early adopters**, **early majority**, **late majority**, and **laggards** as adopter categories within a population; their commonly cited approximate shares are 2.5%, 13.5%, 34%, 34%, and 16% under a normal-distribution convention, not universal market measurements. Adoption is influenced by **relative advantage**, **compatibility**, **complexity**, **trialability**, and **observability**. Communication channels, time, and the social system also shape diffusion. The innovation-decision process includes knowledge, persuasion, decision, implementation, and confirmation.",
+		"apply": "Specify the customer population rather than assuming everyone belongs to the same adoption curve. Interview early users about motivations and obstacles. Make benefits easy to demonstrate, reduce learning effort, and offer low-risk trials where possible. Use trusted peer references to reach more cautious segments. Track activation, repeated use, referrals, and adoption by segment instead of relying only on sign-ups.",
+		"example": "A restaurant introduces QR ordering. Tech-friendly customers try it immediately; others adopt after seeing staff assistance, reliable payments, and familiar guests using it successfully.",
+		"limitations": "Adoption categories are descriptive averages, not labels for individual personalities. Diffusion can stall or reverse, and some markets do not follow a smooth S-shaped curve. Social inequality and access barriers can affect who adopts."
+	},
+	"ua": {
+		"short": "Дифузія інновацій описує, як нові продукти та ідеї поширюються серед людей із часом. Вона допомагає зрозуміти, чому перші користувачі швидко експериментують, а масовий ринок потребує більше доказів і довіри.",
+		"origin": "Еверетт Роджерс узагальнив дослідження поширення інновацій (diffusion of innovations) у книжці 1962 року. Він спирався на попередні роботи із соціології, сільського господарства та комунікацій.",
+		"core": "Люди рідко приймають новий продукт одночасно. Вони дізнаються про нього, оцінюють переваги, спостерігають за іншими, пробують і вирішують, чи користуватися далі. На швидкість поширення впливають властивості продукту, довіра між людьми та доступні канали комунікації.",
+		"components": "Роджерс виділив **новаторів (innovators)**, **ранніх послідовників (early adopters)**, **ранню більшість (early majority)**, **пізню більшість (late majority)** та **консервативних користувачів (laggards)**. У класичній умовній моделі їхні частки становлять приблизно 2,5%, 13,5%, 34%, 34% і 16%; це не обов'язкові пропорції для кожного ринку. На рішення впливають **відносна перевага**, **сумісність із потребами**, **складність**, **можливість випробування** та **помітність результатів**. Процес прийняття включає ознайомлення, формування ставлення, рішення, використання й підтвердження вибору.",
+		"apply": "Чітко визначте аудиторію. Дослідіть, чому перші користувачі спробували продукт і що заважає іншим. Демонструйте практичну користь, спрощуйте перші кроки та пропонуйте безпечне тестування. Збирайте рекомендації від людей, яким довіряє цільова аудиторія. Вимірюйте не тільки реєстрації, а й повторне використання та рекомендації.",
+		"example": "Ресторан запроваджує замовлення через QR-код. Частина відвідувачів користується ним одразу. Інші погоджуються після допомоги персоналу, кількох вдалих оплат і прикладу знайомих.",
+		"limitations": "Категорії описують закономірності груп, а не незмінні типи особистостей. Поширення може зупинитися; доступність технології та соціальні бар'єри теж мають значення. Не варто автоматично переносити ці відсотки на конкретну країну, вікову групу або категорію товарів без окремого дослідження ринку та його особливостей."
+	}
+}

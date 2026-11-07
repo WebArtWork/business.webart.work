@@ -1,0 +1,26 @@
+{
+	"slug": "lean-management",
+	"related": [
+		"theory-of-constraints",
+		"kaizen",
+		"just-in-time"
+	],
+	"en": {
+		"short": "Create more customer value with less waste by improving the flow of work and learning continuously. Waste includes unnecessary waiting, movement, inventory and rework. Interview customers about value, map each handoff, measure delays and defects, remove unnecessary steps, and test small improvements with the team.",
+		"origin": "Lean grew from the Toyota Production System developed in postwar Japan, especially work associated with Taiichi Ohno and Eiji Toyoda. The term “lean production” became prominent in research published around 1990. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
+		"core": "Create more customer value with less waste by improving the flow of work and learning continuously. Waste includes unnecessary waiting, movement, inventory and rework. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
+		"components": "Specify value, map the value stream, create flow, use pull where suitable, and pursue perfection. Respect for people and problem solving are essential, not optional slogans. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
+		"apply": "Interview customers about value, map each handoff, measure delays and defects, remove unnecessary steps, and test small improvements with the team. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
+		"example": "An online retailer reduces duplicate data entry and unnecessary approval steps. Orders move faster with fewer mistakes without requiring employees to work longer hours. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
+		"limitations": "Cost cutting alone is not lean. Overly thin buffers can reduce resilience, and tools copied without employee participation often fail. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+	},
+	"ua": {
+		"short": "Мета — створювати більше цінності для клієнта, усуваючи втрати й постійно покращуючи потік роботи. Втрати — це очікування, зайві переміщення, запаси та перероблення. Запитайте клієнтів, що для них важливо; намалюйте шлях замовлення; виміряйте затримки й помилки; приберіть зайві кроки; перевіряйте невеликі зміни разом із командою.",
+		"origin": "Ощадливе управління (Lean Management) виросло з виробничої системи Toyota, створеної в повоєнній Японії, зокрема завдяки Тайіті Оно та Ейдзі Тойоді. Термін «lean production» набув поширення приблизно 1990 року. Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
+		"core": "Мета — створювати більше цінності для клієнта, усуваючи втрати й постійно покращуючи потік роботи. Втрати — це очікування, зайві переміщення, запаси та перероблення. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
+		"components": "Визначення цінності, карта потоку створення цінності (value stream), безперервний потік, робота за попитом (pull) і постійне вдосконалення. Повага до працівників — важлива частина підходу. Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
+		"apply": "Запитайте клієнтів, що для них важливо; намалюйте шлях замовлення; виміряйте затримки й помилки; приберіть зайві кроки; перевіряйте невеликі зміни разом із командою. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
+		"example": "Інтернет-магазин прибирає повторне введення даних і зайві погодження. Замовлення обробляються швидше, а помилок стає менше без збільшення робочого часу. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
+		"limitations": "Просте скорочення витрат не є Lean. Надто малі резерви погіршують стійкість, а копіювання інструментів без участі команди часто не працює. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+	}
+}

@@ -1,0 +1,1340 @@
+{
+	"modules": [
+		{
+			"slug": "01-strategy-competition",
+			"title": {
+				"en": "Strategy & Competition",
+				"ua": "Стратегія та конкуренція"
+			},
+			"summary": {
+				"en": "Understand industries, competitors and where a company can win.",
+				"ua": "Розберіться в галузях, конкурентах і в тому, де компанія може виграти."
+			}
+		},
+		{
+			"slug": "02-innovation-startups",
+			"title": {
+				"en": "Innovation & Startups",
+				"ua": "Інновації та стартапи"
+			},
+			"summary": {
+				"en": "Find a real problem, test ideas cheaply and reach product-market fit.",
+				"ua": "Знайдіть справжню проблему, дешево перевіряйте ідеї й досягайте відповідності продукту ринку."
+			}
+		},
+		{
+			"slug": "03-platforms-scale",
+			"title": {
+				"en": "Platforms, Networks & Scale",
+				"ua": "Платформи, мережі та масштаб"
+			},
+			"summary": {
+				"en": "See why some businesses grow stronger as they get bigger.",
+				"ua": "Зрозумійте, чому деякі бізнеси стають сильнішими зі зростанням."
+			}
+		},
+		{
+			"slug": "04-marketing-customers",
+			"title": {
+				"en": "Marketing & Customers",
+				"ua": "Маркетинг і клієнти"
+			},
+			"summary": {
+				"en": "Choose customers, position the offer, set prices and keep customers coming back.",
+				"ua": "Обирайте клієнтів, позиціонуйте пропозицію, встановлюйте ціни й утримуйте клієнтів."
+			}
+		},
+		{
+			"slug": "05-economics-finance",
+			"title": {
+				"en": "Economics & Finance",
+				"ua": "Економіка та фінанси"
+			},
+			"summary": {
+				"en": "Read the numbers behind every decision: costs, margins, cash and returns.",
+				"ua": "Розумійте цифри за кожним рішенням: витрати, маржу, гроші й віддачу."
+			}
+		},
+		{
+			"slug": "06-operations-execution",
+			"title": {
+				"en": "Operations & Execution",
+				"ua": "Операції та виконання"
+			},
+			"summary": {
+				"en": "Turn plans into results with focus, measurement and continuous improvement.",
+				"ua": "Перетворюйте плани на результати завдяки фокусу, вимірюванню й постійному вдосконаленню."
+			}
+		},
+		{
+			"slug": "07-organization-leadership",
+			"title": {
+				"en": "Organization & Leadership",
+				"ua": "Організація та лідерство"
+			},
+			"summary": {
+				"en": "Motivate people, build teams and lead change.",
+				"ua": "Мотивуйте людей, будуйте команди й ведіть зміни."
+			}
+		},
+		{
+			"slug": "08-behavioral-decisions",
+			"title": {
+				"en": "Behavioral & Decision Making",
+				"ua": "Поведінка та ухвалення рішень"
+			},
+			"summary": {
+				"en": "Spot the biases in judgement and make clearer decisions.",
+				"ua": "Помічайте упередження в судженнях і ухвалюйте чіткіші рішення."
+			}
+		}
+	],
+	"topics": [
+		{
+			"number": 1,
+			"slug": "porters-five-forces",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Porter’s Five Forces",
+				"ua": "П’ять сил Портера"
+			},
+			"summary": {
+				"en": "Porter’s Five Forces is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "П’ять сил Портера — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 2,
+			"slug": "porters-generic-strategies",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Porter’s Generic Strategies",
+				"ua": "Загальні конкурентні стратегії Портера"
+			},
+			"summary": {
+				"en": "Porter’s Generic Strategies is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "Загальні конкурентні стратегії Портера — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 3,
+			"slug": "value-chain-analysis",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Value Chain Analysis",
+				"ua": "Аналіз ланцюга створення вартості"
+			},
+			"summary": {
+				"en": "Value Chain Analysis is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "Аналіз ланцюга створення вартості — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 4,
+			"slug": "swot-analysis",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "SWOT Analysis",
+				"ua": "SWOT-аналіз"
+			},
+			"summary": {
+				"en": "SWOT Analysis is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "SWOT-аналіз — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 5,
+			"slug": "pestel-analysis",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "PESTEL Analysis",
+				"ua": "PESTEL-аналіз"
+			},
+			"summary": {
+				"en": "PESTEL Analysis is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "PESTEL-аналіз — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 6,
+			"slug": "resource-based-view",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Resource-Based View (RBV)",
+				"ua": "Ресурсний підхід (RBV)"
+			},
+			"summary": {
+				"en": "Resource-Based View (RBV) is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "Ресурсний підхід (RBV) — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 7,
+			"slug": "vrio-framework",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "VRIO Framework",
+				"ua": "Модель VRIO"
+			},
+			"summary": {
+				"en": "VRIO Framework is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "Модель VRIO — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 8,
+			"slug": "core-competencies-theory",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Core Competencies Theory",
+				"ua": "Теорія ключових компетенцій"
+			},
+			"summary": {
+				"en": "Core Competencies Theory is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "Теорія ключових компетенцій — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 9,
+			"slug": "blue-ocean-strategy",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Blue Ocean Strategy",
+				"ua": "Стратегія блакитного океану"
+			},
+			"summary": {
+				"en": "Blue Ocean Strategy is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "Стратегія блакитного океану — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 10,
+			"slug": "ansoff-matrix",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Ansoff Matrix",
+				"ua": "Матриця Ансоффа"
+			},
+			"summary": {
+				"en": "Ansoff Matrix is a strategic framework for understanding how businesses compete and make decisions.",
+				"ua": "Матриця Ансоффа — інструмент для обґрунтованих управлінських рішень."
+			}
+		},
+		{
+			"number": 11,
+			"slug": "bcg-growth-share-matrix",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "BCG Growth-Share Matrix",
+				"ua": "Матриця зростання та частки ринку BCG"
+			},
+			"summary": {
+				"en": "The BCG matrix groups a company's products or business units by market growth and relative market share.",
+				"ua": "Матриця BCG розподіляє продукти або бізнес-напрями за темпом зростання ринку та відносною часткою компанії."
+			}
+		},
+		{
+			"number": 12,
+			"slug": "ge-mckinsey-nine-box-matrix",
+			"module": "01-strategy-competition",
+			"minutes": 1,
+			"title": {
+				"en": "GE-McKinsey Nine-Box Matrix",
+				"ua": "Дев'ятиклітинкова матриця GE-McKinsey"
+			},
+			"summary": {
+				"en": "The GE-McKinsey matrix compares industry attractiveness with a business unit's competitive strength.",
+				"ua": "Матриця GE-McKinsey оцінює бізнес-напрями за привабливістю галузі та конкурентною силою компанії."
+			}
+		},
+		{
+			"number": 13,
+			"slug": "game-theory-in-business",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Game Theory in Business",
+				"ua": "Теорія ігор у бізнесі"
+			},
+			"summary": {
+				"en": "Game theory studies decisions whose outcomes depend on what other participants choose.",
+				"ua": "Теорія ігор пояснює ситуації, у яких результат рішення залежить від дій інших учасників."
+			}
+		},
+		{
+			"number": 14,
+			"slug": "first-mover-advantage",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "First-Mover Advantage",
+				"ua": "Перевага першопрохідця"
+			},
+			"summary": {
+				"en": "First-mover advantage describes benefits a company may gain by entering a market before competitors.",
+				"ua": "Перевага першопрохідця виникає, коли компанія раніше за конкурентів виходить на ринок і встигає закріпити цінні позиції."
+			}
+		},
+		{
+			"number": 15,
+			"slug": "economic-moats",
+			"module": "01-strategy-competition",
+			"minutes": 2,
+			"title": {
+				"en": "Economic Moats",
+				"ua": "Економічні захисні переваги"
+			},
+			"summary": {
+				"en": "An economic moat is a durable advantage that protects a company's profits from competition.",
+				"ua": "Економічний захисний бар'єр — це стійка перевага, яка допомагає компанії зберігати прибутковість попри конкуренцію."
+			}
+		},
+		{
+			"number": 16,
+			"slug": "disruptive-innovation-theory",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Disruptive Innovation Theory",
+				"ua": "Теорія підривних інновацій"
+			},
+			"summary": {
+				"en": "Disruptive innovation explains how entrants can begin with simpler or cheaper offerings for overlooked customers and eventually challenge established companies.",
+				"ua": "Теорія підривних інновацій пояснює, як новачок може почати з простішого й доступнішого продукту для недооцінених клієнтів, а згодом кинути виклик лідерам ринку."
+			}
+		},
+		{
+			"number": 17,
+			"slug": "diffusion-of-innovations",
+			"module": "02-innovation-startups",
+			"minutes": 1,
+			"title": {
+				"en": "Diffusion of Innovations",
+				"ua": "Дифузія інновацій"
+			},
+			"summary": {
+				"en": "Diffusion of innovations explains how new ideas and products spread through a social system over time.",
+				"ua": "Дифузія інновацій описує, як нові продукти та ідеї поширюються серед людей із часом."
+			}
+		},
+		{
+			"number": 18,
+			"slug": "crossing-the-chasm",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Crossing the Chasm",
+				"ua": "Подолання прірви"
+			},
+			"summary": {
+				"en": "Crossing the Chasm describes the challenge of moving a technology product from enthusiastic early adopters to pragmatic mainstream buyers.",
+				"ua": "Модель подолання прірви пояснює, чому технологічному продукту важко перейти від захоплених перших клієнтів до прагматичної більшості."
+			}
+		},
+		{
+			"number": 19,
+			"slug": "lean-startup",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Lean Startup (Build–Measure–Learn)",
+				"ua": "Ощадливий стартап (Створити — Виміряти — Навчитися)"
+			},
+			"summary": {
+				"en": "Lean Startup treats a new business idea as a set of assumptions to test through small experiments.",
+				"ua": "Підхід ощадливого стартапу пропонує перевіряти бізнес-ідеї невеликими експериментами замість тривалої розробки на основі припущень."
+			}
+		},
+		{
+			"number": 20,
+			"slug": "minimum-viable-product",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Minimum Viable Product (MVP)",
+				"ua": "Мінімально життєздатний продукт (MVP)"
+			},
+			"summary": {
+				"en": "A minimum viable product is the smallest product or experiment that can generate useful learning about a customer need with reasonable effort.",
+				"ua": "Мінімально життєздатний продукт — це найменше рішення або експеримент, який дає змогу перевірити важливу потребу клієнтів."
+			}
+		},
+		{
+			"number": 21,
+			"slug": "product-market-fit",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Product-Market Fit",
+				"ua": "Відповідність продукту ринку"
+			},
+			"summary": {
+				"en": "Product-market fit means a product solves an important problem for a sufficiently large, reachable market.",
+				"ua": "Відповідність продукту ринку означає, що рішення закриває важливу потребу достатньої кількості клієнтів."
+			}
+		},
+		{
+			"number": 22,
+			"slug": "jobs-to-be-done",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Jobs to Be Done (JTBD)",
+				"ua": "Теорія завдань клієнта (JTBD)"
+			},
+			"summary": {
+				"en": "Jobs to Be Done studies the progress customers seek when they choose a product or service.",
+				"ua": "Теорія завдань клієнта пояснює, якого результату люди прагнуть, обираючи товар чи послугу."
+			}
+		},
+		{
+			"number": 23,
+			"slug": "customer-development-model",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Customer Development Model",
+				"ua": "Модель розвитку клієнтів"
+			},
+			"summary": {
+				"en": "Customer Development is a process for testing who customers are, what they need, and how a business can reach them.",
+				"ua": "Модель розвитку клієнтів пропонує перевіряти потреби, попит і канали продажу до масштабування бізнесу."
+			}
+		},
+		{
+			"number": 24,
+			"slug": "business-model-canvas",
+			"module": "02-innovation-startups",
+			"minutes": 1,
+			"title": {
+				"en": "Business Model Canvas",
+				"ua": "Канва бізнес-моделі"
+			},
+			"summary": {
+				"en": "The Business Model Canvas maps how an organization creates, delivers, and captures value on one page.",
+				"ua": "Канва бізнес-моделі показує на одній сторінці, як компанія створює цінність, доставляє її клієнтам і заробляє."
+			}
+		},
+		{
+			"number": 25,
+			"slug": "lean-canvas",
+			"module": "02-innovation-startups",
+			"minutes": 1,
+			"title": {
+				"en": "Lean Canvas",
+				"ua": "Ощадлива канва"
+			},
+			"summary": {
+				"en": "Lean Canvas adapts the one-page business-model map to the uncertainty of early-stage startups.",
+				"ua": "Ощадлива канва допомагає стартапу швидко описати проблему, рішення та спосіб заробітку."
+			}
+		},
+		{
+			"number": 26,
+			"slug": "value-proposition-canvas",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Value Proposition Canvas",
+				"ua": "Канва ціннісної пропозиції"
+			},
+			"summary": {
+				"en": "The Value Proposition Canvas compares what customers need with how a product creates value.",
+				"ua": "Канва ціннісної пропозиції допомагає зіставити потреби клієнта з користю продукту."
+			}
+		},
+		{
+			"number": 27,
+			"slug": "effectuation-theory",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Effectuation Theory",
+				"ua": "Теорія ефектуації"
+			},
+			"summary": {
+				"en": "Effectuation explains how entrepreneurs make decisions when the future cannot be reliably predicted.",
+				"ua": "Теорія ефектуації пояснює, як підприємці діють за високої невизначеності."
+			}
+		},
+		{
+			"number": 28,
+			"slug": "innovators-dilemma",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Innovator's Dilemma",
+				"ua": "Дилема інноватора"
+			},
+			"summary": {
+				"en": "The Innovator's Dilemma describes why well-managed incumbent companies may lose to simpler or initially weaker technologies.",
+				"ua": "Дилема інноватора пояснює, чому успішні компанії іноді програють новим гравцям."
+			}
+		},
+		{
+			"number": 29,
+			"slug": "hype-cycle",
+			"module": "02-innovation-startups",
+			"minutes": 2,
+			"title": {
+				"en": "Hype Cycle",
+				"ua": "Цикл ажіотажу"
+			},
+			"summary": {
+				"en": "The Hype Cycle is a model for how expectations around emerging technologies may rise, collapse, and eventually stabilize.",
+				"ua": "Цикл ажіотажу показує, як очікування від нових технологій можуть різко зростати, розчаровувати й поступово ставати реалістичними."
+			}
+		},
+		{
+			"number": 30,
+			"slug": "network-effects",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Network Effects",
+				"ua": "Мережеві ефекти"
+			},
+			"summary": {
+				"en": "Network effects occur when a product becomes more valuable to a user as more relevant participants join or interact.",
+				"ua": "Мережевий ефект виникає, коли цінність сервісу для користувача зростає завдяки участі інших людей або компаній."
+			}
+		},
+		{
+			"number": 31,
+			"slug": "two-sided-multi-sided-markets",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Two-Sided / Multi-Sided Markets",
+				"ua": "Двосторонні та багатосторонні ринки"
+			},
+			"summary": {
+				"en": "A platform serves two or more distinct groups whose participation creates value for one another.",
+				"ua": "Платформа обслуговує дві чи більше групи, участь яких створює цінність одна для одної."
+			}
+		},
+		{
+			"number": 32,
+			"slug": "platform-business-model",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Platform Business Model",
+				"ua": "Платформна бізнес-модель"
+			},
+			"summary": {
+				"en": "Instead of producing all value internally, the business enables other participants to exchange goods, services or information under shared rules.",
+				"ua": "Замість самостійно створювати всю цінність компанія організовує обмін товарами, послугами чи інформацією між учасниками за спільними правилами."
+			}
+		},
+		{
+			"number": 33,
+			"slug": "economies-of-scale",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Economies of Scale",
+				"ua": "Економія на масштабі"
+			},
+			"summary": {
+				"en": "Average cost per unit can fall as output grows because fixed costs spread and processes become more efficient.",
+				"ua": "Середня собівартість одиниці може зменшуватися зі зростанням випуску, бо постійні витрати розподіляються на більше продукції, а процеси стають ефективнішими."
+			}
+		},
+		{
+			"number": 34,
+			"slug": "economies-of-scope",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Economies of Scope",
+				"ua": "Економія на різноманітності"
+			},
+			"summary": {
+				"en": "Producing several related offerings together can cost less than producing each separately when resources can be shared.",
+				"ua": "Спільне виробництво кількох пов’язаних продуктів може коштувати дешевше, ніж окреме, якщо вони використовують спільні ресурси."
+			}
+		},
+		{
+			"number": 35,
+			"slug": "long-tail-theory",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Long Tail Theory",
+				"ua": "Теорія довгого хвоста"
+			},
+			"summary": {
+				"en": "Many niche products can collectively generate meaningful demand when digital distribution makes them easy to find and inexpensive to stock.",
+				"ua": "Велика кількість нішевих товарів може разом створювати значний попит, коли цифрова дистрибуція спрощує пошук і здешевлює зберігання."
+			}
+		},
+		{
+			"number": 36,
+			"slug": "flywheel-effect",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Flywheel Effect",
+				"ua": "Ефект маховика"
+			},
+			"summary": {
+				"en": "Several reinforcing activities create momentum: improvement in one step strengthens the next, which feeds back into the first.",
+				"ua": "Кілька взаємопідсилювальних дій створюють інерцію зростання: поліпшення одного етапу посилює наступний, а результат повертається на початок циклу."
+			}
+		},
+		{
+			"number": 37,
+			"slug": "winner-takes-all-markets",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Winner-Takes-All Markets",
+				"ua": "Ринки, де переможець отримує майже все"
+			},
+			"summary": {
+				"en": "Small differences in performance or adoption can lead to disproportionately large differences in market share or rewards.",
+				"ua": "Невеликі відмінності в якості чи поширенні продукту можуть спричиняти непропорційно великі відмінності в частці ринку та винагороді."
+			}
+		},
+		{
+			"number": 38,
+			"slug": "switching-costs-and-lock-in",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Switching Costs & Lock-In",
+				"ua": "Витрати на перехід та прив’язка до постачальника"
+			},
+			"summary": {
+				"en": "Customers may stay with a supplier because moving to an alternative requires money, time, learning or lost connections.",
+				"ua": "Клієнти можуть залишатися з постачальником, оскільки перехід до іншого потребує грошей, часу, навчання або втрати зв’язків."
+			}
+		},
+		{
+			"number": 39,
+			"slug": "aggregation-theory",
+			"module": "03-platforms-scale",
+			"minutes": 2,
+			"title": {
+				"en": "Aggregation Theory",
+				"ua": "Теорія агрегаторів"
+			},
+			"summary": {
+				"en": "Digital aggregators own customer relationships and demand discovery, then connect that demand to many suppliers whose distribution depends on the aggregator.",
+				"ua": "Цифрові агрегатори контролюють взаємодію з клієнтами та пошук пропозицій, а потім спрямовують попит до багатьох постачальників, які залежать від цього каналу."
+			}
+		},
+		{
+			"number": 40,
+			"slug": "marketing-mix",
+			"module": "04-marketing-customers",
+			"minutes": 2,
+			"title": {
+				"en": "Marketing Mix (4Ps / 7Ps)",
+				"ua": "Маркетинговий комплекс (4P / 7P)"
+			},
+			"summary": {
+				"en": "Marketing decisions must fit together across the offer, price, distribution and promotion; services also depend on people, processes and physical evidence.",
+				"ua": "Маркетингові рішення мають узгоджувати продукт, ціну, канали продажу й просування; для послуг важливі також люди, процеси та матеріальні свідчення якості."
+			}
+		},
+		{
+			"number": 41,
+			"slug": "stp",
+			"module": "04-marketing-customers",
+			"minutes": 2,
+			"title": {
+				"en": "STP (Segmentation, Targeting, Positioning)",
+				"ua": "STP (сегментування, вибір цільового ринку, позиціювання)"
+			},
+			"summary": {
+				"en": "STP turns a broad market into specific customer groups, selects those worth serving, and defines a clear place for the offer in their minds.",
+				"ua": "STP допомагає поділити ринок на групи клієнтів, обрати найперспективніші та сформулювати зрозумілу пропозицію для кожної."
+			}
+		},
+		{
+			"number": 42,
+			"slug": "customer-lifetime-value",
+			"module": "04-marketing-customers",
+			"minutes": 2,
+			"title": {
+				"en": "Customer Lifetime Value (CLV/LTV)",
+				"ua": "Пожиттєва цінність клієнта (CLV/LTV)"
+			},
+			"summary": {
+				"en": "Customer lifetime value estimates the economic value a customer contributes over the relationship with a company.",
+				"ua": "Пожиттєва цінність клієнта показує, скільки економічної користі приносить клієнт за весь період співпраці."
+			}
+		},
+		{
+			"number": 43,
+			"slug": "aarrr-pirate-metrics",
+			"module": "04-marketing-customers",
+			"minutes": 1,
+			"title": {
+				"en": "AARRR Pirate Metrics",
+				"ua": "Метрики AARRR («піратська» воронка)"
+			},
+			"summary": {
+				"en": "AARRR groups startup growth into acquisition, activation, retention, referral and revenue.",
+				"ua": "AARRR розкладає зростання продукту на залучення, активацію, утримання, рекомендації та дохід."
+			}
+		},
+		{
+			"number": 44,
+			"slug": "aida-model",
+			"module": "04-marketing-customers",
+			"minutes": 1,
+			"title": {
+				"en": "AIDA Model",
+				"ua": "Модель AIDA"
+			},
+			"summary": {
+				"en": "AIDA describes a possible progression from attention to interest, desire and action in marketing communication.",
+				"ua": "AIDA описує шлях від уваги до інтересу, бажання й дії в маркетинговому повідомленні."
+			}
+		},
+		{
+			"number": 45,
+			"slug": "customer-journey-mapping",
+			"module": "04-marketing-customers",
+			"minutes": 1,
+			"title": {
+				"en": "Customer Journey Mapping",
+				"ua": "Картування шляху клієнта"
+			},
+			"summary": {
+				"en": "Customer journey mapping visualizes what customers do, think and experience across interactions with a business.",
+				"ua": "Карта шляху клієнта показує дії, очікування та труднощі людини під час взаємодії з компанією."
+			}
+		},
+		{
+			"number": 46,
+			"slug": "brand-equity-model",
+			"module": "04-marketing-customers",
+			"minutes": 1,
+			"title": {
+				"en": "Brand Equity Model",
+				"ua": "Модель капіталу бренду"
+			},
+			"summary": {
+				"en": "Brand equity is the extra value associated with a recognizable brand beyond the product’s functional features.",
+				"ua": "Капітал бренду — це додаткова цінність, яку назва й репутація створюють понад властивості самого продукту."
+			}
+		},
+		{
+			"number": 47,
+			"slug": "positioning-theory",
+			"module": "04-marketing-customers",
+			"minutes": 1,
+			"title": {
+				"en": "Positioning Theory",
+				"ua": "Теорія позиціювання"
+			},
+			"summary": {
+				"en": "Positioning is the deliberate effort to make an offer occupy a distinct, relevant place in a customer’s mind relative to alternatives.",
+				"ua": "Позиціювання допомагає закріпити у свідомості клієнта чітку відмінність продукту від альтернатив."
+			}
+		},
+		{
+			"number": 48,
+			"slug": "freemium-model",
+			"module": "04-marketing-customers",
+			"minutes": 1,
+			"title": {
+				"en": "Freemium Model",
+				"ua": "Модель Freemium"
+			},
+			"summary": {
+				"en": "Freemium gives users a useful free product while charging for additional value, capacity or features.",
+				"ua": "Freemium дає клієнтам корисну безкоштовну версію продукту, а за розширені можливості пропонує платити."
+			}
+		},
+		{
+			"number": 49,
+			"slug": "pricing-strategy-theories",
+			"module": "04-marketing-customers",
+			"minutes": 2,
+			"title": {
+				"en": "Pricing Strategy Theories (Value-Based, Cost-Plus, Penetration, Skimming)",
+				"ua": "Стратегії ціноутворення (ціннісна, витратна, проникнення, «зняття вершків»)"
+			},
+			"summary": {
+				"en": "Pricing strategies explain different ways to set and change prices based on costs, customer value and market goals.",
+				"ua": "Стратегії ціноутворення допомагають встановлювати ціну з урахуванням витрат, цінності для покупця та цілей компанії."
+			}
+		},
+		{
+			"number": 50,
+			"slug": "price-elasticity-of-demand",
+			"module": "04-marketing-customers",
+			"minutes": 2,
+			"title": {
+				"en": "Price Elasticity of Demand",
+				"ua": "Цінова еластичність попиту"
+			},
+			"summary": {
+				"en": "Price elasticity of demand measures how strongly quantity demanded changes when price changes.",
+				"ua": "Цінова еластичність попиту показує, наскільки змінюється кількість покупок у відповідь на зміну ціни."
+			}
+		},
+		{
+			"number": 51,
+			"slug": "supply-and-demand",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Supply and Demand",
+				"ua": "Попит і пропозиція"
+			},
+			"summary": {
+				"en": "Supply and Demand helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Попит і пропозиція» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 52,
+			"slug": "unit-economics",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Unit Economics",
+				"ua": "Юніт-економіка"
+			},
+			"summary": {
+				"en": "Unit Economics helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Юніт-економіка» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 53,
+			"slug": "break-even-analysis",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Break-Even Analysis",
+				"ua": "Аналіз точки беззбитковості"
+			},
+			"summary": {
+				"en": "Break-Even Analysis helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Аналіз точки беззбитковості» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 54,
+			"slug": "opportunity-cost",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Opportunity Cost",
+				"ua": "Альтернативна вартість"
+			},
+			"summary": {
+				"en": "Opportunity Cost helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Альтернативна вартість» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 55,
+			"slug": "sunk-cost-fallacy",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Sunk Cost Fallacy",
+				"ua": "Помилка неповернених витрат"
+			},
+			"summary": {
+				"en": "Sunk Cost Fallacy helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Помилка неповернених витрат» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 56,
+			"slug": "transaction-cost-economics",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Transaction Cost Economics",
+				"ua": "Економіка трансакційних витрат"
+			},
+			"summary": {
+				"en": "Transaction Cost Economics helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Економіка трансакційних витрат» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 57,
+			"slug": "agency-theory",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Agency Theory",
+				"ua": "Агентська теорія"
+			},
+			"summary": {
+				"en": "Agency Theory helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Агентська теорія» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 58,
+			"slug": "time-value-of-money",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Time Value of Money",
+				"ua": "Часова вартість грошей"
+			},
+			"summary": {
+				"en": "Time Value of Money helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Часова вартість грошей» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 59,
+			"slug": "return-on-investment",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Return on Investment (ROI)",
+				"ua": "Рентабельність інвестицій"
+			},
+			"summary": {
+				"en": "Return on Investment (ROI) helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Рентабельність інвестицій» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 60,
+			"slug": "cash-flow-cycle",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Cash Flow Cycle",
+				"ua": "Цикл руху грошових коштів"
+			},
+			"summary": {
+				"en": "Cash Flow Cycle helps managers understand a specific economic decision and the trade-offs behind it.",
+				"ua": "«Цикл руху грошових коштів» допомагає керівникам оцінювати економічні рішення та пов’язані з ними компроміси."
+			}
+		},
+		{
+			"number": 61,
+			"slug": "marginal-cost-and-marginal-revenue",
+			"module": "05-economics-finance",
+			"minutes": 2,
+			"title": {
+				"en": "Marginal Cost and Marginal Revenue",
+				"ua": "Граничні витрати та граничний дохід"
+			},
+			"summary": {
+				"en": "Marginal cost (MC) is the extra cost of producing one more unit; marginal revenue (MR) is the extra revenue from selling it.",
+				"ua": "Граничні витрати (marginal cost, MC) — додаткові витрати на ще одну одиницю."
+			}
+		},
+		{
+			"number": 62,
+			"slug": "pareto-principle",
+			"module": "05-economics-finance",
+			"minutes": 1,
+			"title": {
+				"en": "Pareto Principle (80/20 Rule)",
+				"ua": "Принцип Парето (правило 80/20)"
+			},
+			"summary": {
+				"en": "A minority of causes often accounts for a large share of outcomes.",
+				"ua": "Невелика частина причин часто формує значну частину результату."
+			}
+		},
+		{
+			"number": 63,
+			"slug": "theory-of-constraints",
+			"module": "06-operations-execution",
+			"minutes": 2,
+			"title": {
+				"en": "Theory of Constraints",
+				"ua": "Теорія обмежень"
+			},
+			"summary": {
+				"en": "The performance of a system is limited by its most restrictive constraint.",
+				"ua": "Результативність системи визначає її найвужче місце."
+			}
+		},
+		{
+			"number": 64,
+			"slug": "lean-management",
+			"module": "06-operations-execution",
+			"minutes": 2,
+			"title": {
+				"en": "Lean Management",
+				"ua": "Ощадливе управління"
+			},
+			"summary": {
+				"en": "Create more customer value with less waste by improving the flow of work and learning continuously.",
+				"ua": "Мета — створювати більше цінності для клієнта, усуваючи втрати й постійно покращуючи потік роботи."
+			}
+		},
+		{
+			"number": 65,
+			"slug": "six-sigma",
+			"module": "06-operations-execution",
+			"minutes": 2,
+			"title": {
+				"en": "Six Sigma",
+				"ua": "Шість сигм (Six Sigma)"
+			},
+			"summary": {
+				"en": "Reduce variation and defects through measurement, analysis and disciplined process improvement.",
+				"ua": "Мета — зменшувати мінливість процесів і кількість дефектів за допомогою вимірювань, аналізу та системного вдосконалення."
+			}
+		},
+		{
+			"number": 66,
+			"slug": "kaizen",
+			"module": "06-operations-execution",
+			"minutes": 2,
+			"title": {
+				"en": "Kaizen (Continuous Improvement)",
+				"ua": "Кайдзен (безперервне вдосконалення)"
+			},
+			"summary": {
+				"en": "Small, frequent improvements made by people doing the work can accumulate into substantial gains.",
+				"ua": "Невеликі регулярні зміни, запропоновані людьми, які виконують роботу, поступово дають відчутний результат."
+			}
+		},
+		{
+			"number": 67,
+			"slug": "just-in-time",
+			"module": "06-operations-execution",
+			"minutes": 1,
+			"title": {
+				"en": "Just-in-Time (JIT)",
+				"ua": "Точно вчасно (Just-in-Time)"
+			},
+			"summary": {
+				"en": "Produce or replenish what is needed, when needed, in the needed quantity.",
+				"ua": "Потрібно виробляти або поповнювати саме те, що потрібно, у потрібній кількості й у потрібний момент."
+			}
+		},
+		{
+			"number": 68,
+			"slug": "okrs",
+			"module": "06-operations-execution",
+			"minutes": 2,
+			"title": {
+				"en": "OKRs (Objectives and Key Results)",
+				"ua": "OKR (цілі та ключові результати)"
+			},
+			"summary": {
+				"en": "An objective states a meaningful direction; key results specify measurable evidence of progress.",
+				"ua": "Ціль (objective) задає важливий напрям, а ключові результати (key results) показують вимірюваний прогрес."
+			}
+		},
+		{
+			"number": 69,
+			"slug": "balanced-scorecard",
+			"module": "06-operations-execution",
+			"minutes": 1,
+			"title": {
+				"en": "Balanced Scorecard",
+				"ua": "Збалансована система показників"
+			},
+			"summary": {
+				"en": "Assess strategy through several complementary perspectives instead of relying only on financial results.",
+				"ua": "Стратегію оцінюють з кількох взаємодоповнювальних боків, а не лише за фінансовим результатом."
+			}
+		},
+		{
+			"number": 70,
+			"slug": "pdca-cycle",
+			"module": "06-operations-execution",
+			"minutes": 2,
+			"title": {
+				"en": "PDCA Cycle (Plan–Do–Check–Act)",
+				"ua": "Цикл PDCA (плануй — виконуй — перевіряй — дій)"
+			},
+			"summary": {
+				"en": "Improve processes through repeated experiments: plan a change, try it, evaluate evidence and standardize or revise the approach.",
+				"ua": "Процеси покращують повторюваними експериментами: планують зміну, випробовують, оцінюють дані та закріплюють або переглядають рішення."
+			}
+		},
+		{
+			"number": 71,
+			"slug": "eisenhower-matrix",
+			"module": "06-operations-execution",
+			"minutes": 2,
+			"title": {
+				"en": "Eisenhower Matrix",
+				"ua": "Матриця Ейзенхауера"
+			},
+			"summary": {
+				"en": "Eisenhower Matrix offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Матриця Ейзенхауера» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 72,
+			"slug": "maslows-hierarchy-of-needs",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Maslow's Hierarchy of Needs",
+				"ua": "Ієрархія потреб Маслоу"
+			},
+			"summary": {
+				"en": "Maslow's Hierarchy of Needs offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Ієрархія потреб Маслоу» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 73,
+			"slug": "herzbergs-two-factor-theory",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Herzberg's Two-Factor Theory",
+				"ua": "Двофакторна теорія Герцберга"
+			},
+			"summary": {
+				"en": "Herzberg's Two-Factor Theory offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Двофакторна теорія Герцберга» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 74,
+			"slug": "mcgregors-theory-x-and-theory-y",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "McGregor's Theory X and Theory Y",
+				"ua": "Теорії X та Y Макгрегора"
+			},
+			"summary": {
+				"en": "McGregor's Theory X and Theory Y offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Теорії X та Y Макгрегора» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 75,
+			"slug": "situational-leadership",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Situational Leadership",
+				"ua": "Ситуаційне лідерство"
+			},
+			"summary": {
+				"en": "Situational Leadership offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Ситуаційне лідерство» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 76,
+			"slug": "transformational-leadership",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Transformational Leadership",
+				"ua": "Трансформаційне лідерство"
+			},
+			"summary": {
+				"en": "Transformational Leadership offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Трансформаційне лідерство» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 77,
+			"slug": "tuckmans-stages-of-team-development",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Tuckman's Stages of Team Development",
+				"ua": "Етапи розвитку команди Такмена"
+			},
+			"summary": {
+				"en": "Tuckman's Stages of Team Development offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Етапи розвитку команди Такмена» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 78,
+			"slug": "kotters-8-step-change-model",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Kotter's 8-Step Change Model",
+				"ua": "Восьмикрокова модель змін Коттера"
+			},
+			"summary": {
+				"en": "Kotter's 8-Step Change Model offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Восьмикрокова модель змін Коттера» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 79,
+			"slug": "organizational-culture-model",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Organizational Culture Model (Schein)",
+				"ua": "Модель організаційної культури Шейна"
+			},
+			"summary": {
+				"en": "Organizational Culture Model (Schein) offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Модель організаційної культури Шейна» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 80,
+			"slug": "stakeholder-theory",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Stakeholder Theory",
+				"ua": "Теорія зацікавлених сторін"
+			},
+			"summary": {
+				"en": "Stakeholder Theory offers a practical lens for understanding management choices and their consequences.",
+				"ua": "«Теорія зацікавлених сторін» допомагає системно оцінювати управлінські рішення та їхні наслідки."
+			}
+		},
+		{
+			"number": 81,
+			"slug": "peter-principle",
+			"module": "07-organization-leadership",
+			"minutes": 2,
+			"title": {
+				"en": "Peter Principle",
+				"ua": "Принцип Пітера"
+			},
+			"summary": {
+				"en": "Peter Principle explains a recurring pattern in business decisions and management.",
+				"ua": "«Принцип Пітера» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 82,
+			"slug": "bounded-rationality",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "Bounded Rationality",
+				"ua": "Обмежена раціональність"
+			},
+			"summary": {
+				"en": "Bounded Rationality explains a recurring pattern in business decisions and management.",
+				"ua": "«Обмежена раціональність» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 83,
+			"slug": "prospect-theory",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "Prospect Theory",
+				"ua": "Теорія перспектив"
+			},
+			"summary": {
+				"en": "Prospect Theory explains a recurring pattern in business decisions and management.",
+				"ua": "«Теорія перспектив» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 84,
+			"slug": "loss-aversion",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "Loss Aversion",
+				"ua": "Неприйняття втрат"
+			},
+			"summary": {
+				"en": "Loss Aversion explains a recurring pattern in business decisions and management.",
+				"ua": "«Неприйняття втрат» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 85,
+			"slug": "anchoring-effect",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "Anchoring Effect",
+				"ua": "Ефект якоря"
+			},
+			"summary": {
+				"en": "Anchoring Effect explains a recurring pattern in business decisions and management.",
+				"ua": "«Ефект якоря» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 86,
+			"slug": "nudge-theory",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "Nudge Theory",
+				"ua": "Теорія підштовхування"
+			},
+			"summary": {
+				"en": "Nudge Theory explains a recurring pattern in business decisions and management.",
+				"ua": "«Теорія підштовхування» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 87,
+			"slug": "decision-matrix",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "Decision Matrix",
+				"ua": "Матриця рішень"
+			},
+			"summary": {
+				"en": "Decision Matrix explains a recurring pattern in business decisions and management.",
+				"ua": "«Матриця рішень» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 88,
+			"slug": "second-order-thinking",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "Second-Order Thinking",
+				"ua": "Мислення другого порядку"
+			},
+			"summary": {
+				"en": "Second-Order Thinking explains a recurring pattern in business decisions and management.",
+				"ua": "«Мислення другого порядку» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		},
+		{
+			"number": 89,
+			"slug": "first-principles-thinking",
+			"module": "08-behavioral-decisions",
+			"minutes": 2,
+			"title": {
+				"en": "First Principles Thinking",
+				"ua": "Мислення від першооснов"
+			},
+			"summary": {
+				"en": "First Principles Thinking explains a recurring pattern in business decisions and management.",
+				"ua": "«Мислення від першооснов» пояснює важливу закономірність у бізнес-рішеннях та управлінні."
+			}
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"slug": "customer-development-model",
+	"related": [
+		"lean-startup",
+		"minimum-viable-product",
+		"product-market-fit"
+	],
+	"en": {
+		"short": "Customer Development is a process for testing who customers are, what they need, and how a business can reach them. It reduces the risk of building a product and sales organization around untested assumptions.",
+		"origin": "Steve Blank developed and articulated Customer Development in the early 2000s, notably in his 2005 book The Four Steps to the Epiphany. Later work with Bob Dorf expanded its practical guidance. The model influenced Lean Startup but is not identical to it.",
+		"core": "A startup initially operates with hypotheses rather than established facts. Customer Development places structured learning outside the office alongside product creation. Its stages are not a rigid one-way waterfall: teams return to earlier questions when evidence contradicts their assumptions. The aim is a repeatable, scalable business model, not simply a collection of interviews.",
+		"components": "**Customer discovery** tests the problem, customers, and initial solution assumptions. **Customer validation** tests whether customers will buy and whether sales can be repeated. **Customer creation** develops demand and appropriate acquisition approaches. **Company building** shifts from experimental search to departments, processes, and execution. Hypothesis logs, evidence, and explicit decision gates connect the stages.",
+		"apply": "Write assumptions about buyer, user, problem, price, channel, and sales cycle. Interview prospects about past behavior before pitching. Test a limited offer with clear commitments such as pilots or payments. Document why deals close or fail, then check if another salesperson could repeat the process. Only after that invest heavily in demand generation and formal teams. Revisit discovery if a segment fails.",
+		"example": "A B2B inventory startup interviews 30 shop owners, discovers that stockouts matter more than analytics, and sells five paid pilots. It documents onboarding and support costs before hiring a sales team.",
+		"limitations": "Interviews can produce polite agreement instead of evidence. Enterprise sales cycles may delay validation, and small samples can conceal segment differences. The four stages are a guide, not proof that every company must follow the same order."
+	},
+	"ua": {
+		"short": "Модель розвитку клієнтів пропонує перевіряти потреби, попит і канали продажу до масштабування бізнесу. Це зменшує ризик витратити ресурси на продукт, якого ринок не потребує.",
+		"origin": "Стів Бланк сформулював модель на початку 2000-х, зокрема в книжці The Four Steps to the Epiphany (2005). Пізніше разом із Бобом Дорфом він розвинув практичні рекомендації. Цей підхід вплинув на Lean Startup, але не є його повним синонімом.",
+		"core": "Модель розвитку клієнтів (Customer Development) виходить із того, що стартап спочатку має гіпотези, а не доведені факти. Паралельно з розробкою продукту команда перевіряє, хто має проблему, чи купуватиме рішення та як організувати повторювані продажі. Етапи не утворюють незворотної послідовності: якщо дані суперечать плану, потрібно повернутися до попередніх припущень.",
+		"components": "**Виявлення клієнтів (customer discovery)** перевіряє проблему й аудиторію. **Підтвердження клієнтів (customer validation)** встановлює готовність купувати та повторюваність продажів. **Створення попиту (customer creation)** розвиває канали залучення. **Побудова компанії (company building)** переводить бізнес від пошуку моделі до системного виконання. Журнал гіпотез і критерії переходу допомагають уникати самообману.",
+		"apply": "Запишіть припущення про користувача, покупця, проблему, ціну та канал збуту. Під час інтерв’ю спочатку запитуйте про попередній досвід, а не рекламуйте продукт. Запропонуйте обмежений пілот із чітким зобов’язанням, бажано оплатою. З’ясуйте причини успішних і невдалих угод. Перевірте, чи може інший менеджер повторити продаж. Лише тоді нарощуйте маркетинг і команду.",
+		"example": "Команда сервісу обліку товарів проводить 30 розмов із власниками магазинів. Виявляється, що нестача товару болить більше за відсутність аналітики. Після п’яти платних пілотів розробники оцінюють витрати на впровадження й підтримку та лише потім наймають продавців.",
+		"limitations": "Респонденти можуть погоджуватися з ввічливості, не маючи наміру купувати. У корпоративних продажах перевірка займає місяці, а невелика вибірка не показує всі відмінності між сегментами. Модель є орієнтиром для пошуку, а не обов’язковим календарним планом."
+	}
+}

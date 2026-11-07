@@ -1,0 +1,73 @@
+<section class="pb-8 pt-6" aria-labelledby="dashboard-title">
+	<h1 id="dashboard-title" class="sr-only">{{ 'Your dashboard' | t }}</h1>
+
+	<dl class="grid max-w-2xl grid-cols-3 gap-px overflow-hidden rounded-xl border border-line bg-line">
+		<div class="bg-card p-4">
+			<dd class="text-2xl font-semibold">{{ readCount() }} / {{ lessons }}</dd>
+			<dt class="mt-1 text-sm text-mute">{{ 'Lessons understood' | t }}</dt>
+		</div>
+		<div class="bg-card p-4">
+			<dd class="text-2xl font-semibold">{{ practicedCount() }} / {{ practiceSets }}</dd>
+			<dt class="mt-1 text-sm text-mute">{{ 'Lessons practiced' | t }}</dt>
+		</div>
+		<div class="bg-card p-4">
+			<dd class="text-2xl font-semibold">{{ points() }}</dd>
+			<dt class="mt-1 text-sm text-mute">{{ 'Points earned (best per lesson)' | t }}</dt>
+		</div>
+	</dl>
+</section>
+
+<section class="pb-10" aria-labelledby="read-title">
+	<div class="flex flex-wrap items-baseline justify-between gap-2">
+		<h2 id="read-title" class="text-2xl font-semibold">{{ 'Read next' | t }}</h2>
+		<a class="text-sm" routerLink="/theories">{{ 'All lessons' | t }} →</a>
+	</div>
+	<p class="mt-2 text-sm text-mute">{{ 'The most important lessons you do not understand yet, in the order of the learning path. Press “I understand” at the end of a lesson.' | t }}</p>
+	@if (readNext().length) {
+		<ol class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+			@for (card of readNext(); track card.slug) {
+				<li class="relative flex flex-col rounded-xl border border-line bg-card p-5 hover:border-brand">
+					<p class="text-xs uppercase tracking-widest text-brand">{{ card.number }} · {{ card.level | t }}</p>
+					<h3 class="mt-3 flex-1 font-semibold leading-snug">
+						<a class="hover:text-brand after:absolute after:inset-0 after:rounded-xl" [routerLink]="['/theories', card.slug]">{{ pick(card.title, language()) }}</a>
+					</h3>
+					<p class="mt-4 text-xs text-mute">{{ '{n} min' | t: { n: card.minutes } }}</p>
+				</li>
+			}
+		</ol>
+	} @else {
+		<p class="mt-5 text-fg/80">{{ 'You understand every lesson.' | t }}</p>
+	}
+</section>
+
+<section class="pb-14" aria-labelledby="practice-next-title">
+	<div class="flex flex-wrap items-baseline justify-between gap-2">
+		<h2 id="practice-next-title" class="text-2xl font-semibold">{{ 'Practice next' | t }}</h2>
+		<a class="text-sm" routerLink="/practices">{{ 'All exercises' | t }} →</a>
+	</div>
+	<p class="mt-2 text-sm text-mute">{{ 'Exercises for the lessons you understand, and those where your result can improve.' | t }}</p>
+	@if (practiceNext().length) {
+		<ol class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+			@for (card of practiceNext(); track card.slug) {
+				<li class="relative flex flex-col rounded-xl border border-line bg-card p-5 hover:border-brand">
+					<p class="text-xs uppercase tracking-widest text-brand">{{ card.number }}</p>
+					<h3 class="mt-3 flex-1 font-semibold leading-snug">
+						<a class="hover:text-brand after:absolute after:inset-0 after:rounded-xl" [routerLink]="['/practices', card.slug]">{{ pick(card.title, language()) }}</a>
+					</h3>
+					<p class="mt-4 text-xs text-mute">
+						@if (card.best !== null) {
+							{{ 'Best {score} of {max}: try to improve' | t: { score: card.best, max: maxPoints } }}
+						} @else {
+							{{ 'Understood, not practiced yet' | t }}
+						}
+					</p>
+				</li>
+			}
+		</ol>
+	} @else if (!practiceSets) {
+		<p class="mt-5 text-fg/80">{{ 'Practice sets for these lessons are coming soon.' | t }}</p>
+	} @else {
+		<p class="mt-5 text-fg/80">{{ 'Nothing to practice yet. Press “I understand” at the end of a lesson, and its exercises appear here.' | t }}</p>
+	}
+</section>
+

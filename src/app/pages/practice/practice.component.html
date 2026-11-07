@@ -1,0 +1,99 @@
+<section class="pb-10 pt-10 max-md:pt-4" [attr.aria-label]="'Practice' | t">
+	<h1 class="sr-only">{{ 'Practice' | t }}</h1>
+
+	<ng-template #filters>
+		<div>
+			<input
+				[attr.aria-label]="'Search practice' | t"
+				class="w-full max-w-md rounded-lg border border-line bg-card px-4 py-3 placeholder:text-mute"
+				type="search"
+				autocomplete="off"
+				[placeholder]="'Search practice' | t"
+				[value]="query()"
+				(input)="query.set($any($event.target).value)"
+			/>
+			<p class="mt-2 text-sm text-mute" role="status">
+				{{ '{count} of {total} practices' | t: { count: shown(), total: total } }}
+			</p>
+		</div>
+	</ng-template>
+
+	<div class="mt-8 max-md:hidden md:flex md:flex-col md:gap-6">
+		<ng-container *ngTemplateOutlet="filters" />
+	</div>
+
+	@for (module of modules(); track module.slug; let first = $first) {
+		<section
+			class="lazy-section mt-10 scroll-mt-6"
+			[class.max-md:mt-0]="first"
+			[attr.aria-labelledby]="module.slug + '-title'"
+		>
+			<h2 class="m-0!">
+				<button
+					class="flex w-full items-center justify-between gap-4 rounded-xl text-left"
+					type="button"
+					[attr.aria-expanded]="isOpen(module.slug)"
+					[attr.aria-controls]="module.slug + '-list'"
+					(click)="toggle(module.slug)"
+				>
+					<span [id]="module.slug + '-title'" class="min-w-0 text-2xl font-semibold">{{
+						pick(module.title, language())
+					}}</span>
+					<span
+						class="flex size-10 shrink-0 items-center justify-center rounded-full border border-line"
+					>
+						<svg
+							class="size-5 transition-transform"
+							[class.-rotate-90]="!isOpen(module.slug)"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							aria-hidden="true"
+						>
+							<path d="m6 9 6 6 6-6" />
+						</svg>
+					</span>
+				</button>
+			</h2>
+			@if (isOpen(module.slug)) {
+				<ol
+					[id]="module.slug + '-list'"
+					class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3"
+				>
+					@for (topic of module.topics; track topic.slug) {
+						<li
+							class="relative flex items-center gap-3 rounded-xl border border-line bg-card px-4 py-3 hover:border-brand"
+						>
+							<span class="w-6 shrink-0 text-xs tabular-nums text-brand">{{
+								topic.number
+							}}</span>
+							<a
+								class="min-w-0 flex-1 font-semibold hover:text-brand after:absolute after:inset-0 after:rounded-xl"
+								[routerLink]="['/practices', topic.slug]"
+								>{{ pick(topic.title, language()) }}</a
+							>
+							<span class="shrink-0 text-xs text-mute">
+								@if (topic.score; as score) {
+									<span class="font-semibold text-brand"
+										>{{ score.quiz + score.written }}/{{ maxPoints }}</span
+									>
+								} @else {
+									{{ 'Not practiced yet' | t }}
+								}
+							</span>
+						</li>
+					}
+				</ol>
+			}
+		</section>
+	}
+
+	@if (!total) {
+		<p class="mt-12 text-fg/80">{{ 'Practice sets for these lessons are coming soon.' | t }}</p>
+	} @else if (!shown()) {
+		<p class="mt-12 text-fg/80">{{ 'No practice matches your search.' | t }}</p>
+	}
+</section>

@@ -1,0 +1,26 @@
+{
+	"slug": "six-sigma",
+	"related": [
+		"lean-management",
+		"kaizen",
+		"pdca-cycle"
+	],
+	"en": {
+		"short": "Reduce variation and defects through measurement, analysis and disciplined process improvement. It is most useful where performance can be defined and measured reliably. Select a costly recurring defect, define what counts as failure, establish a baseline, investigate causes, test a change and monitor whether improvement persists.",
+		"origin": "Six Sigma emerged at Motorola in the 1980s; engineer Bill Smith is widely credited with initiating the approach. General Electric later helped popularize it in the 1990s. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
+		"core": "Reduce variation and defects through measurement, analysis and disciplined process improvement. It is most useful where performance can be defined and measured reliably. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
+		"components": "DMAIC: Define, Measure, Analyze, Improve, Control. Projects use customer requirements, process capability, root-cause analysis and monitoring. Statistical methods support decisions. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
+		"apply": "Select a costly recurring defect, define what counts as failure, establish a baseline, investigate causes, test a change and monitor whether improvement persists. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
+		"example": "A payment processor measures failed transactions, finds an error in one integration path, fixes it and tracks the failure rate over subsequent releases. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
+		"limitations": "Not every service process has stable, plentiful data. Heavy certification and statistical bureaucracy can slow small teams; correlation is not causation. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+	},
+	"ua": {
+		"short": "Мета — зменшувати мінливість процесів і кількість дефектів за допомогою вимірювань, аналізу та системного вдосконалення. Найкраще працює там, де якість можна чітко визначити. Оберіть повторювану дорогу помилку, домовтеся про критерій дефекту, виміряйте базовий рівень, знайдіть причину, перевірте зміну й контролюйте результат.",
+		"origin": "Підхід «Шість сигм» (Six Sigma) виник у Motorola в 1980-х роках; його започаткування часто пов’язують з інженером Біллом Смітом. У 1990-х метод поширила General Electric. Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
+		"core": "Мета — зменшувати мінливість процесів і кількість дефектів за допомогою вимірювань, аналізу та системного вдосконалення. Найкраще працює там, де якість можна чітко визначити. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
+		"components": "Цикл DMAIC: визначити (Define), виміряти (Measure), проаналізувати (Analyze), покращити (Improve), контролювати (Control). Використовують вимоги клієнтів, аналіз першопричин та статистичний контроль. Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
+		"apply": "Оберіть повторювану дорогу помилку, домовтеся про критерій дефекту, виміряйте базовий рівень, знайдіть причину, перевірте зміну й контролюйте результат. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
+		"example": "Платіжний сервіс аналізує невдалі транзакції, знаходить помилку в одному сценарії інтеграції, виправляє її та стежить за частотою збоїв після релізів. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
+		"limitations": "Для невеликих команд складна статистика й сертифікація можуть бути надмірними. Нестабільні дані ускладнюють висновки, а кореляція не доводить причину. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+	}
+}

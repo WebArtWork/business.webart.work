@@ -1,0 +1,129 @@
+<section class="mx-auto flex w-full max-w-md flex-col gap-8 pb-8 pt-10 sm:pt-14">
+	<div class="flex items-center gap-4">
+		@if (photo(); as photo) {
+			<img
+				class="size-20 shrink-0 rounded-full object-cover"
+				[src]="photo"
+				alt=""
+				referrerpolicy="no-referrer"
+				width="80"
+				height="80"
+			/>
+		} @else {
+			<span
+				class="flex size-20 shrink-0 items-center justify-center rounded-full bg-soft text-2xl font-semibold"
+				aria-hidden="true"
+			>
+				{{ initial() }}
+			</span>
+		}
+		<div class="min-w-0">
+			<h1 class="truncate text-xl font-semibold tracking-tight">{{ name() }}</h1>
+			@if (user()?.email; as email) {
+				<p class="truncate text-sm text-mute">{{ email }}</p>
+			} @else if (isGuest()) {
+				<p class="text-sm text-mute">{{ 'Guest account' | t }}</p>
+			}
+		</div>
+	</div>
+
+	@if (isGuest()) {
+		<section class="ds-card gap-3 p-4" aria-labelledby="guest-title">
+			<h2 id="guest-title" class="m-0! font-semibold">{{ 'Keep your progress' | t }}</h2>
+			<p class="text-sm text-mute">
+				{{
+					'Your progress is saved to this guest account. Sign in with Google to move it to your Google account and keep it on every device.'
+						| t
+				}}
+			</p>
+			<button
+				class="ds-btn ds-btn-primary self-start"
+				type="button"
+				[disabled]="pending()"
+				[attr.aria-busy]="pending()"
+				(click)="signIn()"
+			>
+				{{ (pending() ? 'Signing in…' : 'Continue with Google') | t }}
+			</button>
+		</section>
+	}
+
+	<app-preferences />
+
+	@if (!isGuest()) {
+		<button
+			class="ds-btn ds-btn-outline ds-btn-lg w-full"
+			type="button"
+			[disabled]="signingOut()"
+			(click)="signOut()"
+		>
+			{{ 'Sign out' | t }}
+		</button>
+	}
+
+	<section class="flex flex-col gap-3" aria-labelledby="account-title">
+		<h2 id="account-title" class="text-sm font-medium text-mute">{{ 'Account' | t }}</h2>
+		<p class="text-sm text-mute">
+			<a routerLink="/privacy">{{ 'Privacy policy' | t }}</a> ·
+			<a routerLink="/licenses">{{ 'Licenses and credits' | t }}</a>
+		</p>
+
+		@if (confirmingDelete()) {
+			<div
+				class="ds-card gap-3 border-danger! p-4"
+				role="group"
+				aria-labelledby="delete-title"
+			>
+				<h3 id="delete-title" class="m-0! font-semibold">
+					{{ (isGuest() ? 'Delete your data?' : 'Delete your account?') | t }}
+				</h3>
+				<p class="text-sm">
+					{{
+						'This deletes your results, on our servers and on this device. It cannot be undone.'
+							| t
+					}}
+					@if (!isGuest()) {
+						{{ 'Google asks you to sign in once more to confirm.' | t }}
+					}
+				</p>
+				<div class="flex flex-wrap gap-2">
+					<button
+						class="ds-btn ds-btn-primary border-danger! bg-danger! text-white!"
+						type="button"
+						[disabled]="deleting()"
+						(click)="deleteAccount()"
+					>
+						{{
+							(deleting()
+								? 'Deleting…'
+								: isGuest()
+									? 'Delete my data'
+									: 'Delete my account'
+							) | t
+						}}
+					</button>
+					<button
+						class="ds-btn ds-btn-outline"
+						type="button"
+						[disabled]="deleting()"
+						(click)="confirmingDelete.set(false)"
+					>
+						{{ 'Cancel' | t }}
+					</button>
+				</div>
+			</div>
+		} @else {
+			<button
+				class="ds-btn ds-btn-ghost self-start text-danger!"
+				type="button"
+				(click)="confirmingDelete.set(true)"
+			>
+				{{ (isGuest() ? 'Delete my data' : 'Delete account') | t }}
+			</button>
+		}
+
+		@if (error(); as message) {
+			<p class="text-sm text-danger" role="alert">{{ message | t }}</p>
+		}
+	</section>
+</section>

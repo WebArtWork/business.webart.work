@@ -1,0 +1,26 @@
+{
+	"slug": "minimum-viable-product",
+	"related": [
+		"lean-startup",
+		"customer-development-model",
+		"product-market-fit"
+	],
+	"en": {
+		"short": "A minimum viable product is the smallest product or experiment that can generate useful learning about a customer need with reasonable effort. Its purpose is to test important assumptions, not to release an unfinished product without regard for user experience or safety.",
+		"origin": "The term “minimum viable product” is commonly credited to Frank Robinson, who described it in 2001. Eric Ries later popularized MVPs within Lean Startup, while Steve Blank's customer-development work influenced the surrounding practice.",
+		"core": "Building every planned feature before meeting customers creates avoidable risk. An MVP should deliver enough of a solution, or a credible test of one, to observe whether a meaningful problem exists and whether people will take action to solve it. “Minimum” refers to the least effort needed for reliable learning; “viable” does not excuse a broken or unsafe experience.",
+		"components": "A **target customer** and a clearly defined **problem** establish what to test. A **value proposition** states the promised benefit. A **critical assumption** identifies what could invalidate the business. An **experiment format** might be a basic working product, concierge service, landing page, prototype, or manual process, provided the test is honest about what exists. **Success criteria** should measure behavior such as payment, repeated use, or completed tasks. **Feedback and iteration** turn results into the next product decision.",
+		"apply": "Choose one audience and one important problem. List assumptions and rank them by risk. Design the cheapest ethical experiment that can produce convincing evidence. Decide beforehand what result would support or reject the hypothesis. Recruit representative users, observe outcomes, and collect qualitative feedback. Improve, pivot, or stop based on findings rather than adding features automatically.",
+		"example": "Before building a full hotel-management suite, a team launches a simple booking calendar for five small hotels and handles confirmations manually. The test checks whether staff use it consistently and whether hotels will pay for it.",
+		"limitations": "A landing page cannot prove long-term retention, and stated interest is weaker evidence than actual use or payment. Some products require substantial infrastructure or compliance before even a small pilot is safe."
+	},
+	"ua": {
+		"short": "Мінімально життєздатний продукт — це найменше рішення або експеримент, який дає змогу перевірити важливу потребу клієнтів. Його мета — отримати достовірні дані без зайвої розробки, а не випустити неякісний чи небезпечний продукт.",
+		"origin": "Термін «мінімально життєздатний продукт» (minimum viable product, MVP) зазвичай пов'язують із Френком Робінсоном, який описав його 2001 року. Згодом Ерік Ріс популяризував MVP у підході Lean Startup; на практику також вплинула модель розвитку клієнтів Стіва Бланка.",
+		"core": "Створювати всі заплановані функції до перевірки попиту ризиковано. Краще спочатку запропонувати мінімальне рішення, яке дозволяє побачити, чи справді клієнти мають проблему та чи готові щось зробити для її вирішення. «Мінімальний» означає найменші достатні витрати на навчання, а «життєздатний» не дозволяє ігнорувати якість і безпеку.",
+		"components": "**Цільовий клієнт (target customer)** і **проблема (problem)** визначають межі перевірки. **Ціннісна пропозиція (value proposition)** пояснює користь рішення. **Критичне припущення (critical assumption)** — твердження, помилковість якого може зруйнувати бізнес-ідею. **Формат експерименту** може бути простим робочим продуктом, ручною послугою, прототипом або цільовою сторінкою; користувачів не слід вводити в оману щодо готовності рішення. **Критерії успіху** мають оцінювати дії: оплату, повторне використання, завершення завдання. **Зворотний зв'язок та ітерації** допомагають визначити наступний крок.",
+		"apply": "Оберіть одну аудиторію та одну суттєву проблему. Запишіть припущення й визначте найризикованіше. Спроєктуйте найдешевший етичний спосіб перевірки. Заздалегідь визначте, який результат підтвердить або спростує гіпотезу. Залучіть типових клієнтів, спостерігайте за діями та збирайте пояснення. Після цього покращуйте рішення, змінюйте підхід або припиняйте експеримент.",
+		"example": "Перед створенням повної системи управління готелем команда запускає простий календар бронювань для п'яти невеликих готелів, а підтвердження обробляє вручну. Так можна перевірити регулярність використання та готовність платити.",
+		"limitations": "Реєстрації на цільовій сторінці не доводять довгострокової цінності. Деякі продукти потребують серйозної інфраструктури й дотримання нормативних вимог навіть для невеликого тесту."
+	}
+}
