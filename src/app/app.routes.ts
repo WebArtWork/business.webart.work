@@ -83,12 +83,12 @@ export const routes: Routes = [
 		path: 'sign-in',
 		canActivate: [guestGuard],
 		loadComponent: () => import('./pages/sign-in/sign-in.component').then((m) => m.SignInComponent),
-		data: { meta: { title: 'Sign in', robots: 'noindex, nofollow' } },
+		data: { meta: { ...buildRouteMeta(companyProfile, '/sign-in'), title: 'Sign in', robots: 'noindex, nofollow' } },
 	},
 	{
 		path: 'profile',
 		loadComponent: () => import('./pages/profile/profile.component').then((m) => m.ProfileComponent),
-		data: { meta: { title: 'Profile', robots: 'noindex, nofollow' } },
+		data: { meta: { ...buildRouteMeta(companyProfile, '/profile'), title: 'Profile', robots: 'noindex, nofollow' } },
 	},
 	{ path: 'dashboard', redirectTo: '', pathMatch: 'full' },
 	{

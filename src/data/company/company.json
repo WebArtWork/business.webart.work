@@ -40,7 +40,7 @@
 		"/glossary": {
 			"title": "Business glossary",
 			"description": "Business terms explained in everyday language, in English and Ukrainian.",
-			"image": "/seo/theory.jpg"
+			"image": "/seo/glossary.jpg"
 		},
 		"/theories/porters-five-forces": {
 			"title": "Porter’s Five Forces",
@@ -526,6 +526,16 @@
 			"title": "Porter’s Five Forces: practice",
 			"description": "Ten checked questions and five written business tasks on Porter’s Five Forces, with sample answers and a scoring rubric.",
 			"image": "/seo/practice.jpg"
+		},
+		"/sign-in": {
+			"image": "/seo/sign-in.jpg",
+			"title": "Sign in",
+			"robots": "noindex, nofollow"
+		},
+		"/profile": {
+			"image": "/seo/profile.jpg",
+			"title": "Your learning profile",
+			"robots": "noindex, nofollow"
 		}
 	},
 	"logo": "/logo.png"

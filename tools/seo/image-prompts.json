@@ -1,0 +1,38 @@
+[
+	{
+		"file": "src/assets/seo/dashboard.jpg",
+		"source": "C:\\Users\\crack\\.codex\\generated_images\\01a1b6e5-adeb-7070-a3bc-6e48aa4d7939\\exec-0c6b9187-a00b-4077-8d0f-ae1b2a13f87e.png",
+		"mode": "built-in image_gen",
+		"prompt": "Create ONE finished Open Graph social share image, 1200x630 landscape composition, for Business, a bilingual business learning platform. Founder Studio brand: warm sand #FBF5EC background, terracotta #A7472C accent, espresso #241B18 typography. Sophisticated tactile editorial 3D still life on right: terracotta ascending geometric blocks, a warm cream notebook and simple strategy tiles, soft natural shadows, no fake statistics or logos. Left side clean generous space with exact headline \"Business\", smaller line \"Learn. Decide. Build.\" and small domain \"business.webart.work\". Beautiful crisp typography, 70px safe margins, refined approachable educational aesthetic, no other text, no watermark."
+	},
+	{
+		"file": "src/assets/seo/glossary.jpg",
+		"source": "C:\\Users\\crack\\.codex\\generated_images\\01a1b6e5-adeb-7070-a3bc-6e48aa4d7939\\exec-01b6f23f-19fe-448f-8469-a7c07d432b6a.png",
+		"mode": "built-in image_gen",
+		"prompt": "Use case: ads-marketing. Generate ONE finished Open Graph social share cover, landscape 1200:630 composition. Brand: Business. Palette: sand #FBF5EC, terracotta #A7472C, espresso #241B18. Premium approachable editorial 3D still life on the right: a beautiful open cream reference book, terracotta alphabet index tabs without lettering and a small sculptural bookmark, educational reference still life. Soft natural studio light, tactile materials, generous uncluttered background. Crisp readable left-aligned typography on left, exact title \"Business glossary\", smaller subtitle \"Understand the language of business.\", small brand/domain \"business.webart.work\". Keep all text inside 70px safe margins. No extra text, no watermark, no UI screenshots, no chess. Distinct finished page cover, not a contact sheet."
+	},
+	{
+		"file": "src/assets/seo/privacy.jpg",
+		"source": "C:\\Users\\crack\\.codex\\generated_images\\01a1b6e5-adeb-7070-a3bc-6e48aa4d7939\\exec-81017769-277f-4a4b-afcc-1c6c20542262.png",
+		"mode": "built-in image_gen",
+		"prompt": "Use case: ads-marketing. Create ONE finished landscape Open Graph image for the Privacy page of Business, an educational learning app, composed at aspect ratio 1200:630. Palette: sand #FBF5EC background, terracotta #A7472C accents, espresso #241B18 type. Premium tactile editorial 3D still life on right: a tasteful sculptural closed padlock beside folded privacy documents with no lettering, restrained educational brand materials. Gentle studio light and soft shadows. Brand colors used with restraint, lots of clear negative space. Large crisp dark text on left exactly \"Privacy\". Smaller line exactly \"Your data. Your choices.\". Small domain \"business.webart.work\". All text inside 70px safe margins. No additional text, no watermarks, no chess, no UI screenshot. A distinct standalone page cover."
+	},
+	{
+		"file": "src/assets/seo/licenses.jpg",
+		"source": "C:\\Users\\crack\\.codex\\generated_images\\01a1b6e5-adeb-7070-a3bc-6e48aa4d7939\\exec-f894b063-4b3e-4b66-99e1-e44d9bfd67c5.png",
+		"mode": "built-in image_gen",
+		"prompt": "Use case: ads-marketing. Create ONE finished landscape Open Graph image for the Licenses & credits page of Business, an educational learning app, composed at aspect ratio 1200:630. Palette: sand #FBF5EC background, terracotta #A7472C accents, espresso #241B18 type. Premium tactile editorial 3D still life on right: a small stack of cream software license documents with embossed simple check symbols, an elegant open-source interlocking ring motif, no lettering on documents. Gentle studio light and soft shadows. Brand colors used with restraint, lots of clear negative space. Large crisp dark text on left exactly \"Licenses & credits\". Smaller line exactly \"Built on shared knowledge.\". Small domain \"business.webart.work\". All text inside 70px safe margins. No additional text, no watermarks, no chess, no UI screenshot. A distinct standalone page cover."
+	},
+	{
+		"file": "src/assets/seo/sign-in.jpg",
+		"source": "C:\\Users\\crack\\.codex\\generated_images\\01a1b6e5-adeb-7070-a3bc-6e48aa4d7939\\exec-e1b1d317-0256-4c66-a9d8-79c362eb2f7a.png",
+		"mode": "built-in image_gen",
+		"prompt": "Use case: ads-marketing. Create ONE finished landscape Open Graph image for the Welcome back page of Business, an educational learning app, composed at aspect ratio 1200:630. Palette: sand #FBF5EC background, terracotta #A7472C accents, espresso #241B18 type. Premium tactile editorial 3D still life on right: an open small archway beside a simple key and a cream textbook, welcoming restrained editorial still life. Gentle studio light and soft shadows. Brand colors used with restraint, lots of clear negative space. Large crisp dark text on left exactly \"Welcome back\". Smaller line exactly \"Continue your learning.\". Small domain \"business.webart.work\". All text inside 70px safe margins. No additional text, no watermarks, no chess, no UI screenshot. A distinct standalone page cover."
+	},
+	{
+		"file": "src/assets/seo/profile.jpg",
+		"source": "C:\\Users\\crack\\.codex\\generated_images\\01a1b6e5-adeb-7070-a3bc-6e48aa4d7939\\exec-ddf77c26-b6c6-4b61-b401-4830af4e90cd.png",
+		"mode": "built-in image_gen",
+		"prompt": "Use case: ads-marketing. Create ONE finished landscape Open Graph image for the Your learning profile page of Business, an educational learning app, composed at aspect ratio 1200:630. Palette: sand #FBF5EC background, terracotta #A7472C accents, espresso #241B18 type. Premium tactile editorial 3D still life on right: a simple sculptural circular person silhouette badge with a small notebook and three ascending progress blocks, no fake charts. Gentle studio light and soft shadows. Brand colors used with restraint, lots of clear negative space. Large crisp dark text on left exactly \"Your learning profile\". Smaller line exactly \"Make progress, at your pace.\". Small domain \"business.webart.work\". All text inside 70px safe margins. No additional text, no watermarks, no chess, no UI screenshot. A distinct standalone page cover."
+	}
+]

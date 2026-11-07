@@ -3,6 +3,7 @@
 @use './styles/ds-base';
 @use './styles/ds-light';
 @use './styles/ds-dark';
+@use './styles/brand';
 
 /* Short Tailwind names for the active skin's tokens, so utilities follow light/dark. */
 @theme inline {
@@ -138,7 +139,6 @@ html:has(.fit-page),
 body:has(.fit-page) {
 	overflow: hidden;
 }
-
 
 /* The full-screen spinner (see SplashComponent). */
 .spinner {

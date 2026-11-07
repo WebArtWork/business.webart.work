@@ -1,0 +1,215 @@
+/* Founder Studio: user-selected light and dark palettes. */
+html:not([data-mode='dark']) {
+	color-scheme: light;
+	--background: #fbf5ec;
+	--card: #ffffff;
+	--foreground: #241b18;
+	--primary: #a7472c;
+	--muted: #f2e6d8;
+	--muted-foreground: #6c5348;
+	--border: #d7c4b5;
+	--primary-hover: #8d3822;
+	--primary-foreground: #ffffff;
+	--radius: 0.75rem;
+	--success: #237247;
+	--warning: #8a6408;
+	--destructive: #b3263e;
+	--destructive-foreground: #ffffff;
+
+	--card-foreground: var(--foreground);
+	--popover: var(--card);
+	--popover-foreground: var(--foreground);
+	--inner: var(--muted);
+	--inner-foreground: var(--foreground);
+	--secondary: var(--muted);
+	--secondary-foreground: var(--foreground);
+	--accent: var(--muted);
+	--accent-foreground: var(--foreground);
+	--input: var(--card);
+	--ring: var(--primary);
+	--track: var(--border);
+	--text: var(--foreground);
+	--strong: var(--foreground);
+	--muted-text: var(--muted-foreground);
+	--primary-from: var(--primary);
+	--primary-to: var(--primary);
+	--primary-hover-from: var(--primary-hover);
+	--primary-hover-to: var(--primary-hover);
+	--font-sans: 'Inter Variable', 'Inter Tight Variable', ui-sans-serif, system-ui, sans-serif;
+	--radius-sm: calc(var(--radius) - 0.125rem);
+	--radius-md: var(--radius);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 0.25rem);
+	--radius-card: var(--radius-xl);
+	--radius-btn: var(--radius);
+	--radius-chip: var(--radius);
+	--radius-menu: var(--radius);
+	--radius-row: var(--radius);
+	--shadow-xs: 0 1px 2px rgb(0 0 0 / 0.04);
+	--shadow-sm: 0 1px 3px rgb(0 0 0 / 0.06);
+	--shadow-md: 0 4px 16px -8px rgb(0 0 0 / 0.14);
+	--shadow-lg: 0 12px 28px -12px rgb(0 0 0 / 0.18);
+	--shadow-xl: var(--shadow-lg);
+	--shadow-s: var(--shadow-sm);
+	--shadow-m: var(--shadow-md);
+	--shadow-l: var(--shadow-lg);
+	--shadow-ring: 0 0 0 1px var(--border);
+	--shadow-card: var(--shadow-sm);
+	--shadow-card-hover: var(--shadow-md);
+	--shadow-inset: none;
+	--shadow-button: var(--shadow-xs);
+	--shadow-button-hover: var(--shadow-sm);
+	--shadow-primary: var(--shadow-sm);
+	--shadow-primary-hover: var(--shadow-sm);
+	--shadow-destructive: var(--shadow-sm);
+	--shadow-destructive-hover: var(--shadow-sm);
+	--shadow-popover: var(--shadow-lg);
+	--shadow-control: var(--shadow-xs);
+	--chart-1: var(--primary);
+	--chart-2: var(--success);
+	--chart-3: #8870b5;
+	--chart-4: var(--warning);
+	--chart-5: #5387a5;
+	--c-primary: var(--primary);
+	--c-primary-hover: var(--primary-hover);
+	--c-secondary: var(--secondary);
+	--c-secondary-hover: var(--accent);
+	--c-bg-primary: var(--background);
+	--c-bg-secondary: var(--card);
+	--c-bg-tertiary: var(--muted);
+	--c-text: var(--foreground);
+	--c-text-strong: var(--foreground);
+	--c-text-muted: var(--muted-foreground);
+	--c-border: var(--border);
+	--ff-base: var(--font-sans);
+}
+
+html[data-mode='dark'] {
+	color-scheme: dark;
+	--background: #241b18;
+	--card: #30231e;
+	--foreground: #f8ede2;
+	--primary: #f2ae83;
+	--muted: #3c2d26;
+	--muted-foreground: #d1b9a7;
+	--border: #765d4d;
+	--primary-hover: #ffc29e;
+	--primary-foreground: #241b18;
+	--radius: 0.75rem;
+	--success: #91d5ae;
+	--warning: #e5c66b;
+	--destructive: #f29baa;
+	--destructive-foreground: #34131b;
+
+	--card-foreground: var(--foreground);
+	--popover: var(--card);
+	--popover-foreground: var(--foreground);
+	--inner: var(--muted);
+	--inner-foreground: var(--foreground);
+	--secondary: var(--muted);
+	--secondary-foreground: var(--foreground);
+	--accent: var(--muted);
+	--accent-foreground: var(--foreground);
+	--input: var(--card);
+	--ring: var(--primary);
+	--track: var(--border);
+	--text: var(--foreground);
+	--strong: var(--foreground);
+	--muted-text: var(--muted-foreground);
+	--primary-from: var(--primary);
+	--primary-to: var(--primary);
+	--primary-hover-from: var(--primary-hover);
+	--primary-hover-to: var(--primary-hover);
+	--font-sans: 'Inter Variable', 'Inter Tight Variable', ui-sans-serif, system-ui, sans-serif;
+	--radius-sm: calc(var(--radius) - 0.125rem);
+	--radius-md: var(--radius);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 0.25rem);
+	--radius-card: var(--radius-xl);
+	--radius-btn: var(--radius);
+	--radius-chip: var(--radius);
+	--radius-menu: var(--radius);
+	--radius-row: var(--radius);
+	--shadow-xs: 0 1px 2px rgb(0 0 0 / 0.04);
+	--shadow-sm: 0 1px 3px rgb(0 0 0 / 0.06);
+	--shadow-md: 0 4px 16px -8px rgb(0 0 0 / 0.14);
+	--shadow-lg: 0 12px 28px -12px rgb(0 0 0 / 0.18);
+	--shadow-xl: var(--shadow-lg);
+	--shadow-s: var(--shadow-sm);
+	--shadow-m: var(--shadow-md);
+	--shadow-l: var(--shadow-lg);
+	--shadow-ring: 0 0 0 1px var(--border);
+	--shadow-card: var(--shadow-sm);
+	--shadow-card-hover: var(--shadow-md);
+	--shadow-inset: none;
+	--shadow-button: var(--shadow-xs);
+	--shadow-button-hover: var(--shadow-sm);
+	--shadow-primary: var(--shadow-sm);
+	--shadow-primary-hover: var(--shadow-sm);
+	--shadow-destructive: var(--shadow-sm);
+	--shadow-destructive-hover: var(--shadow-sm);
+	--shadow-popover: var(--shadow-lg);
+	--shadow-control: var(--shadow-xs);
+	--chart-1: var(--primary);
+	--chart-2: var(--success);
+	--chart-3: #8870b5;
+	--chart-4: var(--warning);
+	--chart-5: #5387a5;
+	--c-primary: var(--primary);
+	--c-primary-hover: var(--primary-hover);
+	--c-secondary: var(--secondary);
+	--c-secondary-hover: var(--accent);
+	--c-bg-primary: var(--background);
+	--c-bg-secondary: var(--card);
+	--c-bg-tertiary: var(--muted);
+	--c-text: var(--foreground);
+	--c-text-strong: var(--foreground);
+	--c-text-muted: var(--muted-foreground);
+	--c-border: var(--border);
+	--ff-base: var(--font-sans);
+}
+
+// Keep existing ds components; apply the same material and corner scale in both modes.
+html[data-mode] .ds .ds-card {
+	border-radius: var(--radius-card);
+	box-shadow: var(--shadow-card);
+}
+html[data-mode] .ds .ds-btn {
+	border-radius: var(--radius);
+	min-height: 2.75rem;
+}
+html[data-mode] .ds .ds-btn-primary {
+	background: var(--primary);
+	color: var(--primary-foreground);
+	border-color: var(--primary);
+	box-shadow: var(--shadow-primary);
+}
+html[data-mode] .ds .ds-btn-secondary {
+	background: var(--secondary);
+	color: var(--secondary-foreground);
+}
+html[data-mode] .ds .ds-btn-outline {
+	background: transparent;
+	color: var(--foreground);
+	border-color: var(--border);
+}
+html[data-mode] .ds .ds-btn:focus-visible {
+	outline: 2px solid var(--ring);
+	outline-offset: 3px;
+}
+html[data-mode] .ds .ds-input,
+html[data-mode] .ds .ds-select,
+html[data-mode] .ds .ds-textarea {
+	border-radius: var(--radius);
+}
+@media (hover: hover) and (pointer: fine) {
+	html[data-mode] .ds .ds-btn-primary:hover:not(:disabled) {
+		background: var(--primary-hover);
+		color: var(--primary-foreground);
+	}
+	html[data-mode] .ds .ds-btn-outline:hover:not(:disabled),
+	html[data-mode] .ds .ds-btn-secondary:hover:not(:disabled) {
+		background: var(--accent);
+		color: var(--accent-foreground);
+	}
+}
