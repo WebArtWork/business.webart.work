@@ -1,0 +1,65 @@
+{
+	"slug": "market-sizing",
+	"related": [
+		"stp",
+		"budgeting-and-forecasting",
+		"crossing-the-chasm",
+		"product-market-fit"
+	],
+	"en": {
+		"short": "Market sizing estimates how much revenue a product could earn in three nested layers: the total addressable market (TAM), the serviceable available market (SAM) your product and channels can actually reach, and the serviceable obtainable market (SOM) you can realistically win in the next few years. Founders and investors use it to judge whether an opportunity is big enough to justify the effort.",
+		"example": "A startup sells booking and reminder software to veterinary clinics in Germany, Austria and Switzerland. **TAM (bottom-up):** about 14,000 clinics × €1,800 a year = €25.2 million. **SAM:** the software suits independent clinics with one to five vets, not chains or hospitals, which leaves about 9,000 clinics, or €16.2 million. **SOM:** two salespeople can each sign about 12 clinics a month, so after three years the company could have roughly 860 clinics, about €1.55 million, or under 10% of SAM. **Top-down check:** a consultancy report quoting a \"€400 million pet-tech market\" turns out to include pet food apps and insurance, so the founders discard it. They conclude the product can build a solid niche business, but would need new countries or a second product to interest venture investors.",
+		"mistakes": [
+			"Presenting a huge top-down figure such as \"the pet industry is worth $150 billion\" as the TAM: build the number from customers who would actually buy your kind of product at your price.",
+			"Saying \"we only need 1% of the market\": derive SOM from sales capacity, conversion rates and competitors' shares, not from a percentage picked to look modest.",
+			"Mixing units, years and regions, such as revenue from one source and user counts from another: state the unit, year and geography of every input."
+		],
+		"selfCheck": [
+			{
+				"question": "A founder's TAM slide shows the €40 billion global coffee market for an espresso-machine repair service in Lisbon. What is wrong?",
+				"answer": "TAM should count spending on the service offered, so it should be built from the espresso machines in the Lisbon area and yearly repair spend per machine, not all coffee sold worldwide."
+			},
+			{
+				"question": "Why do investors often trust a bottom-up estimate more than a top-down one?",
+				"answer": "It rests on inputs a founder can check and defend, such as a count of target customers and a tested price, while a top-down figure inherits a report's definitions and hidden assumptions."
+			},
+			{
+				"question": "A SaaS company shows a SAM of €50 million and a year-three SOM of €45 million. What does this suggest?",
+				"answer": "It assumes winning 90% of the reachable market in three years, which almost never happens when competitors exist; the SOM should be rebuilt from sales capacity and realistic win rates."
+			}
+		],
+		"origin": "The three labels have no single author or founding publication. Estimating market potential was a long-standing part of marketing planning, and the nested TAM, SAM and SOM layers became a fixture of startup pitch decks and venture capital due diligence, where investors ask founders to show both how big the opportunity is and how much of it they can realistically take.",
+		"core": "Splitting the market into three layers prevents two opposite errors: underselling an opportunity and confusing the whole market with what one company can win. TAM sets the ceiling, SAM applies the limits of your product, geography and channels, and SOM applies the limits of your sales capacity and the competition. Estimating the same layer two ways, top-down from published industry totals and bottom-up from customer counts times price, gives a cross-check: if the two differ by a factor of five, at least one assumption is wrong, and finding it is where the real learning happens.",
+		"components": "**Total addressable market (TAM):** annual revenue if every possible customer for this type of product bought it from you. **Serviceable available market (SAM):** the part of TAM your current product, price, language, regulation and sales channels can actually serve. **Serviceable obtainable market (SOM):** the share of SAM you can realistically win in a set period, usually three to five years, given competitors and capacity. **Top-down sizing:** starts from industry reports or official statistics and narrows them by percentages. **Bottom-up sizing:** multiplies the number of target customers by expected annual spend per customer. **Value-based sizing:** for a new category with no market data, estimates what customers would pay from the value the product creates for them.",
+		"apply": "1) Define the customer and the product precisely, including region and year. 2) Build a bottom-up TAM: count potential customers from registries, industry associations or databases and multiply by a realistic annual price. 3) Cut it to SAM by removing customers your product, language or channels cannot serve today. 4) Estimate SOM from sales capacity, expected win rate and the share competitors hold. 5) Run a top-down estimate as a cross-check and explain any large gap. 6) List every input with its source so others can challenge single assumptions.",
+		"limitations": "Market sizing is a static estimate of a moving target. New categories create demand no prior figure captured: estimates of ride-hailing based on the old taxi market turned out far too small. The numbers are easy to inflate and hard to verify, and a large TAM says nothing about whether customers will pay or whether the business can be profitable. SOM in particular is a sales forecast presented as a market measure."
+	},
+	"ua": {
+		"short": "Оцінка розміру ринку показує, скільки виторгу може принести продукт, у трьох вкладених шарах: загальний доступний ринок (TAM, total addressable market), обслуговуваний ринок (SAM, serviceable available market), до якого реально дістають ваш продукт і канали, та досяжний ринок (SOM, serviceable obtainable market), який можна завоювати за кілька найближчих років. Засновники й інвестори так перевіряють, чи вартує можливість зусиль.",
+		"example": "Стартап продає програму для запису й нагадувань ветеринарним клінікам Німеччини, Австрії та Швейцарії. **TAM (знизу вгору):** близько 14 000 клінік × €1 800 на рік = €25,2 млн. **SAM:** програма підходить незалежним клінікам з одним–п’ятьма лікарями, а не мережам чи госпіталям, тож лишається близько 9 000 клінік, або €16,2 млн. **SOM:** двоє продавців можуть підписувати приблизно по 12 клінік на місяць кожен, отже за три роки компанія матиме близько 860 клінік, тобто приблизно €1,55 млн, менше ніж 10% SAM. **Перевірка зверху вниз:** звіт консалтингової фірми про «ринок pet-tech на €400 млн» охоплює застосунки для кормів і страхування, тому засновники його відкидають. Вони роблять висновок, що продукт може стати міцним нішевим бізнесом, але для венчурних інвесторів потрібні нові країни або другий продукт.",
+		"mistakes": [
+			"Видавати величезну цифру зверху вниз, як-от «індустрія товарів для тварин вартує $150 млрд», за TAM: рахуйте від клієнтів, які справді купили б такий продукт за вашою ціною.",
+			"Казати «нам достатньо 1% ринку»: виводьте SOM із пропускної здатності відділу продажів, конверсії та часток конкурентів, а не з відсотка, вибраного, щоб виглядати скромно.",
+			"Змішувати одиниці, роки й регіони, наприклад виторг з одного джерела й кількість користувачів з іншого: для кожного вхідного числа вказуйте одиницю, рік і географію."
+		],
+		"selfCheck": [
+			{
+				"question": "На слайді TAM для сервісу ремонту еспресо-машин у Лісабоні засновник показує світовий ринок кави на €40 млрд. Що не так?",
+				"answer": "TAM має рахувати витрати саме на цю послугу, тобто будуватися з кількості еспресо-машин у районі Лісабона та річних витрат на ремонт однієї машини, а не з усієї кави, проданої у світі."
+			},
+			{
+				"question": "Чому інвестори часто більше довіряють оцінці знизу вгору, ніж зверху вниз?",
+				"answer": "Вона спирається на дані, які засновник може перевірити й обґрунтувати, як-от кількість цільових клієнтів і протестовану ціну, а цифра зверху вниз успадковує визначення й приховані припущення чужого звіту."
+			},
+			{
+				"question": "SaaS-компанія показує SAM на €50 млн і SOM на третій рік €45 млн. Про що це свідчить?",
+				"answer": "Вона припускає, що за три роки завоює 90% досяжного ринку, а за наявності конкурентів так майже не буває; SOM треба перерахувати з пропускної здатності продажів і реалістичної частки виграних угод."
+			}
+		],
+		"origin": "Три позначення не мають єдиного автора чи публікації, з якої все почалося. Оцінка ринкового потенціалу давно входила в маркетингове планування, а вкладені шари TAM, SAM і SOM стали обов’язковою частиною презентацій стартапів і перевірки венчурними інвесторами, які просять засновників показати, наскільки велика можливість і яку її частину реально взяти.",
+		"core": "Поділ ринку на три шари запобігає двом протилежним помилкам: недооцінці можливості та плутанині між усім ринком і тим, що здатна виграти одна компанія. TAM задає стелю, SAM враховує обмеження продукту, географії й каналів, а SOM обмеження відділу продажів і конкуренцію. Оцінка одного шару двома способами, зверху вниз з опублікованих галузевих сум і знизу вгору з кількості клієнтів, помноженої на ціну, дає перехресну перевірку: якщо результати відрізняються вп’ятеро, принаймні одне припущення хибне, і пошук його дає найцінніше знання.",
+		"components": "**Загальний доступний ринок (TAM):** річний виторг, якби кожен можливий клієнт такого типу продукту купував його у вас. **Обслуговуваний ринок (SAM):** частина TAM, яку реально може обслужити ваш нинішній продукт з огляду на ціну, мову, регулювання й канали продажу. **Досяжний ринок (SOM):** частка SAM, яку реально завоювати за визначений період, зазвичай три–п’ять років, з урахуванням конкурентів і ресурсів. **Оцінка зверху вниз (top-down):** починається з галузевих звітів чи офіційної статистики й звужує їх відсотками. **Оцінка знизу вгору (bottom-up):** множить кількість цільових клієнтів на очікувані річні витрати одного клієнта. **Оцінка від цінності:** для нової категорії без ринкових даних визначає, скільки клієнти платили б, виходячи з цінності, яку продукт їм дає.",
+		"apply": "1) Точно визначте клієнта й продукт, разом із регіоном і роком. 2) Побудуйте TAM знизу вгору: порахуйте потенційних клієнтів за реєстрами, галузевими асоціаціями чи базами даних і помножте на реалістичну річну ціну. 3) Звузьте до SAM, прибравши клієнтів, яких ваш продукт, мова чи канали сьогодні не обслуговують. 4) Оцініть SOM з пропускної здатності продажів, очікуваної частки виграних угод і частки конкурентів. 5) Зробіть оцінку зверху вниз як перевірку й поясніть кожен великий розрив. 6) Запишіть кожне вхідне число з джерелом, щоб інші могли оскаржити окремі припущення.",
+		"limitations": "Оцінка ринку є статичною цифрою для рухомої цілі. Нові категорії створюють попит, якого не враховувала жодна попередня оцінка: розрахунки ринку райдшерингу на основі старого ринку таксі виявилися значно заниженими. Цифри легко роздути й важко перевірити, а великий TAM нічого не каже про те, чи платитимуть клієнти та чи буде бізнес прибутковим. SOM особливо часто є прогнозом продажів, поданим як вимір ринку."
+	}
+}

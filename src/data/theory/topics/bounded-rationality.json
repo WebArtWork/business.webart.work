@@ -1,26 +1,65 @@
 {
 	"slug": "bounded-rationality",
 	"related": [
-		"decision-matrix",
+		"eisenhower-matrix",
 		"prospect-theory",
-		"second-order-thinking"
+		"decision-matrix",
+		"nudge-theory"
 	],
 	"en": {
-		"short": "Bounded Rationality explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
-		"origin": "Herbert A. Simon developed the concept in the 1940s and 1950s, including his 1947 book Administrative Behavior. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
-		"core": "Decision makers have limited time, information and cognitive capacity. Instead of finding the theoretical optimum, they often select an option that meets an acceptable threshold, called satisficing. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
-		"components": "Information limits; attention and memory limits; uncertainty; search costs; aspiration levels; satisfactory choice. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
-		"apply": "Set a decision deadline and minimum criteria. Separate must-have requirements from preferences. Gather the few facts most likely to change the choice. Compare a manageable set of options, document assumptions and revisit decisions when new evidence arrives. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
-		"example": "A founder selects a payment provider after checking fees, reliability, integration effort and legal support rather than evaluating every provider worldwide. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
-		"limitations": "Acceptable does not always mean good enough for irreversible or high-risk decisions. Teams can also set thresholds too low or overlook a crucial option. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+		"short": "Bounded rationality is Herbert Simon's observation that people decide with limited information, limited time and limited mental capacity, so they look for an option that is good enough rather than the best possible one. Organisations work well when their rules, routines and information flows are designed for decision-makers with these limits, not for the all-knowing optimiser of textbook economics.",
+		"example": "A family hardware store stocks 6,000 products and its owner reorders by walking the aisles. **Limited attention:** he can review about 200 items a week, so slow sellers run out unnoticed and 9% of shelf spots are empty at any time. **Satisficing:** instead of building a perfect demand forecast, he sets a simple rule: reorder any item when stock falls below two weeks of average sales. **Routines:** the till system flags those items every Monday, about 150 lines. **Result:** empty spots fall to 3% within two months and he spends four hours a week on ordering instead of ten. The owner keeps the rule and reviews only the 50 best sellers by hand each month.",
+		"mistakes": [
+			"Treating bounded rationality as a polite word for stupidity: it describes how capable people cope with real limits, so redesign the decision environment rather than blaming the person.",
+			"Collecting ever more data before every choice: past a point extra information only delays the decision, so set an aspiration level and stop searching when an option meets it.",
+			"Assuming one simple rule fits forever: a rule of thumb that works in a stable setting can fail when conditions change, so check its results regularly and update the threshold."
+		],
+		"selfCheck": [
+			{
+				"question": "A buyer compares three suppliers, picks the first one that meets quality and price targets and skips the other 20. Is this irrational?",
+				"answer": "No. It is satisficing: given the cost of checking all 23, stopping at a good-enough option is a sensible use of limited time."
+			},
+			{
+				"question": "Why do companies rely on standard procedures if they limit flexibility?",
+				"answer": "Procedures package past learning so that people with limited attention can make routine decisions quickly and consistently."
+			},
+			{
+				"question": "Which fits bounded rationality better: giving a manager a 90-page report or a one-page summary with three options?",
+				"answer": "The one-page summary, because it fits limited attention and makes the key trade-offs visible."
+			}
+		],
+		"origin": "Herbert A. Simon developed the idea in his 1947 book Administrative Behavior and in papers in the 1950s, including \"A Behavioral Model of Rational Choice\" (1955), where he argued for replacing perfect rationality with a model of choice that fits human limits. He introduced the term \"satisficing\", and in 1978 he received the Nobel Prize in economics. Richard Cyert and James March extended the ideas to firms in A Behavioral Theory of the Firm (1963).",
+		"core": "Classical economics assumes a decision-maker who knows every option, predicts every outcome and picks the best. Real people and firms cannot: information is costly, the future is uncertain and attention is scarce. So they search sequentially, stop when an option meets an aspiration level and rely on habits, rules of thumb and organisational routines. This is rational given the limits, and the quality of decisions depends heavily on how the environment presents choices and information.",
+		"components": "**Limited information:** not all options or consequences are known. **Limited cognitive capacity:** people can hold and compare only a few factors at once. **Limited time:** decisions have deadlines, and search has a cost. **Satisficing:** choosing the first option that meets an acceptable threshold. **Aspiration level:** the threshold, which rises after easy successes and falls after failures. **Heuristics and routines:** shortcuts and procedures that let individuals and organisations decide without full analysis.",
+		"apply": "1) Identify recurring decisions where people are overloaded or inconsistent. 2) Set explicit good-enough thresholds, such as minimum margin or maximum delivery time. 3) Turn the thresholds into simple rules or checklists. 4) Present information in short, comparable form with the key trade-offs visible. 5) Reserve deep analysis for rare, high-stakes decisions. 6) Review how the rules perform every few months and adjust thresholds when conditions change.",
+		"limitations": "The concept explains why people deviate from optimal choice but on its own predicts little about which deviation will happen in a given case. Researchers disagree on its interpretation: Gerd Gigerenzer argues simple heuristics are often smart adaptations, while the heuristics-and-biases tradition stresses their errors. Aspiration levels are hard to observe, and it is easy to explain any outcome after the fact by citing limits."
 	},
 	"ua": {
-		"short": "«Обмежена раціональність» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
-		"origin": "Герберт Саймон розвинув концепцію в 1940–1950-х роках, зокрема у книжці «Administrative Behavior» (1947). Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
-		"core": "Люди ухвалюють рішення за браку часу, інформації та можливостей обробки даних. Замість математично найкращого варіанта часто обирають достатньо прийнятний — підхід, відомий як «satisficing». Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
-		"components": "Обмеженість інформації; уваги й пам’яті; невизначеність; вартість пошуку; поріг прийнятності; вибір достатньо доброго рішення. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
-		"apply": "Визначте строк рішення та мінімальні критерії. Відокремте обов’язкові вимоги від побажань. Зберіть кілька фактів, які найбільше впливають на вибір. Порівняйте обмежену кількість варіантів, зафіксуйте припущення та переглядайте рішення за появи нових даних. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
-		"example": "Засновник обирає платіжного провайдера за комісіями, надійністю, складністю інтеграції та юридичною підтримкою, а не аналізує всі сервіси світу. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
-		"limitations": "Прийнятне рішення не завжди достатнє для незворотних або ризикованих ситуацій. Команда може встановити занизький поріг чи не помітити важливу альтернативу. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+		"short": "Обмежена раціональність це спостереження Герберта Саймона: люди вирішують з обмеженою інформацією, часом і розумовими ресурсами, тому шукають достатньо добрий варіант, а не найкращий з можливих. Організації працюють добре, коли їхні правила, рутини й потоки інформації розраховані на людей із такими обмеженнями, а не на всезнаючого оптимізатора з підручника економіки.",
+		"example": "Сімейний господарський магазин має 6 000 товарів, і власник замовляє їх, обходячи стелажі. **Обмежена увага:** за тиждень він може переглянути близько 200 позицій, тому повільні товари закінчуються непомітно, і в будь-який момент 9% місць на полицях порожні. **Задовільний вибір (satisficing):** замість ідеального прогнозу попиту він вводить просте правило: дозамовляти товар, коли запас падає нижче двох тижнів середніх продажів. **Рутина:** касова система щопонеділка позначає такі товари, близько 150 рядків. **Результат:** за два місяці частка порожніх місць падає до 3%, а на замовлення йде чотири години на тиждень замість десяти. Власник залишає правило і щомісяця вручну переглядає лише 50 найпопулярніших товарів.",
+		"mistakes": [
+			"Вважати обмежену раціональність ввічливою назвою дурості: вона описує, як здібні люди дають раду реальним обмеженням, тож змінюйте середовище рішення, а не звинувачуйте людину.",
+			"Збирати дедалі більше даних перед кожним вибором: після певної межі додаткова інформація лише відкладає рішення, тому встановіть рівень домагань і зупиняйте пошук, коли варіант йому відповідає.",
+			"Думати, що одне просте правило підійде назавжди: емпіричне правило, яке працює в стабільних умовах, може підвести після змін, тож регулярно перевіряйте результати й оновлюйте поріг."
+		],
+		"selfCheck": [
+			{
+				"question": "Закупівельник порівнює трьох постачальників, обирає першого, хто відповідає вимогам до якості й ціни, і не дивиться ще 20. Це ірраціонально?",
+				"answer": "Ні. Це задовільний вибір: з огляду на вартість перевірки всіх 23 зупинитися на достатньо доброму варіанті розумно."
+			},
+			{
+				"question": "Чому компанії покладаються на стандартні процедури, хоча вони обмежують гнучкість?",
+				"answer": "Процедури пакують минулий досвід, щоб люди з обмеженою увагою ухвалювали рутинні рішення швидко й послідовно."
+			},
+			{
+				"question": "Що краще відповідає обмеженій раціональності: дати керівникові звіт на 90 сторінок чи підсумок на одну сторінку з трьома варіантами?",
+				"answer": "Підсумок на одну сторінку, бо він враховує обмежену увагу і робить головні компроміси видимими."
+			}
+		],
+		"origin": "Герберт Саймон розвинув ідею в книжці «Administrative Behavior» (1947) і статтях 1950-х років, зокрема «A Behavioral Model of Rational Choice» (1955), де запропонував замінити досконалу раціональність моделлю вибору, що відповідає людським обмеженням. Він запровадив термін «satisficing» (задовільний вибір), а 1978 року отримав Нобелівську премію з економіки. Річард Сайєрт і Джеймс Марч поширили ці ідеї на фірми в книжці «A Behavioral Theory of the Firm» (1963).",
+		"core": "Класична економіка припускає, що людина знає всі варіанти, передбачає всі наслідки й обирає найкращий. Реальні люди та фірми так не можуть: інформація коштує грошей, майбутнє невизначене, а увага дефіцитна. Тож вони шукають послідовно, зупиняються, коли варіант відповідає рівню домагань, і спираються на звички, емпіричні правила та організаційні рутини. Це раціонально з урахуванням обмежень, а якість рішень сильно залежить від того, як середовище подає вибір та інформацію.",
+		"components": "**Обмежена інформація:** відомі не всі варіанти й наслідки. **Обмежені когнітивні можливості:** людина може тримати в голові й порівнювати лише кілька чинників одночасно. **Обмежений час:** рішення мають дедлайни, а пошук має ціну. **Задовільний вибір:** обрати перший варіант, що перевищує прийнятний поріг. **Рівень домагань:** сам поріг, який зростає після легких успіхів і знижується після невдач. **Евристики та рутини:** скорочення й процедури, що дозволяють людям і організаціям вирішувати без повного аналізу.",
+		"apply": "1) Знайдіть повторювані рішення, де люди перевантажені або непослідовні. 2) Встановіть явні пороги «достатньо добре», наприклад мінімальну маржу чи максимальний термін доставки. 3) Перетворіть пороги на прості правила або чек-листи. 4) Подавайте інформацію коротко й у порівнянному вигляді, з видимими компромісами. 5) Глибокий аналіз залиште для рідкісних рішень із високими ставками. 6) Раз на кілька місяців перевіряйте, як працюють правила, і змінюйте пороги, коли змінюються умови.",
+		"limitations": "Концепція пояснює, чому люди відхиляються від оптимального вибору, але сама мало передбачає, яке саме відхилення станеться в конкретному випадку. Науковці тлумачать її по-різному: Ґерд Ґіґеренцер вважає прості евристики часто розумною адаптацією, а традиція «евристик і упереджень» наголошує на їхніх помилках. Рівень домагань важко спостерігати, і заднім числом легко пояснити будь-який результат посиланням на обмеження."
 	}
 }

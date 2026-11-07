@@ -1,26 +1,65 @@
 {
 	"slug": "kaizen",
 	"related": [
+		"tuckmans-stages-of-team-development",
+		"just-in-time",
 		"lean-management",
-		"pdca-cycle",
 		"six-sigma"
 	],
 	"en": {
-		"short": "Small, frequent improvements made by people doing the work can accumulate into substantial gains. Learning and standardizing successful changes matter more than one-off campaigns. Invite frontline suggestions, reserve time for experiments, use simple before-and-after metrics, document successful practices and revisit them regularly.",
-		"origin": "Kaizen is a Japanese term for improvement. It became associated with Japanese management practice after World War II and was widely introduced to international business audiences by Masaaki Imai’s 1986 book *Kaizen*. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
-		"core": "Small, frequent improvements made by people doing the work can accumulate into substantial gains. Learning and standardizing successful changes matter more than one-off campaigns. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
-		"components": "Observe work, identify problems, propose small changes, test them, measure results and update standard practices. Employee participation and leadership support sustain the cycle. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
-		"apply": "Invite frontline suggestions, reserve time for experiments, use simple before-and-after metrics, document successful practices and revisit them regularly. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
-		"example": "A restaurant team rearranges preparation stations to reduce unnecessary walking. They measure order preparation time and retain the layout if service improves. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
-		"limitations": "Tiny improvements cannot replace major strategic shifts or capital investment. Without authority, time and feedback, suggestion programs become performative. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+		"short": "Kaizen means improving a little every day, with everyone involved, instead of waiting for one big transformation. The people doing the work spot problems where they happen, test small changes quickly and turn what works into the new standard. Hundreds of cheap improvements compound into gains that rivals find hard to copy.",
+		"example": "A 60-seat Italian restaurant averages 24 minutes from order to plate on Friday nights, and guests complain. The chef starts a **weekly 15-minute kaizen meeting** where every cook brings one problem from the **gemba,** the kitchen line itself. Over eight weeks the team makes 22 suggestions and tries 17: pasta pre-portioned before service, clean plates stored at the pass, colour-coded tickets for allergy orders, a second salamander moved next to the grill. Each change costs under $100. **Standardise:** the ones that work go onto a one-page station guide. Ticket time drops to 16 minutes, Friday table turns rise by half a turn, about 30 extra covers or $1,100 more revenue a night. The chef extends the meetings to front-of-house staff.",
+		"mistakes": [
+			"Running kaizen as a one-off workshop: a three-day event without daily follow-up fades within weeks, so build a regular rhythm of small reviews.",
+			"Asking for suggestions and then ignoring them: unanswered ideas kill participation, so respond to every suggestion within days, even when the answer is no.",
+			"Changing things without fixing a standard first: if there is no agreed way of working, nobody can tell whether a change helped, so write down the current method before improving it."
+		],
+		"selfCheck": [
+			{
+				"question": "A manager offers big cash bonuses for suggestions that save over $10,000. Why can this hurt kaizen?",
+				"answer": "It pushes people toward rare big ideas and away from the many small daily fixes that make up most of the gain."
+			},
+			{
+				"question": "Why does kaizen insist on going to the gemba?",
+				"answer": "Problems look different in reports than on the floor; seeing the actual work, product and people reveals causes that meetings miss."
+			},
+			{
+				"question": "A clinic cuts patient waiting time with a new check-in step but does not update its procedures. What happens next?",
+				"answer": "Staff gradually return to old habits, so the gain disappears; each improvement must become the new written standard."
+			}
+		],
+		"origin": "Kaizen is the Japanese word for improvement. Postwar Japanese industry absorbed American programmes such as Training Within Industry and the quality teaching of W. Edwards Deming, and companies like Toyota built suggestion systems and quality circles on them. Masaaki Imai introduced the concept to Western managers in his 1986 book Kaizen: The Key to Japan's Competitive Success and later founded the Kaizen Institute.",
+		"core": "Large innovations are rare, expensive and risky, while small improvements are cheap, safe and can happen every day. When every employee looks for waste in their own work and is trusted to fix it, the organisation learns continuously. Each small change is tested, measured and, if it works, written into the standard, which becomes the floor for the next improvement. The compounding effect and the habit of problem-solving matter more than any single change.",
+		"components": "**Gemba:** the real place where value is created, where problems should be studied. **Standard work:** the current best way of doing a task, the baseline for improvement. **PDCA:** the small plan, do, check, act loop used for each change. **Suggestion system:** a simple, fast route for every employee's ideas. **Kaizen events:** short focused workshops that tackle one process, used alongside daily improvement. **Visual management:** boards and signals that make problems and progress visible to all.",
+		"apply": "1) Choose one area and document how the work is done now. 2) Set a short regular meeting, daily or weekly, at the workplace. 3) Ask each person to bring one problem or idea and record it on a visible board. 4) Test small changes quickly, measuring one clear indicator such as time, errors or complaints. 5) Write successful changes into the standard and train everyone on it. 6) Recognise contributors publicly and track how many ideas are implemented each month.",
+		"limitations": "Small steps cannot replace strategic change when the market shifts or technology makes the whole process obsolete. Kaizen needs patient management and trust; in a culture of blame people hide problems. Gains per change are small, so results take time to show. Some critics note that constant improvement pressure can turn into work intensification for front-line staff."
 	},
 	"ua": {
-		"short": "Невеликі регулярні зміни, запропоновані людьми, які виконують роботу, поступово дають відчутний результат. Важливо навчатися на досвіді та закріплювати вдалі рішення. Збирайте пропозиції команди, виділяйте час на перевірку, порівнюйте показники до й після, фіксуйте вдалі рішення та регулярно повертайтеся до процесу.",
-		"origin": "Кайдзен (Kaizen) — японське поняття вдосконалення. Воно пов’язане з післявоєнною управлінською практикою Японії; міжнародну популярність підходу посилила книжка Масаакі Імаї «Kaizen» (1986). Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
-		"core": "Невеликі регулярні зміни, запропоновані людьми, які виконують роботу, поступово дають відчутний результат. Важливо навчатися на досвіді та закріплювати вдалі рішення. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
-		"components": "Спостереження за роботою, виявлення проблеми, пропозиція, невеликий експеримент, вимірювання й оновлення стандарту. Участь працівників та підтримка керівництва забезпечують сталість. Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
-		"apply": "Збирайте пропозиції команди, виділяйте час на перевірку, порівнюйте показники до й після, фіксуйте вдалі рішення та регулярно повертайтеся до процесу. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
-		"example": "Команда ресторану змінює розташування робочих зон, щоб кухарі менше ходили. Вимірює час приготування й залишає нове планування, якщо обслуговування прискорилося. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
-		"limitations": "Дрібні покращення не замінюють великих стратегічних рішень. Без часу, повноважень і зворотного зв’язку програма ідей перетворюється на формальність. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+		"short": "Кайдзен (kaizen) означає вдосконалюватися потроху щодня за участі всіх, а не чекати однієї великої трансформації. Люди, що виконують роботу, помічають проблеми там, де вони виникають, швидко випробовують невеликі зміни й перетворюють вдалі на новий стандарт. Сотні дешевих покращень складаються в здобутки, які конкурентам важко скопіювати.",
+		"example": "Італійський ресторан на 60 місць у п’ятницю ввечері в середньому витрачає 24 хвилини від замовлення до подачі страви, і гості скаржаться. Шеф запроваджує **щотижневу 15-хвилинну нараду кайдзен,** на яку кожен кухар приносить одну проблему з **гемби** (gemba), тобто з самої кухонної лінії. За вісім тижнів команда подає 22 пропозиції й випробовує 17: пасту порціонують до початку зміни, чисті тарілки зберігають біля роздачі, замовлення з алергенами позначають кольоровими чеками, другий саламандр переносять до гриля. Кожна зміна коштує менше $100. **Стандартизувати:** вдалі зміни записують в одну сторінку інструкції для станції. Час подачі падає до 16 хвилин, у п’ятницю столи обертаються на пів обороту більше, це близько 30 додаткових гостей або на $1 100 більше виручки за вечір. Шеф поширює наради на персонал залу.",
+		"mistakes": [
+			"Проводити кайдзен як разовий воркшоп: триденний захід без щоденного продовження згасає за кілька тижнів, тож вибудуйте регулярний ритм невеликих оглядів.",
+			"Збирати пропозиції й потім їх ігнорувати: ідеї без відповіді вбивають участь, тому відповідайте на кожну пропозицію за кілька днів, навіть якщо відповідь «ні».",
+			"Змінювати щось, не зафіксувавши спершу стандарт: якщо немає узгодженого способу роботи, ніхто не скаже, чи допомогла зміна, тому запишіть поточний метод, перш ніж його покращувати."
+		],
+		"selfCheck": [
+			{
+				"question": "Керівник пропонує великі грошові бонуси за пропозиції, що заощаджують понад $10 000. Чим це може зашкодити кайдзен?",
+				"answer": "Це штовхає людей до рідкісних великих ідей і відволікає від численних дрібних щоденних виправлень, з яких складається більша частина вигоди."
+			},
+			{
+				"question": "Чому кайдзен наполягає на тому, щоб іти на гембу?",
+				"answer": "Проблеми у звітах виглядають інакше, ніж на місці; коли бачиш реальну роботу, продукт і людей, відкриваються причини, які наради пропускають."
+			},
+			{
+				"question": "Клініка скоротила час очікування пацієнтів новим кроком реєстрації, але не оновила процедури. Що станеться далі?",
+				"answer": "Персонал поступово повернеться до старих звичок, і здобуток зникне; кожне покращення має ставати новим записаним стандартом."
+			}
+		],
+		"origin": "Кайдзен японською означає «покращення». Післявоєнна японська промисловість увібрала американські програми, як-от Training Within Industry, і вчення про якість Едвардса Демінга, а компанії на кшталт Toyota збудували на них системи пропозицій і гуртки якості. Масаакі Імаї познайомив західних керівників із концепцією в книзі 1986 року «Kaizen: The Key to Japan's Competitive Success», а згодом заснував Kaizen Institute.",
+		"core": "Великі інновації рідкісні, дорогі й ризиковані, а дрібні покращення дешеві, безпечні й можуть відбуватися щодня. Коли кожен працівник шукає втрати у своїй роботі й має довіру їх виправити, організація навчається безперервно. Кожну невелику зміну випробовують, вимірюють і, якщо вона працює, вписують у стандарт, який стає підлогою для наступного покращення. Накопичувальний ефект і звичка розв’язувати проблеми важать більше за будь-яку окрему зміну.",
+		"components": "**Гемба:** реальне місце, де створюється цінність і де слід вивчати проблеми. **Стандартизована робота:** поточний найкращий спосіб виконання завдання, точка відліку для покращень. **PDCA:** короткий цикл «плануй, виконуй, перевіряй, дій» для кожної зміни. **Система пропозицій:** простий і швидкий шлях для ідей кожного працівника. **Кайдзен-заходи:** короткі зосереджені воркшопи щодо одного процесу, які доповнюють щоденні покращення. **Візуальне управління:** дошки й сигнали, що роблять проблеми й прогрес видимими для всіх.",
+		"apply": "1) Оберіть одну ділянку й задокументуйте, як робота виконується зараз. 2) Призначте коротку регулярну нараду, щоденну чи щотижневу, просто на робочому місці. 3) Попросіть кожного приносити одну проблему чи ідею й записуйте їх на видимій дошці. 4) Швидко випробовуйте невеликі зміни, вимірюючи один зрозумілий показник: час, помилки чи скарги. 5) Вписуйте вдалі зміни в стандарт і навчайте за ним усіх. 6) Публічно відзначайте авторів і щомісяця рахуйте, скільки ідей упроваджено.",
+		"limitations": "Маленькі кроки не замінять стратегічних змін, коли ринок зсувається або технологія робить увесь процес застарілим. Кайдзен потребує терплячого керівництва й довіри; у культурі пошуку винних люди приховують проблеми. Вигода від кожної зміни мала, тож результати проявляються не одразу. Деякі критики зауважують, що постійний тиск покращень може перетворитися на інтенсифікацію праці для працівників на місцях."
 	}
 }

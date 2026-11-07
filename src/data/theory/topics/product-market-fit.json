@@ -3,24 +3,63 @@
 	"related": [
 		"lean-startup",
 		"minimum-viable-product",
-		"customer-development-model"
+		"customer-development-model",
+		"crossing-the-chasm"
 	],
 	"en": {
-		"short": "Product-market fit means a product solves an important problem for a sufficiently large, reachable market. It matters because marketing and scaling rarely compensate for a product customers do not value enough to keep using.",
-		"origin": "The phrase is commonly associated with venture investor Andy Rachleff and was popularized by Marc Andreessen in a 2007 essay. There is no universally agreed date or single inventor of the underlying idea.",
-		"core": "Fit is an observed relationship between a defined market and a product that delivers value, not a certificate a founder can declare. Strong demand appears in repeat behavior, referrals, willingness to pay, and the disappointment users express when access disappears. Fit can be present in one segment and absent in another.",
-		"components": "The **target segment** defines whose problem matters. **Urgency and frequency** indicate how much value solving it creates. **Activation** shows whether people reach the first useful outcome. **Retention** reveals continued value. **Willingness to pay**, **referrals**, and **organic demand** provide additional evidence. The often-cited Sean Ellis survey asks how disappointed users would be without the product; its 40% benchmark is a heuristic, not a law.",
-		"apply": "Interview users who experienced the problem recently. Choose a narrow segment, offer one clear benefit, and instrument activation and cohort retention. Separate new users from repeat users; calculate retention by acquisition month rather than relying on total signups. Ask why satisfied users return and why others leave. Improve the core workflow before buying more traffic. Check whether acquisition costs and pricing could support a business.",
-		"example": "A scheduling app initially serves all service businesses but finds that independent physiotherapy clinics repeatedly use appointment reminders and pay to avoid missed visits. The team focuses on that segment and measures three-month retention before expanding.",
-		"limitations": "High engagement can reflect incentives, contracts, or lack of alternatives. Small samples mislead, survey responses are not purchases, and fit changes when competitors, regulations, or customer expectations change. A product can have fit yet still lack profitable unit economics."
+		"short": "Product-market fit is the point at which a product satisfies a strong demand in a market large enough to support the business, so customers keep using it, pay for it and bring others. Before it, growth has to be pushed with spending; after it, demand pulls the company forward. Finding it is the main job of an early startup, and scaling before it mostly burns money.",
+		"example": "A startup makes a job-tracking app for construction subcontractors: electricians, plumbers and tilers. After 14 months it has 600 paying firms. **Survey test:** asked how they would feel if they could no longer use the app, 29% overall answer \"very disappointed\", below the 40% benchmark, but among electrical contractors the share is 52%. **Retention:** electricians' monthly cohorts flatten at 70% after six months; other trades keep sliding toward 25%. **Pull signals:** 60% of new electricians arrive through referrals, with no ad spend. The fit exists only in one segment. The founders stop paid campaigns aimed at all trades, rebuild onboarding around electrical certificates and permits, and set a target of 45% \"very disappointed\" in the electrician segment before hiring a sales team.",
+		"mistakes": [
+			"Declaring fit from revenue or sign-up growth alone: paid acquisition can buy growth for a while, so check whether retention cohorts flatten instead of falling to zero.",
+			"Averaging across all customers: a strong fit in one segment can hide inside weak overall numbers, so split survey and retention data by customer type.",
+			"Hiring and spending for scale before fit: a bigger sales team pours customers into a leaking product, so fix retention first."
+		],
+		"selfCheck": [
+			{
+				"question": "A food delivery app doubles its users each quarter thanks to $10 discounts, but 85% stop ordering once the discounts end. Does it have product-market fit?",
+				"answer": "No: demand is being bought, not pulled, and retention without incentives shows customers don't value the product enough."
+			},
+			{
+				"question": "Why does a flattening retention curve signal fit?",
+				"answer": "It shows a group of customers keeps getting value month after month, so each new cohort adds lasting users rather than temporary ones."
+			},
+			{
+				"question": "Which matters more for a B2B startup's fit: 500 free trial sign-ups or 30 customers renewing annual contracts unprompted?",
+				"answer": "The renewals, because they prove that the product solved a costly problem well enough to pay for again."
+			}
+		],
+		"origin": "Marc Andreessen popularised the term in his 2007 blog post \"The only thing that matters\", where he credited the idea to investor Andy Rachleff of Benchmark Capital. Andreessen defined it as being in a good market with a product that can satisfy that market. Growth adviser Sean Ellis later proposed the survey test with its 40% \"very disappointed\" benchmark, drawn from his work with startups.",
+		"core": "Andreessen argued that the market matters most: a great market pulls a product out of a startup, while a poor market defeats even a great team. Fit appears when the product meets a strong, specific need for a definable group of customers. At that point the business behaves differently: customers stay, recommend it, and acquisition becomes cheaper. Everything before fit is search; everything after is execution and scaling.",
+		"components": "**Target customer:** a defined segment with an urgent, underserved need. **Value proposition:** the specific benefit that meets that need better than alternatives. **Retention:** cohort curves that flatten at a healthy level instead of decaying to zero. **Sean Ellis test:** at least 40% of active users saying they would be very disappointed without the product. **Organic pull:** referrals, word of mouth, sales cycles getting shorter and customers asking for more.",
+		"apply": "1) Define the target segment and the need you claim to meet. 2) Plot monthly retention cohorts and check whether they flatten. 3) Run the Sean Ellis survey among users who used the product recently. 4) Split both results by segment to find where fit is strongest. 5) Narrow focus to that segment, improve the product for it and repeat the measures before scaling spending.",
+		"limitations": "There is no single agreed threshold; the 40% benchmark comes from Ellis's experience, not from a controlled study. Fit is not permanent: competitors, new technology or a shift in needs can erode it. The concept is easier to recognise after the fact than to measure precisely while searching, and founders tend to see fit where they hope to find it."
 	},
 	"ua": {
-		"short": "Відповідність продукту ринку означає, що рішення закриває важливу потребу достатньої кількості клієнтів. Без цього масштабування здебільшого лише збільшує витрати.",
-		"origin": "Поняття пов’язують із венчурним інвестором Енді Реклеффом; широкої популярності йому надав Марк Андріссен у статті 2007 року. Єдиного загальновизнаного автора самої ідеї немає.",
-		"core": "Відповідність продукту ринку (product-market fit) існує тоді, коли конкретна група клієнтів регулярно отримує від продукту важливу користь. Це не статус, який можна оголосити після запуску. Ознаки відповідності — повторне використання, рекомендації, готовність платити та помітна втрата цінності для клієнта у разі закриття сервісу. Для різних сегментів результат може відрізнятися.",
-		"components": "**Цільовий сегмент (target segment)** визначає аудиторію. **Гострота проблеми** показує потребу. **Активація (activation)** — момент першої користі; **утримання (retention)** — повернення з часом. Додаткові сигнали: оплата, рекомендації та органічні звернення. Опитування Шона Елліса про розчарування через втрату продукту й орієнтир 40% — лише допоміжний індикатор, а не універсальний стандарт.",
-		"apply": "Проведіть інтерв’ю з людьми, які нещодавно стикалися з проблемою. Зосередьтеся на одному сегменті й одному результаті. Вимірюйте активацію та утримання за когортами, а не лише загальну кількість реєстрацій. З’ясуйте причини повернення й відмови. Вдоскональте основний сценарій до збільшення рекламного бюджету. Перевірте, чи ціна та витрати на залучення дозволяють заробляти.",
-		"example": "Сервіс запису клієнтів спочатку орієнтується на весь ринок послуг. Згодом команда бачить, що приватні фізіотерапевтичні кабінети регулярно використовують нагадування і готові платити за меншу кількість пропущених візитів. Розробники зосереджуються на цій ніші та перевіряють утримання протягом трьох місяців.",
-		"limitations": "Висока активність інколи пояснюється знижками або відсутністю альтернатив. Невелика вибірка спотворює висновки, а позитивні відповіді в опитуванні не дорівнюють оплаті. Навіть за наявності попиту бізнес може залишатися збитковим. Зміни ринку також здатні зруйнувати досягнуту відповідність."
+		"short": "Відповідність продукту ринку (product-market fit) настає тоді, коли продукт задовольняє сильний попит на ринку, достатньо великому для бізнесу, тож клієнти користуються ним далі, платять і приводять інших. До цього моменту зростання доводиться штовхати витратами, а після нього попит сам тягне компанію вперед. Пошук цієї відповідності головне завдання молодого стартапу, а масштабування до неї здебільшого спалює гроші.",
+		"example": "Стартап створює застосунок для обліку робіт будівельних субпідрядників: електриків, сантехніків і плиточників. За 14 місяців він має 600 фірм, що платять. **Опитування:** на питання, що вони відчуватимуть, якщо більше не зможуть користуватися застосунком, 29% загалом відповідають «дуже розчаруюся», що нижче за орієнтир 40%, але серед електромонтажних фірм таких 52%. **Утримання:** місячні когорти електриків вирівнюються на рівні 70% після шести місяців, а інші спеціальності сповзають до 25%. **Ознаки попиту:** 60% нових електриків приходять за рекомендаціями без жодних витрат на рекламу. Відповідність є лише в одному сегменті. Засновники зупиняють платні кампанії для всіх спеціальностей, перебудовують знайомство з продуктом навколо електротехнічних сертифікатів і дозволів і ставлять ціль 45% «дуже розчаруюся» серед електриків, перш ніж наймати відділ продажів.",
+		"mistakes": [
+			"Оголошувати відповідність лише за ростом виручки чи реєстрацій: платне залучення може якийсь час купувати зростання, тож перевіряйте, чи криві утримання когорт вирівнюються, а не падають до нуля.",
+			"Усереднювати по всіх клієнтах: сильна відповідність в одному сегменті може ховатися в слабких загальних цифрах, тож розділяйте дані опитувань і утримання за типами клієнтів.",
+			"Наймати й витрачати під масштаб до відповідності: більший відділ продажів просто заливає клієнтів у продукт, який протікає, тож спершу виправте утримання."
+		],
+		"selfCheck": [
+			{
+				"question": "Застосунок доставки їжі щокварталу подвоює кількість користувачів завдяки знижкам по $10, але 85% перестають замовляти, щойно знижки закінчуються. Чи є відповідність продукту ринку?",
+				"answer": "Ні: попит купують, а не притягують, і утримання без стимулів показує, що клієнти недостатньо цінують продукт."
+			},
+			{
+				"question": "Чому вирівнювання кривої утримання свідчить про відповідність?",
+				"answer": "Воно показує, що група клієнтів місяць за місяцем отримує цінність, тож кожна нова когорта додає постійних користувачів, а не тимчасових."
+			},
+			{
+				"question": "Що важливіше для відповідності B2B-стартапу: 500 реєстрацій на безкоштовний пробний період чи 30 клієнтів, які самі продовжують річні контракти?",
+				"answer": "Продовження, бо вони доводять, що продукт розв’язав дорогу проблему настільки добре, що за нього платять знову."
+			}
+		],
+		"origin": "Марк Андріссен популяризував термін у дописі 2007 року «The only thing that matters», де приписав ідею інвестору Енді Рачлеффу з Benchmark Capital. Андріссен визначив її як перебування на доброму ринку з продуктом, здатним цей ринок задовольнити. Консультант зі зростання Шон Елліс згодом запропонував тест-опитування з орієнтиром 40% «дуже розчаруюся», виведеним із його роботи зі стартапами.",
+		"core": "Андріссен стверджував, що найважливіший ринок: великий ринок сам витягує продукт зі стартапу, а поганий ринок перемагає навіть сильну команду. Відповідність з’являється, коли продукт закриває сильну конкретну потребу чітко окресленої групи клієнтів. У цей момент бізнес поводиться інакше: клієнти залишаються, радять його, а залучення дешевшає. Усе до відповідності це пошук, усе після неї це виконання й масштабування.",
+		"components": "**Цільовий клієнт:** визначений сегмент із нагальною незакритою потребою. **Ціннісна пропозиція:** конкретна вигода, що закриває цю потребу краще за альтернативи. **Утримання:** криві когорт, що вирівнюються на здоровому рівні, а не згасають до нуля. **Тест Шона Елліса:** щонайменше 40% активних користувачів кажуть, що дуже розчаруються без продукту. **Органічний попит:** рекомендації, сарафанне радіо, коротший цикл продажу й клієнти, які просять більше.",
+		"apply": "1) Визначте цільовий сегмент і потребу, яку ви нібито закриваєте. 2) Побудуйте місячні когорти утримання й перевірте, чи вони вирівнюються. 3) Проведіть опитування Шона Елліса серед тих, хто нещодавно користувався продуктом. 4) Розділіть обидва результати за сегментами, щоб знайти, де відповідність найсильніша. 5) Зосередьтеся на цьому сегменті, покращте продукт для нього й повторіть вимірювання, перш ніж збільшувати витрати.",
+		"limitations": "Єдиного узгодженого порогу немає: орієнтир 40% походить із досвіду Елліса, а не з контрольованого дослідження. Відповідність не вічна: конкуренти, нові технології чи зміна потреб можуть її підточити. Поняття легше впізнати заднім числом, ніж точно виміряти під час пошуку, а засновники схильні бачити відповідність там, де сподіваються її знайти."
 	}
 }

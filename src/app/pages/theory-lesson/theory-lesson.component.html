@@ -15,6 +15,37 @@
 		<p class="mt-3 text-lg leading-relaxed text-fg/80"><app-rich [text]="content.short" /></p>
 	</section>
 
+	<section class="mt-9 rounded-xl border border-brand/25 bg-brand/5 p-6" aria-labelledby="example-title">
+		<h2 id="example-title" class="font-semibold text-brand">{{ 'Worked example' | t }}</h2>
+		<p class="mt-3 leading-8 text-fg"><app-rich [text]="content.example" /></p>
+	</section>
+
+	<section class="mt-9" aria-labelledby="mistakes-title">
+		<h2 id="mistakes-title" class="text-xl font-semibold">{{ 'Common mistakes' | t }}</h2>
+		<ul class="mt-3 flex list-disc flex-col gap-2 pl-5 leading-8 text-fg/80">
+			@for (mistake of content.mistakes; track $index) {
+				<li><app-rich [text]="mistake" /></li>
+			}
+		</ul>
+	</section>
+
+	<section class="mt-9" aria-labelledby="check-title">
+		<h2 id="check-title" class="text-xl font-semibold">{{ 'Check yourself' | t }}</h2>
+		<p class="mt-1 text-sm text-mute">{{ 'Answer in your head, then open the answer.' | t }}</p>
+		<ol class="mt-3 flex flex-col gap-2">
+			@for (item of content.selfCheck; track $index) {
+				<li>
+					<details class="group rounded-lg border border-line px-4 py-3 open:border-brand/40">
+						<summary class="cursor-pointer font-medium marker:text-brand">
+							<app-rich [text]="item.question" />
+						</summary>
+						<p class="mt-2 leading-7 text-fg/80"><app-rich [text]="item.answer" /></p>
+					</details>
+				</li>
+			}
+		</ol>
+	</section>
+
 	<button
 		class="ds-btn ds-btn-outline mt-6"
 		type="button"
@@ -27,17 +58,10 @@
 
 	<div id="detailed" [hidden]="!expanded()">
 		@for (section of sections(); track section.key) {
-			@if (section.boxed) {
-				<section class="mt-9 rounded-xl border border-brand/25 bg-brand/5 p-6">
-					<h2 class="font-semibold text-brand">{{ section.title | t }}</h2>
-					<p class="mt-3 leading-8 text-fg"><app-rich [text]="section.text" /></p>
-				</section>
-			} @else {
-				<section class="mt-9">
-					<h2 class="text-xl font-semibold">{{ section.title | t }}</h2>
-					<p class="mt-3 leading-8 text-fg/80"><app-rich [text]="section.text" /></p>
-				</section>
-			}
+			<section class="mt-9">
+				<h2 class="text-xl font-semibold">{{ section.title | t }}</h2>
+				<p class="mt-3 leading-8 text-fg/80"><app-rich [text]="section.text" /></p>
+			</section>
 		}
 	</div>
 

@@ -1,26 +1,65 @@
 {
 	"slug": "second-order-thinking",
 	"related": [
+		"first-principles-thinking",
 		"game-theory-in-business",
-		"bounded-rationality",
-		"decision-matrix"
+		"supply-and-demand",
+		"opportunity-cost"
 	],
 	"en": {
-		"short": "Second-Order Thinking explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
-		"origin": "No single author or origin date is established; the idea has roots in systems thinking, economics and strategic reasoning. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
-		"core": "First-order thinking asks what happens immediately. Second-order thinking asks what happens next, including responses, feedback loops and unintended consequences. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
-		"components": "Immediate effect; delayed effects; incentives; stakeholder reactions; feedback loops; unintended consequences; time horizon. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
-		"apply": "For a major decision, write the likely immediate outcome, then ask how customers, employees and competitors will respond. Model a few plausible sequences, identify leading indicators and choose reversible experiments where possible. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
-		"example": "Cutting customer support costs improves next month’s margin but may increase churn, negative reviews and future acquisition costs. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
-		"limitations": "Long causal chains are uncertain and can become speculative. Excessive analysis can delay necessary action; update hypotheses using real-world evidence. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+		"short": "Second-order thinking means asking \"and then what?\" after the obvious result of a decision, tracing how customers, competitors, employees and the system will respond over time. First-order effects are often immediate and attractive, while the consequences that follow can cancel them out or reverse them, so the habit separates decisions that look good from decisions that stay good.",
+		"example": "A 30-room city hotel considers switching all bookings to free cancellation up to 24 hours before arrival. **First-order effect:** online conversion is expected to rise from 2.5% to 3.4%, adding about 90 bookings a month. **Second-order effects:** cancellations rise from 8% to 25%, because guests book several hotels and drop the rest; last-minute empty rooms are hard to resell midweek. **Third-order effects:** to cover the gaps, the manager would overbook, risking walked guests and bad reviews, and booking platforms would rank the hotel lower after cancellations. **Net estimate:** occupancy rises only 2 points while staff time on rebooking doubles. The hotel keeps free cancellation for stays booked more than 14 days ahead and a non-refundable rate 10% cheaper for the rest.",
+		"mistakes": [
+			"Stopping at the first consequence because it hits this quarter's target: write out at least two further rounds of reactions before approving changes to prices, incentives or policies.",
+			"Listing every imaginable ripple: the exercise becomes paralysing, so focus on the reactions of the few actors with the most power to respond, such as key customers or rivals.",
+			"Ignoring time: some effects appear only after months, so name when each consequence is likely to show up and check back at that point."
+		],
+		"selfCheck": [
+			{
+				"question": "A shop cuts prices 20% to win market share. What second-order effect should it expect?",
+				"answer": "Competitors may match the cut, leaving shares unchanged and margins lower for everyone, while customers learn to wait for discounts."
+			},
+			{
+				"question": "Why can a sales bonus based only on monthly revenue hurt the company?",
+				"answer": "Reps may push discounts and unsuitable deals to hit the number, raising returns and churn that show up after the bonus is paid."
+			},
+			{
+				"question": "Which question best captures second-order thinking: \"Will this work?\" or \"If this works, how will others respond?\"",
+				"answer": "The second, because it looks beyond the immediate result to the reactions it triggers."
+			}
+		],
+		"origin": "The idea is old and has no single author. In 1850 French economist Frédéric Bastiat wrote the essay \"That Which Is Seen, and That Which Is Not Seen\", arguing that a good economist looks beyond the visible effect of a policy. Sociologist Robert Merton analysed unintended consequences in a 1936 paper. Investor Howard Marks popularised the term \"second-level thinking\" in his 2011 book The Most Important Thing.",
+		"core": "Decisions act on systems of people who adapt. The first-order effect is the direct result, such as more sales after a discount. Second-order effects come from how others react: rivals respond, customers change habits, employees game metrics, suppliers renegotiate. These reactions can amplify or erase the original gain and often arrive later, when no one connects them to the decision. Thinking a step or two further reveals options that are worse in the short run but better over time, and vice versa.",
+		"components": "**First-order effect:** the immediate, intended result. **Second- and third-order effects:** the reactions to that result and the reactions to those reactions. **Actors:** the customers, competitors, staff, partners and regulators who respond. **Time horizon:** when each effect is likely to appear, from days to years. **Feedback loops:** chains where a consequence reinforces or dampens the original change. **Trade-off judgment:** weighing short-term gains against delayed costs.",
+		"apply": "1) State the decision and its expected first-order result in numbers. 2) List the three to five actors most able to react. 3) For each, ask how they will respond and what that response will cause. 4) Repeat once more for the most important chains. 5) Put rough timings and sizes on the main effects. 6) Adjust the decision to keep the gain and blunt the worst reaction, and set a date to check whether the predicted effects appear.",
+		"limitations": "The further ahead you reason, the more speculative each step becomes, and confident long chains can be pure storytelling. The approach can be used to block any change by imagining remote harms. It offers no method for estimating probabilities or sizes, so it works best combined with data, small experiments and scenario planning rather than as a substitute for them."
 	},
 	"ua": {
-		"short": "«Мислення другого порядку» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
-		"origin": "Єдиного визнаного автора чи дати виникнення немає; підхід пов’язаний із системним мисленням, економікою та стратегічним аналізом. Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
-		"core": "Мислення першого порядку запитує про негайний результат. Мислення другого порядку досліджує наступні наслідки, реакції учасників, зворотні зв’язки й побічні ефекти. Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
-		"components": "Негайний ефект; відкладені наслідки; стимули; реакції зацікавлених сторін; петлі зворотного зв’язку; непередбачені наслідки; часовий горизонт. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
-		"apply": "Для важливого рішення опишіть прямий результат, а потім запитайте, як відреагують клієнти, працівники й конкуренти. Розгляньте кілька можливих ланцюгів подій, визначте ранні сигнали та за можливості починайте зі зворотних експериментів. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
-		"example": "Скорочення витрат на підтримку покращує маржу наступного місяця, але може збільшити відтік клієнтів, негативні відгуки та майбутню вартість залучення. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
-		"limitations": "Довгі причинно-наслідкові ланцюги невизначені й можуть перетворитися на здогадки. Надмірний аналіз затримує потрібні дії; припущення слід перевіряти реальними даними. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+		"short": "Мислення другого порядку означає питати «а що далі?» після очевидного результату рішення й простежувати, як з часом відреагують клієнти, конкуренти, працівники й система загалом. Наслідки першого порядку часто миттєві й привабливі, а ті, що настають потім, можуть їх звести нанівець або перевернути, тож ця звичка відрізняє рішення, що добре виглядають, від рішень, що залишаються добрими.",
+		"example": "Міський готель на 30 номерів думає перевести всі бронювання на безплатне скасування до 24 годин перед заїздом. **Наслідок першого порядку:** конверсія онлайн має зрости з 2,5% до 3,4%, тобто близько 90 додаткових бронювань на місяць. **Наслідки другого порядку:** частка скасувань зростає з 8% до 25%, бо гості бронюють кілька готелів і скасовують зайві; номери, що звільнилися в останній момент, важко перепродати посеред тижня. **Наслідки третього порядку:** щоб закрити прогалини, менеджер почне продавати понад наявні номери, ризикуючи переселенням гостей і поганими відгуками, а платформи бронювання знизять готель у видачі через скасування. **Підсумкова оцінка:** заповненість зростає лише на 2 пункти, а час персоналу на перебронювання подвоюється. Готель залишає безплатне скасування для бронювань, зроблених більш ніж за 14 днів, а для решти вводить тариф без повернення на 10% дешевший.",
+		"mistakes": [
+			"Зупинятися на першому наслідку, бо він закриває план цього кварталу: розпишіть щонайменше ще два кола реакцій, перш ніж схвалювати зміни цін, стимулів чи правил.",
+			"Перелічувати кожну мислиму хвилю: вправа паралізує, тож зосередьтеся на реакціях кількох гравців, що мають найбільше можливостей відповісти, як-от ключові клієнти чи конкуренти.",
+			"Ігнорувати час: деякі наслідки з'являються лише через місяці, тож визначте, коли кожен із них, імовірно, проявиться, і поверніться до перевірки в той момент."
+		],
+		"selfCheck": [
+			{
+				"question": "Магазин знижує ціни на 20%, щоб відвоювати частку ринку. Якого наслідку другого порядку варто чекати?",
+				"answer": "Конкуренти можуть теж знизити ціни, і частки не зміняться, а маржа впаде в усіх, до того ж клієнти навчаться чекати на знижки."
+			},
+			{
+				"question": "Чому бонус продавцям лише за місячну виручку може зашкодити компанії?",
+				"answer": "Продавці можуть роздавати знижки й укладати невідповідні угоди заради цифри, а повернення й відтік проявляться вже після виплати бонусу."
+			},
+			{
+				"question": "Яке запитання краще передає мислення другого порядку: «Чи це спрацює?» чи «Якщо це спрацює, як відреагують інші?»",
+				"answer": "Друге, бо воно дивиться далі за безпосередній результат, на реакції, які він спричинить."
+			}
+		],
+		"origin": "Ідея давня й не має одного автора. У 1850 році французький економіст Фредерік Бастіа написав есей «Те, що видно, і те, чого не видно», доводячи, що добрий економіст дивиться далі за видимий ефект політики. Соціолог Роберт Мертон проаналізував непередбачувані наслідки в статті 1936 року. Інвестор Говард Маркс популяризував термін «мислення другого рівня» (second-level thinking) у книжці «The Most Important Thing» (2011).",
+		"core": "Рішення діють на системи людей, які пристосовуються. Наслідок першого порядку це прямий результат, наприклад більше продажів після знижки. Наслідки другого порядку виникають із реакцій інших: конкуренти відповідають, клієнти змінюють звички, працівники обходять метрики, постачальники переглядають умови. Ці реакції можуть посилити або стерти початковий виграш і часто приходять пізніше, коли їх уже ніхто не пов'язує з рішенням. Якщо подумати на крок-два далі, видно варіанти, гірші в короткому строку, але кращі з часом, і навпаки.",
+		"components": "**Наслідок першого порядку:** безпосередній, запланований результат. **Наслідки другого й третього порядку:** реакції на цей результат і реакції на ці реакції. **Гравці:** клієнти, конкуренти, персонал, партнери й регулятори, які відповідають. **Часовий горизонт:** коли кожен наслідок, імовірно, з'явиться, від днів до років. **Петлі зворотного зв'язку:** ланцюги, де наслідок посилює або гасить початкову зміну. **Зважування компромісів:** порівняння короткострокових виграшів із відкладеними витратами.",
+		"apply": "1) Сформулюйте рішення і його очікуваний результат першого порядку в цифрах. 2) Запишіть трьох–п'ятьох гравців, які найбільше здатні відреагувати. 3) Для кожного запитайте, як він відповість і до чого це призведе. 4) Повторіть ще раз для найважливіших ланцюгів. 5) Приблизно оцініть строки й розміри головних наслідків. 6) Змініть рішення так, щоб зберегти виграш і пом'якшити найгіршу реакцію, і призначте дату перевірки, чи з'явилися передбачені наслідки.",
+		"limitations": "Що далі заглядаєте, то спекулятивнішим стає кожен крок, і впевнені довгі ланцюги можуть виявитися чистою вигадкою. Підхід можна використати, щоб заблокувати будь-яку зміну, уявляючи віддалену шкоду. Він не дає методу оцінки ймовірностей чи розмірів, тож найкраще працює разом із даними, невеликими експериментами й сценарним плануванням, а не замість них."
 	}
 }

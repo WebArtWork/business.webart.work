@@ -3,24 +3,63 @@
 	"related": [
 		"customer-development-model",
 		"value-proposition-canvas",
+		"platform-business-model",
 		"lean-canvas"
 	],
 	"en": {
-		"short": "The Business Model Canvas maps how an organization creates, delivers, and captures value on one page. It helps teams expose assumptions and see how customers, operations, partners, and finances fit together.",
-		"origin": "Alexander Osterwalder developed the underlying business-model ontology in his 2004 doctoral research. The nine-block canvas was popularized with Yves Pigneur in Business Model Generation (2010), drawing on collaboration with many practitioners.",
-		"core": "A business model is a system of connected choices, not only a revenue formula. The canvas makes those choices visible so a team can discuss trade-offs and test uncertain parts. A filled canvas is a hypothesis map; it does not establish that customers will buy or that costs are accurate.",
-		"components": "The nine blocks are **customer segments**, **value propositions**, **channels**, **customer relationships**, **revenue streams**, **key resources**, **key activities**, **key partnerships**, and **cost structure**. The right side focuses mainly on customers and value delivery; the left covers operational capabilities. Revenue and cost blocks reveal whether the design could be economically sustainable.",
-		"apply": "Start with one customer segment and its main problem. Write the promised value in customer language, then identify channels and relationship expectations. Estimate what customers pay and why. Map the capabilities and partners needed to deliver the promise. Calculate major costs, mark every uncertain statement, and run tests on the riskiest assumptions. Revise the canvas after interviews and sales experiments rather than treating it as a finished presentation.",
-		"example": "A local marketplace connects independent repair professionals with households. It maps households and technicians as distinct segments, verification as a key activity, payment fees as revenue, and dispute resolution as a significant cost and relationship requirement.",
-		"limitations": "Nine boxes can hide timing, competitive reactions, legal constraints, and platform governance. Teams often write vague words such as “everyone” or “social media.” A neat canvas cannot replace financial modeling, customer research, or execution."
+		"short": "The Business Model Canvas fits an entire business model onto one page of nine building blocks, from customers and value to costs and revenue. Because every block sits next to the others, a team can see how changing one part, such as the target customer, forces changes elsewhere. It replaces a long business plan with a map that can be sketched, argued over and redrawn in an afternoon.",
+		"example": "A mechanic runs a mobile bicycle repair van and fills in the canvas. **Customer segments:** commuters and two office parks with bike-to-work schemes. **Value propositions:** repairs done at the workplace while the owner works. **Channels:** booking app and the office parks' staff newsletters. **Customer relationships:** subscription with automatic service reminders. **Revenue streams:** $25 a month per rider, or $60 per one-off repair. **Key resources:** the van, tools and one mechanic. **Key activities:** repairs and route planning. **Key partners:** a parts wholesaler and the parks' facility managers. **Cost structure:** $6,500 a month, mostly wages and van leasing. With 180 subscribers he earns $4,500, short of costs. The canvas shows the office parks are his cheapest channel, so he offers employers a corporate plan at $20 per employee, paid by the company.",
+		"mistakes": [
+			"Filling the blocks with vague words such as \"everyone\" or \"quality\": name the specific segment, benefit and price, or the canvas cannot be tested.",
+			"Treating a completed canvas as the truth: each block is a hypothesis, so mark which ones are proven and which still need customer evidence.",
+			"Mixing several segments into one canvas: when segments have different value propositions or channels, draw a separate canvas for each."
+		],
+		"selfCheck": [
+			{
+				"question": "A software firm wants to switch from selling licences to subscriptions. Which blocks besides revenue streams must it revisit?",
+				"answer": "Customer relationships, channels and cost structure at least, since subscriptions need ongoing support and change how and when cash arrives."
+			},
+			{
+				"question": "Why does the canvas place value propositions in the centre?",
+				"answer": "The value offered is the link between the customer side on the right and the operations side on the left; every other block exists to deliver or capture it."
+			},
+			{
+				"question": "A café owner fills key partners with \"suppliers\". How could she make it useful?",
+				"answer": "Name the partners the model depends on and why, for example a single roaster supplying beans on 60-day credit, so the risk of losing them is visible."
+			}
+		],
+		"origin": "Alexander Osterwalder developed the business model ontology behind the canvas in his 2004 doctoral thesis at the University of Lausanne, supervised by Yves Pigneur. The two published the canvas in the book \"Business Model Generation\" (2010), which was co-created with several hundred practitioners from many countries who contributed and paid to take part. It has since become one of the most widely used strategy tools in startups and corporate innovation teams.",
+		"core": "A business model describes how an organisation creates, delivers and captures value. Most people discuss it in fragments: marketing talks about customers, finance about costs. The canvas puts the nine parts in one shared visual language so a team can see the whole system at once. The right half covers value and customers; the left half covers the infrastructure that delivers it; revenue minus costs at the bottom shows whether it pays.",
+		"components": "**Customer segments:** the groups served. **Value propositions:** the bundle of benefits for each segment. **Channels:** how value reaches customers. **Customer relationships:** the type of relationship with each segment. **Revenue streams:** how and how much customers pay. **Key resources:** the assets the model requires. **Key activities:** what the company must do well. **Key partnerships:** suppliers and allies that provide resources or activities. **Cost structure:** the main costs of running the model.",
+		"apply": "1) Print the canvas large and work with sticky notes so blocks can change. 2) Start with customer segments and value propositions, then fill channels, relationships and revenue. 3) Fill resources, activities, partners and costs needed to deliver that value. 4) Mark each note as a tested fact or an untested hypothesis. 5) Sketch alternative canvases for different segments or revenue models and test the riskiest notes first.",
+		"limitations": "The canvas says little about competitors, market size or the wider environment, so it needs other tools beside it. Its simplicity can hide important details, such as timing of cash flows or regulatory constraints. Critics also note that it focuses on a single firm's view and can underrepresent mission, social impact and the logic of platforms with several interacting customer groups."
 	},
 	"ua": {
-		"short": "Канва бізнес-моделі показує на одній сторінці, як компанія створює цінність, доставляє її клієнтам і заробляє. Вона допомагає побачити залежності між продуктом, продажами, ресурсами та витратами.",
-		"origin": "Александр Остервальдер розробляв основу моделі у своїй дисертації 2004 року. Дев’ятиблокова канва стала широко відомою завдяки книжці Business Model Generation (2010), створеній разом з Івом Піньєром за участі багатьох практиків.",
-		"core": "Канва бізнес-моделі (Business Model Canvas) описує взаємопов’язані рішення: кому компанія допомагає, яку користь пропонує, як доставляє її та за рахунок чого отримує дохід. Це не лише схема монетизації. Заповнені блоки спочатку є припущеннями, які потрібно перевіряти фактами, а не доказом життєздатності бізнесу.",
-		"components": "Дев’ять блоків: **сегменти клієнтів (customer segments)**, **ціннісні пропозиції (value propositions)**, **канали**, **відносини з клієнтами**, **потоки доходів**, **ключові ресурси**, **ключові види діяльності**, **ключові партнери** та **структура витрат**. Частина блоків описує клієнтів і продажі, інша — внутрішні можливості. Доходи й витрати показують, чи може модель працювати економічно.",
-		"apply": "Почніть з одного сегмента та його проблеми. Сформулюйте цінність зрозумілими словами. Визначте канали продажу й очікуваний рівень підтримки. Оцініть джерела доходу, необхідні ресурси, операції та партнерів. Запишіть основні витрати. Позначте неперевірені припущення й сплануйте інтерв’ю, пілоти або продажі для їх перевірки. Оновлюйте канву після нових даних.",
-		"example": "Місцевий маркетплейс з’єднує майстрів ремонту та власників житла. Він має два сегменти клієнтів, перевірку виконавців як ключову діяльність, комісію з оплати як дохід і вирішення спорів як суттєву статтю витрат. Так стає видно, що сама розробка сайту не забезпечує бізнес-модель.",
-		"limitations": "Канва не показує повноцінно часові ризики, конкурентні відповіді та регулювання. Загальні фрази на кшталт «усі користувачі» приховують проблеми. Гарно заповнена схема не замінює фінансових розрахунків, перевірки попиту й управління."
+		"short": "Канва бізнес-моделі (Business Model Canvas) вміщує всю бізнес-модель на одну сторінку з дев’яти блоків, від клієнтів і цінності до витрат і доходів. Оскільки всі блоки стоять поруч, команда бачить, як зміна однієї частини, наприклад цільового клієнта, тягне за собою зміни в інших. Вона замінює довгий бізнес-план картою, яку можна намалювати, обговорити й перемалювати за один день.",
+		"example": "Механік має фургон для виїзного ремонту велосипедів і заповнює канву. **Сегменти клієнтів:** велосипедисти, які їздять на роботу, і два офісні парки з програмами «на роботу на велосипеді». **Ціннісні пропозиції:** ремонт просто біля роботи, поки власник працює. **Канали:** застосунок для запису й розсилки для працівників офісних парків. **Відносини з клієнтами:** підписка з автоматичними нагадуваннями про обслуговування. **Потоки доходів:** $25 на місяць із велосипедиста або $60 за разовий ремонт. **Ключові ресурси:** фургон, інструменти й один механік. **Ключові види діяльності:** ремонт і планування маршрутів. **Ключові партнери:** оптовий постачальник запчастин і адміністрації парків. **Структура витрат:** $6 500 на місяць, переважно зарплата й лізинг фургона. Із 180 підписниками він заробляє $4 500, менше за витрати. Канва показує, що офісні парки його найдешевший канал, тож він пропонує роботодавцям корпоративний тариф $20 за працівника, який сплачує компанія.",
+		"mistakes": [
+			"Заповнювати блоки розмитими словами на кшталт «усі» чи «якість»: називайте конкретний сегмент, вигоду й ціну, інакше канву неможливо перевірити.",
+			"Вважати заповнену канву істиною: кожен блок це гіпотеза, тож позначайте, які з них доведено, а які ще потребують доказів від клієнтів.",
+			"Змішувати кілька сегментів в одній канві: коли сегменти мають різні ціннісні пропозиції чи канали, малюйте окрему канву для кожного."
+		],
+		"selfCheck": [
+			{
+				"question": "Компанія-розробник хоче перейти від продажу ліцензій до підписки. Які блоки, крім потоків доходів, їй треба переглянути?",
+				"answer": "Щонайменше відносини з клієнтами, канали й структуру витрат, бо підписка потребує постійної підтримки й змінює, як і коли надходять гроші."
+			},
+			{
+				"question": "Чому канва ставить ціннісні пропозиції в центр?",
+				"answer": "Запропонована цінність поєднує клієнтську частину праворуч з операційною ліворуч; усі інші блоки існують, щоб її доставити або на ній заробити."
+			},
+			{
+				"question": "Власниця кав’ярні вписує в ключових партнерів «постачальники». Як зробити запис корисним?",
+				"answer": "Назвати партнерів, від яких залежить модель, і чому, наприклад єдину обсмажувальню, що постачає зерно з відстрочкою 60 днів, щоб ризик їх втратити було видно."
+			}
+		],
+		"origin": "Александр Остервальдер розробив онтологію бізнес-моделі, на якій ґрунтується канва, у докторській дисертації 2004 року в Лозаннському університеті під керівництвом Іва Піньє. Разом вони опублікували канву в книзі «Business Model Generation» (2010), створеній спільно з кількома сотнями практиків із різних країн, які долучилися й заплатили за участь. Відтоді вона стала одним із найпоширеніших інструментів стратегії в стартапах і корпоративних інноваційних командах.",
+		"core": "Бізнес-модель описує, як організація створює, доставляє й отримує цінність. Зазвичай її обговорюють уривками: маркетинг говорить про клієнтів, фінанси про витрати. Канва зводить дев’ять частин до однієї спільної візуальної мови, тож команда бачить усю систему одразу. Права половина охоплює цінність і клієнтів, ліва інфраструктуру, що цю цінність доставляє, а доходи мінус витрати внизу показують, чи модель окупається.",
+		"components": "**Сегменти клієнтів:** групи, яких обслуговують. **Ціннісні пропозиції:** набір вигод для кожного сегмента. **Канали:** як цінність доходить до клієнтів. **Відносини з клієнтами:** тип стосунків із кожним сегментом. **Потоки доходів:** як і скільки платять клієнти. **Ключові ресурси:** активи, яких потребує модель. **Ключові види діяльності:** що компанія має робити добре. **Ключові партнери:** постачальники й союзники, що дають ресурси чи виконують діяльність. **Структура витрат:** основні витрати на роботу моделі.",
+		"apply": "1) Роздрукуйте канву великою й працюйте з липкими стікерами, щоб блоки можна було змінювати. 2) Почніть із сегментів клієнтів і ціннісних пропозицій, потім заповніть канали, відносини й доходи. 3) Заповніть ресурси, діяльність, партнерів і витрати, потрібні, щоб доставити цю цінність. 4) Позначте кожен стікер як перевірений факт або неперевірену гіпотезу. 5) Накидайте альтернативні канви для інших сегментів чи моделей доходу й першими перевіряйте найризикованіші стікери.",
+		"limitations": "Канва мало каже про конкурентів, розмір ринку чи ширше середовище, тож поруч потрібні інші інструменти. Її простота може приховувати важливі деталі, як-от терміни грошових потоків чи регуляторні обмеження. Критики також зазначають, що вона показує погляд однієї фірми й може недооцінювати місію, соціальний вплив і логіку платформ із кількома групами клієнтів, що взаємодіють."
 	}
 }

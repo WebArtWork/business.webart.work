@@ -1,27 +1,65 @@
 {
 	"slug": "transformational-leadership",
 	"related": [
-		"situational-leadership",
-		"tuckmans-stages-of-team-development",
-		"kotters-8-step-change-model"
+		"organizational-culture-model",
+		"herzbergs-two-factor-theory",
+		"kotters-8-step-change-model",
+		"situational-leadership"
 	],
 	"en": {
-		"short": "Transformational Leadership offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
-		"origin": "James MacGregor Burns described transforming leadership in 1978; Bernard Bass developed the organizational model in 1985. The terms and measurement approaches evolved afterward. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
-		"core": "Leaders can inspire people to pursue a shared purpose, challenge assumptions, and grow beyond narrow individual rewards. The aim is sustained change, not simply charismatic speeches. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
-		"components": "Bass’s common four dimensions are idealized influence, inspirational motivation, intellectual stimulation, and individualized consideration. Each must be backed by credible behavior and organizational systems. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
-		"apply": "Explain a concrete vision, model expected conduct, invite constructive disagreement, coach individuals, and measure outcomes. Combine inspiration with realistic budgets, priorities, and accountability. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
-		"example": "A product leader explains why accessibility matters, allocates engineering time, invites design critiques, and mentors team leads. The mission becomes visible in product decisions rather than slogans. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
-		"limitations": "Charisma can conceal poor judgment or encourage dependence on one person. Vision without resources leads to burnout. Results also depend on context, institutions, and shared leadership. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+		"short": "Transformational leadership raises people's commitment beyond a deal of pay for effort by giving them a purpose they believe in, challenging them to think, and paying attention to each person's growth. It contrasts with transactional leadership, which trades rewards for results. It matters most when an organization must change direction and needs people to put in more than the job description asks.",
+		"example": "A family furniture maker with 70 employees sells mainly to retailers, and that revenue is shrinking 15% a year. The founder's daughter, now CEO, wants to move to made-to-order pieces sold online. **Idealized influence:** she works in the workshop on the first 20 custom orders and cuts her own salary by a quarter during the shift. **Inspirational motivation:** she sets a clear picture, \"every piece built for a named family\", and a target of 30% of revenue from custom orders within two years. **Intellectual stimulation:** carpenters are asked to redesign the workflow, and one carpenter's jig idea cuts setup time by 40%. **Individualized consideration:** each of the 12 carpenters gets a training plan, and one moves into customer design consultations. After 18 months custom orders reach 22% of revenue, so she ends the least profitable retailer contract.",
+		"mistakes": [
+			"Equating transformational leadership with charisma and speeches: without personal example and attention to each person, inspiration fades within weeks.",
+			"Dropping transactional basics: clear goals, fair pay and follow-through still matter, so add vision on top of them rather than instead of them.",
+			"Using the vision to silence disagreement: intellectual stimulation means inviting people to challenge assumptions, including the leader's."
+		],
+		"selfCheck": [
+			{
+				"question": "A manager offers a $500 bonus for every project finished on time. Is that transformational?",
+				"answer": "No. It is a transactional exchange of reward for performance; it can work well, but it does not change what people believe or value."
+			},
+			{
+				"question": "Why does individualized consideration matter if the vision is strong?",
+				"answer": "People join a change for different reasons and need different support; coaching each person turns a shared vision into personal commitment and growth."
+			},
+			{
+				"question": "Why can transformational leadership be risky?",
+				"answer": "The same emotional pull that builds commitment can serve a leader's personal goals, and dependence on one inspiring figure leaves the organization weak when that person leaves."
+			}
+		],
+		"origin": "Political historian James MacGregor Burns contrasted transforming and transactional leadership in his 1978 book Leadership, based on studies of political leaders. Bernard M. Bass applied the idea to organizations in his 1985 book Leadership and Performance Beyond Expectations. With Bruce Avolio he developed the Multifactor Leadership Questionnaire (MLQ), the most widely used tool for measuring it.",
+		"core": "Transactional leaders motivate through exchanges: rewards for meeting targets and corrections for missing them. Transformational leaders change how followers see their work, linking it to a larger purpose and to their own identity and growth. Followers then pursue collective goals out of conviction rather than for a reward, which helps during change, uncertainty and work that cannot be fully specified in advance. Bass saw the two styles as complementary: transformational behavior adds effort on top of a sound transactional base.",
+		"components": "**Idealized influence:** acting as a role model whose integrity and sacrifices earn trust. **Inspirational motivation:** communicating an appealing vision with high expectations and optimism. **Intellectual stimulation:** encouraging people to question assumptions and find new solutions. **Individualized consideration:** coaching and supporting each person according to their needs. **Transactional leadership:** contingent rewards and management by exception, the base Bass's full-range model builds on.",
+		"apply": "1) Describe the future the change should create in one concrete sentence people can repeat. 2) Show commitment through visible actions and personal costs, not announcements. 3) Bring people into redesigning the work and act on their ideas publicly. 4) Hold regular one-to-ones about each person's development within the change. 5) Keep clear targets and fair rewards running alongside the vision. 6) Measure progress and share it openly so the vision stays credible.",
+		"limitations": "In a 2013 review, Daan van Knippenberg and Sim Sitkin argued that the concept mixes leader behavior with its effects and that questionnaires like the MLQ do not separate the four dimensions cleanly. Much of the research relies on followers rating leaders they already like. The model can encourage a heroic view of leadership and overlook the dark side of charisma, such as manipulation. Results also depend on culture and context."
 	},
 	"ua": {
-		"short": "«Трансформаційне лідерство» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
-		"origin": "Джеймс Макгрегор Бернс описав трансформаційне лідерство 1978 року; Бернард Басс розвинув організаційну модель у 1985-му. Згодом визначення й методи оцінювання змінювалися. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
-		"core": "Лідер може об’єднати людей навколо спільної мети, спонукати переглядати звичні рішення й розвиватися. Ідеться про стійкі зміни, а не лише харизматичні промови. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
-		"components": "Чотири поширені складові за Бассом: вплив особистого прикладу, натхненна мотивація, інтелектуальне стимулювання та індивідуальна увага. Кожна потребує реальних дій і процесів. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
-		"apply": "Сформулюйте конкретне бачення, показуйте приклад, заохочуйте аргументовані заперечення, підтримуйте розвиток людей і вимірюйте результати. Поєднуйте натхнення з бюджетом та відповідальністю. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
-		"example": "Керівник продукту пояснює цінність доступності, виділяє час розробників, заохочує критику дизайну й наставляє тімлідів. Мета проявляється в рішеннях, а не гаслах. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
-		"limitations": "Харизма може приховувати погані рішення або створювати залежність від однієї особи. Бачення без ресурсів веде до вигорання. Результат залежить і від контексту та командної взаємодії. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
-		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+		"short": "Трансформаційне лідерство підносить відданість людей понад угоду «оплата за зусилля»: лідер дає мету, в яку вони вірять, кидає виклик їхньому мисленню й дбає про зростання кожного. Йому протиставляють трансакційне лідерство, яке обмінює винагороду на результат. Найбільше воно важить тоді, коли організація мусить змінити напрям і потребує від людей більшого, ніж записано в посадовій інструкції.",
+		"example": "Сімейна меблева фабрика з 70 працівниками продає переважно через рітейлерів, і цей дохід щороку скорочується на 15%. Донька засновника, тепер CEO, хоче перейти на меблі під замовлення з онлайн-продажем. **Ідеалізований вплив:** вона сама працює в цеху над першими 20 індивідуальними замовленнями й на час переходу зменшує власну зарплату на чверть. **Надихаюча мотивація:** вона формулює чіткий образ «кожен виріб зроблено для конкретної родини» і ціль: 30% доходу з індивідуальних замовлень за два роки. **Інтелектуальна стимуляція:** столярів просять перебудувати робочий процес, і ідея одного з них щодо шаблону скорочує час переналаштування на 40%. **Індивідуальний підхід:** кожен із 12 столярів отримує план навчання, а один переходить на консультації клієнтів із дизайну. За 18 місяців індивідуальні замовлення дають 22% доходу, тож вона розриває найменш прибутковий контракт із рітейлером.",
+		"mistakes": [
+			"Ототожнювати трансформаційне лідерство з харизмою та промовами: без особистого прикладу й уваги до кожної людини натхнення згасає за кілька тижнів.",
+			"Відмовлятися від трансакційних основ: чіткі цілі, справедлива оплата й виконання обіцянок досі важливі, тож додавайте бачення поверх них, а не замість них.",
+			"Використовувати бачення, щоб заглушити незгоду: інтелектуальна стимуляція означає запрошувати людей ставити під сумнів припущення, зокрема й припущення лідера."
+		],
+		"selfCheck": [
+			{
+				"question": "Керівник обіцяє бонус $500 за кожен вчасно завершений проєкт. Це трансформаційне лідерство?",
+				"answer": "Ні. Це трансакційний обмін винагороди на результат; він може добре працювати, але не змінює того, у що люди вірять і що цінують."
+			},
+			{
+				"question": "Навіщо індивідуальний підхід, якщо бачення сильне?",
+				"answer": "Люди долучаються до змін із різних причин і потребують різної підтримки; наставництво для кожного перетворює спільне бачення на особисту відданість і зростання."
+			},
+			{
+				"question": "Чим трансформаційне лідерство може бути ризикованим?",
+				"answer": "Та сама емоційна сила, що будує відданість, може служити особистим цілям лідера, а залежність від однієї надихаючої постаті послаблює організацію, коли ця людина йде."
+			}
+		],
+		"origin": "Історик політики Джеймс Макгрегор Бернс протиставив трансформувальне й трансакційне лідерство в книзі «Leadership» (1978), спираючись на дослідження політичних лідерів. Бернард Басс переніс ідею на організації в книзі «Leadership and Performance Beyond Expectations» (1985). Разом із Брюсом Аволіо він розробив Multifactor Leadership Questionnaire (MLQ), найпоширеніший інструмент для вимірювання такого лідерства.",
+		"core": "Трансакційні лідери мотивують через обмін: винагороду за виконані цілі й виправлення за невиконані. Трансформаційні лідери змінюють те, як підлеглі бачать свою роботу, пов’язуючи її з більшою метою, їхньою ідентичністю та зростанням. Тоді люди прагнуть спільних цілей із переконання, а не заради винагороди, і це допомагає під час змін, невизначеності й роботи, яку неможливо повністю описати заздалегідь. Басс вважав два стилі взаємодоповнювальними: трансформаційна поведінка додає зусиль поверх надійної трансакційної основи.",
+		"components": "**Ідеалізований вплив (idealized influence):** бути взірцем, чия чесність і жертви викликають довіру. **Надихаюча мотивація (inspirational motivation):** доносити привабливе бачення з високими очікуваннями й оптимізмом. **Інтелектуальна стимуляція (intellectual stimulation):** заохочувати людей сумніватися в припущеннях і шукати нові рішення. **Індивідуальний підхід (individualized consideration):** наставляти й підтримувати кожного відповідно до його потреб. **Трансакційне лідерство:** винагорода за результат і втручання лише у відхилення, основа, на якій будується повна модель Басса.",
+		"apply": "1) Опишіть майбутнє, яке має створити зміна, одним конкретним реченням, яке люди можуть повторити. 2) Показуйте відданість видимими діями й особистими витратами, а не оголошеннями. 3) Залучайте людей до перебудови роботи й публічно втілюйте їхні ідеї. 4) Регулярно проводьте зустрічі сам на сам про розвиток кожного в межах змін. 5) Зберігайте чіткі цілі й справедливу винагороду поруч із баченням. 6) Вимірюйте прогрес і відкрито ним діліться, щоб бачення залишалося переконливим.",
+		"limitations": "В огляді 2013 року Даан ван Кніппенберг і Сім Ситкін доводили, що концепція змішує поведінку лідера з її наслідками, а опитувальники на зразок MLQ не розділяють чотири виміри чітко. Багато досліджень спираються на оцінки підлеглих, яким лідер і так подобається. Модель може живити героїчний погляд на лідерство й не помічати темного боку харизми, як-от маніпуляцій. Результати також залежать від культури й контексту."
 	}
 }

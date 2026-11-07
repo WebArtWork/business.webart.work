@@ -1,27 +1,64 @@
 {
 	"slug": "situational-leadership",
 	"related": [
+		"tuckmans-stages-of-team-development",
 		"mcgregors-theory-x-and-theory-y",
-		"transformational-leadership",
-		"tuckmans-stages-of-team-development"
+		"transformational-leadership"
 	],
 	"en": {
-		"short": "Situational Leadership offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
-		"origin": "Paul Hersey and Ken Blanchard developed the approach in the late 1960s; later versions and names differ, including Blanchard’s SLII model. No single version should be treated as timeless. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
-		"core": "Effective leadership adapts the amount of direction and support to the person and task. A method that helps a beginner may frustrate an experienced specialist. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
-		"components": "Common styles are directing, coaching, supporting, and delegating. Assess task-specific competence and confidence or commitment; do not assume one employee has the same readiness in every area. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
-		"apply": "Define the task, discuss the employee’s experience, choose guidance and support, then reassess after milestones. Explain why your involvement changes so that adaptation feels helpful rather than arbitrary. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
-		"example": "A senior frontend engineer needs delegation for UI architecture but direct instruction when first handling regulated payment reconciliation. The same person receives different leadership styles for different tasks. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
-		"limitations": "Empirical support for precise matching rules is mixed. Readiness is hard to measure, and labels can become stereotypes. Use the framework as a coaching conversation, not an automatic algorithm. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+		"short": "Situational Leadership says there is no single best leadership style: a leader should adjust how much direction and how much support to give according to a person's competence and commitment on a specific task. The same employee can need step-by-step instructions on one task and full delegation on another. The model gives managers a shared language for that adjustment.",
+		"example": "A 120-room city hotel hires Olena for the front desk. She checked in guests for four years at another hotel, but has never handled group bookings or the hotel's upselling system. **Check-ins (high competence, high commitment):** the manager delegates fully and only reviews guest scores, which stay at 4.7 out of 5. **Group bookings (low competence, high enthusiasm):** he uses a directing style, explaining each step and having Olena shadow three bookings. After two weeks her error rate is 6 in 20 bookings and she feels discouraged, so he moves to coaching: still checking her work, but asking for her reasoning and praising progress. By week five errors drop to 1 in 25, and he switches to a supporting style, joining only for bookings above 40 rooms.",
+		"mistakes": [
+			"Labelling a person once for all tasks: readiness is task-specific, so assess it separately for each major responsibility.",
+			"Staying in the directing style too long: close instruction for a capable person feels like distrust, so step back as soon as results show competence.",
+			"Delegating to someone who is new to a task because they are senior: experience in one area does not transfer automatically, so start with more direction on unfamiliar work."
+		],
+		"selfCheck": [
+			{
+				"question": "A skilled analyst's confidence dropped after a harsh client complaint, though her work is still accurate. Which style fits?",
+				"answer": "Supporting: she has the competence but lacks commitment right now, so listening, encouragement and shared decisions help more than instructions."
+			},
+			{
+				"question": "Why does the coaching style keep high direction while adding high support?",
+				"answer": "At that stage people still make mistakes and are often discouraged, so they need both close guidance and explanation and encouragement."
+			},
+			{
+				"question": "A new graduate is excited but has never run a supplier tender. What should the manager do first?",
+				"answer": "Use a directing style: give clear steps, standards and deadlines, then check work closely until the graduate shows competence."
+			}
+		],
+		"origin": "Paul Hersey and Ken Blanchard introduced the idea as the \"life cycle theory of leadership\" in a 1969 article in Training and Development Journal and developed it in their textbook Management of Organizational Behavior. The two later went separate ways: Hersey kept the Situational Leadership model, while Blanchard and colleagues created SLII in the 1980s, popularized in Leadership and the One Minute Manager (1985).",
+		"core": "Leadership behavior has two independent dimensions: directive behavior, telling people what, how and when, and supportive behavior, listening, encouraging and involving them. Effective leaders match the mix to the follower's development on the task at hand. As people gain skill, they need less direction; their commitment often dips after early enthusiasm meets difficulty and recovers as competence grows. The aim is to move people toward independence, so the leader's style changes as they do.",
+		"components": "**Directing (S1):** high direction, low support, for enthusiastic beginners. **Coaching (S2):** high direction, high support, for people who have some skill but have lost confidence. **Supporting (S3):** low direction, high support, for capable people who are cautious or unmotivated. **Delegating (S4):** low direction, low support, for self-reliant achievers. **Development level:** the combination of competence and commitment on a specific task, labelled readiness in Hersey's version and D1–D4 in SLII.",
+		"apply": "1) List the main tasks or goals each person is responsible for. 2) For each task, assess competence from results and commitment from confidence and motivation. 3) Match the style: directing for low competence with high enthusiasm, coaching for some competence with low commitment, supporting for high competence with variable commitment, delegating for both high. 4) Tell the person which style you plan to use and why. 5) Review progress regularly and shift the style as competence and commitment change.",
+		"limitations": "Independent studies give the model only weak and mixed support, and the prescribed match between development level and style is not consistently confirmed. The definitions of commitment and competence have changed between versions, and some people see the predicted dip in commitment as an assumption rather than a finding. The model focuses on one leader and one follower, saying little about teams, culture or organizational constraints."
 	},
 	"ua": {
-		"short": "«Ситуаційне лідерство» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
-		"origin": "Пол Герсі та Кен Бланшар розробили підхід наприкінці 1960-х. Пізніші версії, зокрема SLII Бланшара, відрізняються, тому не варто змішувати їх без пояснення. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
-		"core": "Ефективний керівник змінює рівень інструкцій і підтримки залежно від людини та завдання. Те, що допомагає новачкові, може заважати досвідченому фахівцю. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
-		"components": "Поширені стилі: директивний, наставницький, підтримувальний і делегувальний. Оцінюйте компетентність і впевненість щодо конкретного завдання, а не загальний «рівень» працівника. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
-		"apply": "Визначте завдання, обговоріть досвід працівника, оберіть рівень інструкцій і підтримки, а після етапів перегляньте підхід. Пояснюйте зміни, щоб вони не здавалися випадковими. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
-		"example": "Досвідченому фронтенд-розробнику можна делегувати архітектуру інтерфейсу, але для першої роботи з регульованими платежами потрібні докладні інструкції. Стиль залежить від завдання. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
-		"limitations": "Емпіричні підтвердження точних правил відповідності стилю та готовності неоднозначні. Готовність важко виміряти, а ярлики породжують стереотипи. Це інструмент розмови, не автоматичний алгоритм. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
-		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+		"short": "Ситуаційне лідерство стверджує, що єдиного найкращого стилю керівництва не існує: керівник має змінювати міру вказівок і підтримки залежно від компетентності та відданості людини в конкретному завданні. Той самий працівник може потребувати покрокових інструкцій в одній справі й повного делегування в іншій. Модель дає керівникам спільну мову для такого налаштування.",
+		"example": "Міський готель на 120 номерів бере Олену на рецепцію. Чотири роки вона заселяла гостей в іншому готелі, але ніколи не працювала з груповими бронюваннями чи системою допродажів цього готелю. **Заселення (висока компетентність, висока відданість):** керівник повністю делегує й лише стежить за оцінками гостей, які тримаються на рівні 4,7 з 5. **Групові бронювання (низька компетентність, високий ентузіазм):** він застосовує директивний стиль, пояснює кожен крок, і Олена спостерігає за трьома бронюваннями. Через два тижні в неї 6 помилок на 20 бронювань, і вона падає духом, тож керівник переходить до коучингу: досі перевіряє роботу, але питає про її логіку й хвалить за прогрес. На п’ятому тижні помилок 1 на 25, і він переходить до підтримувального стилю, долучаючись лише до бронювань понад 40 номерів.",
+		"mistakes": [
+			"Один раз навісити на людину ярлик для всіх завдань: готовність залежить від завдання, тож оцінюйте її окремо для кожного важливого обов’язку.",
+			"Затримуватися в директивному стилі: детальні інструкції для здібної людини сприймаються як недовіра, тож відступайте, щойно результати показують компетентність.",
+			"Делегувати новачкові в завданні лише тому, що він досвідчений працівник: досвід в одній сфері не переноситься автоматично, тож на незнайомій роботі починайте з більшої кількості вказівок."
+		],
+		"selfCheck": [
+			{
+				"question": "Досвідчена аналітикиня втратила впевненість після різкої скарги клієнта, хоча працює так само точно. Який стиль підходить?",
+				"answer": "Підтримувальний: компетентність у неї є, але зараз бракує відданості, тож вислуховування, підбадьорення й спільні рішення допоможуть більше, ніж інструкції."
+			},
+			{
+				"question": "Чому коучинговий стиль зберігає багато вказівок і водночас додає багато підтримки?",
+				"answer": "На цьому етапі люди ще помиляються й часто розчаровані, тож їм потрібні і чітке спрямування, і пояснення та підбадьорення."
+			},
+			{
+				"question": "Випускник сповнений ентузіазму, але ще ніколи не проводив тендер для постачальників. Що керівник має зробити спочатку?",
+				"answer": "Застосувати директивний стиль: дати чіткі кроки, стандарти й терміни, а потім уважно перевіряти роботу, доки випускник не покаже компетентність."
+			}
+		],
+		"origin": "Пол Герсі та Кен Бланшар представили ідею як «теорію життєвого циклу лідерства» у статті 1969 року в Training and Development Journal і розвинули її в підручнику «Management of Organizational Behavior». Згодом автори розійшлися: Герсі зберіг модель Situational Leadership, а Бланшар із колегами в 1980-х створив SLII, популяризовану в книзі «Leadership and the One Minute Manager» (1985).",
+		"core": "Поведінка лідера має два незалежні виміри: директивний, тобто казати, що, як і коли робити, і підтримувальний, тобто слухати, підбадьорювати й залучати. Ефективний лідер добирає поєднання під рівень розвитку підлеглого в конкретному завданні. Що більше навичок, то менше потрібно вказівок; відданість часто падає, коли перший ентузіазм зустрічається з труднощами, і відновлюється в міру зростання компетентності. Мета полягає в тому, щоб вести людей до самостійності, тож стиль лідера змінюється разом із ними.",
+		"components": "**Директивний стиль (S1):** багато вказівок, мало підтримки; для ентузіастів-початківців. **Коучинг (S2):** багато вказівок і багато підтримки; для тих, хто має певні навички, але втратив упевненість. **Підтримувальний стиль (S3):** мало вказівок, багато підтримки; для здібних, але обережних чи демотивованих. **Делегування (S4):** мало вказівок і мало підтримки; для самостійних виконавців. **Рівень розвитку:** поєднання компетентності й відданості в конкретному завданні; у версії Герсі це готовність (readiness), у SLII рівні D1–D4.",
+		"apply": "1) Випишіть основні завдання чи цілі, за які відповідає кожна людина. 2) Для кожного завдання оцініть компетентність за результатами, а відданість за впевненістю й мотивацією. 3) Доберіть стиль: директивний для низької компетентності з високим ентузіазмом, коучинг для часткової компетентності з низькою відданістю, підтримувальний для високої компетентності з мінливою відданістю, делегування, коли обидва показники високі. 4) Скажіть людині, який стиль плануєте і чому. 5) Регулярно переглядайте прогрес і змінюйте стиль, коли змінюються компетентність і відданість.",
+		"limitations": "Незалежні дослідження дають моделі лише слабку й суперечливу підтримку, а рекомендовану відповідність між рівнем розвитку й стилем не підтверджено послідовно. Визначення відданості й компетентності змінювалися від версії до версії, а передбачене падіння відданості дехто вважає припущенням, а не науковим висновком. Модель зосереджена на парі «лідер і підлеглий» і мало каже про команди, культуру чи організаційні обмеження."
 	}
 }

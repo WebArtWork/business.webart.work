@@ -2,25 +2,64 @@
 	"slug": "core-competencies-theory",
 	"related": [
 		"resource-based-view",
-		"value-chain-analysis",
-		"vrio-framework"
+		"economies-of-scope",
+		"vrio-framework",
+		"ansoff-matrix"
 	],
 	"en": {
-		"short": "Core Competencies Theory is a strategic framework for understanding how businesses compete and make decisions. A company should develop shared capabilities that open multiple markets, deliver customer benefits, and are hard for rivals to imitate. It helps founders and managers replace assumptions with structured analysis.",
-		"origin": "C. K. Prahalad and Gary Hamel popularized the concept in their 1990 Harvard Business Review article “The Core Competence of the Corporation.” Its historical context matters: the framework was designed to clarify strategic choices, not to guarantee business success. Modern applications should distinguish the original concept from later adaptations and teaching shortcuts.",
-		"core": "A company should develop shared capabilities that open multiple markets, deliver customer benefits, and are hard for rivals to imitate. The goal is to make trade-offs explicit. A framework is useful when it changes what a team investigates, measures, or decides rather than merely giving familiar problems new labels.",
-		"components": "Customer benefit; access to multiple markets; difficulty of imitation; cross-team learning and coordination. Each component should be assessed separately, with a clear definition and supporting evidence. Relationships between components often matter as much as individual scores.",
-		"apply": "Identify what the organization repeatedly does exceptionally well across products. Verify that customers value it. Invest in shared skills, tools, and knowledge transfer. Use the competence to enter adjacent markets without stretching the company beyond its strengths. Start with one decision and a defined time horizon. Write down assumptions and evidence sources, invite a colleague to challenge the conclusions, and translate the analysis into a small set of actions with owners, deadlines, and measurable outcomes. Revisit the decision after new customer or market information arrives.",
-		"example": "A software studio skilled at secure real-time systems could reuse that competence in collaboration software, monitoring dashboards, and connected-device products. This is an illustrative business scenario, not a claim about a particular company's internal strategy. A useful follow-up would compare two alternatives and estimate their impact on costs, customer retention, or revenue.",
-		"limitations": "Managers may label ordinary strengths as core competencies. Excessive focus on current capabilities can create rigidity when customer needs change. Results depend on the quality of the input data and the boundaries chosen. Avoid treating a diagram or checklist as proof. Combine the model with experiments, financial calculations, and direct conversations with customers."
+		"short": "A core competence is a combination of skills and technologies, built up across a company over years, that feeds several product lines at once and is hard for rivals to copy. Prahalad and Hamel argued that companies should be managed as portfolios of such competencies rather than of business units, because the competence, not any single product, is the lasting source of growth.",
+		"example": "A textile mill with 80 employees earns 90% of its $6 million revenue from uniform fabric sold at falling margins. Over 15 years it has perfected a coating process that makes fabric waterproof yet breathable after 100 washes. The managers run the three tests. **Customer benefit:** buyers of work uniforms name durability as their top reason to reorder. **Access to several markets:** the same coating fits outdoor jackets, hospital gowns and tents. **Hard to imitate:** it combines chemistry, machine settings and operator skill that took a decade to tune. The mill treats the coating as its core competence. It assigns its two chemists across all lines and sells coated fabric to a hospital supplier, where trial orders show a 35% margin against 12% on uniforms.",
+		"mistakes": [
+			"Naming a product or a department as a core competence: a competence is a cross-cutting skill set, such as miniaturisation, that several products draw on.",
+			"Calling anything the company does well a core competence: test whether customers value its result, whether it opens more than one market and whether rivals would struggle to copy it.",
+			"Letting business units hoard the people who carry the competence: rotate them across units so the skill keeps growing and serves new products."
+		],
+		"selfCheck": [
+			{
+				"question": "A bakery chain is excellent at accounting. Is this a core competence?",
+				"answer": "Probably not: it helps run the business, but customers do not perceive its benefit and it does not open new markets."
+			},
+			{
+				"question": "Why did Prahalad and Hamel compare a company to a tree?",
+				"answer": "Core competencies are the roots that feed core products (the trunk), business units (branches) and end products (leaves), so judging a firm by its leaves misses where strength comes from."
+			},
+			{
+				"question": "A competence that made a firm successful starts blocking new technologies. What is this called?",
+				"answer": "A core rigidity: deep investment in old skills makes the firm resist change, which is why competencies must be renewed."
+			}
+		],
+		"origin": "C. K. Prahalad and Gary Hamel introduced the concept in the 1990 Harvard Business Review article \"The Core Competence of the Corporation\", using examples such as Honda's engines, Canon's optics and imaging, and Sony's miniaturisation. They developed the ideas in their 1994 book Competing for the Future. Dorothy Leonard-Barton later described the downside, \"core rigidities\", in a 1992 article.",
+		"core": "Competitive strength over the long run comes from collective learning, especially in coordinating diverse production skills and integrating streams of technology. Such competencies are not used up when applied; they grow when shared across units. Firms organised only around independent business units tend to underinvest in them and miss chances to combine them into new products. Managing the competence portfolio lets a company enter markets that do not yet exist.",
+		"components": "**Three tests:** a core competence gives potential access to a wide variety of markets, makes a significant contribution to the benefits customers perceive in the end product, and is difficult for competitors to imitate. **Core products:** components or subsystems that embody the competence, such as engines, and are used in many end products. **End products:** what customers buy. **Strategic architecture:** a plan for which competencies to build and how they link. **Redeploying talent:** moving the people who carry a competence to where it creates most value.",
+		"apply": "1) List the skills and technologies behind your best products. 2) Apply the three tests to each and keep the two or three that pass. 3) Identify the core products that embody them. 4) Look for markets outside current lines where they could create value. 5) Fund the competence centrally and share key people across units. 6) Review every few years whether each competence is still distinctive or turning into a rigidity.",
+		"limitations": "The concept is easier to describe after success than to identify beforehand, and many firms label ordinary skills as core. Focusing on existing competencies can make a firm blind to new technologies that make them obsolete. The tests are qualitative and give no measure of how strong a competence is. Outsourcing everything \"non-core\" has sometimes stripped firms of skills that turned out to matter."
 	},
 	"ua": {
-		"short": "Теорія ключових компетенцій — інструмент для обґрунтованих управлінських рішень. Компанії варто розвивати спільні здібності, які відкривають кілька ринків, приносять клієнтам помітну користь і важко копіюються конкурентами. Він допомагає засновникам і керівникам перевіряти припущення та визначати пріоритети.",
-		"origin": "К. К. Прахалад і Гері Гемел популяризували концепцію в статті Harvard Business Review «The Core Competence of the Corporation» 1990 року. Історичний контекст важливий: модель створена для пояснення стратегічних рішень, а не як гарантія успіху. Слід розрізняти первинну концепцію та її пізніші спрощення в навчальних матеріалах.",
-		"core": "Компанії варто розвивати спільні здібності, які відкривають кілька ринків, приносять клієнтам помітну користь і важко копіюються конкурентами. Завдання — зробити вибір і компроміси зрозумілими. Інструмент корисний тоді, коли він змінює спосіб збору даних, оцінювання альтернатив або ухвалення рішень, а не просто додає нові назви до знайомих проблем.",
-		"components": "Користь для клієнта; доступ до кількох ринків; складність копіювання; навчання та координація між командами. Кожен елемент потрібно оцінювати окремо, спираючись на чіткі визначення й перевірені дані. Взаємозв’язки між елементами нерідко не менш важливі, ніж їхні окремі оцінки.",
-		"apply": "Визначте, що організація стабільно робить особливо добре в різних продуктах. Перевірте цінність цього для клієнтів. Інвестуйте у спільні навички, інструменти та передавання знань. Використовуйте компетенцію для виходу на суміжні ринки, не розпорошуючи ресурси. Почніть з одного рішення та визначеного періоду планування. Запишіть припущення й джерела інформації, попросіть колег критично перевірити висновки. Перетворіть аналіз на кілька дій із відповідальними, строками та вимірюваними результатами. Поверніться до рішення після появи нових даних про клієнтів або ринок.",
-		"example": "Студія розробки, що добре створює захищені системи реального часу, може застосувати цю компетенцію в інструментах спільної роботи, панелях моніторингу та продуктах для підключених пристроїв. Це навчальний сценарій, а не твердження про внутрішню стратегію конкретної компанії. Наступним кроком варто порівняти дві альтернативи й оцінити вплив на витрати, утримання клієнтів або дохід.",
-		"limitations": "Керівники іноді називають ключовими компетенціями звичайні сильні сторони. Надмірна концентрація на поточних здібностях може заважати адаптації до нових потреб клієнтів. Якість результату залежить від достовірності даних і правильно визначених меж аналізу. Схема чи контрольний список не є доказом. Поєднуйте модель з експериментами, фінансовими розрахунками та прямим спілкуванням із клієнтами."
+		"short": "Ключова компетенція (core competence) це поєднання навичок і технологій, накопичене в компанії за роки, яке живить одразу кілька продуктових ліній і яке конкурентам важко скопіювати. Прахалад і Гемел стверджували, що компанією варто керувати як портфелем таких компетенцій, а не бізнес-підрозділів, бо стійким джерелом зростання є саме компетенція, а не окремий продукт.",
+		"example": "Текстильна фабрика з 80 працівниками отримує 90% із $6 млн виторгу від тканини для уніформи, маржа на яку падає. За 15 років фабрика довела до досконалості покриття, яке робить тканину водонепроникною, але дихаючою навіть після 100 прань. Керівники проводять три перевірки. **Користь для клієнта:** покупці робочої уніформи називають довговічність головною причиною повторних замовлень. **Доступ до кількох ринків:** те саме покриття підходить для курток для активного відпочинку, лікарняних халатів і наметів. **Складність імітації:** воно поєднує хімію, налаштування машин і майстерність операторів, які налагоджували десятиліття. Фабрика визнає покриття своєю ключовою компетенцією. Вона залучає обох хіміків до всіх ліній і продає тканину з покриттям постачальнику лікарень, де пробні замовлення дають маржу 35% проти 12% на уніформі.",
+		"mistakes": [
+			"Називати ключовою компетенцією продукт чи відділ: компетенція є наскрізним набором навичок, як-от мініатюризація, на який спираються кілька продуктів.",
+			"Вважати ключовою компетенцією все, що компанія робить добре: перевірте, чи цінують клієнти результат, чи відкриває вона більше ніж один ринок і чи важко її скопіювати.",
+			"Дозволяти підрозділам «привласнювати» людей, які несуть компетенцію: переводьте їх між підрозділами, щоб навичка росла й працювала на нові продукти."
+		],
+		"selfCheck": [
+			{
+				"question": "Мережа пекарень дуже добре веде бухгалтерію. Чи це ключова компетенція?",
+				"answer": "Імовірно, ні: це допомагає керувати бізнесом, але клієнти не відчувають цієї користі, і нових ринків вона не відкриває."
+			},
+			{
+				"question": "Чому Прахалад і Гемел порівнювали компанію з деревом?",
+				"answer": "Ключові компетенції є корінням, що живить ключові продукти (стовбур), бізнес-підрозділи (гілки) та кінцеві продукти (листя), тож оцінка фірми за листям не показує, звідки береться її сила."
+			},
+			{
+				"question": "Компетенція, що принесла фірмі успіх, починає заважати новим технологіям. Як це називають?",
+				"answer": "Ключова жорсткість (core rigidity): глибокі вкладення в старі навички змушують фірму опиратися змінам, тому компетенції треба оновлювати."
+			}
+		],
+		"origin": "К. К. Прахалад і Гері Гемел запропонували концепцію в статті Harvard Business Review «The Core Competence of the Corporation» (1990) на прикладах двигунів Honda, оптики й обробки зображень Canon та мініатюризації Sony. Вони розвинули ці ідеї в книзі «Competing for the Future» (1994). Дороті Леонард-Бартон згодом описала зворотний бік, «ключові жорсткості», у статті 1992 року.",
+		"core": "Конкурентна сила в довгостроковій перспективі походить від колективного навчання, особливо від уміння координувати різні виробничі навички й поєднувати технології. Такі компетенції не витрачаються під час використання, а зростають, коли ними діляться між підрозділами. Фірми, організовані лише навколо незалежних бізнес-одиниць, зазвичай недоінвестують у них і пропускають нагоди поєднати їх у нові продукти. Управління портфелем компетенцій дає змогу виходити на ринки, яких ще не існує.",
+		"components": "**Три перевірки:** ключова компетенція відкриває потенційний доступ до широкого кола ринків, суттєво додає до користі, яку клієнт бачить у кінцевому продукті, і її важко імітувати. **Ключові продукти:** компоненти чи підсистеми, у яких втілена компетенція, як-от двигуни, і які використовуються в багатьох кінцевих продуктах. **Кінцеві продукти:** те, що купують клієнти. **Стратегічна архітектура:** план, які компетенції будувати і як вони пов’язані. **Перерозподіл талантів:** переведення людей, що несуть компетенцію, туди, де вона створює найбільше цінності.",
+		"apply": "1) Випишіть навички та технології, що стоять за вашими найкращими продуктами. 2) Застосуйте до кожної три перевірки й залиште дві-три, що їх пройшли. 3) Визначте ключові продукти, у яких вони втілені. 4) Пошукайте ринки поза нинішніми лініями, де вони можуть створити цінність. 5) Фінансуйте компетенцію централізовано й діліться ключовими людьми між підрозділами. 6) Раз на кілька років перевіряйте, чи компетенція досі вирізняє вас, чи вже стає жорсткістю.",
+		"limitations": "Концепцію легше описати після успіху, ніж визначити заздалегідь, і багато фірм називають ключовими звичайні навички. Зосередженість на наявних компетенціях може засліпити фірму щодо нових технологій, які роблять їх застарілими. Перевірки якісні й не дають міри сили компетенції. Передача на аутсорс усього «неключового» іноді позбавляла фірми навичок, які згодом виявлялися важливими."
 	}
 }

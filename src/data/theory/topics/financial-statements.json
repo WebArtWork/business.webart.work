@@ -1,0 +1,65 @@
+{
+	"slug": "financial-statements",
+	"related": [
+		"budgeting-and-forecasting",
+		"break-even-analysis",
+		"cash-flow-cycle",
+		"unit-economics"
+	],
+	"en": {
+		"short": "Three financial statements describe a business from three angles: the income statement shows whether it earned a profit over a period, the balance sheet shows what it owns and owes on one date, and the cash flow statement shows where cash actually came from and went. Reading them together explains how a profitable company can still run out of money.",
+		"example": "A custom signage company closes the year with **income statement:** revenue $1.2 million, net profit $96,000. The owner feels safe, yet the bank account fell from $140,000 to $20,000. **Balance sheet:** receivables jumped by $150,000 because a shopping mall chain pays in 90 days, and vinyl stock grew by $40,000. **Cash flow statement:** operating cash = $96,000 profit + $12,000 depreciation − $150,000 receivables − $40,000 stock + $22,000 extra supplier credit = −$60,000. **Investing:** a new $60,000 printer paid in cash. Total: −$120,000. The owner now asks 30% deposits on large orders and arranges a credit line before signing the next mall contract.",
+		"mistakes": [
+			"Reading only the income statement: profit records sales when invoiced, not when paid, so always check operating cash flow and changes in receivables alongside it.",
+			"Treating the balance sheet as a measure of what the business is worth: assets are mostly recorded at historical cost, and brand or customer relationships often do not appear at all.",
+			"Mixing up a loan with income or a loan repayment with an expense: borrowing raises cash and liabilities but not profit, so look for it under financing activities."
+		],
+		"selfCheck": [
+			{
+				"question": "A shop's profit is $50,000 but operating cash flow is −$20,000. Name two likely causes.",
+				"answer": "Customers are paying more slowly, so receivables grew, or the shop bought far more stock than it sold."
+			},
+			{
+				"question": "The company buys a $100,000 truck with cash. How does each statement change on the day of purchase?",
+				"answer": "Cash falls and fixed assets rise by $100,000 on the balance sheet, the cash flow statement shows an investing outflow, and profit is untouched until depreciation is charged."
+			},
+			{
+				"question": "Why does net profit appear at the top of the indirect cash flow statement?",
+				"answer": "The statement starts from profit and adjusts it for non-cash items like depreciation and for changes in working capital to reach actual operating cash."
+			}
+		],
+		"origin": "Financial statements have no single author; they grew out of accounting practice. Luca Pacioli described double-entry bookkeeping, already used by Italian merchants, in his 1494 Summa de arithmetica. Balance sheets and profit statements became routine with joint-stock companies and railways in the 1800s, and US securities laws of 1933 and 1934 required audited reports from listed firms. The cash flow statement came last: US rule FAS 95 made it mandatory in 1987, and the international standard IAS 7 followed.",
+		"core": "Accrual accounting records revenue when earned and expenses when incurred, which shows the economics of a period but separates profit from cash. The balance sheet holds the gap: unpaid invoices, stock, equipment and debts. The cash flow statement reconciles profit with the change in the bank balance. Retained profit flows into equity, and closing cash on the cash flow statement equals cash on the balance sheet, so the three statements check one another.",
+		"components": "**Income statement (P&L):** revenue minus cost of goods sold gives gross profit; minus operating expenses, interest and tax gives net profit. **Balance sheet:** assets equal liabilities plus equity, split into current items such as cash, receivables and stock, and long-term items such as equipment and loans. **Cash flow statement:** cash from operating, investing and financing activities. **Links:** net profit feeds retained earnings and starts the operating cash section. **Notes:** explain accounting policies, debts and risks behind the numbers.",
+		"apply": "1) Read the P&L for revenue growth, gross margin and net margin. 2) Compare two balance sheets to see which assets and debts grew. 3) Check that operating cash flow roughly tracks net profit; a big gap usually sits in receivables or stock. 4) Look at investing and financing to see whether growth is paid for by operations, owners or lenders. 5) Calculate a few ratios: current ratio, debt to equity, days of receivables. 6) Build a monthly cash forecast whenever profit and cash diverge.",
+		"limitations": "Statements look backward and arrive weeks after the period ends. Accounting choices on depreciation, revenue timing and inventory valuation shift profit between periods. Intangible assets built in-house, like brand and data, are mostly invisible. Small businesses often prepare statements only for tax, so they may be incomplete or late for decisions."
+	},
+	"ua": {
+		"short": "Три фінансові звіти показують бізнес із трьох боків: звіт про прибутки та збитки (P&L) показує, чи заробила компанія прибуток за період, баланс (balance sheet) показує, що вона має і що винна на певну дату, а звіт про рух грошових коштів (cash flow statement) показує, звідки гроші справді прийшли й куди пішли. Разом вони пояснюють, як прибуткова компанія може залишитися без грошей.",
+		"example": "Компанія з виготовлення вивісок закриває рік зі **звітом про прибутки та збитки:** виручка $1,2 млн, чистий прибуток $96 000. Власник спокійний, але на рахунку залишилося $20 000 замість $140 000. **Баланс:** дебіторка зросла на $150 000, бо мережа торгових центрів платить через 90 днів, а запаси вінілу зросли на $40 000. **Звіт про рух грошей:** операційний потік = $96 000 прибутку + $12 000 амортизації − $150 000 дебіторки − $40 000 запасів + $22 000 додаткового кредиту постачальників = −$60 000. **Інвестиції:** новий принтер за $60 000 оплачено готівкою. Разом: −$120 000. Тепер власник бере 30% передоплати за великі замовлення й відкриває кредитну лінію до підписання наступного контракту з ТЦ.",
+		"mistakes": [
+			"Читати лише звіт про прибутки та збитки: прибуток фіксує продаж у момент виставлення рахунку, а не оплати, тож завжди перевіряйте поруч операційний грошовий потік і зміну дебіторки.",
+			"Вважати баланс мірилом вартості бізнесу: активи здебільшого обліковано за історичною вартістю, а бренд чи стосунки з клієнтами часто взагалі не відображено.",
+			"Плутати кредит із доходом, а погашення кредиту з витратою: позика збільшує гроші й зобов’язання, але не прибуток, тож шукайте її у фінансовій діяльності."
+		],
+		"selfCheck": [
+			{
+				"question": "Прибуток магазину $50 000, а операційний грошовий потік −$20 000. Назвіть дві ймовірні причини.",
+				"answer": "Клієнти платять повільніше, тож дебіторка зросла, або магазин закупив значно більше товару, ніж продав."
+			},
+			{
+				"question": "Компанія купує вантажівку за $100 000 готівкою. Як змінюється кожен звіт у день купівлі?",
+				"answer": "У балансі гроші зменшуються, а основні засоби зростають на $100 000, у звіті про рух грошей з’являється відтік в інвестиційній діяльності, а прибуток не змінюється, доки не нараховано амортизацію."
+			},
+			{
+				"question": "Чому непрямий звіт про рух грошей починається з чистого прибутку?",
+				"answer": "Звіт бере прибуток і коригує його на негрошові статті, як-от амортизацію, та на зміни оборотного капіталу, щоб отримати фактичний операційний потік."
+			}
+		],
+		"origin": "Фінансова звітність не має одного автора, вона виросла з бухгалтерської практики. Лука Пачолі описав подвійний запис, яким уже користувалися італійські купці, у праці «Summa de arithmetica» 1494 року. Баланси й звіти про прибуток стали звичними з появою акціонерних компаній і залізниць у XIX столітті, а американські закони про цінні папери 1933 і 1934 років зобов’язали біржові компанії подавати аудиторські звіти. Звіт про рух грошей з’явився останнім: американський стандарт FAS 95 зробив його обов’язковим 1987 року, згодом з’явився міжнародний стандарт IAS 7.",
+		"core": "Метод нарахування фіксує дохід, коли його зароблено, а витрати, коли їх понесено; це показує економіку періоду, але відокремлює прибуток від грошей. Розрив між ними зберігає баланс: неоплачені рахунки, запаси, обладнання й борги. Звіт про рух грошей узгоджує прибуток зі зміною залишку на рахунку. Нерозподілений прибуток переходить у власний капітал, а залишок грошей на кінець періоду у звіті про рух грошей дорівнює грошам у балансі, тож три звіти перевіряють один одного.",
+		"components": "**Звіт про прибутки та збитки (P&L):** виручка мінус собівартість дає валовий прибуток; мінус операційні витрати, відсотки й податок дає чистий прибуток. **Баланс:** активи дорівнюють зобов’язанням плюс власний капітал; поділяються на поточні статті, як-от гроші, дебіторка й запаси, та довгострокові, як-от обладнання й кредити. **Звіт про рух грошей:** гроші від операційної, інвестиційної та фінансової діяльності. **Зв’язки:** чистий прибуток поповнює нерозподілений прибуток і відкриває операційний розділ звіту про рух грошей. **Примітки:** пояснюють облікову політику, борги й ризики за цифрами.",
+		"apply": "1) Прочитайте P&L: зростання виручки, валову й чисту маржу. 2) Порівняйте два баланси, щоб побачити, які активи й борги зросли. 3) Перевірте, чи операційний грошовий потік приблизно відповідає чистому прибутку; великий розрив зазвичай ховається в дебіторці чи запасах. 4) Подивіться на інвестиційну й фінансову діяльність, щоб зрозуміти, хто оплачує зростання: операції, власники чи кредитори. 5) Обчисліть кілька коефіцієнтів: поточної ліквідності, боргу до капіталу, днів дебіторки. 6) Складайте щомісячний прогноз грошей щоразу, коли прибуток і гроші розходяться.",
+		"limitations": "Звіти дивляться назад і з’являються через тижні після кінця періоду. Облікові рішення щодо амортизації, моменту визнання доходу й оцінки запасів переносять прибуток між періодами. Нематеріальні активи, створені власними силами, як-от бренд чи дані, здебільшого невидимі. Малий бізнес часто готує звітність лише для податкової, тому для рішень вона буває неповною або запізнілою."
+	}
+}

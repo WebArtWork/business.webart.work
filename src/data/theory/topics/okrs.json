@@ -1,26 +1,65 @@
 {
 	"slug": "okrs",
 	"related": [
-		"balanced-scorecard",
 		"pdca-cycle",
-		"eisenhower-matrix"
+		"aarrr-pirate-metrics",
+		"balanced-scorecard",
+		"agency-theory"
 	],
 	"en": {
-		"short": "An objective states a meaningful direction; key results specify measurable evidence of progress. OKRs align attention without prescribing every task. Set a small number of priorities, choose outcome metrics with baselines and targets, assign owners, review progress weekly and adjust initiatives based on evidence.",
-		"origin": "Andy Grove developed the approach at Intel in the 1970s, drawing on management-by-objectives ideas. John Doerr later introduced OKRs to Google in 1999. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
-		"core": "An objective states a meaningful direction; key results specify measurable evidence of progress. OKRs align attention without prescribing every task. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
-		"components": "Qualitative objective, usually two to five measurable key results, a defined time horizon, an owner, regular check-ins and retrospective learning. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
-		"apply": "Set a small number of priorities, choose outcome metrics with baselines and targets, assign owners, review progress weekly and adjust initiatives based on evidence. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
-		"example": "A SaaS team sets “Make onboarding successful” and tracks activation rate, time to first value and week-four retention rather than merely counting shipped screens. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
-		"limitations": "Bad metrics encourage gaming. Too many OKRs create noise, and treating every stretch target as a compensation requirement discourages honest ambition. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+		"short": "OKRs pair an inspiring objective with two to five measurable key results, so a team agrees both on where it is going and on how it will know it got there. Objectives are qualitative and usually set for a quarter; key results describe outcomes, not tasks. Because the list is short and public, OKRs force a company to decide what it will not work on.",
+		"example": "CalmChair, a 25-person startup selling scheduling software to dental clinics, sets one company OKR for the second quarter. **Objective:** make new clinics successful in their first month. **KR1:** raise the share of clinics that book 50 appointments within 30 days from 38% to 60%. **KR2:** cut median setup time from 9 days to 3. **KR3:** lower first-quarter churn from 12% to 6%. Initiatives are listed separately: a data-import tool and a setup call for every new clinic. At week six KR2 already stands at 4 days, but KR1 has only reached 44%: clinics go live quickly and still don't book. The CEO moves two engineers from the import tool to SMS appointment reminders, the feature that departed clinics asked for most often.",
+		"mistakes": [
+			"Writing tasks as key results, such as \"launch the new onboarding page\": a task can be finished while nothing improves, so state the outcome it should move, such as the activation rate.",
+			"Giving every team eight objectives: with that many, nothing is a priority, so keep to three or fewer objectives with a handful of key results each.",
+			"Paying bonuses directly on OKR scores: people then set safe targets, so keep scoring separate from compensation and let stretch goals stay honest."
+		],
+		"selfCheck": [
+			{
+				"question": "A team scores 1.0 on every key result, quarter after quarter. Is that good news?",
+				"answer": "Probably not. In the Google style of OKRs, where 0.6–0.7 on a stretch goal counts as success, a perfect score usually means the targets were too safe."
+			},
+			{
+				"question": "Why is \"publish 12 blog posts\" a weak key result for an objective about growing inbound leads?",
+				"answer": "It measures activity, not the result: all twelve posts can ship while leads stay flat, so \"inbound demo requests from 80 to 140 a month\" is stronger."
+			},
+			{
+				"question": "Halfway through the quarter a plan is clearly not working. What should change first, the key results or the initiatives?",
+				"answer": "Usually the initiatives. The key results define success, while the projects behind them are bets that can be swapped for better ones."
+			}
+		],
+		"origin": "Andy Grove built the method at Intel in the 1970s, adapting Peter Drucker's management by objectives, and described it in his 1983 book High Output Management. John Doerr, who learned it while working at Intel, presented OKRs to Google's founders in 1999. His 2018 book Measure What Matters spread the practice widely among startups and large firms.",
+		"core": "Drucker-style objectives were often yearly, set top-down and tied to appraisals. Grove made goals shorter, fewer, measurable and visible to everyone. The objective answers \"where do we want to go?\" and the key results answer \"how will we know we are getting there?\". Quarterly cycles let a team correct course within the year, and transparency lets teams align with each other's goals without a manager translating every target. Ambitious targets push people to look for new approaches rather than small adjustments.",
+		"components": "**Objective:** a short, qualitative, memorable statement of what matters this cycle. **Key results:** two to five numbers, each with a baseline and a target, that prove the objective was reached. **Initiatives:** the projects expected to move the key results, kept apart from them. **Cadence:** quarterly OKRs, weekly check-ins and an end-of-cycle score from 0.0 to 1.0. **Committed and aspirational OKRs:** committed ones must be fully delivered, aspirational ones are stretch goals where about 70% is a good result.",
+		"apply": "1) Choose at most three objectives that express the company's strategy for the quarter. 2) For each, write key results as measurable outcomes with today's baseline next to the target. 3) Let teams draft their own OKRs that support the company set, rather than receiving them ready-made. 4) Publish every OKR where all employees can see it. 5) Review confidence weekly and replace initiatives that are not moving the numbers. 6) Score each key result at quarter end and record the lessons before writing the next set.",
+		"limitations": "OKRs reward what can be counted, so quality, culture and slow research work can be crowded out. The quarterly ritual adds planning overhead that a ten-person firm may not need. When scores feed performance reviews, teams game their targets. Support for the method comes mostly from case stories about Intel and Google rather than controlled studies, and many companies adopt the vocabulary while still setting targets top-down."
 	},
 	"ua": {
-		"short": "Ціль (objective) задає важливий напрям, а ключові результати (key results) показують вимірюваний прогрес. Метод допомагає узгодити пріоритети, не перетворюючи їх на перелік доручень. Визначте кілька пріоритетів, встановіть початкові значення та цільові показники, призначте відповідальних, щотижня перевіряйте прогрес і коригуйте дії.",
-		"origin": "Енді Гроув розвинув підхід в Intel у 1970-х роках, спираючись на управління за цілями. Джон Дорр представив OKR компанії Google у 1999 році. Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
-		"core": "Ціль (objective) задає важливий напрям, а ключові результати (key results) показують вимірюваний прогрес. Метод допомагає узгодити пріоритети, не перетворюючи їх на перелік доручень. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
-		"components": "Якісно сформульована ціль, зазвичай два–п’ять вимірюваних результатів, період, відповідальний, регулярні перевірки й аналіз підсумків. Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
-		"apply": "Визначте кілька пріоритетів, встановіть початкові значення та цільові показники, призначте відповідальних, щотижня перевіряйте прогрес і коригуйте дії. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
-		"example": "SaaS-команда ставить ціль «Полегшити перший успіх користувача» та вимірює активацію, час до першої користі й утримання на четвертому тижні замість кількості готових екранів. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
-		"limitations": "Невдалі метрики стимулюють маніпуляції. Надлишок OKR розмиває фокус, а прив’язка кожної амбітної цілі до премії заважає чесному плануванню. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+		"short": "OKR поєднують надихаючу ціль із двома–п’ятьма вимірюваними ключовими результатами, тож команда домовляється і про напрям, і про те, як зрозуміє, що дійшла до мети. Ціль (objective) формулюють якісно й зазвичай на квартал, а ключові результати (key results) описують наслідки, а не завдання. Короткий і відкритий для всіх список змушує компанію вирішити, чим вона займатися не буде.",
+		"example": "CalmChair, стартап на 25 людей, що продає програму запису для стоматологічних клінік, ставить одне корпоративне OKR на другий квартал. **Ціль:** зробити нові клініки успішними вже в перший місяць. **КР1:** підняти частку клінік, які за 30 днів роблять 50 записів, з 38% до 60%. **КР2:** скоротити медіанний час налаштування з 9 днів до 3. **КР3:** знизити відтік за перший квартал з 12% до 6%. Ініціативи записують окремо: інструмент імпорту даних і дзвінок із налаштування для кожної нової клініки. На шостому тижні КР2 уже становить 4 дні, а КР1 дійшов лише до 44%: клініки швидко запускаються, але пацієнтів не записують. CEO переводить двох інженерів з інструменту імпорту на SMS-нагадування про візит, яких найчастіше просили клініки, що пішли.",
+		"mistakes": [
+			"Записувати завдання як ключові результати, наприклад «запустити нову сторінку онбордингу»: завдання можна виконати без жодного покращення, тож вказуйте наслідок, який воно має змінити, скажімо частку активованих клієнтів.",
+			"Давати кожній команді по вісім цілей: коли їх стільки, пріоритету немає, тому обмежтеся трьома цілями з кількома ключовими результатами до кожної.",
+			"Нараховувати премії прямо за оцінками OKR: люди почнуть ставити безпечні цілі, тож відокремте оцінювання від винагороди, щоб амбітні цілі залишалися чесними."
+		],
+		"selfCheck": [
+			{
+				"question": "Команда квартал за кварталом отримує 1,0 за всі ключові результати. Це добра новина?",
+				"answer": "Скоріше ні. У підході Google, де 0,6–0,7 за амбітною ціллю вважають успіхом, ідеальна оцінка зазвичай означає занадто обережні цілі."
+			},
+			{
+				"question": "Чому «опублікувати 12 статей у блозі» слабкий ключовий результат для цілі зі зростання вхідних заявок?",
+				"answer": "Він вимірює активність, а не результат: усі дванадцять статей можуть вийти, а заявок не побільшає, тому краще «запити на демо з 80 до 140 на місяць»."
+			},
+			{
+				"question": "Посеред кварталу видно, що план не працює. Що змінювати насамперед: ключові результати чи ініціативи?",
+				"answer": "Зазвичай ініціативи. Ключові результати визначають успіх, а проєкти під ними лише ставки, які можна замінити кращими."
+			}
+		],
+		"origin": "Енді Гроув створив метод в Intel у 1970-х, переробивши управління за цілями (management by objectives) Пітера Друкера, і описав його в книзі «High Output Management» (1983). Джон Дорр, який навчився цьому в Intel, у 1999 році представив OKR засновникам Google. Його книга «Measure What Matters» (2018) поширила практику серед стартапів і великих компаній.",
+		"core": "Цілі за Друкером часто ставили на рік, згори вниз, і прив’язували до атестації. Гроув зробив цілі коротшими, нечисленними, вимірюваними й видимими для всіх. Ціль відповідає на питання «куди ми хочемо прийти?», а ключові результати на питання «як ми знатимемо, що рухаємося туди?». Квартальні цикли дозволяють виправити курс протягом року, а прозорість дає командам узгоджуватися між собою без керівника-перекладача. Амбітні цілі штовхають шукати нові підходи, а не дрібні поліпшення.",
+		"components": "**Ціль:** коротке, якісне формулювання того, що важить у цьому циклі, яке легко запам’ятати. **Ключові результати:** від двох до п’яти показників із базовим і цільовим значенням, що доводять досягнення цілі. **Ініціативи:** проєкти, які мають зрушити ключові результати; їх тримають окремо. **Ритм:** квартальні OKR, щотижневі перевірки й підсумкова оцінка від 0,0 до 1,0. **Обов’язкові та амбітні OKR:** перші треба виконати повністю, для других добрим результатом вважають близько 70%.",
+		"apply": "1) Оберіть щонайбільше три цілі, які виражають стратегію компанії на квартал. 2) До кожної запишіть ключові результати як вимірювані наслідки, поставивши поточне значення поруч із цільовим. 3) Дайте командам самим скласти OKR на підтримку корпоративних, а не отримати їх готовими. 4) Опублікуйте всі OKR там, де їх бачить кожен працівник. 5) Щотижня оцінюйте впевненість і замінюйте ініціативи, що не зрушують показники. 6) Наприкінці кварталу оцініть кожен ключовий результат і запишіть висновки, перш ніж складати наступний набір.",
+		"limitations": "OKR винагороджують те, що можна порахувати, тож якість, культура й повільна дослідницька робота можуть відійти на другий план. Квартальний ритуал планування додає роботи, яка фірмі з десяти людей може бути зайвою. Коли оцінки впливають на атестацію, команди підганяють цілі. Аргументи на користь методу спираються переважно на історії Intel і Google, а не на контрольовані дослідження, і багато компаній переймають термінологію, продовжуючи ставити цілі згори."
 	}
 }

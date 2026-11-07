@@ -2,27 +2,64 @@
 	"slug": "pricing-strategy-theories",
 	"related": [
 		"price-elasticity-of-demand",
-		"positioning-theory",
-		"unit-economics"
+		"break-even-analysis",
+		"anchoring-effect",
+		"freemium-model"
 	],
 	"en": {
-		"short": "Pricing strategies explain different ways to set and change prices based on costs, customer value and market goals. Choosing the right method affects margin, adoption and how customers perceive the product.",
-		"origin": "These approaches developed across economics and marketing over time; there is no single creator or shared date. Penetration and skimming were discussed in mid-twentieth-century pricing literature, including Joel Dean’s work.",
-		"core": "Price is not merely cost plus profit. It communicates positioning, allocates demand and determines how much value the business captures.",
-		"components": "Value-based pricing starts from willingness to pay and outcomes. Cost-plus adds a markup to an appropriate cost base. Penetration pricing launches relatively low to encourage adoption. Price skimming starts high for early buyers and reduces price as the market expands. Elasticity, competition, costs and regulation constrain each method.",
-		"apply": "Calculate variable costs and required contribution margin. Interview customers and test willingness to pay without treating stated answers as guaranteed purchases. Map alternatives and perceived differences. Choose an approach that fits the product’s stage and competitive dynamics. Define discount rules and price fences, such as usage tiers. Run controlled experiments where possible and watch conversion, gross margin, churn and customer complaints.",
-		"example": "A specialized B2B automation product may charge according to hours saved, while a commodity reseller may use cost-plus as a practical floor. A new consumer app might offer an introductory price with a clearly stated end date.",
-		"limitations": "Value is difficult to estimate; cost-plus ignores willingness to pay. Penetration can attract unprofitable customers, while skimming can invite competitors. Pricing changes may create fairness concerns.",
-		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+		"short": "A price can be anchored in what the product costs to make, in what customers believe it is worth, or in a deliberate plan to win the market quickly or to harvest early buyers first. Cost-plus, value-based, penetration and skimming pricing each answer a different question, and the choice can change profit more than any cost cut. Costs set the floor, customer value sets the ceiling, and strategy picks the point between them.",
+		"example": "A hardware startup launches a self-watering smart plant pot that costs $32 to make and ship. **Cost-plus:** a 50% markup gives $48. **Value-based:** interviews with 60 indoor-plant owners show they lose about $70 of plants a year and would pay up to $85; the closest rival, without an app, sells for $55. **Penetration:** $45 would undercut the rival and could reach 20,000 buyers in year one, but at a $13 margin. **Skimming:** $99 for enthusiasts who pre-order, then a cut as competitors arrive. A pending patent gives roughly 18 months before copies appear. The startup launches at $89 for the first three months through gardening communities, then settles at $69 when it enters retail. Cost-plus pricing would have given away more than $20 per pot.",
+		"mistakes": [
+			"Pricing on cost alone: customers neither know nor care about your costs, so cost-plus can leave large amounts of money on the table or price you out of the market; use cost only as the floor.",
+			"Choosing penetration without the capacity or cost advantage to sustain it: low prices that attract demand you cannot serve, or that rivals can match, simply destroy margin, so check scale economics and competitors' likely responses first.",
+			"Skimming in a market where copies arrive fast: a high launch price invites rivals in, so skim only when patents, brand or know-how protect you for long enough."
+		],
+		"selfCheck": [
+			{
+				"question": "A café prices every cake at ingredient cost times three. One cake sells out by 10 a.m. every day. What does this suggest?",
+				"answer": "Customers value that cake above its cost-plus price, so a value-based increase is likely possible without losing sales."
+			},
+			{
+				"question": "Why do streaming services often launch with low prices and raise them later?",
+				"answer": "They use penetration pricing to build a large subscriber base quickly, counting on habits and content libraries to keep people when prices rise."
+			},
+			{
+				"question": "A new games console launches at a high price and drops it a year later. Which strategy is this, and who pays the high price?",
+				"answer": "Skimming: the most eager buyers, who value having it first, pay more, and later cuts reach more price-sensitive customers."
+			}
+		],
+		"origin": "Cost-plus pricing is ancient trade practice; economists R. L. Hall and C. J. Hitch documented its wide use by British firms in a 1939 study. Joel Dean contrasted skimming and penetration pricing for new products in a 1950 Harvard Business Review article. Value-based pricing was developed by pricing scholars and consultants in the following decades, notably Thomas Nagle in his book The Strategy and Tactics of Pricing.",
+		"core": "Every price sits between a floor, the cost of delivering the product, and a ceiling, the value customers see in it compared with alternatives. Cost-plus starts at the floor and adds a margin, which is simple but blind to demand. Value-based pricing starts at the ceiling and works down, capturing more of the value created. Penetration and skimming are timing strategies: one sets a low entry price to build share, scale and habits; the other starts high for buyers who want the product most and lowers the price step by step.",
+		"components": "**Cost-plus pricing:** unit cost plus a fixed markup; easy to calculate and to justify, common in retail, construction and contracting. **Value-based pricing:** a price set from the customer's economic and emotional value, usually measured against the next best alternative. **Penetration pricing:** a low launch price to gain share fast, suited to price-sensitive markets with economies of scale or network effects. **Skimming:** a high launch price lowered over time, suited to innovations with eager early buyers and protection from imitation. **Price floor and ceiling:** the limits set by cost and by customer value.",
+		"apply": "1) Calculate the full unit cost: this is the lowest acceptable long-run price. 2) Identify the customer's next best alternative and its price. 3) Estimate the extra value your product delivers over that alternative, through interviews or tests. 4) Decide whether speed of adoption or margin matters more, given competition, capacity and protection from copying. 5) Choose penetration, skimming or a value-based level, and plan when and how the price will change. 6) Test the price with real offers and track volume and margin together.",
+		"limitations": "Customer value is hard to measure, and willingness-to-pay surveys often overstate it. Penetration prices are hard to raise later and can trigger price wars or position a brand as cheap. Skimming can annoy early buyers when prices drop and invites competitors into a visibly profitable niche. Cost-plus ignores demand and competitors entirely. In practice firms blend the approaches, and regulations or channel partners may limit freedom to set prices."
 	},
 	"ua": {
-		"short": "Стратегії ціноутворення допомагають встановлювати ціну з урахуванням витрат, цінності для покупця та цілей компанії. Від вибору підходу залежать маржа, швидкість залучення клієнтів і сприйняття продукту.",
-		"origin": "Підходи розвивалися в економіці та маркетингу протягом тривалого часу; спільного автора немає. Стратегії проникнення й «зняття вершків» обговорювалися в літературі середини XX століття, зокрема в роботах Джоела Діна.",
-		"core": "Ціна не дорівнює просто собівартості плюс націнка. Вона впливає на попит, позиціювання й частку цінності, яку отримує компанія.",
-		"components": "Ціннісне ціноутворення (value-based pricing) орієнтується на користь і готовність платити. Витратне ціноутворення (cost-plus pricing) додає націнку до бази витрат. Стратегія проникнення (penetration pricing) передбачає відносно низьку стартову ціну. «Зняття вершків» (price skimming) починається з високої ціни для перших покупців із подальшим зниженням. Важливі також еластичність, конкуренція та законодавчі обмеження.",
-		"apply": "Порахуйте змінні витрати й потрібну маржу. Дослідіть альтернативи та готовність клієнтів платити. Врахуйте етап розвитку продукту. Оберіть модель, визначте тарифи, знижки та правила їх застосування. За можливості протестуйте кілька цін на порівнюваних групах. Відстежуйте конверсію, маржу, відтік і реакцію клієнтів.",
-		"example": "B2B-сервіс автоматизації може встановлювати ціну відповідно до зекономленого часу. Перепродавець стандартних товарів часто орієнтується на собівартість і націнку. Новий застосунок може мати тимчасову вступну ціну.",
-		"limitations": "Цінність складно точно виміряти. Витратний підхід ігнорує готовність платити. Низька стартова ціна може не окупитися, а висока — прискорити появу конкурентів. Різкі зміни цін шкодять довірі.",
-		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень. Для наступного циклу зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+		"short": "Ціну можна прив’язати до того, скільки коштує виробництво, до того, скільки продукт вартий в очах клієнтів, або до свідомого плану швидко захопити ринок чи спершу заробити на перших покупцях. Витратне, ціннісне ціноутворення, ціноутворення проникнення й «зняття вершків» відповідають на різні питання, і вибір між ними може змінити прибуток сильніше за будь-яке скорочення витрат. Витрати задають нижню межу, цінність для клієнта верхню, а стратегія обирає точку між ними.",
+		"example": "Апаратний стартап випускає розумний вазон із самополивом, виробництво й доставка якого коштують $32. **Витратне ціноутворення (cost-plus):** націнка 50% дає $48. **Ціннісне ціноутворення (value-based):** інтерв’ю з 60 власниками кімнатних рослин показують, що вони втрачають рослин приблизно на $70 на рік і готові платити до $85; найближчий конкурент без застосунку коштує $55. **Проникнення (penetration):** $45 дали б ціну нижчу за конкурента й до 20 000 покупців за перший рік, але з маржею лише $13. **«Зняття вершків» (skimming):** $99 для ентузіастів, що замовляють заздалегідь, а потім зниження, коли прийдуть конкуренти. Заявка на патент дає приблизно 18 місяців до появи копій. Стартап виходить на ринок за $89 на перші три місяці через спільноти садівників, а з початком роздрібу встановлює $69. Витратна ціна віддала б понад $20 з кожного вазона.",
+		"mistakes": [
+			"Визначати ціну лише за витратами: клієнти не знають ваших витрат і не зважають на них, тож витратний підхід може залишити на столі великі гроші або витіснити вас із ринку; використовуйте витрати лише як нижню межу.",
+			"Обирати проникнення без потужностей чи переваги у витратах, щоб його витримати: низька ціна, що приваблює попит, який ви не можете обслужити, або яку конкуренти легко повторять, просто знищує маржу, тому спершу перевірте економію на масштабі й імовірну реакцію суперників.",
+			"«Знімати вершки» на ринку, де копії з’являються швидко: висока стартова ціна заманює конкурентів, тож застосовуйте цю стратегію, лише коли патенти, бренд чи ноу-хау захищають вас достатньо довго."
+		],
+		"selfCheck": [
+			{
+				"question": "Кав’ярня встановлює ціну кожного торта як вартість інгредієнтів, помножену на три. Один торт щодня розкуповують до 10-ї ранку. Що це означає?",
+				"answer": "Клієнти цінують цей торт вище за його витратну ціну, тож, імовірно, можна підняти ціну за ціннісним підходом без втрати продажів."
+			},
+			{
+				"question": "Чому стримінгові сервіси часто стартують із низькими цінами, а потім їх підвищують?",
+				"answer": "Вони застосовують ціноутворення проникнення, щоб швидко набрати велику базу підписників, розраховуючи, що звички й бібліотека контенту втримають людей після підвищення."
+			},
+			{
+				"question": "Нова ігрова консоль виходить за високою ціною, а через рік дешевшає. Яка це стратегія і хто платить високу ціну?",
+				"answer": "«Зняття вершків»: найнетерплячіші покупці, яким важливо мати консоль першими, платять більше, а пізніші знижки охоплюють чутливіших до ціни клієнтів."
+			}
+		],
+		"origin": "Витратне ціноутворення є давньою торговою практикою; економісти Р. Л. Голл і К. Дж. Гітч задокументували його поширеність серед британських фірм у дослідженні 1939 року. Джоел Дін протиставив «зняття вершків» і ціноутворення проникнення для нових продуктів у статті Harvard Business Review 1950 року. Ціннісне ціноутворення розвивали дослідники й консультанти з ціноутворення в наступні десятиліття, зокрема Томас Нейгл у книзі «The Strategy and Tactics of Pricing».",
+		"core": "Кожна ціна лежить між нижньою межею, вартістю постачання продукту, і верхньою, цінністю, яку клієнти бачать у ньому порівняно з альтернативами. Витратний підхід починає від нижньої межі й додає маржу: це просто, але сліпо до попиту. Ціннісний підхід починає від верхньої межі й рухається вниз, забираючи більшу частку створеної цінності. Проникнення й «зняття вершків» є стратегіями в часі: перша ставить низьку стартову ціну, щоб набрати частку, масштаб і звички, друга починає високо для тих, хто найбільше хоче продукт, і знижує ціну крок за кроком.",
+		"components": "**Витратне ціноутворення:** собівартість одиниці плюс фіксована націнка; легко розрахувати й обґрунтувати, поширене в роздрібі, будівництві й підрядних роботах. **Ціннісне ціноутворення:** ціна, встановлена за економічною й емоційною цінністю для клієнта, зазвичай порівняно з найкращою альтернативою. **Ціноутворення проникнення:** низька стартова ціна для швидкого захоплення частки, доречна на чутливих до ціни ринках з економією на масштабі чи мережевими ефектами. **«Зняття вершків»:** висока стартова ціна, що знижується з часом, доречна для інновацій із нетерплячими першими покупцями й захистом від копіювання. **Нижня й верхня межі ціни:** обмеження, які задають витрати й цінність для клієнта.",
+		"apply": "1) Розрахуйте повну собівартість одиниці: це найнижча прийнятна ціна в довгостроковій перспективі. 2) Визначте найкращу альтернативу для клієнта та її ціну. 3) Оцініть додаткову цінність вашого продукту порівняно з нею через інтерв’ю чи тести. 4) Вирішіть, що важливіше: швидкість поширення чи маржа, з огляду на конкуренцію, потужності й захист від копіювання. 5) Оберіть проникнення, «зняття вершків» або ціннісний рівень і сплануйте, коли і як ціна змінюватиметься. 6) Перевірте ціну реальними пропозиціями й відстежуйте обсяг і маржу разом.",
+		"limitations": "Цінність для клієнта важко виміряти, а опитування про готовність платити часто її завищують. Ціни проникнення важко потім підняти, вони можуть спровокувати цінові війни або закріпити за брендом образ дешевого. «Зняття вершків» може дратувати перших покупців, коли ціна падає, і заманює конкурентів у помітно прибуткову нішу. Витратний підхід повністю ігнорує попит і конкурентів. На практиці компанії поєднують підходи, а регулювання чи партнери в каналах збуту можуть обмежувати свободу ціноутворення."
 	}
 }

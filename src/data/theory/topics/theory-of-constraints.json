@@ -1,26 +1,65 @@
 {
 	"slug": "theory-of-constraints",
 	"related": [
-		"lean-management",
+		"marginal-cost-and-marginal-revenue",
+		"pareto-principle",
 		"just-in-time",
-		"pdca-cycle"
+		"lean-management"
 	],
 	"en": {
-		"short": "The performance of a system is limited by its most restrictive constraint. Improving nonconstraints may create activity without improving overall throughput. Map the workflow, measure queues and cycle times, identify the bottleneck, protect its productive time, then invest in additional capacity only when needed.",
-		"origin": "Eliyahu M. Goldratt popularized the Theory of Constraints through *The Goal* (1984), building on earlier operations research and production-management ideas. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
-		"core": "The performance of a system is limited by its most restrictive constraint. Improving nonconstraints may create activity without improving overall throughput. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
-		"components": "Five focusing steps: identify the constraint, exploit it, subordinate other work, elevate the constraint, and repeat. Track throughput, inventory and operating expense. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
-		"apply": "Map the workflow, measure queues and cycle times, identify the bottleneck, protect its productive time, then invest in additional capacity only when needed. Recheck after changes. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
-		"example": "A software agency completes development quickly but waits two weeks for client acceptance. Improving the approval process may shorten delivery more than hiring another developer. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
-		"limitations": "Bottlenecks move; optimizing only throughput can overlook quality, resilience, employee welfare and strategic goals. Measurements must reflect the whole system. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+		"short": "Every system has one constraint, a bottleneck that limits how much it can produce, and an hour lost there is an hour lost for the whole business. The Theory of Constraints says to find that constraint, squeeze the most out of it and align everything else to its pace. Improving anything other than the bottleneck adds cost but not output.",
+		"example": "A commercial laundry serving hotels can wash 1,200 kg a day, dry 1,000, iron 700 and fold 1,100, while hotels want 1,000 kg. The owner planned to buy a $40,000 washer. **Identify:** the flatwork ironer, at 700 kg, caps output. **Exploit:** staff cover lunch breaks so it never stops, and linen arrives pre-sorted; capacity reaches 820 kg. **Subordinate:** washing is scheduled to the ironer's pace, so wet sheets no longer pile up and mildew. **Elevate:** a used second ironer for $25,000 lifts ironing to 1,300 kg. **Repeat:** the dryers, at 1,000 kg, are now the limit, exactly matching demand. The washer purchase is cancelled, and the next investment will be a dryer when demand grows.",
+		"mistakes": [
+			"Improving every step equally: faster washing in the example only piles up wet laundry in front of the ironer, so spend effort and money on the constraint first.",
+			"Buying capacity before exploiting the bottleneck: idle time, breaks, setups and defects at the constraint often hide 15–30% of extra output for free.",
+			"Keeping every machine and person busy: work released faster than the constraint can absorb only builds inventory, so release work at the bottleneck's pace."
+		],
+		"selfCheck": [
+			{
+				"question": "A bakery's oven runs at full load while decorators often wait. Where should the owner add a worker?",
+				"answer": "At the oven, for example to load and unload it during breaks; another decorator would only wait longer."
+			},
+			{
+				"question": "Why does an hour saved at a non-bottleneck step usually save nothing?",
+				"answer": "That step already has spare capacity, so the system still moves at the bottleneck's pace and the hour turns into idle time."
+			},
+			{
+				"question": "After a second ironer is installed, why must the analysis start again?",
+				"answer": "The constraint has moved elsewhere, here to the dryers, and keeping the old focus would waste effort."
+			}
+		],
+		"origin": "The Israeli physicist Eliyahu M. Goldratt developed the ideas while building production scheduling software in the late 1970s. He presented them to a wide audience in The Goal (1984), a business novel written with Jeff Cox about a plant manager saving his factory. Later books extended the approach to strategy and to project management, notably Critical Chain (1997).",
+		"core": "A chain is only as strong as its weakest link, and a process is only as fast as its slowest step. Because the constraint sets the pace of the whole system, its time is worth the profit of the entire business, while spare time elsewhere is worth almost nothing. Focusing improvement on the single constraint gives quick, visible gains, and the five focusing steps form a loop because removing one constraint always reveals the next.",
+		"components": "**Constraint:** the resource, policy or market demand that limits throughput. **Five focusing steps:** identify, exploit, subordinate, elevate, then repeat. **Drum-buffer-rope:** the constraint sets the beat (drum), a time buffer protects it from upstream disruption, and a release signal (rope) feeds work only as fast as it can use it. **Throughput accounting:** measures throughput (sales minus truly variable costs), inventory and operating expense instead of unit costs. **Policy constraints:** rules such as batch sizes or approval steps that limit flow more than any machine.",
+		"apply": "1) Map the flow and measure each step's capacity and queue; the step with the biggest pile in front is the likely constraint. 2) Remove waste at the constraint: breaks, setups, defects, low-value jobs. 3) Pace all other steps to the constraint and keep a small buffer before it. 4) Only then invest to add capacity there. 5) Check where the constraint has moved, including whether it is now market demand. 6) Judge decisions by their effect on throughput, inventory and operating expense.",
+		"limitations": "In services and knowledge work the constraint is harder to measure and can shift daily. Some systems have interacting or moving bottlenecks rather than one clear one. The approach says little about people, culture and quality on its own, and throughput accounting can underplay fixed costs in long-term pricing. Much of the evidence comes from case stories rather than controlled studies."
 	},
 	"ua": {
-		"short": "Результативність системи визначає її найвужче місце. Покращення інших ділянок може збільшити зайнятість, але не загальну пропускну здатність. Намалюйте процес, виміряйте черги та тривалість етапів, знайдіть вузьке місце, усуньте простої на ньому.",
-		"origin": "Еліягу Голдратт популяризував теорію обмежень (Theory of Constraints) у книжці «The Goal» (1984), спираючись також на попередні ідеї дослідження операцій. Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
-		"core": "Результативність системи визначає її найвужче місце. Покращення інших ділянок може збільшити зайнятість, але не загальну пропускну здатність. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
-		"components": "П’ять кроків: знайти обмеження, максимально використати його, підпорядкувати інші процеси, розширити потужність обмеження та повторити цикл. Відстежуйте потік результату, запаси й операційні витрати. Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
-		"apply": "Намалюйте процес, виміряйте черги та тривалість етапів, знайдіть вузьке місце, усуньте простої на ньому. Інвестуйте в додаткову потужність лише після дешевших покращень. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
-		"example": "Агенція швидко завершує розробку, але два тижні чекає погодження клієнта. Прискорення приймання може дати більше користі, ніж найм ще одного програміста. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
-		"limitations": "Обмеження змінюються після покращень. Надмірний акцент на пропускній здатності може приховати проблеми якості, стійкості та умов праці. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+		"short": "У кожній системі є одне обмеження, вузьке місце, яке визначає, скільки вона може виробити, і година, втрачена там, це година, втрачена для всього бізнесу. Теорія обмежень (Theory of Constraints) радить знайти це обмеження, вичавити з нього максимум і підлаштувати все інше під його темп. Покращення будь-чого, крім вузького місця, додає витрат, але не результату.",
+		"example": "Промислова пральня, що обслуговує готелі, може випрати 1 200 кг на день, висушити 1 000, випрасувати 700 і скласти 1 100, а готелі хочуть 1 000 кг. Власник планував купити пральну машину за $40 000. **Знайти:** прасувальний каток на 700 кг обмежує випуск. **Використати:** персонал підміняє одне одного в обід, щоб каток не зупинявся, а білизна надходить уже розсортованою; потужність сягає 820 кг. **Підпорядкувати:** прання планують під темп катка, тож мокрі простирадла більше не накопичуються й не пліснявіють. **Розширити:** другий вживаний каток за $25 000 піднімає прасування до 1 300 кг. **Повторити:** тепер межею стали сушарки на 1 000 кг, що якраз дорівнює попиту. Купівлю пральної машини скасовано, а наступною інвестицією стане сушарка, коли зросте попит.",
+		"mistakes": [
+			"Покращувати всі етапи однаково: швидше прання в прикладі лише накопичує мокру білизну перед катком, тому спершу витрачайте зусилля й гроші на обмеження.",
+			"Купувати потужність, не вичавивши максимум із вузького місця: простої, перерви, переналагодження й брак на ньому часто приховують 15–30% додаткового випуску безкоштовно.",
+			"Тримати кожен верстат і кожну людину зайнятими: робота, запущена швидше, ніж обмеження здатне її прийняти, лише збільшує незавершене виробництво, тож запускайте її в темпі вузького місця."
+		],
+		"selfCheck": [
+			{
+				"question": "Піч у пекарні працює на повну, а декоратори часто чекають. Куди власникові додати працівника?",
+				"answer": "До печі, наприклад щоб завантажувати й розвантажувати її під час перерв; ще один декоратор лише чекав би довше."
+			},
+			{
+				"question": "Чому година, заощаджена на етапі, що не є вузьким місцем, зазвичай нічого не дає?",
+				"answer": "Цей етап і так має запас потужності, тож система рухається в темпі вузького місця, а заощаджена година перетворюється на простій."
+			},
+			{
+				"question": "Чому після встановлення другого катка аналіз треба починати знову?",
+				"answer": "Обмеження перемістилося, тут до сушарок, і зосередження на старому вузькому місці марнувало б зусилля."
+			}
+		],
+		"origin": "Ізраїльський фізик Еліягу Голдратт розробив ці ідеї наприкінці 1970-х, створюючи програмне забезпечення для планування виробництва. Широкій аудиторії він представив їх у книзі «Мета» (The Goal, 1984), бізнес-романі, написаному разом із Джеффом Коксом, про директора заводу, який рятує своє підприємство. Пізніші книги поширили підхід на стратегію й управління проєктами, зокрема «Критичний ланцюг» (Critical Chain, 1997).",
+		"core": "Ланцюг міцний настільки, наскільки міцна його найслабша ланка, а процес швидкий настільки, наскільки швидкий його найповільніший етап. Оскільки обмеження задає темп усій системі, його час вартий прибутку всього бізнесу, тоді як вільний час деінде не вартий майже нічого. Зосередження покращень на єдиному обмеженні дає швидкі, помітні результати, а п’ять фокусувальних кроків утворюють цикл, бо усунення одного обмеження завжди відкриває наступне.",
+		"components": "**Обмеження:** ресурс, правило чи ринковий попит, що обмежує пропускну здатність. **П’ять фокусувальних кроків:** знайти, використати, підпорядкувати, розширити, повторити. **Барабан-буфер-мотузка (drum-buffer-rope):** обмеження задає ритм (барабан), часовий буфер захищає його від збоїв на попередніх етапах, а сигнал запуску (мотузка) подає роботу лише так швидко, як обмеження може її використати. **Облік пропускної здатності (throughput accounting):** вимірює пропускну здатність (продажі мінус справді змінні витрати), запаси й операційні витрати замість собівартості одиниці. **Обмеження-правила:** розміри партій чи етапи погоджень, що гальмують потік сильніше за будь-який верстат.",
+		"apply": "1) Намалюйте потік і виміряйте потужність і чергу кожного етапу; етап із найбільшою купою роботи перед ним, найімовірніше, і є обмеженням. 2) Приберіть втрати на обмеженні: перерви, переналагодження, брак, малоцінні замовлення. 3) Підлаштуйте всі інші етапи під темп обмеження й тримайте перед ним невеликий буфер. 4) Лише після цього інвестуйте в додаткову потужність там. 5) Перевірте, куди перемістилося обмеження, зокрема чи не став ним ринковий попит. 6) Оцінюйте рішення за впливом на пропускну здатність, запаси й операційні витрати.",
+		"limitations": "У сфері послуг та інтелектуальній праці обмеження важче виміряти, і воно може зміщуватися щодня. Деякі системи мають кілька взаємопов’язаних або рухомих вузьких місць замість одного. Сам по собі підхід мало каже про людей, культуру та якість, а облік пропускної здатності може недооцінювати постійні витрати в довгостроковому ціноутворенні. Значна частина доказів спирається на кейси, а не на контрольовані дослідження."
 	}
 }

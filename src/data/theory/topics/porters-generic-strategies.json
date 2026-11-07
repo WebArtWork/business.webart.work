@@ -3,24 +3,63 @@
 	"related": [
 		"porters-five-forces",
 		"value-chain-analysis",
-		"blue-ocean-strategy"
+		"economies-of-scale",
+		"positioning-theory"
 	],
 	"en": {
-		"short": "Porter’s Generic Strategies is a strategic framework for understanding how businesses compete and make decisions. Competitive advantage comes from being lower cost or meaningfully different, across a broad market or a narrow segment. It helps founders and managers replace assumptions with structured analysis.",
-		"origin": "Michael E. Porter systematized these strategies in Competitive Strategy (1980) and Competitive Advantage (1985). Its historical context matters: the framework was designed to clarify strategic choices, not to guarantee business success. Modern applications should distinguish the original concept from later adaptations and teaching shortcuts.",
-		"core": "Competitive advantage comes from being lower cost or meaningfully different, across a broad market or a narrow segment. The goal is to make trade-offs explicit. A framework is useful when it changes what a team investigates, measures, or decides rather than merely giving familiar problems new labels.",
-		"components": "Cost leadership; differentiation; cost focus; differentiation focus. The focus variants target a narrow segment. Each component should be assessed separately, with a clear definition and supporting evidence. Relationships between components often matter as much as individual scores.",
-		"apply": "Choose the target customer and the value they prioritize. Benchmark unit costs and willingness to pay. Align product features, operations, marketing, and hiring with one clear advantage. Test whether customers recognize that advantage. Start with one decision and a defined time horizon. Write down assumptions and evidence sources, invite a colleague to challenge the conclusions, and translate the analysis into a small set of actions with owners, deadlines, and measurable outcomes. Revisit the decision after new customer or market information arrives.",
-		"example": "A budget airline simplifies service and operations to keep fares low, while a boutique hotel may charge more for distinctive experiences and attentive service. This is an illustrative business scenario, not a claim about a particular company's internal strategy. A useful follow-up would compare two alternatives and estimate their impact on costs, customer retention, or revenue.",
-		"limitations": "Cost and differentiation are not always mutually exclusive. Digital products can combine them, but vague positioning and unprofitable discounting remain risks. Results depend on the quality of the input data and the boundaries chosen. Avoid treating a diagram or checklist as proof. Combine the model with experiments, financial calculations, and direct conversations with customers."
+		"short": "A company earns above-average returns only by choosing a clear basis of advantage: being the lowest-cost producer or offering something buyers will pay more for, across a whole market or a narrow segment. Porter argued that firms trying to do everything at once end up \"stuck in the middle\", with neither the lowest costs nor a reason for customers to pay a premium.",
+		"example": "A furniture workshop with 14 staff sells oak tables at $900, while flat-pack chains charge $250 and design studios charge $2,500. The owner tests each option. **Cost leadership:** matching $250 would need automated lines worth $1.2 million, far beyond the workshop. **Differentiation:** competing with design studios nationwide would need a brand budget of about $150,000 a year. **Cost focus:** no segment rewards cheap handmade tables. **Differentiation focus:** restaurants and cafés need tables that survive daily cleaning and can be repaired on site. The workshop already serves six cafés, which reorder at a 40% margin against 22% on retail. It drops retail lines, raises café prices to $1,100 and adds a five-year repair guarantee.",
+		"mistakes": [
+			"Treating \"low price\" as cost leadership: a price cut without the lowest cost base only shrinks margins, so check unit costs against the cheapest rival first.",
+			"Calling any extra feature differentiation: it counts only if target buyers notice it and pay enough more to cover its cost, so test willingness to pay.",
+			"Choosing a focus segment and then serving everyone who asks: each off-segment order dilutes the tailored offer, so write down which customers you will turn away."
+		],
+		"selfCheck": [
+			{
+				"question": "A regional airline has the lowest cost per seat in its country but sells mainly to business travellers on three routes. Which strategy is this?",
+				"answer": "Cost focus: it competes on cost, but only within a narrow set of routes and customers."
+			},
+			{
+				"question": "Why is \"stuck in the middle\" risky?",
+				"answer": "The firm carries the costs of extra features but cannot charge a premium, so cost leaders undercut it on price and differentiators beat it on value."
+			},
+			{
+				"question": "Can a differentiator ignore costs?",
+				"answer": "No. Porter stressed that its premium must exceed the extra cost of being unique, so it still keeps costs low in everything buyers do not value."
+			}
+		],
+		"origin": "Michael E. Porter set out the three generic strategies (overall cost leadership, differentiation and focus) in his 1980 book Competitive Strategy. In Competitive Advantage (1985) he split focus into cost focus and differentiation focus and linked each strategy to the value chain. The model follows from his Five Forces work: a generic strategy is a way to defend a position against the forces.",
+		"core": "Competitive advantage comes in two basic types, lower cost or differentiation, and a firm can pursue it broadly or within a segment. Each choice requires different investments, culture and trade-offs: a cost leader standardises and runs lean, while a differentiator spends on design, service or brand. Mixing them usually means each activity is compromised, so the firm captures neither advantage. Clear choice is what lets the whole organisation pull in one direction.",
+		"components": "**Cost leadership:** become the lowest-cost producer in the industry through scale, process efficiency or cheaper inputs, and sell at or near average prices. **Differentiation:** offer unique attributes valued across the market and charge a premium above the cost of providing them. **Cost focus:** seek a cost advantage within a narrow segment whose needs let you strip out costs others carry. **Differentiation focus:** serve a narrow segment's special needs better than broad competitors can. **Stuck in the middle:** the outcome of not committing to any of the four.",
+		"apply": "1) Define your competitive scope: the whole market or a specific segment, and name it. 2) Compare your unit cost with the cheapest rival's, line by line. 3) List attributes buyers in that scope say they would pay more for, and estimate the premium. 4) Choose the one strategy your cost position or your attributes actually support. 5) Align activities with it: remove spending that does not serve the chosen advantage. 6) Track the gap to rivals on cost or premium every year, since imitation narrows it.",
+		"limitations": "Firms such as Toyota and IKEA have combined low cost with differentiation, so later researchers argued that hybrid strategies can work, especially when technology lowers the cost of variety. The categories are broad and do not tell you how to build the advantage. In fast markets a cost or feature lead can vanish quickly, and the model says little about innovation or digital platforms."
 	},
 	"ua": {
-		"short": "Загальні конкурентні стратегії Портера — інструмент для обґрунтованих управлінських рішень. Конкурентна перевага виникає завдяки нижчим витратам або відчутній відмінності продукту — на широкому ринку чи в обраному сегменті. Він допомагає засновникам і керівникам перевіряти припущення та визначати пріоритети.",
-		"origin": "Майкл Портер систематизував ці підходи у книжках Competitive Strategy (1980) і Competitive Advantage (1985). Історичний контекст важливий: модель створена для пояснення стратегічних рішень, а не як гарантія успіху. Слід розрізняти первинну концепцію та її пізніші спрощення в навчальних матеріалах.",
-		"core": "Конкурентна перевага виникає завдяки нижчим витратам або відчутній відмінності продукту — на широкому ринку чи в обраному сегменті. Завдання — зробити вибір і компроміси зрозумілими. Інструмент корисний тоді, коли він змінює спосіб збору даних, оцінювання альтернатив або ухвалення рішень, а не просто додає нові назви до знайомих проблем.",
-		"components": "Лідерство за витратами; диференціація; фокус на витратах; фокус на диференціації. Дві останні стратегії орієнтовані на вузький сегмент. Кожен елемент потрібно оцінювати окремо, спираючись на чіткі визначення й перевірені дані. Взаємозв’язки між елементами нерідко не менш важливі, ніж їхні окремі оцінки.",
-		"apply": "Оберіть цільового клієнта та визначте, за що він готовий платити. Порівняйте собівартість і готовність платити. Узгодьте функції продукту, операції, маркетинг і найм з обраною перевагою. Перевірте, чи клієнти її справді помічають. Почніть з одного рішення та визначеного періоду планування. Запишіть припущення й джерела інформації, попросіть колег критично перевірити висновки. Перетворіть аналіз на кілька дій із відповідальними, строками та вимірюваними результатами. Поверніться до рішення після появи нових даних про клієнтів або ринок.",
-		"example": "Бюджетна авіакомпанія спрощує сервіс та операції заради низьких тарифів, а невеликий дизайнерський готель може встановлювати вищу ціну за особливий досвід і персональну увагу. Це навчальний сценарій, а не твердження про внутрішню стратегію конкретної компанії. Наступним кроком варто порівняти дві альтернативи й оцінити вплив на витрати, утримання клієнтів або дохід.",
-		"limitations": "Низькі витрати й відмінність не завжди взаємовиключні. Цифрові продукти інколи поєднують їх, однак нечітке позиціонування та збиткові знижки залишаються ризиками. Якість результату залежить від достовірності даних і правильно визначених меж аналізу. Схема чи контрольний список не є доказом. Поєднуйте модель з експериментами, фінансовими розрахунками та прямим спілкуванням із клієнтами."
+		"short": "Компанія отримує прибутковість, вищу за середню, лише тоді, коли обирає чітку основу переваги: найнижчі витрати або щось, за що покупці готові платити більше, на всьому ринку або у вузькому сегменті. Портер стверджував, що фірми, які намагаються робити все одночасно, «застрягають посередині» (stuck in the middle): у них немає ні найнижчих витрат, ні причини для клієнта переплачувати.",
+		"example": "Меблева майстерня з 14 працівниками продає дубові столи по $900, мережі збірних меблів беруть $250, а дизайн-студії $2 500. Власник перевіряє кожен варіант. **Лідерство за витратами:** щоб вийти на $250, потрібні автоматизовані лінії за $1,2 млн, що майстерні не під силу. **Диференціація:** конкурувати з дизайн-студіями по всій країні означає витрачати на бренд близько $150 000 на рік. **Фокус на витратах:** жоден сегмент не цінує дешевих столів ручної роботи. **Фокус на диференціації:** ресторанам і кав’ярням потрібні столи, що витримують щоденне миття й ремонтуються на місці. Майстерня вже обслуговує шість кав’ярень, які замовляють повторно з маржею 40% проти 22% у роздрібі. Вона відмовляється від роздрібних моделей, підвищує ціну для кав’ярень до $1 100 і додає п’ятирічну гарантію ремонту.",
+		"mistakes": [
+			"Вважати низьку ціну лідерством за витратами: знижка без найнижчої собівартості лише з’їдає маржу, тому спершу порівняйте собівартість одиниці з найдешевшим конкурентом.",
+			"Називати диференціацією будь-яку додаткову функцію: вона має значення, лише якщо цільові покупці її помічають і доплачують більше, ніж вона коштує, тож перевірте готовність платити.",
+			"Обрати вузький сегмент, а потім обслуговувати всіх охочих: кожне замовлення поза сегментом розмиває спеціалізовану пропозицію, тому запишіть, яким клієнтам ви відмовлятимете."
+		],
+		"selfCheck": [
+			{
+				"question": "Регіональна авіакомпанія має найнижчу в країні вартість крісла, але продає переважно бізнес-мандрівникам на трьох маршрутах. Яка це стратегія?",
+				"answer": "Фокус на витратах: вона конкурує ціною, але лише в межах вузького кола маршрутів і клієнтів."
+			},
+			{
+				"question": "Чим небезпечно «застрягнути посередині»?",
+				"answer": "Фірма несе витрати на додаткові переваги, але не може брати надбавку, тож лідери за витратами перебивають її ціною, а диференційовані конкуренти цінністю."
+			},
+			{
+				"question": "Чи може компанія, що диференціюється, не зважати на витрати?",
+				"answer": "Ні. Портер наголошував, що надбавка має перевищувати додаткові витрати на унікальність, тому в усьому, чого покупці не цінують, витрати треба тримати низькими."
+			}
+		],
+		"origin": "Майкл Портер описав три загальні стратегії (загальне лідерство за витратами, диференціацію та фокусування) у книзі «Competitive Strategy» (1980). У «Competitive Advantage» (1985) він поділив фокусування на фокус на витратах і фокус на диференціації та пов’язав кожну стратегію з ланцюгом створення вартості. Модель випливає з його праці про п’ять сил: загальна стратегія є способом захистити позицію від цих сил.",
+		"core": "Конкурентна перевага буває двох базових типів, нижчі витрати або диференціація, і її можна здобувати на широкому ринку чи в сегменті. Кожен вибір вимагає інших інвестицій, культури й компромісів: лідер за витратами стандартизує та економить, а диференційована фірма вкладає в дизайн, сервіс чи бренд. Змішування зазвичай означає, що кожен процес стає компромісом і фірма не отримує жодної переваги. Саме чіткий вибір дає змогу всій організації рухатися в одному напрямку.",
+		"components": "**Лідерство за витратами:** стати виробником із найнижчими витратами в галузі завдяки масштабу, ефективним процесам чи дешевшим ресурсам і продавати за середніми цінами. **Диференціація:** пропонувати унікальні властивості, цінні для всього ринку, і брати надбавку, вищу за їхню вартість. **Фокус на витратах:** шукати перевагу у витратах у вузькому сегменті, потреби якого дозволяють прибрати витрати, що їх несуть інші. **Фокус на диференціації:** задовольняти особливі потреби вузького сегмента краще, ніж широкі конкуренти. **Застрягання посередині:** наслідок відмови обрати будь-яку з чотирьох стратегій.",
+		"apply": "1) Визначте масштаб конкуренції: весь ринок чи конкретний сегмент, і назвіть його. 2) Порівняйте свою собівартість одиниці з найдешевшим конкурентом по статтях. 3) Складіть перелік властивостей, за які покупці в цих межах готові доплатити, і оцініть розмір надбавки. 4) Оберіть одну стратегію, яку справді підтримують ваші витрати чи властивості. 5) Узгодьте з нею діяльність: приберіть витрати, що не працюють на обрану перевагу. 6) Щороку відстежуйте розрив із конкурентами за витратами чи надбавкою, бо копіювання його скорочує.",
+		"limitations": "Такі фірми, як Toyota та IKEA, поєднали низькі витрати з диференціацією, тож пізніші дослідники доводили, що гібридні стратегії можуть працювати, особливо коли технології здешевлюють різноманітність. Категорії широкі й не пояснюють, як саме побудувати перевагу. На швидких ринках перевага у витратах чи функціях може зникнути дуже швидко, а про інновації та цифрові платформи модель каже мало."
 	}
 }

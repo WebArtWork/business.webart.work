@@ -1,0 +1,65 @@
+{
+	"slug": "budgeting-and-forecasting",
+	"related": [
+		"okrs",
+		"financial-statements",
+		"balanced-scorecard",
+		"agency-theory"
+	],
+	"en": {
+		"short": "A budget is the plan of revenue, costs and cash a business commits to for a period; a forecast is its current best estimate of what will actually happen. Comparing the two each month, variance analysis, shows early where the plan is going wrong and which driver caused it. Rolling forecasts keep that view looking a full year ahead.",
+		"example": "A language school with three branches budgets the year from **drivers:** 600 students × $1,500 course fee = $900,000 revenue; one teacher per group of 8, paid $4,800 per group per quarter. **Variance analysis:** in the first quarter only 132 students enrolled instead of 150, so revenue is $198,000 against $225,000 budgeted, a $27,000 unfavourable volume variance; fees held on target. Teacher costs are $95,000 against $90,000 because many evening groups run half empty. **Rolling forecast:** with current enrolment trends, the next four quarters point to $840,000, not $900,000. The director merges six half-empty evening groups into three, saving $14,400 a quarter, and moves part of the advertising budget to corporate contracts.",
+		"mistakes": [
+			"Freezing the budget and ignoring new information: a plan set last October can be wrong by March, so keep the budget as the target but update a separate forecast monthly.",
+			"Building the budget as last year plus 5%: this repeats old waste and hides changes in demand, so start from drivers such as customers, prices and staffing ratios.",
+			"Reporting variances without explaining them: \"costs over by $5,000\" helps nobody, so split each variance into volume, price and efficiency and name the cause."
+		],
+		"selfCheck": [
+			{
+				"question": "Sales came in 10% over budget and costs 8% over budget. Is the cost overrun bad news?",
+				"answer": "Not necessarily: if most costs rise with volume, an 8% rise on 10% more sales means spending was efficient, so compare costs against a budget adjusted for actual volume."
+			},
+			{
+				"question": "Why do managers sometimes pad their budgets, and how does a driver-based approach help?",
+				"answer": "Padding gives an easy target and safety margin; tying each line to visible drivers like headcount and order volume makes padding easier to spot."
+			},
+			{
+				"question": "When does zero-based budgeting make the most sense?",
+				"answer": "When costs have grown for years without review, for example after rapid growth or a merger, because it forces each expense to be justified from zero."
+			}
+		],
+		"origin": "Budgeting has no single author. Governments drew up budgets long before companies did; the word comes from the bag in which Britain's chancellor carried his financial plan. Large American firms adopted budgets in the 1920s, and James O. McKinsey's book Budgetary Control (1922) helped spread the practice. Peter Pyhrr described zero-based budgeting at Texas Instruments in a 1970 Harvard Business Review article. Jeremy Hope and Robin Fraser's Beyond Budgeting (2003) promoted rolling forecasts over fixed annual plans.",
+		"core": "A budget turns strategy into numbers that people can be held to, and a forecast tells them whether they are on course. The power comes from comparing the two: a variance is a signal that an assumption was wrong. Driver-based models link money to the few operating quantities that cause it, such as customers, price, conversion and staff per unit, so a change in one driver flows through the whole plan and managers discuss causes, not totals.",
+		"components": "**Annual budget:** a fixed plan for the fiscal year, used for targets, approvals and incentives. **Rolling forecast:** an estimate updated monthly or quarterly that always covers the next 12 to 18 months. **Drivers:** operating quantities that generate revenue and cost. **Variance analysis:** actual minus budget, split into volume, price and efficiency effects, marked favourable or unfavourable. **Flexible budget:** the budget recalculated for actual volume, which makes cost comparisons fair. **Zero-based budgeting:** every expense justified from nothing each cycle rather than adjusted from last year.",
+		"apply": "1) Identify the five to ten drivers that explain most revenue and cost. 2) Agree realistic values for each driver with the people who own them. 3) Build the budget from drivers, including a monthly cash plan. 4) Each month, compare actuals with budget and with a flexible budget, and explain every material variance. 5) Update the rolling forecast with the latest driver values. 6) Decide corrective actions, and review the driver logic itself once a year.",
+		"limitations": "Annual budgets take months to prepare and are often outdated before the year starts. When bonuses depend on hitting budget, managers negotiate low targets and spend leftover money in December. Forecasts depend on driver assumptions and can be steered by optimism. Zero-based budgeting is labour-intensive and can turn into cost cutting that ignores long-term investment."
+	},
+	"ua": {
+		"short": "Бюджет це план доходів, витрат і грошей, який бізнес бере на себе на певний період; прогноз (forecast) це поточна найкраща оцінка того, що відбудеться насправді. Щомісячне порівняння цих двох величин, аналіз відхилень (variance analysis), рано показує, де план іде не так і який чинник це спричинив. Ковзні прогнози (rolling forecast) тримають цей погляд на рік уперед.",
+		"example": "Мовна школа з трьома філіями будує річний бюджет від **драйверів:** 600 студентів × $1 500 за курс = $900 000 виручки; один викладач на групу з 8 осіб, оплата $4 800 за групу за квартал. **Аналіз відхилень:** у першому кварталі записалося лише 132 студенти замість 150, тож виручка становить $198 000 проти запланованих $225 000, несприятливе відхилення за обсягом $27 000; ціни виконано за планом. Витрати на викладачів $95 000 проти $90 000, бо багато вечірніх груп заповнені наполовину. **Ковзний прогноз:** за поточних темпів запису наступні чотири квартали дають $840 000, а не $900 000. Директорка об’єднує шість напівпорожніх вечірніх груп у три, заощаджуючи $14 400 за квартал, і переносить частину рекламного бюджету на корпоративні контракти.",
+		"mistakes": [
+			"Заморожувати бюджет і ігнорувати нову інформацію: план, складений минулого жовтня, до березня може застаріти, тому залишайте бюджет ціллю, але щомісяця оновлюйте окремий прогноз.",
+			"Складати бюджет як «торік плюс 5%»: так повторюються старі марнотратства й ховаються зміни попиту, тож починайте з драйверів: клієнтів, цін, нормативів персоналу.",
+			"Звітувати про відхилення без пояснень: «витрати перевищено на $5 000» нікому не допомагає, тому розкладайте кожне відхилення на обсяг, ціну й ефективність і називайте причину."
+		],
+		"selfCheck": [
+			{
+				"question": "Продажі перевищили бюджет на 10%, а витрати на 8%. Чи погана це новина?",
+				"answer": "Не обов’язково: якщо більшість витрат зростає з обсягом, то 8% зростання при 10% більших продажах означає ефективні витрати, тож порівнюйте з бюджетом, перерахованим на фактичний обсяг."
+			},
+			{
+				"question": "Чому керівники іноді закладають у бюджет запас і як допомагає підхід через драйвери?",
+				"answer": "Запас дає легку ціль і подушку безпеки; прив’язка кожного рядка до видимих драйверів, як-от кількість персоналу й обсяг замовлень, робить такий запас помітнішим."
+			},
+			{
+				"question": "Коли бюджетування з нуля (zero-based budgeting) найдоречніше?",
+				"answer": "Коли витрати роками зростали без перегляду, наприклад після швидкого зростання чи злиття, бо метод змушує обґрунтувати кожну статтю від нуля."
+			}
+		],
+		"origin": "Бюджетування не має одного автора. Держави складали бюджети задовго до компаній; саме слово походить від сумки, у якій британський канцлер скарбниці носив свій фінансовий план. Великі американські фірми запровадили бюджети в 1920-х, і книга Джеймса О. Маккінзі «Budgetary Control» (1922) сприяла поширенню практики. Пітер Пірр описав бюджетування з нуля в Texas Instruments у статті Harvard Business Review 1970 року. Книга Джеремі Гоупа й Робіна Фрейзера «Beyond Budgeting» (2003) просувала ковзні прогнози замість фіксованих річних планів.",
+		"core": "Бюджет перетворює стратегію на числа, за які можна спитати з людей, а прогноз показує, чи вони рухаються в правильному напрямку. Сила в порівнянні: відхилення сигналізує, що якесь припущення було хибним. Моделі на основі драйверів пов’язують гроші з кількома операційними величинами, що їх породжують, як-от клієнти, ціна, конверсія й персонал на одиницю, тож зміна одного драйвера проходить через увесь план, і керівники обговорюють причини, а не підсумки.",
+		"components": "**Річний бюджет:** фіксований план на фінансовий рік для цілей, погоджень і бонусів. **Ковзний прогноз:** оцінка, яку оновлюють щомісяця чи щокварталу і яка завжди охоплює наступні 12–18 місяців. **Драйвери:** операційні величини, що породжують доходи й витрати. **Аналіз відхилень:** факт мінус бюджет, розкладений на ефекти обсягу, ціни й ефективності з позначкою «сприятливе» чи «несприятливе». **Гнучкий бюджет:** бюджет, перерахований на фактичний обсяг, що робить порівняння витрат чесним. **Бюджетування з нуля:** кожну статтю обґрунтовують заново щоциклу, а не коригують торішню.",
+		"apply": "1) Визначте п’ять–десять драйверів, що пояснюють більшість доходів і витрат. 2) Узгодьте реалістичні значення кожного з людьми, які за нього відповідають. 3) Побудуйте бюджет від драйверів разом із щомісячним планом грошей. 4) Щомісяця порівнюйте факт із бюджетом і з гнучким бюджетом та пояснюйте кожне суттєве відхилення. 5) Оновлюйте ковзний прогноз останніми значеннями драйверів. 6) Ухвалюйте коригувальні дії, а раз на рік переглядайте саму логіку драйверів.",
+		"limitations": "Річний бюджет готують місяцями, і він часто застаріває ще до початку року. Коли бонуси залежать від виконання бюджету, керівники вибивають низькі цілі й витрачають залишки грошей у грудні. Прогнози залежать від припущень щодо драйверів і піддаються оптимізму. Бюджетування з нуля трудомістке й може перетворитися на скорочення витрат, яке ігнорує довгострокові інвестиції."
+	}
+}

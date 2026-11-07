@@ -1,26 +1,65 @@
 {
 	"slug": "nudge-theory",
 	"related": [
-		"prospect-theory",
+		"customer-journey-mapping",
+		"bounded-rationality",
 		"anchoring-effect",
-		"customer-journey-mapping"
+		"loss-aversion"
 	],
 	"en": {
-		"short": "Nudge Theory explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
-		"origin": "Richard Thaler and Cass Sunstein popularized the term in their 2008 book Nudge; related behavioral research predates it. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
-		"core": "Small changes to how choices are presented can influence decisions without removing options or imposing large financial incentives. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
-		"components": "Choice architecture; defaults; salience; reminders; simplification; feedback; transparency and freedom to opt out. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
-		"apply": "Identify a recurring decision where users struggle. Remove unnecessary steps, clarify the recommended action and test ethical defaults. Measure actual outcomes, not only clicks. Make opting out easy and avoid hidden consent. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
-		"example": "A payroll app prompts employees to review retirement contributions annually and shows a clear default, while allowing them to change or reject it. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
-		"limitations": "Nudges can become manipulative dark patterns. Effects may be small or context-dependent; they cannot replace affordability, trust or good product design. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+		"short": "Nudge theory says you can steer people toward better choices by changing how options are presented, without banning anything or changing prices much. Defaults, reminders, simpler forms and social comparisons all count as nudges. Used well, they help customers and staff do what they already intend; used badly, they become manipulation, and their real-world effects are often smaller than early studies suggested.",
+		"example": "A dental clinic loses income because 18% of patients miss appointments and only 30% book the six-month check-up. **Default:** at the end of each visit, the receptionist books the next check-up automatically and tells the patient they can move it with one text; booking rises to 71%. **Reminder:** an SMS two days before and on the morning of the visit, with a reply-to-reschedule option. **Social norm:** the message adds \"9 out of 10 of our patients keep their appointment\". **Friction removed:** online rescheduling takes two clicks instead of a phone call. After three months no-shows fall to 11%, worth about $4,000 a month. The clinic keeps the default and reminders but drops the norm line after testing shows it adds nothing measurable.",
+		"mistakes": [
+			"Expecting large effects from a single nudge: field results are often a few percentage points, so test each change against a control group before rolling it out widely.",
+			"Nudging people toward what benefits only the company: hidden auto-renewals and hard-to-find cancel buttons are \"sludge\" and invite regulation and complaints, so nudge toward outcomes people would choose themselves.",
+			"Copying a nudge from another context without testing: a message that worked for tax letters may do nothing for your customers, so run a small trial with your own audience first."
+		],
+		"selfCheck": [
+			{
+				"question": "A company switches its pension plan from opt-in to automatic enrolment with an easy opt-out. Why is participation likely to jump?",
+				"answer": "Most people stick with the default through inertia and procrastination, so the default decides the outcome for many who would never act."
+			},
+			{
+				"question": "Why is a hard-to-cancel subscription not a legitimate nudge?",
+				"answer": "A nudge should preserve easy choice and serve the person's own interests; deliberate friction against their wishes is manipulation."
+			},
+			{
+				"question": "An academic study reports a nudge raised sign-ups by 9 points, but a government trial finds 1.5 points. Which number should guide your budget?",
+				"answer": "The large-scale trial, because published studies tend to overstate effects and real deployments are closer to your conditions."
+			}
+		],
+		"origin": "Economist Richard Thaler and legal scholar Cass Sunstein popularised the term in their 2008 book Nudge, building on their earlier idea of \"libertarian paternalism\" and on behavioural research by Kahneman, Tversky and others. A well-known precursor is Brigitte Madrian and Dennis Shea's 2001 study showing that automatic enrolment sharply raised 401(k) participation. In 2010 the UK government set up the Behavioural Insights Team, and many countries followed with nudge units. Thaler received the Nobel Prize in economics in 2017.",
+		"core": "Every choice is presented in some way, and the presentation (what is the default, what comes first, how much effort each option takes) influences what people do, because attention and willpower are limited. A choice architect can design this context to make the better option easier while leaving all options open and cheap to pick. That distinguishes a nudge from a mandate, a ban or a large financial incentive.",
+		"components": "**Choice architecture:** the design of the environment in which a decision is made. **Defaults:** what happens if the person does nothing, the most powerful lever. **Friction:** the effort needed for each option; reducing it helps, adding it deliberately is sludge. **Salience and timing:** reminders and prompts at the moment of decision. **Social norms:** information about what peers do. **Freedom of choice:** opting out must stay easy, or the intervention stops being a nudge.",
+		"apply": "1) Define the behaviour you want and confirm people would endorse it. 2) Map the steps of the decision and find where people drop off. 3) Choose a lever: a default, a reminder, a simpler form or peer information. 4) Run a test with a control group large enough to detect a small effect. 5) Measure actual behaviour, not stated intentions. 6) Keep what works, remove what does not, and check that opting out stays easy.",
+		"limitations": "A 2022 meta-analysis by Mertens and colleagues reported a moderate average effect, but re-analyses correcting for publication bias found little or no reliable effect overall. Stefano DellaVigna and Elizabeth Linos found that nudge-unit trials produced effects several times smaller than academic studies. Effects can fade over time. Critics also question the ethics of steering people without their awareness, and defaults chosen by firms may serve the firm more than the user."
 	},
 	"ua": {
-		"short": "«Теорія підштовхування» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
-		"origin": "Річард Талер і Касс Санстейн популяризували термін у книжці «Nudge» (2008); відповідні поведінкові дослідження існували й раніше. Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
-		"core": "Невеликі зміни способу подання вибору можуть впливати на рішення, не забороняючи альтернатив і не створюючи великих фінансових стимулів. Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
-		"components": "Архітектура вибору (choice architecture); стандартні налаштування; помітність; нагадування; спрощення; зворотний зв’язок; прозорість і можливість відмовитися. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
-		"apply": "Знайдіть повторюване рішення, яке викликає труднощі. Приберіть зайві кроки, зробіть корисну дію зрозумілою й перевірте етичні стандартні налаштування. Вимірюйте реальний результат, а не лише кліки. Забезпечте просту відмову й уникайте прихованої згоди. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
-		"example": "Застосунок для зарплати щороку нагадує працівникам перевірити пенсійні внески та пропонує зрозумілий варіант за замовчуванням із можливістю змінити або відхилити його. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
-		"limitations": "Підштовхування може перетворитися на маніпулятивні інтерфейси. Ефект залежить від контексту; він не замінить доступної ціни, довіри чи якісного продукту. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+		"short": "Теорія підштовхування стверджує, що людей можна спрямувати до кращого вибору, змінивши подачу варіантів, нічого не забороняючи і майже не змінюючи цін. Підштовхуваннями (nudges) вважаються варіанти за замовчуванням, нагадування, простіші форми й соціальні порівняння. Добре застосовані, вони допомагають клієнтам і працівникам робити те, що ті й так мають намір; погано застосовані, стають маніпуляцією, а їхній реальний ефект часто менший, ніж обіцяли ранні дослідження.",
+		"example": "Стоматологічна клініка втрачає дохід, бо 18% пацієнтів не приходять на прийом, і лише 30% записуються на огляд через пів року. **За замовчуванням:** наприкінці кожного візиту адміністраторка автоматично записує на наступний огляд і пояснює, що його можна перенести одним повідомленням; частка записаних зростає до 71%. **Нагадування:** SMS за два дні й зранку в день візиту з можливістю перенести відповіддю. **Соціальна норма:** у повідомленні додано «9 з 10 наших пацієнтів приходять на прийом». **Менше тертя:** онлайн-перенесення займає два кліки замість дзвінка. За три місяці частка неявок падає до 11%, що дає близько $4 000 на місяць. Клініка залишає запис за замовчуванням і нагадування, але прибирає рядок про норму, бо тест не показав від нього вимірного ефекту.",
+		"mistakes": [
+			"Чекати великого ефекту від одного підштовхування: у польових умовах результат часто становить кілька відсоткових пунктів, тож перевіряйте кожну зміну на контрольній групі, перш ніж поширювати її.",
+			"Підштовхувати людей до того, що вигідне лише компанії: приховане автопродовження і схована кнопка скасування це «слудж» (sludge), що провокує регулювання й скарги, тож підштовхуйте до результатів, які люди обрали б самі.",
+			"Копіювати підштовхування з іншого контексту без перевірки: лист, що спрацював для податкових повідомлень, може нічого не дати для ваших клієнтів, тож спершу проведіть невеликий тест на власній аудиторії."
+		],
+		"selfCheck": [
+			{
+				"question": "Компанія переводить пенсійний план з добровільного вступу на автоматичне зарахування з легкою відмовою. Чому участь, імовірно, різко зросте?",
+				"answer": "Більшість людей через інерцію й відкладання залишається з варіантом за замовчуванням, тож саме він визначає результат для тих, хто сам ніколи б не діяв."
+			},
+			{
+				"question": "Чому підписку, яку важко скасувати, не можна вважати легітимним підштовхуванням?",
+				"answer": "Підштовхування має зберігати легкий вибір і служити інтересам самої людини; навмисне тертя всупереч її бажанню це маніпуляція."
+			},
+			{
+				"question": "Наукова стаття повідомляє, що підштовхування підняло реєстрації на 9 пунктів, а державний пілот показав 1,5 пункту. На яку цифру спиратися в бюджеті?",
+				"answer": "На масштабний пілот, бо опубліковані дослідження схильні перебільшувати ефекти, а реальні впровадження ближчі до ваших умов."
+			}
+		],
+		"origin": "Економіст Річард Талер і правник Касс Санстейн популяризували термін у книжці «Nudge» (2008), спираючись на свою ранішу ідею «лібертаріанського патерналізму» та на поведінкові дослідження Канемана, Тверскі й інших. Відомий попередник це дослідження Бриджит Мадріан і Денніса Ші 2001 року, яке показало, що автоматичне зарахування різко підвищило участь у пенсійних планах 401(k). У 2010 році уряд Великої Британії створив Behavioural Insights Team, а за ним і багато інших країн заснували власні підрозділи підштовхування. Талер отримав Нобелівську премію з економіки 2017 року.",
+		"core": "Кожен вибір якось поданий, і подача (що стоїть за замовчуванням, що йде першим, скільки зусиль вимагає кожен варіант) впливає на поведінку, бо увага й сила волі обмежені. Архітектор вибору може спроєктувати цей контекст так, щоб кращий варіант став легшим, а всі інші залишилися доступними й дешевими. Саме це відрізняє підштовхування від обов'язку, заборони чи великого фінансового стимулу.",
+		"components": "**Архітектура вибору (choice architecture):** устрій середовища, в якому ухвалюється рішення. **Варіанти за замовчуванням:** що станеться, якщо людина нічого не зробить; це найсильніший важіль. **Тертя:** зусилля, потрібні для кожного варіанта; зменшувати його корисно, а навмисно додавати означає створювати слудж. **Помітність і момент:** нагадування й підказки в момент рішення. **Соціальні норми:** інформація про те, що роблять інші. **Свобода вибору:** відмова має залишатися легкою, інакше втручання перестає бути підштовхуванням.",
+		"apply": "1) Визначте потрібну поведінку й переконайтеся, що люди самі б її схвалили. 2) Розпишіть кроки рішення і знайдіть, де люди відпадають. 3) Оберіть важіль: варіант за замовчуванням, нагадування, простішу форму чи інформацію про інших. 4) Проведіть тест із контрольною групою, достатньо великою, щоб помітити малий ефект. 5) Вимірюйте реальну поведінку, а не заявлені наміри. 6) Залиште те, що працює, приберіть решту і перевірте, що відмова залишається легкою.",
+		"limitations": "Метааналіз Мертенса та колег 2022 року повідомив про помірний середній ефект, але повторні аналізи з поправкою на упередженість публікацій не знайшли загалом надійного ефекту або знайшли дуже малий. Стефано ДеллаВінья й Елізабет Лінос виявили, що пілоти державних підрозділів дають ефекти в кілька разів менші, ніж наукові статті. Ефекти можуть згасати з часом. Критики також ставлять етичні питання щодо спрямування людей без їхнього усвідомлення, а варіанти за замовчуванням, обрані фірмами, можуть служити фірмі більше, ніж користувачеві."
 	}
 }

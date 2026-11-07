@@ -1,28 +1,65 @@
 {
 	"slug": "aida-model",
 	"related": [
-		"stp",
 		"customer-journey-mapping",
-		"positioning-theory"
+		"positioning-theory",
+		"anchoring-effect",
+		"sales-funnel"
 	],
 	"en": {
-		"short": "AIDA describes a possible progression from attention to interest, desire and action in marketing communication. It is useful for planning clear messages, but should not be treated as a universal description of how everyone buys.",
-		"origin": "AIDA is commonly linked to advertising pioneer E. St. Elmo Lewis and ideas developed around the turn of the twentieth century. The exact evolution of the four-letter formula is disputed.",
-		"core": "A message should first be noticed, then make its relevance clear, create a reason to want the offer and provide a simple next action.",
-		"components": "Attention is the opening signal. Interest establishes relevance and understanding. Desire connects the offer with a valued outcome. Action makes the next step obvious, such as requesting a demo or making a purchase.",
-		"apply": "Start with a precise audience and one objective. Use a headline that reflects a real customer problem. Explain the mechanism and evidence rather than relying on adjectives. Show benefits, trade-offs and trustworthy proof. End with a clear, low-friction call to action. Test the message with users and compare meaningful outcomes such as qualified leads and purchases, not clicks alone. Adapt the order for customers who arrive already informed.",
-		"example": "A local repair service advertises a same-day inspection. Its landing page opens with the problem, explains the inspection process, shows transparent pricing and offers a booking form.",
-		"limitations": "People may research, compare and return several times. Desire is difficult to measure directly. Manipulative urgency can increase short-term action while harming trust.",
-		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+		"short": "AIDA describes the mental steps a buyer goes through before acting on a message: Attention, Interest, Desire and Action. A piece of marketing works only if it carries the reader through all four, so the model is a checklist for ads, landing pages, sales letters and pitches. It also shows at which step a message is losing people.",
+		"example": "A solar panel installer mails 5,000 leaflets to homeowners and gets only 12 calls. The team rebuilds the leaflet step by step. **Attention:** the cover changes from the company logo to \"Your roof could pay $1,100 of your electricity bill each year.\" **Interest:** inside, a simple chart shows a typical local house with 6 kW of panels and its monthly savings. **Desire:** a photo and quote from a neighbour three streets away, plus a 10-year output guarantee, make the result feel real and safe. **Action:** a QR code for a free roof assessment within 48 hours, valid until the end of the month. The next mailing of 5,000 brings 61 requests and 14 signed contracts, so the installer adopts the new layout for its online ads too.",
+		"mistakes": [
+			"Spending everything on attention: a shocking headline that has nothing to do with the offer wins a glance but kills interest, so make the hook point straight at the customer's benefit.",
+			"Leaving action vague: \"learn more\" or no instruction at all loses people who are already convinced, so give one clear next step, a reason to act now and as little effort as possible.",
+			"Applying AIDA to a single ad and forgetting the rest of the journey: expensive or complex purchases need several contacts, so map which step each channel is meant to cover."
+		],
+		"selfCheck": [
+			{
+				"question": "A video ad for a bike shop gets many views but almost no clicks, and viewers stop watching after five seconds. Which stage fails?",
+				"answer": "Interest: the opening grabs attention, but the next seconds do not connect it to anything the viewer cares about."
+			},
+			{
+				"question": "Why do customer reviews usually belong in the Desire stage?",
+				"answer": "Interest makes the reader understand the offer; reviews make them want it by showing that people like them got the promised result."
+			},
+			{
+				"question": "A landing page converts 1% of visitors, and heatmaps show people scrolling to the order button and then leaving. What should be tested first?",
+				"answer": "The action step: the price, the form length or the lack of a guarantee may be stopping people who already want the product."
+			}
+		],
+		"origin": "The model is usually credited to the American advertising pioneer Elias St. Elmo Lewis, who around 1898 argued that an advertisement should attract attention, hold interest and create desire, with action added as the final step. Psychologist Edward K. Strong popularised the acronym AIDA in his writing on selling in the 1920s. It has since been taught in sales training, copywriting and marketing courses for over a century.",
+		"core": "People do not jump from unawareness to purchase in one move. Each stage has a different job: attention breaks through noise, interest gives a reason to keep reading, desire turns understanding into wanting, and action removes the last obstacle. A message that skips a stage loses most of its audience at that point. Because the stages happen in order, the model tells you which part of a message to repair when results are poor.",
+		"components": "**Attention:** a headline, image or opening line relevant enough to stop the target customer. **Interest:** facts, a story or a demonstration that link the product to the customer's problem. **Desire:** benefits, proof, social evidence and guarantees that make the customer want the result and trust it. **Action:** a specific call to act, with an easy path and often a deadline or incentive. Later versions add **Satisfaction** or **Conviction** to cover what happens after the purchase or the moment of belief.",
+		"apply": "1) Write down the one action you want the reader to take. 2) Draft a hook that names a benefit or problem the target customer recognises. 3) List the facts the customer needs to see the product as a fit, and keep only the strongest. 4) Add proof that lowers risk, such as reviews, numbers or a guarantee. 5) Finish with one call to action and remove other links. 6) Measure the drop-off between each stage, for example scroll depth and clicks, and fix the weakest one.",
+		"limitations": "AIDA assumes a rational, linear path, while many purchases are impulsive, habitual or driven by emotion. It treats the audience as passive receivers and ignores word of mouth, research and comparison across many channels. It says nothing about what happens after the purchase, where loyalty and referrals are formed. Low-involvement products, like snacks, often skip interest and desire entirely."
 	},
 	"ua": {
-		"short": "AIDA описує шлях від уваги до інтересу, бажання й дії в маркетинговому повідомленні. Модель допомагає структурувати комунікацію, хоча реальні рішення про покупку часто складніші.",
-		"origin": "AIDA часто пов’язують із рекламним фахівцем Е. Сент-Елмо Льюїсом та ідеями кінця XIX — початку XX століття. Точна історія появи чотирьох літер залишається предметом дискусій.",
-		"core": "Повідомлення має привернути увагу, пояснити актуальність пропозиції, показати бажаний результат і запропонувати зрозумілу наступну дію.",
-		"components": "Увага (attention) — помітний початок. Інтерес (interest) — пояснення, чому це важливо. Бажання (desire) — зв’язок продукту з результатом клієнта. Дія (action) — простий наступний крок: бронювання, заявка або купівля.",
-		"apply": "Визначте аудиторію та мету повідомлення. Почніть із конкретної проблеми, а не загальних обіцянок. Поясніть, як працює рішення, наведіть докази й чесно опишіть умови. Завершіть чітким закликом до дії (call to action). Перевіряйте не лише кліки, а й якісні звернення та покупки. Для обізнаних клієнтів скорочуйте вступ і переходьте до порівняння.",
-		"example": "Сервіс ремонту пропонує діагностику в день звернення. Сторінка показує типову проблему, порядок роботи, прозору ціну та форму запису.",
-		"limitations": "Покупці часто повертаються до попередніх етапів і порівнюють варіанти. Бажання важко виміряти. Штучна терміновість може підвищити короткострокову конверсію, але зруйнувати довіру.",
-		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень. Для наступного циклу зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+		"short": "AIDA описує психологічні кроки, які покупець проходить, перш ніж відреагувати на повідомлення: увага (Attention), інтерес (Interest), бажання (Desire) і дія (Action). Маркетинговий матеріал працює, лише коли проводить читача крізь усі чотири, тож модель служить чеклистом для реклами, лендингів, листів і презентацій. Вона також показує, на якому кроці повідомлення втрачає людей.",
+		"example": "Компанія, що встановлює сонячні панелі, розсилає 5 000 листівок власникам будинків і отримує лише 12 дзвінків. Команда перебудовує листівку крок за кроком. **Увага:** на обкладинці замість логотипа з’являється фраза «Ваш дах може оплачувати $1 100 ваших рахунків за електрику щороку». **Інтерес:** усередині простий графік показує типовий місцевий будинок із панелями на 6 кВт і його щомісячну економію. **Бажання:** фото й відгук сусіда за три вулиці та 10-річна гарантія вироблення роблять результат реальним і безпечним. **Дія:** QR-код для безкоштовної оцінки даху протягом 48 годин, дійсний до кінця місяця. Наступна розсилка на 5 000 адрес приносить 61 заявку й 14 підписаних договорів, тож компанія переносить новий макет і в онлайн-рекламу.",
+		"mistakes": [
+			"Витрачати все на увагу: шокувальний заголовок, не пов’язаний із пропозицією, здобуває погляд, але вбиває інтерес, тому спрямовуйте гачок просто на вигоду клієнта.",
+			"Залишати дію розмитою: «дізнатися більше» або жодної інструкції втрачає вже переконаних людей, тож дайте один чіткий наступний крок, причину діяти зараз і мінімум зусиль.",
+			"Застосовувати AIDA до однієї реклами й забувати про решту шляху: дорогі чи складні покупки потребують кількох контактів, тому визначте, який крок має покривати кожен канал."
+		],
+		"selfCheck": [
+			{
+				"question": "Відеореклама веломагазину має багато переглядів, але майже немає кліків, а глядачі вимикають її після п’яти секунд. Який етап провалюється?",
+				"answer": "Інтерес: початок привертає увагу, але наступні секунди не пов’язують його ні з чим, що важливо глядачу."
+			},
+			{
+				"question": "Чому відгуки клієнтів зазвичай належать до етапу бажання?",
+				"answer": "Інтерес допомагає зрозуміти пропозицію, а відгуки змушують її захотіти, показуючи, що схожі люди отримали обіцяний результат."
+			},
+			{
+				"question": "Лендинг конвертує 1% відвідувачів, а теплові карти показують, що люди догортають до кнопки замовлення й ідуть. Що тестувати першим?",
+				"answer": "Етап дії: ціна, довжина форми чи відсутність гарантії можуть зупиняти тих, хто вже хоче продукт."
+			}
+		],
+		"origin": "Модель зазвичай приписують американському піонерові реклами Еліасу Сент-Елмо Льюїсу, який близько 1898 року стверджував, що реклама має привертати увагу, утримувати інтерес і викликати бажання; дію додали як останній крок. Психолог Едвард Стронг популяризував абревіатуру AIDA у своїх працях про продажі в 1920-х. Відтоді її понад століття викладають на тренінгах із продажів, копірайтингу й маркетингу.",
+		"core": "Люди не стрибають від необізнаності до покупки одним кроком. Кожен етап має своє завдання: увага пробивається крізь шум, інтерес дає причину читати далі, бажання перетворює розуміння на прагнення, а дія прибирає останню перешкоду. Повідомлення, що пропускає етап, втрачає на ньому більшість аудиторії. Оскільки етапи йдуть по черзі, модель підказує, яку частину повідомлення лагодити, коли результати слабкі.",
+		"components": "**Увага:** заголовок, зображення чи перша фраза, достатньо доречні, щоб зупинити цільового клієнта. **Інтерес:** факти, історія чи демонстрація, що пов’язують продукт із проблемою клієнта. **Бажання:** вигоди, докази, соціальне підтвердження й гарантії, які змушують хотіти результату й довіряти йому. **Дія:** конкретний заклик із простим шляхом, часто з дедлайном чи стимулом. Пізніші версії додають **Задоволення** (Satisfaction) або **Переконання** (Conviction), щоб охопити те, що відбувається після покупки, чи момент віри.",
+		"apply": "1) Запишіть одну дію, яку має виконати читач. 2) Складіть гачок, що називає вигоду чи проблему, знайому цільовому клієнту. 3) Перелічіть факти, потрібні клієнту, щоб побачити в продукті рішення, і залиште лише найсильніші. 4) Додайте докази, що знижують ризик: відгуки, цифри чи гарантію. 5) Завершіть одним закликом до дії й приберіть інші посилання. 6) Вимірюйте відсів між етапами, наприклад глибину прокручування й кліки, і виправляйте найслабший.",
+		"limitations": "AIDA припускає раціональний лінійний шлях, тоді як багато покупок імпульсивні, звичні чи емоційні. Модель вважає аудиторію пасивним отримувачем і ігнорує сарафанне радіо, самостійний пошук і порівняння в багатьох каналах. Вона нічого не каже про те, що відбувається після покупки, де формуються лояльність і рекомендації. Товари з низькою залученістю, як-от снеки, часто взагалі оминають інтерес і бажання."
 	}
 }

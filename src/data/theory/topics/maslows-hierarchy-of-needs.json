@@ -1,27 +1,64 @@
 {
 	"slug": "maslows-hierarchy-of-needs",
 	"related": [
-		"herzbergs-two-factor-theory",
 		"mcgregors-theory-x-and-theory-y",
-		"transformational-leadership"
+		"herzbergs-two-factor-theory",
+		"jobs-to-be-done"
 	],
 	"en": {
-		"short": "Maslow's Hierarchy of Needs offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
-		"origin": "Psychologist Abraham Maslow proposed a hierarchy of human needs in a 1943 paper and developed the idea further in 1954. The familiar pyramid drawing was not his original formal diagram. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
-		"core": "People seek to satisfy different kinds of needs, from basic security to growth and fulfillment. In management, the framework prompts leaders to look beyond salary alone. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
-		"components": "Commonly presented levels are physiological needs, safety, belonging, esteem, and self-actualization. Maslow later discussed additional motivations; the levels are not a universally fixed ladder. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
-		"apply": "Check fair pay and workable conditions first, then examine psychological safety, inclusion, recognition, autonomy, and opportunities to learn. Ask employees directly instead of assigning them a presumed level. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
-		"example": "A growing agency discovers that developers value predictable workloads and respectful feedback more than another small bonus. Managers redesign on-call duties and create clearer career paths. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
-		"limitations": "Research does not consistently support a strict order in which needs must be satisfied. Individual and cultural differences matter. The model should guide conversations, not diagnose motivation. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+		"short": "Maslow's hierarchy holds that people are driven by needs in a rough order: physiological, safety, belonging, esteem and self-actualization, with lower needs tending to dominate until they are reasonably met. For managers it is a reminder that recognition schemes and purpose statements fall flat when pay, safety or job security are in doubt. Research supports the categories far better than the strict order.",
+		"example": "A logistics warehouse employs 60 night-shift pickers and loses 27 of them a year, a 45% turnover rate; each replacement costs about $3,000 in hiring and training, or $81,000 a year. The manager had planned team dinners and an \"employee of the month\" award, both aimed at belonging and esteem. Exit interviews tell a different story. **Physiological:** 40% complain that the break room has no hot food at night. **Safety:** 70% cite rosters changed with 24 hours' notice and poorly lit pallet aisles where two injuries occurred last year. Belonging and esteem barely come up. The manager publishes rosters two weeks ahead, spends $18,000 on aisle lighting and adds a night food vending point, and postpones the award scheme until turnover falls.",
+		"mistakes": [
+			"Treating the levels as a strict ladder that must be climbed one rung at a time: people pursue several needs at once, so a poorly paid nurse can still be driven by purpose.",
+			"Assuming one level fits the whole team: a new hire worried about rent and a senior engineer seeking autonomy need different things, so ask each person.",
+			"Presenting the pyramid as proven science: the categories are a useful checklist, but studies have not confirmed a fixed order, so test what motivates your people with data."
+		],
+		"selfCheck": [
+			{
+				"question": "A startup offers equity and an inspiring mission, but salaries arrive late two months in a row. Which level does Maslow say is now in focus?",
+				"answer": "Safety: uncertain income threatens basic security, so mission talk will mean little until payroll is reliable again."
+			},
+			{
+				"question": "Why do researchers accept Maslow's categories more readily than his ordering?",
+				"answer": "Large studies find that needs like safety, belonging and respect matter across cultures, but people satisfy them in parallel and in different orders."
+			},
+			{
+				"question": "An employee with a high salary and a secure contract is disengaged. Which needs should a manager explore?",
+				"answer": "The upper ones: esteem through recognition and responsibility, and self-actualization through challenging work and growth."
+			}
+		],
+		"origin": "Psychologist Abraham Maslow proposed the theory in the 1943 paper \"A Theory of Human Motivation\" in Psychological Review and developed it in his 1954 book Motivation and Personality. The well-known pyramid drawing came later from other authors, not from Maslow. In his later writing he discussed self-transcendence as a motive beyond self-actualization.",
+		"core": "Maslow argued that unmet needs drive behavior and that a satisfied need stops motivating. Deficiency needs, from food and safety to belonging and esteem, press hardest when they are missing; growth needs, such as self-actualization, keep motivating as they are fed. He described the order as relative, saying a need only has to be partly met before the next emerges. In management the model shifted attention from pay alone to security, social ties, respect and meaningful work.",
+		"components": "**Physiological needs:** food, rest, warmth and the income that pays for them. **Safety needs:** physical safety, stable income, predictable rules and job security. **Belonging:** friendship, team membership and acceptance. **Esteem:** respect from others, status, recognition and self-respect. **Self-actualization:** becoming what one is capable of through mastery and meaningful challenges. **Prepotency:** the claim that a more basic unmet need usually outweighs higher ones.",
+		"apply": "1) Gather evidence on what employees lack, through exit interviews, surveys and one-to-one conversations, before choosing an intervention. 2) Sort the complaints into the five categories. 3) Fix gaps in basic conditions first: pay on time, safe workplaces, stable schedules. 4) Then build belonging and esteem through team rituals, fair recognition and respect from managers. 5) Offer growth paths, stretch projects and autonomy to people whose basic needs are secure. 6) Recheck periodically, as a layoff or reorganization can push a whole team back to safety concerns.",
+		"limitations": "Empirical support for the hierarchy is weak. A 1976 review by Mahmoud Wahba and Lawrence Bridwell found little evidence for the ranking or for the idea that a satisfied need stops motivating. Later cross-national studies found the needs themselves broadly universal but satisfied in no fixed order. Maslow based self-actualization on a small group of people he admired, and critics argue the model reflects individualistic Western values."
 	},
 	"ua": {
-		"short": "«Ієрархія потреб Маслоу» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
-		"origin": "Психолог Абрагам Маслоу запропонував ієрархію людських потреб у статті 1943 року й розвинув її в 1954-му. Знайома піраміда не була його початковою схемою. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
-		"core": "Люди мають різні потреби — від базової безпеки до розвитку й самореалізації. Для керівника це нагадування: мотивація не зводиться лише до зарплати. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
-		"components": "Зазвичай виділяють фізіологічні потреби, безпеку, належність, повагу та самореалізацію. Пізніше Маслоу розглядав й інші мотиви; рівні не утворюють незмінних сходинок. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
-		"apply": "Спочатку перевірте оплату й умови праці, потім психологічну безпеку, залученість, визнання, самостійність і навчання. Запитуйте працівників безпосередньо, а не визначайте їхній «рівень» навмання. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
-		"example": "Агенція, що зростає, виявляє: розробники цінують передбачуване навантаження й поважний зворотний зв’язок більше за невелику премію. Керівники змінюють чергування й кар’єрні маршрути. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
-		"limitations": "Дослідження не підтверджують жорсткої послідовності задоволення потреб. Важливі особисті й культурні відмінності. Модель корисна для розмов, але не для «діагностики» мотивації. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
-		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+		"short": "Ієрархія Маслоу стверджує, що людей рухають потреби в приблизному порядку: фізіологічні, безпеки, належності, поваги й самоактуалізації, і нижчі зазвичай домінують, поки їх більш-менш не задоволено. Для керівника це нагадування, що програми визнання й гасла про місію не спрацьовують, коли під питанням зарплата, безпека чи стабільність роботи. Дослідження підтверджують самі категорії значно краще, ніж жорсткий порядок.",
+		"example": "Логістичний склад має 60 комплектувальників нічної зміни й щороку втрачає 27 із них, тобто 45% плинності; заміна одного коштує близько $3 000 на найм і навчання, або $81 000 на рік. Керівник планував командні вечері й нагороду «працівник місяця», тобто працював із належністю та повагою. Вихідні інтерв’ю показують інше. **Фізіологічні потреби:** 40% скаржаться, що вночі в кімнаті відпочинку немає гарячої їжі. **Безпека:** 70% називають графіки, змінені за 24 години, і погано освітлені проходи між палетами, де торік сталося дві травми. Належність і повагу майже не згадують. Керівник публікує графіки на два тижні вперед, витрачає $18 000 на освітлення проходів і встановлює нічний автомат із їжею, а програму нагород відкладає, доки плинність не знизиться.",
+		"mistakes": [
+			"Сприймати рівні як жорстку драбину, якою треба підійматися по одному щаблю: люди задовольняють кілька потреб одночасно, тож медсестру з низькою зарплатою все одно може рухати покликання.",
+			"Вважати, що вся команда перебуває на одному рівні: новачкові, який хвилюється через оренду, і досвідченому інженерові, що прагне автономії, потрібне різне, тож питайте кожного.",
+			"Подавати піраміду як доведену науку: категорії корисні як чек-лист, але дослідження не підтвердили фіксованого порядку, тож перевіряйте даними, що мотивує саме ваших людей."
+		],
+		"selfCheck": [
+			{
+				"question": "Стартап пропонує частку в компанії й надихаючу місію, але зарплату два місяці поспіль затримує. Який рівень, за Маслоу, зараз у фокусі?",
+				"answer": "Безпека: непевний дохід загрожує базовій захищеності, тож розмови про місію мало що важитимуть, доки виплати знову не стануть надійними."
+			},
+			{
+				"question": "Чому науковці охочіше визнають категорії Маслоу, ніж його порядок?",
+				"answer": "Великі дослідження показують, що безпека, належність і повага важливі в різних культурах, але люди задовольняють ці потреби паралельно й у різній послідовності."
+			},
+			{
+				"question": "Працівник із високою зарплатою і надійним контрактом утратив залученість. Які потреби варто дослідити керівнику?",
+				"answer": "Вищі: повагу через визнання й відповідальність і самоактуалізацію через складні завдання та професійне зростання."
+			}
+		],
+		"origin": "Психолог Абрахам Маслоу запропонував теорію у статті «A Theory of Human Motivation» (Psychological Review, 1943) і розвинув її в книзі «Motivation and Personality» (1954). Знайомий малюнок піраміди з’явився пізніше в інших авторів, а не в самого Маслоу. У пізніших працях він розглядав самотрансценденцію як мотив, вищий за самоактуалізацію.",
+		"core": "Маслоу доводив, що поведінку рухають незадоволені потреби, а задоволена потреба перестає мотивувати. Дефіцитні потреби, від їжі й безпеки до належності й поваги, тиснуть найсильніше, коли їх бракує; потреби зростання, як-от самоактуалізація, мотивують і далі в міру задоволення. Порядок він вважав відносним: потребу достатньо задовольнити частково, щоб з’явилася наступна. В управлінні модель змістила увагу з самої зарплати на безпеку, соціальні зв’язки, повагу й змістовну роботу.",
+		"components": "**Фізіологічні потреби:** їжа, відпочинок, тепло й дохід, який за них платить. **Потреби безпеки:** фізична захищеність, стабільний дохід, передбачувані правила й упевненість у роботі. **Належність:** дружба, членство в команді й прийняття. **Повага:** визнання з боку інших, статус і самоповага. **Самоактуалізація:** розкриття своїх можливостей через майстерність і змістовні виклики. **Пріоритетність (prepotency):** твердження, що незадоволена базова потреба зазвичай переважує вищі.",
+		"apply": "1) Перш ніж обирати захід, з’ясуйте, чого бракує працівникам: через вихідні інтерв’ю, опитування й розмови сам на сам. 2) Розкладіть скарги за п’ятьма категоріями. 3) Спершу закрийте прогалини в базових умовах: вчасна оплата, безпечне робоче місце, стабільний графік. 4) Потім будуйте належність і повагу через командні ритуали, справедливе визнання й повагу з боку керівників. 5) Пропонуйте шляхи зростання, амбітні проєкти й автономію тим, чиї базові потреби забезпечено. 6) Перевіряйте ситуацію регулярно: скорочення чи реорганізація можуть повернути всю команду до питань безпеки.",
+		"limitations": "Емпірична підтримка ієрархії слабка. Огляд Махмуда Вахби та Лоуренса Брідвелла 1976 року не знайшов переконливих доказів ні для порядку рівнів, ні для того, що задоволена потреба перестає мотивувати. Пізніші міжнаціональні дослідження показали, що самі потреби майже універсальні, але задовольняються без фіксованої черговості. Опис самоактуалізації Маслоу будував на невеликій групі людей, якими захоплювався, а критики вважають, що модель відображає індивідуалістичні західні цінності."
 	}
 }

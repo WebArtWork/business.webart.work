@@ -1,26 +1,65 @@
 {
 	"slug": "jobs-to-be-done",
 	"related": [
+		"disruptive-innovation-theory",
 		"customer-development-model",
 		"value-proposition-canvas",
-		"product-market-fit"
+		"customer-journey-mapping"
 	],
 	"en": {
-		"short": "Jobs to Be Done studies the progress customers seek when they choose a product or service. It helps teams design around the situation and desired outcome rather than demographic labels or a feature wishlist.",
-		"origin": "The approach has multiple intellectual roots, including Theodore Levitt’s customer-needs perspective and Tony Ulwick’s outcome-driven innovation work in the 1990s. Clayton Christensen and collaborators popularized the “hire a product” framing in the 2000s. It is not the invention of one person on one date.",
-		"core": "People “hire” solutions to make progress in a particular circumstance. The same person can choose different tools in different situations. A job describes the desired progress, not the product category: “coordinate a team decision without another meeting” is more useful than “use project software.” Competing solutions may include spreadsheets, colleagues, doing nothing, or a dedicated app.",
-		"components": "A **job statement** describes the progress sought. **Circumstances** identify when the need appears. **Functional outcomes** cover practical results; **emotional and social outcomes** describe feelings and how others perceive the customer. **Current alternatives** reveal actual competition. **Forces of change** include pressure to switch, attraction of a new solution, anxiety about change, and habits keeping the old approach.",
-		"apply": "Recruit people who recently adopted, rejected, or abandoned a solution. Reconstruct the triggering event and the decision timeline. Ask what they tried before, what worried them, and what result mattered. Write a job statement without naming your product. Rank underserved outcomes, prototype one improvement, and test whether customers change behavior or pay. Revisit jobs as circumstances evolve.",
-		"example": "A hotel manager does not simply want “a dashboard.” The job is to avoid double bookings while working across several booking channels during busy shifts. A useful product emphasizes reliable synchronization and fast exception handling instead of decorative charts.",
-		"limitations": "Interview memories are imperfect, and vague job statements become slogans. Different JTBD schools use different terminology; combining them without care can confuse teams. Jobs alone do not establish market size, feasibility, price, or distribution."
+		"short": "Jobs to Be Done says customers do not buy products; they \"hire\" them to make progress in a specific situation, and they \"fire\" them when something does the job better. Demographics describe who buys, but the job explains why, and it reveals competitors you would never list, including doing nothing. Designing around the job, not the customer profile, is what makes products get chosen.",
+		"example": "A self-storage company with 800 units sees 30% of new tenants leave within three months. The manager interviews 25 recent tenants about the moment they signed. **Situations:** 11 were between homes during a move, 7 were renovating, 5 had just separated from a partner, 2 were clearing a parent's house. **Functional job:** \"keep my things safe while my life is in transition\". **Emotional job:** \"make a stressful period feel under control\". **Competing solutions:** a friend's garage, a moving company's warehouse, throwing things away. **Forces:** anxiety about hidden fees kept people from signing earlier. The company launches a \"transition package\": three-month terms with a fixed price, free van pickup and a final-month discount for leaving on time. Short-term rentals rise from 95 to 160 a quarter.",
+		"mistakes": [
+			"Writing the job as a product feature, such as \"use a better storage unit\": describe the progress the person wants in their situation, independent of any solution.",
+			"Segmenting only by age or income: two very different people in the same situation hire the same solution, so group customers by circumstance and desired outcome.",
+			"Ignoring emotional and social jobs: people choose and quit products for how they feel and look, so capture those dimensions in interviews, not just the functional task."
+		],
+		"selfCheck": [
+			{
+				"question": "A coworking space loses members not to rival spaces but to cafés and home offices. What does JTBD suggest?",
+				"answer": "Find the job members hire a desk for, such as \"a quiet place away from family for focused calls\", and compete with every alternative that does it, not just other coworking spaces."
+			},
+			{
+				"question": "Why do JTBD interviews focus on the moment of switching rather than on general preferences?",
+				"answer": "The switch shows the real forces at work: what pushed people away from the old solution, what pulled them to the new one and what almost stopped them."
+			},
+			{
+				"question": "A gym notices January members quit by March. Which force in the progress model is likely winning?",
+				"answer": "Habit of the present: the old routine pulls people back once the initial push fades, so the gym must make the new routine easier to keep."
+			}
+		],
+		"origin": "Clayton Christensen introduced the jobs language in \"The Innovator's Solution\" (2003, with Michael Raynor) and developed it fully in \"Competing Against Luck\" (2016), where he told the story of a fast-food chain discovering that morning commuters hired milkshakes for a long, boring drive. Product consultant Bob Moesta worked with him on the idea, and Tony Ulwick of the firm Strategyn built a related method called Outcome-Driven Innovation. Marketing professor Theodore Levitt's line that people want a quarter-inch hole, not a quarter-inch drill, is an earlier version.",
+		"core": "Purchase decisions are driven by circumstances, not by customer attributes. When someone hits a struggle in a situation, they look for something to help them progress, and they compare every available option, including workarounds and non-consumption. Products that understand the full job, including its emotional and social sides, get hired more often and fired less. Knowing the job also explains why correlations between demographics and purchases so often mislead.",
+		"components": "**Job statement:** the progress a person seeks in a given circumstance, written without reference to a product. **Functional, emotional and social dimensions:** the practical task, how the person wants to feel and how they want to be seen. **Circumstance:** the when, where and with whom that triggers the job. **Competing solutions:** anything hired for the same job, including doing nothing. **Forces of progress:** the push of the current struggle and pull of the new solution versus anxiety about the new and habit of the present.",
+		"apply": "1) Interview recent buyers and recent quitters about the specific day they switched. 2) Reconstruct the timeline: first thought, passive looking, active looking, decision. 3) Write job statements and list the functional, emotional and social parts. 4) Map the four forces and the alternatives considered. 5) Redesign the offer, message or onboarding to strengthen push and pull and reduce anxiety and habit.",
+		"limitations": "Practitioners disagree on definitions: Christensen and Moesta focus on progress and switching stories, while Ulwick focuses on measurable outcomes, so teams can talk past each other. Job statements can become vague slogans that justify any idea. Interviews depend on memory, which people reconstruct after the fact, and the method gives little guidance on market size or pricing."
 	},
 	"ua": {
-		"short": "Теорія завдань клієнта пояснює, якого результату люди прагнуть, обираючи товар чи послугу. Вона допомагає створювати рішення під реальну ситуацію, а не під абстрактний портрет покупця.",
-		"origin": "Підхід має кілька джерел: погляд Теодора Левітта на потреби покупців, дослідження Тоні Ульвіка щодо бажаних результатів у 1990-х та праці Клейтона Крістенсена зі співавторами у 2000-х. Одного беззаперечного автора й дати появи немає.",
-		"core": "Теорія завдань клієнта (Jobs to Be Done, JTBD) розглядає покупку як спосіб досягти прогресу в певних обставинах. Людина умовно «наймає» продукт для виконання завдання. Важливо описувати результат без назви рішення: «узгодити рішення команди без зайвої зустрічі», а не «користуватися застосунком». Конкурентами можуть бути таблиця, телефонний дзвінок або навіть бездіяльність.",
-		"components": "**Формулювання завдання (job statement)** описує бажаний прогрес. **Обставини** пояснюють момент виникнення потреби. **Функціональні результати** стосуються роботи; **емоційні та соціальні** — відчуттів і репутації. **Альтернативи** показують реальну конкуренцію. **Сили змін (forces of change)** охоплюють причини переходу, привабливість нового рішення, побоювання та звичку залишатися зі старим.",
-		"apply": "Знайдіть людей, які нещодавно обрали або відхилили рішення. Відновіть послідовність подій до покупки: що стало поштовхом, які альтернативи розглядали, чого боялися. Сформулюйте завдання без згадки власного продукту. Визначте незадоволені результати, створіть прототип і перевірте реальні дії чи оплату. Не підміняйте дослідження припущеннями команди.",
-		"example": "Адміністратору готелю потрібна не просто «панель керування». Його завдання — уникнути подвійних бронювань під час роботи з кількома каналами продажу. Тому синхронізація та швидке виправлення конфліктів важливіші за красиві графіки. Саме це слід перевіряти під час тестування.",
-		"limitations": "Люди неточно пам’ятають причини своїх рішень. Надто широкі формулювання не допомагають визначати пріоритети. Різні школи JTBD застосовують різні поняття. Теорія сама по собі не доводить місткість ринку, економічну доцільність або готовність платити."
+		"short": "Теорія завдань клієнта (Jobs to Be Done, JTBD) стверджує, що клієнти не купують продукти, а «наймають» їх, щоб просунутися вперед у конкретній ситуації, і «звільняють», коли щось виконує цю роботу краще. Демографія описує, хто купує, а завдання пояснює чому і показує конкурентів, яких ви ніколи б не внесли в список, зокрема варіант нічого не робити. Продукти обирають тоді, коли їх проєктують навколо завдання, а не профілю клієнта.",
+		"example": "Компанія самозберігання має 800 боксів і бачить, що 30% нових орендарів ідуть протягом трьох місяців. Менеджер опитує 25 недавніх орендарів про момент підписання договору. **Ситуації:** 11 були між двома житлами під час переїзду, 7 робили ремонт, 5 щойно розійшлися з партнером, 2 звільняли будинок батьків. **Функціональне завдання:** «зберегти мої речі в безпеці, поки життя в перехідному стані». **Емоційне завдання:** «відчути контроль у напружений період». **Конкурентні рішення:** гараж друга, склад перевізника, просто викинути речі. **Сили:** страх прихованих платежів не давав людям підписати договір раніше. Компанія запускає «перехідний пакет»: тримісячна оренда за фіксованою ціною, безкоштовний фургон для вивезення речей і знижка на останній місяць за вчасне звільнення боксу. Короткострокові оренди зростають із 95 до 160 на квартал.",
+		"mistakes": [
+			"Формулювати завдання як функцію продукту, наприклад «користуватися кращим боксом»: описуйте прогрес, якого людина прагне у своїй ситуації, незалежно від рішення.",
+			"Сегментувати лише за віком чи доходом: двоє дуже різних людей в однаковій ситуації наймають те саме рішення, тож групуйте клієнтів за обставинами й бажаним результатом.",
+			"Ігнорувати емоційні й соціальні завдання: люди обирають і кидають продукти через те, як вони почуваються і як виглядають в очах інших, тож фіксуйте ці виміри на інтерв’ю, а не лише практичну задачу."
+		],
+		"selfCheck": [
+			{
+				"question": "Коворкінг втрачає учасників не на користь інших коворкінгів, а кав’ярень і домашніх кабінетів. Що підказує JTBD?",
+				"answer": "Знайти завдання, для якого наймають робоче місце, наприклад «тихе місце подалі від родини для зосереджених дзвінків», і конкурувати з усіма альтернативами, що його виконують, а не лише з коворкінгами."
+			},
+			{
+				"question": "Чому інтерв’ю за JTBD зосереджуються на моменті переходу, а не на загальних уподобаннях?",
+				"answer": "Перехід показує справжні сили: що відштовхнуло від старого рішення, що притягнуло до нового і що мало не зупинило."
+			},
+			{
+				"question": "Спортзал помічає, що ті, хто прийшов у січні, кидають до березня. Яка сила моделі прогресу, найімовірніше, перемагає?",
+				"answer": "Звичка теперішнього: стара рутина тягне людей назад, щойно початковий поштовх слабне, тож залу треба полегшити підтримку нової рутини."
+			}
+		],
+		"origin": "Клейтон Крістенсен увів мову «завдань» у книзі «The Innovator’s Solution» (2003, з Майклом Рейнором) і повністю розвинув її в «Competing Against Luck» (2016), де розповів, як мережа фастфуду з’ясувала, що ранкові водії наймають молочний коктейль для довгої нудної дороги. Над ідеєю з ним працював консультант із продуктів Боб Моеста, а Тоні Ульвік із компанії Strategyn створив споріднений метод Outcome-Driven Innovation. Ранньою версією є фраза професора маркетингу Теодора Левітта про те, що людям потрібен отвір на чверть дюйма, а не свердло.",
+		"core": "Рішення про покупку визначають обставини, а не характеристики клієнта. Коли людина стикається з труднощами в певній ситуації, вона шукає, що допоможе їй просунутися, і порівнює всі доступні варіанти, зокрема обхідні шляхи й відмову від споживання. Продукти, які розуміють завдання повністю, разом із його емоційним і соціальним боком, наймають частіше, а звільняють рідше. Знання завдання також пояснює, чому кореляції між демографією й покупками так часто вводять в оману.",
+		"components": "**Формулювання завдання:** прогрес, якого людина прагне в певних обставинах, описаний без згадки продукту. **Функціональний, емоційний і соціальний виміри:** практична задача, як людина хоче почуватися і якою хоче виглядати. **Обставини:** коли, де і з ким виникає завдання. **Конкурентні рішення:** усе, що наймають для того самого завдання, зокрема бездіяльність. **Сили прогресу:** поштовх від поточних труднощів і тяжіння нового рішення проти тривоги щодо нового та звички теперішнього.",
+		"apply": "1) Опитайте недавніх покупців і тих, хто нещодавно відмовився, про конкретний день переходу. 2) Відновіть хронологію: перша думка, пасивний пошук, активний пошук, рішення. 3) Сформулюйте завдання й випишіть їхні функціональні, емоційні й соціальні частини. 4) Опишіть чотири сили та розглянуті альтернативи. 5) Переробіть пропозицію, повідомлення чи перші кроки клієнта так, щоб посилити поштовх і тяжіння й послабити тривогу та звичку.",
+		"limitations": "Практики розходяться у визначеннях: Крістенсен і Моеста зосереджуються на прогресі й історіях переходу, а Ульвік на вимірюваних результатах, тож команди можуть говорити про різне. Формулювання завдань легко перетворюються на розмиті гасла, якими можна виправдати будь-яку ідею. Інтерв’ю спираються на пам’ять, яку люди реконструюють заднім числом, а метод мало допомагає з оцінкою розміру ринку чи ціноутворенням."
 	}
 }

@@ -1,26 +1,65 @@
 {
 	"slug": "pareto-principle",
 	"related": [
-		"lean-management",
 		"theory-of-constraints",
-		"eisenhower-matrix"
+		"eisenhower-matrix",
+		"long-tail-theory",
+		"six-sigma"
 	],
 	"en": {
-		"short": "A minority of causes often accounts for a large share of outcomes. The 80/20 ratio is a heuristic, not a mathematical law. Rank customers by contribution margin, defects by cost, or tasks by business impact.",
-		"origin": "Named for economist Vilfredo Pareto, who studied unequal distributions in the late nineteenth century. Joseph Juran later popularized the “vital few” idea in quality management. The historical context matters because the framework is a decision aid, not a universal rule that can be transferred unchanged between industries.",
-		"core": "A minority of causes often accounts for a large share of outcomes. The 80/20 ratio is a heuristic, not a mathematical law. The practical question is what decision becomes clearer after applying this concept and which evidence would change that decision.",
-		"components": "Define an outcome, rank contributors by impact, calculate cumulative shares and identify high-leverage segments. Distribution can be 70/30, 90/10 or something else. Keep definitions consistent across periods and teams so that comparisons remain meaningful and disagreements can be investigated.",
-		"apply": "Rank customers by contribution margin, defects by cost, or tasks by business impact. Focus resources on leading drivers while protecting critical low-volume activities. Start with a limited pilot, record assumptions and assign responsibility for reviewing results. Compare the outcome with a credible baseline before scaling the change.",
-		"example": "A support team finds that three recurring issues create most tickets. Fixing those workflows reduces workload more than polishing many rare edge cases. A manager should also monitor unintended effects on customer experience, employee workload and cash requirements rather than treating one metric as the whole outcome.",
-		"limitations": "It can encourage neglect of smaller customers, emerging opportunities and rare catastrophic risks. Correlation does not prove the highest-volume item is easiest to change. Use judgment alongside the framework, test sensitivity to uncertain inputs and revisit conclusions when the operating environment changes."
+		"short": "In many business data sets a small share of causes produces most of the results: a few products bring most of the profit, a few customers most of the complaints, a few defects most of the rework. The 80/20 split is a rule of thumb, not a law. Its value is in telling you where effort pays off most.",
+		"example": "An online pet supply store sells 1,200 products. The owner sorts last year's sales by gross profit and builds a cumulative list. **Vital few:** the top 180 products, 15% of the range, earn 78% of gross profit; most are food and litter that customers reorder monthly. **Long tail:** the bottom 400 products earn just 2% of profit but fill 30% of warehouse shelves and cause most stock-count errors. **Customers:** 12% of buyers place 60% of orders. The owner drops 300 of the slowest items, moves the top 180 to the shelves nearest the packing desk and launches a repeat-order subscription aimed at the 12% of loyal buyers.",
+		"mistakes": [
+			"Expecting exactly 80/20: the real split may be 70/30 or 95/5, so measure your own data before acting on the ratio.",
+			"Cutting the \"trivial many\" automatically: some low sellers bring in new customers or complete a basket, so check what each item does for the rest of the business before removing it.",
+			"Ranking by revenue when profit is what matters: a top seller with a thin margin can rank high on sales and low on profit, so choose the measure that matches the decision."
+		],
+		"selfCheck": [
+			{
+				"question": "A software team logs 500 bugs. How would you use the Pareto principle to plan the next sprint?",
+				"answer": "Group bugs by root cause, sort the causes by how many bugs or support tickets they create, and fix the top few causes first."
+			},
+			{
+				"question": "Why can firing your bottom 20% of customers backfire?",
+				"answer": "Small customers may be growing, may refer others or may absorb fixed costs; check their margin and potential before dropping them."
+			},
+			{
+				"question": "The top 10 customers give 70% of revenue. Is that good news?",
+				"answer": "It shows where to focus service, but it is also a concentration risk: losing one large client could cut revenue sharply."
+			}
+		],
+		"origin": "The Italian economist Vilfredo Pareto observed in the 1890s that about 80% of land in Italy was owned by about 20% of the population, and found similar uneven distributions of wealth in other countries. The quality pioneer Joseph M. Juran applied the pattern to defects in the 1940s and named it the Pareto principle, contrasting the \"vital few\" with the \"trivial many\", which he later renamed the \"useful many\".",
+		"core": "Results in business are rarely spread evenly across their causes. Demand concentrates on popular products, a few processes create most errors, and loyal customers buy far more than occasional ones. Ranking causes by their contribution and drawing a cumulative curve reveals this concentration. Effort spent on the top group moves results far more than equal effort spread across everything, which is why the tool sits at the heart of quality management and inventory control.",
+		"components": "**Population of causes:** products, customers, defect types or tasks being analysed. **Outcome measure:** profit, revenue, complaints, hours or defects, chosen to fit the decision. **Ranking:** causes sorted from largest to smallest contribution. **Pareto chart:** bars in descending order with a cumulative percentage line. **Vital few:** the small group that accounts for most of the outcome. **ABC classification:** a common inventory variant that splits items into A, B and C groups by value.",
+		"apply": "1) Pick one outcome to improve and the unit of cause, for example complaints by reason. 2) Collect data for a period long enough to be representative. 3) Sort causes from largest to smallest and calculate cumulative percentages. 4) Draw the Pareto chart and mark where the curve flattens. 5) Act on the top group: fix, invest, prioritise. 6) Redo the analysis after changes, because once the biggest cause is solved a new one leads.",
+		"limitations": "The principle describes data; it does not explain why the pattern appears or prove what to do. Ranking by the wrong measure gives wrong priorities. Small causes can carry high risk, such as a rare safety defect. Focusing only on the top group can starve future winners, since today's long tail may hold tomorrow's best sellers."
 	},
 	"ua": {
-		"short": "Невелика частина причин часто формує значну частину результату. Співвідношення 80/20 — практичний орієнтир, а не універсальний закон. Відсортуйте клієнтів за маржинальним прибутком, помилки за вартістю, а завдання за впливом.",
-		"origin": "Назва походить від економіста Вільфредо Парето, який досліджував нерівномірні розподіли наприкінці XIX століття. Джозеф Джуран згодом популяризував ідею «небагатьох найважливіших» у менеджменті якості. Історичний контекст важливий: це інструмент ухвалення рішень, а не універсальне правило, яке можна без змін переносити між галузями.",
-		"core": "Невелика частина причин часто формує значну частину результату. Співвідношення 80/20 — практичний орієнтир, а не універсальний закон. Практичне питання полягає в тому, яке рішення стає зрозумілішим завдяки підходу та які факти можуть змінити висновок.",
-		"components": "Визначте результат, відсортуйте чинники за впливом, обчисліть накопичену частку та знайдіть найважливіші групи. Реальний розподіл може бути 70/30, 90/10 або іншим. Узгодьте визначення показників між командами та періодами, щоб порівняння залишалися коректними, а розбіжності можна було пояснити.",
-		"apply": "Відсортуйте клієнтів за маржинальним прибутком, помилки за вартістю, а завдання за впливом. Спрямуйте ресурси на основні чинники, не ігноруючи критичні рідкісні випадки. Почніть з невеликого пілоту, запишіть припущення й призначте відповідального за аналіз. Порівняйте результат із початковим рівнем, перш ніж масштабувати зміну.",
-		"example": "Команда підтримки бачить, що три повторювані проблеми створюють більшість звернень. Виправлення цих процесів зменшує навантаження краще за дрібні зміни в десятках рідкісних ситуацій. Керівнику варто також стежити за впливом на досвід клієнтів, навантаження працівників і потребу в коштах, а не оцінювати успіх лише за однією цифрою.",
-		"limitations": "Принцип може призвести до нехтування малими клієнтами, новими можливостями й рідкісними серйозними ризиками. Велика частка проблеми не означає, що її легко усунути. Поєднуйте модель із професійним судженням, перевіряйте чутливість до невизначених даних і переглядайте висновки після змін умов."
+		"short": "У багатьох бізнесових даних невелика частка причин дає більшість результатів: кілька товарів приносять основний прибуток, кілька клієнтів більшість скарг, кілька видів браку основну частину переробок. Співвідношення 80/20 це емпіричне правило, а не закон. Його цінність у тому, що воно показує, куди зусилля дадуть найбільшу віддачу.",
+		"example": "Інтернет-зоомагазин продає 1 200 товарів. Власник сортує торішні продажі за валовим прибутком і будує накопичувальний список. **Життєво важлива меншість:** топ-180 товарів, 15% асортименту, дають 78% валового прибутку; переважно це корм і наповнювачі, які клієнти дозамовляють щомісяця. **Довгий хвіст:** нижні 400 товарів дають лише 2% прибутку, але займають 30% складських полиць і спричиняють більшість помилок інвентаризації. **Клієнти:** 12% покупців роблять 60% замовлень. Власник прибирає 300 найповільніших позицій, переносить топ-180 на полиці біля пакувального столу й запускає підписку на регулярні замовлення для 12% лояльних покупців.",
+		"mistakes": [
+			"Чекати рівно 80/20: реальний розподіл може бути 70/30 чи 95/5, тож виміряйте власні дані, перш ніж діяти.",
+			"Автоматично прибирати «незначну більшість»: деякі товари з малими продажами приводять нових клієнтів або доповнюють кошик, тому перевірте, що кожна позиція дає решті бізнесу, перш ніж її видаляти.",
+			"Ранжувати за виручкою, коли важить прибуток: лідер продажів із тонкою маржею може бути високо за виручкою й низько за прибутком, тож обирайте показник, що відповідає рішенню."
+		],
+		"selfCheck": [
+			{
+				"question": "Команда розробників зафіксувала 500 багів. Як використати принцип Парето для планування наступного спринту?",
+				"answer": "Згрупуйте баги за першопричинами, відсортуйте причини за кількістю багів чи звернень у підтримку й спершу усуньте кілька найбільших."
+			},
+			{
+				"question": "Чому звільнення від 20% найменших клієнтів може зашкодити?",
+				"answer": "Малі клієнти можуть рости, приводити інших або покривати частину постійних витрат; перевірте їхню маржу й потенціал, перш ніж відмовлятися від них."
+			},
+			{
+				"question": "Десять найбільших клієнтів дають 70% виручки. Це добра новина?",
+				"answer": "Це показує, де зосередити сервіс, але водночас це ризик концентрації: втрата одного великого клієнта може різко зменшити виручку."
+			}
+		],
+		"origin": "Італійський економіст Вільфредо Парето в 1890-х роках помітив, що близько 80% землі в Італії належить приблизно 20% населення, і знайшов подібну нерівність розподілу багатства в інших країнах. Піонер управління якістю Джозеф Джуран у 1940-х застосував цю закономірність до дефектів і назвав її принципом Парето, протиставивши «життєво важливу меншість» (vital few) «незначній більшості» (trivial many), яку згодом перейменував на «корисну більшість».",
+		"core": "Результати в бізнесі рідко рівномірно розподілені між причинами. Попит зосереджується на популярних товарах, кілька процесів створюють більшість помилок, а лояльні клієнти купують набагато більше за випадкових. Ранжування причин за внеском і накопичувальна крива виявляють цю концентрацію. Зусилля, спрямовані на верхню групу, змінюють результат значно сильніше, ніж ті самі зусилля, розпорошені на все, тому інструмент став основою управління якістю й контролю запасів.",
+		"components": "**Сукупність причин:** товари, клієнти, види дефектів чи завдання, які аналізують. **Показник результату:** прибуток, виручка, скарги, години чи дефекти, обраний під рішення. **Ранжування:** причини, впорядковані від найбільшого внеску до найменшого. **Діаграма Парето:** стовпці за спаданням із лінією накопиченого відсотка. **Життєво важлива меншість:** невелика група, що дає більшу частину результату. **ABC-аналіз:** поширений варіант для запасів, який ділить позиції на групи A, B і C за вартістю.",
+		"apply": "1) Оберіть один результат для покращення й одиницю причини, наприклад скарги за типом. 2) Зберіть дані за досить репрезентативний період. 3) Відсортуйте причини від найбільшої до найменшої й обчисліть накопичені відсотки. 4) Побудуйте діаграму Парето й позначте, де крива вирівнюється. 5) Дійте щодо верхньої групи: виправляйте, інвестуйте, давайте пріоритет. 6) Повторіть аналіз після змін, бо щойно найбільшу причину усунуто, лідером стає інша.",
+		"limitations": "Принцип описує дані, але не пояснює, чому виникає закономірність, і не доводить, що робити. Ранжування за хибним показником дає хибні пріоритети. Дрібні причини можуть нести високий ризик, як-от рідкісний дефект безпеки. Зосередження лише на верхній групі може позбавити ресурсів майбутніх лідерів, адже в сьогоднішньому довгому хвості можуть бути завтрашні бестселери."
 	}
 }

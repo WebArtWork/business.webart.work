@@ -15,20 +15,19 @@ import {
 	TheoryTopicBody,
 } from '../../feature/theory/theory.data';
 
-/** The sections of the detailed version, in reading order; `checklist` is left out where a lesson has none. */
-const SECTIONS: { key: Exclude<keyof TheoryTopicBody, 'short'>; title: string; boxed?: boolean }[] = [
+/** The sections of the detailed version, in reading order. */
+const SECTIONS: { key: Extract<keyof TheoryTopicBody, 'origin' | 'core' | 'components' | 'apply' | 'limitations'>; title: string }[] = [
 	{ key: 'origin', title: 'Origin' },
 	{ key: 'core', title: 'Core idea' },
 	{ key: 'components', title: 'Key components' },
 	{ key: 'apply', title: 'How to apply it' },
-	{ key: 'example', title: 'Example', boxed: true },
-	{ key: 'checklist', title: 'Manager checklist', boxed: true },
 	{ key: 'limitations', title: 'Limitations' },
 ];
 
 /**
  * One lesson, loaded by the route (`topic`) so the prerendered page already holds its text: the short
- * version, then the detailed one behind **Read more**. The detailed text stays in the page while hidden.
+ * version (idea, worked example, common mistakes, self-check), then the detailed one behind **Read more**.
+ * The detailed text stays in the page while hidden.
  */
 @Component({
 	imports: [RichTextComponent, RouterLink, TPipe],
@@ -58,10 +57,7 @@ export class TheoryLessonComponent {
 	protected readonly body = computed(() => (this._language() === 'ua' ? this.topic.ua : this.topic.en));
 	protected readonly sections = computed(() => {
 		const body = this.body();
-		return SECTIONS.filter((section) => body[section.key]).map((section) => ({
-			...section,
-			text: body[section.key]!,
-		}));
+		return SECTIONS.map((section) => ({ ...section, text: body[section.key] }));
 	});
 
 	/** The detailed version is open; closed at first, so the short one reads on its own. */

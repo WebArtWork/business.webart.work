@@ -3,24 +3,63 @@
 	"related": [
 		"lean-startup",
 		"minimum-viable-product",
+		"value-proposition-canvas",
 		"business-model-canvas"
 	],
 	"en": {
-		"short": "Lean Canvas adapts the one-page business-model map to the uncertainty of early-stage startups. It focuses attention on customer problems, proposed solutions, measurable traction, and unfair advantages.",
-		"origin": "Ash Maurya created Lean Canvas around 2010 as an adaptation of Osterwalder’s Business Model Canvas. He described the approach in Running Lean, first published in 2012 in a widely known edition.",
-		"core": "Early ventures rarely know their customers, channels, or sustainable advantage with confidence. Lean Canvas therefore prioritizes problem-solution fit and the evidence needed to reduce uncertainty. The canvas should change as experiments produce results. It is useful for a startup search process, not a substitute for a mature company’s operational plan.",
-		"components": "Its nine blocks are **problem**, **customer segments**, **unique value proposition**, **solution**, **channels**, **revenue streams**, **cost structure**, **key metrics**, and **unfair advantage**. Problem includes existing alternatives; customer segments can identify early adopters. Key metrics track meaningful behavior, while unfair advantage means something difficult to copy or buy, not a generic claim of quality.",
-		"apply": "Write the top three customer problems before listing features. Identify early adopters and what they use today. State one measurable promise, outline the smallest solution, and choose a realistic acquisition channel. Estimate revenue and cost drivers. Select a metric tied to real customer value, such as repeat paid usage. Mark unknowns, test them in order of risk, and revise the canvas after each learning cycle.",
-		"example": "A founder planning a language-learning app lists inconsistent practice as the main problem, targets adult migrants, and proposes ten-minute speaking sessions. The key metric is completed sessions per active learner per week, not app downloads.",
-		"limitations": "An “unfair advantage” is often imaginary at launch. The format can underrepresent regulation, organizational complexity, and ecosystem dependencies. Filling every box with guesses creates false confidence; no canvas proves demand."
+		"short": "The Lean Canvas adapts the Business Model Canvas for startups by putting the problem, the solution, key metrics and an unfair advantage where partners, activities, resources and relationships used to be. It makes founders start from a customer problem and its riskiest assumptions rather than from the product. One page, filled in under 20 minutes, becomes the plan the team tests and revises.",
+		"example": "A musician plans an app for booking hourly rehearsal rooms. **Problem:** bands book by phone, and rooms sit empty 40% of weekday hours. **Customer segments:** amateur bands; early adopters are the 300 cover bands in the city that rehearse weekly. **Unique value proposition:** \"Book a room tonight in two taps\". **Solution:** live availability from 12 studios and instant payment. **Channels:** studio front desks and musicians' groups online. **Revenue streams:** 12% commission on a $20 average booking. **Cost structure:** $3,000 a month for development and support. **Key metrics:** bookings per band per month. **Unfair advantage:** none yet. Break-even needs 1,250 bookings a month, about four per band if every cover band joins. That is unrealistic, so the founder tests charging studios a $90 monthly fee for filling empty weekday slots.",
+		"mistakes": [
+			"Writing the solution first and inventing a problem to match: fill in the problem and customer segments before the solution, and confirm the problem in interviews.",
+			"Claiming a weak unfair advantage, such as \"great team\" or \"first mover\": leave the box empty until you have something that cannot be easily copied or bought.",
+			"Choosing key metrics that do not show progress, like total app downloads: pick the one number that shows customers getting value, such as repeat bookings."
+		],
+		"selfCheck": [
+			{
+				"question": "A founder's Lean Canvas lists \"existing alternatives\" as \"none\". Why is that a warning sign?",
+				"answer": "If customers have the problem, they already solve it somehow, even badly; \"none\" usually means the problem is weak or the founder has not looked."
+			},
+			{
+				"question": "Why did Maurya drop Key Partners from his version of the canvas?",
+				"answer": "For an early startup those are secondary; the bigger risk is solving the wrong problem, so he gave that space to the problem."
+			},
+			{
+				"question": "A team has three Lean Canvases for three segments. How should it decide which to test first?",
+				"answer": "Pick the canvas whose riskiest assumption is cheapest to test and whose segment feels the problem most urgently."
+			}
+		],
+		"origin": "Ash Maurya, an entrepreneur, created the Lean Canvas in 2010 by adapting Alexander Osterwalder's Business Model Canvas for early-stage startups, and explained it in his book \"Running Lean\" (first self-published in 2010, revised edition 2012). He drew on Eric Ries's Lean Startup and Steve Blank's customer development.",
+		"core": "Maurya argued that most startups fail because they build something nobody wants, so the model should begin with the problem and make risk visible. The Business Model Canvas suits companies that already know their customers; a startup mainly needs to know what to test next. The Lean Canvas therefore keeps the customer and money blocks and replaces the operational ones with problem, solution, metrics and defensibility, so every box is a testable hypothesis.",
+		"components": "**Problem:** the top three problems, with existing alternatives. **Customer segments:** target customers and early adopters. **Unique value proposition:** a clear message why you are different. **Solution:** the simplest features that address each problem. **Channels:** paths to customers. **Revenue streams:** pricing and lifetime value. **Cost structure:** acquisition, distribution and people costs. **Key metrics:** the few numbers that show progress. **Unfair advantage:** something that cannot easily be copied or bought.",
+		"apply": "1) Fill problem and customer segments first, listing existing alternatives. 2) Write the unique value proposition, then the solution in a few features. 3) Add channels, revenue and costs, and calculate how many customers break-even needs. 4) Rank the boxes by risk and test the riskiest with interviews or an MVP. 5) Update the canvas after each test and keep dated versions to show how the model evolves.",
+		"limitations": "Removing partners and key resources can mislead hardware, marketplace or regulated businesses, where those are often the largest risks. The \"unfair advantage\" box is frequently filled with wishful claims. Like the original canvas, it ignores competitive dynamics and timing, and its one-page format can make a weak model look finished."
 	},
 	"ua": {
-		"short": "Ощадлива канва допомагає стартапу швидко описати проблему, рішення та спосіб заробітку. Її головна цінність — не красивий план, а перелік ризикованих припущень для перевірки.",
-		"origin": "Еш Маур’я створив Lean Canvas приблизно 2010 року як адаптацію канви бізнес-моделі Остервальдера. Практичний підхід він виклав у книжці Running Lean, відоме видання якої вийшло 2012 року.",
-		"core": "Ощадлива канва (Lean Canvas) пристосована до стартапів, у яких більшість рішень ще не підтверджена ринком. Вона ставить на перше місце проблему клієнта, гіпотезу рішення та докази попиту. Документ потрібно змінювати після експериментів. Його призначення — допомогти шукати робочу модель, а не створити незмінний бізнес-план.",
-		"components": "Дев’ять блоків: **проблема (problem)**, **сегменти клієнтів**, **унікальна ціннісна пропозиція**, **рішення**, **канали**, **потоки доходів**, **структура витрат**, **ключові метрики (key metrics)** і **важкокопійована перевага (unfair advantage)**. Для проблеми варто зазначати наявні альтернативи, а для аудиторії — перших користувачів. Метрики повинні відображати корисну поведінку, а не тільки охоплення.",
-		"apply": "Спочатку запишіть три найважливіші проблеми й визначте, хто відчуває їх найгостріше. Дослідіть поточні способи вирішення. Сформулюйте конкретну обіцянку, опишіть мінімальне рішення й канал залучення. Оцініть доходи та витрати. Оберіть метрику, пов’язану з реальною цінністю, наприклад повторні оплачені заняття. Позначте невідомі припущення, перевіряйте найризикованіші та оновлюйте канву.",
-		"example": "Засновник застосунку для вивчення мов визначає проблему нерегулярної практики. Першою аудиторією стають дорослі мігранти, а рішенням — короткі розмовні заняття. Основна метрика — кількість завершених занять на активного учня за тиждень, а не завантаження застосунку.",
-		"limitations": "На старті важкокопійована перевага часто відсутня. Канва недостатньо детально відображає регулювання, складні операції та партнерські залежності. Заповнення всіх блоків припущеннями створює ілюзію впевненості, але не доводить попит. Перед наступним раундом експериментів запишіть, які результати змусили б вас змінити початкову ідею, щоб не підганяти висновки під очікування."
+		"short": "Ощадлива канва (Lean Canvas) пристосовує канву бізнес-моделі для стартапів: замість партнерів, діяльності, ресурсів і відносин з клієнтами вона ставить проблему, рішення, ключові показники й нечесну перевагу. Вона змушує засновників починати з проблеми клієнта та найризикованіших припущень, а не з продукту. Одна сторінка, заповнена менш ніж за 20 хвилин, стає планом, який команда перевіряє й оновлює.",
+		"example": "Музикант планує застосунок для погодинного бронювання репетиційних кімнат. **Проблема:** гурти бронюють телефоном, а кімнати порожні 40% годин у будні. **Сегменти клієнтів:** аматорські гурти; ранні послідовники це 300 кавер-гуртів міста, що репетирують щотижня. **Унікальна ціннісна пропозиція:** «Кімната на сьогодні у два дотики». **Рішення:** актуальний розклад 12 студій і миттєва оплата. **Канали:** адміністратори студій і онлайн-спільноти музикантів. **Потоки доходів:** комісія 12% із середнього бронювання $20. **Структура витрат:** $3 000 на місяць на розробку й підтримку. **Ключові показники:** бронювань на гурт на місяць. **Нечесна перевага:** поки немає. Для беззбитковості потрібно 1 250 бронювань на місяць, тобто близько чотирьох на гурт, навіть якщо приєднаються всі кавер-гурти. Це нереально, тож засновник перевіряє абонплату для студій $90 на місяць за заповнення порожніх буденних годин.",
+		"mistakes": [
+			"Писати спершу рішення й вигадувати під нього проблему: заповнюйте проблему й сегменти клієнтів раніше за рішення і підтверджуйте проблему на інтерв’ю.",
+			"Заявляти слабку нечесну перевагу на кшталт «сильна команда» чи «ми перші»: залишайте поле порожнім, доки не з’явиться щось, що не можна легко скопіювати чи купити.",
+			"Обирати ключові показники, що не показують прогресу, як-от загальну кількість завантажень: беріть одне число, яке свідчить, що клієнти отримують цінність, наприклад повторні бронювання."
+		],
+		"selfCheck": [
+			{
+				"question": "У полі «наявні альтернативи» засновник написав «немає». Чому це тривожний знак?",
+				"answer": "Якщо проблема в клієнтів справжня, вони вже якось її розв’язують, хай і погано; «немає» зазвичай означає, що проблема слабка або засновник не шукав."
+			},
+			{
+				"question": "Чому Мор’я прибрав ключових партнерів зі своєї версії канви?",
+				"answer": "Для молодого стартапу вони другорядні, а більший ризик полягає в розв’язанні не тієї проблеми, тож він віддав це місце проблемі."
+			},
+			{
+				"question": "Команда має три ощадливі канви для трьох сегментів. Як вирішити, яку перевіряти першою?",
+				"answer": "Обрати канву, чиє найризикованіше припущення найдешевше перевірити і чий сегмент відчуває проблему найгостріше."
+			}
+		],
+		"origin": "Підприємець Еш Мор’я створив ощадливу канву в 2010 році, адаптувавши канву бізнес-моделі Александра Остервальдера для стартапів на ранній стадії, і пояснив її в книзі «Running Lean» (уперше видана самостійно в 2010 році, переглянуте видання 2012 року). Він спирався на ощадливий стартап Еріка Риса й модель розвитку клієнтів Стіва Бланка.",
+		"core": "Мор’я вважав, що більшість стартапів гинуть, бо створюють те, що нікому не потрібно, тож модель має починатися з проблеми й робити ризик видимим. Канва бізнес-моделі пасує компаніям, які вже знають своїх клієнтів, а стартапу насамперед треба знати, що перевіряти далі. Тому ощадлива канва залишає блоки про клієнтів і гроші, а операційні замінює проблемою, рішенням, показниками й захищеністю, і кожне поле стає гіпотезою, яку можна перевірити.",
+		"components": "**Проблема:** три головні проблеми разом із наявними альтернативами. **Сегменти клієнтів:** цільові клієнти й ранні послідовники. **Унікальна ціннісна пропозиція:** чітке повідомлення, чим ви відрізняєтеся. **Рішення:** найпростіші функції для кожної проблеми. **Канали:** шляхи до клієнтів. **Потоки доходів:** ціни й пожиттєва цінність клієнта. **Структура витрат:** витрати на залучення, збут і людей. **Ключові показники:** кілька чисел, що показують прогрес. **Нечесна перевага (unfair advantage):** те, що не можна легко скопіювати чи купити.",
+		"apply": "1) Спершу заповніть проблему й сегменти клієнтів, перелічивши наявні альтернативи. 2) Напишіть унікальну ціннісну пропозицію, а потім рішення в кількох функціях. 3) Додайте канали, доходи й витрати та порахуйте, скільки клієнтів потрібно для беззбитковості. 4) Розставте поля за ризиком і перевірте найризикованіше інтерв’ю або MVP. 5) Оновлюйте канву після кожного тесту й зберігайте датовані версії, щоб бачити, як змінюється модель.",
+		"limitations": "Без партнерів і ключових ресурсів канва може ввести в оману бізнеси із залізом, маркетплейси чи регульовані галузі, де саме вони часто становлять найбільший ризик. Поле «нечесна перевага» часто заповнюють бажаним, а не дійсним. Як і оригінальна канва, вона ігнорує конкурентну динаміку й вибір часу, а формат однієї сторінки може робити слабку модель на вигляд завершеною."
 	}
 }

@@ -1,0 +1,65 @@
+{
+	"slug": "structured-hiring",
+	"related": [
+		"bounded-rationality",
+		"anchoring-effect",
+		"peter-principle",
+		"decision-matrix"
+	],
+	"en": {
+		"short": "Structured hiring replaces gut feeling in recruitment with a fixed process: define what the role must achieve, ask every candidate the same questions, test real work and score each answer independently before anyone discusses. Decades of research show that this predicts job performance far better than a free-flowing chat, and it also reduces bias toward people who simply resemble the interviewer.",
+		"example": "A 40-person accounting firm needs a payroll specialist. **Scorecard:** before posting the job, partners agree on three outcomes: run payroll for 35 client companies with under 1% errors, answer client queries within one day, and handle year-end filings. **Same questions:** each of the 12 shortlisted candidates gets the same six questions, such as \"Tell me about a payroll error you caught and what you did\". **Work sample:** candidates process a test payroll for 20 fictional employees with five planted errors. **Independent scoring:** three interviewers rate every answer from 1 to 5 against written anchors, then meet. The most charming candidate scores 3.1 and found two errors; a quieter one scores 4.4 and found all five. The firm hires the quieter candidate.",
+		"mistakes": [
+			"Writing the scorecard after meeting candidates: criteria then bend toward whoever made the best impression, so fix outcomes and competencies before sourcing starts.",
+			"Letting interviewers improvise follow-ups and drop questions: different questions make answers impossible to compare, so keep the core set identical and note any extra probing.",
+			"Discussing a candidate before everyone has scored: the first or most senior voice anchors the rest, so collect written scores first and debate only afterwards."
+		],
+		"selfCheck": [
+			{
+				"question": "Two interviewers loved a candidate in the debrief, but their submitted scores were average. Which should count?",
+				"answer": "The written scores made before discussion, because they reflect the evidence against the criteria rather than group enthusiasm."
+			},
+			{
+				"question": "Why is a work sample more predictive than asking \"What are your strengths?\"",
+				"answer": "It shows the candidate doing a slice of the real job, while self-descriptions mostly measure how well someone talks about themselves."
+			},
+			{
+				"question": "A manager says structured interviews feel robotic and lose good people. What is a fair response?",
+				"answer": "Candidates can still be put at ease and asked follow-ups; what stays fixed are the core questions and the scoring, which is where the predictive gain comes from."
+			}
+		],
+		"origin": "Industrial and organisational psychologists studied selection methods throughout the 20th century. The best-known summary is Frank Schmidt and John Hunter's 1998 Psychological Bulletin article reviewing 85 years of research, which found that structured interviews and work-sample tests predicted job performance much better than unstructured interviews, years of experience or reference checks. A 2022 re-analysis led by Paul Sackett lowered many of those estimates but still placed structured interviews among the strongest predictors.",
+		"core": "Unstructured interviews let each interviewer ask different things and decide on first impressions, rapport and similarity, so the result is noisy and biased. Structure reduces that noise: every candidate faces the same job-relevant questions and tasks, answers are compared with written standards, and judgments are made separately before the group can influence them. Combining several independent, structured ratings gives a far more reliable signal than one person's overall impression.",
+		"components": "**Role scorecard:** the role's mission, three to five measurable outcomes and the competencies needed, written before sourcing. **Standard questions:** the same behavioural (\"Tell me about a time...\") and situational (\"What would you do if...\") questions for everyone. **Work-sample test:** a short, realistic task from the job, scored against a rubric. **Anchored rating scales:** descriptions of what a 1, 3 and 5 answer looks like for each question. **Independent scoring:** each interviewer submits ratings before the debrief. **Decision rule:** hire against the scorecard, not by consensus on likeability.",
+		"apply": "1) Write the scorecard with the hiring manager and one person who will work with the new hire. 2) Derive five to eight questions and one work sample directly from the outcomes. 3) Write anchors for weak, solid and strong answers. 4) Assign each interviewer specific competencies so they probe in depth rather than repeat each other. 5) Collect scores in writing before any discussion. 6) Decide by comparing scores with the scorecard, and later check whether high scorers became strong performers.",
+		"limitations": "Validity estimates vary between studies and depend on statistical corrections that researchers still debate, so the exact numbers are not settled. Building good questions and work samples takes time that small firms may not have. Candidates can rehearse standard behavioural answers. Structure reduces bias but does not remove it if the scorecard itself favours one background, and long unpaid tests can drive strong candidates away."
+	},
+	"ua": {
+		"short": "Структурований найм замінює інтуїцію в доборі персоналу чітким процесом: визначити, чого має досягти роль, ставити всім кандидатам однакові запитання, перевіряти реальну роботу й оцінювати кожну відповідь незалежно до будь-якого обговорення. Десятиліття досліджень показують, що такий підхід набагато краще передбачає результати роботи, ніж вільна бесіда, і зменшує упередженість на користь тих, хто просто схожий на інтерв'юера.",
+		"example": "Бухгалтерській фірмі на 40 людей потрібен фахівець із заробітної плати. **Картка ролі (scorecard):** до публікації вакансії партнери погоджують три результати: вести зарплату 35 клієнтських компаній із менш ніж 1% помилок, відповідати на запити клієнтів протягом дня і готувати річну звітність. **Однакові запитання:** кожен із 12 кандидатів короткого списку отримує ті самі шість запитань, як-от «Розкажіть про помилку в нарахуванні, яку ви знайшли, і що ви зробили». **Робоче завдання:** кандидати рахують тестову зарплату для 20 вигаданих працівників із п'ятьма закладеними помилками. **Незалежна оцінка:** троє інтерв'юерів ставлять за кожну відповідь від 1 до 5 за письмовими орієнтирами і лише потім зустрічаються. Найчарівніший кандидат отримує 3,1 і знайшов дві помилки; тихіший отримує 4,4 і знайшов усі п'ять. Фірма бере тихішого.",
+		"mistakes": [
+			"Складати картку ролі після зустрічей із кандидатами: критерії тоді підлаштовуються під того, хто найбільше сподобався, тож зафіксуйте результати й компетенції до початку пошуку.",
+			"Дозволяти інтерв'юерам імпровізувати й пропускати запитання: різні запитання роблять відповіді непорівнянними, тому основний набір має бути однаковим, а додаткові уточнення варто записувати.",
+			"Обговорювати кандидата, доки не всі поставили оцінки: перший або найстарший за посадою голос стає якорем для решти, тож спершу зберіть письмові оцінки, а дискутуйте потім."
+		],
+		"selfCheck": [
+			{
+				"question": "На обговоренні двоє інтерв'юерів захоплювалися кандидатом, але в поданих оцінках поставили середні бали. Що має важити?",
+				"answer": "Письмові оцінки, зроблені до обговорення, бо вони відображають докази відповідно до критеріїв, а не груповий ентузіазм."
+			},
+			{
+				"question": "Чому робоче завдання передбачає результат краще, ніж запитання «Які ваші сильні сторони?»",
+				"answer": "Воно показує кандидата під час виконання частини справжньої роботи, а самоопис здебільшого вимірює, наскільки добре людина розповідає про себе."
+			},
+			{
+				"question": "Керівник каже, що структуровані інтерв'ю звучать як у робота і відлякують хороших людей. Що можна відповісти?",
+				"answer": "Кандидата все одно можна розслабити й поставити уточнення; незмінними залишаються основні запитання та оцінювання, і саме вони дають приріст точності прогнозу."
+			}
+		],
+		"origin": "Промислові та організаційні психологи вивчали методи добору протягом усього XX століття. Найвідоміший підсумок це стаття Френка Шмідта і Джона Гантера в Psychological Bulletin 1998 року, яка узагальнила 85 років досліджень і показала, що структуровані інтерв'ю та робочі завдання передбачають результати роботи значно краще, ніж неструктуровані інтерв'ю, стаж чи рекомендації. Повторний аналіз 2022 року під керівництвом Пола Сакетта знизив багато з цих оцінок, але структуровані інтерв'ю залишилися серед найсильніших предикторів.",
+		"core": "У неструктурованому інтерв'ю кожен питає своє і вирішує за першим враженням, симпатією та схожістю, тож результат шумний і упереджений. Структура зменшує цей шум: кожен кандидат отримує ті самі пов'язані з роботою запитання й завдання, відповіді порівнюють із письмовими стандартами, а судження роблять окремо, до того як група почне впливати. Кілька незалежних структурованих оцінок дають набагато надійніший сигнал, ніж загальне враження однієї людини.",
+		"components": "**Картка ролі:** місія посади, три–п'ять вимірюваних результатів і потрібні компетенції, записані до пошуку. **Стандартні запитання:** однакові поведінкові («Розкажіть про випадок, коли...») і ситуаційні («Що ви зробите, якщо...») запитання для всіх. **Робоче завдання (work sample):** коротке реалістичне завдання з роботи, оцінене за рубрикою. **Шкали з орієнтирами:** опис відповіді на 1, 3 і 5 балів для кожного запитання. **Незалежна оцінка:** кожен інтерв'юер подає бали до спільного обговорення. **Правило рішення:** наймати відповідно до картки ролі, а не за консенсусом щодо симпатії.",
+		"apply": "1) Складіть картку ролі разом із керівником і людиною, яка працюватиме з новачком. 2) Виведіть із результатів п'ять–вісім запитань і одне робоче завдання. 3) Опишіть орієнтири для слабкої, достатньої і сильної відповіді. 4) Закріпіть за кожним інтерв'юером конкретні компетенції, щоб вони заглиблювалися, а не повторювали одне одного. 5) Зберіть письмові оцінки до будь-якого обговорення. 6) Вирішуйте, порівнюючи бали з карткою ролі, а згодом перевірте, чи стали кандидати з високими балами сильними працівниками.",
+		"limitations": "Оцінки валідності різняться між дослідженнями і залежать від статистичних поправок, про які науковці досі сперечаються, тож точні цифри не остаточні. Розробка якісних запитань і завдань забирає час, якого в малих фірм може не бути. Кандидати можуть відрепетирувати стандартні поведінкові відповіді. Структура зменшує упередженість, але не усуває її, якщо сама картка ролі надає перевагу певному досвіду, а довгі неоплачувані завдання відлякують сильних кандидатів."
+	}
+}

@@ -1,27 +1,65 @@
 {
 	"slug": "organizational-culture-model",
 	"related": [
-		"transformational-leadership",
+		"mcgregors-theory-x-and-theory-y",
 		"kotters-8-step-change-model",
+		"transformational-leadership",
 		"stakeholder-theory"
 	],
 	"en": {
-		"short": "Organizational Culture Model (Schein) offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
-		"origin": "Edgar H. Schein developed his influential organizational culture framework through work in the 1980s, including his 1985 book Organizational Culture and Leadership. The model was refined in later editions. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
-		"core": "Culture is not only what a company says it values. It also includes visible practices and deeper assumptions that guide decisions when no formal rule applies. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
-		"components": "Three levels: artifacts, such as rituals and workspace; espoused values, such as stated principles; and basic underlying assumptions, often unconscious beliefs about success, trust, and authority. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
-		"apply": "Observe meetings, hiring, promotions, and responses to mistakes. Compare what leaders say with what the organization rewards. Change incentives and leader behavior, not only posters or mission statements. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
-		"example": "A company claims to value experimentation but punishes failed pilots. Employees avoid risk. Leadership introduces bounded experiments and reviews learning publicly, making the declared value credible. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
-		"limitations": "Deep assumptions are difficult to observe and change. Different teams may have different subcultures. The framework helps diagnosis but does not offer a quick formula for culture transformation. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+		"short": "Schein's model describes organizational culture in three layers: visible artifacts, espoused values and, at the deepest level, shared basic assumptions that people take for granted. When stated values and real behavior clash, the hidden assumptions usually win. To change a culture, leaders must change what they pay attention to, reward and tolerate, not only the words on the wall.",
+		"example": "A 40-person architecture bureau loses 3 of its 5 junior architects in a year, each citing long hours. **Artifacts:** an open studio, an awards wall and late-night model pin-ups that partners praise in front of everyone. **Espoused values:** the website and onboarding deck promise \"work-life balance and collaboration\". **Basic assumptions:** the timesheets show juniors logging 68% of all hours after 7 pm, and interviews reveal a shared belief that real architects prove commitment by staying late and that the founding partner's sketch is final. A wellbeing program with yoga sessions changed nothing, because it addressed artifacts only. The partners decide to stop praising all-nighters, move design reviews to 4 pm and add mentoring and quality of work, not hours, to promotion criteria.",
+		"mistakes": [
+			"Judging culture by its artifacts: the office layout, perks and slogans are easy to see but hard to interpret, so ask what they mean to the people there.",
+			"Taking espoused values at face value: what a company says it values may be aspiration, so check it against what is actually rewarded and punished.",
+			"Trying to change culture with a program or a poster: assumptions shift only when leaders' everyday behavior, decisions and rewards change consistently over time."
+		],
+		"selfCheck": [
+			{
+				"question": "A company says \"we value innovation\", yet managers who launch failed experiments are passed over for promotion. Which level explains how people behave?",
+				"answer": "The basic assumptions: people learn from the promotion decisions that failure is dangerous, which outweighs the espoused value."
+			},
+			{
+				"question": "Why does Schein say culture is learned?",
+				"answer": "A group develops assumptions by solving problems of survival and internal cooperation; what worked repeatedly becomes taken for granted and is taught to newcomers as the right way."
+			},
+			{
+				"question": "A new CEO wants to reshape culture. Which of Schein's tools should come first?",
+				"answer": "The primary embedding mechanisms: what she pays attention to, measures, rewards and how she reacts to crises, because staff read these signals more closely than speeches."
+			}
+		],
+		"origin": "Edgar H. Schein, a professor at the MIT Sloan School of Management, set out the model in his 1985 book Organizational Culture and Leadership. He drew on his earlier work in organizational psychology and his consulting practice, including long work with Digital Equipment Corporation. The book went through several editions, the later ones co-written with his son Peter Schein.",
+		"core": "Schein defined culture as a pattern of shared basic assumptions that a group learned while solving its problems of external adaptation and internal integration. Assumptions that work well enough are taught to new members as the correct way to perceive, think and feel. Because they drop out of awareness, they quietly steer decisions where rules are silent. Leaders create culture by founding the group and embedding their beliefs, and later culture shapes which leaders the group accepts.",
+		"components": "**Artifacts:** visible structures, processes, dress, language, rituals and office design; easy to observe, hard to decode. **Espoused beliefs and values:** stated strategies, goals and philosophies, which may or may not match behavior. **Basic underlying assumptions:** unconscious, taken-for-granted beliefs about truth, time, people and relationships; the real source of values and actions. **Primary embedding mechanisms:** what leaders pay attention to and measure, how they react to crises, how they allocate resources and rewards, and how they hire and promote. **Secondary mechanisms:** structures, systems, physical space, stories and formal statements.",
+		"apply": "1) List the artifacts a newcomer would notice in the first week. 2) Collect the values the company states in documents and speeches. 3) Find gaps between the values and what is actually rewarded, using data such as promotions, hours and budget decisions. 4) Hold group interviews to surface the assumptions that explain those gaps. 5) Decide which assumptions help the strategy and which block it. 6) Change the primary mechanisms first, such as reviews, promotions and leaders' own behavior, and use the secondary ones to reinforce them.",
+		"limitations": "Basic assumptions are by definition hard to see, so diagnosis depends on skilled facilitation and interpretation and is difficult to measure. The model treats culture as shared and integrated, while researchers such as Joanne Martin show that organizations contain subcultures and conflicting meanings. It can overstate the founder's role. Changing assumptions takes years, which is slower than many turnarounds allow."
 	},
 	"ua": {
-		"short": "«Модель організаційної культури Шейна» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
-		"origin": "Едгар Шейн розробляв впливову модель організаційної культури у 1980-х роках, зокрема в книжці «Organizational Culture and Leadership» 1985 року. Пізніші видання її уточнювали. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
-		"core": "Культура компанії — це не лише проголошені цінності. Вона охоплює щоденні практики й глибинні припущення, які визначають рішення без прямих інструкцій. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
-		"components": "Три рівні: артефакти — ритуали та видимі практики; проголошені цінності — офіційні принципи; базові припущення — часто неусвідомлені переконання про довіру, успіх і владу. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
-		"apply": "Спостерігайте за нарадами, наймом, підвищеннями й реакціями на помилки. Порівнюйте слова керівництва з тим, за що винагороджують. Змінюйте стимули й поведінку, а не лише плакати. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
-		"example": "Компанія заявляє про цінність експериментів, але карає за невдалі пілоти. Працівники уникають ризику. Керівництво вводить контрольовані експерименти й відкрито аналізує уроки. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
-		"limitations": "Глибинні припущення важко помітити й змінити. Різні команди мають власні субкультури. Модель допомагає діагностувати проблеми, але не дає швидкого рецепта змін. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
-		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+		"short": "Модель Шейна описує організаційну культуру трьома шарами: видимі артефакти, проголошені цінності й найглибше спільні базові припущення, які люди сприймають як самоочевидні. Коли задекларовані цінності суперечать реальній поведінці, зазвичай перемагають приховані припущення. Щоб змінити культуру, керівники мають змінити те, на що звертають увагу, що винагороджують і що терплять, а не лише слова на стіні.",
+		"example": "Архітектурне бюро на 40 людей за рік утрачає трьох із п’яти молодших архітекторів, і кожен називає причиною довгі години роботи. **Артефакти:** відкрита студія, стіна з нагородами й нічні презентації макетів, які партнери публічно хвалять. **Проголошені цінності:** сайт і матеріали для новачків обіцяють «баланс роботи й життя та співпрацю». **Базові припущення:** табелі показують, що молодші працівники записують 68% усіх годин після 19:00, а інтерв’ю виявляють спільне переконання, що справжній архітектор доводить відданість, засиджуючись допізна, а ескіз партнера-засновника є остаточним. Програма добробуту із заняттями йогою нічого не змінила, бо стосувалася лише артефактів. Партнери вирішують перестати хвалити нічні марафони, перенести огляди проєктів на 16:00 і додати до критеріїв підвищення наставництво та якість роботи, а не кількість годин.",
+		"mistakes": [
+			"Судити про культуру за артефактами: планування офісу, бонуси й гасла легко побачити, але важко витлумачити, тож питайте, що вони означають для людей усередині.",
+			"Приймати проголошені цінності за чисту монету: те, що компанія каже про себе, може бути лише прагненням, тож звіряйте це з тим, що насправді винагороджують і карають.",
+			"Намагатися змінити культуру програмою чи плакатом: припущення зсуваються лише тоді, коли щоденна поведінка, рішення й винагороди керівників послідовно змінюються впродовж тривалого часу."
+		],
+		"selfCheck": [
+			{
+				"question": "Компанія заявляє «ми цінуємо інновації», але менеджерів, чиї експерименти провалилися, обходять із підвищенням. Який рівень пояснює поведінку людей?",
+				"answer": "Базові припущення: з рішень про підвищення люди засвоюють, що невдача небезпечна, і це переважує проголошену цінність."
+			},
+			{
+				"question": "Чому Шейн каже, що культуру засвоюють?",
+				"answer": "Група виробляє припущення, розв’язуючи проблеми виживання й внутрішньої співпраці; те, що раз у раз спрацьовувало, стає самоочевидним і передається новачкам як правильний спосіб дій."
+			},
+			{
+				"question": "Новий CEO хоче перебудувати культуру. З яких інструментів Шейна почати?",
+				"answer": "З первинних механізмів вкорінення: на що він звертає увагу, що вимірює й винагороджує і як реагує на кризи, бо працівники зчитують ці сигнали уважніше, ніж промови."
+			}
+		],
+		"origin": "Едгар Шейн, професор Школи менеджменту MIT Sloan, виклав модель у книзі «Organizational Culture and Leadership» (1985). Він спирався на попередні праці з організаційної психології та консультаційну практику, зокрема багаторічну роботу з Digital Equipment Corporation. Книга пережила кілька видань, пізніші з яких написані разом із сином Пітером Шейном.",
+		"core": "Шейн визначав культуру як сукупність спільних базових припущень, яких група навчилася, розв’язуючи проблеми зовнішньої адаптації та внутрішньої інтеграції. Припущення, що працюють досить добре, передають новим учасникам як правильний спосіб сприймати, думати й відчувати. Оскільки вони зникають зі свідомості, то непомітно керують рішеннями там, де правила мовчать. Лідери створюють культуру, засновуючи групу й вкорінюючи свої переконання, а згодом культура сама визначає, яких лідерів група прийме.",
+		"components": "**Артефакти (artifacts):** видимі структури, процеси, одяг, мова, ритуали й дизайн офісу; їх легко помітити, але важко розшифрувати. **Проголошені переконання й цінності (espoused values):** задекларовані стратегії, цілі й філософія, які можуть збігатися з поведінкою, а можуть і ні. **Базові глибинні припущення (basic underlying assumptions):** неусвідомлені, самоочевидні переконання про істину, час, людей і стосунки; справжнє джерело цінностей і дій. **Первинні механізми вкорінення:** на що лідери звертають увагу й що вимірюють, як реагують на кризи, як розподіляють ресурси й винагороди, кого наймають і підвищують. **Вторинні механізми:** структури, системи, фізичний простір, історії та офіційні заяви.",
+		"apply": "1) Складіть перелік артефактів, які новачок помітить за перший тиждень. 2) Зберіть цінності, які компанія проголошує в документах і промовах. 3) Знайдіть розриви між цінностями й тим, що насправді винагороджують, спираючись на дані про підвищення, години й бюджетні рішення. 4) Проведіть групові інтерв’ю, щоб виявити припущення, які пояснюють ці розриви. 5) Визначте, які припущення допомагають стратегії, а які їй заважають. 6) Спершу змініть первинні механізми, як-от оцінювання, підвищення й поведінку самих керівників, а вторинні використовуйте для підсилення.",
+		"limitations": "Базові припущення за визначенням важко побачити, тож діагностика залежить від майстерного фасилітатора й тлумачення і погано піддається вимірюванню. Модель розглядає культуру як спільну й цілісну, тоді як дослідники на кшталт Джоанн Мартін показують, що в організаціях існують субкультури й суперечливі смисли. Вона може перебільшувати роль засновника. Зміна припущень триває роками, а це повільніше, ніж дозволяють багато антикризових перетворень."
 	}
 }

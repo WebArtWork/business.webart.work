@@ -1,27 +1,65 @@
 {
 	"slug": "mcgregors-theory-x-and-theory-y",
 	"related": [
-		"herzbergs-two-factor-theory",
+		"organizational-culture-model",
+		"maslows-hierarchy-of-needs",
 		"situational-leadership",
-		"transformational-leadership"
+		"agency-theory"
 	],
 	"en": {
-		"short": "McGregor's Theory X and Theory Y offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
-		"origin": "Douglas McGregor presented these contrasting managerial assumptions in his 1960 book The Human Side of Enterprise. They describe beliefs about workers rather than two scientific personality types. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
-		"core": "Managers act according to assumptions about whether people avoid work or can exercise self-direction. Those assumptions shape rules, trust, incentives, and ultimately team behavior. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
-		"components": "Theory X assumes workers need close control and external pressure. Theory Y assumes work can be natural, people can accept responsibility, and commitment grows when goals are meaningful. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
-		"apply": "Audit approval chains, monitoring practices, and decision rights. Set clear outcomes, give employees resources and discretion, and use transparent reviews. Keep necessary controls for safety and compliance. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
-		"example": "An engineering manager replaces hourly status checks with weekly delivery goals, shared quality standards, and peer reviews. Developers gain autonomy while reliability remains measurable. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
-		"limitations": "The contrast can oversimplify people and situations. New hires may need structure; experienced staff may still need accountability. Theory Y does not mean removing standards or management. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+		"short": "McGregor's Theory X and Theory Y describe two sets of beliefs managers hold about people: that they dislike work and must be controlled, or that they can find work satisfying and direct themselves toward goals they commit to. These beliefs shape rules, incentives and supervision, and people tend to behave the way they are treated. The theory is about managers' assumptions, not about two types of worker.",
+		"example": "A 12-person accounting firm misses one client deadline in tax season, and a partner proposes screen-monitoring software at $15 per user a month, plus a rule that staff log every 15 minutes of work. That is a Theory X response. The other partner checks the record first: 11 of 12 accountants met every deadline across 340 returns, and the one miss came from a colleague handling a family emergency who never asked for help. **Theory X cost:** $2,160 a year in software and about 2 hours a week per person spent logging time. **Theory Y option:** a shared deadline board, a 15-minute Monday check-in and a clear rule for handing work over when someone is overloaded. The partners choose the Theory Y option and deal with the single case in a private conversation.",
+		"mistakes": [
+			"Reading X and Y as personality types and sorting employees into them: McGregor described what managers believe, and those beliefs partly create the behavior they expect.",
+			"Treating Theory Y as \"no rules\": self-direction still needs clear goals, feedback and accountability, so replace close control with agreed objectives, not with nothing.",
+			"Punishing everyone for one person's lapse: blanket controls signal distrust to the many who did nothing wrong, so address the specific case directly."
+		],
+		"selfCheck": [
+			{
+				"question": "A manager tightens checks after staff stop taking initiative, and initiative falls further. What does McGregor's theory say is happening?",
+				"answer": "A self-fulfilling prophecy: tight control teaches people that their judgment is not wanted, which confirms the manager's Theory X belief."
+			},
+			{
+				"question": "Which of Maslow's ideas did McGregor build on?",
+				"answer": "That once lower needs are met, people are motivated by esteem and self-actualization, which close supervision cannot satisfy but responsibility can."
+			},
+			{
+				"question": "Is Theory X ever the right approach?",
+				"answer": "Some situations, such as safety-critical procedures or a crisis with untrained staff, need tight rules; the theory warns against assuming control is the default for everyone."
+			}
+		],
+		"origin": "Douglas McGregor, a professor at the MIT School of Industrial Management, set out the two views in his 1960 book The Human Side of Enterprise, after presenting the ideas in a 1957 talk. He drew heavily on Abraham Maslow's hierarchy of needs and on human relations research. McGregor died in 1964, and later writers, including William Ouchi with his Theory Z, extended the debate.",
+		"core": "Every managerial act rests on assumptions about human nature, usually unspoken. Under Theory X, managers assume people avoid work and responsibility, so they rely on pay, threats and close supervision. Under Theory Y, they assume effort at work is as natural as play and that people seek responsibility when they are committed to the goals. McGregor argued that Theory X practices create the passive behavior they assume, and that organizations waste most of their people's ingenuity.",
+		"components": "**Theory X assumptions:** people dislike work, must be coerced or directed, avoid responsibility and value security above all. **Theory Y assumptions:** work can be a source of satisfaction, people will direct themselves toward goals they are committed to, commitment follows from rewards tied to achievement, and the ability to solve problems creatively is widely spread. **Self-fulfilling prophecy:** management behavior shapes employee behavior, which then appears to confirm the original belief. **Integration:** aligning individual goals with the organization's goals.",
+		"apply": "1) Write down the assumptions behind your current rules, approvals and incentives. 2) Check them against evidence: how many people actually abuse freedom, and how many are held back by controls. 3) Replace process controls with outcome goals where the work allows it. 4) Agree targets with each person rather than imposing them, and review progress regularly. 5) Handle individual performance problems individually instead of with company-wide rules. 6) Watch whether initiative and quality rise, and keep tight controls only where risk truly requires them.",
+		"limitations": "McGregor offered a persuasive argument rather than tested data, and later research has not shown Theory Y management to be better in every setting. The two-way split oversimplifies: most managers hold mixed beliefs that vary by situation and person. Theory Y can fail in routine, low-skill work or where people lack training. Cultures with high power distance may see participative management as weak leadership."
 	},
 	"ua": {
-		"short": "«Теорії X та Y Макгрегора» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
-		"origin": "Дуглас Макгрегор представив протилежні управлінські припущення у книжці «The Human Side of Enterprise» 1960 року. Це погляди керівника на працівників, а не два типи особистості. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
-		"core": "Керівники діють відповідно до своїх уявлень: чи люди уникають роботи, чи здатні самі себе спрямовувати. Ці уявлення впливають на правила, довіру й поведінку команди. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
-		"components": "Теорія X припускає потребу в жорсткому контролі та зовнішньому примусі. Теорія Y виходить із можливості самокерування, відповідальності й залученості за змістовних цілей. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
-		"apply": "Перевірте ланцюги погоджень, контроль і право ухвалювати рішення. Визначайте результати, надавайте ресурси й автономію, проводьте прозорі огляди. Зберігайте потрібний контроль безпеки та відповідності вимогам. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
-		"example": "Керівник розробки замінює щогодинні звіти тижневими цілями, спільними стандартами якості й перевіркою коду колегами. Автономія зростає, а надійність залишається вимірюваною. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
-		"limitations": "Протиставлення спрощує людей і ситуації. Новачкам може бути потрібна чітка структура, а досвідченим — підзвітність. Теорія Y не означає відмови від стандартів чи керівництва. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
-		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+		"short": "Теорії X та Y Макгрегора описують два набори переконань керівників щодо людей: що ті не люблять працювати й потребують контролю, або що робота може приносити їм задоволення і вони самі рухаються до цілей, яких прагнуть. Ці переконання формують правила, стимули й нагляд, а люди зазвичай поводяться так, як із ними поводяться. Теорія говорить про припущення керівників, а не про два типи працівників.",
+		"example": "Бухгалтерська фірма на 12 людей пропускає один дедлайн клієнта в сезон подання декларацій, і партнер пропонує програму стеження за екраном за $15 на користувача на місяць плюс правило фіксувати кожні 15 хвилин роботи. Це реакція в дусі теорії X. Інший партнер спершу дивиться на факти: 11 із 12 бухгалтерів вчасно здали всі 340 декларацій, а єдиний пропуск стався в колеги з сімейною бідою, який не попросив допомоги. **Ціна теорії X:** $2 160 на рік за програму й близько 2 годин на тиждень на людину для обліку часу. **Варіант теорії Y:** спільна дошка дедлайнів, 15-хвилинна зустріч у понеділок і чітке правило передачі роботи, коли хтось перевантажений. Партнери обирають варіант теорії Y, а єдиний випадок обговорюють у приватній розмові.",
+		"mistakes": [
+			"Сприймати X та Y як типи особистості й розподіляти за ними працівників: Макгрегор описував переконання керівників, які частково самі створюють очікувану поведінку.",
+			"Розуміти теорію Y як «жодних правил»: самостійність усе одно потребує чітких цілей, зворотного зв’язку й підзвітності, тож замінюйте пильний контроль узгодженими цілями, а не порожнечею.",
+			"Карати всіх за промах однієї людини: загальні обмеження сигналізують недовіру більшості, яка нічого не порушила, тож розбирайтеся з конкретним випадком напряму."
+		],
+		"selfCheck": [
+			{
+				"question": "Керівник посилює перевірки, коли працівники перестають проявляти ініціативу, і ініціативи стає ще менше. Що тут відбувається, за Макгрегором?",
+				"answer": "Самоздійсне пророцтво: жорсткий контроль показує людям, що їхнє судження нікому не потрібне, і це підтверджує переконання керівника в дусі теорії X."
+			},
+			{
+				"question": "На які ідеї Маслоу спирався Макгрегор?",
+				"answer": "На те, що після задоволення нижчих потреб людей мотивують повага й самоактуалізація, яких пильний нагляд дати не може, а відповідальність може."
+			},
+			{
+				"question": "Чи буває теорія X доречною?",
+				"answer": "Деякі ситуації, як-от критичні для безпеки процедури чи криза з ненавченим персоналом, потребують жорстких правил; теорія застерігає лише від того, щоб вважати контроль нормою для всіх."
+			}
+		],
+		"origin": "Дуглас Макгрегор, професор Школи промислового менеджменту MIT, виклав два погляди в книзі «The Human Side of Enterprise» (1960), а перед тим представив ідеї у виступі 1957 року. Він значною мірою спирався на ієрархію потреб Абрахама Маслоу й дослідження школи людських відносин. Макгрегор помер у 1964 році, а пізніші автори, зокрема Вільям Оучі з теорією Z, продовжили дискусію.",
+		"core": "Кожна управлінська дія ґрунтується на припущеннях про людську природу, здебільшого невисловлених. За теорією X керівник вважає, що люди уникають роботи й відповідальності, тому покладається на оплату, погрози й пильний нагляд. За теорією Y він вважає, що зусилля на роботі такі ж природні, як гра, і що люди шукають відповідальності, коли віддані цілям. Макгрегор доводив, що практики теорії X створюють ту пасивність, яку припускають, а організації марнують більшу частину винахідливості своїх людей.",
+		"components": "**Припущення теорії X:** люди не люблять працювати, їх треба примушувати чи спрямовувати, вони уникають відповідальності й понад усе цінують захищеність. **Припущення теорії Y:** робота може приносити задоволення, люди самі спрямовують себе до цілей, яким віддані, відданість випливає з винагород за досягнення, а здатність творчо розв’язувати проблеми поширена широко. **Самоздійсне пророцтво:** поведінка керівника формує поведінку працівників, яка потім ніби підтверджує початкове переконання. **Інтеграція:** узгодження особистих цілей із цілями організації.",
+		"apply": "1) Запишіть припущення, що стоять за вашими правилами, погодженнями й стимулами. 2) Перевірте їх фактами: скільки людей справді зловживає свободою, а скільком контроль заважає. 3) Там, де дозволяє робота, замініть контроль процесу цілями щодо результату. 4) Узгоджуйте цілі з кожною людиною, а не нав’язуйте їх, і регулярно переглядайте прогрес. 5) Розв’язуйте проблеми з результативністю індивідуально, а не загальнокорпоративними правилами. 6) Стежте, чи зростають ініціатива та якість, і залишайте жорсткий контроль лише там, де цього справді вимагає ризик.",
+		"limitations": "Макгрегор запропонував переконливий аргумент, а не перевірені дані, і пізніші дослідження не показали, що управління за теорією Y краще в будь-якому середовищі. Поділ на два полюси спрощує реальність: більшість керівників має змішані переконання, що залежать від ситуації й людини. Теорія Y може не спрацювати в рутинній низькокваліфікованій роботі або там, де людям бракує навчання. У культурах із великою дистанцією влади участь працівників в ухваленні рішень можуть сприймати як слабкість керівника."
 	}
 }

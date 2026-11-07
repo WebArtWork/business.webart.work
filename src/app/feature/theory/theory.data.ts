@@ -23,16 +23,25 @@ export interface TheoryCard {
 	summary: Localized;
 }
 
-/** A lesson in one language: the short version, then the sections of the detailed one. */
+/** A question the reader answers in their head before opening the answer. */
+export interface SelfCheckItem {
+	question: string;
+	answer: string;
+}
+
+/**
+ * A lesson in one language. The short version is `short`, `example`, `mistakes` and `selfCheck`;
+ * the detailed one behind **Read more** is `origin`, `core`, `components`, `apply` and `limitations`.
+ */
 export interface TheoryTopicBody {
 	short: string;
+	example: string;
+	mistakes: string[];
+	selfCheck: SelfCheckItem[];
 	origin: string;
 	core: string;
 	components: string;
 	apply: string;
-	example: string;
-	/** Questions a manager can check against; only some lessons have them. */
-	checklist?: string;
 	limitations: string;
 }
 

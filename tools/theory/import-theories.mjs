@@ -1,10 +1,11 @@
-// Turns the theory sources in content/theories/NN.md into the app data:
+// Turns the theory sources in content/theories/NN.md (format: theory-source.mjs) into the app data:
 //   src/data/theory/catalog.json, src/data/theory/topics/<slug>.json and
 //   src/app/feature/theory/theory.loaders.ts, plus the SEO entries in src/data/company/company.json.
 // Run: npm run theories:import
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { apostrophes, parse, relatedOf, words } from './theory-source.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const SOURCE = path.join(root, 'content/theories');
@@ -49,7 +50,7 @@ const MODULES = [
 		},
 	},
 	{
-		from: 51,
+		from: 55,
 		slug: '05-economics-finance',
 		title: { en: 'Economics & Finance', ua: 'Економіка та фінанси' },
 		summary: {
@@ -58,7 +59,7 @@ const MODULES = [
 		},
 	},
 	{
-		from: 63,
+		from: 69,
 		slug: '06-operations-execution',
 		title: { en: 'Operations & Execution', ua: 'Операції та виконання' },
 		summary: {
@@ -67,7 +68,7 @@ const MODULES = [
 		},
 	},
 	{
-		from: 72,
+		from: 78,
 		slug: '07-organization-leadership',
 		title: { en: 'Organization & Leadership', ua: 'Організація та лідерство' },
 		summary: {
@@ -76,7 +77,7 @@ const MODULES = [
 		},
 	},
 	{
-		from: 82,
+		from: 89,
 		slug: '08-behavioral-decisions',
 		title: { en: 'Behavioral & Decision Making', ua: 'Поведінка та ухвалення рішень' },
 		summary: {
@@ -86,22 +87,23 @@ const MODULES = [
 	},
 ];
 
-const FIELDS = ['origin', 'core', 'components', 'apply', 'example', 'limitations', 'related'];
-const LABELS = {
-	en: ['Origin', 'Core idea', 'Key components', 'How to apply it', 'Example', 'Limitations', 'Related theories'],
-	ua: ['Походження', 'Основна ідея', 'Ключові елементи', 'Як застосувати', 'Приклад', 'Обмеження', "Пов'язані теорії"],
-};
-/** Optional notes for managers; some sources add them as a bullet, some as a paragraph after the list. */
-const CHECKLIST = {
-	en: ['Manager checklist', 'Practical check'],
-	ua: ['Контрольні запитання для керівника', 'Практична перевірка'],
-};
-const SECTIONS = ['EN — Short', 'EN — Detailed', 'UA — Коротко', 'UA — Детально'];
-
-const apostrophes = (text) => text.replace(/[’ʼ]/g, "'");
-const squash = (text) => text.replace(/\s+/g, ' ').trim();
-const words = (text) => text.split(/\s+/).filter(Boolean).length;
 const firstSentence = (text) => text.match(/^.+?[.!?](?=\s|$)/)?.[0] ?? text;
+
+/** Longest summary a lesson card and a search result show in full. */
+const SUMMARY_LIMIT = 160;
+
+/**
+ * The first sentence of the short version, kept to SUMMARY_LIMIT: a longer one ends at its colon when
+ * the part before it can stand alone, else at the last whole word, with an ellipsis.
+ */
+function summaryOf(short) {
+	const sentence = firstSentence(short.replace(/\*\*/g, ''));
+	if (sentence.length <= SUMMARY_LIMIT) return sentence;
+	const colon = sentence.indexOf(': ');
+	if (colon >= 40 && colon < SUMMARY_LIMIT) return sentence.slice(0, colon) + '.';
+	const cut = sentence.slice(0, SUMMARY_LIMIT - 1);
+	return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:]$/, '') + '…';
+}
 
 /** From the English title without its brackets: "Resource-Based View (RBV)" is resource-based-view. */
 const slugOf = (title) =>
@@ -111,98 +113,6 @@ const slugOf = (title) =>
 		.replace(/&/g, ' and ')
 		.replace(/[^a-z0-9]+/g, '-')
 		.replace(/^-|-$/g, '');
-
-/** Lower case, no punctuation, single spaces: what titles are compared by. */
-const key = (text) =>
-	apostrophes(text)
-		.toLowerCase()
-		.replace(/[–—-]/g, ' ')
-		.replace(/[^a-zа-яіїєґ0-9' ]+/g, ' ')
-		.replace(/\s+/g, ' ')
-		.trim();
-
-function parseDetailed(text, language, file) {
-	const items = [];
-	const extra = [];
-	for (const line of text.split('\n')) {
-		const bullet = line.match(/^- \*\*(.+?):\*\*\s*(.*)$/);
-		const paragraph = line.match(/^\*\*(.+?):\*\*\s*(.*)$/);
-		if (bullet) items.push({ label: bullet[1], text: bullet[2] });
-		else if (paragraph) extra.push({ label: paragraph[1], text: paragraph[2] });
-		else if (line.trim()) (extra.at(-1) ?? items.at(-1)).text += ' ' + line.trim();
-	}
-	const isChecklist = (item) => CHECKLIST[language].some((label) => apostrophes(label) === apostrophes(item.label));
-	const checklist = [...items, ...extra].filter(isChecklist).map((item) => squash(item.text));
-	const fields = items.filter((item) => !isChecklist(item));
-	const unknown = extra.filter((item) => !isChecklist(item));
-	if (unknown.length) throw new Error(`${file}: unexpected paragraph "${unknown[0].label}"`);
-	const labels = fields.map((item) => apostrophes(item.label));
-	if (labels.join('|') !== LABELS[language].map(apostrophes).join('|'))
-		throw new Error(`${file} ${language}: labels are ${labels.join(', ')}`);
-	const body = Object.fromEntries(FIELDS.map((field, index) => [field, squash(fields[index].text)]));
-	if (checklist.length) body.checklist = checklist.join(' ');
-	return body;
-}
-
-const CYRILLIC = /[а-яіїєґ]/i;
-const balanced = (text) => (text.match(/\(/g) ?? []).length === (text.match(/\)/g) ?? []).length;
-
-/**
- * "English / Ukrainian", where either title may hold a " / " of its own ("Two-Sided / Multi-Sided Markets",
- * "Marketing Mix (4Ps / 7Ps)"): the split leaves no Cyrillic on the left, closed brackets on both sides,
- * and preferably a Cyrillic letter right after it.
- */
-function splitTitle(heading) {
-	const splits = [...heading.matchAll(/\s+\/\s+/g)]
-		.map((match) => ({ en: heading.slice(0, match.index).trim(), ua: heading.slice(match.index + match[0].length).trim() }))
-		.filter(({ en, ua }) => !CYRILLIC.test(en) && CYRILLIC.test(ua) && balanced(en) && balanced(ua));
-	return splits.find(({ ua }) => CYRILLIC.test(ua[0]) || ua[0] === '«') ?? splits.at(-1) ?? null;
-}
-
-function parse(source, file) {
-	// a group heading ("## Innovation & Startups") can trail the last lesson of a group
-	const text = source.replace(/\r/g, '').replace(/\n## (?!\d+\.)[^\n]*\s*$/, '').trim();
-	const head = text.match(/^##\s*(\d+)\.\s*(.+?)\s*$/m);
-	const title = head && splitTitle(head[2]);
-	if (!title) throw new Error(`${file}: no "## N. English / Ukrainian" heading`);
-	const parts = text.split(/\n###\s*/).slice(1);
-	const names = parts.map((part) => part.split('\n', 1)[0].trim());
-	if (names.join('|') !== SECTIONS.join('|')) throw new Error(`${file}: sections are ${names.join(', ')}`);
-	const body = parts.map((part) => part.slice(part.indexOf('\n') + 1).trim());
-	const en = parseDetailed(body[1], 'en', file);
-	const ua = parseDetailed(body[3], 'ua', file);
-	return {
-		number: Number(head[1]),
-		title,
-		en: { short: squash(body[0]), ...en },
-		ua: { short: squash(body[2]), ...ua },
-	};
-}
-
-/** The lessons named in an English "Related theories" text: by "#N" or "N." when given, else by title. */
-function relatedOf(lesson, lessons) {
-	const text = lesson.en.related;
-	const found = new Set();
-	for (const match of text.matchAll(/(?:#|№)(\d+)|(?:^|;\s*|,\s*)(\d+)\.\s/g)) found.add(Number(match[1] ?? match[2]));
-	if (!found.size) {
-		const haystack = ` ${key(text)} `;
-		const names = lessons.flatMap((other) => {
-			const full = other.title.en;
-			const bare = full.replace(/\s*\(.*?\)\s*/g, ' ');
-			return [full, bare].map((name) => ({ number: other.number, name: key(name) }));
-		});
-		names.sort((a, b) => b.name.length - a.name.length);
-		let rest = haystack;
-		for (const { number, name } of names) {
-			if (name.length > 3 && rest.includes(` ${name} `)) {
-				found.add(number);
-				rest = rest.replaceAll(` ${name} `, ' | ');
-			}
-		}
-	}
-	found.delete(lesson.number);
-	return [...found].filter((number) => lessons.some((other) => other.number === number));
-}
 
 const files = (await readdir(SOURCE)).filter((name) => /^\d+\.md$/.test(name)).sort();
 const lessons = [];
@@ -232,16 +142,18 @@ for (const lesson of lessons) {
 	await writeFile(path.join(DATA, 'topics', `${lesson.slug}.json`), JSON.stringify(topic, null, '\t') + '\n');
 }
 
-const plain = (text) => text.replace(/\*\*/g, '');
+/** Every word of a lesson body, for its reading time. */
+const textOf = ({ related, mistakes, selfCheck, ...rest }) =>
+	[...Object.values(rest), ...mistakes, ...selfCheck.flatMap(({ question, answer }) => [question, answer])].join(' ');
 const catalog = {
 	modules: MODULES.map(({ from, ...module }) => module),
 	topics: lessons.map((lesson) => ({
 		number: lesson.number,
 		slug: lesson.slug,
 		module: lesson.module,
-		minutes: Math.max(1, Math.round(words(Object.values(strip(lesson.en)).join(' ')) / 200)),
+		minutes: Math.max(1, Math.round(words(textOf(lesson.en)) / 200)),
 		title: lesson.title,
-		summary: { en: plain(firstSentence(lesson.en.short)), ua: plain(firstSentence(lesson.ua.short)) },
+		summary: { en: summaryOf(lesson.en.short), ua: summaryOf(lesson.ua.short) },
 	})),
 };
 await writeFile(path.join(DATA, 'catalog.json'), JSON.stringify(catalog, null, '\t') + '\n');
@@ -259,7 +171,7 @@ const companyFile = path.join(root, 'src/data/company/company.json');
 const company = JSON.parse(await readFile(companyFile, 'utf8'));
 const pageSeo = Object.fromEntries(Object.entries(company.pageSeo).filter(([route]) => !route.startsWith('/theories/')));
 for (const lesson of lessons)
-	pageSeo[`/theories/${lesson.slug}`] = { title: lesson.title.en, description: plain(lesson.en.short), image: '/seo/theory.jpg' };
+	pageSeo[`/theories/${lesson.slug}`] = { title: lesson.title.en, description: summaryOf(lesson.en.short), image: '/seo/theory.jpg' };
 company.pageSeo = pageSeo;
 await writeFile(companyFile, JSON.stringify(company, null, '\t') + '\n');
 

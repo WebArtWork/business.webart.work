@@ -2,25 +2,64 @@
 	"slug": "porters-five-forces",
 	"related": [
 		"porters-generic-strategies",
-		"value-chain-analysis",
+		"switching-costs-and-lock-in",
+		"blue-ocean-strategy",
 		"economic-moats"
 	],
 	"en": {
-		"short": "Porter’s Five Forces is a strategic framework for understanding how businesses compete and make decisions. Industry profitability depends on competitive pressures, not simply on how well one company operates. It helps founders and managers replace assumptions with structured analysis.",
-		"origin": "Michael E. Porter introduced the framework in a 1979 Harvard Business Review article. Its historical context matters: the framework was designed to clarify strategic choices, not to guarantee business success. Modern applications should distinguish the original concept from later adaptations and teaching shortcuts.",
-		"core": "Industry profitability depends on competitive pressures, not simply on how well one company operates. The goal is to make trade-offs explicit. A framework is useful when it changes what a team investigates, measures, or decides rather than merely giving familiar problems new labels.",
-		"components": "Rivalry among existing competitors; threat of new entrants; supplier bargaining power; buyer bargaining power; threat of substitutes. Each component should be assessed separately, with a clear definition and supporting evidence. Relationships between components often matter as much as individual scores.",
-		"apply": "Define the industry and customer segment. Map each force using evidence: concentration, switching costs, barriers to entry, alternative solutions, and price sensitivity. Rate the forces, then choose a defensible position and monitor changes quarterly. Start with one decision and a defined time horizon. Write down assumptions and evidence sources, invite a colleague to challenge the conclusions, and translate the analysis into a small set of actions with owners, deadlines, and measurable outcomes. Revisit the decision after new customer or market information arrives.",
-		"example": "A small hotel-booking software vendor may face powerful hotel customers, large platform substitutes, and low-cost new entrants. It can focus on underserved independent hotels and build integrations that reduce switching. This is an illustrative business scenario, not a claim about a particular company's internal strategy. A useful follow-up would compare two alternatives and estimate their impact on costs, customer retention, or revenue.",
-		"limitations": "The model is a snapshot and can understate cooperation, ecosystems, regulation, and fast technological shifts. A strong force does not automatically make entry impossible. Results depend on the quality of the input data and the boundaries chosen. Avoid treating a diagram or checklist as proof. Combine the model with experiments, financial calculations, and direct conversations with customers."
+		"short": "Porter’s Five Forces explains why some industries stay profitable and others do not: five pressures decide how much of the value a business creates it gets to keep. They are rivalry among competitors, the threat of new entrants, the bargaining power of suppliers, the bargaining power of buyers and the threat of substitutes. Judge the industry first, then the company.",
+		"example": "A founder plans a meal-kit delivery service in a mid-sized city. **Rivalry:** three national brands already give 50% off the first box. **New entrants:** a website and a rented kitchen cost under $40,000, so barriers are low. **Suppliers:** dozens of farms and wholesalers compete for orders, so their power is weak. **Buyers:** customers cancel with one click and compare prices in seconds, so their power is strong. **Substitutes:** supermarkets, restaurant delivery and plain home cooking are all close. Four of the five forces are strong, so average profit will be thin. The founder narrows the plan to kits for one medical diet, where buyers are fewer but far less sensitive to price.",
+		"mistakes": [
+			"Analysing your own company instead of the industry: the forces describe the structure every player faces, not your strengths.",
+			"Drawing the industry too wide or too narrow: \"food\" and \"vegan meal kits in Kyiv\" lead to opposite answers, so define the product and the customer first.",
+			"Counting competitors and stopping there: a market with two rivals can still be unprofitable when buyers or substitutes are strong."
+		],
+		"selfCheck": [
+			{
+				"question": "Drivers of a ride-hailing app can move to a rival app in one minute. Which force does this strengthen?",
+				"answer": "Supplier power: drivers supply the service, and low switching costs let them demand better pay."
+			},
+			{
+				"question": "Why can an industry with only two competitors still be unprofitable?",
+				"answer": "Rivalry is only one force; powerful buyers, cheap substitutes or easy entry can still push prices down."
+			},
+			{
+				"question": "Is government regulation a sixth force?",
+				"answer": "No. Porter treats regulation as something that changes the five forces, for example by raising barriers to entry."
+			}
+		],
+		"origin": "Michael E. Porter, an economist at Harvard Business School, introduced the model in the 1979 Harvard Business Review article \"How Competitive Forces Shape Strategy\" and developed it in his 1980 book Competitive Strategy. He built on industrial organisation economics, which studies how market structure drives profits. In a 2008 update he made clear that government and complementary products are not extra forces.",
+		"core": "Profit depends on industry structure as much as on management. Each force takes away part of the value an industry creates: strong buyers push prices down, strong suppliers push costs up, rivals compete margins away, and entrants and substitutes cap what anyone can charge. The strongest force usually sets the limit on profit. A good strategy either finds a position where the forces are weakest or changes them, for example by raising customers’ switching costs.",
+		"components": "**Rivalry:** how hard current players compete; it is intense when competitors are many and similar, growth is slow or fixed costs are high. **Threat of new entrants:** how easily newcomers can join; scale, brand, capital needs, regulation and access to distribution hold it back. **Supplier power:** how much suppliers can charge; it is high when a few suppliers serve many buyers or switching is costly. **Buyer power:** how far customers can push prices down; it is high when buyers are concentrated, well informed or can switch cheaply. **Threat of substitutes:** products from other industries that meet the same need, such as video calls instead of business travel.",
+		"apply": "1) Define the industry by product and geography. 2) For each force, collect evidence: number and size of players, switching costs, cost of entry, price sensitivity and available substitutes. 3) Rate each force low, medium or high and mark the strongest. 4) Look for a part of the industry where the forces are weaker, such as a segment of buyers who care less about price. 5) Decide how to defend that position or shift a force in your favour, and repeat the analysis when technology or regulation changes.",
+		"limitations": "The model describes an industry at one moment and can miss fast shifts driven by technology. It treats players as rivals and says little about cooperation, ecosystems and platforms, where complementary products matter. Industry boundaries are a judgment call and the ratings are qualitative, so two analysts can reach different conclusions from the same facts."
 	},
 	"ua": {
-		"short": "П’ять сил Портера — інструмент для обґрунтованих управлінських рішень. Прибутковість галузі залежить від конкурентного тиску, а не лише від якості роботи окремої компанії. Він допомагає засновникам і керівникам перевіряти припущення та визначати пріоритети.",
-		"origin": "Майкл Портер представив модель у статті Harvard Business Review 1979 року. Історичний контекст важливий: модель створена для пояснення стратегічних рішень, а не як гарантія успіху. Слід розрізняти первинну концепцію та її пізніші спрощення в навчальних матеріалах.",
-		"core": "Прибутковість галузі залежить від конкурентного тиску, а не лише від якості роботи окремої компанії. Завдання — зробити вибір і компроміси зрозумілими. Інструмент корисний тоді, коли він змінює спосіб збору даних, оцінювання альтернатив або ухвалення рішень, а не просто додає нові назви до знайомих проблем.",
-		"components": "Суперництво між чинними конкурентами; загроза нових учасників; переговорна сила постачальників; переговорна сила покупців; загроза товарів-замінників. Кожен елемент потрібно оцінювати окремо, спираючись на чіткі визначення й перевірені дані. Взаємозв’язки між елементами нерідко не менш важливі, ніж їхні окремі оцінки.",
-		"apply": "Визначте межі галузі та сегмент клієнтів. Оцініть кожну силу за фактами: концентрацією учасників, витратами на зміну постачальника, бар’єрами входу, альтернативами та чутливістю до ціни. Оберіть позицію, яку можна захистити, і регулярно переглядайте оцінку. Почніть з одного рішення та визначеного періоду планування. Запишіть припущення й джерела інформації, попросіть колег критично перевірити висновки. Перетворіть аналіз на кілька дій із відповідальними, строками та вимірюваними результатами. Поверніться до рішення після появи нових даних про клієнтів або ринок.",
-		"example": "Невеликий постачальник систем бронювання може стикатися з вимогливими готелями, великими платформами-замінниками та новими дешевими конкурентами. Він може зосередитися на незалежних готелях і розвивати корисні інтеграції. Це навчальний сценарій, а не твердження про внутрішню стратегію конкретної компанії. Наступним кроком варто порівняти дві альтернативи й оцінити вплив на витрати, утримання клієнтів або дохід.",
-		"limitations": "Модель описує ситуацію на певний момент і може недооцінювати співпрацю, екосистеми, регулювання та швидкі технологічні зміни. Сильний тиск не означає, що вихід на ринок неможливий. Якість результату залежить від достовірності даних і правильно визначених меж аналізу. Схема чи контрольний список не є доказом. Поєднуйте модель з експериментами, фінансовими розрахунками та прямим спілкуванням із клієнтами."
+		"short": "П’ять сил Портера пояснюють, чому одні галузі залишаються прибутковими, а інші ні: п’ять видів тиску визначають, яку частину створеної цінності бізнес зможе залишити собі. Це суперництво між конкурентами, загроза нових учасників, переговорна сила постачальників, переговорна сила покупців і загроза товарів-замінників. Спершу оцінюйте галузь, а вже потім компанію.",
+		"example": "Підприємець планує доставку наборів для приготування страв в обласному місті. **Суперництво:** три національні бренди вже дають знижку 50% на перший набір. **Нові учасники:** сайт і орендована кухня коштують менше ніж $40 000, тож бар’єри низькі. **Постачальники:** десятки ферм і оптовиків змагаються за замовлення, тому їхня сила слабка. **Покупці:** клієнт скасовує підписку одним кліком і порівнює ціни за секунди, тому їхня сила висока. **Замінники:** супермаркети, доставка з ресторанів і звичайне приготування вдома. Чотири сили з п’яти сильні, отже середній прибуток буде низьким. Підприємець звужує план до наборів для однієї медичної дієти: таких покупців менше, зате вони значно менш чутливі до ціни.",
+		"mistakes": [
+			"Аналізувати власну компанію замість галузі: сили описують структуру, з якою стикаються всі гравці, а не ваші переваги.",
+			"Окреслювати галузь надто широко або надто вузько: «харчування» і «веганські набори в Києві» дадуть протилежні висновки, тому спершу визначте продукт і клієнта.",
+			"Рахувати лише конкурентів: ринок із двома гравцями може бути неприбутковим, якщо покупці чи замінники сильні."
+		],
+		"selfCheck": [
+			{
+				"question": "Водії сервісу таксі можуть за хвилину перейти до застосунку конкурента. Яку силу це посилює?",
+				"answer": "Силу постачальників: водії надають послугу, а низькі витрати на перехід дозволяють їм вимагати вищої оплати."
+			},
+			{
+				"question": "Чому галузь лише з двома конкурентами може бути неприбутковою?",
+				"answer": "Суперництво є лише однією силою; сильні покупці, дешеві замінники чи легкий вхід усе одно тиснуть на ціни."
+			},
+			{
+				"question": "Чи є державне регулювання шостою силою?",
+				"answer": "Ні. Портер розглядає регулювання як чинник, що змінює п’ять сил, наприклад підвищує бар’єри входу."
+			}
+		],
+		"origin": "Майкл Портер, економіст Гарвардської школи бізнесу, представив модель у статті Harvard Business Review 1979 року «How Competitive Forces Shape Strategy» і розвинув її в книзі «Competitive Strategy» (1980). Він спирався на економіку галузевих ринків, яка вивчає, як структура ринку впливає на прибутки. В оновленій статті 2008 року Портер уточнив, що держава та доповнювальні товари не є окремими силами.",
+		"core": "Прибуток залежить від структури галузі не менше, ніж від якості управління. Кожна сила забирає частину створеної цінності: сильні покупці знижують ціни, сильні постачальники підвищують витрати, суперники з’їдають маржу, а нові учасники й замінники обмежують, скільки взагалі можна брати. Найсильніша сила зазвичай і встановлює межу прибутку. Добра стратегія або знаходить позицію, де сили найслабші, або змінює їх, наприклад підвищує витрати клієнтів на перехід.",
+		"components": "**Суперництво:** наскільки жорстко конкурують наявні гравці; воно сильне, коли конкурентів багато й вони схожі, ринок росте повільно або постійні витрати високі. **Загроза нових учасників:** наскільки легко увійти в галузь; її стримують масштаб, бренд, потреба в капіталі, регулювання й доступ до каналів збуту. **Сила постачальників:** скільки вони можуть просити; вона висока, коли небагато постачальників обслуговують багатьох покупців або перехід до інших дорогий. **Сила покупців:** наскільки клієнти можуть збити ціну; вона висока, коли покупці великі, добре поінформовані або легко переходять до інших. **Загроза замінників:** продукти з інших галузей, що задовольняють ту саму потребу, як-от відеодзвінки замість відряджень.",
+		"apply": "1) Визначте галузь за продуктом і географією. 2) Для кожної сили зберіть факти: кількість і розмір гравців, витрати на перехід, вартість входу, чутливість до ціни, доступні замінники. 3) Оцініть кожну силу як низьку, середню чи високу й позначте найсильнішу. 4) Пошукайте частину галузі, де сили слабші, наприклад сегмент покупців, менш чутливих до ціни. 5) Вирішіть, як захистити цю позицію або послабити силу на свою користь, і повторюйте аналіз, коли змінюються технології чи регулювання.",
+		"limitations": "Модель описує галузь в один момент і може пропустити швидкі технологічні зрушення. Вона розглядає гравців як суперників і мало каже про співпрацю, екосистеми та платформи, де важливі доповнювальні товари. Межі галузі визначаються на розсуд аналітика, а оцінки якісні, тож двоє людей можуть дійти різних висновків з тих самих фактів."
 	}
 }

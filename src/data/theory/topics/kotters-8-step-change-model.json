@@ -1,27 +1,65 @@
 {
 	"slug": "kotters-8-step-change-model",
 	"related": [
-		"tuckmans-stages-of-team-development",
 		"organizational-culture-model",
-		"stakeholder-theory"
+		"transformational-leadership",
+		"stakeholder-theory",
+		"loss-aversion"
 	],
 	"en": {
-		"short": "Kotter's 8-Step Change Model offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
-		"origin": "John P. Kotter published the eight-step change process in his 1996 book Leading Change, building on an influential 1995 Harvard Business Review article. Later versions emphasize more iterative change. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
-		"core": "Major organizational change needs more than an announcement. People need a reason to act, a credible coalition, practical support, and evidence that progress is real. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
-		"components": "Eight steps: create urgency; build a guiding coalition; form a vision; enlist volunteers or communicate the vision; remove barriers; generate short-term wins; sustain acceleration; anchor change in culture. Wording varies by edition. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
-		"apply": "Diagnose why change is needed, involve credible staff, define measurable outcomes, pilot a small improvement, and remove policy or tooling blockers. Share results and revise the rollout based on feedback. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
-		"example": "A retailer moving to unified inventory pilots one region, trains store leaders, measures stock accuracy, celebrates reduced errors, then scales processes and changes incentives to sustain adoption. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
-		"limitations": "The steps can look too linear for fast-moving environments. Manufactured urgency can create fear, and visible wins can mask deeper problems. Adapt the sequence to context and feedback. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+		"short": "Kotter's 8-step model explains why large organizational changes stall and lays out the sequence that makes them stick: create urgency, build a guiding coalition, form a vision, communicate it, remove obstacles, win quickly, keep pushing and anchor the change in the culture. Kotter found that skipping early steps, especially urgency, was the most common reason transformations failed.",
+		"example": "A network of five veterinary clinics wants to replace paper files with electronic records. **Urgency:** the practice manager shows that 14% of appointments start late because files are missing, and that two medication errors last year came from illegible notes. **Coalition:** the head vet of each clinic joins the project group. **Vision:** \"any vet sees a pet's full history in 10 seconds.\" **Communication:** the vision is repeated at every weekly staff meeting for three months. **Obstacles:** each clinic gets four tablets and two paid training afternoons. **Short-term win:** in month one, the pilot clinic cuts file lookup from 6 minutes to 30 seconds and shares the figure. **Keep pushing:** billing is moved into the system next. **Anchor:** new hires learn only the electronic process. Clinic five's head vet still resists, so rollout there waits until he has visited the pilot.",
+		"mistakes": [
+			"Announcing the change before people feel the need for it: without urgency, staff wait for it to pass, so show real evidence of the problem first.",
+			"Declaring victory after the first win: early success is fragile, and old habits return if the effort stops, so use wins to tackle the next, harder change.",
+			"Running the steps as a one-off communication campaign: barriers in systems, budgets and incentives must be removed, or the vision stays a poster."
+		],
+		"selfCheck": [
+			{
+				"question": "A CEO launches a new strategy by email, and six months later little has changed. Which steps were probably skipped?",
+				"answer": "Most likely urgency and the guiding coalition: without a felt need and respected allies, an announcement does not move people."
+			},
+			{
+				"question": "Why does Kotter insist on short-term wins within months?",
+				"answer": "Visible results build credibility, silence cynics and give the coalition evidence that the effort is worth continuing."
+			},
+			{
+				"question": "What does \"anchoring in culture\" add after the change is working?",
+				"answer": "It ties the new behavior to success and builds it into hiring, promotion and routines, so the change survives when its leaders move on."
+			}
+		],
+		"origin": "John P. Kotter, a Harvard Business School professor, described eight common errors in the 1995 Harvard Business Review article \"Leading Change: Why Transformation Efforts Fail\", drawing on his observation of more than 100 companies. His 1996 book Leading Change turned the errors into eight steps. In his 2014 book Accelerate he revised the model to run the steps concurrently, led by a volunteer network alongside the regular hierarchy.",
+		"core": "Major change fails less from a bad plan than from a failure to lead people through it. Complacency, a lack of powerful allies, an unclear vision, poor communication and blocking structures each stop momentum, and they tend to occur in a predictable order. Kotter therefore set out the steps as a sequence: create the energy and leadership first, then enable action, then make the results permanent. The emphasis is on leadership rather than management, since change requires inspiring people more than controlling processes.",
+		"components": "**Create a sense of urgency:** show why the status quo is more dangerous than change. **Build a guiding coalition:** a group with enough authority, expertise and credibility. **Form a strategic vision:** a short, clear picture of the future and the path there. **Communicate the vision:** repeatedly, through many channels and by example. **Remove barriers:** change structures, systems and incentives that block action. **Generate short-term wins:** visible, unambiguous improvements. **Sustain acceleration:** use credibility to tackle bigger changes. **Anchor in culture:** link new behavior to success and build it into routines.",
+		"apply": "1) Collect hard evidence of the problem and share it with those who must change. 2) Recruit respected people from different levels into the coalition. 3) Write a vision that fits in one or two sentences and test it on staff. 4) Plan months of repeated communication and model the behavior yourself. 5) List the policies and tools that block the change and fix them. 6) Plan a win within the first few months and publicize it. 7) Use that credibility to tackle the next problem, then build the new way into hiring and onboarding.",
+		"limitations": "The model is built from Kotter's consulting experience, and systematic tests have found only partial support for it. Its linear, top-down sequence fits planned change better than continuous or bottom-up change. It says little about resistance as legitimate feedback. The widely quoted claim that most change programs fail has weak evidence behind it, and Kotter himself later revised the model to make it less sequential."
 	},
 	"ua": {
-		"short": "«Восьмикрокова модель змін Коттера» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
-		"origin": "Джон Коттер опублікував восьмикроковий процес у книжці «Leading Change» 1996 року, розвинувши статтю 1995 року в Harvard Business Review. Пізніші версії більше уваги приділяють ітераціям. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
-		"core": "Для значних організаційних змін недостатньо оголошення. Людям потрібні причина діяти, команда підтримки, практичні умови й докази реального поступу. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
-		"components": "Вісім кроків: створити відчуття необхідності; сформувати коаліцію; визначити бачення; залучити прихильників; прибрати перешкоди; забезпечити швидкі перемоги; підтримувати темп; закріпити зміни в культурі. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
-		"apply": "З’ясуйте причини змін, залучіть авторитетних працівників, визначте вимірювані результати, проведіть пілот і усуньте бар’єри в правилах та інструментах. Публікуйте результати й коригуйте впровадження. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
-		"example": "Мережа магазинів запускає єдиний облік запасів в одному регіоні, навчає керівників, вимірює точність залишків, показує зменшення помилок, а потім масштабує практику. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
-		"limitations": "Послідовність може бути надто лінійною для швидких змін. Штучна терміновість викликає страх, а швидкі перемоги приховують системні проблеми. Модель слід адаптувати. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
-		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+		"short": "Восьмикрокова модель Коттера пояснює, чому великі організаційні зміни буксують, і задає послідовність, яка їх закріплює: створити відчуття терміновості, зібрати керівну коаліцію, сформувати бачення, донести його, прибрати перешкоди, швидко здобути перші перемоги, не зупинятися й вкоренити зміни в культурі. Коттер виявив, що найчастіше трансформації провалюються через пропуск перших кроків, особливо терміновості.",
+		"example": "Мережа з п’яти ветеринарних клінік хоче замінити паперові картки електронними. **Терміновість:** практик-менеджерка показує, що 14% прийомів починаються із запізненням через загублені картки, а дві торішні помилки з ліками сталися через нерозбірливі записи. **Коаліція:** головні лікарі всіх клінік входять до проєктної групи. **Бачення:** «будь-який лікар бачить усю історію тварини за 10 секунд». **Донесення:** бачення повторюють на кожних щотижневих зборах упродовж трьох місяців. **Перешкоди:** кожна клініка отримує чотири планшети й два оплачувані дні навчання. **Перша перемога:** за перший місяць пілотна клініка скорочує пошук картки з 6 хвилин до 30 секунд і ділиться цією цифрою. **Не зупинятися:** далі в систему переносять рахунки. **Вкорінення:** нових працівників навчають лише електронного процесу. Головний лікар п’ятої клініки досі опирається, тож запуск там відкладають, доки він не побуває в пілотній.",
+		"mistakes": [
+			"Оголошувати зміни, доки люди не відчули в них потреби: без терміновості працівники чекають, поки все минеться, тож спершу покажіть реальні докази проблеми.",
+			"Святкувати перемогу після першого успіху: ранні досягнення крихкі, і старі звички повертаються, щойно зусилля слабшають, тож використовуйте перемоги, щоб братися за наступну, складнішу зміну.",
+			"Зводити кроки до разової комунікаційної кампанії: бар’єри в системах, бюджетах і стимулах треба прибрати, інакше бачення залишиться плакатом."
+		],
+		"selfCheck": [
+			{
+				"question": "CEO запускає нову стратегію листом, а через пів року майже нічого не змінилося. Які кроки, найімовірніше, пропустили?",
+				"answer": "Найпевніше терміновість і керівну коаліцію: без відчутної потреби й шанованих союзників оголошення людей не зрушує."
+			},
+			{
+				"question": "Чому Коттер наполягає на перших перемогах уже за кілька місяців?",
+				"answer": "Видимі результати створюють довіру, змушують замовкнути скептиків і дають коаліції доказ, що зусилля варто продовжувати."
+			},
+			{
+				"question": "Що дає вкорінення в культурі, коли зміна вже працює?",
+				"answer": "Воно пов’язує нову поведінку з успіхом і вбудовує її в найм, підвищення й щоденну рутину, тож зміна переживає відхід своїх ініціаторів."
+			}
+		],
+		"origin": "Джон Коттер, професор Гарвардської школи бізнесу, описав вісім типових помилок у статті Harvard Business Review 1995 року «Leading Change: Why Transformation Efforts Fail», спираючись на спостереження за понад 100 компаніями. У книзі «Leading Change» (1996) він перетворив ці помилки на вісім кроків. У книзі «Accelerate» (2014) Коттер переглянув модель: кроки виконуються паралельно, а веде їх мережа добровольців поруч зі звичайною ієрархією.",
+		"core": "Великі зміни провалюються не так через поганий план, як через невміння провести крізь них людей. Самовдоволення, брак впливових союзників, нечітке бачення, слабка комунікація й структури, що блокують дії, зупиняють рух, і зазвичай трапляються в передбачуваному порядку. Тому Коттер виклав кроки послідовно: спершу створити енергію й лідерство, потім дати змогу діяти, нарешті зробити результати постійними. Наголос зроблено на лідерстві, а не на адмініструванні, бо зміни вимагають надихати людей більше, ніж контролювати процеси.",
+		"components": "**Відчуття терміновості:** показати, чому статус-кво небезпечніший за зміни. **Керівна коаліція (guiding coalition):** група з достатніми повноваженнями, експертизою й авторитетом. **Стратегічне бачення:** короткий і ясний образ майбутнього та шляху до нього. **Донесення бачення:** багаторазово, різними каналами й власним прикладом. **Усунення бар’єрів:** змінити структури, системи й стимули, що блокують дії. **Швидкі перемоги:** видимі, однозначні покращення. **Підтримання темпу:** використати довіру для більших змін. **Вкорінення в культурі:** пов’язати нову поведінку з успіхом і вбудувати її в рутину.",
+		"apply": "1) Зберіть тверді докази проблеми й покажіть їх тим, кому доведеться змінюватися. 2) Залучіть до коаліції шанованих людей із різних рівнів. 3) Сформулюйте бачення в одному-двох реченнях і перевірте його на працівниках. 4) Сплануйте місяці повторюваної комунікації й самі демонструйте нову поведінку. 5) Складіть перелік правил та інструментів, що заважають змінам, і виправте їх. 6) Заплануйте перемогу в перші кілька місяців і розкажіть про неї. 7) Використайте здобуту довіру для наступної проблеми, а потім вбудуйте новий спосіб роботи в найм і адаптацію.",
+		"limitations": "Модель побудовано на консультаційному досвіді Коттера, і систематичні перевірки підтвердили її лише частково. Лінійна послідовність згори вниз краще пасує до запланованих змін, ніж до безперервних чи ініційованих знизу. Модель мало каже про опір як про легітимний зворотний зв’язок. Популярне твердження, що більшість програм змін провалюється, має слабке підґрунтя, а сам Коттер згодом переглянув модель, зробивши її менш послідовною."
 	}
 }

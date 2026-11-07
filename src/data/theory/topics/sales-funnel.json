@@ -1,0 +1,65 @@
+{
+	"slug": "sales-funnel",
+	"related": [
+		"customer-journey-mapping",
+		"aarrr-pirate-metrics",
+		"flywheel-effect",
+		"aida-model"
+	],
+	"en": {
+		"short": "A sales funnel tracks how prospects move from first contact to paying customer through stages such as lead, qualified lead, proposal and closed deal, with fewer of them left at each step. Measuring the conversion rate between stages shows exactly where deals leak and turns a vague revenue target into the number of leads and meetings needed to reach it.",
+		"example": "A residential solar installer gets 600 website enquiries a quarter. **Lead to qualified:** 40% own a suitable roof and pass a credit check, leaving 240. **Qualified to site visit:** 50%, so 120 visits. **Visit to proposal:** 75%, so 90 proposals. **Proposal to contract:** 20%, so 18 installations at an average $14,000, or $252,000. Overall conversion is 3%. **Pipeline velocity:** 90 proposals × 20% win rate × $14,000 ÷ a 45-day cycle ≈ $5,600 of revenue per day. The weakest step is proposal to contract, and calls with lost prospects show they stall on financing. The installer adds a partner loan offer to every proposal; lifting that rate to 25% would add $63,000 a quarter without a single extra lead.",
+		"mistakes": [
+			"Pouring more money into lead generation when the leak is further down: compare each stage's conversion rate with past quarters or benchmarks and fix the weakest stage first.",
+			"Counting every open deal at full value: weight each deal by its stage's historical win rate, and remove deals that have sat untouched longer than the normal cycle.",
+			"Defining stages by what the salesperson did (\"sent proposal\") instead of what the buyer did (\"agreed to a site visit\"): buyer-based exit rules make conversion rates comparable across the team."
+		],
+		"selfCheck": [
+			{
+				"question": "Funnel A converts 10% of 1,000 leads; funnel B converts 25% of 300 leads. Which produces more customers, and what would you investigate?",
+				"answer": "A gives 100 customers and B gives 75, so A wins on volume, but B's higher rate suggests a better-qualified lead source worth scaling if it can grow."
+			},
+			{
+				"question": "Why can shortening the sales cycle from 60 to 40 days raise revenue even with the same win rate?",
+				"answer": "Velocity divides by cycle length, so the same deals close sooner and the team can work through more opportunities in a year."
+			},
+			{
+				"question": "A software firm's demo-to-trial rate drops from 60% to 35% after a new salesperson joins, while other stages stay flat. Where do you look first?",
+				"answer": "At that salesperson's demos and assigned leads, because a drop at one stage for one person points to how the stage is run, not to the product or marketing."
+			}
+		],
+		"origin": "The sales funnel has no single author. It descends from the AIDA sequence (attention, interest, desire, action) associated with the American advertising pioneer E. St. Elmo Lewis around 1898. A 1924 book on bond selling by William W. Townsend is often cited as the first to picture buyers narrowing like a funnel. Pipeline stages, weighted forecasts and stage-by-stage conversion tracking became routine once customer relationship management (CRM) software spread in the 1990s and 2000s.",
+		"core": "A sale is a chain of separate buyer decisions, and the final result is the product of the conversion rates at every link. Because the rates multiply, raising one weak stage from 20% to 25% lifts total output by a quarter, the same effect as 25% more leads, usually for far less money. Working backwards from a revenue target through the rates tells a team how many leads and meetings it needs this month. Velocity adds time to the picture: the same pipeline is worth more when deals close sooner.",
+		"components": "**Stages:** steps defined by buyer actions, for example lead, qualified lead, meeting, proposal, negotiation and closed won or lost. **Stage conversion rate:** the share of prospects moving to the next stage in a period. **Overall conversion:** the product of all stage rates. **Pipeline value:** the sum of open deals, ideally each weighted by its stage's win probability. **Sales cycle length:** average days from first contact to close. **Pipeline velocity:** opportunities × win rate × average deal size ÷ cycle length, the revenue moving through the funnel per day. **Leakage:** where prospects drop out, with lost-deal reasons recorded.",
+		"apply": "1) Define four to seven stages with clear entry and exit rules based on buyer actions. 2) Pull the last two to four quarters of deals from the CRM and compute each stage's conversion rate and average time in stage. 3) Find the stage with the lowest rate or longest delay compared with benchmarks. 4) Interview prospects lost at that stage to learn why they left. 5) Change one thing there, such as qualification questions or the proposal format, and track the next cohort. 6) Work backwards from next quarter's target to set lead and meeting goals.",
+		"limitations": "Real buying, especially in B2B, is rarely linear: committees loop back, and some buyers arrive already decided after months of research the funnel never saw. Stage rates based on a few dozen deals swing widely, so one quarter can mislead. The model stops at the sale and ignores what follows, which is why some companies replaced it with loops or flywheels in which happy customers feed referrals back in. Pushing for conversion at every stage can also reward aggressive closing that raises churn later."
+	},
+	"ua": {
+		"short": "Воронка продажів відстежує, як потенційні клієнти проходять шлях від першого контакту до оплати через етапи на кшталт ліда, кваліфікованого ліда, комерційної пропозиції та укладеної угоди, причому на кожному кроці їх стає менше. Конверсія між етапами точно показує, де губляться угоди, і перетворює розмиту ціль з виторгу на конкретну кількість лідів і зустрічей.",
+		"example": "Компанія, що встановлює сонячні панелі на приватні будинки, отримує 600 заявок із сайту за квартал. **Лід → кваліфікований:** 40% мають придатний дах і проходять кредитну перевірку, лишається 240. **Кваліфікований → огляд об’єкта:** 50%, тобто 120 виїздів. **Огляд → пропозиція:** 75%, тобто 90 пропозицій. **Пропозиція → договір:** 20%, тобто 18 установок у середньому по $14 000, або $252 000. Загальна конверсія становить 3%. **Швидкість воронки (pipeline velocity):** 90 пропозицій × 20% × $14 000 ÷ 45 днів циклу ≈ $5 600 виторгу на день. Найслабший крок це перехід від пропозиції до договору, а дзвінки втраченим клієнтам показують, що їх зупиняє фінансування. Компанія додає до кожної пропозиції кредит від банку-партнера; підняття цього показника до 25% дасть $63 000 за квартал без жодного додаткового ліда.",
+		"mistakes": [
+			"Вкладати ще більше в залучення лідів, коли втрати відбуваються нижче: порівнюйте конверсію кожного етапу з минулими кварталами чи орієнтирами галузі й спершу виправляйте найслабший.",
+			"Рахувати кожну відкриту угоду за повною сумою: зважуйте її на історичну частку виграшу для її етапу й прибирайте угоди, що лежать без руху довше за звичайний цикл.",
+			"Визначати етапи тим, що зробив продавець («надіслав пропозицію»), а не тим, що зробив покупець («погодився на огляд»): правила переходу, прив’язані до дій покупця, роблять конверсію порівнянною в межах команди."
+		],
+		"selfCheck": [
+			{
+				"question": "Воронка А перетворює на клієнтів 10% із 1 000 лідів, воронка Б 25% із 300. Яка дає більше клієнтів і що варто дослідити?",
+				"answer": "А дає 100 клієнтів, Б 75, тож за обсягом виграє А, але вища конверсія Б вказує на краще кваліфіковане джерело лідів, яке варто масштабувати, якщо воно може рости."
+			},
+			{
+				"question": "Чому скорочення циклу продажу з 60 до 40 днів може збільшити виторг навіть за тієї ж частки виграних угод?",
+				"answer": "Швидкість воронки ділиться на тривалість циклу, тож ті самі угоди закриваються раніше, і команда за рік опрацьовує більше можливостей."
+			},
+			{
+				"question": "Після приходу нового продавця конверсія з демонстрації в пробний період у софтверній фірмі впала з 60% до 35%, а інші етапи не змінилися. Куди дивитися спершу?",
+				"answer": "На демонстрації цього продавця й ліди, які йому дісталися, бо падіння на одному етапі в однієї людини вказує на те, як цей етап проводять, а не на продукт чи маркетинг."
+			}
+		],
+		"origin": "Воронка продажів не має єдиного автора. Вона походить від послідовності AIDA (увага, інтерес, бажання, дія), яку пов’язують з американським рекламістом Е. Сент-Елмо Льюїсом приблизно 1898 року. Книгу Вільяма Таунсенда про продаж облігацій 1924 року часто називають першою, де покупців зображено як воронку, що звужується. Етапи угод, зважені прогнози й відстеження конверсії на кожному кроці стали звичною практикою з поширенням систем управління взаєминами з клієнтами (CRM) у 1990–2000-х роках.",
+		"core": "Продаж складається з ланцюжка окремих рішень покупця, а підсумок дорівнює добутку конверсій на всіх ланках. Оскільки показники перемножуються, підняття одного слабкого етапу з 20% до 25% збільшує загальний результат на чверть, так само як 25% додаткових лідів, але зазвичай значно дешевше. Рух від цілі з виторгу назад через конверсії підказує команді, скільки лідів і зустрічей потрібно цього місяця. Швидкість додає вимір часу: та сама воронка цінніша, коли угоди закриваються раніше.",
+		"components": "**Етапи:** кроки, визначені діями покупця, наприклад лід, кваліфікований лід, зустріч, пропозиція, переговори, угода виграна чи програна. **Конверсія етапу:** частка потенційних клієнтів, що переходять на наступний етап за період. **Загальна конверсія:** добуток конверсій усіх етапів. **Вартість воронки (pipeline value):** сума відкритих угод, бажано кожна зважена на ймовірність виграшу на її етапі. **Тривалість циклу продажу:** середня кількість днів від першого контакту до закриття. **Швидкість воронки:** кількість можливостей × частка виграшу × середній розмір угоди ÷ тривалість циклу, тобто виторг, що проходить через воронку щодня. **Витоки:** місця, де клієнти випадають, із записаними причинами програшу.",
+		"apply": "1) Визначте чотири–сім етапів із чіткими правилами входу й виходу, прив’язаними до дій покупця. 2) Вивантажте з CRM угоди за останні два–чотири квартали й порахуйте конверсію та середній час на кожному етапі. 3) Знайдіть етап із найнижчою конверсією або найдовшою затримкою порівняно з орієнтирами. 4) Поговоріть із клієнтами, втраченими на цьому етапі, щоб зрозуміти причини. 5) Змініть там одну річ, наприклад кваліфікаційні питання чи формат пропозиції, і стежте за наступною когортою. 6) Від цілі наступного кварталу порахуйте назад потрібну кількість лідів і зустрічей.",
+		"limitations": "Реальні покупки, особливо у B2B, рідко лінійні: комітети повертаються до попередніх кроків, а дехто приходить уже з готовим рішенням після місяців досліджень, яких воронка не бачила. Конверсії, пораховані на кількох десятках угод, сильно коливаються, тож один квартал може ввести в оману. Модель закінчується на продажу й ігнорує те, що далі, тому частина компаній замінила її петлями чи маховиками, де задоволені клієнти приводять нових. Тиск на конверсію на кожному етапі може також заохочувати агресивне закриття угод, яке згодом збільшує відтік."
+	}
+}

@@ -2,25 +2,64 @@
 	"slug": "value-chain-analysis",
 	"related": [
 		"porters-generic-strategies",
-		"resource-based-view",
-		"theory-of-constraints"
+		"transaction-cost-economics",
+		"core-competencies-theory",
+		"lean-management"
 	],
 	"en": {
-		"short": "Value Chain Analysis is a strategic framework for understanding how businesses compete and make decisions. A company creates value through connected activities; examining them reveals cost drivers and opportunities to stand out. It helps founders and managers replace assumptions with structured analysis.",
-		"origin": "Michael E. Porter introduced the value chain in Competitive Advantage (1985). Its historical context matters: the framework was designed to clarify strategic choices, not to guarantee business success. Modern applications should distinguish the original concept from later adaptations and teaching shortcuts.",
-		"core": "A company creates value through connected activities; examining them reveals cost drivers and opportunities to stand out. The goal is to make trade-offs explicit. A framework is useful when it changes what a team investigates, measures, or decides rather than merely giving familiar problems new labels.",
-		"components": "Primary activities: inbound logistics, operations, outbound logistics, marketing and sales, service. Support activities: infrastructure, human resources, technology development, procurement. Each component should be assessed separately, with a clear definition and supporting evidence. Relationships between components often matter as much as individual scores.",
-		"apply": "Draw the path from inputs to after-sales support. Estimate cost, time, defects, and customer value for each activity. Identify bottlenecks and distinctive capabilities. Improve high-impact links rather than cutting every cost equally. Start with one decision and a defined time horizon. Write down assumptions and evidence sources, invite a colleague to challenge the conclusions, and translate the analysis into a small set of actions with owners, deadlines, and measurable outcomes. Revisit the decision after new customer or market information arrives.",
-		"example": "An online furniture seller can improve delivery scheduling, installation, and returns. Those service activities may create more loyalty than another advertising campaign. This is an illustrative business scenario, not a claim about a particular company's internal strategy. A useful follow-up would compare two alternatives and estimate their impact on costs, customer retention, or revenue.",
-		"limitations": "Boundaries between activities are blurry in software and platforms. The analysis can overlook suppliers, partners, and customer co-creation if applied only inside the firm. Results depend on the quality of the input data and the boundaries chosen. Avoid treating a diagram or checklist as proof. Combine the model with experiments, financial calculations, and direct conversations with customers."
+		"short": "Value chain analysis breaks a company into the separate activities it performs, from receiving inputs to after-sales service, to see which ones create value for buyers and which ones drive cost. Advantage comes from doing particular activities cheaper or better than rivals, and from how well the activities are linked to each other.",
+		"example": "A specialty coffee roaster sells 4,000 kg a year at $30 per kg; total cost is $26 per kg. The owner splits the cost across the chain. **Inbound logistics:** green beans and import fees, $11. **Operations:** roasting and packing, $5. **Outbound logistics:** courier delivery of small bags, $6. **Marketing and sales:** ads and samples, $3. **Service:** replacing stale or damaged bags, $1. Outbound logistics is the surprise: 2-kg café orders cost almost as much to ship as 250-gram retail bags. Customer interviews show cafés pay for freshness, not for packaging. The roaster switches cafés to weekly 10-kg route deliveries, which cuts shipping to $2.50 per kg, and uses the saving to roast every order within 48 hours.",
+		"mistakes": [
+			"Mapping the departments on the org chart instead of activities: one department often performs several activities, so follow the flow of work and assign costs to each step.",
+			"Looking only at cost: an activity that costs more can be worth it if buyers pay for it, so record which activities customers actually notice.",
+			"Studying activities one by one and ignoring linkages: better purchasing can raise production costs, so check how a change in one step affects the others."
+		],
+		"selfCheck": [
+			{
+				"question": "An online furniture shop loses 9% of revenue on returns caused by damaged deliveries. Which primary activity should it examine first?",
+				"answer": "Outbound logistics, and its linkage to operations: packaging and handling before shipping usually cause the damage."
+			},
+			{
+				"question": "Why are human resources called a support activity?",
+				"answer": "Hiring and training do not touch the product directly, but they affect the cost and quality of every primary activity."
+			},
+			{
+				"question": "Two firms have identical activities. How can one still have an advantage?",
+				"answer": "Through linkages: coordinating activities, for example designing products that are cheaper to service, can lower total cost even when each step looks the same."
+			}
+		],
+		"origin": "Michael E. Porter introduced the value chain in his 1985 book Competitive Advantage: Creating and Sustaining Superior Performance. He wanted a practical way to trace where cost leadership or differentiation actually comes from inside a firm. He also described the wider value system, in which a company's chain connects to the chains of its suppliers, channels and buyers.",
+		"core": "A company is a collection of activities, and each one adds cost and may add value that buyers pay for. Margin is the difference between total value and the total cost of performing the activities. Breaking the firm into these pieces shows where its cost drivers lie and where it can be different. Because advantage sits in specific activities and their connections, rivals find it harder to copy than a single product feature.",
+		"components": "**Primary activities:** inbound logistics (receiving and storing inputs), operations (turning inputs into the product), outbound logistics (delivering it), marketing and sales, and service after the sale. **Support activities:** firm infrastructure (management, finance, planning), human resource management, technology development and procurement. **Margin:** what remains after the cost of all activities. **Linkages:** connections between activities, where coordination or trade-offs lower total cost or raise value. **Value system:** the chain of chains linking suppliers, the firm, channels and buyers.",
+		"apply": "1) Draw your activities in sequence and assign each to a primary or support category. 2) Allocate operating costs and assets to each activity. 3) Identify the cost driver of every activity, such as order size, scale or location. 4) Ask buyers which activities shape their willingness to pay. 5) Compare costs and quality per activity with a key rival, where data allow. 6) Redesign or outsource activities that cost more than the value they add, and invest in the ones that support your chosen strategy.",
+		"limitations": "The model was built for manufacturing and fits service, software and platform businesses less neatly, where value often comes from networks rather than a linear sequence. Allocating shared costs to activities is laborious and somewhat arbitrary. It focuses inside the firm and can understate how much value now depends on partners and ecosystems."
 	},
 	"ua": {
-		"short": "Аналіз ланцюга створення вартості — інструмент для обґрунтованих управлінських рішень. Компанія створює цінність через пов’язані види діяльності. Їхній аналіз показує джерела витрат і можливості відрізнятися від конкурентів. Він допомагає засновникам і керівникам перевіряти припущення та визначати пріоритети.",
-		"origin": "Майкл Портер представив ланцюг створення вартості у книжці Competitive Advantage (1985). Історичний контекст важливий: модель створена для пояснення стратегічних рішень, а не як гарантія успіху. Слід розрізняти первинну концепцію та її пізніші спрощення в навчальних матеріалах.",
-		"core": "Компанія створює цінність через пов’язані види діяльності. Їхній аналіз показує джерела витрат і можливості відрізнятися від конкурентів. Завдання — зробити вибір і компроміси зрозумілими. Інструмент корисний тоді, коли він змінює спосіб збору даних, оцінювання альтернатив або ухвалення рішень, а не просто додає нові назви до знайомих проблем.",
-		"components": "Основні види діяльності: вхідна логістика, операції, вихідна логістика, маркетинг і продажі, обслуговування. Допоміжні: інфраструктура, управління персоналом, розвиток технологій, закупівлі. Кожен елемент потрібно оцінювати окремо, спираючись на чіткі визначення й перевірені дані. Взаємозв’язки між елементами нерідко не менш важливі, ніж їхні окремі оцінки.",
-		"apply": "Намалюйте шлях від ресурсів до післяпродажного сервісу. Оцініть витрати, час, помилки й користь для клієнта на кожному етапі. Знайдіть вузькі місця та сильні сторони. Покращуйте найважливіші ланки, а не скорочуйте всі витрати однаково. Почніть з одного рішення та визначеного періоду планування. Запишіть припущення й джерела інформації, попросіть колег критично перевірити висновки. Перетворіть аналіз на кілька дій із відповідальними, строками та вимірюваними результатами. Поверніться до рішення після появи нових даних про клієнтів або ринок.",
-		"example": "Онлайн-продавець меблів може покращити графік доставки, монтаж і повернення. Саме ці операції іноді формують більше лояльності, ніж додаткова рекламна кампанія. Це навчальний сценарій, а не твердження про внутрішню стратегію конкретної компанії. Наступним кроком варто порівняти дві альтернативи й оцінити вплив на витрати, утримання клієнтів або дохід.",
-		"limitations": "У програмних продуктах і платформах межі між видами діяльності нечіткі. Аналіз може не врахувати постачальників, партнерів і внесок клієнтів, якщо дивитися лише на внутрішні процеси. Якість результату залежить від достовірності даних і правильно визначених меж аналізу. Схема чи контрольний список не є доказом. Поєднуйте модель з експериментами, фінансовими розрахунками та прямим спілкуванням із клієнтами."
+		"short": "Аналіз ланцюга створення вартості (value chain) розкладає компанію на окремі види діяльності, від отримання сировини до післяпродажного сервісу, щоб побачити, які з них створюють цінність для покупця, а які формують витрати. Перевага виникає, коли окремі процеси виконуються дешевше або краще, ніж у конкурентів, і коли вони добре пов’язані між собою.",
+		"example": "Обсмажувальня спешелті-кави продає 4 000 кг на рік по $30 за кг, а повна собівартість становить $26 за кг. Власниця розподіляє витрати за ланцюгом. **Вхідна логістика:** зелене зерно й імпортні платежі, $11. **Виробництво:** обсмаження та пакування, $5. **Вихідна логістика:** кур’єрська доставка дрібних пакунків, $6. **Маркетинг і продажі:** реклама та зразки, $3. **Сервіс:** заміна несвіжих чи пошкоджених пачок, $1. Несподіванкою стає вихідна логістика: доставка 2 кг для кав’ярні коштує майже стільки ж, скільки пачки по 250 г для роздрібу. Інтерв’ю з клієнтами показують, що кав’ярні платять за свіжість, а не за упаковку. Обсмажувальня переводить кав’ярні на щотижневі маршрутні поставки по 10 кг, що знижує доставку до $2,50 за кг, а заощаджене спрямовує на обсмаження кожного замовлення протягом 48 годин.",
+		"mistakes": [
+			"Малювати відділи з організаційної схеми замість видів діяльності: один відділ часто виконує кілька процесів, тому йдіть за потоком роботи й відносьте витрати до кожного кроку.",
+			"Дивитися лише на витрати: дорожчий процес може бути виправданим, якщо покупці за нього платять, тому позначайте, які процеси клієнти справді помічають.",
+			"Аналізувати процеси поодинці й ігнорувати зв’язки: вигідніші закупівлі можуть підвищити витрати виробництва, тож перевіряйте, як зміна в одному кроці впливає на інші."
+		],
+		"selfCheck": [
+			{
+				"question": "Інтернет-магазин меблів втрачає 9% виторгу на поверненнях через пошкоджені доставки. Яку основну діяльність варто перевірити першою?",
+				"answer": "Вихідну логістику та її зв’язок із виробництвом: пошкодження зазвичай спричиняють пакування й поводження з товаром перед відправленням."
+			},
+			{
+				"question": "Чому управління персоналом називають допоміжною діяльністю?",
+				"answer": "Найм і навчання не торкаються продукту напряму, але впливають на витрати та якість кожного основного процесу."
+			},
+			{
+				"question": "Дві фірми мають однакові процеси. Як одна з них може мати перевагу?",
+				"answer": "Завдяки зв’язкам: узгодження процесів, наприклад проєктування продуктів, які дешевше обслуговувати, знижує загальні витрати, навіть коли кожен крок виглядає так само."
+			}
+		],
+		"origin": "Майкл Портер запропонував ланцюг створення вартості в книзі «Competitive Advantage: Creating and Sustaining Superior Performance» (1985). Він шукав практичний спосіб простежити, звідки всередині фірми насправді беруться лідерство за витратами чи диференціація. Портер також описав ширшу систему вартості, у якій ланцюг компанії з’єднується з ланцюгами постачальників, каналів збуту та покупців.",
+		"core": "Компанія є сукупністю видів діяльності, і кожен додає витрати, а також може додавати цінність, за яку платить покупець. Маржа дорівнює різниці між загальною цінністю та сукупними витратами на ці процеси. Розклад фірми на частини показує, де лежать чинники витрат і де можна відрізнитися. Оскільки перевага закладена в конкретних процесах і зв’язках між ними, конкурентам її скопіювати важче, ніж окрему функцію продукту.",
+		"components": "**Основна діяльність:** вхідна логістика (отримання та зберігання ресурсів), виробництво (перетворення ресурсів на продукт), вихідна логістика (доставка), маркетинг і продажі та післяпродажний сервіс. **Допоміжна діяльність:** інфраструктура фірми (управління, фінанси, планування), управління персоналом, розвиток технологій і закупівлі. **Маржа:** те, що залишається після витрат на всі процеси. **Зв’язки:** взаємодія між процесами, де координація чи компроміси знижують загальні витрати або підвищують цінність. **Система вартості:** ланцюг ланцюгів, що поєднує постачальників, фірму, канали збуту та покупців.",
+		"apply": "1) Намалюйте свої процеси послідовно й віднесіть кожен до основних чи допоміжних. 2) Розподіліть операційні витрати й активи між процесами. 3) Визначте чинник витрат кожного процесу, наприклад розмір замовлення, масштаб чи розташування. 4) Запитайте покупців, які процеси впливають на їхню готовність платити. 5) Порівняйте витрати та якість кожного процесу з ключовим конкурентом, якщо є дані. 6) Перебудуйте або передайте на аутсорс процеси, що коштують більше, ніж додають цінності, і вкладайте в ті, що підтримують обрану стратегію.",
+		"limitations": "Модель створено для виробництва, тому до сервісних, програмних і платформних бізнесів вона пасує гірше: там цінність часто виникає з мереж, а не з лінійної послідовності. Розподіл спільних витрат між процесами трудомісткий і певною мірою довільний. Модель зосереджена всередині фірми й може недооцінювати, наскільки цінність сьогодні залежить від партнерів та екосистем."
 	}
 }

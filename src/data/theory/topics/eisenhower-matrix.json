@@ -1,27 +1,65 @@
 {
 	"slug": "eisenhower-matrix",
 	"related": [
-		"okrs",
-		"balanced-scorecard",
-		"pdca-cycle"
+		"pareto-principle",
+		"bounded-rationality",
+		"opportunity-cost",
+		"decision-matrix"
 	],
 	"en": {
-		"short": "Eisenhower Matrix offers a practical lens for understanding management choices and their consequences. It helps leaders make decisions more deliberately, while recognizing that context and evidence matter.",
-		"origin": "Dwight D. Eisenhower is associated with the distinction between urgent and important work; Stephen Covey popularized the four-quadrant time-management matrix in his 1989 book. Eisenhower did not publish this exact modern template. The historical background matters because this framework is a practical interpretation of research and managerial experience, not an immutable law. Check which version is being discussed before applying terminology.",
-		"core": "Prioritize work by separating importance, meaning contribution to long-term goals, from urgency, meaning time pressure. A deadline can make a task urgent without making it valuable. Its value lies in making assumptions explicit. Instead of treating a familiar management habit as automatically correct, leaders can compare alternatives and explain the reasons for their choices.",
-		"components": "Four quadrants: important and urgent—do; important but not urgent—schedule; urgent but not important—delegate where possible; neither—eliminate or limit. Review decisions as circumstances change. The categories are useful prompts for discussion. They should be interpreted alongside evidence from the actual team, customers, or operating environment rather than used as rigid labels.",
-		"apply": "List actual commitments, assign each a measurable business outcome and a real deadline, classify them, and protect calendar time for important nonurgent work. Recheck classifications weekly with the team. Start with one specific decision and establish a baseline. Agree who owns the action, what information is needed, when results will be reviewed, and what would justify changing course.",
-		"example": "A software founder handles a production outage immediately, schedules customer interviews, delegates routine meeting coordination, and drops unnecessary dashboard polishing. The matrix makes trade-offs visible rather than automatic. The practical lesson is to connect the framework to observable behavior and business outcomes. A useful application should produce a clearer decision or a testable change, not merely a diagram.",
-		"limitations": "Importance is subjective; some urgent requests cannot be delegated. Overusing the matrix may ignore dependencies, emotional load, or the value of exploration. It is a prioritization aid, not a complete project plan. Avoid treating the model as a substitute for data, ethical judgment, or conversations with affected people. Revisit assumptions whenever goals, constraints, or incentives change."
+		"short": "The Eisenhower Matrix sorts tasks by two separate questions, is it important and is it urgent, because a deadline makes a task loud without making it valuable. That gives four boxes: do now, schedule, delegate and drop. Its main job is to protect the important but non-urgent work that otherwise loses to every ringing phone.",
+		"example": "Iryna owns a wedding photography studio with one assistant, and her Monday list has 40 hours of work for a 30-hour week. **Urgent and important:** finish editing a gallery due to a couple tomorrow under contract (6 hours). **Important, not urgent:** build referral deals with three wedding venues, since next year's bookings are 20% below this year's, and refresh the portfolio site (10 hours). **Urgent, not important:** answer vendor emails, confirm album samples and chase a print lab invoice (8 hours), which her assistant can handle. **Neither:** re-sort five years of old hard drives (16 hours). She edits the gallery first, hands the 8 hours of admin to her assistant, drops the archive project and blocks Tuesday and Thursday mornings for the venue deals.",
+		"mistakes": [
+			"Treating every request from a client or boss as important: urgency comes from the clock, importance from your goals, so ask what the task changes in three months.",
+			"Leaving the \"schedule\" box as a wish list: important work without a calendar slot keeps losing to urgent work, so give it a fixed time block.",
+			"Delegating important work just because it is unpleasant: delegate tasks that matter less to your goals, and keep the hard, high-value ones even when they are uncomfortable."
+		],
+		"selfCheck": [
+			{
+				"question": "A manager spends most days in the urgent-and-important box, putting out fires. What does the matrix suggest?",
+				"answer": "Many fires come from neglected important work, such as training or fixing broken processes, so time spent in the \"schedule\" box should shrink the fire box later."
+			},
+			{
+				"question": "Why is \"reply to all unread email by noon\" usually not important, even if it feels urgent?",
+				"answer": "Most messages serve someone else's priorities; only those linked to your own goals belong in the important half."
+			},
+			{
+				"question": "A small task takes two minutes and is low value but urgent for a colleague. Must it be delegated?",
+				"answer": "Not necessarily. When handing it over costs more time than doing it, a quick finish is the practical choice; the matrix is a guide, not a rule."
+			}
+		],
+		"origin": "In a 1954 speech Dwight D. Eisenhower quoted a former college president who distinguished urgent problems from important ones, noting that the two rarely coincide. Eisenhower never drew the grid. Stephen Covey turned the distinction into a four-quadrant time-management matrix in his 1989 book The 7 Habits of Highly Effective People, where Quadrant II, important but not urgent, is the heart of effective work.",
+		"core": "People respond to time pressure more readily than to value, so urgent tasks crowd out important ones that have no deadline: planning, relationships, prevention and skills. Rating the two dimensions separately exposes that bias. Important work done early also prevents many future emergencies, so moving time into the scheduled box gradually shrinks the crisis box. The matrix makes the cost of every \"yes\" visible.",
+		"components": "**Do (urgent and important):** crises and hard deadlines tied to real goals; handle them now. **Schedule (important, not urgent):** planning, prevention, learning and relationship building; book a time for them. **Delegate (urgent, not important):** interruptions and requests that matter to others; hand them over or batch them. **Delete (neither):** busywork and distractions; drop or limit them. **Importance test:** a task counts as important only if it moves a stated goal.",
+		"apply": "1) List everything competing for your week, including recurring meetings. 2) Write your two or three goals for the quarter at the top of the page. 3) Mark each task important only if it advances one of them, and urgent only if delay causes real harm within days. 4) Place tasks in the four boxes and estimate hours for each. 5) Book calendar blocks for the scheduled box before the week fills up. 6) Hand off or batch the delegate box and remove the delete box from your list.",
+		"limitations": "The matrix assumes you can judge importance clearly, which is hard when goals are vague or conflicting. Many people, especially junior staff, have nobody to delegate to. Two yes-or-no ratings ignore effort, so a two-hour important task and a two-week one look alike. It organizes an individual's list but says little about team priorities or dependencies, and its popularity rests on practical appeal rather than research on outcomes."
 	},
 	"ua": {
-		"short": "«Матриця Ейзенхауера» допомагає системно оцінювати управлінські рішення та їхні наслідки. Підхід корисний для керівників, якщо враховувати обставини й перевіряти припущення на практиці.",
-		"origin": "Двайту Ейзенхауеру приписують розрізнення термінових і важливих справ; Стівен Кові популяризував матрицю з чотирьох секторів у книжці 1989 року. Сам Ейзенхауер не публікував сучасний шаблон. Історичний контекст важливий: модель є практичним узагальненням досліджень і управлінського досвіду, а не незмінним законом. Перед застосуванням варто уточнити, про яку версію йдеться.",
-		"core": "Розставляйте пріоритети, відокремлюючи важливість для довгострокових цілей від терміновості, тобто часового тиску. Близький дедлайн не робить справу стратегічно цінною. Користь підходу — у відкритому обговоренні припущень. Замість автоматично повторювати звичні рішення керівник може порівняти альтернативи й пояснити свій вибір.",
-		"components": "Чотири сектори: важливе й термінове — виконати; важливе й нетермінове — запланувати; термінове й неважливе — за можливості делегувати; неважливе й нетермінове — прибрати або обмежити. Категорії допомагають ставити правильні запитання. Їх слід зіставляти з даними про конкретну команду, клієнтів і робоче середовище, а не перетворювати на жорсткі ярлики.",
-		"apply": "Запишіть усі зобов’язання, визначте результат і реальний строк кожного, розподіліть за секторами й виділіть у календарі час на важливу нетермінову роботу. Переглядайте пріоритети щотижня. Почніть з одного рішення й зафіксуйте початковий стан. Призначте відповідального, визначте потрібні дані, дату перевірки та умови, за яких варто змінити підхід.",
-		"example": "Засновник ІТ-компанії негайно усуває збій сервісу, планує інтерв’ю з клієнтами, делегує організацію зустрічей і відмовляється від зайвого полірування панелі показників. Головний урок — пов’язувати модель зі спостережуваною поведінкою та результатами бізнесу. Вдале застосування дає зрозуміліше рішення або перевірювану зміну, а не просто схему.",
-		"limitations": "Важливість суб’єктивна, а частину термінових завдань не можна делегувати. Матриця не враховує всі залежності, навантаження та користь експериментів; це допоміжний інструмент, а не повний план. Не замінюйте моделлю дані, етичні міркування та розмови із зацікавленими людьми. Перевіряйте припущення щоразу, коли змінюються цілі, обмеження або стимули.",
-		"checklist": "Перш ніж поширювати підхід на всю компанію, випробуйте його в невеликому проєкті, зберіть відгуки виконавців і порівняйте результат із початковими показниками. Залишайте корисне й змінюйте те, що не працює."
+		"short": "Матриця Ейзенхауера сортує справи за двома окремими питаннями: чи це важливо і чи це терміново, бо дедлайн робить завдання гучним, але не цінним. Виходить чотири клітинки: зробити зараз, запланувати, делегувати й відкинути. Головне завдання матриці: захистити важливу, але нетермінову роботу, яка інакше програє кожному телефонному дзвінку.",
+		"example": "Ірина має весільну фотостудію з однією асистенткою, і в її понеділковому списку 40 годин роботи на 30-годинний тиждень. **Терміново й важливо:** закінчити обробку галереї, яку за договором треба віддати парі завтра (6 годин). **Важливо, не терміново:** домовитися про рекомендації з трьома весільними локаціями, бо бронювань на наступний рік на 20% менше, ніж цього, і оновити сайт-портфоліо (10 годин). **Терміново, не важливо:** відповісти постачальникам, підтвердити зразки альбомів і нагадати друкарні про рахунок (8 годин); це може зробити асистентка. **Ні те, ні інше:** пересортувати старі жорсткі диски за п’ять років (16 годин). Ірина спершу обробляє галерею, передає 8 годин адміністрування асистентці, відмовляється від архіву й резервує ранки вівторка та четверга для переговорів із локаціями.",
+		"mistakes": [
+			"Вважати важливим кожне прохання клієнта чи керівника: терміновість задає годинник, а важливість ваші цілі, тож питайте, що ця справа змінить через три місяці.",
+			"Залишати клітинку «запланувати» списком побажань: важлива робота без місця в календарі постійно програє терміновій, тому дайте їй фіксований блок часу.",
+			"Делегувати важливу роботу лише тому, що вона неприємна: передавайте справи, менш вагомі для ваших цілей, а складні й цінні залишайте собі, навіть коли вони незручні."
+		],
+		"selfCheck": [
+			{
+				"question": "Керівник більшість днів проводить у клітинці «терміново й важливо», гасячи пожежі. Що підказує матриця?",
+				"answer": "Багато пожеж спричиняє занедбана важлива робота, як-от навчання чи виправлення зламаних процесів, тож час у клітинці «запланувати» з часом зменшить кількість криз."
+			},
+			{
+				"question": "Чому «відповісти на всі непрочитані листи до обіду» зазвичай не важливо, хоч і здається терміновим?",
+				"answer": "Більшість листів служить чужим пріоритетам; до важливої половини належать лише ті, що пов’язані з вашими цілями."
+			},
+			{
+				"question": "Дрібна справа займає дві хвилини, мало що дає, але колезі потрібна терміново. Її обов’язково делегувати?",
+				"answer": "Не обов’язково. Коли передача забирає більше часу, ніж виконання, простіше зробити самому; матриця є орієнтиром, а не законом."
+			}
+		],
+		"origin": "У промові 1954 року Двайт Ейзенхауер процитував колишнього президента коледжу, який розрізняв термінові й важливі проблеми й зауважував, що вони рідко збігаються. Самої таблиці Ейзенхауер не малював. Стівен Кові перетворив це розрізнення на матрицю з чотирьох квадрантів у книзі «The 7 Habits of Highly Effective People» (1989), де квадрант II, важливе, але нетермінове, названо серцевиною ефективної роботи.",
+		"core": "Люди охочіше реагують на тиск часу, ніж на цінність, тож термінові справи витісняють важливі без дедлайну: планування, стосунки, профілактику й навички. Окрема оцінка двох вимірів робить це упередження видимим. До того ж важлива робота, зроблена заздалегідь, запобігає багатьом майбутнім надзвичайним ситуаціям, тому перенесення часу в клітинку «запланувати» поступово зменшує клітинку криз. Матриця показує ціну кожного «так».",
+		"components": "**Зробити (терміново й важливо):** кризи й жорсткі дедлайни, пов’язані зі справжніми цілями; беріться за них негайно. **Запланувати (важливо, не терміново):** планування, профілактика, навчання й побудова стосунків; виділіть для них час. **Делегувати (терміново, не важливо):** переривання й запити, важливі для інших; передайте їх або згрупуйте. **Відкинути (ні те, ні інше):** зайва метушня й відволікання; приберіть їх або обмежте. **Тест важливості:** справа важлива лише тоді, коли просуває записану ціль.",
+		"apply": "1) Випишіть усе, що претендує на ваш тиждень, зокрема регулярні зустрічі. 2) Угорі сторінки запишіть дві-три цілі на квартал. 3) Позначайте справу важливою, лише якщо вона просуває одну з цих цілей, а терміновою, лише якщо зволікання за кілька днів завдасть реальної шкоди. 4) Розкладіть справи по чотирьох клітинках і оцініть години для кожної. 5) Забронюйте в календарі блоки для клітинки «запланувати», поки тиждень не заповнився. 6) Передайте або згрупуйте справи для делегування й викресліть ті, що треба відкинути.",
+		"limitations": "Матриця припускає, що важливість легко оцінити, а це складно, коли цілі розмиті чи суперечливі. Багатьом людям, особливо молодшим працівникам, нема кому делегувати. Дві оцінки «так чи ні» ігнорують обсяг зусиль, тож важлива справа на дві години й на два тижні виглядають однаково. Матриця впорядковує особистий список, але мало каже про пріоритети команди чи залежності між завданнями, а її популярність тримається на зручності, а не на дослідженнях результатів."
 	}
 }

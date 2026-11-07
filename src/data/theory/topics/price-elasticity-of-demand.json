@@ -1,28 +1,65 @@
 {
 	"slug": "price-elasticity-of-demand",
 	"related": [
-		"marginal-cost-and-marginal-revenue",
 		"pricing-strategy-theories",
-		"supply-and-demand"
+		"marginal-cost-and-marginal-revenue",
+		"supply-and-demand",
+		"anchoring-effect"
 	],
 	"en": {
-		"short": "Price elasticity of demand measures how strongly quantity demanded changes when price changes. It helps businesses anticipate whether a price increase is likely to reduce sales volume enough to hurt revenue.",
-		"origin": "The concept grew from nineteenth-century economic analysis; Alfred Marshall formalized and popularized elasticity in *Principles of Economics* (1890). Earlier economists also studied demand responses.",
-		"core": "Elasticity compares percentage changes, making sensitivity comparable across products and price levels. Demand usually falls when price rises, but the size of the response varies.",
-		"components": "Price elasticity is percentage change in quantity demanded divided by percentage change in price, holding other relevant factors constant. Absolute elasticity above one is called elastic; below one, inelastic; equal to one, unit elastic. Substitutes, necessity, budget share and time horizon affect sensitivity. The midpoint method is useful for discrete changes.",
-		"apply": "Collect price, units sold, promotions and competitor information over time. Avoid confusing seasonal demand changes with price effects. Where feasible, run randomized price tests or use credible natural experiments. Estimate elasticity by segment and price range, not only as one permanent number. Model expected revenue and contribution margin at candidate prices. Check fairness, customer trust and legal requirements before deployment.",
-		"example": "If a 10% price rise coincides with a 15% fall in units, a rough elasticity is −1.5. That suggests elastic demand, but the observation alone does not establish causation because other factors may have changed.",
-		"limitations": "Elasticity is not fixed across prices, customers or time. Correlation can mislead when promotions, supply or competitors change. Revenue optimization differs from profit optimization.",
-		"checklist": "Record the starting assumption, the data source and the decision owner before making changes. Separate leading indicators from business outcomes, and choose a review date. Where results differ across customer groups, inspect the differences instead of averaging them away. Document what was learned so future decisions can reuse the evidence."
+		"short": "Price elasticity of demand measures how much the quantity customers buy changes when the price changes: the percentage change in quantity divided by the percentage change in price. When demand is elastic (above 1 in absolute value), a price rise loses revenue; when it is inelastic, a price rise gains revenue. Knowing which side you are on takes the guesswork out of pricing.",
+		"example": "An online coffee roaster sells 2,000 bags a month at $15. For a random half of new visitors it raises the price to $16.50 (+10%), while the rest still see $15. **Quantity response:** the test group buys 4% fewer bags. **Elasticity:** −4% / +10% = −0.4, so demand is inelastic. **Revenue:** 1,920 bags × $16.50 = $31,680, against $30,000 before. **Profit:** each bag costs $7 in beans, roasting and packaging, so monthly contribution rises from $16,000 to $18,240. The roaster moves everyone to the new price, but tracks subscribers separately, because their cancellations react to price more slowly than one-off orders do.",
+		"mistakes": [
+			"Reading elasticity from a before-and-after comparison while a promotion, the season or a competitor's price changed at the same time: run a randomised price test or control for those factors.",
+			"Treating one elasticity figure as permanent: it differs by customer segment, price range and time horizon, so estimate it separately and test again after big market changes.",
+			"Cutting price because demand is elastic without checking margin: extra volume can lift revenue and still lower profit when each unit carries a thin contribution."
+		],
+		"selfCheck": [
+			{
+				"question": "A gym raises its monthly fee by 20% and loses 5% of its members. Is demand elastic, and what happened to revenue?",
+				"answer": "Elasticity is about −0.25, so demand is inelastic and revenue rose by roughly 14% (1.2 × 0.95 = 1.14)."
+			},
+			{
+				"question": "Why is demand for petrol more elastic over five years than over five weeks?",
+				"answer": "Over years drivers can buy efficient cars, move closer to work or switch to public transport, so substitutes appear that do not exist in the short run."
+			},
+			{
+				"question": "Why is demand for one brand of bottled water far more elastic than demand for bottled water as a whole?",
+				"answer": "Shoppers can swap to another brand on the same shelf at no cost, while giving up bottled water entirely means changing a habit."
+			}
+		],
+		"origin": "The Cambridge economist Alfred Marshall formalised elasticity of demand in Principles of Economics (1890), defining it through proportional changes so that sensitivity could be compared across goods measured in different units. Earlier, in 1838, Antoine Augustin Cournot had already treated demand as a mathematical function of price. Marshall's terms elastic and inelastic became the standard vocabulary of economists and pricing teams.",
+		"core": "Because elasticity compares percentage changes, it removes units and lets a manager compare a $2 coffee with a $2,000 laptop. Revenue is price times quantity, and elasticity tells you which effect wins when price moves: if quantity changes by a larger percentage than price (|E| > 1), revenue moves opposite to price; if by a smaller one (|E| < 1), revenue moves with price. Demand is less elastic when substitutes are few, the product is a necessity, it takes a small share of the budget or buyers have little time to adjust.",
+		"components": "**Formula:** percentage change in quantity demanded divided by percentage change in price; the result is usually negative, so analysts often quote the absolute value. **Elastic demand:** absolute value above 1; price cuts raise revenue. **Inelastic demand:** below 1; price rises raise revenue. **Unit elasticity:** exactly 1; revenue stays flat. **Midpoint (arc) method:** divides each change by the average of the old and new values, so a rise and a fall give the same answer. **Determinants:** substitutes, necessity, budget share, time horizon and how narrowly the product is defined. **Cross-price elasticity:** how demand for one product reacts to another's price, which separates substitutes from complements.",
+		"apply": "1) Pick one product and one customer segment. 2) Gather price and unit data, flagging promotions, stock-outs, holidays and competitor moves. 3) Prefer a controlled test that shows different prices to randomly split customers, regions or weeks. 4) Compute elasticity with the midpoint method for each segment. 5) Model revenue and contribution margin at several candidate prices, not revenue alone. 6) Roll the change out gradually and measure again, since elasticity shifts as competitors respond.",
+		"limitations": "Elasticity is a local measurement: a figure found between $15 and $16.50 may not hold at $20. Observational data mixes the price effect with everything else that changed, and randomised price tests can anger customers who discover they paid more. The concept assumes buyers react to price alone, while reference prices, perceived fairness and anchoring make reactions jump around round numbers. It also ignores competitors, whose response can erase the volume a price cut was meant to win."
 	},
 	"ua": {
-		"short": "Цінова еластичність попиту показує, наскільки змінюється кількість покупок у відповідь на зміну ціни. Вона допомагає оцінити, чи підвищення ціни збільшить виручку, чи втрати обсягу продажів переважать.",
-		"origin": "Поняття розвивалося в економіці XIX століття. Альфред Маршалл систематизував і популяризував еластичність у праці *Principles of Economics* (1890), хоча попередники теж вивчали реакцію попиту.",
-		"core": "Показник порівнює відсоткову зміну попиту з відсотковою зміною ціни. Тому можна оцінювати чутливість різних товарів незалежно від їхньої номінальної вартості.",
-		"components": "Цінова еластичність попиту (price elasticity of demand) дорівнює відсотковій зміні кількості покупок, поділеній на відсоткову зміну ціни за інших незмінних умов. За абсолютного значення понад одиницю попит еластичний, менше одиниці — нееластичний. На реакцію впливають замінники, необхідність товару, частка витрат у бюджеті та час на адаптацію.",
-		"apply": "Зберіть дані про ціни, обсяг продажів, акції та конкурентів. Відокремте сезонність від впливу ціни. За можливості проведіть контрольований експеримент. Оцініть еластичність окремо для сегментів і цінових діапазонів. Порівняйте прогнозовану виручку та маржинальний прибуток за різних цін. Перед змінами врахуйте довіру покупців і правові вимоги.",
-		"example": "Якщо ціна зросла на 10%, а кількість продажів упала на 15%, приблизна еластичність становить −1,5. Це свідчить про чутливий попит, але саме спостереження не доводить, що причиною була лише ціна.",
-		"limitations": "Еластичність змінюється залежно від клієнта, періоду та рівня ціни. Акції, дефіцит і дії конкурентів спотворюють оцінку. Найбільша виручка не обов’язково означає найбільший прибуток.",
-		"checklist": "Зафіксуйте початкове припущення, джерело даних і відповідального за рішення. Розділяйте проміжні показники та кінцевий бізнес-результат. Встановіть дату перегляду. Якщо результати відрізняються між групами клієнтів, дослідіть причини, а не приховуйте їх середнім значенням. Зберігайте висновки для наступних рішень."
+		"short": "Цінова еластичність попиту показує, наскільки змінюється кількість купленого товару, коли змінюється ціна: це відсоткова зміна обсягу, поділена на відсоткову зміну ціни. Якщо попит еластичний (за модулем більше 1), підвищення ціни зменшує виторг; якщо нееластичний, підвищення ціни виторг збільшує. Знаючи, на якому боці ви перебуваєте, ціну можна встановлювати без здогадок.",
+		"example": "Онлайн-обсмажувальня кави продає 2 000 пачок на місяць по $15. Для випадково вибраної половини нових відвідувачів вона піднімає ціну до $16,50 (+10%), а решта й далі бачить $15. **Реакція обсягу:** тестова група купує на 4% менше пачок. **Еластичність:** −4% / +10% = −0,4, тобто попит нееластичний. **Виторг:** 1 920 пачок × $16,50 = $31 680 проти $30 000 раніше. **Прибуток:** пачка коштує $7 (зерно, обсмаження, пакування), тож місячний маржинальний дохід зростає з $16 000 до $18 240. Обсмажувальня переводить усіх на нову ціну, але окремо стежить за передплатниками, бо їхні відмови реагують на ціну повільніше, ніж разові замовлення.",
+		"mistakes": [
+			"Визначати еластичність порівнянням «до і після», коли водночас діяла акція, змінився сезон чи ціни конкурента: проводьте рандомізований ціновий тест або враховуйте ці чинники.",
+			"Вважати одне значення еластичності незмінним: воно різне для сегментів, цінових діапазонів і горизонтів часу, тому оцінюйте його окремо й повторюйте тест після великих змін на ринку.",
+			"Знижувати ціну лише тому, що попит еластичний, не перевіривши маржу: додатковий обсяг може збільшити виторг і водночас зменшити прибуток, якщо кожна одиниця приносить мало."
+		],
+		"selfCheck": [
+			{
+				"question": "Спортзал підняв місячний абонемент на 20% і втратив 5% клієнтів. Попит еластичний, і що сталося з виторгом?",
+				"answer": "Еластичність близько −0,25, отже попит нееластичний, а виторг зріс приблизно на 14% (1,2 × 0,95 = 1,14)."
+			},
+			{
+				"question": "Чому попит на бензин еластичніший на горизонті п’яти років, ніж п’яти тижнів?",
+				"answer": "За кілька років водії можуть купити економніше авто, переїхати ближче до роботи чи пересісти на громадський транспорт, тобто з’являються замінники, яких у короткому періоді немає."
+			},
+			{
+				"question": "Чому попит на одну марку питної води значно еластичніший, ніж на бутильовану воду загалом?",
+				"answer": "Покупець без жодних витрат бере іншу марку з тієї ж полиці, а повна відмова від бутильованої води вимагає змінити звичку."
+			}
+		],
+		"origin": "Кембриджський економіст Альфред Маршалл формалізував еластичність попиту в книзі «Principles of Economics» (1890), визначивши її через пропорційні зміни, щоб чутливість різних товарів можна було порівнювати незалежно від одиниць виміру. Ще 1838 року Антуан Огюстен Курно описував попит як математичну функцію ціни. Маршаллові терміни «еластичний» і «нееластичний» стали стандартною лексикою економістів і фахівців з ціноутворення.",
+		"core": "Еластичність порівнює відсоткові зміни, тому прибирає одиниці виміру й дає змогу зіставити каву за $2 і ноутбук за $2 000. Виторг дорівнює ціні, помноженій на кількість, і еластичність показує, який ефект переважить: якщо кількість змінюється на більший відсоток, ніж ціна (|E| > 1), виторг рухається протилежно до ціни; якщо на менший (|E| < 1), то разом із нею. Попит менш еластичний, коли замінників мало, товар є необхідністю, займає малу частку бюджету або покупці не мають часу пристосуватися.",
+		"components": "**Формула:** відсоткова зміна обсягу попиту, поділена на відсоткову зміну ціни; результат зазвичай від’ємний, тому часто наводять модуль. **Еластичний попит:** модуль більший за 1; зниження ціни збільшує виторг. **Нееластичний попит:** модуль менший за 1; підвищення ціни збільшує виторг. **Одинична еластичність:** рівно 1; виторг не змінюється. **Метод середньої точки (arc elasticity):** кожну зміну ділять на середнє між старим і новим значенням, тож підвищення й зниження ціни дають однакову відповідь. **Чинники:** замінники, необхідність товару, частка в бюджеті, горизонт часу і те, наскільки вузько визначено продукт. **Перехресна еластичність:** реакція попиту на один товар на ціну іншого, яка відрізняє замінники від доповнювальних товарів.",
+		"apply": "1) Виберіть один продукт і один сегмент клієнтів. 2) Зберіть дані про ціни й продажі, позначивши акції, відсутність товару, свята й дії конкурентів. 3) Краще проведіть контрольований тест, показавши різні ціни випадково розподіленим клієнтам, регіонам чи тижням. 4) Порахуйте еластичність методом середньої точки для кожного сегмента. 5) Змоделюйте виторг і маржинальний дохід за кількох можливих цін, а не лише виторг. 6) Запроваджуйте зміну поступово й вимірюйте знову, бо з реакцією конкурентів еластичність зсувається.",
+		"limitations": "Еластичність є локальним виміром: значення, отримане між $15 і $16,50, може не діяти при $20. Спостережні дані змішують вплив ціни з усім іншим, що змінилося, а рандомізовані тести можуть розсердити клієнтів, які дізнаються, що заплатили більше. Концепція припускає, що покупці реагують лише на ціну, хоча референтні ціни, відчуття справедливості та ефект якоря дають стрибки реакції біля круглих сум. Вона також ігнорує конкурентів, чия відповідь може звести нанівець обсяг, заради якого знижували ціну."
 	}
 }

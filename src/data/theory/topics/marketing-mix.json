@@ -1,26 +1,65 @@
 {
 	"slug": "marketing-mix",
 	"related": [
-		"stp",
 		"pricing-strategy-theories",
+		"stp",
+		"customer-journey-mapping",
 		"positioning-theory"
 	],
 	"en": {
-		"short": "Marketing decisions must fit together across the offer, price, distribution and promotion; services also depend on people, processes and physical evidence. It matters because it helps founders choose where to invest, what to measure, and which risks to check before scaling.",
-		"origin": "E. Jerome McCarthy presented the 4Ps in 1960; Bernard Booms and Mary Bitner proposed the service-oriented 7Ps in 1981. It is best treated as a framework for examining decisions, not a guarantee that a particular business outcome will occur.",
-		"core": "Marketing decisions must fit together across the offer, price, distribution and promotion; services also depend on people, processes and physical evidence. The useful question is not simply whether the concept exists, but which mechanism actually changes costs, customer behavior, or competitive advantage in the specific market. Managers should identify observable evidence before making a major investment.",
-		"components": "Product; Price; Place; Promotion; plus People; Process; Physical Evidence. These elements interact rather than operating independently. A change that improves one element can weaken another, so teams should map relationships, choose measurable indicators, and distinguish assumptions from facts. Market conditions and customer segments can change the strength of each element.",
-		"apply": "Start by defining the customer, market boundary and business objective. Document the current process and collect baseline evidence from interviews, transaction records or experiments. Identify the two or three variables with the largest likely effect. Design a limited test, assign an owner and choose a decision date. Compare results against a credible alternative, including costs and unintended consequences. Scale the approach only when the evidence supports it; review the assumptions regularly. Record the result in a simple decision log so the team can learn from unsuccessful tests as well as successful ones.",
-		"example": "A local gym aligns class packages, monthly fees, online booking, advertising, instructor training and studio cleanliness. A manager can track customer acquisition, repeat use, gross margin and support workload before and after the change. If one metric improves while another deteriorates, the team should investigate the trade-off rather than declaring the experiment successful.",
-		"limitations": "The framework simplifies reality and can hide regulation, market power, cultural differences and operational constraints. Correlation is not proof of causation; success stories often omit failed attempts. Avoid treating the concept as an automatic growth formula. Test whether it applies to the actual product, customers and time horizon, and monitor whether the assumptions still hold."
+		"short": "The marketing mix lists the decisions a company controls when it takes an offer to market: product, price, place and promotion, plus people, process and physical evidence for services. Its value lies in consistency: a premium product sold through discount channels with bargain advertising confuses buyers. Each P must support the same target customer and positioning.",
+		"example": "A children's swimming school wants to fill 120 new places for autumn. **Product:** small groups of 4 instead of the city's usual 10. **Price:** $90 a month, 30% above the municipal pool, justified by group size. **Place:** two rented pools within 10 minutes of three large housing estates. **Promotion:** flyers at kindergartens and a free trial lesson. **People:** coaches with lifeguard certificates who speak to parents after each class. **Process:** online booking and a progress card every four weeks. **Physical evidence:** a heated changing room and a viewing gallery for parents. After the first month, 95 places are filled, but trial-to-signup conversion is only 40% at one pool where parents cannot watch. The school installs a viewing window there before spending more on promotion.",
+		"mistakes": [
+			"Setting each P in a different department with no shared target: the result is a mix that contradicts itself, so fix the target customer and positioning first and check every P against them.",
+			"Treating marketing as promotion only: price, distribution and product design often move sales more than advertising, so review all elements before raising the ad budget.",
+			"Using only the 4Ps for a service: in a salon or a clinic, staff behaviour, waiting times and the look of the premises shape the purchase, so add people, process and physical evidence."
+		],
+		"selfCheck": [
+			{
+				"question": "A craft chocolate maker charges $12 a bar but sells mainly in petrol stations. Which P undermines the others?",
+				"answer": "Place: the channel signals convenience and low price, so it clashes with the premium product and price."
+			},
+			{
+				"question": "Why did services need three extra Ps?",
+				"answer": "Services are produced and consumed at the same time, so the people delivering them, the steps the customer goes through and the visible surroundings become part of the product."
+			},
+			{
+				"question": "Sales of a new gym fall after a competitor opens. Should the owner start with promotion?",
+				"answer": "Not by default. First compare all Ps with the rival, because the gap may be price, location or staff rather than awareness."
+			}
+		],
+		"origin": "Neil Borden of Harvard Business School popularised the term \"marketing mix\" from the late 1940s and described it in a 1964 article, crediting colleague James Culliton with the image of the marketer as a mixer of ingredients. E. Jerome McCarthy grouped the ingredients into the 4Ps in his 1960 textbook Basic Marketing. In 1981 Bernard Booms and Mary Jo Bitner proposed three extra Ps for services: people, process and physical evidence.",
+		"core": "Customers react to the whole offer, not to one decision. Each P sends a signal about quality and value, and the signals add up only when they point the same way. The mix turns a positioning statement into concrete choices a team can carry out and check. Changing one P usually forces a change in another: a lower price may require a cheaper channel, and a premium product may require trained staff.",
+		"components": "**Product:** features, quality, design, range and packaging. **Price:** list price, discounts, payment terms and price relative to rivals. **Place:** channels, locations, coverage and logistics. **Promotion:** advertising, sales, public relations and digital content. **People:** everyone who meets the customer, and their skills and attitude. **Process:** the steps, waiting times and systems through which the service is delivered. **Physical evidence:** premises, uniforms, website, receipts and other tangible cues that reduce the risk of buying something intangible.",
+		"apply": "1) Write down the target segment and the position you want to hold. 2) Describe your current choice for each P in one or two lines. 3) Mark every P that sends a signal different from the position. 4) Compare your mix with the closest competitor's, P by P. 5) Change the weakest P first and measure the effect on a single sales metric before adjusting another.",
+		"limitations": "The 4Ps take the seller's point of view; Robert Lauterborn proposed the 4Cs (customer needs, cost, convenience, communication) in 1990 to put the buyer first. The list says what to decide but not how to choose between options. Critics also argue that it underplays long-term relationships, digital communities and the role of customers in creating value."
 	},
 	"ua": {
-		"short": "Маркетингові рішення мають узгоджувати продукт, ціну, канали продажу й просування; для послуг важливі також люди, процеси та матеріальні свідчення якості. Цей підхід допомагає засновникам визначити пріоритети, вимірювати результат і вчасно помічати ризики.",
-		"origin": "Е. Джером Маккарті представив модель 4P у 1960 році; Бернард Бумс і Мері Бітнер запропонували розширення 7P для послуг у 1981 році. Це насамперед інструмент для аналізу управлінських рішень, а не обіцянка певного результату.",
-		"core": "Маркетингові рішення мають узгоджувати продукт, ціну, канали продажу й просування; для послуг важливі також люди, процеси та матеріальні свідчення якості. Важливо не просто назвати явище, а зрозуміти механізм його впливу на витрати, поведінку клієнтів і конкурентні переваги. Перед значними інвестиціями керівнику варто перевірити припущення на реальних даних.",
-		"components": "Продукт (Product); ціна (Price); місце продажу (Place); просування (Promotion); а також люди (People), процес (Process), матеріальні свідчення (Physical Evidence). Ці складові взаємодіють між собою, тому поліпшення одного показника може погіршити інший. Команда має описати зв’язки, визначити вимірювані показники та відокремити факти від припущень. Сила кожного чинника залежить від ринку, сегмента клієнтів і часу.",
-		"apply": "Спочатку визначте цільову аудиторію, межі ринку та конкретну бізнес-мету. Опишіть поточний процес і зберіть початкові дані з розмов із клієнтами, продажів або невеликих експериментів. Оберіть два-три чинники, що можуть найбільше вплинути на результат. Заплануйте обмежений тест, призначте відповідального та дату оцінювання. Порівняйте результат з альтернативою, враховуючи витрати й небажані наслідки. Масштабуйте рішення лише за наявності доказів; регулярно переглядайте припущення. Заносьте висновки в журнал рішень, щоб команда навчалася і на вдалих, і на невдалих перевірках.",
-		"example": "Місцевий спортзал узгоджує абонементи, місячну плату, онлайн-запис, рекламу, навчання тренерів і чистоту приміщення. Керівник може порівняти вартість залучення клієнта, повторні покупки, валову маржу та навантаження на підтримку до і після змін. Якщо один показник покращився, а інший погіршився, потрібно дослідити компроміс, а не одразу оголошувати успіх.",
-		"limitations": "Модель спрощує дійсність і може не враховувати регулювання, ринкову владу, культурні відмінності та операційні обмеження. Збіг показників не доводить причинно-наслідкового зв’язку; історії успіху часто замовчують невдалі спроби. Не сприймайте концепцію як універсальну формулу зростання. Перевіряйте її доречність для конкретного продукту, клієнтів і періоду."
+		"short": "Маркетинговий комплекс (marketing mix) перелічує рішення, які компанія контролює, виводячи пропозицію на ринок: продукт, ціна, місце й просування, а для послуг ще персонал, процес і фізичне оточення. Його цінність у послідовності: преміальний продукт у дискаунтері з рекламою «дешевше не буває» збиває покупців з пантелику. Кожне P має працювати на того самого цільового клієнта й ту саму позицію.",
+		"example": "Дитяча школа плавання хоче заповнити 120 нових місць на осінь. **Продукт:** групи по 4 дитини замість звичних у місті 10. **Ціна:** $90 на місяць, на 30% дорожче за міський басейн, що виправдано розміром груп. **Місце:** два орендовані басейни за 10 хвилин від трьох великих житлових масивів. **Просування:** листівки в дитсадках і безкоштовне пробне заняття. **Персонал:** тренери із сертифікатами рятувальників, які після заняття говорять із батьками. **Процес:** онлайн-запис і картка прогресу кожні чотири тижні. **Фізичне оточення:** тепла роздягальня й галерея для батьків. Після першого місяця заповнено 95 місць, але в басейні, де батьки не бачать заняття, з пробного уроку записуються лише 40%. Школа ставить там оглядове вікно, перш ніж витрачати більше на просування.",
+		"mistakes": [
+			"Визначати кожне P в іншому відділі без спільної цілі: виходить комплекс, що суперечить сам собі, тому спершу зафіксуйте цільового клієнта й позицію й перевіряйте кожне P на відповідність.",
+			"Зводити маркетинг до просування: ціна, канали збуту й дизайн продукту часто впливають на продажі сильніше за рекламу, тому перегляньте всі елементи, перш ніж збільшувати рекламний бюджет.",
+			"Обмежуватися 4P для послуг: у салоні чи клініці поведінка персоналу, час очікування й вигляд приміщення визначають покупку, тож додайте персонал, процес і фізичне оточення."
+		],
+		"selfCheck": [
+			{
+				"question": "Крафтовий шоколатьє продає плитку за $12, але переважно на автозаправках. Яке P підриває решту?",
+				"answer": "Місце: канал сигналізує зручність і низьку ціну, тож суперечить преміальному продукту й ціні."
+			},
+			{
+				"question": "Навіщо послугам знадобилися три додаткові P?",
+				"answer": "Послугу створюють і споживають одночасно, тому люди, які її надають, кроки клієнта й видиме оточення стають частиною продукту."
+			},
+			{
+				"question": "Продажі нового спортзалу впали після відкриття конкурента. Чи варто власнику почати з просування?",
+				"answer": "Не обов’язково. Спершу порівняйте з конкурентом усі P, бо розрив може бути в ціні, розташуванні чи персоналі, а не в упізнаваності."
+			}
+		],
+		"origin": "Ніл Борден із Гарвардської школи бізнесу популяризував термін «маркетинговий комплекс» з кінця 1940-х і описав його в статті 1964 року, згадавши колегу Джеймса Каллітона, який порівняв маркетолога з тим, хто змішує інгредієнти. Е. Джером Маккарті згрупував інгредієнти в 4P у підручнику «Basic Marketing» (1960). У 1981 році Бернард Бумс і Мері Джо Бітнер запропонували для послуг три додаткові P: персонал, процес і фізичне оточення.",
+		"core": "Клієнти реагують на пропозицію загалом, а не на окреме рішення. Кожне P подає сигнал про якість і цінність, і сигнали підсилюють одне одного лише тоді, коли вказують в одному напрямку. Комплекс перетворює формулювання позиції на конкретні рішення, які команда може виконати й перевірити. Зміна одного P зазвичай вимагає змінити інше: нижча ціна може потребувати дешевшого каналу, а преміальний продукт навченого персоналу.",
+		"components": "**Продукт (product):** функції, якість, дизайн, асортимент і упаковка. **Ціна (price):** базова ціна, знижки, умови оплати й ціна порівняно з конкурентами. **Місце (place):** канали, точки продажу, охоплення й логістика. **Просування (promotion):** реклама, продажі, зв’язки з громадськістю й цифровий контент. **Персонал (people):** усі, хто контактує з клієнтом, їхні навички й ставлення. **Процес (process):** кроки, час очікування й системи, через які надається послуга. **Фізичне оточення (physical evidence):** приміщення, форма, сайт, чеки та інші відчутні ознаки, що зменшують ризик купівлі чогось нематеріального.",
+		"apply": "1) Запишіть цільовий сегмент і позицію, яку хочете зайняти. 2) Опишіть поточне рішення за кожним P одним-двома рядками. 3) Позначте кожне P, сигнал якого відрізняється від позиції. 4) Порівняйте свій комплекс із комплексом найближчого конкурента, P за P. 5) Спершу змініть найслабше P і виміряйте ефект на одному показнику продажів, перш ніж коригувати наступне.",
+		"limitations": "4P дивляться з погляду продавця; у 1990 році Роберт Лаутерборн запропонував 4C (потреби клієнта, витрати, зручність, комунікація), щоб поставити покупця на перше місце. Перелік каже, що вирішувати, але не як вибирати між варіантами. Критики також вважають, що він недооцінює довгострокові стосунки, цифрові спільноти й роль клієнтів у створенні цінності."
 	}
 }

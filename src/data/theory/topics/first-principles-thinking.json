@@ -1,26 +1,65 @@
 {
 	"slug": "first-principles-thinking",
 	"related": [
+		"disruptive-innovation-theory",
 		"second-order-thinking",
-		"lean-startup",
-		"opportunity-cost"
+		"jobs-to-be-done",
+		"unit-economics"
 	],
 	"en": {
-		"short": "First Principles Thinking explains a recurring pattern in business decisions and management. It matters because recognizing that pattern can help teams evaluate alternatives more carefully and avoid preventable mistakes.",
-		"origin": "The approach traces to classical philosophy, notably Aristotle’s discussion of first principles; its modern business use has no single inventor. This is the historical attribution most commonly used in business education. It is important to distinguish the original formulation from later popular explanations and practical adaptations.",
-		"core": "Break a problem into basic facts and constraints, then rebuild a solution from them instead of copying existing conventions. The framework is a way to improve judgment, not a mechanical rule that guarantees success. It helps teams make their assumptions explicit and discuss why a decision might work in a particular setting.",
-		"components": "Problem definition; assumptions; fundamental constraints; evidence; decomposition; reconstruction; testing. These elements interact rather than operate independently. A change in one factor can alter the importance of the others, so a useful analysis records the context and does not treat the categories as a fixed checklist.",
-		"apply": "State the desired outcome precisely. List assumptions and separate verified facts from habits. Ask which constraints are physical, legal or economic and which are merely conventional. Generate alternatives from the remaining fundamentals and test the cheapest plausible version. Assign an owner and a date for reviewing the decision. Record what evidence supports the assumptions, what remains uncertain and which measurable signals would show that the chosen approach is failing. Start with a small test when consequences are reversible.",
-		"example": "A delivery startup asks whether every order truly needs a dedicated courier, then experiments with pickup points and consolidated routes rather than copying competitors. The point of the scenario is not that the same answer works for every organization. Different budgets, regulations, customer expectations and team capabilities can change the preferred action. A manager should compare the scenario with local evidence before acting.",
-		"limitations": "Rebuilding everything is expensive. Established practices often encode hard-won knowledge; ignoring regulations, domain expertise or user habits can produce worse solutions. Avoid turning a descriptive concept into a universal prescription. People and markets differ, and an apparently convincing story may omit important constraints. Combine the framework with measurement, critical review and other relevant theories."
+		"short": "First principles thinking breaks a problem down to the facts that are known to be true, such as physical limits, material costs or a customer's basic need, and rebuilds the solution from there instead of copying how things are usually done. It often reveals that an accepted cost or constraint is a habit of the industry, not a law, which opens room for a cheaper or better design.",
+		"example": "A natural cosmetics maker sells 20,000 jars of face cream a year at $24, and packaging costs $4.10 per unit, more than the cream itself. **Convention:** suppliers say premium cream needs a glass jar, a printed box and a leaflet. **Decompose:** the basic requirements are protecting the cream from air and light, showing ingredients by law and looking good on a shelf. **Fundamental costs:** an airless aluminium tube costs $0.90, a printed label $0.15 and the legal text fits on the tube. **Rebuild:** the tube alone protects the cream better than an open jar, and the box mostly serves retail display. The company moves online orders, 70% of volume, to tubes without boxes at $1.05 per unit, saving about $43,000 a year, and keeps jars for gift sets in shops.",
+		"mistakes": [
+			"Calling a brainstorm \"first principles\" without checking facts: the method only works if each basic element is verified, so look up real material costs, laws and customer data.",
+			"Discarding all existing knowledge: many industry practices exist for good reasons such as safety or regulation, so test why a convention exists before removing it.",
+			"Using the method for every small decision: rebuilding from scratch is slow, so reserve it for large costs or stuck problems where copying competitors gives the same poor result."
+		],
+		"selfCheck": [
+			{
+				"question": "A courier firm assumes each van needs a full-time driver because \"that is how delivery works\". How would first principles thinking approach this?",
+				"answer": "It would ask what the customer actually needs, a parcel delivered within a time window, and then examine options such as pickup lockers or shared routes from that need."
+			},
+			{
+				"question": "Why is reasoning by analogy faster but riskier than reasoning from first principles?",
+				"answer": "Analogy copies solutions that worked elsewhere, which saves time but also imports their hidden assumptions and costs."
+			},
+			{
+				"question": "Which is a first principle for a bakery's pricing: \"competitors charge $5 a loaf\" or \"flour, energy and labour cost $1.60 a loaf\"?",
+				"answer": "The cost of inputs, because it is a fact about the product itself, while the competitor's price is a convention that may not fit your situation."
+			}
+		],
+		"origin": "Aristotle described first principles as the basic propositions from which other knowledge is derived and which cannot themselves be deduced from anything more basic. René Descartes later proposed doubting every belief that could be doubted and rebuilding knowledge from what remained. In business the idea was popularised in the 2010s by Elon Musk, who described using it to question the cost of batteries and rockets by comparing finished prices with the cost of raw materials.",
+		"core": "Most decisions are made by analogy: people do what others did, slightly adjusted. This is efficient but locks in the assumptions of the past. First principles thinking separates the facts that must hold (physics, chemistry, law, the customer's underlying need) from the conventions layered on top of them. Once the conventions are visible, each can be kept, changed or dropped, and the solution is rebuilt from the verified parts, often at a very different cost.",
+		"components": "**Problem statement:** a clear description of the goal, not of the current solution. **Assumptions:** the beliefs and conventions currently taken for granted. **Fundamental truths:** facts that are verified and cannot be reduced further, such as material prices or legal requirements. **Decomposition:** breaking the product, process or cost into its basic elements. **Reconstruction:** designing a new solution from those elements. **Validation:** testing the new solution in practice, because reasoning alone can miss hidden constraints.",
+		"apply": "1) Describe the outcome you need in terms of the customer's need, not the existing product. 2) List every assumption about how it must be done. 3) Break the cost or process into components and find the real price or limit of each. 4) Ask which assumptions are laws of nature or regulation and which are habits. 5) Design an alternative from the verified parts. 6) Test it on a small scale before committing.",
+		"limitations": "The approach is slow and demands expertise, since you must know enough to tell a true constraint from a convention. It can lead to underestimating the hidden value of established practices, such as reliability built over decades. Popular accounts stress dramatic successes and rarely mention the failures. It works best for engineering and cost problems and less well for questions dominated by human preferences and culture."
 	},
 	"ua": {
-		"short": "«Мислення від першооснов» пояснює важливу закономірність у бізнес-рішеннях та управлінні. Розуміння цього підходу допомагає командам краще оцінювати варіанти й уникати типових помилок.",
-		"origin": "Підхід бере початок у класичній філософії, зокрема в міркуваннях Арістотеля про першооснови; у сучасному бізнесі він не має одного автора. Це найпоширеніше історичне пояснення в бізнес-освіті. Важливо розрізняти первинне формулювання, пізніші популярні інтерпретації та практичні адаптації для менеджменту.",
-		"core": "Розкладіть проблему на базові факти й обмеження, а потім побудуйте рішення заново, не копіюючи звичні практики. Цей підхід допомагає краще міркувати, але не є автоматичним правилом успіху. Він дозволяє команді відкрито обговорити припущення та пояснити, чому рішення може спрацювати саме в її умовах.",
-		"components": "Формулювання проблеми; припущення; фундаментальні обмеження; докази; декомпозиція; нове рішення; перевірка. Складові взаємодіють, а не існують окремо. Зміна одного чинника може вплинути на значення інших, тому варто враховувати контекст, а не сприймати перелік як незмінний контрольний список.",
-		"apply": "Точно сформулюйте бажаний результат. Запишіть припущення й відокремте перевірені факти від звичок. З’ясуйте, які обмеження фізичні, юридичні чи економічні, а які лише традиційні. Створіть альтернативи з базових умов і перевірте найдешевшу реалістичну версію. Призначте відповідального та дату перегляду рішення. Зафіксуйте докази, невизначені припущення й вимірювані сигнали того, що підхід не працює. Якщо наслідки можна скасувати, почніть із невеликого тесту.",
-		"example": "Стартап доставки запитує, чи кожне замовлення справді потребує окремого кур’єра, і тестує пункти видачі та об’єднані маршрути замість копіювання конкурентів. Приклад не означає, що такий самий вибір підійде кожній організації. Бюджет, законодавство, очікування клієнтів і можливості команди можуть змінити правильне рішення. Перед дією зіставте сценарій зі своїми даними.",
-		"limitations": "Переосмислювати все з нуля дорого. Усталені практики часто містять цінний досвід; ігнорування правил, експертних знань чи звичок користувачів може погіршити результат. Не перетворюйте описову концепцію на універсальну інструкцію. Люди й ринки різняться, а переконлива історія може приховувати важливі обмеження. Поєднуйте підхід із вимірюваннями, критичним аналізом та іншими теоріями."
+		"short": "Мислення від першооснов розкладає проблему до фактів, що точно відомі як істинні, як-от фізичні обмеження, вартість матеріалів чи базова потреба клієнта, і збирає рішення наново, а не копіює те, як зазвичай роблять. Часто воно показує, що прийнята витрата чи обмеження це звичка галузі, а не закон, і відкриває місце для дешевшого або кращого рішення.",
+		"example": "Виробник натуральної косметики продає 20 000 баночок крему для обличчя на рік по $24, а пакування коштує $4,10 за одиницю, більше, ніж сам крем. **Звичай:** постачальники кажуть, що преміальному крему потрібні скляна баночка, друкована коробка й вкладиш. **Розкладання:** базові вимоги полягають у захисті крему від повітря й світла, наведенні складу за законом і гарному вигляді на полиці. **Фундаментальні витрати:** безповітряна алюмінієва туба коштує $0,90, друкована етикетка $0,15, а юридичний текст поміщається на тубі. **Нова збірка:** сама туба захищає крем краще за відкриту баночку, а коробка здебільшого потрібна для вітрини. Компанія переводить онлайн-замовлення, тобто 70% обсягу, на туби без коробок за $1,05 за одиницю, заощаджуючи близько $43 000 на рік, а баночки залишає для подарункових наборів у магазинах.",
+		"mistakes": [
+			"Називати мозковий штурм «першоосновами», не перевіряючи фактів: метод працює, лише якщо кожен базовий елемент підтверджено, тож з'ясуйте реальні ціни матеріалів, норми закону й дані про клієнтів.",
+			"Відкидати все наявне знання: багато галузевих практик існують із вагомих причин, як-от безпека чи регулювання, тож перевірте, навіщо існує звичай, перш ніж його прибирати.",
+			"Застосовувати метод до кожного дрібного рішення: збирати все з нуля довго, тож залиште його для великих витрат або задач, що застрягли, де копіювання конкурентів дає той самий слабкий результат."
+		],
+		"selfCheck": [
+			{
+				"question": "Кур'єрська фірма вважає, що кожному фургону потрібен водій на повний день, бо «так працює доставка». Як підійти до цього від першооснов?",
+				"answer": "Запитати, що насправді потрібно клієнтові, а саме посилка в певний проміжок часу, і вже від цієї потреби розглянути варіанти на кшталт поштоматів чи спільних маршрутів."
+			},
+			{
+				"question": "Чому міркування за аналогією швидше, але ризикованіше, ніж від першооснов?",
+				"answer": "Аналогія копіює рішення, що спрацювали деінде, це заощаджує час, але переносить і їхні приховані припущення та витрати."
+			},
+			{
+				"question": "Що є першоосновою для ціни в пекарні: «конкуренти беруть $5 за хлібину» чи «борошно, енергія і праця коштують $1,60 за хлібину»?",
+				"answer": "Вартість складових, бо це факт про сам продукт, а ціна конкурента це звичай, що може не пасувати вашій ситуації."
+			}
+		],
+		"origin": "Аристотель описував першооснови як базові положення, з яких виводиться інше знання і які самі не можна вивести з чогось глибшого. Пізніше Рене Декарт запропонував сумніватися в кожному переконанні, в якому можна сумніватися, і будувати знання наново з того, що залишилося. У бізнесі ідею популяризував у 2010-х роках Ілон Маск, який розповідав, як ставив під сумнів вартість батарей і ракет, порівнюючи ціну готового виробу з вартістю сировини.",
+		"core": "Більшість рішень ухвалюють за аналогією: роблять те саме, що й інші, з невеликими змінами. Це ефективно, але закріплює припущення минулого. Мислення від першооснов відокремлює факти, що мусять виконуватися (фізика, хімія, закон, глибинна потреба клієнта), від звичаїв, нашарованих зверху. Щойно звичаї стають видимими, кожен можна залишити, змінити або відкинути, а рішення збирається наново з перевірених частин, часто з зовсім іншою вартістю.",
+		"components": "**Постановка задачі:** чіткий опис мети, а не поточного рішення. **Припущення:** переконання й звичаї, які зараз сприймаються як належне. **Фундаментальні істини:** перевірені факти, які далі не розкладаються, як-от ціни матеріалів чи вимоги закону. **Розкладання:** поділ продукту, процесу чи витрат на базові елементи. **Нова збірка:** проєктування нового рішення з цих елементів. **Перевірка:** випробування рішення на практиці, бо самі міркування можуть пропустити приховані обмеження.",
+		"apply": "1) Опишіть потрібний результат через потребу клієнта, а не через наявний продукт. 2) Запишіть усі припущення про те, як це «має» робитися. 3) Розкладіть витрати чи процес на складові й знайдіть реальну ціну або межу кожної. 4) З'ясуйте, які припущення є законами природи чи регулювання, а які звичками. 5) Спроєктуйте альтернативу з перевірених частин. 6) Випробуйте її в малому масштабі, перш ніж братися за все.",
+		"limitations": "Підхід повільний і вимагає експертизи, адже треба знати досить, щоб відрізнити справжнє обмеження від звичаю. Він може призвести до недооцінки прихованої цінності усталених практик, як-от надійності, напрацьованої десятиліттями. Популярні історії наголошують на гучних успіхах і рідко згадують провали. Метод найкраще працює для інженерних задач і задач про витрати і гірше для питань, де домінують людські вподобання й культура."
 	}
 }

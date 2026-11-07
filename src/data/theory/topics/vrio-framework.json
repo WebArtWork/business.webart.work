@@ -3,24 +3,63 @@
 	"related": [
 		"core-competencies-theory",
 		"resource-based-view",
-		"economic-moats"
+		"economic-moats",
+		"swot-analysis"
 	],
 	"en": {
-		"short": "VRIO Framework is a strategic framework for understanding how businesses compete and make decisions. VRIO tests whether a resource can create competitive advantage and whether the organization can capture its value. It helps founders and managers replace assumptions with structured analysis.",
-		"origin": "Jay Barney developed the resource evaluation logic in his 1991 research; the familiar VRIO formulation appeared in later strategic-management teaching and publications. Its historical context matters: the framework was designed to clarify strategic choices, not to guarantee business success. Modern applications should distinguish the original concept from later adaptations and teaching shortcuts.",
-		"core": "VRIO tests whether a resource can create competitive advantage and whether the organization can capture its value. The goal is to make trade-offs explicit. A framework is useful when it changes what a team investigates, measures, or decides rather than merely giving familiar problems new labels.",
-		"components": "Value; rarity; imitability (difficulty of imitation); organization. Each component should be assessed separately, with a clear definition and supporting evidence. Relationships between components often matter as much as individual scores.",
-		"apply": "List strategic resources. Ask four questions for each: does it create value, is it rare, is it costly to imitate, and is the business organized to exploit it? Collect evidence, compare rivals, and prioritize investments or organizational fixes. Start with one decision and a defined time horizon. Write down assumptions and evidence sources, invite a colleague to challenge the conclusions, and translate the analysis into a small set of actions with owners, deadlines, and measurable outcomes. Revisit the decision after new customer or market information arrives.",
-		"example": "A logistics startup owns a unique routing algorithm. If competitors can reproduce it quickly, its advantage may be temporary; if the company also lacks reliable operations, even strong software will not deliver value. This is an illustrative business scenario, not a claim about a particular company's internal strategy. A useful follow-up would compare two alternatives and estimate their impact on costs, customer retention, or revenue.",
-		"limitations": "Judgments about rarity and imitation are uncertain and time-dependent. A checklist cannot substitute for customer evidence or execution. Results depend on the quality of the input data and the boundaries chosen. Avoid treating a diagram or checklist as proof. Combine the model with experiments, financial calculations, and direct conversations with customers."
+		"short": "VRIO runs a resource through four questions in order: is it valuable, rare, costly to imitate, and is the company organised to exploit it? Each \"no\" tells you what the resource is worth competitively, from a disadvantage to parity, a temporary edge or a sustained advantage.",
+		"example": "A craft brewery with $2.1 million in sales tests three resources. **Brewing equipment:** valuable, but every rival can lease the same tanks, so it is not rare and gives only parity. **Taproom location** by a busy riverside park: valuable and rare, but a new bar opening next door in 2026 could copy the setting, so it gives a temporary advantage. **Head brewer's wild-yeast library**, collected from local orchards over 11 years: valuable (its sour beers sell at $9 a can against $5 for regular beers), rare, and hard to copy because the strains and know-how cannot be bought. **Organisation:** the sours are made in batches of 300 cans and sold only at the taproom. The resource passes V, R and I but fails O, so the brewery hires a distribution manager and contracts 25 specialty shops.",
+		"mistakes": [
+			"Asking the questions in any order: if a resource fails \"valuable\", rarity and imitability do not matter, so stop at the first \"no\".",
+			"Judging imitability by whether rivals could copy it eventually: almost anything can be copied, so ask whether copying would cost them clearly more time or money than it cost you.",
+			"Forgetting the \"O\": an excellent resource the company does not deploy through processes, incentives and structure earns nothing, so check who owns it and how it reaches customers."
+		],
+		"selfCheck": [
+			{
+				"question": "A hotel's sea-view rooms are valuable and rare, and new hotels cannot be built nearby because of zoning. What does VRIO predict?",
+				"answer": "A sustained advantage, provided the hotel prices and markets the rooms well; zoning makes the location costly to imitate."
+			},
+			{
+				"question": "Why does a valuable but common resource still matter?",
+				"answer": "Without it the firm would be at a disadvantage; it gives competitive parity, the entry ticket to the market."
+			},
+			{
+				"question": "A firm's customer data is valuable, rare and hard to copy, but no one analyses it. What is the outcome?",
+				"answer": "An unused advantage: the resource fails the organisation test, so its potential is not captured."
+			}
+		],
+		"origin": "Jay B. Barney's 1991 article \"Firm Resources and Sustained Competitive Advantage\" proposed that resources produce sustained advantage when they are valuable, rare, imperfectly imitable and non-substitutable (VRIN). In his later work and textbooks in the 1990s Barney reframed this as VRIO, folding substitutability into imitability and adding the question of organisation.",
+		"core": "Owning a resource is not enough; its competitive worth depends on how it compares with what rivals have and whether the firm can use it. Asking the four questions in sequence links each answer to a predicted outcome, so managers can see which assets actually support advantage and which only keep the firm in the game. Costly imitation is the key to durability: it often comes from unique history, causal ambiguity or social complexity.",
+		"components": "**Value:** the resource lets the firm exploit an opportunity or neutralise a threat, raising revenue or lowering cost. **Rarity:** few current or potential rivals hold it. **Imitability:** competitors without it face a significant cost disadvantage in obtaining or substituting it. **Organisation:** processes, structure, systems and incentives let the firm capture the value. **Outcomes:** not valuable means a disadvantage; valuable but common means parity; valuable and rare means a temporary advantage; adding costly imitation and organisation means a sustained advantage.",
+		"apply": "1) Select resources and capabilities that leaders believe drive results. 2) For each, state how it adds value in money terms. 3) Count competitors that have something equivalent. 4) Estimate what it would cost a rival in time and money to build or substitute it. 5) Check the organisation: owner, processes and incentives. 6) Record the outcome for each, then invest in sustained ones, fix the organisation gaps and stop overvaluing parity resources.",
+		"limitations": "The answers are subjective, and managers tend to overrate their own resources. VRIO evaluates resources one at a time, while advantage often comes from combinations. It describes a moment and ignores how quickly markets erode rarity, and it says little about how to build new resources. Scoring \"organisation\" is vague and can mask the real problem."
 	},
 	"ua": {
-		"short": "Модель VRIO — інструмент для обґрунтованих управлінських рішень. VRIO перевіряє, чи може ресурс створити конкурентну перевагу та чи здатна організація отримати від нього користь. Він допомагає засновникам і керівникам перевіряти припущення та визначати пріоритети.",
-		"origin": "Джей Барні розвинув логіку оцінювання ресурсів у дослідженні 1991 року; звична форма VRIO закріпилася в пізніших навчальних і наукових матеріалах зі стратегічного менеджменту. Історичний контекст важливий: модель створена для пояснення стратегічних рішень, а не як гарантія успіху. Слід розрізняти первинну концепцію та її пізніші спрощення в навчальних матеріалах.",
-		"core": "VRIO перевіряє, чи може ресурс створити конкурентну перевагу та чи здатна організація отримати від нього користь. Завдання — зробити вибір і компроміси зрозумілими. Інструмент корисний тоді, коли він змінює спосіб збору даних, оцінювання альтернатив або ухвалення рішень, а не просто додає нові назви до знайомих проблем.",
-		"components": "Цінність (Value); рідкісність (Rarity); складність імітації (Imitability); організаційна готовність (Organization). Кожен елемент потрібно оцінювати окремо, спираючись на чіткі визначення й перевірені дані. Взаємозв’язки між елементами нерідко не менш важливі, ніж їхні окремі оцінки.",
-		"apply": "Перелічіть стратегічні ресурси. Для кожного запитайте: чи створює він цінність, чи є рідкісним, чи важко його скопіювати і чи готова компанія ним скористатися? Зберіть докази, порівняйте конкурентів і визначте пріоритетні інвестиції або зміни в управлінні. Почніть з одного рішення та визначеного періоду планування. Запишіть припущення й джерела інформації, попросіть колег критично перевірити висновки. Перетворіть аналіз на кілька дій із відповідальними, строками та вимірюваними результатами. Поверніться до рішення після появи нових даних про клієнтів або ринок.",
-		"example": "Логістичний стартап має незвичний алгоритм маршрутизації. Якщо конкуренти швидко його повторять, перевага буде тимчасовою. А без надійних операцій навіть сильне програмне рішення не принесе очікуваної користі. Це навчальний сценарій, а не твердження про внутрішню стратегію конкретної компанії. Наступним кроком варто порівняти дві альтернативи й оцінити вплив на витрати, утримання клієнтів або дохід.",
-		"limitations": "Оцінки рідкісності й складності копіювання залежать від часу та містять невизначеність. Контрольний список не замінює даних про клієнтів і якісного виконання. Якість результату залежить від достовірності даних і правильно визначених меж аналізу. Схема чи контрольний список не є доказом. Поєднуйте модель з експериментами, фінансовими розрахунками та прямим спілкуванням із клієнтами."
+		"short": "Модель VRIO перевіряє ресурс чотирма послідовними запитаннями: чи він цінний, чи рідкісний, чи дорого його імітувати і чи організована компанія так, щоб ним скористатися? Кожне «ні» показує його конкурентну вагу: від відставання до паритету, тимчасової чи стійкої переваги.",
+		"example": "Крафтова пивоварня з продажами $2,1 млн перевіряє три ресурси. **Обладнання для пивоваріння:** цінне, але кожен конкурент може взяти в лізинг такі самі танки, тож воно не рідкісне й дає лише паритет. **Тапрум** біля людного парку на березі річки: цінний і рідкісний, але новий бар поруч у 2026 році може повторити атмосферу, тож перевага тимчасова. **Бібліотека диких дріжджів головного пивовара**, яку він збирав у місцевих садах 11 років: цінна (кислі сорти продаються по $9 за банку проти $5 за звичайне пиво), рідкісна й важка для копіювання, бо штами та знання не купиш. **Організація:** кислі сорти варять партіями по 300 банок і продають лише в тапрумі. Ресурс проходить V, R та I, але не проходить O, тож пивоварня наймає менеджера з дистрибуції й укладає договори з 25 спеціалізованими магазинами.",
+		"mistakes": [
+			"Ставити запитання в довільному порядку: якщо ресурс не цінний, рідкісність і складність імітації не мають значення, тому зупиняйтеся на першому «ні».",
+			"Оцінювати складність імітації за тим, чи зможуть конкуренти колись її повторити: скопіювати можна майже все, тому питайте, чи обійдеться це їм помітно дорожче за часом або грошима, ніж вам.",
+			"Забувати про «O»: чудовий ресурс, який компанія не використовує через процеси, стимули й структуру, нічого не заробляє, тому перевірте, хто ним опікується і як він доходить до клієнтів."
+		],
+		"selfCheck": [
+			{
+				"question": "Номери з видом на море в готелі цінні й рідкісні, а нові готелі поруч будувати заборонено правилами забудови. Що прогнозує VRIO?",
+				"answer": "Стійку перевагу, якщо готель добре встановлює ціни й просуває ці номери; обмеження забудови роблять локацію дорогою для імітації."
+			},
+			{
+				"question": "Чому цінний, але поширений ресурс усе одно важливий?",
+				"answer": "Без нього фірма відставала б; він забезпечує конкурентний паритет, тобто квиток на ринок."
+			},
+			{
+				"question": "Дані фірми про клієнтів цінні, рідкісні й важкі для копіювання, але їх ніхто не аналізує. Який результат?",
+				"answer": "Невикористана перевага: ресурс не проходить перевірку організацією, тому його потенціал не реалізується."
+			}
+		],
+		"origin": "Джей Барні у статті «Firm Resources and Sustained Competitive Advantage» (1991) запропонував, що ресурси дають стійку перевагу, коли вони цінні, рідкісні, недосконало імітовані й не мають замінників (VRIN). У пізніших працях і підручниках 1990-х років Барні переформулював це як VRIO: поєднав замінність зі складністю імітації та додав питання організації.",
+		"core": "Самого володіння ресурсом недостатньо: його конкурентна вага залежить від того, що мають суперники, і від того, чи вміє фірма його використати. Послідовні запитання пов’язують кожну відповідь із прогнозованим результатом, тож керівники бачать, які активи справді підтримують перевагу, а які лише тримають фірму в грі. Ключ до тривалості переваги в дорогій імітації, яка часто виникає з унікальної історії, причинної неоднозначності чи соціальної складності.",
+		"components": "**Цінність (value):** ресурс дає змогу скористатися можливістю чи нейтралізувати загрозу, збільшуючи дохід або знижуючи витрати. **Рідкісність (rarity):** ним володіють небагато нинішніх чи потенційних конкурентів. **Складність імітації (imitability):** фірми без нього зазнають значних додаткових витрат, щоб його здобути чи замінити. **Організація (organization):** процеси, структура, системи й стимули дозволяють фірмі отримати цінність. **Результати:** нецінний ресурс означає відставання; цінний, але поширений дає паритет; цінний і рідкісний дає тимчасову перевагу; якщо додати дорогу імітацію й організацію, перевага стає стійкою.",
+		"apply": "1) Оберіть ресурси та здібності, які керівництво вважає рушіями результатів. 2) Для кожного опишіть, як він додає цінність у грошах. 3) Порахуйте конкурентів, які мають щось рівноцінне. 4) Оцініть, скільки часу й грошей знадобиться суперникові, щоб його створити чи замінити. 5) Перевірте організацію: відповідального, процеси та стимули. 6) Запишіть результат для кожного ресурсу, а потім інвестуйте в ті, що дають стійку перевагу, усуньте прогалини в організації й перестаньте переоцінювати ресурси паритету.",
+		"limitations": "Відповіді суб’єктивні, і керівники схильні переоцінювати власні ресурси. VRIO оцінює ресурси поодинці, хоча перевага часто виникає з їхніх комбінацій. Модель описує один момент, ігнорує, як швидко ринок знецінює рідкісність, і мало каже про створення нових ресурсів. Оцінка «організації» розмита й може приховувати справжню проблему."
 	}
 }

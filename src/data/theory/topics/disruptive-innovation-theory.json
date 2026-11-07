@@ -1,26 +1,65 @@
 {
 	"slug": "disruptive-innovation-theory",
 	"related": [
+		"diffusion-of-innovations",
 		"first-mover-advantage",
-		"innovators-dilemma",
-		"crossing-the-chasm"
+		"blue-ocean-strategy",
+		"innovators-dilemma"
 	],
 	"en": {
-		"short": "Disruptive innovation explains how entrants can begin with simpler or cheaper offerings for overlooked customers and eventually challenge established companies. It is not a synonym for any successful new technology or rapid industry change.",
-		"origin": "Clayton Christensen developed the theory through research in the 1990s, notably his 1997 book *The Innovator's Dilemma*. Later work with colleagues refined distinctions between low-end and new-market disruption.",
-		"core": "Established firms often improve products for their most demanding and profitable customers. This can leave less-demanding or entirely unserved customers open to an entrant with a more accessible offering. As the entrant improves, it may eventually compete for mainstream customers, even if incumbents initially respond rationally by focusing elsewhere.",
-		"components": "**Sustaining innovation** improves products along dimensions existing customers already value. **Low-end disruption** begins with customers overserved by established offerings who accept a simpler, cheaper alternative. **New-market disruption** serves people previously unable to access or use a product. **Performance improvement** can move the entrant toward mainstream expectations over time. The theory describes a process and market position, not merely the use of advanced technology.",
-		"apply": "Map customer groups by their actual needs and willingness to pay. Identify people who find existing solutions too expensive, complicated, or inaccessible. Test a simpler business model with a specific underserved segment. Track whether product quality and economics can improve enough to reach broader demand. Incumbents should evaluate whether a separate operating model is needed rather than forcing every experiment into existing margin targets.",
-		"example": "A basic online design tool initially serves small organizations unable to afford professional design workflows. It gradually adds capabilities and may attract customers who once relied on more complex products. Whether this is truly disruptive depends on its entry market and trajectory, not its marketing claims.",
-		"limitations": "Many entrants never move upmarket. Not every cheaper product is disruptive, and retrospective labels can oversimplify competition. The theory does not predict which specific startup will win."
+		"short": "Disruptive innovation explains how small entrants with simpler, cheaper offerings can topple strong incumbents: they start with customers the leaders ignore, then improve until they are good enough for the mainstream. Incumbents lose not through laziness but because chasing their most profitable customers is rational. Not every new technology is disruptive; the path from the bottom or from non-consumers is what defines it.",
+		"example": "An accounting firm has 400 clients: 60 mid-sized companies paying $1,500 a month and 340 sole traders paying $120. **Low-end foothold:** a bookkeeping app offers sole traders automatic tax filing for $15 a month; it cannot handle payroll or audits. **Incumbent response:** the partners see the sole traders as their least profitable 15% of revenue and happily let 90 of them go in a year. **Improvement trajectory:** the app adds payroll and multi-user access, and two of the mid-sized clients start a trial. **Good enough:** for firms with under 20 staff, the app now covers 80% of what they pay the accountant for. Seeing the pattern, the partners create a separate low-price unit that runs on the same app and sells advisory hours on top, instead of defending the old fee model.",
+		"mistakes": [
+			"Labelling every successful startup disruptive: a product that beats incumbents by being better and more expensive for their best customers is a sustaining innovation, not a disruption.",
+			"Dismissing the entrant because its product is worse today: track how fast its performance improves against what mainstream customers actually need.",
+			"Trying to fight the disruptor from inside the core business: the core's margins and customers will starve the new effort, so give it a separate unit with its own cost structure."
+		],
+		"selfCheck": [
+			{
+				"question": "A new airline offers business-class seats with better food at a higher price than the incumbent. Is this disruptive?",
+				"answer": "No. It targets the incumbent's best customers with a better product, which is sustaining innovation that incumbents usually fight off."
+			},
+			{
+				"question": "Why do well-managed incumbents often ignore disruptors?",
+				"answer": "The disruptor's first market is small and low-margin, so listening to their best customers and protecting margins rationally leads leaders away from it."
+			},
+			{
+				"question": "A cheap portable ultrasound device is first bought by rural clinics that had no imaging at all. Which type of disruption is this?",
+				"answer": "New-market disruption: it competes against non-consumption, serving people who previously had no product."
+			}
+		],
+		"origin": "Clayton Christensen of Harvard Business School introduced the idea with Joseph Bower in the 1995 Harvard Business Review article \"Disruptive Technologies: Catching the Wave\", based on his study of the disk drive industry. His 1997 book \"The Innovator's Dilemma\" made it famous, and \"The Innovator's Solution\" (2003, with Michael Raynor) renamed it disruptive innovation and added new-market disruption. In a 2015 HBR article Christensen and co-authors warned that the term was being misused.",
+		"core": "Incumbents improve products faster than most customers need, overshooting the mainstream. That leaves room at the bottom for simpler, cheaper or more convenient offerings that incumbents find unattractive. The entrant earns a living there, improves along its own trajectory, and eventually meets mainstream needs while keeping its lower cost. By the time incumbents react, the entrant's business model is better suited to the new market.",
+		"components": "**Sustaining innovation:** improvements for existing demanding customers, which incumbents usually win. **Low-end disruption:** an entrant serves overserved customers with a cheaper, good-enough product. **New-market disruption:** an entrant reaches non-consumers who lacked money or skill to use existing products. **Performance trajectories:** the rate at which the entrant's product improves compared with what customers can absorb. **Asymmetric motivation:** incumbents are drawn upmarket by margins, entrants are happy with segments incumbents leave.",
+		"apply": "1) Plot your customers by how much of your product's performance they actually use. 2) Find the overserved group or the non-consumers who are priced or skilled out. 3) Watch entrants that serve them and measure how quickly they improve. 4) If you are the entrant, start where incumbents are glad to leave and build a cost structure they cannot match. 5) If you are the incumbent, launch a separate unit with its own profit targets to compete there.",
+		"limitations": "Critics, including historian Jill Lepore in a 2014 New Yorker essay, argued that Christensen chose supportive cases and that many \"disrupted\" incumbents recovered. The theory explains disruptions well in hindsight but gives weak signals in advance about which entrants will succeed. Its popularity has stretched the word \"disruptive\" to cover almost any innovation, which blurs its meaning."
 	},
 	"ua": {
-		"short": "Теорія підривних інновацій пояснює, як новачок може почати з простішого й доступнішого продукту для недооцінених клієнтів, а згодом кинути виклик лідерам ринку. Не кожна нова технологія чи успішний стартап є підривною інновацією.",
-		"origin": "Клейтон Крістенсен розвинув теорію підривних інновацій (disruptive innovation) у дослідженнях 1990-х років, зокрема в книжці *The Innovator's Dilemma* 1997 року. У пізніших працях із колегами він уточнював різницю між виходом у нижній сегмент і створенням нового ринку.",
-		"core": "Успішні компанії зазвичай вдосконалюють продукти для найприбутковіших клієнтів. Через це вони можуть залишити без належної уваги людей, яким достатньо простішого рішення або які взагалі не можуть користуватися наявними продуктами. Новий гравець починає з такого сегмента, поступово підвищує якість і з часом може вийти на основний ринок.",
-		"components": "**Підтримувальні інновації (sustaining innovation)** покращують характеристики, важливі наявним клієнтам. **Підрив із нижнього сегмента (low-end disruption)** орієнтується на покупців, яким складний продукт уже пропонує більше, ніж потрібно. **Підрив через новий ринок (new-market disruption)** відкриває доступ тим, хто раніше не користувався подібними рішеннями. **Поступове покращення характеристик** дозволяє новачку наблизитися до вимог масового ринку. Ключова ознака — шлях розвитку бізнесу, а не технологічна новизна сама по собі.",
-		"apply": "Розділіть клієнтів за потребами та платоспроможністю. Знайдіть групи, для яких існуючі рішення занадто дорогі, складні або недоступні. Перевірте простішу пропозицію й економіку її продажів. Спостерігайте, чи може продукт поступово задовольняти ширший попит. Великим компаніям варто тестувати такі моделі окремо від вимог основного бізнесу.",
-		"example": "Простий онлайн-редактор дизайну спочатку допомагає невеликим організаціям, які не можуть оплатити професійні інструменти. Пізніше сервіс додає функції та приваблює вимогливіших користувачів. Саме траєкторія розвитку визначає, чи є це підривом.",
-		"limitations": "Більшість новачків не обов'язково досягають масового ринку. Дешевизна не дорівнює підривності, а теорія не визначає наперед переможця."
+		"short": "Теорія підривних інновацій (disruptive innovation) пояснює, як невеликі новачки з простішою й дешевшою пропозицією скидають сильних лідерів ринку: вони починають із клієнтів, яких лідери ігнорують, а потім покращуються, доки не стануть достатньо добрими для основного ринку. Лідери програють не через лінощі, а тому, що гонитва за найприбутковішими клієнтами для них раціональна. Не кожна нова технологія підривна: її визначає шлях знизу ринку або від тих, хто раніше нічого не купував.",
+		"example": "Бухгалтерська фірма має 400 клієнтів: 60 середніх компаній платять по $1 500 на місяць, а 340 фізичних осіб-підприємців по $120. **Плацдарм унизу ринку:** застосунок для обліку пропонує ФОПам автоматичну подачу звітності за $15 на місяць, але не вміє рахувати зарплати й проводити аудит. **Реакція лідера:** партнери вважають ФОПів найменш прибутковими 15% виручки й спокійно відпускають 90 із них за рік. **Траєкторія покращення:** застосунок додає розрахунок зарплат і доступ для кількох користувачів, і двоє середніх клієнтів починають пробний період. **Достатньо добре:** для фірм, де працює менше 20 людей, застосунок уже покриває 80% того, за що вони платять бухгалтеру. Побачивши закономірність, партнери створюють окремий недорогий підрозділ, що працює на тому ж застосунку й продає консультаційні години зверху, замість захищати стару модель гонорарів.",
+		"mistakes": [
+			"Називати підривним кожен успішний стартап: продукт, який перемагає лідерів, бо кращий і дорожчий для їхніх найкращих клієнтів, це підтримувальна інновація, а не підрив.",
+			"Відкидати новачка, бо його продукт сьогодні гірший: стежте, як швидко він покращується порівняно з тим, що насправді потрібно масовим клієнтам.",
+			"Боротися з підривником зсередини основного бізнесу: маржа й клієнти ядра задушать новий проєкт, тому дайте йому окремий підрозділ із власною структурою витрат."
+		],
+		"selfCheck": [
+			{
+				"question": "Нова авіакомпанія пропонує місця бізнес-класу з кращим харчуванням за вищою ціною, ніж лідер ринку. Чи це підрив?",
+				"answer": "Ні. Вона цілиться в найкращих клієнтів лідера кращим продуктом, а це підтримувальна інновація, яку лідери зазвичай відбивають."
+			},
+			{
+				"question": "Чому добре керовані лідери часто ігнорують підривників?",
+				"answer": "Перший ринок підривника малий і низькомаржинальний, тож прислухання до найкращих клієнтів і захист маржі раціонально відводять лідерів убік від нього."
+			},
+			{
+				"question": "Дешевий портативний апарат УЗД першими купують сільські амбулаторії, які взагалі не мали діагностики. Який це тип підриву?",
+				"answer": "Підрив через новий ринок: продукт конкурує з відсутністю споживання й обслуговує тих, хто раніше не мав жодного рішення."
+			}
+		],
+		"origin": "Клейтон Крістенсен із Гарвардської школи бізнесу разом із Джозефом Бауером представив ідею у статті Harvard Business Review 1995 року «Disruptive Technologies: Catching the Wave», спираючись на дослідження галузі жорстких дисків. Книга «The Innovator’s Dilemma» (1997) зробила її знаменитою, а в «The Innovator’s Solution» (2003, з Майклом Рейнором) він перейменував її на підривні інновації й додав підрив через новий ринок. У статті HBR 2015 року Крістенсен зі співавторами застеріг, що термін часто вживають неправильно.",
+		"core": "Лідери покращують продукти швидше, ніж це потрібно більшості клієнтів, і перестрибують потреби масового ринку. Це залишає внизу місце для простіших, дешевших або зручніших пропозицій, які лідерам нецікаві. Новачок заробляє там, покращується власною траєкторією й зрештою задовольняє масові потреби, зберігаючи нижчі витрати. Коли лідери реагують, бізнес-модель новачка вже краще пасує новому ринку.",
+		"components": "**Підтримувальна інновація:** покращення для наявних вимогливих клієнтів, у якому зазвичай перемагають лідери. **Підрив знизу:** новачок обслуговує клієнтів, яким продукт лідера надмірний, дешевшою й достатньо доброю пропозицією. **Підрив через новий ринок:** новачок охоплює тих, кому бракувало грошей чи навичок для наявних продуктів. **Траєкторії продуктивності:** швидкість, із якою покращується продукт новачка, порівняно з тим, скільки клієнти здатні використати. **Асиметрична мотивація:** маржа тягне лідерів угору ринку, а новачки задоволені сегментами, які лідери залишають.",
+		"apply": "1) Розподіліть клієнтів за тим, яку частку можливостей продукту вони реально використовують. 2) Знайдіть групу з надмірним продуктом або тих, кого відсікають ціна чи складність. 3) Відстежуйте новачків, які їх обслуговують, і вимірюйте, як швидко вони покращуються. 4) Якщо ви новачок, починайте там, звідки лідери охоче йдуть, і будуйте структуру витрат, якої вони не повторять. 5) Якщо ви лідер, запустіть окремий підрозділ із власними цілями прибутковості, щоб конкурувати там.",
+		"limitations": "Критики, зокрема історикиня Джилл Лепор в есеї для New Yorker 2014 року, стверджували, що Крістенсен підбирав зручні приклади, а багато «підірваних» лідерів відновилися. Теорія добре пояснює підриви заднім числом, але дає слабкі сигнали наперед про те, які новачки досягнуть успіху. Через популярність слово «підривний» розтягнули майже на будь-яку інновацію, і воно втратило чіткість."
 	}
 }

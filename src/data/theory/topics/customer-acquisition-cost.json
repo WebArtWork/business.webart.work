@@ -1,0 +1,65 @@
+{
+	"slug": "customer-acquisition-cost",
+	"related": [
+		"customer-lifetime-value",
+		"aarrr-pirate-metrics",
+		"unit-economics",
+		"sales-funnel"
+	],
+	"en": {
+		"short": "Customer acquisition cost (CAC) is the total sales and marketing spend needed to win one new paying customer, including salaries, tools and agency fees, not only the ad budget. It means something only next to what a customer is worth: when CAC approaches customer lifetime value, every new customer destroys money, however fast the company grows.",
+		"example": "A children's-book subscription box charges $25 a month at a 60% gross margin, so each subscriber brings $15 of gross profit monthly. In March it spends $9,000 on social ads, $3,000 on influencer posts and $6,000 on a marketer's salary and tools, and wins 240 paid customers plus 120 from referrals and search. **Fully loaded paid CAC:** $18,000 / 240 = $75. **Blended CAC:** $18,000 / 360 = $50. **Payback:** $75 / $15 = 5 months. **Against CLV:** subscribers stay 14 months on average, worth $210 of gross profit, a 2.8:1 ratio on paid customers. **By channel:** ads brought 210 customers at about $43 of media each, influencers 30 at $100. The box moves the influencer budget into ads and a referral credit, and caps any channel at $90 fully loaded CAC.",
+		"mistakes": [
+			"Counting only ad spend: leaving out salaries, commissions, agency fees and software can make CAC look half its real size, so use fully loaded costs.",
+			"Reporting only blended CAC: free organic and referral customers hide an expensive paid channel, so calculate paid CAC per channel before raising any budget.",
+			"Measuring payback against revenue instead of gross profit: the cost of delivering the product is not available to repay acquisition, so use margin in both payback and the LTV:CAC ratio."
+		],
+		"selfCheck": [
+			{
+				"question": "A B2B firm spends $50,000 on sales and marketing in Q1, and its sales cycle is three months. Should Q1 spend be divided by Q1's new customers?",
+				"answer": "No: Q1 spend mostly produces Q2 customers, so match spend with customers won one cycle later, or CAC will swing with timing rather than efficiency."
+			},
+			{
+				"question": "Two channels both have a $60 CAC, but one brings customers who stay 6 months and the other 24 months. Which is better?",
+				"answer": "The second, because the same acquisition cost buys four times as much lifetime gross profit, so CAC must always be read together with retention."
+			},
+			{
+				"question": "Why can a company with a 3:1 LTV:CAC ratio still run short of cash if payback takes 30 months?",
+				"answer": "Acquisition is paid on day one and recovered over 30 months, so fast growth means funding many new customers long before earlier ones have paid back."
+			}
+		],
+		"origin": "CAC has no single author. Direct-mail and catalogue marketers tracked cost per order for decades, and the metric took its modern form with subscription and software businesses in the 2000s, where acquisition is paid upfront and revenue arrives month by month. Venture investors and writers on SaaS metrics, such as David Skok, popularised rules of thumb like an LTV:CAC ratio of at least 3 and payback within about 12 months.",
+		"core": "Growth creates value only when each customer is acquired for less than the profit they will produce. CAC turns the whole acquisition effort into a price per customer, so it can be compared with customer lifetime value and across channels. Because acquisition is paid before revenue comes in, the payback period shows how much cash growth will consume: a company with a four-month payback can fund growth from its own revenue, while one with a 30-month payback needs outside capital to grow fast.",
+		"components": "**Fully loaded CAC:** all sales and marketing costs in a period, including ads, salaries, commissions, agencies, tools and events, divided by the new customers they produced. **Paid CAC:** the same costs divided only by customers from paid channels. **Blended CAC:** total costs divided by all new customers, organic included. **Channel CAC:** the calculation repeated per channel, which shows where to move budget. **Payback period:** CAC divided by monthly gross profit per customer. **LTV:CAC ratio:** lifetime gross profit divided by CAC; about 3 is a common target, and a ratio far above it can signal underinvestment in growth.",
+		"apply": "1) List every sales and marketing cost for the period, including people and software. 2) Tag each new customer with the channel that won them, using one consistent attribution rule. 3) Shift the cost window by the average sales cycle so spend is matched with the customers it produced. 4) Calculate paid, blended and channel CAC. 5) Divide by monthly gross profit per customer to get payback, and compare with lifetime value. 6) Move budget away from channels whose CAC climbs as spend scales, and recheck monthly.",
+		"limitations": "Attribution is the weak point: a customer who saw an ad, read a blog post and then searched the brand name could be credited to any of the three, and the choice changes channel CAC dramatically. The cost of the next customer usually rises as a channel scales, so today's average understates tomorrow's marginal CAC. CAC says nothing about customer quality, and lifetime value in a young company rests on guessed retention, so the ratio looks more precise than it is."
+	},
+	"ua": {
+		"short": "Вартість залучення клієнта (CAC, customer acquisition cost) це всі витрати на продажі й маркетинг, потрібні, щоб здобути одного нового платного клієнта, разом із зарплатами, інструментами й послугами агенцій, а не лише рекламний бюджет. Вона має сенс тільки поруч із цінністю клієнта: коли CAC наближається до пожиттєвої цінності, кожен новий клієнт знищує гроші, хоч як швидко росте компанія.",
+		"example": "Сервіс передплати дитячих книжок бере $25 на місяць за валової маржі 60%, тож кожен передплатник приносить $15 валового прибутку щомісяця. У березні він витрачає $9 000 на рекламу в соцмережах, $3 000 на дописи інфлюенсерів і $6 000 на зарплату маркетолога та інструменти, і здобуває 240 клієнтів із платних каналів плюс 120 із рекомендацій і пошуку. **Повна платна CAC:** $18 000 / 240 = $75. **Змішана CAC:** $18 000 / 360 = $50. **Окупність:** $75 / $15 = 5 місяців. **Порівняння з CLV:** у середньому передплатник лишається 14 місяців і приносить $210 валового прибутку, тобто співвідношення 2,8:1 для платних клієнтів. **За каналами:** реклама дала 210 клієнтів приблизно по $43 медійних витрат, інфлюенсери 30 по $100. Сервіс переносить бюджет інфлюенсерів у рекламу та бонус за рекомендацію і встановлює стелю: не більше $90 повної CAC для будь-якого каналу.",
+		"mistakes": [
+			"Рахувати лише рекламні витрати: без зарплат, комісій, агенцій і програм CAC може виглядати вдвічі меншою за реальну, тому беріть повні витрати.",
+			"Показувати тільки змішану CAC: безкоштовні органічні клієнти й клієнти з рекомендацій ховають дорогий платний канал, тож рахуйте платну CAC для кожного каналу, перш ніж збільшувати бюджет.",
+			"Вимірювати окупність від виторгу, а не від валового прибутку: собівартість продукту не може повертати витрати на залучення, тому і в окупності, і в співвідношенні LTV:CAC використовуйте маржу."
+		],
+		"selfCheck": [
+			{
+				"question": "B2B-фірма витратила в першому кварталі $50 000 на продажі й маркетинг, а її цикл продажу триває три місяці. Чи ділити ці витрати на нових клієнтів того ж кварталу?",
+				"answer": "Ні: витрати першого кварталу здебільшого дають клієнтів у другому, тож зіставляйте їх із клієнтами, здобутими через один цикл, інакше CAC коливатиметься через терміни, а не ефективність."
+			},
+			{
+				"question": "Два канали мають однакову CAC $60, але клієнти з першого лишаються 6 місяців, а з другого 24. Який кращий?",
+				"answer": "Другий, бо за ту саму вартість залучення він дає вчетверо більше пожиттєвого валового прибутку, тож CAC завжди треба читати разом з утриманням."
+			},
+			{
+				"question": "Чому компанії зі співвідношенням LTV:CAC 3:1 може бракувати грошей, якщо окупність триває 30 місяців?",
+				"answer": "Залучення оплачується в перший день, а повертається за 30 місяців, тож швидке зростання змушує фінансувати багато нових клієнтів задовго до того, як окупилися попередні."
+			}
+		],
+		"origin": "CAC не має єдиного автора. Компанії поштового й каталожного маркетингу десятиліттями рахували вартість одного замовлення, а сучасного вигляду метрика набула в передплатних і софтверних бізнесах 2000-х років, де залучення оплачується наперед, а виторг надходить щомісяця. Венчурні інвестори й автори текстів про метрики SaaS, як-от Девід Скок, популяризували емпіричні правила: співвідношення LTV:CAC щонайменше 3 і окупність приблизно до 12 місяців.",
+		"core": "Зростання створює цінність лише тоді, коли кожного клієнта здобувають дешевше, ніж прибуток, який він принесе. CAC перетворює всі зусилля із залучення на ціну одного клієнта, тож її можна порівняти з пожиттєвою цінністю та між каналами. Оскільки залучення оплачується раніше, ніж надходить виторг, період окупності показує, скільки грошей з’їсть зростання: компанія з окупністю чотири місяці може фінансувати зростання з власного виторгу, а компанії з окупністю 30 місяців для швидкого росту потрібен зовнішній капітал.",
+		"components": "**Повна CAC (fully loaded):** усі витрати на продажі й маркетинг за період, зокрема реклама, зарплати, комісії, агенції, інструменти й заходи, поділені на нових клієнтів, яких вони дали. **Платна CAC:** ті самі витрати, поділені лише на клієнтів із платних каналів. **Змішана CAC (blended):** загальні витрати, поділені на всіх нових клієнтів, разом з органічними. **CAC каналу:** той самий розрахунок для кожного каналу, що показує, куди переносити бюджет. **Період окупності:** CAC, поділена на місячний валовий прибуток з одного клієнта. **Співвідношення LTV:CAC:** пожиттєвий валовий прибуток, поділений на CAC; поширена ціль близько 3, а значно вище значення може свідчити про недоінвестування в зростання.",
+		"apply": "1) Випишіть усі витрати на продажі й маркетинг за період, разом із людьми та програмами. 2) Позначте для кожного нового клієнта канал, що його привів, за одним послідовним правилом атрибуції. 3) Зсуньте вікно витрат на середню тривалість циклу продажу, щоб зіставити витрати з клієнтами, яких вони принесли. 4) Порахуйте платну, змішану й канальну CAC. 5) Поділіть на місячний валовий прибуток з клієнта, щоб отримати окупність, і порівняйте з пожиттєвою цінністю. 6) Забирайте бюджет із каналів, де CAC зростає разом із витратами, і перераховуйте щомісяця.",
+		"limitations": "Слабке місце це атрибуція: клієнта, який побачив рекламу, прочитав статтю в блозі, а потім знайшов бренд у пошуку, можна приписати будь-якому з трьох каналів, і вибір різко змінює CAC каналу. Вартість наступного клієнта зазвичай зростає з масштабуванням каналу, тож сьогоднішнє середнє занижує завтрашню граничну CAC. CAC нічого не каже про якість клієнтів, а пожиттєва цінність у молодій компанії спирається на вгадане утримання, тому співвідношення виглядає точнішим, ніж є."
+	}
+}
