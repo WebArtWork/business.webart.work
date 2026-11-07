@@ -49,10 +49,7 @@
 							{
 								"glob": "**/*",
 								"input": "src/assets",
-								"output": "/",
-								"ignore": [
-									"icons/*.webp"
-								]
+								"output": "/"
 							},
 							{
 								"glob": "**/*.json",

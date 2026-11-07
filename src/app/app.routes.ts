@@ -8,7 +8,7 @@ import { loadQuestions, PRACTICE_TOPICS } from './feature/practice/practice.data
 import { loadTopic, THEORY_TOPICS } from './feature/theory/theory.data';
 
 const loadComponent = () =>
-	import('./pages/architecture/architecture.component').then((m) => m.ArchitectureComponent);
+	import('./pages/home/home.component').then((m) => m.HomeComponent);
 const page = (path: string, mode: string, extra: Record<string, unknown> = {}) => ({
 	mode,
 	meta: buildRouteMeta(companyProfile, path),

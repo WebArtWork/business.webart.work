@@ -34,7 +34,7 @@ interface GlossaryIndex {
 }
 
 /** Everyday words that would be linked on every line; the glossary page still lists them. */
-const TOO_COMMON = new Set(['code', 'program', 'programming', 'software', 'hardware', 'user', 'feature', 'requirement', 'number']);
+const TOO_COMMON = new Set(['business', 'company', 'customer', 'market', 'product', 'price', 'cost', 'value']);
 
 const escape = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 

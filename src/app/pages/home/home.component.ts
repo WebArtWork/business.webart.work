@@ -10,9 +10,9 @@ import { Localized, pick, THEORY_MODULES, THEORY_TOPICS } from '../../feature/th
 /** The home page, the plain information pages and the not-found page. Translations: /i18n/pages/home/. */
 @Component({
 	imports: [DashboardComponent, RouterLink, NgOptimizedImage, TPipe],
-	templateUrl: './architecture.component.html',
+	templateUrl: './home.component.html',
 })
-export class ArchitectureComponent {
+export class HomeComponent {
 	private readonly route = inject(ActivatedRoute);
 	private readonly _i18n = inject(I18nService);
 	protected readonly mode: string = this.route.snapshot.data['mode'];

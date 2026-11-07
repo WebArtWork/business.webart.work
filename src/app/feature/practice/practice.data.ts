@@ -15,8 +15,8 @@ export type QuestionType =
 	| 'multiple_select'
 	| 'scenario_choice'
 	| 'short_answer'
-	| 'design_decision'
-	| 'ai_code_review';
+	| 'business_decision'
+	| 'case_study';
 
 export type Language = 'en' | 'ua';
 

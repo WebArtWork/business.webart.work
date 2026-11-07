@@ -27,8 +27,8 @@ const TYPE_LABELS: Record<QuestionType, string> = {
 	multiple_select: 'Select two',
 	scenario_choice: 'Scenario',
 	short_answer: 'Short answer',
-	design_decision: 'Design decision',
-	ai_code_review: 'AI code review',
+	business_decision: 'Business decision',
+	case_study: 'Case study',
 };
 
 const DIFFICULTY_LABELS = {
