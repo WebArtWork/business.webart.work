@@ -1,0 +1,912 @@
+{
+	"slug": "supply-and-demand",
+	"topicId": 55,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the equilibrium price in a market?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The price at which sellers earn the largest profit"
+					},
+					{
+						"id": "B",
+						"text": "The highest price any buyer would accept"
+					},
+					{
+						"id": "C",
+						"text": "The price at which the quantity buyers want equals the quantity sellers offer"
+					},
+					{
+						"id": "D",
+						"text": "The price that the government considers fair"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which event shifts the "
+							},
+							{
+								"t": "supply",
+								"b": true
+							},
+							{
+								"t": " curve of tomatoes to the right?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Consumers’ incomes rise"
+					},
+					{
+						"id": "B",
+						"text": "A new harvesting machine lowers the growers’ costs"
+					},
+					{
+						"id": "C",
+						"text": "A TV chef makes tomato salads fashionable"
+					},
+					{
+						"id": "D",
+						"text": "The price of cucumbers, a substitute, goes up"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "When the price of a product falls, buyers move along the demand curve rather than shifting the curve itself."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If both the price and the quantity sold of a product rise, a fall in supply is the most likely cause."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which pair are "
+							},
+							{
+								"t": "complements",
+								"b": true
+							},
+							{
+								"t": ", so that a cheaper first product raises demand for the second?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Smartphones and phone cases"
+					},
+					{
+						"id": "B",
+						"text": "Butter and margarine"
+					},
+					{
+						"id": "C",
+						"text": "Bus tickets and taxi rides"
+					},
+					{
+						"id": "D",
+						"text": "Cinema tickets and home streaming"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " events shift the "
+							},
+							{
+								"t": "demand",
+								"b": true
+							},
+							{
+								"t": " curve for winter coats in a city?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The price of wool rises."
+					},
+					{
+						"id": "B",
+						"text": "The forecast promises an unusually cold winter."
+					},
+					{
+						"id": "C",
+						"text": "A new sewing machine cuts production costs."
+					},
+					{
+						"id": "D",
+						"text": "The city’s population grows by 10%."
+					},
+					{
+						"id": "E",
+						"text": "A strike closes a coat factory for a month."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A city has 1,000 rental flats and the market rent is $600 a month. The council caps rent at $450. At that price tenants want 1,300 flats, while landlords offer 800."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does the model predict?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A surplus of 500 empty flats"
+					},
+					{
+						"id": "B",
+						"text": "No change, since 1,000 flats stay rented"
+					},
+					{
+						"id": "C",
+						"text": "A shortage of 500 flats, with waiting lists and weaker upkeep"
+					},
+					{
+						"id": "D",
+						"text": "A shortage of 200 flats, because landlords still offer 1,000"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "After floods destroy greenhouses, the wholesale price of tomatoes doubles and the quantity sold falls by 25%. A restaurant owner says, “Demand has exploded, so I should sign a two-year supply deal now.” The damaged farms say they will replant within four months."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the best reading?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Demand rose, so locking in a long contract at today’s price is wise"
+					},
+					{
+						"id": "B",
+						"text": "Both curves moved right, so prices will stay high for years"
+					},
+					{
+						"id": "C",
+						"text": "The price rise has nothing to do with the floods"
+					},
+					{
+						"id": "D",
+						"text": "Supply fell, which is a temporary shock, so avoid a long contract at the peak price"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "On a rainy Friday a ride-hailing app’s average fare jumps by 60% and the number of completed trips rises by 15%. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The demand curve shifted right because more people want a ride in the rain."
+					},
+					{
+						"id": "B",
+						"text": "Supply alone shifted left."
+					},
+					{
+						"id": "C",
+						"text": "The higher fare pulled more riders along the demand curve into buying."
+					},
+					{
+						"id": "D",
+						"text": "A fall in supply explains why more trips were completed."
+					},
+					{
+						"id": "E",
+						"text": "A fall in supply alone would have reduced completed trips."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A government sets a minimum price for wheat above the equilibrium price. What does the model predict?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A surplus: at that price farmers offer more than buyers want, and stock goes unsold"
+					},
+					{
+						"id": "B",
+						"text": "A shortage, because farmers will stop growing wheat"
+					},
+					{
+						"id": "C",
+						"text": "No effect, because markets always clear on their own"
+					},
+					{
+						"id": "D",
+						"text": "A shift of demand to the right"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Rose prices rise sharply every year before 14 February. Use the supply and demand model to explain why, and say whether a florist should build a permanent new greenhouse in response."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A manager sees that the price of an ingredient has risen. Explain how to tell whether supply or demand shifted, and give one example of each."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A sauce maker buys 100 tonnes of tomatoes a month. After floods the price rose from $400 to $650 a tonne, and damaged fields will be replanted within four months. A supplier offers a 12-month contract at $600 a tonne. Choose one: sign the 12-month contract, buy on the spot market, or partly switch the recipe to cheaper ingredients for four months. Justify your choice with figures."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A concert venue has 5,000 seats. A popular band’s tickets at $60 sell out in four minutes, and the same tickets are resold for $180. Choose one: raise the price to $120, keep $60 and allocate tickets by lottery, or use dynamic pricing that rises while demand is high. Explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A strawberry growers’ cooperative sells to supermarkets in its region. In May a TV chef’s recipe makes strawberry desserts fashionable. Warm weather also ripens the crop three weeks early, so the harvest is 40% above normal. Imports from abroad are unchanged. Over the month the wholesale price falls by 18% while the quantity sold rises by 35%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Say which curves shifted and in which direction, explain why the price fell, and recommend what the cooperative should do, including whether to plant more acres."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке рівноважна ціна на ринку?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ціна, за якої продавці отримують найбільший прибуток"
+					},
+					{
+						"id": "B",
+						"text": "Найвища ціна, яку погодився б заплатити будь-який покупець"
+					},
+					{
+						"id": "C",
+						"text": "Ціна, за якої кількість, яку хочуть купити, дорівнює кількості, яку пропонують продати"
+					},
+					{
+						"id": "D",
+						"text": "Ціна, яку держава вважає справедливою"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка подія зсуває криву "
+							},
+							{
+								"t": "пропозиції",
+								"b": true
+							},
+							{
+								"t": " помідорів праворуч?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Доходи споживачів зростають"
+					},
+					{
+						"id": "B",
+						"text": "Нова збиральна машина знижує витрати вирощувачів"
+					},
+					{
+						"id": "C",
+						"text": "Телекухар робить салати з помідорів модними"
+					},
+					{
+						"id": "D",
+						"text": "Ціна огірків, замінника, зростає"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Коли ціна товару падає, покупці рухаються вздовж кривої попиту, а не зсувають саму криву."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо ціна й обсяг продажів товару зростають одночасно, найімовірніша причина це падіння пропозиції."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка пара є "
+							},
+							{
+								"t": "доповнювальними товарами",
+								"b": true
+							},
+							{
+								"t": ", коли здешевлення першого збільшує попит на другий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Смартфони та чохли для них"
+					},
+					{
+						"id": "B",
+						"text": "Масло й маргарин"
+					},
+					{
+						"id": "C",
+						"text": "Автобусні квитки й поїздки таксі"
+					},
+					{
+						"id": "D",
+						"text": "Квитки в кіно й домашній стрімінг"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " події зсувають криву "
+							},
+							{
+								"t": "попиту",
+								"b": true
+							},
+							{
+								"t": " на зимові пальта в місті?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ціна вовни зростає."
+					},
+					{
+						"id": "B",
+						"text": "Прогноз обіцяє незвичайно холодну зиму."
+					},
+					{
+						"id": "C",
+						"text": "Нова швейна машина знижує витрати виробництва."
+					},
+					{
+						"id": "D",
+						"text": "Населення міста зростає на 10%."
+					},
+					{
+						"id": "E",
+						"text": "Страйк закриває фабрику пальт на місяць."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У місті 1000 орендних квартир, а ринкова орендна плата $600 на місяць. Міська рада встановлює стелю $450. За такої ціни мешканці хочуть 1300 квартир, а власники пропонують 800."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що передбачає модель?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Надлишок: 500 порожніх квартир"
+					},
+					{
+						"id": "B",
+						"text": "Нічого не зміниться, бо 1000 квартир залишаються зайнятими"
+					},
+					{
+						"id": "C",
+						"text": "Дефіцит у 500 квартир із чергами й гіршим утриманням житла"
+					},
+					{
+						"id": "D",
+						"text": "Дефіцит у 200 квартир, бо власники й далі пропонують 1000"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Після того, як повені знищують теплиці, оптова ціна помідорів подвоюється, а обсяг продажів падає на 25%. Власник ресторану каже: «Попит вибухнув, тож мені треба підписати дворічний договір поставки зараз». Постраждалі господарства обіцяють пересадити рослини за чотири місяці."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке прочитання найкраще?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Попит зріс, тож закріпити довгий договір за сьогоднішньою ціною розумно"
+					},
+					{
+						"id": "B",
+						"text": "Обидві криві змістилися праворуч, тож ціни залишатимуться високими роками"
+					},
+					{
+						"id": "C",
+						"text": "Подорожчання не пов’язане з повенями"
+					},
+					{
+						"id": "D",
+						"text": "Пропозиція впала, це тимчасовий шок, тож не варто підписувати довгий договір на піку ціни"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У дощову п’ятницю середня вартість поїздки в застосунку виклику авто стрибає на 60%, а кількість завершених поїздок зростає на 15%. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Крива попиту зсунулася праворуч, бо під дощем більше людей хочуть поїхати."
+					},
+					{
+						"id": "B",
+						"text": "Зсунулася лише пропозиція, ліворуч."
+					},
+					{
+						"id": "C",
+						"text": "Вища вартість поїздки потягла більше пасажирів уздовж кривої попиту до покупки."
+					},
+					{
+						"id": "D",
+						"text": "Падіння пропозиції пояснює, чому завершилося більше поїздок."
+					},
+					{
+						"id": "E",
+						"text": "Лише падіння пропозиції зменшило б кількість завершених поїздок."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Держава встановлює мінімальну ціну на пшеницю вище за рівноважну. Що передбачає модель?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Надлишок: за такої ціни фермери пропонують більше, ніж хочуть купити, і запаси лишаються непроданими"
+					},
+					{
+						"id": "B",
+						"text": "Дефіцит, бо фермери перестануть вирощувати пшеницю"
+					},
+					{
+						"id": "C",
+						"text": "Жодного ефекту, бо ринки завжди очищаються самі"
+					},
+					{
+						"id": "D",
+						"text": "Зсув попиту праворуч"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ціни на троянди щороку різко зростають перед 14 лютого. Поясніть це за моделлю попиту й пропозиції та скажіть, чи варто квіткарці будувати постійну нову теплицю у відповідь."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Менеджер бачить, що ціна інгредієнта зросла. Поясніть, як визначити, що зсунулося, пропозиція чи попит, і наведіть по одному прикладу кожного."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник соусів купує 100 тонн помідорів на місяць. Після повеней ціна зросла з $400 до $650 за тонну, а пошкоджені поля пересадять за чотири місяці. Постачальник пропонує дванадцятимісячний договір по $600 за тонну. Оберіть одне: підписати дванадцятимісячний договір, купувати на спотовому ринку або на чотири місяці частково замінити рецептуру дешевшими інгредієнтами. Обґрунтуйте вибір цифрами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Концертний майданчик має 5000 місць. Квитки на виступ популярного гурту по $60 розкуповують за чотири хвилини, а потім перепродують по $180. Оберіть одне: підвищити ціну до $120, залишити $60 і розподіляти квитки лотереєю або застосувати динамічне ціноутворення, що зростає, поки попит високий. Поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Кооператив виробників полуниці продає ягоди супермаркетам свого регіону. У травні рецепт телекухаря робить десерти з полуниці модними. Тепла погода також дозріває врожай на три тижні раніше, тож збір на 40% перевищує норму. Імпорт із-за кордону не змінився. За місяць оптова ціна падає на 18%, а обсяг продажів зростає на 35%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Скажіть, які криві зсунулися й у який бік, поясніть, чому ціна впала, і порадьте кооперативу, що робити, зокрема чи садити більше гектарів."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

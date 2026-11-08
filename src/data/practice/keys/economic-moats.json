@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The time, money and risk of changing supplier are switching costs. Network effects need the product to gain value as more people use it, efficient scale is about a market too small for a second player, and intangible assets are brands, patents and licences."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "People can leave or be hired away, so a great team is not a structural barrier. Patents and licences are intangible assets, a unique location is a cost advantage, and a market that fits one player is efficient scale."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Share is not protection. If switching costs are low and nothing else holds customers or costs in place, a large share can disappear quickly."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The test of a moat is returns on capital that stay above the cost of capital for a decade or more. Fifteen years of a nine-point gap shows that rivals have not been able to compete the returns away."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The local market is only big enough for one player, so a newcomer would ruin returns for everyone and is unlikely to come. Passengers do not gain from more users, they do not pick airports by brand, and they face no cost in choosing another airport."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A long-lasting margin gap shows persistence, and very low churn among trained dentists shows switching costs at work. A one-year sales jump, a praised CEO and this year's size say nothing about what stops rivals."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A hit that rivals can copy quickly is a lead, not a moat, and the high margin will attract imitators. Queues and share do not stop a funded competitor, and no moat is permanent."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The moat comes from switching costs, and putting more of each firm's workflow in the product widens that source. Spreading money across all sources dilutes it, a TV brand does little for buyers who stay for their data, and a price cut gives away margin to clients who are not leaving."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Three good years invite a story told after the fact, and \"great team\" and \"good product\" are explanations the framework rejects. The none, narrow or wide scale is standard, looking at results is the first step, and management quality is not a moat source."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The directory had real protection in its old market, but a technology shift made that protection irrelevant, as happened with newspapers and photo film. Moats are not permanent, network effects are only one of five sources, and the cause was structural, not the managers' talent."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "For ordinary members there is no moat: monthly notice means no switching costs, and six nearby gyms make it easy to leave. The real source is the 50-metre pool, a unique asset rivals cannot match quickly, which works as a cost and resource advantage in the swim-club segment. The moat is narrow: it protects only the pool revenue, and a rival or the city could build another pool given time and money."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Shows there is no moat for regular members, citing monthly notice and six nearby gyms",
+					"points": 2
+				},
+				{
+					"criterion": "Names the pool as a unique asset and rates the moat as narrow, limited to the swim-club segment",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Suppose the town buys 150,000 cinema tickets a year and one cinema needs about 120,000 to cover its costs. The current owner earns good returns. A second cinema would split the audience, leaving each near 75,000 tickets and both losing money. A rational investor sees this before entering and stays out, so the incumbent keeps its returns. The protection comes from the size of the market, which is why it lasts only while the town stays small and no cheaper format appears."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: the market supports one player, so a newcomer would push both below break-even",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the cinema with concrete numbers or details",
+					"points": 1
+				},
+				{
+					"criterion": "Notes a limit, such as market growth or a new format that could end the protection",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The new features. The moat is a network effect: each seller makes the marketplace more useful to buyers and the other way round, and 70% of listings is the barrier rivals cannot copy. Inspection reports and loans make more farmers list and more buyers trust a purchase, which widens that same source. A TV campaign adds awareness the market leader hardly needs, and a truck fleet starts a cost advantage from scratch. Risk: features that nobody uses, so track listings and completed sales per month after launch."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the network effect as the moat, citing the 70% share and the buyer and seller logic",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that the money should widen the existing source rather than start a new one",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a measure to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Company A. Its brand is an intangible asset that supports a lasting price premium, and fifteen years of returns eleven points above the cost of capital show the moat persists, so I rate it wide. Company B has no visible source: users leave freely, and four copycats show that its high returns are already pulling in rivals, so its moat is none. B's 35% looks better but is likely to fall toward average. A's risk is changing tastes, so watch whether the price premium holds."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Rates both moats with evidence (price premium and long return history for A, free cancellation and copycats for B)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that B's high recent returns attract rivals and are unlikely to last",
+					"points": 1
+				},
+				{
+					"criterion": "Uses persistence of returns above the cost of capital as the test",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear choice and names a risk to the chosen moat",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Sources: an intangible asset (the only genetic-testing licence), switching costs (300 clinics with ordering software tied to patient records) and a cost advantage ($14 against $21 per test). The excess return is (19% − 9%) × $50 million = $5 million a year, held for 11 years, so the moat is wide. The main threat is the home kits, a technology shift that could bypass clinics for routine tests. I would widen the switching costs: add results tracking and home-kit ordering to the clinic software, so the lab becomes the channel for home testing instead of its victim."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names the three sources with evidence from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates the $5 million yearly excess return correctly",
+					"points": 1
+				},
+				{
+					"criterion": "Judges the width using the 11-year persistence",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the home kits as a technology threat and recommends widening one specific source with a reason",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Час, гроші й ризик зміни постачальника це витрати на перехід. Мережеві ефекти означають, що продукт цінніший, коли ним користується більше людей, ефективний масштаб стосується ринку, замалого для другого гравця, а нематеріальні активи це бренди, патенти й ліцензії."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Люди можуть піти або їх можуть переманити, тож сильна команда не є структурним бар’єром. Патенти й ліцензії належать до нематеріальних активів, унікальна локація дає перевагу у витратах, а ринок для одного гравця це ефективний масштаб."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Частка ринку не є захистом. Якщо витрати на перехід низькі й ніщо інше не утримує клієнтів чи витрати, велика частка може швидко зникнути."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перевірка захисної переваги полягає в тому, чи тримається прибутковість капіталу вище за його вартість десятиліття чи довше. П’ятнадцять років розриву в дев’ять пунктів показують, що конкуренти не змогли звести прибутковість до середньої."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Місцевий ринок достатній лише для одного гравця, тож новачок зруйнував би прибутковість для всіх і навряд чи прийде. Пасажири не отримують вигоди від більшої кількості користувачів, не обирають аеропорт за брендом і нічого не втрачають, обираючи інший."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Тривалий розрив у маржі показує сталість, а дуже низький відтік навчених стоматологів показує дію витрат на перехід. Стрибок продажів за один рік, похвала CEO й розмір цього року нічого не кажуть про те, що зупиняє конкурентів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Хіт, який конкуренти швидко копіюють, це фора, а не захисна перевага, і висока маржа приваблюватиме наслідувачів. Черги й частка ринку не зупинять конкурента з грошима, а жодна захисна перевага не є постійною."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Захисна перевага походить від витрат на перехід, і перенесення більшої частини робочих процесів фірм у продукт розширює саме це джерело. Розподіл грошей між усіма джерелами їх розпорошує, телебренд мало що дає клієнтам, які залишаються через свої дані, а знижка віддає маржу тим, хто й так не йде."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Три вдалі роки спонукають до історії, складеної заднім числом, а «сильна команда» й «хороший продукт» це пояснення, які модель відкидає. Шкала «відсутня, вузька, широка» стандартна, аналіз результатів це перший крок, а якість менеджменту не є джерелом захисної переваги."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Довідник мав реальний захист на старому ринку, але технологічний зсув зробив цей захист неважливим, як це сталося з газетами й фотоплівкою. Захисні переваги не постійні, мережеві ефекти лише одне з п’яти джерел, а причина була структурною, а не в таланті менеджерів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Для звичайних клієнтів захисної переваги немає: місячне попередження означає відсутність витрат на перехід, а шість залів поруч дозволяють легко піти. Справжнє джерело це 50-метровий басейн, унікальний актив, з яким конкуренти швидко не зрівняються; він дає перевагу в ресурсах у сегменті плавальних клубів. Перевага вузька: вона захищає лише дохід від басейну, а конкурент чи місто з часом і грошима можуть збудувати інший."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Показує, що для звичайних клієнтів захисної переваги немає, з посиланням на місячне попередження й шість залів поруч",
+					"points": 2
+				},
+				{
+					"criterion": "Називає басейн унікальним активом і оцінює перевагу як вузьку, обмежену сегментом плавальних клубів",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Припустімо, що містечко купує 150 000 квитків у кіно на рік, а одному кінотеатру для покриття витрат потрібно близько 120 000. Нинішній власник добре заробляє. Другий кінотеатр розділив би глядачів, кожному дісталося б близько 75 000 квитків, і обидва працювали б у збиток. Раціональний інвестор бачить це заздалегідь і не входить, тож чинний кінотеатр зберігає прибутковість. Захист походить від розміру ринку, тому діє лише доки містечко мале й не з’являється дешевший формат."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: ринок утримує одного гравця, тож новачок опустив би обох нижче беззбитковості",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до кінотеатру з конкретними числами чи деталями",
+					"points": 1
+				},
+				{
+					"criterion": "Згадує обмеження, наприклад зростання ринку чи новий формат, які можуть зняти захист",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Нові функції. Захисна перевага тут це мережевий ефект: кожен продавець робить майданчик кориснішим для покупців і навпаки, а 70% оголошень це бар’єр, який конкуренти не скопіюють. Звіти про огляд і кредити спонукають більше фермерів виставляти техніку, а покупців довіряти угоді, тобто розширюють те саме джерело. Телереклама додає впізнаваності, якої лідер ринку майже не потребує, а парк вантажівок означає будувати перевагу у витратах з нуля. Ризик: функціями ніхто не користуватиметься, тож після запуску варто стежити за кількістю оголошень і завершених продажів на місяць."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає мережевий ефект як захисну перевагу, з посиланням на частку 70% і логіку покупців і продавців",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що гроші мають розширювати наявне джерело, а не створювати нове",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і показник, за яким стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Компанія A. Її бренд це нематеріальний актив, що підтримує тривалу цінову надбавку, а п’ятнадцять років прибутковості на одинадцять пунктів вище вартості капіталу показують, що перевага стала, тож оцінюю її як широку. У компанії B видимого джерела немає: користувачі вільно йдуть, а чотири клони показують, що висока прибутковість уже приваблює конкурентів, тож захисної переваги немає. 35% у B виглядають краще, але, найімовірніше, знизяться до середніх. Ризик для A це зміна смаків, тому варто стежити, чи тримається цінова надбавка."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Оцінює обидві захисні переваги з доказами (цінова надбавка й довга історія прибутковості в A, вільне скасування й клони в B)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що висока нещодавня прибутковість B приваблює конкурентів і навряд чи збережеться",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує сталість прибутковості понад вартість капіталу як перевірку",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий вибір і називає ризик для обраної захисної переваги",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Джерела: нематеріальний актив (єдина ліцензія на генетичні аналізи), витрати на перехід (300 клінік із програмою замовлень, пов’язаною з картками пацієнтів) і перевага у витратах ($14 проти $21 за аналіз). Надлишковий прибуток становить (19% − 9%) × $50 млн = $5 млн на рік і тримається 11 років, тож перевага широка. Головна загроза це домашні набори, технологічний зсув, що може обійти клініки в рутинних аналізах. Я б розширював витрати на перехід: додати в програму для клінік відстеження результатів і замовлення домашніх наборів, щоб лабораторія стала каналом для домашніх тестів, а не їхньою жертвою."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає три джерела з доказами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Правильно рахує $5 млн надлишкового прибутку на рік",
+					"points": 1
+				},
+				{
+					"criterion": "Оцінює ширину переваги, спираючись на 11 років сталості",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає домашні набори як технологічну загрозу й радить розширювати одне конкретне джерело з обґрунтуванням",
+					"points": 2
+				}
+			]
+		}
+	}
+}

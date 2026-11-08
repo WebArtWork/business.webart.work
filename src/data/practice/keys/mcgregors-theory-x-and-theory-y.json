@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "McGregor described what managers believe about human nature, and these beliefs shape their rules, incentives and supervision. The theory is not a classification of workers, pay systems or structures."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Theory Y assumes that work can be satisfying and that committed people steer themselves. The other three are Theory X assumptions about avoiding work and needing control."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The theory is about managers’ assumptions, not about types of workers. Those assumptions partly create the behaviour the manager expects."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "This is the self-fulfilling prophecy. When people are watched and given no say, they stop using their own judgment, and the manager reads that passivity as proof that people cannot be trusted."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A specific problem should be handled with the specific person. Blanket controls punish 29 people who did nothing wrong and may teach them that they are not trusted. The incident does not prove anything about staff in general."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Agreed targets and trust backed by a clear policy and audit replace process control with outcome goals. Logging, monitoring and silencing questions are Theory X controls."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Tight control created the passivity it assumed. The theory points to the manager’s beliefs and methods, not to fixed traits of staff, and more check-ins would deepen the pattern."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Safety-critical procedures need tight rules even for committed staff, and this does not contradict the theory. The aim is to keep controls only where risk requires them. Removing the check ignores risk, and total surveillance goes far beyond what the risk needs."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The theory rests on argument, and real managers do not sit at the two poles. Later research has not shown Theory Y to be best everywhere, including routine, low-skill work, and McGregor never classified workers."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In high power distance cultures participation can look like weak leadership, so it needs explanation, clear goals and a gradual start. Dropping the approach loses its benefits, decrees contradict its spirit and waiting leaves confusion in place."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "These are Theory X rules. They assume people cannot be trusted, will avoid responsibility and must be controlled. The risk is a self-fulfilling prophecy: people learn that their judgment is not wanted, so they stop taking initiative. A Theory Y alternative is to give each team a monthly expense budget with a clear policy and review it afterwards."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names Theory X and states the assumption: people cannot be trusted and must be controlled",
+					"points": 2
+				},
+				{
+					"criterion": "Explains the self-fulfilling effect on behaviour",
+					"points": 1
+				},
+				{
+					"criterion": "Suggests a concrete Theory Y alternative, such as agreed budgets, goals or an after-the-fact audit",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The software costs 12 × $15 × 12 = $2,160 a year. Logging takes 12 × 2 hours × 50 weeks = 1,200 hours a year. A hidden cost is that staff feel distrusted, so initiative and quality fall, which seems to prove the manager’s Theory X belief."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates $2,160 for software",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates 1,200 hours of logging a year",
+					"points": 1
+				},
+				{
+					"criterion": "Explains the hidden cost: distrust lowers initiative and creates the passive behaviour the manager expected",
+					"points": 2
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Choose (b). Blanket monitoring would treat 24 of 25 agents, 96%, as suspects because of one lapse, costing $20 × 25 × 12 = $6,000 a year and signalling distrust. The individual case should be handled directly. The real risk, access to sensitive data, is addressed by role-based access, which is a targeted control where risk requires it. Outcome goals keep the Theory Y trust for the rest. Outsourcing hands the problem to someone else and may leak the data anyway. Risk: a second leak would test the approach, so audit access logs monthly and tighten only the specific roles involved."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Applies the theory: blanket controls signal distrust to the many, and tight control belongs only where risk requires it",
+					"points": 2
+				},
+				{
+					"criterion": "Uses numbers from the case, such as 24 of 25 agents or $6,000 a year",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Both extremes are wrong here. The founder treats Theory Y as no rules: self-direction needs clear goals, feedback, accountability and training, and the 14 untrained hires lack all four. The COO’s hourly reports would slow 80 people and turn the many capable ones into passive staff. I recommend a middle path: set outcome goals per team, run a proper onboarding for the new hires, introduce tight checks only where defects originate, and keep trust elsewhere. Trade-off: this takes management time now and some defects will remain for a while, so track the defect rate weekly and expect it to move back toward 2%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Diagnoses both extremes with evidence: Theory Y without structure, and Theory X over-control",
+					"points": 2
+				},
+				{
+					"criterion": "Recommends outcome goals with controls only where risk requires them",
+					"points": 1
+				},
+				{
+					"criterion": "Sees that training and onboarding are preconditions for self-direction",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off and a measure, such as management time and the weekly defect rate",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Hourly checks and piece rates assume operators avoid work and must be pushed with close supervision and money. The data fit a self-fulfilling prophecy: operators stop working without a supervisor and make almost no suggestions because their judgment is never asked for. Transition: agree targets for quality with each team, give teams the check of their own defects, ask for improvement ideas in a weekly 15-minute meeting and begin with two lines before extending. Keep tight controls for safety. Measure defects, absenteeism and the number of suggestions each month. Risk: in routine, low-skill work with little training, Theory Y may not pay off quickly, so train teams first and keep expectations realistic."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies the Theory X assumptions behind hourly checks and piece rate",
+					"points": 1
+				},
+				{
+					"criterion": "Links the data (idling, three suggestions) to the self-fulfilling prophecy",
+					"points": 1
+				},
+				{
+					"criterion": "Designs a transition: agreed targets, team ownership of quality, a pilot on two lines, controls kept for safety",
+					"points": 2
+				},
+				{
+					"criterion": "Names measures: defects, absenteeism, suggestions",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk or limit: routine low-skill work, training, culture",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Макгрегор описував, у що керівники вірять щодо людської природи, і ці переконання формують їхні правила, стимули й нагляд. Теорія не класифікує ні працівників, ні системи оплати, ні структури."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Теорія Y припускає, що робота може приносити задоволення, а віддані люди керують собою самі. Три інші твердження це припущення теорії X про ухиляння від роботи й потребу в контролі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Теорія стосується припущень керівників, а не типів працівників. Ці припущення частково самі створюють поведінку, якої керівник очікує."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це самоздійсне пророцтво. Коли за людьми наглядають і не дають їм слова, вони перестають користуватися власним судженням, а керівник сприймає цю пасивність як доказ, що людям не можна довіряти."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Конкретну проблему слід розв’язувати з конкретною людиною. Загальні контролі карають 29 людей, які нічого не порушили, і можуть навчити їх, що їм не довіряють. Інцидент нічого не доводить про працівників загалом."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Узгоджені цілі й довіра, підкріплена чіткою політикою та аудитом, замінюють контроль процесу цілями щодо результату. Облік, стеження й заборона запитань це контролі в дусі теорії X."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Жорсткий контроль створив ту пасивність, яку припускав. Теорія вказує на переконання й методи керівника, а не на сталі риси працівників, а більше перевірок лише поглибить закономірність."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Критичні для безпеки процедури потребують жорстких правил навіть для відданих працівників, і це не суперечить теорії. Мета в тому, щоб залишати контроль лише там, де цього вимагає ризик. Скасування перевірки ігнорує ризик, а тотальне стеження виходить далеко за межі потреб ризику."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Теорія тримається на аргументі, а реальні керівники не стоять на двох полюсах. Пізніші дослідження не показали, що теорія Y найкраща всюди, зокрема в рутинній низькокваліфікованій роботі, а Макгрегор ніколи не класифікував працівників."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "У культурах із великою дистанцією влади участь може виглядати як слабкість керівника, тож їй потрібні пояснення, чіткі цілі й поступовий початок. Відмова втрачає користь підходу, указ суперечить його духу, а очікування лишає плутанину."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це правила теорії X. Вони припускають, що людям не можна довіряти, що вони ухилятимуться від відповідальності й потребують контролю. Ризик полягає в самоздійсному пророцтві: люди вчаться, що їхнє судження нікому не потрібне, і перестають проявляти ініціативу. Альтернатива в дусі теорії Y: дати кожній команді місячний бюджет витрат із чіткою політикою й переглядати його постфактум."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає теорію X і вказує припущення: людям не можна довіряти й їх треба контролювати",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює самоздійсний вплив на поведінку",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує конкретну альтернативу в дусі теорії Y, наприклад узгоджені бюджети, цілі чи аудит постфактум",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Програма коштує 12 × $15 × 12 = $2 160 на рік. Облік забирає 12 × 2 години × 50 тижнів = 1 200 годин на рік. Прихована вартість: працівники відчувають недовіру, тож ініціатива й якість падають, а це ніби підтверджує переконання керівника в дусі теорії X."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує $2 160 за програму",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує 1 200 годин обліку на рік",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює приховану вартість: недовіра знижує ініціативу й створює пасивну поведінку, якої очікував керівник",
+					"points": 2
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Обираю (б). Загальне стеження ставило б під підозру 24 з 25 операторів, тобто 96%, через один промах, коштувало б $20 × 25 × 12 = $6 000 на рік і сигналізувало б недовіру. Конкретний випадок слід розібрати напряму. Справжній ризик, доступ до чутливих даних, закриває доступ за ролями, тобто точковий контроль там, де цього вимагає ризик. Цілі за результатом зберігають довіру в дусі теорії Y для решти. Аутсорсинг передає проблему комусь іншому й усе одно може призвести до витоку. Ризик: другий витік випробує цей підхід, тож щомісяця перевіряйте журнали доступу й посилюйте лише ті ролі, яких це стосується."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Застосовує теорію: загальні контролі сигналізують недовіру багатьом, а жорсткий контроль доречний лише там, де цього вимагає ризик",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує числа з умови, наприклад 24 з 25 операторів чи $6 000 на рік",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Обидві крайнощі тут хибні. Засновник розуміє теорію Y як відсутність правил: самостійність потребує чітких цілей, зворотного зв’язку, підзвітності й навчання, а 14 ненавчених людей не мають жодного з чотирьох. Щогодинні звіти директора сповільнили б 80 людей і перетворили б багатьох здібних на пасивних. Раджу середній шлях: поставити цілі за результатом для кожної команди, провести справжнє введення в посаду для новачків, запровадити жорсткі перевірки лише там, де виникає брак, а в решті зберегти довіру. Компроміс: це забере час керівників зараз, і частина браку ще залишиться, тож щотижня стежте за часткою браку й очікуйте, що вона повернеться до 2%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Діагностує обидві крайнощі з доказами: теорія Y без структури й надмірний контроль у дусі теорії X",
+					"points": 2
+				},
+				{
+					"criterion": "Рекомендує цілі за результатом із контролем лише там, де цього вимагає ризик",
+					"points": 1
+				},
+				{
+					"criterion": "Розуміє, що навчання й введення в посаду є передумовою самостійності",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс і показник, наприклад час керівників і щотижневу частку браку",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Щогодинні перевірки й відрядна оплата припускають, що оператори ухиляються від роботи й їх треба підганяти пильним наглядом і грошима. Дані пасують до самоздійсного пророцтва: оператори припиняють роботу без наглядача й майже не подають пропозицій, бо їхнього судження ніхто не питає. Перехід: узгодити цілі щодо якості з кожною командою, доручити командам перевірку власного браку, збирати ідеї покращень на щотижневій 15-хвилинній нараді й почати з двох ліній, а потім розширювати. Залишити жорсткий контроль для безпеки. Щомісяця вимірювати брак, прогули й кількість пропозицій. Ризик: у рутинній низькокваліфікованій роботі з малим навчанням теорія Y може окупитися не одразу, тож спершу навчіть команди й тримайте реалістичні очікування."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає припущення теорії X за щогодинними перевірками й відрядною оплатою",
+					"points": 1
+				},
+				{
+					"criterion": "Пов’язує дані (простої, три пропозиції) із самоздійсним пророцтвом",
+					"points": 1
+				},
+				{
+					"criterion": "Розробляє перехід: узгоджені цілі, власність команд над якістю, пілот на двох лініях, контролі збережено для безпеки",
+					"points": 2
+				},
+				{
+					"criterion": "Називає показники: брак, прогули, пропозиції",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик чи обмеження: рутинна низькокваліфікована робота, навчання, культура",
+					"points": 1
+				}
+			]
+		}
+	}
+}

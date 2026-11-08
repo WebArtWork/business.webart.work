@@ -1,0 +1,884 @@
+{
+	"slug": "unit-economics",
+	"topicId": 56,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does unit economics check?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The total profit of the company after all overhead"
+					},
+					{
+						"id": "B",
+						"text": "Whether the business makes or loses money on a single unit, before fixed overhead"
+					},
+					{
+						"id": "C",
+						"text": "How many units the company sold last year"
+					},
+					{
+						"id": "D",
+						"text": "The cost of producing the cheapest item in the range"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "How is contribution margin per unit calculated?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Price minus the rent allocated to each unit"
+					},
+					{
+						"id": "B",
+						"text": "Variable cost per unit divided by price"
+					},
+					{
+						"id": "C",
+						"text": "Total revenue minus total costs of the company"
+					},
+					{
+						"id": "D",
+						"text": "Price minus the variable costs of that unit"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If contribution per unit is negative, selling more units makes the total result worse."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A business with positive contribution per unit is certain to become profitable."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which cost belongs in the "
+							},
+							{
+								"t": "variable",
+								"b": true
+							},
+							{
+								"t": " cost per order of a meal-delivery app?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Office rent"
+					},
+					{
+						"id": "B",
+						"text": "The CEO’s salary"
+					},
+					{
+						"id": "C",
+						"text": "The courier’s pay for that delivery"
+					},
+					{
+						"id": "D",
+						"text": "The annual licence of the accounting software"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " costs belong in the contribution per order of an online shop?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Warehouse rent"
+					},
+					{
+						"id": "B",
+						"text": "The payment processing fee on the order"
+					},
+					{
+						"id": "C",
+						"text": "The founder’s salary"
+					},
+					{
+						"id": "D",
+						"text": "An annual website redesign"
+					},
+					{
+						"id": "E",
+						"text": "The cardboard box used to pack the order"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meal app charges $25 per order, and the variable costs are $21 per order. It pays $30 to win a customer, and a typical customer orders six times."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Does a customer pay back the acquisition cost?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "No: six orders bring $24 against $30, a $6 loss per customer"
+					},
+					{
+						"id": "B",
+						"text": "Yes, because $4 of contribution per order is a positive number every time"
+					},
+					{
+						"id": "C",
+						"text": "Yes, because a typical customer brings $150 of revenue over six orders"
+					},
+					{
+						"id": "D",
+						"text": "It cannot be said without knowing the fixed costs of the whole company"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A subscription box sells at $40 a month with variable costs of $26. It costs $84 to win a customer, who stays five months on average."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the right conclusion?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A customer earns $14 net after all costs, so the model is healthy and can be scaled"
+					},
+					{
+						"id": "B",
+						"text": "The customer pays back in three months, well before leaving"
+					},
+					{
+						"id": "C",
+						"text": "A customer loses $84, because variable costs eat the entire price every month"
+					},
+					{
+						"id": "D",
+						"text": "Each customer loses $14: $70 of contribution never repays $84"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A scooter-rental firm reports a company-wide contribution of $0.80 per ride. Before spending on growth, which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " checks make the most sense?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Break the figure down by city, to see which markets lose money"
+					},
+					{
+						"id": "B",
+						"text": "Check that repairs, charging and vandalism are included in the cost per ride"
+					},
+					{
+						"id": "C",
+						"text": "Spend more on marketing, because the average is positive"
+					},
+					{
+						"id": "D",
+						"text": "Treat the office rent as a variable cost of each ride"
+					},
+					{
+						"id": "E",
+						"text": "Ignore the customer level, since each ride is what is sold"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Two young companies each lose $2 million a year. Company X earns $6 of contribution per order and has $5 million of fixed costs. Company Y loses $3 on every order. An investor asks which is healthier."
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Y, because it has fewer fixed costs to worry about and a simpler cost base"
+					},
+					{
+						"id": "B",
+						"text": "Both are equally risky, since the total losses are the same this year"
+					},
+					{
+						"id": "C",
+						"text": "X, because more volume can cover its fixed costs, while Y’s loss grows with each order"
+					},
+					{
+						"id": "D",
+						"text": "Neither can be judged until the full revenue figures are known"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coffee subscription charges $18 a month. Each month it spends $7 on beans, $4 on shipping and $1 on payment fees, and winning a customer costs $30. Calculate the contribution per month, the contribution margin as a percentage and the payback period."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A food-delivery startup averages $2 of contribution per order. In the capital the figure is $5, and in two smaller cities it is minus $1. Explain what the average hides and what the company should do."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pet-food subscription charges $30 a month. Variable costs are $21 (food $15, shipping $4, fees $2). A customer costs $90 to win and stays eight months on average. Choose one: raise the price to $34 with no change in retention, cut acquisition cost to $60 through a referral programme, or keep growing at the current numbers. Justify your choice with calculations."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A cloud-storage company has $300,000 for marketing and 14 months of cash. A consumer customer pays $10 a month, has $4 of variable cost, costs $60 to win and stays 20 months. A business customer pays $25 a month, has $12 of variable cost, costs $400 to win and stays 36 months. Where should the money go? Compare both segments and explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A bike-courier startup charges $9 per order and handles 40,000 orders a month. In the centre, which makes up 75% of orders, variable cost is $6 per order. In the outer districts, 25% of orders, it is $10 because couriers ride longer routes. Fixed costs are $120,000 a month. Winning a customer costs $15, and a customer places 15 orders on average."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the average contribution per order and the monthly result, find the break-even volume, identify the problem segment, and recommend an action with its effect."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що перевіряє юніт-економіка?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Загальний прибуток компанії після всіх накладних витрат"
+					},
+					{
+						"id": "B",
+						"text": "Чи заробляє бізнес на одній одиниці, чи втрачає на ній, ще до постійних витрат"
+					},
+					{
+						"id": "C",
+						"text": "Скільки одиниць компанія продала торік"
+					},
+					{
+						"id": "D",
+						"text": "Собівартість найдешевшого товару в асортименті"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Як обчислюють маржинальний дохід з одиниці?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ціна мінус орендна плата, віднесена на кожну одиницю"
+					},
+					{
+						"id": "B",
+						"text": "Змінні витрати на одиницю, поділені на ціну"
+					},
+					{
+						"id": "C",
+						"text": "Загальний виторг мінус загальні витрати компанії"
+					},
+					{
+						"id": "D",
+						"text": "Ціна мінус змінні витрати цієї одиниці"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо маржинальний дохід з одиниці від’ємний, продаж більшої кількості одиниць погіршує загальний результат."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бізнес із додатним маржинальним доходом з одиниці неодмінно стане прибутковим."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка витрата входить до "
+							},
+							{
+								"t": "змінних",
+								"b": true
+							},
+							{
+								"t": " витрат на замовлення в застосунку доставки їжі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Оренда офісу"
+					},
+					{
+						"id": "B",
+						"text": "Зарплата директора"
+					},
+					{
+						"id": "C",
+						"text": "Оплата кур’єра за цю доставку"
+					},
+					{
+						"id": "D",
+						"text": "Річна ліцензія на бухгалтерську програму"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " витрати входять до маржинального доходу із замовлення інтернет-магазину?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Оренда складу"
+					},
+					{
+						"id": "B",
+						"text": "Платіжна комісія за замовлення"
+					},
+					{
+						"id": "C",
+						"text": "Зарплата засновника"
+					},
+					{
+						"id": "D",
+						"text": "Щорічне оновлення сайту"
+					},
+					{
+						"id": "E",
+						"text": "Картонна коробка для пакування замовлення"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок доставки їжі бере $25 за замовлення, а змінні витрати становлять $21 на замовлення. Залучення клієнта коштує $30, а типовий клієнт замовляє шість разів."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чи окуповує клієнт витрати на залучення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ні: шість замовлень дають $24 проти $30, тобто $6 збитку на клієнті"
+					},
+					{
+						"id": "B",
+						"text": "Так, бо $4 маржинального доходу із замовлення щоразу є додатною величиною"
+					},
+					{
+						"id": "C",
+						"text": "Так, бо типовий клієнт приносить $150 виторгу за шість замовлень"
+					},
+					{
+						"id": "D",
+						"text": "Без постійних витрат усієї компанії цього не сказати"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Передплатна коробка продається по $40 на місяць зі змінними витратами $26. Залучення клієнта коштує $84, а клієнт залишається в середньому п’ять місяців."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який висновок правильний?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Клієнт заробляє $14 чистими після всіх витрат, тож модель здорова й її можна масштабувати"
+					},
+					{
+						"id": "B",
+						"text": "Клієнт окуповується за три місяці, задовго до того, як піде"
+					},
+					{
+						"id": "C",
+						"text": "Клієнт приносить $84 збитку, бо змінні витрати щомісяця з’їдають усю ціну"
+					},
+					{
+						"id": "D",
+						"text": "Кожен клієнт приносить $14 збитку: $70 внеску ніколи не окупить $84"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фірма прокату самокатів повідомляє про середній маржинальний дохід $0,80 за поїздку по компанії. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " перевірки найрозумніші перед витратами на зростання?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Розбити показник за містами, щоб побачити, які ринки збиткові"
+					},
+					{
+						"id": "B",
+						"text": "Перевірити, чи враховані в собівартості поїздки ремонти, зарядка й вандалізм"
+					},
+					{
+						"id": "C",
+						"text": "Витрачати більше на маркетинг, бо середній показник додатний"
+					},
+					{
+						"id": "D",
+						"text": "Вважати оренду офісу змінною витратою кожної поїздки"
+					},
+					{
+						"id": "E",
+						"text": "Ігнорувати рівень клієнта, бо продається саме поїздка"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дві молоді компанії втрачають по $2 млн на рік. Компанія X отримує $6 маржинального доходу із замовлення й має $5 млн постійних витрат. Компанія Y втрачає $3 на кожному замовленні. Інвестор питає, яка здоровіша."
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Y, бо має менше постійних витрат і простішу структуру витрат"
+					},
+					{
+						"id": "B",
+						"text": "Однаково ризиковані, бо загальні збитки цього року однакові"
+					},
+					{
+						"id": "C",
+						"text": "X, бо більший обсяг може покрити її постійні витрати, а збиток Y росте з кожним замовленням"
+					},
+					{
+						"id": "D",
+						"text": "Нічого не можна сказати, поки невідомі всі показники виторгу"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Передплата на каву коштує $18 на місяць. Щомісяця на неї йде $7 на зерно, $4 на доставку й $1 платіжної комісії, а залучення клієнта коштує $30. Обчисліть маржинальний дохід за місяць, його частку у відсотках і період окупності."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап із доставки їжі в середньому має $2 маржинального доходу із замовлення. У столиці цей показник $5, а в двох менших містах мінус $1. Поясніть, що ховає середнє, і що компанії робити."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Передплата на корм для тварин коштує $30 на місяць. Змінні витрати $21 (корм $15, доставка $4, комісії $2). Залучення клієнта коштує $90, а він залишається в середньому вісім місяців. Оберіть одне: підвищити ціну до $34 без зміни утримання, знизити вартість залучення до $60 завдяки реферальній програмі або й далі зростати за нинішніх цифр. Обґрунтуйте вибір розрахунками."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Хмарне сховище має $300 000 на маркетинг і гроші на 14 місяців. Споживач платить $10 на місяць, має $4 змінних витрат, залучення коштує $60, і він залишається 20 місяців. Бізнес-клієнт платить $25 на місяць, має $12 змінних витрат, залучення коштує $400, і він залишається 36 місяців. Куди спрямувати гроші? Порівняйте обидва сегменти й поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Стартап велокур’єрів бере $9 за замовлення й обробляє 40 000 замовлень на місяць. У центрі, на який припадає 75% замовлень, змінні витрати становлять $6 на замовлення. У віддалених районах, де 25% замовлень, вони $10, бо кур’єри їздять довшими маршрутами. Постійні витрати $120 000 на місяць. Залучення клієнта коштує $15, а клієнт робить у середньому 15 замовлень."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обчисліть середній маржинальний дохід із замовлення й місячний результат, знайдіть обсяг беззбитковості, визначте проблемний сегмент і порадьте дію з її ефектом."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

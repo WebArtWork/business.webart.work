@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A sunk cost is already gone and will be identical under every option, so it cannot favour any of them. Recoverable spending still matters, future costs are the very thing the decision should weigh, and fixed costs are a different idea based on how costs move with volume."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Past spending is the same whichever way you decide, so only what lies ahead can separate the options. Money spent, years invested and the wish to look consistent are exactly the pressures that produce the fallacy."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The $80 is gone whether you attend or stay home. Only the question of whether an evening out while ill is worth more than resting should decide it."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The $40,000 can still be recovered by selling, so it is a future benefit of stopping. The remaining $60,000 is the part that is truly sunk and should be ignored."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Using past spending as the reason to continue is the fallacy. The first two statements compare only future costs and benefits, which is correct, and writing stop criteria in advance is a safeguard against the fallacy."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The licence fee and the research are spent and cannot be recovered. A refundable deposit and a resalable machine are recoverable, and next month’s salary is still a future cost that continuing would create."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Only the future matters: $3 million more to earn $2.4 million loses $0.6 million. The $8 million is spent either way, so it cannot justify finishing, and it also cannot be the reason to stop."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "On future money, finishing nets $210,000 − $150,000 = $60,000 and the port nets $180,000 − $90,000 = $90,000, while cancelling gives zero. The $400,000 is the same in all three, so it does not make them equal in outcome. It also should not push anyone to finish or cancel."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "An outsider has no stake in the original decision, and pre-agreed criteria remove the pressure to defend it. Letting the champion decide, adding money after bad news and appealing to past effort all feed escalation of commitment."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The fallacy is giving weight to money already spent. A future loss of deals is a genuine cost of stopping, so it belongs in the numbers if it can be estimated. Referring to a past commitment does not automatically make it the fallacy, and the past spending still does not decide the case."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The $25,000 already paid is in the past, so it should not drive the choice, apart from the $9,000 that can still be recovered by selling. Looking forward, keeping the corner loses $2,000 a year ($4,000 − $6,000) and gives up $9,000 of sale value, while selling gives $9,000 now. The owner should sell the equipment unless there is a believable plan to raise sales above the running costs."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies the $25,000 as a past cost that should not drive the decision, with only the $9,000 resale as recoverable",
+					"points": 2
+				},
+				{
+					"criterion": "Compares the future outcomes (a $2,000 yearly loss and the $9,000 forgone against selling) and decides to sell",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Stopping the project means admitting that the manager’s own judgment was wrong, and people dislike looking inconsistent or wasting what they have put in, so they add resources to defend the decision. Two safeguards are to set stop criteria and review dates before the project starts, and to have a reviewer with no stake in the original decision look at the future numbers."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the motive: admitting a mistake, consistency or loss aversion",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a first safeguard (stop criteria agreed in advance)",
+					"points": 1
+				},
+				{
+					"criterion": "Gives a second safeguard (independent review of future numbers)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option B. On future money A nets $350,000 − $400,000 = −$50,000, B nets $500,000 − $250,000 = +$250,000, and C nets zero. The $600,000 is spent in every case and should not influence the decision, so the fact that A would “use” it is not an argument. B also reuses the team’s drone expertise. The risk is that the $500,000 is a forecast, so I would set a review after a pilot with two customers and stop if signed orders are below a set level."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates the future net result of all options (−$50,000, +$250,000, zero)",
+					"points": 2
+				},
+				{
+					"criterion": "States that the $600,000 is irrelevant to the choice",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk or a stop criterion",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Finishing nets $900,000 × 5 − $1.2 million = $3.3 million. The ready-made product nets $800,000 × 5 − $500,000 − $100,000 × 5 = $3.0 million. Finishing is ahead by $300,000, so I would finish, but the margin is thin: if the remaining cost rises above $1.5 million the ready-made product wins. Both executives misuse the $3 million, because it is gone whichever way we go. I would finish with stop criteria: a budget cap of $1.5 million, a milestone review every quarter and an independent reviewer."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates both future results correctly ($3.3 million and $3.0 million)",
+					"points": 2
+				},
+				{
+					"criterion": "Notes that the $3 million does not support either executive’s argument",
+					"points": 1
+				},
+				{
+					"criterion": "Finds the sensitivity (finishing stays better only up to a remaining cost of $1.5 million)",
+					"points": 1
+				},
+				{
+					"criterion": "Sets stop criteria or independent review",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The $900,000 fit-out is sunk and the rent is committed unless the break fee is paid. Staying as it is: ($15,000 − $20,000) × 36 = −$180,000. Exiting: −$240,000 for the break fee. Relaunch: ($19,000 − $20,000) × 36 − $60,000 = −$96,000. So staying beats exiting by $60,000, and relaunching is the best, $84,000 better than staying. I recommend the relaunch, but the $19,000 is a forecast. I would set a review after six months, with a rule that if earnings before rent are below $17,000, the retailer re-runs the comparison for the remaining 30 months and leaves if exit has become cheaper. The $900,000 should play no part in any of these calculations."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Classifies the $900,000 as sunk and the rent as a committed cost",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates the three options (−$180,000, −$240,000, −$96,000)",
+					"points": 2
+				},
+				{
+					"criterion": "Recommends the relaunch and shows why exiting is not the cheapest",
+					"points": 1
+				},
+				{
+					"criterion": "Sets a review point or a stop criterion for the relaunch forecast",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Неповернені витрати вже минули й однакові за будь-якого варіанта, тож не можуть віддати перевагу жодному. Витрати, що можна повернути, усе ще мають значення, майбутні витрати це саме те, що рішення має зважувати, а постійні витрати це інше поняття, засноване на тому, як витрати змінюються з обсягом."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Минулі витрати однакові за будь-якого рішення, тож відрізнити варіанти може лише те, що попереду. Витрачені гроші, вкладені роки й бажання виглядати послідовним це саме ті тиски, що породжують цю помилку."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "$80 втрачені, ідете ви чи залишаєтеся вдома. Вирішувати має лише те, чи вечір поза домом за хвороби вартий більше за відпочинок."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "$40 000 ще можна повернути продажем, тож це майбутня вигода від припинення. Решта $60 000 це та частина, що справді неповернена, і її слід ігнорувати."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Використовувати минулі витрати як причину продовжувати це і є помилка. Перші два твердження порівнюють лише майбутні витрати й вигоди, що правильно, а письмові критерії зупинки наперед це захист від помилки."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Плату за ліцензію й дослідження вже витрачено, їх не повернути. Завдаток, що повертається, і верстат, який можна продати, відновлювані, а зарплата наступного місяця ще майбутня витрата, яку створило б продовження."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Має значення лише майбутнє: ще $3 млн заради $2,4 млн дають мінус $0,6 млн. $8 млн витрачено за будь-якого варіанта, тож вони не можуть виправдати завершення, а також не можуть бути причиною зупинитися."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На майбутніх грошах завершення дає $210 000 − $150 000 = $60 000, а порт $180 000 − $90 000 = $90 000, тоді як скасування дає нуль. $400 000 однакові в усіх трьох, але це не робить результати однаковими. Також вони не повинні штовхати ні до завершення, ні до скасування."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сторонній не має інтересу в початковому рішенні, а попередньо погоджені критерії знімають тиск захищати його. Рішення ініціатора самотужки, додаткові гроші після поганих новин і апеляція до минулих зусиль підживлюють ескалацію зобов’язань."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Помилка полягає в тому, що вагу надають уже витраченим грошам. Майбутня втрата угод є справжньою вартістю зупинки, тож її слід включити в розрахунок, якщо можна оцінити. Посилання на минуле зобов’язання не робить це автоматично помилкою, а минулі витрати все одно не вирішують справу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Уже сплачені $25 000 це минуле, тож вони не мають визначати вибір, окрім $9000, які ще можна повернути продажем. Дивлячись уперед, утримання куточка втрачає $2000 на рік ($4000 − $6000) і віддає $9000 вартості продажу, тоді як продаж дає $9000 зараз. Власнику варто продати обладнання, хіба що є правдоподібний план підняти продажі вище за поточні витрати."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає $25 000 як минулу витрату, що не має визначати рішення, а відновлюваними лише $9000 від перепродажу",
+					"points": 2
+				},
+				{
+					"criterion": "Порівнює майбутні наслідки (щорічний збиток $2000 і $9000 від продажу, якими жертвують) і вирішує продати",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зупинка проєкту означає визнати, що власне судження менеджера було хибним, а люди не люблять виглядати непослідовними чи марнувати вкладене, тому додають ресурси, щоб захистити рішення. Два запобіжники: встановити критерії зупинки й дати перегляду до початку проєкту та залучити рецензента без інтересу в початковому рішенні, який подивиться на майбутні цифри."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює мотив: визнання помилки, послідовність чи несхильність до втрат",
+					"points": 2
+				},
+				{
+					"criterion": "Називає перший запобіжник (критерії зупинки, погоджені наперед)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає другий запобіжник (незалежний перегляд майбутніх цифр)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант Б. На майбутніх грошах A дає $350 000 − $400 000 = −$50 000, Б дає $500 000 − $250 000 = +$250 000, а В нуль. $600 000 витрачено в кожному випадку, і вони не повинні впливати на рішення, тож те, що A їх «використає», не аргумент. Б також повторно використовує досвід команди з дронами. Ризик у тому, що $500 000 це прогноз, тож я б призначив перегляд після пілота з двома клієнтами й зупинився б, якщо підписаних замовлень менше за визначений рівень."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Обчислює майбутній чистий результат усіх варіантів (−$50 000, +$250 000, нуль)",
+					"points": 2
+				},
+				{
+					"criterion": "Зазначає, що $600 000 не мають значення для вибору",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик або критерій зупинки",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Завершення дає $900 000 × 5 − $1,2 млн = $3,3 млн. Готовий продукт дає $800 000 × 5 − $500 000 − $100 000 × 5 = $3,0 млн. Завершення попереду на $300 000, тож я б завершив, але запас тонкий: якщо решта вартості зросте вище за $1,5 млн, переможе готовий продукт. Обидва керівники хибно використовують $3 млн, бо вони втрачені за будь-якого шляху. Я б завершив із критеріями зупинки: стеля бюджету $1,5 млн, щоквартальний перегляд етапів і незалежний рецензент."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно обчислює обидва майбутні результати ($3,3 млн і $3,0 млн)",
+					"points": 2
+				},
+				{
+					"criterion": "Зауважує, що $3 млн не підтримують аргумент жодного з керівників",
+					"points": 1
+				},
+				{
+					"criterion": "Знаходить чутливість (завершення краще лише до залишкової вартості $1,5 млн)",
+					"points": 1
+				},
+				{
+					"criterion": "Встановлює критерії зупинки або незалежний перегляд",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Облаштування за $900 000 неповернене, а оренда зобов’язана, якщо не сплатити штраф. Залишити як є: ($15 000 − $20 000) × 36 = −$180 000. Вийти: −$240 000 штрафу. Перезапуск: ($19 000 − $20 000) × 36 − $60 000 = −$96 000. Отже, залишення краще за вихід на $60 000, а перезапуск найкращий, на $84 000 краще за залишення. Я раджу перезапуск, але $19 000 це прогноз. Я б призначив перегляд через шість місяців із правилом: якщо заробіток до оренди нижчий за $17 000, рітейлер знову порівнює варіанти на 30 місяців, що залишилися, і виходить, якщо вихід став дешевшим. $900 000 не мають брати участі в жодному з цих розрахунків."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Класифікує $900 000 як неповернені, а оренду як зобов’язану витрату",
+					"points": 2
+				},
+				{
+					"criterion": "Обчислює три варіанти (−$180 000, −$240 000, −$96 000)",
+					"points": 2
+				},
+				{
+					"criterion": "Радить перезапуск і показує, чому вихід не найдешевший",
+					"points": 1
+				},
+				{
+					"criterion": "Встановлює точку перегляду або критерій зупинки для прогнозу перезапуску",
+					"points": 1
+				}
+			]
+		}
+	}
+}

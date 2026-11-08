@@ -1,0 +1,950 @@
+{
+	"slug": "peter-principle",
+	"topicId": 87,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why does the Peter Principle happen, according to the theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Managers deliberately promote weak people so they face no rivals"
+					},
+					{
+						"id": "B",
+						"text": "Promotions reward success in the current role, not proof of fit for the next one"
+					},
+					{
+						"id": "C",
+						"text": "Senior roles are paid too little to attract capable people"
+					},
+					{
+						"id": "D",
+						"text": "Employees stop learning once they have been in a company for several years"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which component of the theory describes the gap between what the old job required and what the new job needs?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Stickiness"
+					},
+					{
+						"id": "B",
+						"text": "Level of incompetence"
+					},
+					{
+						"id": "C",
+						"text": "Hidden cost"
+					},
+					{
+						"id": "D",
+						"text": "Skill discontinuity"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The Peter Principle is a strict law: every employee eventually ends up in a job they cannot do."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A firm where returning from a failed promotion means a pay cut and a public demotion is likely to have more managers clinging to roles they handle poorly."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hospital promotes its most skilled surgical nurse to ward manager. Which hidden cost does the Peter Principle warn about?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The hospital may lose an excellent clinician and gain a weaker manager at the same time"
+					},
+					{
+						"id": "B",
+						"text": "The ward’s salary bill rises because managers earn more"
+					},
+					{
+						"id": "C",
+						"text": "Other nurses may feel jealous of the promotion"
+					},
+					{
+						"id": "D",
+						"text": "The hospital has to pay for a management course"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A 200-person engineering firm wants to weaken the Peter Principle. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " changes help most?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A senior expert track with pay up to a manager’s salary"
+					},
+					{
+						"id": "B",
+						"text": "A larger annual bonus for anyone who becomes a manager"
+					},
+					{
+						"id": "C",
+						"text": "A three-month acting manager trial with an agreed, face-saving way back"
+					},
+					{
+						"id": "D",
+						"text": "Promoting whoever produced the most drawings last year"
+					},
+					{
+						"id": "E",
+						"text": "Moving performance reviews from quarterly to yearly"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A restaurant group promotes its best line cook to kitchen manager. Within four months stock orders are late, staff rotas clash and food cost rises from 29% to 34% of sales. What does the Peter Principle suggest went wrong?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "He became lazy after the promotion"
+					},
+					{
+						"id": "B",
+						"text": "Menu prices are too low for the new food costs"
+					},
+					{
+						"id": "C",
+						"text": "The group promoted on cooking skill, which predicts little about ordering, rotas and cost control"
+					},
+					{
+						"id": "D",
+						"text": "He needs a pay rise to match his new responsibilities"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company must choose a regional sales manager from two reps."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Rep 1: reached 140% of quota, has never coached anyone."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Rep 2: reached 95% of quota, mentored three juniors who all hit target, and ran the team for six weeks while the manager was ill, with team feedback of 4.5 out of 5."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which decision fits the theory best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Rep 1, because the best seller sets an example for the team"
+					},
+					{
+						"id": "B",
+						"text": "Rep 2, and offer Rep 1 a senior sales track with higher pay and no people to manage"
+					},
+					{
+						"id": "C",
+						"text": "Rep 1, with a management course in the first month"
+					},
+					{
+						"id": "D",
+						"text": "Neither, and hire an outside manager to avoid upsetting either rep"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An IT firm’s policy reads: “The engineer with the most closed tickets becomes team lead. Leads who fail are moved to the support desk at 15% lower pay.” Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " flaws does the Peter Principle point to?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The policy uses too few levels in the hierarchy"
+					},
+					{
+						"id": "B",
+						"text": "Ticket numbers are tracked automatically"
+					},
+					{
+						"id": "C",
+						"text": "It judges candidates by results in the old role rather than skills for the new one"
+					},
+					{
+						"id": "D",
+						"text": "Team leads are allowed to keep some coding work"
+					},
+					{
+						"id": "E",
+						"text": "It makes stepping back costly and humiliating, so failing leads will cling to the role"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A CFO says: “The Peter Principle is a joke book. We promote top performers because it motivates everyone below.” Which reply is fairest?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "He is right: research has found no such effect in real firms"
+					},
+					{
+						"id": "B",
+						"text": "He is wrong: promoting top performers always harms the company"
+					},
+					{
+						"id": "C",
+						"text": "It does not matter, because demotion fixes any bad promotion quickly"
+					},
+					{
+						"id": "D",
+						"text": "He is partly right: the book was satire and performance-based promotion can motivate, but a study of sales workers found the best sellers were promoted most and their teams then did worse"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A logistics company will choose a new night-shift supervisor from four forklift operators. Describe two ways to test candidates on the supervisor role’s skills, and explain why the number of pallets each operator moves is a weak signal."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The Peter Principle is stronger in some hierarchies than others. Explain why it is strong in sales and weak where the next level uses the same skills. Give one example of a hierarchy where it is weak."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A design agency promoted its best designer, Marta, to team lead eight months ago. Since then team delivery is down 22%, one designer has quit, and Marta says she misses design work. Choose one: keep her as lead and send her on a leadership course, move her to a senior design track at the same pay and run trials to pick a new lead, or let her go. Justify your choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A retail chain with 40 stores fills six store manager roles a year."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option A: keep promoting the best-selling sales associates. 35% of new managers leave or are moved back within a year."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option B: hire external managers at $8,000 recruiting cost each. 20% fail in the first year."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option C: a three-month assistant manager programme with structured assessment, $5,000 per trainee, ten trainees for six roles."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one option and justify it with the theory, including its cost and one risk."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A 120-person software company promoted nine engineers to team lead in two years, each chosen for top code output. Five of the nine teams now deliver 10–25% less than before. Seven senior engineers left last year; exit interviews say “there is no way to grow without managing people”. Leads earn up to $95,000, while senior engineer pay is capped at $78,000. No lead has ever moved back to engineering."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Diagnose the problem using at least three components of the Peter Principle, propose a redesign with three elements, and name one measure to track."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому, згідно з теорією, виникає принцип Пітера?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Керівники навмисно підвищують слабких, щоб не мати суперників"
+					},
+					{
+						"id": "B",
+						"text": "Підвищення винагороджує успіх на теперішній посаді, а не доведену придатність до наступної"
+					},
+					{
+						"id": "C",
+						"text": "Старші посади оплачуються надто мало, щоб привабити здібних людей"
+					},
+					{
+						"id": "D",
+						"text": "Працівники перестають навчатися після кількох років у компанії"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який складник теорії описує розрив між тим, чого вимагала стара робота, і тим, що потрібно на новій?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Закріпленість"
+					},
+					{
+						"id": "B",
+						"text": "Рівень некомпетентності"
+					},
+					{
+						"id": "C",
+						"text": "Прихована ціна"
+					},
+					{
+						"id": "D",
+						"text": "Розрив навичок"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Принцип Пітера це строгий закон: кожен працівник зрештою опиняється на посаді, з якою не може впоратися."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У фірмі, де повернення після невдалого підвищення означає зниження зарплати й публічне пониження, більше керівників триматимуться за посади, з якими погано справляються."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Лікарня призначає свою найкращу операційну медсестру завідувачкою відділення. Про яку приховану ціну попереджає принцип Пітера?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Лікарня може водночас втратити чудову медсестру й отримати слабшу керівницю"
+					},
+					{
+						"id": "B",
+						"text": "Фонд оплати праці відділення зросте, бо керівники заробляють більше"
+					},
+					{
+						"id": "C",
+						"text": "Інші медсестри можуть заздрити підвищенню"
+					},
+					{
+						"id": "D",
+						"text": "Лікарні доведеться оплатити курс менеджменту"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інженерна фірма на 200 людей хоче послабити дію принципу Пітера. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " зміни допоможуть найбільше?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Кар’єрний трек старшого експерта з оплатою до рівня керівника"
+					},
+					{
+						"id": "B",
+						"text": "Більша річна премія кожному, хто стає керівником"
+					},
+					{
+						"id": "C",
+						"text": "Тримісячний пробний період на посаді керівника з погодженим гідним шляхом назад"
+					},
+					{
+						"id": "D",
+						"text": "Підвищувати того, хто торік зробив найбільше креслень"
+					},
+					{
+						"id": "E",
+						"text": "Перейти від щоквартальних оцінок результатів до щорічних"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ресторанна група призначає свого найкращого кухаря на лінії шеф-менеджером кухні. За чотири місяці замовлення продуктів запізнюються, графіки змін накладаються, а собівартість їжі зростає з 29% до 34% продажів. Що, згідно з принципом Пітера, пішло не так?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Після підвищення він став лінивим"
+					},
+					{
+						"id": "B",
+						"text": "Ціни в меню надто низькі для нової собівартості"
+					},
+					{
+						"id": "C",
+						"text": "Група підвищила його за кулінарну майстерність, яка мало що каже про закупівлі, графіки й контроль витрат"
+					},
+					{
+						"id": "D",
+						"text": "Йому потрібна вища зарплата відповідно до нових обов’язків"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія обирає регіонального менеджера з продажу з двох торгових представників."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Представник 1: виконав план на 140%, ніколи нікого не навчав."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Представник 2: виконав план на 95%, був наставником трьох новачків, які всі виконали план, і шість тижнів керував командою, поки менеджер хворів; оцінка команди 4,5 з 5."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке рішення найкраще відповідає теорії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Представник 1, бо найкращий продавець подає приклад команді"
+					},
+					{
+						"id": "B",
+						"text": "Представник 2, а представнику 1 запропонувати трек старшого продавця з вищою оплатою без підлеглих"
+					},
+					{
+						"id": "C",
+						"text": "Представник 1 із курсом менеджменту в перший місяць"
+					},
+					{
+						"id": "D",
+						"text": "Жоден, а найняти менеджера ззовні, щоб нікого не образити"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Політика айті-фірми: «Інженер із найбільшою кількістю закритих тікетів стає тимлідом. Тимліди, які не впоралися, переходять у службу підтримки із зарплатою на 15% нижчою». Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " вади вказує принцип Пітера?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "В ієрархії замало рівнів"
+					},
+					{
+						"id": "B",
+						"text": "Кількість тікетів рахується автоматично"
+					},
+					{
+						"id": "C",
+						"text": "Кандидатів оцінюють за результатами на старій посаді, а не за навичками для нової"
+					},
+					{
+						"id": "D",
+						"text": "Тимлідам дозволено залишити частину роботи з кодом"
+					},
+					{
+						"id": "E",
+						"text": "Крок назад дорогий і принизливий, тож тимліди, які не впоралися, триматимуться за посаду"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фінансовий директор каже: «Принцип Пітера це жартівлива книжка. Ми підвищуємо найкращих, бо це мотивує всіх нижче». Яка відповідь найсправедливіша?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він має рацію: дослідження не знайшли такого ефекту в реальних фірмах"
+					},
+					{
+						"id": "B",
+						"text": "Він помиляється: підвищення найкращих завжди шкодить компанії"
+					},
+					{
+						"id": "C",
+						"text": "Це неважливо, бо пониження швидко виправляє будь-яке невдале підвищення"
+					},
+					{
+						"id": "D",
+						"text": "Він частково має рацію: книжка була сатирою, а підвищення за результатами може мотивувати, але дослідження продавців показало, що найкращих підвищували найчастіше, а їхні команди потім працювали гірше"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Логістична компанія обиратиме нового керівника нічної зміни з чотирьох водіїв навантажувачів. Опишіть два способи перевірити кандидатів на навички керівника зміни й поясніть, чому кількість переміщених кожним водієм палет є слабким сигналом."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Принцип Пітера в одних ієрархіях сильніший, ніж в інших. Поясніть, чому він сильний у продажах і слабкий там, де вищий рівень використовує ті самі навички. Наведіть приклад ієрархії, де він слабкий."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дизайн-агенція вісім місяців тому підвищила свою найкращу дизайнерку Марту до тимліда. Відтоді продуктивність команди впала на 22%, один дизайнер звільнився, а Марта каже, що сумує за дизайном. Оберіть одне: залишити її тимлідом і відправити на курс лідерства, перевести на трек старшого дизайнера з тією самою зарплатою й обрати нового тимліда через пробні періоди або звільнити її. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Роздрібна мережа з 40 магазинів щороку заповнює шість посад директора магазину."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант A: і далі підвищувати найкращих продавців. 35% нових директорів ідуть або повертаються на попередні посади протягом року."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант B: наймати директорів ззовні, $8 000 на рекрутинг кожного. 20% не впораються в перший рік."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант C: тримісячна програма заступника директора зі структурованою оцінкою, $5 000 на учасника, десять учасників на шість посад."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть варіант і обґрунтуйте його теорією, назвавши вартість і один ризик."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Софтверна компанія на 120 людей за два роки підвищила дев’ятьох інженерів до тимлідів, обираючи кожного за найбільший обсяг коду. П’ять із дев’яти команд тепер видають на 10–25% менше, ніж раніше. Торік пішли семеро старших інженерів; на вихідних інтерв’ю вони казали: «Тут неможливо рости, не керуючи людьми». Тимліди заробляють до $95 000, а зарплата старшого інженера обмежена $78 000. Жоден тимлід ніколи не повертався до інженерної роботи."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поставте діагноз, використавши щонайменше три складники принципу Пітера, запропонуйте зміни з трьох елементів і назвіть один показник для відстеження."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

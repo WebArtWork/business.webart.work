@@ -1,0 +1,602 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Sustaining innovations make existing products better for the best customers, and incumbents usually win them. Disruptive innovation starts cheaper and simpler, oversupply is overshooting customer needs, and resource dependence explains where money goes."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Disruption starts with a worse, cheaper product for overlooked or non-consuming customers. A faster premium analyser is a sustaining move, a same-price copy is ordinary rivalry, and buying a supplier is a supply-chain move."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The point of the dilemma is that good management itself is the trap: processes, cost structure and values tuned to the best customers keep the firm from responding, not a lack of talent."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "That is performance oversupply. Customers who do not need the extra performance become willing to accept a simpler product at a lower price, which is where disruptors enter."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "This is the small markets problem combined with margin logic: the market is too small to matter for a large firm and looks unattractive by its rules. Small markets often grow, patents are not the mechanism, and customers do not ask firms to avoid markets."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A cheap, simple product for non-consumers that keeps improving and starts winning low-end buyers is the disruptive pattern. Requests from top clients point to sustaining innovation, a rival's price rise is ordinary rivalry, and an award says nothing about the threat."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Disruptive products always look inadequate to the best customers at first, so their verdict is a warning sign, not reassurance. Ignoring the threat follows the trap, a lawsuit does not address the trajectory, and a 50% price cut destroys the core business without serving the new market."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Run inside the main business, a low-margin, small venture always loses budget fights, so Christensen recommends a separate unit whose size and economics fit the new market. Merging deepens the problem, raising fees kills its advantage, and judging it by the parent's margins is the very trap."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The dilemma applies when an entrant starts worse and cheaper for overlooked customers, not with a better premium product, and best customers are the worst guide to a disruptive technology. Comparing performance, thinking about lost sales and a separate unit are all reasonable."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The theory is hard to use for prediction, but tracking how fast cheap alternatives improve still guides when to hedge. Claiming precise prediction overstates it, critics questioned case selection rather than disproving the mechanism, and it has been applied far beyond disk drives."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Phone cameras began worse and far cheaper, serving people who never bought a professional camera, so the firm's best customers rightly called them inadequate. But phone image quality improved faster than most buyers' needs rose, while the firm's cameras overshot what casual and many semi-professional users could use. Once phones were good enough, the low end of the market left. The firm should have tracked phone image quality against what its entry-level buyers actually needed, for example the share of event photos taken on phones."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Says phone cameras started cheaper, simpler and aimed at non-customers",
+					"points": 1
+				},
+				{
+					"criterion": "Explains that their quality improved faster than mainstream needs",
+					"points": 1
+				},
+				{
+					"criterion": "Mentions performance oversupply in the professional cameras",
+					"points": 1
+				},
+				{
+					"criterion": "Names a concrete indicator comparing the cheap product's progress with mainstream needs",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Resource dependence means customers and investors effectively decide where a firm spends. A textbook publisher earns its margin from universities that buy $120 printed books and want richer editions, and investors reward that margin. Free online materials start rough and earn almost nothing, so every budget meeting funds the next premium edition instead. Nobody is foolish: the processes and values that serve the best customers simply rank the new project last, until online materials become good enough for most courses."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: profitable customers and investors steer resources toward sustaining projects",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the publisher with concrete details (premium editions, low-earning online materials)",
+					"points": 1
+				},
+				{
+					"criterion": "Makes clear the cause is the firm's processes and values, not poor management or talent",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The autonomous unit. The startup's market is small and low-margin, so inside the main business it would lose every budget fight against aerospace projects: that is resource dependence plus the small markets problem. A separate unit can be excited by a hobbyist and school market and set its own costs and prices. Folding the startup into the main sales team would kill it, because sales staff earn more from aerospace deals. Another high-end machine is a sustaining move that ignores the threat. The unit may take some sales from the core, which is acceptable; track its unit growth and its quality against what small manufacturers need."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Justifies it with the theory's mechanisms (resource dependence, small markets, margin rules)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why folding the startup into the main business fails",
+					"points": 1
+				},
+				{
+					"criterion": "Accepts possible cannibalisation and names a metric to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Set up monitoring with clear triggers. Not every new technology is disruptive to this firm: drones serve tiny parcels, and payload grew by only 0.5 kg in three years, nowhere near the 200 kg pallets that bring 70% of revenue. The theory is also weak at prediction, so spending $20 million now bets on a trajectory nobody can confirm. Ignoring drones entirely repeats the incumbent's mistake. Triggers: payload passing 20 kg, rules opening city-wide flights, or the firm losing more than 5% of small-parcel revenue in a year. Any trigger would justify a separate unit."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Compares the drones' improvement rate with mainstream needs, using the numbers",
+					"points": 1
+				},
+				{
+					"criterion": "Notes that the theory explains well in hindsight but predicts poorly",
+					"points": 1
+				},
+				{
+					"criterion": "Defines concrete, measurable triggers for acting",
+					"points": 1
+				},
+				{
+					"criterion": "Explains why the other two options are weaker",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "This fits disruption: the simulator is cheaper ($15 versus $45), worse (52% versus 71% pass rate) and wins price-sensitive first-time learners, 8% of whom already switched. Fleet clients rejecting it is not reassurance; the best customers always dismiss a disruptive product early. The worry is the trajectory: a 14-point gain in one year, while learners need only a pass, not the chain's full quality. The chain should set up an autonomous simulator unit with its own prices and targets, judged by learner growth and pass rate rather than the 28% margin, and accept that it may take some lesson revenue."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies the disruptive traits with numbers (price, lower pass rate, low-end learners switching)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the fleet clients' rejection misleads",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the improvement trajectory (38% to 52%) against what learners actually need",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends an autonomous unit with its own targets and metrics, accepting cannibalisation",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підтримувальні інновації роблять наявні продукти кращими для найкращих клієнтів, і в них зазвичай перемагають лідери. Підривні інновації стартують дешевшими й простішими, надлишок продуктивності означає перевищення потреб клієнтів, а залежність від ресурсів пояснює, куди йдуть гроші."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підрив починається з гіршого й дешевшого продукту для непоміченого сегмента або тих, хто взагалі не купував. Швидший преміальний аналізатор це підтримувальний крок, копія за тією ж ціною це звичайне суперництво, а купівля постачальника стосується ланцюга постачання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Суть дилеми в тому, що пасткою стає саме гарне управління: відреагувати заважають процеси, структура витрат і цінності, налаштовані на найкращих клієнтів, а не брак таланту."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це надлишок продуктивності. Клієнти, яким не потрібна додаткова продуктивність, готові прийняти простіший продукт за нижчою ціною, і саме тут заходять підривники."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це проблема малих ринків разом із логікою маржі: ринок замалий для великої фірми й непривабливий за її правилами. Малі ринки часто зростають, патенти не є механізмом дилеми, а клієнти не просять фірми уникати ринків."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Дешевий простий продукт для тих, хто раніше не купував, який постійно покращується й починає забирати покупців нижнього сегмента, це модель підриву. Запити найбільших клієнтів ведуть до підтримувальних інновацій, підвищення цін конкурентом це звичайне суперництво, а нагорода нічого не каже про загрозу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підривні продукти спочатку завжди здаються неповноцінними найкращим клієнтам, тож їхній вердикт це тривожний сигнал, а не заспокоєння. Ігнорування загрози веде в пастку, позов не змінює траєкторії, а знижка 50% руйнує основний бізнес, не обслуговуючи новий ринок."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Усередині основного бізнесу малий напрям із низькою маржею завжди програє боротьбу за бюджет, тому Крістенсен радить окремий підрозділ, чий розмір і економіка відповідають новому ринку. Злиття поглиблює проблему, вищі комісії вбивають перевагу, а оцінка за маржею материнської компанії і є пасткою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Дилема стосується новачка, що починає з гіршого й дешевшого продукту для непоміченого сегмента, а не з кращого преміального, а найкращі клієнти це найгірші порадники щодо підривної технології. Порівняння продуктивності, думка про втрачені продажі й окремий підрозділ цілком доречні."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Для прогнозу теорію використовувати важко, але відстеження того, як швидко покращуються дешеві альтернативи, підказує, коли страхуватися. Твердження про точний прогноз перебільшує її можливості, критики ставили під сумнів добір прикладів, а не спростували механізм, і застосовують її далеко за межами дисків."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Камери телефонів спершу були гіршими й значно дешевшими та обслуговували людей, які ніколи не купували професійних камер, тож найкращі клієнти фірми слушно вважали їх неповноцінними. Але якість знімків на телефон зростала швидше, ніж потреби більшості покупців, а камери фірми перевищили те, чим могли скористатися аматори й багато напівпрофесіоналів. Щойно телефони стали достатньо добрими, нижній сегмент ринку пішов. Фірмі варто було порівнювати якість камер телефонів із реальними потребами своїх покупців початкового рівня, наприклад відстежувати частку фото з подій, знятих на телефон."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Каже, що камери телефонів стартували дешевшими, простішими й для тих, хто не купував професійних камер",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, що їхня якість зростала швидше за потреби масового ринку",
+					"points": 1
+				},
+				{
+					"criterion": "Згадує надлишок продуктивності професійних камер",
+					"points": 1
+				},
+				{
+					"criterion": "Називає конкретний показник, що порівнює прогрес дешевого продукту з потребами масового ринку",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Залежність від ресурсів означає, що клієнти та інвестори фактично визначають, куди фірма витрачає гроші. Видавництво заробляє маржу на університетах, які купують друковані підручники по $120 і хочуть ще багатших видань, а інвестори винагороджують цю маржу. Безкоштовні онлайн-матеріали спочатку сирі й майже нічого не приносять, тож на кожній бюджетній нараді гроші йдуть на чергове преміальне видання. Ніхто не діє нерозумно: процеси й цінності, що обслуговують найкращих клієнтів, просто ставлять новий проєкт останнім, доки онлайн-матеріали не стануть достатньо добрими для більшості курсів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: прибуткові клієнти й інвестори спрямовують ресурси на підтримувальні проєкти",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до видавництва з конкретними деталями (преміальні видання, малоприбуткові онлайн-матеріали)",
+					"points": 1
+				},
+				{
+					"criterion": "Чітко показує, що причина в процесах і цінностях фірми, а не в поганому управлінні чи браку таланту",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Автономний підрозділ. Ринок стартапу малий і низькомаржинальний, тож усередині основного бізнесу він програвав би кожну боротьбу за бюджет авіакосмічним проєктам: це залежність від ресурсів плюс проблема малих ринків. Окремий підрозділ може захоплюватися ринком аматорів і шкіл та самостійно визначати витрати й ціни. Передача стартапу основному відділу продажів його вб’є, бо продавці більше заробляють на авіакосмічних угодах. Ще одна машина преміум-класу це підтримувальний крок, що ігнорує загрозу. Підрозділ може забрати частину продажів основного бізнесу, і це прийнятно; варто стежити за зростанням продажів у штуках і порівнювати якість із потребами малих виробників."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Обґрунтовує його механізмами теорії (залежність від ресурсів, малі ринки, правила маржі)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому передача стартапу основному бізнесу провалиться",
+					"points": 1
+				},
+				{
+					"criterion": "Приймає можливе з’їдання продажів і називає показник для відстеження",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Налаштувати моніторинг із чіткими тригерами. Не кожна нова технологія підриває саме цю фірму: дрони обслуговують крихітні посилки, а вантажопідйомність за три роки зросла лише на 0,5 кг, дуже далеко від палет понад 200 кг, які дають 70% виручки. До того ж теорія слабка в прогнозах, тож $20 млн зараз означають ставку на траєкторію, яку ніхто не може підтвердити. Повне ігнорування повторює помилку лідера. Тригери: вантажопідйомність понад 20 кг, дозвіл польотів по всьому місту або втрата фірмою понад 5% виручки від малих посилок за рік. Будь-який тригер виправдав би окремий підрозділ."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Порівнює темп покращення дронів із потребами масового ринку, використовуючи цифри",
+					"points": 1
+				},
+				{
+					"criterion": "Зазначає, що теорія добре пояснює заднім числом, але погано прогнозує",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає конкретні вимірювані тригери для дій",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, чому два інші варіанти слабші",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це схоже на підрив: симулятор дешевший ($15 проти $45), гірший (52% проти 71% складання) і забирає чутливих до ціни новачків, 8% з яких уже перейшли. Те, що корпоративні клієнти його відкидають, не заспокоює: найкращі клієнти завжди спершу відкидають підривний продукт. Тривожить траєкторія: плюс 14 пунктів за рік, а учням потрібно лише скласти іспит, а не повна якість мережі. Мережі варто створити автономний підрозділ симуляторів із власними цінами й цілями, який оцінюють за зростанням кількості учнів і часткою складання, а не за маржею 28%, і погодитися, що він може забрати частину виручки від занять."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає ознаки підриву з цифрами (ціна, нижча частка складання, перехід учнів нижнього сегмента)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому відмова корпоративних клієнтів вводить в оману",
+					"points": 1
+				},
+				{
+					"criterion": "Порівнює траєкторію покращення (з 38% до 52%) з тим, що реально потрібно учням",
+					"points": 1
+				},
+				{
+					"criterion": "Радить автономний підрозділ із власними цілями й показниками, приймаючи з’їдання продажів",
+					"points": 2
+				}
+			]
+		}
+	}
+}

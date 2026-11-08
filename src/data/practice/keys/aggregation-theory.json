@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "When distribution and transaction costs fall to almost zero, the scarce thing is users’ attention, and whoever owns the relationship with users gains power. Printing capacity and shelf space were the old scarce distribution, and supplier inventory becomes interchangeable once an aggregator controls demand."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The recipe app owns the user relationship, serves extra users almost free and pulls suppliers in because the audience is there. The taxi firm and the retailer own their supply, and the agency must recruit suppliers one by one at real cost."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Aggregators control demand, not supply. Suppliers join because the users are there, so the aggregator holds the power without owning hotels, cars or apartments."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Users of an aggregator face little lock-in on the demand side, so a rival with a better experience can draw them away. Treating aggregator power as permanent is a common mistake."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The theory advises suppliers to measure the share of demand coming through an aggregator and to build direct channels. Leaving at once throws away 65% of bookings, exclusivity deepens dependence, and price cuts on the platform only make the hotel a cheaper interchangeable option."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A high cost to serve each buyer and suppliers who must be paid one by one forever are the two signs that the dynamics are different. Unpaid supplier sign-ups, direct visits and near-zero serving cost are what an aggregator looks like."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Aggregators win by delighting users first, and supply follows the demand. Paying for exclusive supply starts from the wrong side, while a building or salaried staff add the physical costs that break the zero-marginal-cost model."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Suppliers weaken an aggregator’s hold by multi-homing and building direct channels, while still using it to reach new users. Leaving at once loses 55% of orders, exclusivity deepens dependence, and the theory warns that aggregator power is not permanent."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Suppliers multi-homing and antitrust action are both named as ways the aggregator’s hold weakens. More riders, cheaper servers and more choice strengthen the flywheel instead."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "One limitation of the theory is that it predicts power but not profits. Losses do not show who holds power over demand, and the theory fits digital services best, not physical goods only."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It does. Direct relationship: 65% of owners start in the app instead of searching, so the app owns the demand. Near-zero marginal cost: $0.03 per extra owner means it scales without matching costs. Suppliers follow demand: all 750 sitters since then joined unpaid, so it no longer has to buy supply. The paid start with 150 sitters was a one-time push, not the ongoing model."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Uses the 65% direct opens as evidence of a direct user relationship",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the $0.03 cost as evidence of near-zero marginal cost",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the 750 unpaid sitters as evidence that supply follows demand",
+					"points": 1
+				},
+				{
+					"criterion": "Reaches a clear conclusion that it behaves like an aggregator",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Clients start their search on the marketplace, so translators must be there to be found. As more clients arrive, more translators join, giving more choice, faster replies and better reviews, which attract still more clients. Inside the marketplace each translator appears as one card ranked by price, rating and speed, so the client compares cards, not brands. The translator loses the direct tie to the client, and the marketplace can take a growing commission that once went to agencies."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the loop: more users attract more suppliers, which improves the experience and attracts more users",
+					"points": 2
+				},
+				{
+					"criterion": "Shows the commoditisation with a concrete detail (cards ranked by price, rating, speed)",
+					"points": 1
+				},
+				{
+					"criterion": "Shows the shift of power or profit to the marketplace (commission, lost client relationship)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Keep the listing and invest in direct channels. The platform owns the relationship with half of my new students, and exclusivity would hand it even more power: once I depend on it fully, it can raise the 12% back up with little risk. Rival platforms spread risk, but each still sits between me and the student. Referral rewards and school partnerships build demand I own, and a past student who refers a friend costs less than 20% of a lesson package. Risk: direct channels grow slowly, so track the share of students coming direct each quarter."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Explains the power balance: the platform owns the user relationship and exclusivity deepens dependence",
+					"points": 2
+				},
+				{
+					"criterion": "Compares the options’ effect on who owns demand",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a metric to track",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "App A. It owns the user relationship (80% open it directly), serves users at $0.02 and has crossed the point where venues join without payment, so every new user makes the supply side stronger at no extra cost. App B has high marginal cost ($12 per booking) and still buys supply with $500 bonuses, so it scales like a staffing service, not an aggregator. The main risk for App A is that users are not locked in: a rival with a better experience could pull them away, so the money should go into the fan experience."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Judges both apps on direct relationship, marginal cost and supplier pull with numbers from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why App B’s $12 calls and $500 bonuses break aggregator dynamics",
+					"points": 1
+				},
+				{
+					"criterion": "Names a valid risk for the chosen app (no user lock-in, venues multi-homing, regulation, power without profit)",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the analysis",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The booking sites own the relationship with travellers, and the guest houses are interchangeable options in their listings, which is why a ranking change cut bookings 15%. Commission is 72% × $900,000 × 17% = $110,160 a year. Plan: collect guests’ contacts at check-in, offer direct bookers a free breakfast and 5% off (cheaper than 17%), and partner with local ski schools. Stay on both sites for new guests. Target: cut the sites’ share to 50% within two years, which at the same revenue cuts commission to $76,500, saving $33,660 before the perks."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that the sites own the user relationship and the guest houses are commoditised, using the ranking shock as evidence",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates $110,160 a year in commission correctly",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes direct channels that fit the case (contacts at check-in, direct-booking perks, partnerships) while staying listed for discovery",
+					"points": 2
+				},
+				{
+					"criterion": "Sets a measurable target, such as a lower platform share with its commission effect",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Коли витрати на дистрибуцію й трансакції падають майже до нуля, дефіцитом стає увага користувачів, і владу отримує той, хто володіє стосунками з ними. Друкарні й полиці були старою дефіцитною дистрибуцією, а запаси постачальників стають взаємозамінними, щойно агрегатор контролює попит."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Застосунок рецептів володіє стосунками з користувачами, обслуговує нових майже безкоштовно й притягує постачальників, бо там аудиторія. Таксі й рітейлер володіють власною пропозицією, а агенція мусить залучати постачальників поодинці й за реальні гроші."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Агрегатори контролюють попит, а не пропозицію. Постачальники приходять, бо там користувачі, тож агрегатор має владу, не володіючи готелями, автомобілями чи квартирами."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На боці попиту користувачів агрегатора майже ніщо не тримає, тож конкурент із кращим досвідом може їх переманити. Вважати владу агрегатора вічною це типова помилка."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Теорія радить постачальникам виміряти, яка частка попиту йде через агрегатора, і будувати прямі канали. Різкий вихід кидає 65% бронювань, ексклюзивність поглиблює залежність, а знижки на платформі лише роблять готель дешевшим взаємозамінним варіантом."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Висока вартість обслуговування кожного покупця й постачальники, яких доводиться без кінця оплачувати поодинці, є двома ознаками іншої динаміки. Безкоштовне приєднання постачальників, прямі візити й майже нульова вартість обслуговування якраз і характерні для агрегатора."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Агрегатори перемагають, коли спершу подобаються користувачам, а пропозиція йде за попитом. Оплата ексклюзивної пропозиції починає не з того боку, а будівля чи штатні викладачі додають фізичні витрати, що руйнують модель нульових граничних витрат."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Постачальники послаблюють хватку агрегатора, працюючи на кількох платформах і будуючи прямі канали, але водночас користуються ним, щоб знаходити нових клієнтів. Різкий вихід втрачає 55% замовлень, ексклюзивність поглиблює залежність, а теорія попереджає, що влада агрегатора не вічна."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Робота постачальників на кількох платформах і антимонопольні дії прямо названі способами послабити агрегатора. Більше пасажирів, дешевші сервери й ширший вибір, навпаки, підсилюють маховик."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Одне з обмежень теорії полягає в тому, що вона передбачає владу, але не прибуток. Збитки не показують, у кого влада над попитом, а теорія найкраще пасує саме до цифрових послуг, а не лише до фізичних товарів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Так. Прямі стосунки: 65% власників починають із застосунку, а не з пошуку, тож він володіє попитом. Майже нульові граничні витрати: $0,03 на нового власника означає масштабування без пропорційних витрат. Постачальники йдуть за попитом: усі 750 наступних доглядальників приєдналися без оплати, тож купувати пропозицію вже не треба. Платний старт зі 150 доглядальниками був разовим поштовхом, а не постійною моделлю."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Використовує 65% прямих відкриттів як доказ прямих стосунків із користувачами",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує $0,03 як доказ майже нульових граничних витрат",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує 750 неоплачених доглядальників як доказ, що пропозиція йде за попитом",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий висновок, що застосунок поводиться як агрегатор",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Клієнти починають пошук на маркетплейсі, тож перекладачі мусять бути там, щоб їх знайшли. Що більше клієнтів, то більше перекладачів приєднується: більше вибору, швидші відповіді, більше відгуків, і це притягує ще більше клієнтів. Усередині маркетплейсу кожен перекладач це одна картка, упорядкована за ціною, рейтингом і швидкістю, тож клієнт порівнює картки, а не бренди. Перекладач втрачає прямий зв’язок із клієнтом, а маркетплейс може брати дедалі більшу комісію, яка раніше діставалася агенціям."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює цикл: більше користувачів притягує більше постачальників, це поліпшує досвід і притягує ще більше користувачів",
+					"points": 2
+				},
+				{
+					"criterion": "Показує знеособлення конкретною деталлю (картки за ціною, рейтингом, швидкістю)",
+					"points": 1
+				},
+				{
+					"criterion": "Показує перехід влади чи прибутку до маркетплейсу (комісія, втрачений зв’язок із клієнтом)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Лишити розміщення й вкладати в прямі канали. Платформа володіє стосунками з половиною моїх нових учнів, а ексклюзивність дала б їй ще більше влади: щойно я повністю від неї залежатиму, вона зможе повернути комісію вгору майже без ризику. Конкурентні платформи розподіляють ризик, але кожна все одно стоїть між мною й учнем. Винагороди за рекомендації й партнерство зі школами будують попит, яким володію я, а колишній учень, що привів друга, коштує менше за 20% пакета уроків. Ризик: прямі канали ростуть повільно, тож щокварталу стежте за часткою учнів, що приходять напряму."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює баланс влади: платформа володіє стосунками з користувачами, а ексклюзивність поглиблює залежність",
+					"points": 2
+				},
+				{
+					"criterion": "Порівнює, як варіанти впливають на те, хто володіє попитом",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і показник для відстеження",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Застосунок A. Він володіє стосунками з користувачами (80% відкривають його напряму), обслуговує їх за $0,02 і вже пройшов точку, коли клуби приходять без оплати, тож кожен новий користувач безкоштовно посилює бік пропозиції. Застосунок B має високі граничні витрати ($12 на бронювання) і досі купує пропозицію бонусами по $500, тож масштабується як кадрова служба, а не агрегатор. Головний ризик для A: користувачі не прив’язані, і конкурент із кращим досвідом може їх переманити, тож гроші варто вкласти в досвід слухачів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Оцінює обидва застосунки за прямими стосунками, граничними витратами й тяжінням постачальників із цифрами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому дзвінки по $12 і бонуси по $500 у застосунку B руйнують динаміку агрегатора",
+					"points": 1
+				},
+				{
+					"criterion": "Називає слушний ризик для обраного застосунку (немає прив’язки користувачів, клуби на кількох платформах, регулювання, влада без прибутку)",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з аналізу",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сайти бронювання володіють стосунками з мандрівниками, а гостьові будинки є взаємозамінними варіантами в їхній видачі, тому зміна рейтингу й обвалила бронювання на 15%. Комісія становить 72% × $900 000 × 17% = $110 160 на рік. План: збирати контакти гостей під час заселення, давати за пряме бронювання безкоштовний сніданок і 5% знижки (дешевше за 17%), домовитися про партнерство з місцевими лижними школами. На обох сайтах лишатися заради нових гостей. Мета: за два роки знизити частку сайтів до 50%, що за того самого доходу зменшить комісію до $76 500, тобто економія $33 660 до витрат на бонуси."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що сайти володіють стосунками з користувачами, а будинки знеособлені, і використовує падіння після зміни рейтингу як доказ",
+					"points": 2
+				},
+				{
+					"criterion": "Правильно обчислює комісію $110 160 на рік",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує прямі канали, що пасують до умови (контакти при заселенні, бонуси за пряме бронювання, партнерства), не відмовляючись від сайтів для нових гостей",
+					"points": 2
+				},
+				{
+					"criterion": "Ставить вимірювану мету, як-от нижчу частку платформ з її впливом на комісію",
+					"points": 1
+				}
+			]
+		}
+	}
+}

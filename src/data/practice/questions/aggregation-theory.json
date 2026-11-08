@@ -1,0 +1,900 @@
+{
+	"slug": "aggregation-theory",
+	"topicId": 39,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Before the internet, a city newspaper earned high margins from classified ads. According to Aggregation Theory, what resource has become scarce instead now that distribution is nearly free?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Printing capacity"
+					},
+					{
+						"id": "B",
+						"text": "User attention"
+					},
+					{
+						"id": "C",
+						"text": "Physical shelf space"
+					},
+					{
+						"id": "D",
+						"text": "Supplier inventory"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these businesses fits the definition of an aggregator best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A taxi firm that owns 300 cars and employs every driver"
+					},
+					{
+						"id": "B",
+						"text": "A furniture retailer that sells through its own stores"
+					},
+					{
+						"id": "C",
+						"text": "A staffing agency that recruits each nurse in person and pays signing bonuses"
+					},
+					{
+						"id": "D",
+						"text": "A recipe app with 2 million users where food bloggers post recipes for free to reach them, at about $0.01 per extra user"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An aggregator can dominate a market without owning the goods or services that change hands on it."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Once an aggregator has a large user base, users are locked in, so it no longer needs to keep improving the user experience."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A boutique hotel gets 65% of its bookings through a booking platform that takes an 18% commission. What does Aggregation Theory suggest the hotel should do as a supplier?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Leave the platform tomorrow and rely on its own website"
+					},
+					{
+						"id": "B",
+						"text": "Sign an exclusive deal with the platform for better ranking"
+					},
+					{
+						"id": "C",
+						"text": "Measure its dependence and build direct channels such as a guest email list and perks for booking direct"
+					},
+					{
+						"id": "D",
+						"text": "Lower room prices on the platform to rank higher than nearby hotels"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder calls her B2B marketplace “an aggregator”. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " facts suggest it does "
+							},
+							{
+								"t": "not",
+								"b": true
+							},
+							{
+								"t": " have aggregator dynamics?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Every new buyer needs a sales visit that costs about $400"
+					},
+					{
+						"id": "B",
+						"text": "Suppliers now join unpaid because buyers are already there"
+					},
+					{
+						"id": "C",
+						"text": "After three years, the platform still pays a bonus to every new supplier it signs"
+					},
+					{
+						"id": "D",
+						"text": "70% of buyers open the platform directly rather than searching the web"
+					},
+					{
+						"id": "E",
+						"text": "Serving one more buyer costs about $0.02 in hosting"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A startup lists independent music teachers. It has 30 teachers and 200 students, and $100,000 to spend next. Where should it put the money if it wants to become an aggregator?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Into the student experience: easy search, honest reviews and one-tap trial lessons, letting teachers follow the demand"
+					},
+					{
+						"id": "B",
+						"text": "Into exclusive contracts with 300 teachers at $200 each"
+					},
+					{
+						"id": "C",
+						"text": "Into a building where all lessons take place"
+					},
+					{
+						"id": "D",
+						"text": "Into hiring salaried teachers so quality is controlled"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A food delivery app raises its restaurant commission from 25% to 30%. A restaurant group with eight locations gets 55% of its orders through the app. What is the best move for the group?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Leave the app immediately in protest"
+					},
+					{
+						"id": "B",
+						"text": "Accept the rise, since the app’s power over demand is permanent"
+					},
+					{
+						"id": "C",
+						"text": "Stay on the app for discovery, list on rival apps too and steer repeat customers to its own ordering channel with loyalty rewards"
+					},
+					{
+						"id": "D",
+						"text": "Agree to work only with this app in exchange for going back to 25%"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A ride-hailing app holds 80% of trips in a city. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " developments would weaken its hold, according to the theory’s limitations?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Drivers organise to run two rival apps at the same time"
+					},
+					{
+						"id": "B",
+						"text": "More riders join, so more drivers sign up"
+					},
+					{
+						"id": "C",
+						"text": "The competition regulator opens an investigation into its commission rules"
+					},
+					{
+						"id": "D",
+						"text": "Its server cost per ride request falls further"
+					},
+					{
+						"id": "E",
+						"text": "It adds new car categories to the app"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A travel search site handles 70% of local holiday searches but has lost $20 million a year for three years. An analyst says this proves Aggregation Theory wrong. Which reply is correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The theory predicts who controls demand, not that the aggregator will be profitable, and many aggregators lose money for years"
+					},
+					{
+						"id": "B",
+						"text": "The site cannot be an aggregator, because aggregators are always profitable"
+					},
+					{
+						"id": "C",
+						"text": "The losses prove that the hotels, not the site, hold the power"
+					},
+					{
+						"id": "D",
+						"text": "The theory only applies to physical goods, so it says nothing about travel search"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pet-sitting app paid $40 each to sign up its first 150 sitters. Ten months later it has 900 sitters: the other 750 joined without payment. Serving one more pet owner costs about $0.03, and 65% of owners open the app directly. Judge whether it behaves like an aggregator, using the theory’s components and the numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain how an aggregator turns its suppliers into interchangeable options. Use an online marketplace for freelance translators as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You run a chain of 12 driving schools. Half of your new students now come through a lesson-booking platform that charges 20%. The platform offers you a deal: commission falls to 12% if you list only with it. Choose one: accept the exclusive deal, list on two rival platforms as well, or keep the current listing and invest in direct channels (referral rewards, own booking page, school partnerships). Justify your choice with Aggregation Theory."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A fund will invest $3 million in one of two booking apps."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "App A (tickets for small music venues): 250,000 users, 80% of whom open the app directly; serving a user costs $0.02; after the first 50 venues were signed by hand, 400 more joined unpaid."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "App B (home nursing visits): 30,000 users; every booking needs a coordinator call costing $12; nurses still need $500 recruiting bonuses after two years."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one. Judge each app on the aggregator components and name the main risk of your choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A family runs four guest houses in the mountains with yearly revenue of $900,000. Two booking sites bring 72% of all bookings and charge 17% commission. Guests who book direct return 30% of the time, but the booking sites mask guests’ email addresses, so the family has no contact list. Last year one site changed its ranking rules, and bookings fell 15% in a month."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain the family’s position using Aggregation Theory, calculate what it pays in commission each year, and propose a plan to reduce dependence with a measurable target."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "До появи інтернету міська газета заробляла високу маржу на оголошеннях. Який ресурс, згідно з теорією агрегаторів, став дефіцитним натомість, коли дистрибуція стала майже безкоштовною?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Друкарські потужності"
+					},
+					{
+						"id": "B",
+						"text": "Увага користувачів"
+					},
+					{
+						"id": "C",
+						"text": "Фізичне місце на полицях"
+					},
+					{
+						"id": "D",
+						"text": "Запаси постачальників"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який із цих бізнесів найкраще відповідає визначенню агрегатора?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Компанія таксі, що володіє 300 автомобілями й наймає всіх водіїв"
+					},
+					{
+						"id": "B",
+						"text": "Меблевий рітейлер, який продає через власні магазини"
+					},
+					{
+						"id": "C",
+						"text": "Кадрова агенція, яка особисто наймає кожну медсестру й платить бонуси за підписання"
+					},
+					{
+						"id": "D",
+						"text": "Застосунок рецептів із 2 млн користувачів, де фудблогери безкоштовно публікують рецепти, щоб до них дістатися, а кожен новий користувач коштує близько $0,01"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Агрегатор може домінувати на ринку, не володіючи товарами чи послугами, які на ньому продаються."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Коли агрегатор має велику базу користувачів, вони прив’язані до нього, тож поліпшувати досвід користувача більше не потрібно."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бутик-готель отримує 65% бронювань через платформу, що бере 18% комісії. Що теорія агрегаторів радить готелю як постачальнику?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Завтра ж піти з платформи й покладатися на власний сайт"
+					},
+					{
+						"id": "B",
+						"text": "Укласти з платформою ексклюзивну угоду заради вищого рейтингу"
+					},
+					{
+						"id": "C",
+						"text": "Виміряти свою залежність і будувати прямі канали, як-от базу email гостей і бонуси за пряме бронювання"
+					},
+					{
+						"id": "D",
+						"text": "Знизити ціни на платформі, щоб опинитися вище за сусідні готелі"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця називає свій B2B-маркетплейс «агрегатором». Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " факти свідчать, що динаміки агрегатора в нього "
+							},
+							{
+								"t": "немає",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Кожен новий покупець потребує візиту продавця, що коштує близько $400"
+					},
+					{
+						"id": "B",
+						"text": "Постачальники тепер приходять без оплати, бо покупці вже там"
+					},
+					{
+						"id": "C",
+						"text": "Через три роки платформа досі платить бонус кожному новому постачальнику"
+					},
+					{
+						"id": "D",
+						"text": "70% покупців відкривають платформу напряму, а не шукають в інтернеті"
+					},
+					{
+						"id": "E",
+						"text": "Обслуговування ще одного покупця коштує близько $0,02 на хостинг"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап створює каталог незалежних викладачів музики. У нього 30 викладачів і 200 учнів, а наступні $100 000 треба кудись вкласти. Куди спрямувати гроші, якщо мета стати агрегатором?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "У досвід учнів: зручний пошук, чесні відгуки й пробний урок в один дотик, щоб викладачі йшли за попитом"
+					},
+					{
+						"id": "B",
+						"text": "В ексклюзивні договори з 300 викладачами по $200 кожен"
+					},
+					{
+						"id": "C",
+						"text": "У будівлю, де проходитимуть усі уроки"
+					},
+					{
+						"id": "D",
+						"text": "У найм штатних викладачів, щоб контролювати якість"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сервіс доставки їжі підняв комісію для ресторанів з 25% до 30%. Мережа з восьми ресторанів отримує через нього 55% замовлень. Який крок для мережі найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Негайно піти із сервісу на знак протесту"
+					},
+					{
+						"id": "B",
+						"text": "Погодитися, бо влада сервісу над попитом вічна"
+					},
+					{
+						"id": "C",
+						"text": "Лишитися в сервісі заради нових клієнтів, з’явитися й у конкурентів і переводити постійних клієнтів на власний канал замовлень із бонусами лояльності"
+					},
+					{
+						"id": "D",
+						"text": "Погодитися працювати лише з цим сервісом в обмін на повернення до 25%"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сервіс таксі через застосунок має 80% поїздок у місті. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " події, згідно з обмеженнями теорії, послаблять його хватку?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Водії домовляються працювати одночасно у двох конкурентних застосунках"
+					},
+					{
+						"id": "B",
+						"text": "Приєднується більше пасажирів, тож реєструється більше водіїв"
+					},
+					{
+						"id": "C",
+						"text": "Антимонопольний орган відкриває розслідування щодо правил комісії"
+					},
+					{
+						"id": "D",
+						"text": "Вартість серверів на один запит поїздки ще падає"
+					},
+					{
+						"id": "E",
+						"text": "У застосунку з’являються нові категорії авто"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сайт пошуку подорожей обробляє 70% місцевих запитів на відпочинок, але три роки поспіль втрачає по $20 млн на рік. Аналітик каже, що це спростовує теорію агрегаторів. Яка відповідь правильна?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Теорія передбачає, хто контролює попит, а не те, що агрегатор буде прибутковим, і багато агрегаторів роками працюють у збиток"
+					},
+					{
+						"id": "B",
+						"text": "Сайт не може бути агрегатором, бо агрегатори завжди прибуткові"
+					},
+					{
+						"id": "C",
+						"text": "Збитки доводять, що владу мають готелі, а не сайт"
+					},
+					{
+						"id": "D",
+						"text": "Теорія стосується лише фізичних товарів, тож про пошук подорожей нічого не каже"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для догляду за тваринами заплатив по $40 за реєстрацію перших 150 доглядальників. Через десять місяців у ньому 900 доглядальників: решта 750 приєдналися без оплати. Обслуговування ще одного власника тварини коштує близько $0,03, а 65% власників відкривають застосунок напряму. Оцініть, чи поводиться він як агрегатор, спираючись на елементи теорії й цифри."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, як агрегатор перетворює постачальників на взаємозамінні варіанти. Використайте як приклад онлайн-маркетплейс перекладачів-фрилансерів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви керуєте мережею з 12 автошкіл. Половина нових учнів тепер приходить через платформу бронювання уроків, яка бере 20%. Платформа пропонує угоду: комісія впаде до 12%, якщо ви будете лише в ній. Оберіть одне: прийняти ексклюзивну угоду, з’явитися ще на двох конкурентних платформах або лишити поточне розміщення й вкладати в прямі канали (винагороди за рекомендації, власна сторінка бронювання, партнерство зі школами). Обґрунтуйте вибір теорією агрегаторів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фонд вкладе $3 млн в один із двох застосунків бронювання."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Застосунок A (квитки до невеликих музичних клубів): 250 000 користувачів, 80% відкривають його напряму; обслуговування користувача коштує $0,02; після перших 50 клубів, залучених вручну, ще 400 приєдналися без оплати."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Застосунок B (візити медсестер додому): 30 000 користувачів; кожне бронювання потребує дзвінка координатора вартістю $12; медсестрам і через два роки потрібні бонуси за залучення $500."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть один. Оцініть кожен застосунок за елементами агрегатора й назвіть головний ризик свого вибору."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Родина має чотири гостьові будинки в горах із річним доходом $900 000. Два сайти бронювання приносять 72% усіх бронювань і беруть 17% комісії. Гості, які бронюють напряму, повертаються у 30% випадків, але сайти приховують email гостей, тож бази контактів у родини немає. Торік один сайт змінив правила рейтингу, і бронювання за місяць упали на 15%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть становище родини через теорію агрегаторів, обчисліть річну комісію й запропонуйте план зменшення залежності з вимірюваною метою."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

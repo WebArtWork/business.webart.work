@@ -1,0 +1,940 @@
+{
+	"slug": "disruptive-innovation-theory",
+	"topicId": 16,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these is a "
+							},
+							{
+								"t": "sustaining",
+								"b": true
+							},
+							{
+								"t": " innovation?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A simpler, cheaper product for customers who use little of what the leader offers"
+					},
+					{
+						"id": "B",
+						"text": "A low-cost device for people who had no such product before"
+					},
+					{
+						"id": "C",
+						"text": "A faster, more expensive server sold to the leader's most demanding clients"
+					},
+					{
+						"id": "D",
+						"text": "A basic app that covers the core task of a complex professional tool"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A $5-a-month singing app lets people who could never afford vocal lessons practise pitch at home. What type of innovation is this?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "New-market disruption"
+					},
+					{
+						"id": "B",
+						"text": "Low-end disruption"
+					},
+					{
+						"id": "C",
+						"text": "Sustaining innovation"
+					},
+					{
+						"id": "D",
+						"text": "Not an innovation, because the product is worse than a teacher"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "According to the theory, incumbents usually lose to disruptors because their managers are lazy or incompetent."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A product that performs worse than the incumbent's on today's main performance measure can still be disruptive."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A large industrial software company sees a startup selling a simple, cheap version of its planning tool to small workshops. Why is the incumbent likely to ignore it?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It cannot afford to build a cheaper product"
+					},
+					{
+						"id": "B",
+						"text": "It does not know the startup exists"
+					},
+					{
+						"id": "C",
+						"text": "Regulations prevent it from selling to workshops"
+					},
+					{
+						"id": "D",
+						"text": "The startup's first market is small and low-margin, so focusing on its best customers is the rational choice"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " signs show that an entrant is on a disruptive path?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It starts with customers the leader is happy to lose."
+					},
+					{
+						"id": "B",
+						"text": "It launches a premium version aimed at the leader's best clients."
+					},
+					{
+						"id": "C",
+						"text": "Its product is improving quickly towards what mainstream customers need."
+					},
+					{
+						"id": "D",
+						"text": "It charges more than the leader and offers more features."
+					},
+					{
+						"id": "E",
+						"text": "It is backed by the largest investor in the industry."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An industrial robot leader sells $250,000 robots. Most mid-sized factories use about 30% of their capabilities. An entrant sells a $25,000 robot arm that handles only simple tasks such as packing. What is the leader's best response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Add more advanced features to its top model"
+					},
+					{
+						"id": "B",
+						"text": "Set up a separate unit with its own cost structure to sell simple, low-cost arms"
+					},
+					{
+						"id": "C",
+						"text": "Ignore the entrant, since its robot cannot do complex work"
+					},
+					{
+						"id": "D",
+						"text": "Cut the price of its flagship robot by 10%"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bank launched a low-cost digital account for young customers inside its main retail division. The branch sales team sells it, and staff bonuses depend on revenue per customer. After a year the new account has 4% of its target users. What is the best fix?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Move the account into a separate unit with its own team, profit targets and cost structure"
+					},
+					{
+						"id": "B",
+						"text": "Add premium features so the account earns more per customer"
+					},
+					{
+						"id": "C",
+						"text": "Merge it fully into the branch network so it gets more attention"
+					},
+					{
+						"id": "D",
+						"text": "Close it, since the low uptake proves there is no demand"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements describe real limitations of disruptive innovation theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Critics argued that supportive cases were chosen and that many \"disrupted\" incumbents recovered."
+					},
+					{
+						"id": "B",
+						"text": "It explains disruptions well in hindsight but gives weak signals in advance about which entrants will succeed."
+					},
+					{
+						"id": "C",
+						"text": "It applies only to software companies."
+					},
+					{
+						"id": "D",
+						"text": "It predicts exactly which entrant will win a market."
+					},
+					{
+						"id": "E",
+						"text": "It tells incumbents to ignore all entrants."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An entrant's home battery stores enough power for 5 hours, and its capacity improves by 25% a year. Mainstream households need about 8 hours. Roughly when will the battery become good enough for them?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Never, because it starts too far behind"
+					},
+					{
+						"id": "B",
+						"text": "In about 1 year"
+					},
+					{
+						"id": "C",
+						"text": "In about 3 years"
+					},
+					{
+						"id": "D",
+						"text": "In about 10 years"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Classify each innovation as sustaining, low-end disruption or new-market disruption, and give the reason:"
+							}
+						]
+					},
+					{
+						"k": "ul",
+						"items": [
+							[
+								{
+									"t": "A hotel chain adds premium lounges for its frequent business travellers."
+								}
+							],
+							[
+								{
+									"t": "A $9-a-month online tutoring app reaches families who never paid for a tutor."
+								}
+							],
+							[
+								{
+									"t": "A mobile operator launches a cheap, data-only plan for customers who barely use the extras in premium plans."
+								}
+							]
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain asymmetric motivation and why it makes an incumbent retreat rather than fight. Use a large law firm and a startup that sells standard contracts online for $99 as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You lead a maker of professional camera drones priced at $6,000. An entrant sells $400 drones to hobbyists, its image quality improves every year, and real-estate photographers, 12% of your revenue and your least profitable segment, are starting to switch. Choose one: cut prices across your range, launch a separate low-cost unit with its own brand and costs, or add features for film studios. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You run a startup with a cheap, simple point-of-sale app on a phone. Choose your first market."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option A: market stalls and food trucks that now use a cash box and a notebook, about 20,000 sellers in the country."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option B: mid-sized restaurant chains that use the incumbent's full system. You would win them by adding more features than the incumbent."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one and explain it with the theory."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A private university charges $9,000 a year and has 6,000 students. Its evening programme for working adults has 900 students paying $4,000 a year, and its leaders see it as their least profitable activity. An online platform sells job-focused IT certificates for $600. Two years ago few employers accepted them; now 40% of local IT employers do, and the platform has added mentoring and project portfolios. The evening programme is losing 20% of its students a year."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Classify the threat, calculate the evening programme's yearly revenue and the revenue lost to one year's decline, and recommend what the university should do."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що з переліченого є "
+							},
+							{
+								"t": "підтримувальною",
+								"b": true
+							},
+							{
+								"t": " інновацією?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Простіший і дешевший продукт для клієнтів, які використовують малу частину пропозиції лідера"
+					},
+					{
+						"id": "B",
+						"text": "Недорогий пристрій для людей, які раніше не мали такого продукту"
+					},
+					{
+						"id": "C",
+						"text": "Швидший і дорожчий сервер для найвибагливіших клієнтів лідера"
+					},
+					{
+						"id": "D",
+						"text": "Базовий застосунок, що виконує основну задачу складного професійного інструмента"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для співу за $5 на місяць дає змогу людям, які ніколи не могли дозволити собі уроки вокалу, тренувати слух удома. Що це за тип інновації?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Підрив через новий ринок"
+					},
+					{
+						"id": "B",
+						"text": "Підрив знизу"
+					},
+					{
+						"id": "C",
+						"text": "Підтримувальна інновація"
+					},
+					{
+						"id": "D",
+						"text": "Це не інновація, бо продукт гірший за викладача"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Згідно з теорією, лідери зазвичай програють новачкам-підривникам, бо їхні менеджери ліниві чи некомпетентні."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продукт, що поступається продукту лідера за сьогоднішнім головним показником якості, усе одно може бути підривним."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Велика компанія промислового програмного забезпечення бачить, що стартап продає простий і дешевий аналог її інструмента планування невеликим майстерням. Чому лідер, найімовірніше, проігнорує його?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він не може дозволити собі створити дешевший продукт"
+					},
+					{
+						"id": "B",
+						"text": "Він не знає про існування стартапу"
+					},
+					{
+						"id": "C",
+						"text": "Регулювання забороняє йому продавати майстерням"
+					},
+					{
+						"id": "D",
+						"text": "Перший ринок стартапу малий і низькомаржинальний, тож зосередитися на найкращих клієнтах це раціональний вибір"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " ознаки показують, що новачок іде підривним шляхом?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він починає з клієнтів, яких лідер охоче втрачає."
+					},
+					{
+						"id": "B",
+						"text": "Він запускає преміальну версію для найкращих клієнтів лідера."
+					},
+					{
+						"id": "C",
+						"text": "Його продукт швидко наближається до потреб основної маси клієнтів."
+					},
+					{
+						"id": "D",
+						"text": "Він бере дорожче за лідера й пропонує більше функцій."
+					},
+					{
+						"id": "E",
+						"text": "Його підтримує найбільший інвестор галузі."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Лідер ринку промислових роботів продає роботів за $250 000. Більшість середніх заводів використовує близько 30% їхніх можливостей. Новачок продає роботизовану руку за $25 000, яка виконує лише прості операції, як-от пакування. Яка реакція лідера найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Додати складніші функції до своєї топової моделі"
+					},
+					{
+						"id": "B",
+						"text": "Створити окремий підрозділ із власною структурою витрат для продажу простих дешевих рук"
+					},
+					{
+						"id": "C",
+						"text": "Ігнорувати новачка, бо його робот не здатен на складну роботу"
+					},
+					{
+						"id": "D",
+						"text": "Знизити ціну флагманського робота на 10%"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Банк запустив дешевий цифровий рахунок для молоді всередині основного роздрібного підрозділу. Продає його персонал відділень, а премії працівників залежать від доходу з клієнта. За рік рахунок має 4% від цільової кількості користувачів. Як це найкраще виправити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Винести рахунок в окремий підрозділ із власною командою, цілями прибутку й структурою витрат"
+					},
+					{
+						"id": "B",
+						"text": "Додати преміальні функції, щоб рахунок приносив більше з клієнта"
+					},
+					{
+						"id": "C",
+						"text": "Повністю інтегрувати його в мережу відділень, щоб він отримував більше уваги"
+					},
+					{
+						"id": "D",
+						"text": "Закрити його, бо низький попит доводить, що потреби немає"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження описують реальні обмеження теорії підривних інновацій?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Критики стверджували, що приклади добиралися на підтвердження теорії, а багато «підірваних» лідерів відновилися."
+					},
+					{
+						"id": "B",
+						"text": "Вона добре пояснює підриви заднім числом, але дає слабкі сигнали наперед про те, які новачки досягнуть успіху."
+					},
+					{
+						"id": "C",
+						"text": "Вона стосується лише компаній програмного забезпечення."
+					},
+					{
+						"id": "D",
+						"text": "Вона точно передбачає, який новачок виграє ринок."
+					},
+					{
+						"id": "E",
+						"text": "Вона радить лідерам ігнорувати всіх новачків."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Домашній акумулятор новачка зберігає енергію на 5 годин, а його ємність щороку зростає на 25%. Звичайним домогосподарствам потрібно близько 8 годин. Приблизно коли акумулятор стане для них достатньо добрим?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ніколи, бо він стартує надто далеко позаду"
+					},
+					{
+						"id": "B",
+						"text": "Приблизно за 1 рік"
+					},
+					{
+						"id": "C",
+						"text": "Приблизно за 3 роки"
+					},
+					{
+						"id": "D",
+						"text": "Приблизно за 10 років"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Класифікуйте кожну інновацію як підтримувальну, підрив знизу або підрив через новий ринок і поясніть чому:"
+							}
+						]
+					},
+					{
+						"k": "ul",
+						"items": [
+							[
+								{
+									"t": "Мережа готелів додає преміальні лаунжі для частих бізнес-мандрівників."
+								}
+							],
+							[
+								{
+									"t": "Застосунок онлайн-репетиторства за $9 на місяць охоплює сім’ї, які ніколи не платили репетитору."
+								}
+							],
+							[
+								{
+									"t": "Мобільний оператор запускає дешевий тариф лише з інтернетом для клієнтів, які майже не користуються додатками преміальних тарифів."
+								}
+							]
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть асиметричну мотивацію й чому через неї лідер відступає, а не бореться. Використайте як приклад велику юридичну фірму та стартап, що продає типові договори онлайн за $99."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви керуєте виробником професійних дронів для зйомки за $6 000. Новачок продає дрони за $400 аматорам, якість його зображення щороку зростає, а фотографи нерухомості, які дають 12% вашої виручки й є найменш прибутковим сегментом, починають переходити до нього. Оберіть одне: знизити ціни на всю лінійку, запустити окремий дешевий підрозділ із власним брендом і витратами або додати функції для кіностудій. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви керуєте стартапом із дешевим і простим касовим застосунком для телефона. Оберіть перший ринок."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант A: ринкові ятки й фудтраки, які зараз користуються скринькою для готівки й зошитом, близько 20 000 продавців у країні."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант B: середні мережі ресторанів, що працюють на повній системі лідера. Ви завойовували б їх, додавши більше функцій, ніж у лідера."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть один і поясніть через теорію."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Приватний університет бере $9 000 на рік і має 6 000 студентів. На вечірній програмі для працюючих дорослих навчаються 900 студентів, які платять $4 000 на рік, і керівництво вважає її найменш прибутковим напрямом. Онлайн-платформа продає практичні IT-сертифікати за $600. Два роки тому їх визнавали небагато роботодавців, тепер їх приймають 40% місцевих IT-компаній, а платформа додала менторство й портфоліо проєктів. Вечірня програма щороку втрачає 20% студентів."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Класифікуйте загрозу, порахуйте річну виручку вечірньої програми й виручку, втрачену за рік спаду, і порадьте, що робити університету."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

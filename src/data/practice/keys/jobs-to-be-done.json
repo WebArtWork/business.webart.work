@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Hiring is the idea that people bring a product into their lives to get something done in a given circumstance, and they “fire” it when something does the job better. Subscriptions, recommendations and payment terms describe how people buy, not why."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A job is the progress someone seeks in a given situation, described without reference to a product. Features and demographics are different things, and the job is not an internal task."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A job statement describes the progress the person wants, independent of any solution. If it names a product, it blocks the team from seeing competing solutions and new ways to help."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Customers compare every way to get the job done, including the status quo, a friend’s garage or throwing things away. Ignoring non-consumption hides the most common rival."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It describes progress in a situation without naming a solution. The other three name products or purchases, which are ways to do a job, not the job itself."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Anxiety about the new and habit of the present resist change. The push of the old struggle and the pull of the new solution drive change, and age is not a force in the model."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The job comes from the circumstance, not from the buyer’s profile, so two very different people can hire the same solution. Age and income segments would miss the common job."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The obstacles are anxiety (learning time) and habit (the familiar spreadsheet), and import plus short onboarding reduce both. The push and pull are already strong, so more features or louder advertising add little, and a small discount does not touch the worry."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "JTBD interviews reconstruct the day of the switch and include recent buyers and quitters, because the forces show up at the point of change. Timelines and emotional reasons belong in a good interview."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A useful job states who is in what situation and what progress they want. A vague statement cannot tell the team what to build or which alternatives it competes with. It is not too detailed, it names no competitor, and demographics are not what a job needs."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Demographics describe who buys, but the job explains why, and the same circumstance can push very different people to hire the same solution. A 25-year-old student and a 55-year-old manager may both order a meal kit on Sunday evening to avoid deciding what to cook, so age tells the company nothing useful about the trigger. Segmenting by situation and desired progress reveals the real competitor, such as takeaway."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that demographics describe who buys while the job explains why (circumstance and desired progress)",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a concrete example where different people share the same job",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Functional: dress appropriately for the interview within a limited budget and time. Emotional: feel confident and not out of place. Social: look to the interviewers like a person who takes the role seriously. Competing solutions: borrowing a suit from a friend, and wearing existing clothes without buying anything."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Writes a functional job without naming a product",
+					"points": 1
+				},
+				{
+					"criterion": "Writes a fitting emotional job",
+					"points": 1
+				},
+				{
+					"criterion": "Writes a fitting social job",
+					"points": 1
+				},
+				{
+					"criterion": "Names two competing solutions including doing nothing or a workaround",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Interview and redesign. Price and equipment guess at the cause, while the interviews show the forces. January joiners are pushed by a New Year resolution and pulled by the promise of change, but the habit of the old routine and the anxiety of not belonging pull them back once the push fades. The redesign could add a booked first-week session with a coach, fixed slots in the member’s calendar and a buddy system, so the new routine is easier to keep than the old one. Measure the share still attending weekly in week eight. Risk: people reconstruct stories after the fact, so I would cross-check interview themes with attendance data."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the four forces to explain the quitting pattern",
+					"points": 2
+				},
+				{
+					"criterion": "Proposes a concrete redesign that weakens habit or anxiety",
+					"points": 1
+				},
+				{
+					"criterion": "Names a measure and a risk of the method",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Design around the 20-minute break job: “get a proper lunch at my desk without losing my break or queuing”. It came from 14 of 20 interviews and is a circumstance, not a preference. Competitors are the sandwich shop and canteen (which cost break time) and skipping lunch, so the main promise is time. That means delivery within 10 minutes of ordering, a short menu that is quick to prepare, and a price near the sandwich shop plus a small fee. Healthy options remain as a feature for the 6, not the main message. Trade-off: speed limits menu variety and margins, and 20 interviews are a small sample, so I would verify the job with a pilot in two offices."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Chooses a job from the interview evidence and describes its circumstance",
+					"points": 2
+				},
+				{
+					"criterion": "Identifies the competing solutions, including non-consumption",
+					"points": 1
+				},
+				{
+					"criterion": "Draws consequences for menu, speed and price",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off or a limit of the evidence",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Job: when a studio’s projects outgrow email and spreadsheets, help the owner keep every project and deadline in one place. Emotional: feel in control and look professional to clients. Forces: push is the missed deadline, the lost project or the first hire; pull is a single clear view of every project; anxiety is moving existing projects and the team’s learning time (10 of 12); habit is the spreadsheet. The current message sells features and price, but the customers came for control after a failure and fear migration, and the real rivals are the spreadsheet, the wall board and an assistant, not other tools. Proposal: lead with “never miss a client deadline again”, offer free import of existing projects by the firm, a one-hour team set-up and a first-week check-in. Measure: trial-to-paid conversion rising from 15% (18 of 120) to at least 25% in two months."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Writes a job statement without naming the product",
+					"points": 1
+				},
+				{
+					"criterion": "Includes the emotional (or social) side from the case",
+					"points": 1
+				},
+				{
+					"criterion": "Analyses push, pull, anxiety and habit with evidence from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Criticises the feature-and-price message and names the real alternatives",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a change that reduces anxiety or habit and sets a measure",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Найм означає, що люди впускають продукт у своє життя, щоб зробити щось в певних обставинах, і «звільняють» його, коли щось робить це краще. Підписка, рекомендації й умови оплати описують, як люди купують, а не навіщо."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Завдання це прогрес, якого людина шукає в певній ситуації, описаний без згадки продукту. Функції й демографія це інше, а завдання не є внутрішньою задачею компанії."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Формулювання завдання описує прогрес, якого прагне людина, незалежно від рішення. Якщо воно називає продукт, команда не бачить конкурентних рішень і нових способів допомогти."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Клієнти порівнюють усі способи виконати завдання, зокрема статус-кво, гараж друга чи викидання речей. Ігнорування відмови від споживання приховує найпоширенішого суперника."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Воно описує прогрес у ситуації без згадки рішення. Решта три називають продукти чи покупки, а це способи виконати завдання, а не саме завдання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Тривога щодо нового й звичка теперішнього опираються змінам. Поштовх старих труднощів і тяжіння нового рішення рушать зміни, а вік не є силою моделі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Завдання виникає з обставин, а не з профілю покупця, тож двоє дуже різних людей можуть найняти те саме рішення. Сегменти за віком і доходом пропустили б спільне завдання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перешкоди це тривога (час на навчання) і звичка (знайома таблиця), а імпорт із коротким навчанням зменшує обидві. Поштовх і тяжіння вже сильні, тож додаткові функції чи гучніша реклама мало що дають, а невелика знижка не торкається хвилювання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Інтерв’ю за JTBD відновлюють день переходу й охоплюють недавніх покупців і тих, хто пішов, бо сили проявляються в момент зміни. Хронологія й емоційні причини належать до доброго інтерв’ю."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Корисне формулювання каже, хто в якій ситуації й якого прогресу прагне. Розмите формулювання не підкаже команді, що створювати і з якими альтернативами конкурувати. Воно не надто детальне, не називає конкурента, а демографія для завдання не потрібна."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Демографія описує, хто купує, а завдання пояснює чому, і та сама ситуація може підштовхнути дуже різних людей найняти те саме рішення. 25-річна студентка й 55-річний менеджер можуть обоє замовити набір для приготування їжі в неділю ввечері, щоб не вирішувати, що готувати, тож вік нічого корисного не каже компанії про причину. Сегментація за ситуацією й бажаним прогресом показує справжнього конкурента, наприклад їжу на винос."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що демографія описує, хто купує, а завдання пояснює чому (обставини й бажаний прогрес)",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить конкретний приклад, де різні люди мають те саме завдання",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Функціональне: одягнутися доречно для співбесіди за обмеженого бюджету й часу. Емоційне: почуватися впевнено й не відчувати себе чужим. Соціальне: виглядати в очах співрозмовників людиною, яка серйозно ставиться до посади. Конкурентні рішення: позичити костюм у друга та піти в одязі, який уже є, нічого не купуючи."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пише функціональне завдання без згадки продукту",
+					"points": 1
+				},
+				{
+					"criterion": "Пише доречне емоційне завдання",
+					"points": 1
+				},
+				{
+					"criterion": "Пише доречне соціальне завдання",
+					"points": 1
+				},
+				{
+					"criterion": "Називає два конкурентні рішення, зокрема бездіяльність або обхідний шлях",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Опитати й перебудувати. Ціна й обладнання вгадують причину, а інтерв’ю показують сили. Тих, хто прийшов у січні, штовхає новорічне рішення й притягує обіцянка змін, але звичка старої рутини й тривога, що вони тут чужі, тягнуть назад, щойно поштовх слабне. Перебудова може додати заброньоване перше заняття з тренером, фіксовані слоти в календарі учасника й систему напарників, щоб нову рутину було легше тримати, ніж стару. Міра: частка тих, хто ще ходить щотижня на восьмому тижні. Ризик: люди відновлюють історії заднім числом, тому я звіряв би теми інтерв’ю з даними відвідуваності."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує чотири сили, щоб пояснити, чому люди кидають",
+					"points": 2
+				},
+				{
+					"criterion": "Пропонує конкретну перебудову, що послаблює звичку чи тривогу",
+					"points": 1
+				},
+				{
+					"criterion": "Називає міру й ризик методу",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Проєктувати навколо завдання 20-хвилинної перерви: «нормально пообідати за столом, не втративши перерву й не стоячи в черзі». Воно випливає з 14 із 20 інтерв’ю й є обставиною, а не вподобанням. Конкуренти це бутербродна й їдальня (вони коштують часу перерви) та пропуск обіду, тож головна обіцянка це час. Отже, доставка протягом 10 хвилин після замовлення, коротке меню, що швидко готується, і ціна біля бутербродної плюс невелика плата. Здорові страви лишаються функцією для тих 6, а не головним повідомленням. Компроміс: швидкість обмежує різноманітність меню й маржу, а 20 інтерв’ю це мала вибірка, тож я перевірив би завдання пілотом у двох офісах."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Обирає завдання на основі доказів з інтерв’ю й описує його обставини",
+					"points": 2
+				},
+				{
+					"criterion": "Визначає конкурентні рішення, зокрема відмову від споживання",
+					"points": 1
+				},
+				{
+					"criterion": "Виводить наслідки для меню, швидкості й ціни",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс або межу доказів",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Завдання: коли проєкти студії переростають пошту й таблиці, допомогти власнику тримати всі проєкти й дедлайни в одному місці. Емоційне: відчувати контроль і виглядати професійно перед клієнтами. Сили: поштовх це пропущений дедлайн, втрачений проєкт чи перший найм; тяжіння це єдиний зрозумілий огляд усіх проєктів; тривога це перенесення наявних проєктів і час на навчання команди (10 із 12); звичка це таблиця. Поточне повідомлення продає функції й ціну, але клієнти прийшли по контроль після невдачі й бояться міграції, а справжні суперники це таблиця, дошка на стіні та асистент, а не інші програми. Пропозиція: на першому місці «жодного пропущеного дедлайну клієнта», безкоштовний імпорт наявних проєктів силами компанії, годинне налаштування команди й зустріч після першого тижня. Міра: конверсія з пробної версії в платну зростає з 15% (18 зі 120) принаймні до 25% за два місяці."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пише формулювання завдання без згадки продукту",
+					"points": 1
+				},
+				{
+					"criterion": "Включає емоційний (або соціальний) бік з умови",
+					"points": 1
+				},
+				{
+					"criterion": "Аналізує поштовх, тяжіння, тривогу й звичку з доказами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Критикує повідомлення про функції й ціну та називає справжні альтернативи",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує зміну, що зменшує тривогу чи звичку, і задає міру",
+					"points": 1
+				}
+			]
+		}
+	}
+}

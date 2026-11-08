@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The habit is to trace how customers, rivals and staff react to the first result of a decision. Cost, approval and immediate success are all about the first step and not about the consequences that follow."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A first-order effect is the direct, intended result, such as more sales after a discount. Reactions from others and later outcomes are second-order and beyond."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Many appear only after months, when nobody connects them to the original decision. That is why a good analysis names when each effect is likely to show up."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Customers adapt to what they see, so repeated discounts reset the price they consider normal. This second-order reaction can cancel the first-order gain."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It is a reaction to the policy, a change in customer behavior that shows up later and reduces the gain. The other three are direct results of the offer."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Shoppers changing habits and shops then losing footfall are reactions to the fee and to its first consequences. The higher fee, the higher yield per car and the signs are direct results."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The real test is how customers react when the discount ends, which shows whether the discount bought loyal customers or only temporary ones. Clicks and sign-ups are first-order results."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It traces how the supply of couriers, customers and competitors respond, and it shows how the saving could turn into lost revenue. A assumes nobody reacts, and C and D are guesses about one group with no chain of consequences."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The approach has no method for estimating probabilities or sizes, so it needs data and tests. It can be misused to block any change, and it is not a substitute for evidence."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Listing every ripple paralyses the analysis, so the useful step is to concentrate on key customers, rivals and staff, and put rough sizes and timing on their reactions. More lists, a fixed rule against change or asking rivals do not help."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "First-order: more orders arrive, because the delivery fee no longer puts customers off. Second-order: many customers now order instead of dining in, so tables stay empty and the restaurant earns less on drinks. Rival restaurants may also match the offer, which wipes out the advantage and leaves the margin lower for everyone."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names a correct first-order effect (more orders)",
+					"points": 1
+				},
+				{
+					"criterion": "Describes a second-order effect from customers’ behavior (switching from dining in, lower drink sales)",
+					"points": 2
+				},
+				{
+					"criterion": "Describes a second-order effect from competitors or costs (rivals match, delivery costs)",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "First round: agents handle more calls per hour, so the bonus looks successful in the first month. Second round: agents rush, cut calls short or transfer difficult ones, so customers call back, repeat contacts rise and satisfaction falls. Cancellations and complaints show up after two to three months, long after the bonus is paid. A better design adds a quality measure, such as issues solved on the first call."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Traces a chain of reactions: more calls, then rushing or transfers, then repeat contacts and lower satisfaction",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a time frame in which the later effects appear",
+					"points": 1
+				},
+				{
+					"criterion": "Adjusts the design, for example with a quality measure",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Raise it for new customers only, and add a premium tier next quarter. For existing customers, a 20% rise makes the price visible, and the most price-sensitive ones start comparing rivals; if 5% leave, that would cancel much of the gain. Competitors may use the rise in their sales pitches. Sales staff would face more objections and might discount to keep deals, which erodes the rise. New customers do not have a reference price yet, so they react least. The cost is slower revenue growth, and the risk is that existing customers hear of the higher price anyway, so I would watch churn and discount levels monthly for six months."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Traces at least three actors and their reactions with reasoning (existing customers, rivals, sales staff, new customers)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains the trade-off against the rejected options, including its cost",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a date or measure to check the predicted effects",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "I would pilot next-day delivery in the two densest cities. The first-order effect is that customers choose us over the rival. The second round is that the rival can respond by cutting prices or extending next-day delivery, and our own late-delivery rate may rise because warehouses and drivers are stretched. A third round is that customers reset expectations, so a late next-day parcel is judged harder than a late three-day one. Rolling out everywhere at once could multiply those costs before we learn them. The pilot costs us time and some customers, so I would set a date after three months to check late rates, cost per parcel and share won."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Compares the options through reactions beyond the first round (rival response, cost and late rates, expectations)",
+					"points": 2
+				},
+				{
+					"criterion": "Names the first-order effect of the promise",
+					"points": 1
+				},
+				{
+					"criterion": "Accepts the cost of the chosen option (time, lost customers)",
+					"points": 1
+				},
+				{
+					"criterion": "Sets a measure or a date to check the predictions",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Before: 18,800 kept orders × $36 = $676,800, minus 1,200 returns × $25 = $30,000, so $646,800. After: 20,640 kept × $36 = $743,040, minus 3,360 × $25 = $84,000, so $659,040. The net gain is only about $12,240, or 2%. Hidden effects: customers use phones for two months and return them (wardrobing), rivals match the policy so the order growth shrinks, and the support team and warehouse need more staff. Customers may also treat returns as normal, so the rate keeps rising. Better policy: 30-day free returns, a shorter window for opened accessories and a small restocking fee for used items. Check after three months: return rate, margin and order growth. Limit: all rates here are estimates, so test the policy on part of the traffic first."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the net margin before ($646,800) and after ($659,040) and shows the small gain",
+					"points": 2
+				},
+				{
+					"criterion": "Names at least two hidden second-order effects with reasoning (misuse of returns, rivals matching, extra staff)",
+					"points": 1
+				},
+				{
+					"criterion": "Considers timing, or the way the effect may grow",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes an improved policy that keeps part of the gain",
+					"points": 1
+				},
+				{
+					"criterion": "Names a limit, such as uncertain estimates, and suggests a test",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Звичка полягає в тому, щоб простежити, як клієнти, конкуренти й працівники реагують на перший результат рішення. Вартість, затвердження й негайний успіх стосуються першого кроку, а не наслідків, що йдуть за ним."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ефект першого порядку це прямий, запланований результат, наприклад більше продажів після знижки. Реакції інших і пізніші наслідки належать до другого порядку й далі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Багато з них проявляється лише через місяці, коли ніхто не пов’язує їх із початковим рішенням. Тому добрий аналіз називає, коли саме кожен ефект імовірно проявиться."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Клієнти пристосовуються до того, що бачать, тож повторні знижки зсувають ціну, яку вони вважають нормальною. Ця реакція другого порядку може знищити виграш першого порядку."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це реакція на політику, зміна поведінки клієнтів, що проявляється пізніше й зменшує виграш. Решта три є прямими результатами пропозиції."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зміна звичок покупців і подальша втрата відвідувачів магазинами це реакції на плату й на її перші наслідки. Вища плата, більший збір з одного авто й знаки це прямі результати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Справжня перевірка це реакція клієнтів, коли знижка закінчується, а вона показує, чи знижка купила лояльних клієнтів, чи лише тимчасових. Кліки й реєстрації це результати першого порядку."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Він простежує, як реагують пропозиція кур’єрів, клієнти й конкуренти, і показує, як економія може обернутися втраченою виручкою. A припускає, що ніхто не реагує, а C і D це припущення про одну групу без ланцюга наслідків."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підхід не має способу оцінювати ймовірності чи розміри, тож потребує даних і перевірок. Його можна зловживати, щоб блокувати будь-які зміни, і він не замінює докази."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перелік кожної дрібної хвилі паралізує аналіз, тож корисний крок це зосередитися на ключових клієнтах, суперниках і працівниках і приблизно оцінити розмір і час їхніх реакцій. Більше списків, незмінне правило проти змін чи опитування суперників не допомагають."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перший порядок: надходить більше замовлень, бо плата за доставку більше не відлякує клієнтів. Другий порядок: багато клієнтів тепер замовляє додому замість того, щоб сидіти в залі, тож столи порожні, а ресторан заробляє менше на напоях. Конкуренти теж можуть повторити пропозицію, що зводить нанівець перевагу й залишає нижчу маржу всім."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає правильний ефект першого порядку (більше замовлень)",
+					"points": 1
+				},
+				{
+					"criterion": "Описує ефект другого порядку від поведінки клієнтів (перехід із залу, менше продажів напоїв)",
+					"points": 2
+				},
+				{
+					"criterion": "Описує ефект другого порядку від конкурентів чи витрат (суперники повторюють, витрати на доставку)",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перше коло: оператори обробляють більше дзвінків на годину, тож бонус у перший місяць виглядає успішним. Друге коло: оператори поспішають, скорочують розмови або перемикають складні випадки, тож клієнти передзвонюють, повторні звернення зростають, а задоволеність падає. Скасування й скарги з’являються через два-три місяці, коли бонус уже виплачено. Кращий дизайн додає показник якості, наприклад питання, розв’язані з першого дзвінка."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Простежує ланцюг реакцій: більше дзвінків, потім поспіх чи перемикання, потім повторні звернення й нижча задоволеність",
+					"points": 2
+				},
+				{
+					"criterion": "Називає часові рамки, коли проявляться пізніші ефекти",
+					"points": 1
+				},
+				{
+					"criterion": "Коригує дизайн, наприклад додає показник якості",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підвищити лише для нових клієнтів, а наступного кварталу додати преміальний тариф. Для наявних клієнтів підвищення на 20% робить ціну помітною, і найчутливіші до ціни починають порівнювати конкурентів; якщо піде 5%, це знищить значну частину виграшу. Конкуренти можуть використати підвищення у своїх продажах. Менеджери з продажу матимуть більше заперечень і можуть давати знижки, щоб утримати угоди, що з’їсть підвищення. Нові клієнти ще не мають орієнтирної ціни, тому реагують найменше. Ціна рішення це повільніше зростання виручки, а ризик у тому, що наявні клієнти все одно дізнаються про вищу ціну, тож щомісяця впродовж пів року я стежила б за відтоком і рівнем знижок."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Простежує щонайменше трьох учасників і їхні реакції з аргументацією (наявні клієнти, конкуренти, менеджери з продажу, нові клієнти)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює компроміс порівняно з відкинутими варіантами, зокрема його ціну",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і дату чи показник для перевірки передбачених ефектів",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Я запустила б доставку наступного дня як пілот у двох найщільніших містах. Ефект першого порядку полягає в тому, що клієнти оберуть нас, а не конкурента. Друге коло: конкурент може відповісти зниженням цін чи розширенням доставки наступного дня, а наша частка запізнень може зрости, бо склади й водії перевантажені. Третє коло: клієнти змінять очікування, тож спізнена посилка наступного дня оцінюватиметься суворіше, ніж спізнена трьохденна. Запуск скрізь одразу міг би примножити ці витрати, перш ніж ми їх дізнаємося. Пілот коштує нам часу й частини клієнтів, тож я призначила б дату через три місяці для перевірки частки запізнень, вартості посилки й здобутої частки."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Порівнює варіанти через реакції за межами першого кола (відповідь конкурента, вартість і запізнення, очікування)",
+					"points": 2
+				},
+				{
+					"criterion": "Називає ефект першого порядку від обіцянки",
+					"points": 1
+				},
+				{
+					"criterion": "Погоджується з ціною обраного варіанта (час, втрачені клієнти)",
+					"points": 1
+				},
+				{
+					"criterion": "Встановлює показник або дату для перевірки прогнозів",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "До: 18 800 збережених замовлень × $36 = $676 800, мінус 1200 повернень × $25 = $30 000, разом $646 800. Після: 20 640 збережених × $36 = $743 040, мінус 3360 × $25 = $84 000, разом $659 040. Чистий приріст лише близько $12 240, або 2%. Приховані ефекти: клієнти користуються телефоном два місяці й повертають його, конкуренти повторюють політику, тож зростання замовлень скорочується, а підтримці й складу потрібно більше людей. Клієнти також можуть вважати повернення нормою, тож частка повернень продовжує зростати. Краща політика: 30 днів безкоштовного повернення, коротший строк для розпакованих аксесуарів і невеликий збір за повернення вживаних речей. Перевірка через три місяці: частка повернень, маржа й зростання замовлень. Обмеження: усі частки тут є оцінками, тож спершу варто випробувати політику на частині трафіку."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Обчислює чисту маржу до ($646 800) і після ($659 040) та показує малий приріст",
+					"points": 2
+				},
+				{
+					"criterion": "Називає щонайменше два приховані ефекти другого порядку з аргументацією (зловживання поверненнями, конкуренти повторюють, додатковий персонал)",
+					"points": 1
+				},
+				{
+					"criterion": "Враховує час або те, як ефект може наростати",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує покращену політику, що зберігає частину виграшу",
+					"points": 1
+				},
+				{
+					"criterion": "Називає обмеження, наприклад невизначеність оцінок, і пропонує тест",
+					"points": 1
+				}
+			]
+		}
+	}
+}

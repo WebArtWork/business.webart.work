@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The budget is the target that people are held to, and the forecast says whether the business is on course. Comparing them is what produces useful variances. Both cover revenue, costs and cash, and both are prepared inside the company."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The variance is actual minus budget, which is −$40,000, or 8% below plan, and lower sales than planned are unfavourable. The other options give the wrong amount or the wrong direction."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Unlike a fixed annual budget, a rolling forecast moves forward as each month closes, so managers always see a full year ahead with the latest information."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Driver-based budgets start from operating quantities such as customers, prices and staffing ratios. “Last year plus 5%” repeats old waste and hides changes in demand."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ingredients vary with volume, so a fair comparison uses a budget recalculated for the 12,000 loaves actually baked: $9,600 against $9,000 spent is $600 favourable. Comparing with the original budget treats extra volume as overspending."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Drivers are operating quantities that generate revenue and cost, and members multiplied by the fee give revenue. Last year’s totals, a desired bonus pool and old overheads are results or wishes, not quantities that cause the numbers."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Fees were exactly as planned, so price is not the cause. The 20 missing students at $600 explain the full $12,000, which is a volume variance. Nothing in the case concerns the efficiency of instructors."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The budget remains the benchmark for accountability, while the forecast shows where the business is really heading, so actions can be taken in time. Rewriting the budget hides the variance signal, waiting wastes months, and an across-the-board cut ignores which costs actually drive sales."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "When pay rides on hitting the plan, an easy target and a full spending allowance are rational. Ambitious targets, honest forecasts and less padding would lower the bonus, so incentives work against them."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Zero-based budgeting forces every expense to be justified from nothing, which suits costs that have grown for years without review, as after rapid growth or a merger. The other options carry the old cost base forward."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The variance is $36,000 − $40,000 = −$4,000, unfavourable. Volume matched the budget at 5,000 deliveries, so it is a price variance: 5,000 × $0.80. The firm should ask why the average price per delivery fell, for example whether discounts were given to win large clients or whether the mix moved to cheaper short routes."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the variance (−$4,000) and classifies it as a price variance because volume was on budget",
+					"points": 2
+				},
+				{
+					"criterion": "Names a sensible question about the cause of the lower price (discounts, mix of routes, competitor pressure)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A budget set months ago rests on assumptions, such as the number of covers per week, that may be wrong after a new competitor or a rise in food prices. A restaurant can keep the budget as the target and update a rolling forecast each month with the latest covers and prices, always looking 12 months ahead. The gap between them is a signal that an assumption was wrong, so the owner can change the menu or staffing early."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that the budget goes out of date while the forecast uses current information and looks a full year ahead",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to a restaurant with a concrete driver (covers, prices, staffing)",
+					"points": 1
+				},
+				{
+					"criterion": "Treats the variance as a signal that an assumption was wrong, which leads to action",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 2. The variance is concentrated: six sites are almost on plan at 74%, so the problem lies in the two new sites at 35%, not in the whole business. A forecast updated with those occupancy values shows the true full-year result and the funding need. Pausing the next opening avoids repeating the gap, and corporate memberships fill space at fixed cost. Cutting marketing would reduce occupancy at the sites that need customers most. Waiting wastes the early signal. Risk: corporate deals may be at lower prices, so check revenue per desk and the monthly occupancy of both sites."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the case data to locate the cause (six sites at 74%, two new sites at 35%, fixed costs)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why at least one other option is weaker",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option (c). Overhead is where years of unreviewed growth sit, so it needs justification from zero, while operations have clear drivers such as units, price and labour hours, which a driver-based model handles faster. Option (a) would carry the waste forward, and option (b) is labour-intensive for every department and can turn into cost cutting that ignores long-term investment. I would run the zero-based review in the next planning cycle, and then switch overhead to a driver-based approach. Risks: managers may pad requests, so compare them with benchmarks, and protect spending that supports future growth, such as maintenance and training."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the trade-offs of at least two options (waste carried forward, workload of full zero-based budgeting, fit with overhead)",
+					"points": 2
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the case",
+					"points": 1
+				},
+				{
+					"criterion": "Gives a practical plan or timing",
+					"points": 1
+				},
+				{
+					"criterion": "Names risks (padding, cutting long-term investment) and a safeguard",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Revenue variance: $499,200 − $540,000 = −$40,800 unfavourable. Volume: (3,900 − 4,500) × $120 = −$72,000 unfavourable. Price: 3,900 × ($128 − $120) = +$31,200 favourable. So fewer visits are the problem, partly hidden by higher prices. Supplies: the flexible budget is 12% of actual revenue, $59,904, so the real overspend is $69,888 − $59,904 = $9,984, not just $5,088 against the original budget. In the forecast I would lower the visit driver to the current trend and check whether the higher price per visit is lasting or due to a changed mix of treatments. Actions: investigate the fall in visits (booking, dentist availability, marketing), review supplies use and prices, and update the forecast monthly."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the total variance (−$40,800), the volume part (−$72,000) and the price part (+$31,200)",
+					"points": 2
+				},
+				{
+					"criterion": "Judges supplies against a flexible budget (about $10,000 overspend) instead of the original budget",
+					"points": 1
+				},
+				{
+					"criterion": "Updates the forecast drivers (visits, price) with current data",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes concrete actions linked to the variances",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бюджет це ціль, за яку відповідають люди, а прогноз показує, чи бізнес рухається за планом. Саме порівняння двох дає корисні відхилення. Обидва охоплюють виторг, витрати й гроші, і обидва готують усередині компанії."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Відхилення це факт мінус бюджет, тобто −$40 000, або 8% нижче плану, а продажі нижчі за планові це несприятливе відхилення. Інші варіанти дають хибну суму або хибний напрямок."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На відміну від фіксованого річного бюджету, ковзний прогноз зсувається вперед із закриттям кожного місяця, тож керівники завжди бачать повний рік наперед з останніми даними."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бюджети на основі драйверів починаються з операційних величин, як-от клієнти, ціни й співвідношення персоналу. «Торік плюс 5%» повторює стару неефективність і ховає зміни попиту."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Інгредієнти змінюються разом з обсягом, тож чесне порівняння використовує бюджет, перерахований на 12 000 фактично спечених буханок: $9 600 проти $9 000 витрачених це $600 сприятливого відхилення. Порівняння з початковим бюджетом трактує додатковий обсяг як перевитрату."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Драйвери це операційні величини, що створюють виторг і витрати, а члени клубу, помножені на плату, дають виторг. Торішні підсумки, бажаний премійний фонд і старі накладні витрати це результати чи побажання, а не величини, що спричиняють цифри."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Плата була точно такою, як планувалося, тож ціна не причина. Двадцять учнів, яких бракує, по $600 пояснюють усі $12 000, і це відхилення обсягу. В умові немає нічого про ефективність інструкторів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бюджет лишається орієнтиром підзвітності, а прогноз показує, куди бізнес рухається насправді, тож дії можна вжити вчасно. Переписування бюджету ховає сигнал відхилення, очікування марнує місяці, а скорочення всіх витрат однаково ігнорує, які з них справді створюють продажі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Коли оплата залежить від виконання плану, раціонально мати легку ціль і повний дозвіл на витрати. Амбітні цілі, чесні прогнози й менший запас зменшили б бонус, тож стимули діють проти них."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бюджетування з нуля змушує обґрунтовувати кожну витрату від початку, а це підходить для витрат, що роками зростали без перегляду, як після швидкого росту чи злиття. Інші варіанти переносять стару базу витрат уперед."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Відхилення становить $36 000 − $40 000 = −$4 000, несприятливе. Обсяг відповідав бюджету, 5 000 доставок, тож це цінове відхилення: 5 000 × $0,80. Фірмі слід з’ясувати, чому середня ціна доставки впала, наприклад чи давали знижки, щоб здобути великих клієнтів, або чи структура змістилася до дешевших коротких маршрутів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розраховує відхилення (−$4 000) і класифікує його як цінове, бо обсяг відповідав бюджету",
+					"points": 2
+				},
+				{
+					"criterion": "Називає слушне питання про причину нижчої ціни (знижки, структура маршрутів, тиск конкурентів)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бюджет, складений кілька місяців тому, спирається на припущення, наприклад кількість гостей на тиждень, які можуть виявитися хибними після появи конкурента чи подорожчання продуктів. Ресторан може лишити бюджет як ціль і щомісяця оновлювати ковзний прогноз з останніми даними про гостей і ціни, завжди дивлячись на 12 місяців уперед. Розрив між ними це сигнал, що припущення було хибним, тож власник може завчасно змінити меню чи графік персоналу."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що бюджет застаріває, а прогноз використовує поточну інформацію й охоплює повний рік уперед",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до ресторану з конкретним драйвером (гості, ціни, персонал)",
+					"points": 1
+				},
+				{
+					"criterion": "Трактує відхилення як сигнал хибного припущення, що веде до дії",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 2. Відхилення зосереджене: шість місць майже за планом, 74%, тож проблема в двох нових місцях із 35%, а не в усьому бізнесі. Прогноз, оновлений цими значеннями заповнюваності, показує справжній підсумок року й потребу у фінансуванні. Призупинення наступного відкриття дозволяє не повторити розрив, а корпоративні членства заповнюють місця за фіксованих витрат. Скорочення маркетингу зменшило б заповнюваність саме там, де потрібні клієнти. Очікування марнує ранній сигнал. Ризик: корпоративні угоди можуть бути за нижчою ціною, тож перевіряйте виторг на одне робоче місце й щомісячну заповнюваність обох локацій."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує дані з умови для пошуку причини (шість місць із 74%, дві нові з 35%, фіксовані витрати)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому щонайменше один інший варіант слабший",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб його відстежувати",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант (c). Саме в накладних витратах сидить багаторічний неперевірений ріст, тож їх треба обґрунтовувати з нуля, а операційна діяльність має чіткі драйвери, як-от одиниці, ціна й людино-години, з якими модель на основі драйверів впорається швидше. Варіант (a) переніс би марнотратство вперед, а варіант (b) трудомісткий для кожного відділу й може обернутися скороченням витрат, що ігнорує довгострокові інвестиції. Перегляд з нуля я б провів у наступному плановому циклі, а потім перевів накладні витрати на підхід із драйверами. Ризики: керівники можуть завищувати запити, тож порівнюйте їх з орієнтирами, і захищайте витрати, що підтримують майбутнє зростання, як-от обслуговування обладнання й навчання."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює компроміси щонайменше двох варіантів (перенесення марнотратства, трудомісткість повного бюджетування з нуля, відповідність накладним витратам)",
+					"points": 2
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з умови",
+					"points": 1
+				},
+				{
+					"criterion": "Дає практичний план чи терміни",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризики (завищення запитів, скорочення довгострокових інвестицій) і запобіжник",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Відхилення виторгу: $499 200 − $540 000 = −$40 800 несприятливе. Обсяг: (3 900 − 4 500) × $120 = −$72 000 несприятливе. Ціна: 3 900 × ($128 − $120) = +$31 200 сприятливе. Отже, проблема в меншій кількості відвідувань, яку частково приховує вищий чек. Матеріали: гнучкий бюджет це 12% фактичного виторгу, $59 904, тож реальна перевитрата становить $69 888 − $59 904 = $9 984, а не лише $5 088 проти початкового бюджету. У прогнозі я б знизив драйвер відвідувань до поточного тренду й перевірив, чи вищий середній чек сталий, чи зумовлений зміною структури лікування. Дії: з’ясувати причини падіння відвідувань (запис, наявність лікарів, маркетинг), переглянути використання й ціни матеріалів і щомісяця оновлювати прогноз."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розраховує загальне відхилення (−$40 800), частину обсягу (−$72 000) і частину ціни (+$31 200)",
+					"points": 2
+				},
+				{
+					"criterion": "Оцінює матеріали за гнучким бюджетом (перевитрата близько $10 000), а не за початковим",
+					"points": 1
+				},
+				{
+					"criterion": "Оновлює драйвери прогнозу (відвідування, ціна) поточними даними",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує конкретні дії, пов’язані з відхиленнями",
+					"points": 2
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The flywheel is a loop in which each action feeds the next and the last feeds the first, so momentum builds. A single launch, cost cutting and a campaign calendar are not loops of cause and effect."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Jim Collins contrasted the flywheel with the doom loop, in which companies keep changing direction and never build momentum. The number of steps and the speed of a loop are not what defines it."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A flywheel needs causal links: each step must drive the next, and the last must feed back into the first. A list of goals has no such connection."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Early turns produce small results, and momentum builds only as the loop turns repeatedly. Judging it too soon can lead a team to abandon a loop that would have worked."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Revenue improves coffee only if it is deliberately reinvested in beans, equipment or training, so the loop needs an explicit reinvestment step. Better coffee attracting regulars and regulars bringing revenue follow directly."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A true flywheel is a closed loop of causal links, so both the cause-and-effect between steps and the closing feedback must hold. Appearance, completeness and ownership do not make a loop work."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The flywheel is used to screen projects by which part they accelerate. An ad that pushes no step drains effort, so the money is better used where the loop is slowest. Approving by habit or halving the budget ignores that test, and rejecting all marketing goes too far."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The cost-per-order step is turning slowest, and a weak step limits the momentum of every other step. Faster steps already work, and a further price cut would be funded by savings that are not arriving fast enough."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Flywheels are easy to draw and hard to prove, and consistency is valuable only while the market behind the loop stays the same. The idea comes from studies of successful companies, which risks survivorship bias. A loop should be revised when evidence shows a link has broken."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In a doom loop, companies jump between new plans and leaders and lose momentum, while flywheel companies keep pushing the same loop. Too strong a flywheel, too few steps or the claim that change always helps do not match the facts."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Better teachers lead to better results, better results lead to referrals and reviews, referrals bring more students, and more students bring revenue that pays for better teachers. The weakest arrow is revenue leading to better teachers, since the money must be deliberately spent on hiring and training and not just kept as profit. The team should test it by tracking how much revenue is actually reinvested."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Writes a closed loop of four steps in which each causes the next and the last feeds the first",
+					"points": 2
+				},
+				{
+					"criterion": "Names a plausible weak arrow and explains why it needs testing",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A flywheel builds growth because the same loop is pushed consistently: for example, a restaurant that keeps improving one concept gets better reviews, more regulars and the funds to improve again. A restaurant that changes cuisine, name and menu every year is in a doom loop: each reversal throws away the reputation and regulars built before, so momentum never accumulates. The difference is consistency over years."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that a flywheel builds momentum through consistency and a doom loop destroys it through reversals",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the restaurant with concrete detail",
+					"points": 1
+				},
+				{
+					"criterion": "Names consistency or momentum as the key difference",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 3. The slowest step is supplier discounts: orders grew 18%, but the discount rose only 2%, so the loop is not being funded. Consolidating suppliers puts more volume with one of them and may reach the next tier, which feeds the price step. A further 8% cut would burn the margin before the discount pays for it. The loyalty app touches no step, so it drains effort. Risk: relying on fewer suppliers raises dependence, so I would watch discount percentage, supplier delivery reliability and the price gap against rivals."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the slowest step from the data and links the choice to it",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the other two options fail the loop test",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a measure to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Add a premium line, keep the loop. Consistency is valuable only while the market behind the loop stays the same, and a small shift is not a broken link. A premium line uses the same stores, logistics and suppliers, so it feeds volume and supplier power instead of replacing them. Abandoning the loop would throw away years of momentum and fall into a doom loop, while ignoring the shift risks lock-in to an outdated model. Trade-off: premium goods may confuse the low-price image, so I would start in a few stores. I would revise the loop only if data show a link is broken, such as volume falling in stores that added the line."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Uses the flywheel idea to weigh consistency against lock-in",
+					"points": 2
+				},
+				{
+					"criterion": "Makes a clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off, such as brand confusion",
+					"points": 1
+				},
+				{
+					"criterion": "Says what evidence would justify revising the loop",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Price cut to subscribers works: 5% off brought 12% more subscribers. Subscribers to bigger orders also works, since volume rose. But larger orders to lower cost per box is weak: only 2%, or $0.18 a box, because of the supplier tiers, so this is the slowest step and starves the price cuts. Project B pushes exactly this step: a 6% discount is $0.54 a box, or $27,000 a month at 50,000 boxes, which would repay the $40,000 in under two months. A (influencer) and C (app redesign) touch no step of the loop, so I would not fund them now. I would measure cost per box, the discount tier reached and subscriber growth every month, and revise the loop only if the savings do not appear."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Tests at least three arrows against the data and finds the weak one (cost per box)",
+					"points": 2
+				},
+				{
+					"criterion": "Identifies the supplier-tier step as the slowest",
+					"points": 1
+				},
+				{
+					"criterion": "Screens the projects by which loop step they speed up and uses the numbers ($0.54 a box, $27,000 a month)",
+					"points": 2
+				},
+				{
+					"criterion": "Names measures to track and a condition for revising the loop",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маховик це петля, у якій кожна дія живить наступну, а остання живить першу, тож інерція наростає. Один запуск, скорочення витрат і календар кампаній не є петлями причин і наслідків."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Джим Коллінз протиставив маховик петлі загибелі, у якій компанії постійно змінюють напрямок і ніколи не набирають інерції. Кількість кроків і швидкість петлі не визначають її."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маховику потрібні причинні зв’язки: кожен крок має рухати наступний, а останній повертатися до першого. У списку цілей такого зв’язку немає."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ранні оберти дають малі результати, а інерція наростає лише з багаторазовим обертанням петлі. Якщо судити надто рано, команда може кинути петлю, яка б спрацювала."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Виручка покращує каву лише тоді, коли її свідомо вкладають у зерно, обладнання чи навчання, тож петлі потрібен явний крок реінвестування. Краща кава приваблює постійних клієнтів, а вони приносять виручку прямо."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Справжній маховик це замкнена петля причинних зв’язків, тож мають виконуватися і причинність між кроками, і замикальний зворотний зв’язок. Вигляд, повнота й власник схеми петлю не змушують працювати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маховик використовують, щоб відсіювати проєкти за тим, яку частину вони прискорюють. Реклама, що не штовхає жодного кроку, виснажує зусилля, тож гроші краще вкласти там, де петля найповільніша. Схвалення за звичкою чи половина бюджету ігнорують цю перевірку, а відмова від усього маркетингу це крайність."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Крок вартості замовлення обертається найповільніше, а слабкий крок обмежує інерцію всіх інших. Швидкі кроки вже працюють, а подальше зниження цін фінансувалося б економією, що надходить надто повільно."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маховики легко намалювати й важко довести, а послідовність цінна лише доти, доки ринок за петлею лишається тим самим. Ідея походить із досліджень успішних компаній, що несе ризик упередження виживання. Петлю слід переглядати, коли дані показують, що зв’язок порвався."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "У петлі загибелі компанії стрибають між новими планами й лідерами та втрачають інерцію, а компанії з маховиком продовжують штовхати ту саму петлю. Надто сильний маховик, замало кроків чи твердження, що зміни завжди допомагають, не відповідають фактам."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кращі викладачі дають кращі результати, кращі результати дають рекомендації й відгуки, рекомендації приводять більше учнів, а більше учнів дають виручку, яка оплачує кращих викладачів. Найслабша стрілка це виручка, що веде до кращих викладачів, бо гроші треба свідомо витратити на найм і навчання, а не просто лишити як прибуток. Команда має перевірити це, відстежуючи, яка частка виручки справді реінвестується."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пише замкнену петлю з чотирьох кроків, де кожен спричиняє наступний, а останній повертається до першого",
+					"points": 2
+				},
+				{
+					"criterion": "Називає правдоподібну слабку стрілку й пояснює, чому її треба перевіряти",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маховик дає зростання, бо одну й ту саму петлю штовхають послідовно: наприклад, ресторан, який вдосконалює одну концепцію, отримує кращі відгуки, більше постійних гостей і кошти, щоб покращувати знову. Ресторан, що щороку змінює кухню, назву й меню, потрапляє в петлю загибелі: кожен розворот відкидає репутацію й постійних гостей, здобутих раніше, тож інерція ніколи не накопичується. Різниця в послідовності протягом років."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що маховик набирає інерцію завдяки послідовності, а петля загибелі руйнує її розворотами",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує до ресторану з конкретною деталлю",
+					"points": 1
+				},
+				{
+					"criterion": "Називає послідовність чи інерцію ключовою різницею",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 3. Найповільніший крок це знижки постачальників: замовлень стало на 18% більше, а знижка зросла лише на 2%, тож петля не фінансується. Об’єднання постачальників зосереджує більше обсягу в одного з них і може досягти наступного рівня, що живить крок цін. Подальше зниження на 8% спалило б маржу раніше, ніж знижка його оплатить. Програма лояльності не торкається жодного кроку, тож виснажує зусилля. Ризик: залежність від меншої кількості постачальників зростає, тож я стежив би за відсотком знижки, надійністю поставок і розривом у цінах з конкурентами."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає найповільніший крок за даними й пов’язує з ним вибір",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому два інші варіанти не проходять перевірку петлею",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і показник для спостереження",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Додати преміальну лінію, зберігши петлю. Послідовність цінна лише доти, доки ринок за петлею лишається тим самим, а невеликий зсув це ще не розірваний зв’язок. Преміальна лінія використовує ті самі магазини, логістику й постачальників, тож живить обсяг і силу щодо постачальників, а не замінює їх. Відмова від петлі відкинула б роки інерції й призвела б до петлі загибелі, а ігнорування зсуву ризикує закрити мережу в застарілій моделі. Компроміс: преміальні товари можуть розмити імідж низьких цін, тож я почав би з кількох магазинів. Петлю я переглядав би лише тоді, коли дані покажуть, що зв’язок порвався, наприклад обсяг падатиме в магазинах, які додали лінію."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Використовує ідею маховика, щоб зважити послідовність і замкненість у застарілій моделі",
+					"points": 2
+				},
+				{
+					"criterion": "Робить чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс, як-от розмиття іміджу",
+					"points": 1
+				},
+				{
+					"criterion": "Каже, які докази виправдали б перегляд петлі",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зниження цін до підписників працює: 5% знижки привели на 12% більше підписників. Підписники до більших замовлень теж працює, бо обсяг зріс. Але більші замовлення до нижчої собівартості набору слабке: лише 2%, тобто $0,18 за набір, через рівні постачальників, тож це найповільніший крок, який голодом морить зниження цін. Проєкт B штовхає саме цей крок: знижка 6% це $0,54 за набір, або $27 000 на місяць за 50 000 наборів, що окупило б $40 000 менш ніж за два місяці. A (інфлюенсери) і C (редизайн застосунку) не торкаються жодного кроку петлі, тож зараз я б їх не фінансував. Я б щомісяця міряв собівартість набору, досягнутий рівень знижки й зростання підписників і переглядав петлю лише тоді, коли економія не з’явиться."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Перевіряє щонайменше три стрілки за даними й знаходить слабку (собівартість набору)",
+					"points": 2
+				},
+				{
+					"criterion": "Визначає крок рівнів постачальників як найповільніший",
+					"points": 1
+				},
+				{
+					"criterion": "Відсіює проєкти за тим, який крок петлі вони прискорюють, і використовує числа ($0,54 за набір, $27 000 на місяць)",
+					"points": 2
+				},
+				{
+					"criterion": "Називає показники для стеження й умову перегляду петлі",
+					"points": 1
+				}
+			]
+		}
+	}
+}

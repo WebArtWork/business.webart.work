@@ -1,0 +1,838 @@
+{
+	"slug": "agency-theory",
+	"topicId": 61,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which pair of conditions creates an agency problem?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The agent’s interests differ from the principal’s, and the principal cannot fully observe the agent’s effort or knowledge"
+					},
+					{
+						"id": "B",
+						"text": "The agent is paid more than the principal expected, and the two work in different cities"
+					},
+					{
+						"id": "C",
+						"text": "The agent works without a written contract, and the principal owns less than half of the business"
+					},
+					{
+						"id": "D",
+						"text": "The agent has more years of experience than the principal, and the task is complicated"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A homeowner hires a contractor to renovate a kitchen for $18,000. Who is the principal and who is the agent?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The contractor is the principal and the homeowner is the agent"
+					},
+					{
+						"id": "B",
+						"text": "The homeowner is the principal and the contractor is the agent"
+					},
+					{
+						"id": "C",
+						"text": "Both are principals, because both signed the contract"
+					},
+					{
+						"id": "D",
+						"text": "Neither, because a one-off job is not a delegation"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "With enough monitoring and a well-designed bonus, a principal can reduce agency costs to exactly zero."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Adverse selection is hidden action after the contract is signed, while moral hazard is hidden information before it."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A recruitment agency pays its consultants only a commission per candidate placed. Consultants start pushing weak candidates who quit within a month, and clients complain. What is the main flaw in the pay design?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Too much monitoring of the consultants"
+					},
+					{
+						"id": "B",
+						"text": "Adverse selection when the consultants were hired"
+					},
+					{
+						"id": "C",
+						"text": "The consultants do not own any shares in the agency"
+					},
+					{
+						"id": "D",
+						"text": "The reward depends on one easy-to-measure number that ignores quality"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of these are agency costs in the theory’s sense?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The $6,000 a year an owner pays for an outside audit of a hotel’s books"
+					},
+					{
+						"id": "B",
+						"text": "The base salary the manager receives for doing the job as agreed"
+					},
+					{
+						"id": "C",
+						"text": "The cost of food and drinks the hotel buys for its guests"
+					},
+					{
+						"id": "D",
+						"text": "Profit still lost because the manager takes some hidden perks despite the audits"
+					},
+					{
+						"id": "E",
+						"text": "The income tax the hotel pays on its profit"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A small studio wants to hire a freelance developer who claims ten years of experience. The studio cannot verify the claim and fears paying for a long contract that turns out badly. Which step best reduces the problem before the contract is signed?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A bonus paid after final delivery"
+					},
+					{
+						"id": "B",
+						"text": "Daily screen recording during the work"
+					},
+					{
+						"id": "C",
+						"text": "A paid two-week trial project, reviewed before any long contract"
+					},
+					{
+						"id": "D",
+						"text": "A higher fixed rate for every candidate"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An owner of 12 pharmacies pays each store manager 5% of store sales. In one year sales rise 9% but profit falls 4%, because managers discount heavily and over-order goods that later expire. Which redesign best fixes the cause?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Raise the bonus to 7% of sales so managers work harder"
+					},
+					{
+						"id": "B",
+						"text": "Install cameras and audit every discount decision by hand"
+					},
+					{
+						"id": "C",
+						"text": "Switch to a flat salary with no bonus, so nobody has a reason to discount"
+					},
+					{
+						"id": "D",
+						"text": "Pay a share of store profit above a target, reduced by expired-stock write-offs and tied to a customer-satisfaction score"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A listed company pays its CEO mostly in options that can be exercised after one year, and the CEO cut research spending to lift the share price. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " changes best reduce this short-term behaviour?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Double the number of options that vest in the first year"
+					},
+					{
+						"id": "B",
+						"text": "Let the options vest over five years and require the CEO to hold shares after leaving"
+					},
+					{
+						"id": "C",
+						"text": "Add a quarterly bonus linked to earnings per share"
+					},
+					{
+						"id": "D",
+						"text": "Stop the CEO from reporting to the board"
+					},
+					{
+						"id": "E",
+						"text": "Tie part of the bonus to three-year measures such as return on capital and customer retention"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hospital ward has nurses who already work beyond their contracts out of professional pride. Management introduces minute-by-minute task tracking and fines for delays. Within months the best nurses leave and care quality drops. Which limitation of agency theory does this show?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Heavy controls can crowd out intrinsic motivation, so the assumption of narrow self-interest fails"
+					},
+					{
+						"id": "B",
+						"text": "Adverse selection made the hospital hire the wrong nurses"
+					},
+					{
+						"id": "C",
+						"text": "Moral hazard is stronger in hospitals than anywhere else"
+					},
+					{
+						"id": "D",
+						"text": "Monitoring costs are always lower than the losses they prevent"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software company pays its sales manager only a commission on the revenue of newly signed contracts. Name two behaviours the owner should expect, and suggest one change to the pay design."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A restaurant owner spends $2,000 a month on a mystery diner and monthly audits. One friend says it shows distrust and should stop, another says more checks are needed. Using agency costs, explain how the owner should decide how much monitoring to buy."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An investor owns three car dealerships. The general manager is paid 2% of units sold. In a year, units rose 15%, but the average discount grew from $900 to $1,900 per car and profit per car fell sharply. The investor sees only monthly sales reports. Choose one: raise the bonus to 3% of units, replace it with a bonus on gross profit with a three-year deferral and a customer-satisfaction condition, or hire an auditor to review every discount. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online retailer outsources customer support to an agency in another country. It must choose how to pay: (1) per call handled, (2) per ticket marked resolved, or (3) a fixed monthly fee with a service-level agreement. Choose a design and say what you would add to it."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A chain of 20 gyms is owned by an investor who lives abroad and visits twice a year. The regional director is paid 4% of the value of new memberships. In one year, new memberships rise 25%, but cancellations within three months jump from 8% to 22%, trainers leave, and online reviews mention aggressive selling and crowded classes. The director’s reports show only membership numbers."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Identify the principal, the agent, the goal conflict and the information asymmetry, then propose a new contract and monitoring plan, and state one limitation of your solution."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка пара умов створює агентську проблему?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Інтереси агента відрізняються від інтересів принципала, а принципал не може повністю бачити зусилля чи знання агента"
+					},
+					{
+						"id": "B",
+						"text": "Агентові платять більше, ніж очікував принципал, і вони працюють у різних містах"
+					},
+					{
+						"id": "C",
+						"text": "Агент працює без письмового договору, а принципал володіє менш ніж половиною бізнесу"
+					},
+					{
+						"id": "D",
+						"text": "Агент має більше років досвіду, ніж принципал, а завдання складне"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник квартири наймає підрядника, щоб зробити ремонт кухні за $18 000. Хто тут принципал, а хто агент?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Підрядник принципал, а власник квартири агент"
+					},
+					{
+						"id": "B",
+						"text": "Власник квартири принципал, а підрядник агент"
+					},
+					{
+						"id": "C",
+						"text": "Обидва принципали, бо обидва підписали договір"
+					},
+					{
+						"id": "D",
+						"text": "Жоден, бо разова робота не є делегуванням"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Достатнім контролем і добре продуманим бонусом принципал може звести агентські витрати рівно до нуля."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Несприятливий відбір це прихована дія після підписання контракту, а моральний ризик це прихована інформація до нього."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Рекрутингова агенція платить консультантам лише комісію за кожного працевлаштованого кандидата. Консультанти починають просувати слабких кандидатів, які звільняються за місяць, а клієнти скаржаться. У чому головна вада системи оплати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Забагато контролю над консультантами"
+					},
+					{
+						"id": "B",
+						"text": "Несприятливий відбір під час найму консультантів"
+					},
+					{
+						"id": "C",
+						"text": "Консультанти не мають жодних акцій агенції"
+					},
+					{
+						"id": "D",
+						"text": "Винагорода залежить від одного легко вимірюваного числа, що ігнорує якість"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " з цих витрат є агентськими витратами в розумінні теорії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$6 000 на рік, які власник платить за зовнішній аудит звітності готелю"
+					},
+					{
+						"id": "B",
+						"text": "Оклад менеджера за роботу, виконану відповідно до домовленості"
+					},
+					{
+						"id": "C",
+						"text": "Вартість їжі й напоїв, які готель купує для гостей"
+					},
+					{
+						"id": "D",
+						"text": "Прибуток, який усе одно втрачається, бо менеджер привласнює приховані привілеї попри аудит"
+					},
+					{
+						"id": "E",
+						"text": "Податок на прибуток, який сплачує готель"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Невелика студія хоче найняти фрілансера-розробника, який стверджує, що має десять років досвіду. Студія не може це перевірити й боїться заплатити за довгий контракт, який виявиться невдалим. Який крок найкраще зменшить проблему до підписання контракту?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Бонус, який виплачують після остаточної здачі"
+					},
+					{
+						"id": "B",
+						"text": "Щоденний запис екрана під час роботи"
+					},
+					{
+						"id": "C",
+						"text": "Оплачуваний пробний проєкт на два тижні з оглядом результату до довгого контракту"
+					},
+					{
+						"id": "D",
+						"text": "Вища фіксована ставка для кожного кандидата"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник 12 аптек платить кожному керівникові аптеки 5% від продажів. За рік продажі зросли на 9%, а прибуток упав на 4%, бо керівники роблять великі знижки й замовляють забагато товару, що потім псується. Яка зміна найкраще усуває причину?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Підняти бонус до 7% від продажів, щоб керівники працювали старанніше"
+					},
+					{
+						"id": "B",
+						"text": "Встановити камери й вручну перевіряти кожне рішення про знижку"
+					},
+					{
+						"id": "C",
+						"text": "Перейти на фіксований оклад без бонусу, щоб ніхто не мав причини знижувати ціни"
+					},
+					{
+						"id": "D",
+						"text": "Платити частку прибутку аптеки понад план, зменшену на списання прострочених товарів і прив’язану до оцінки задоволеності клієнтів"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Публічна компанія платить генеральному директорові переважно опціонами, які можна реалізувати через рік, і він скоротив витрати на дослідження, щоб підняти курс акцій. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " зміни найкраще зменшать цю короткозорість?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Подвоїти кількість опціонів, що стають доступними в перший рік"
+					},
+					{
+						"id": "B",
+						"text": "Розтягти надання опціонів на п’ять років і зобов’язати директора тримати акції після відходу"
+					},
+					{
+						"id": "C",
+						"text": "Додати квартальний бонус, прив’язаний до прибутку на акцію"
+					},
+					{
+						"id": "D",
+						"text": "Заборонити директорові звітувати перед радою директорів"
+					},
+					{
+						"id": "E",
+						"text": "Прив’язати частину бонусу до трирічних показників, як-от рентабельність капіталу й утримання клієнтів"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У відділенні лікарні працюють медсестри, які й так роблять більше, ніж передбачають контракти, з професійної гордості. Керівництво вводить поминутний облік завдань і штрафи за запізнення. За кілька місяців найкращі медсестри йдуть, а якість догляду падає. Яке обмеження агентської теорії це показує?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Надмірний контроль може витісняти внутрішню мотивацію, тож припущення про вузьку своєкорисливість не працює"
+					},
+					{
+						"id": "B",
+						"text": "Несприятливий відбір змусив лікарню найняти не тих медсестер"
+					},
+					{
+						"id": "C",
+						"text": "Моральний ризик у лікарнях сильніший, ніж будь-де"
+					},
+					{
+						"id": "D",
+						"text": "Витрати на контроль завжди менші за втрати, яких він запобігає"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія з розробки програм платить керівникові продажів лише комісію з виторгу від нових підписаних договорів. Назвіть дві поведінки, яких власник має очікувати, і запропонуйте одну зміну в системі оплати."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник ресторану витрачає $2 000 на місяць на «таємного гостя» й щомісячні аудити. Один друг каже, що це показує недовіру і треба припинити, інший радить більше перевірок. Використайте поняття агентських витрат і поясніть, як власнику вирішити, скільки контролю купувати."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інвестор володіє трьома автосалонами. Генеральному менеджерові платять 2% від кількості проданих авто. За рік продажі зросли на 15%, але середня знижка зросла з $900 до $1 900 на авто, а прибуток на авто різко впав. Інвестор бачить лише щомісячні звіти про продажі. Оберіть одне: підняти бонус до 3% від кількості авто, замінити його бонусом на валовий прибуток з відстроченням на три роки та умовою щодо задоволеності клієнтів або найняти аудитора для перевірки кожної знижки. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інтернет-магазин віддав клієнтську підтримку агенції в іншій країні. Треба обрати оплату: (1) за кожен оброблений дзвінок, (2) за кожну заявку, позначену як вирішена, або (3) фіксована щомісячна плата з угодою про рівень сервісу. Оберіть модель і скажіть, що додали б до неї."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Мережа з 20 спортзалів належить інвесторові, який живе за кордоном і приїжджає двічі на рік. Регіональному директорові платять 4% від вартості нових абонементів. За рік нові абонементи зросли на 25%, але скасування протягом трьох місяців стрибнули з 8% до 22%, тренери йдуть, а в онлайн-відгуках згадують нав’язливі продажі й переповнені заняття. Звіти директора показують лише кількість абонементів."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте принципала, агента, конфлікт цілей та інформаційну асиметрію, запропонуйте новий контракт і план контролю та назвіть одне обмеження вашого рішення."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

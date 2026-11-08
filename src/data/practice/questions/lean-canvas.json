@@ -1,0 +1,886 @@
+{
+	"slug": "lean-canvas",
+	"topicId": 25,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which starting point does the Lean Canvas push a founder towards?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The list of product features"
+					},
+					{
+						"id": "B",
+						"text": "A customer problem and the riskiest assumptions behind it"
+					},
+					{
+						"id": "C",
+						"text": "A detailed three-year financial forecast"
+					},
+					{
+						"id": "D",
+						"text": "The list of key partners and suppliers"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Compared with the Business Model Canvas, which boxes does the Lean Canvas add in place of key partners, key activities, key resources and customer relationships?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Competitors, pricing, timeline and team"
+					},
+					{
+						"id": "B",
+						"text": "Mission, vision, values and culture"
+					},
+					{
+						"id": "C",
+						"text": "Problem, solution, key metrics and unfair advantage"
+					},
+					{
+						"id": "D",
+						"text": "Market size, brand, awareness and loyalty"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder with an experienced team can write \"great team\" in the unfair advantage box."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In the problem box, \"existing alternatives\" should list how customers already cope, even if they cope badly."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A language-learning app wants one key metric that shows customers getting value. Which fits best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Total app downloads since launch"
+					},
+					{
+						"id": "B",
+						"text": "Followers of the company’s social media page"
+					},
+					{
+						"id": "C",
+						"text": "Mentions in technology press articles"
+					},
+					{
+						"id": "D",
+						"text": "Share of learners who return for a lesson within a week"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder of a lunch-delivery startup for office workers shows her canvas. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " entries are weak and should be rewritten?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Unfair advantage: \"We are first and we have a great team.\""
+					},
+					{
+						"id": "B",
+						"text": "Key metric: repeat orders per customer per week."
+					},
+					{
+						"id": "C",
+						"text": "Problem: office workers near two Kyiv business towers queue 30 minutes for lunch."
+					},
+					{
+						"id": "D",
+						"text": "Key metric: total visits to the website."
+					},
+					{
+						"id": "E",
+						"text": "Revenue: $9 average order with a 15% margin."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder plans an app that matches dog owners with walkers and wrote \"existing alternatives: none\". She then interviews 15 owners: 11 already pay a neighbour’s teenager or use a WhatsApp group of local walkers. What should she conclude?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The problem is not real, so she should drop the idea"
+					},
+					{
+						"id": "B",
+						"text": "She should delete the alternatives box, because it confuses investors"
+					},
+					{
+						"id": "C",
+						"text": "The problem is real; list the alternatives and test what her app does better than them"
+					},
+					{
+						"id": "D",
+						"text": "She should skip testing and build the app, since 11 of 15 is a majority"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A tutoring marketplace charges a 15% commission on a $30 lesson. Monthly costs are $2,700. The founder expects 150 students taking two lessons each per month. What does the canvas tell her?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The plan works, because 150 students is a large number to reach in one city"
+					},
+					{
+						"id": "B",
+						"text": "Costs must be cut to zero for the plan to ever work out"
+					},
+					{
+						"id": "C",
+						"text": "The segment is wrong and should be replaced at once"
+					},
+					{
+						"id": "D",
+						"text": "Break-even needs 600 lessons, not 300, so test price before building"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A team uses the Lean Canvas for a smart-lock startup that needs a factory abroad, a network of installers and safety certification. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Without partner and resource boxes, the canvas can hide the biggest risks of a hardware business, so these should be added as notes."
+					},
+					{
+						"id": "B",
+						"text": "A completed one-page canvas proves the model is sound."
+					},
+					{
+						"id": "C",
+						"text": "The canvas still helps test the problem and customer segment hypotheses."
+					},
+					{
+						"id": "D",
+						"text": "Hardware startups should skip the problem box, because the product is physical."
+					},
+					{
+						"id": "E",
+						"text": "The unfair advantage box should say \"first mover\" to reassure investors."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A team has three canvases for three segments: students, freelancers and small design agencies. Which should it test first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The segment with the biggest total market in the country"
+					},
+					{
+						"id": "B",
+						"text": "The segment with the highest price the team could charge"
+					},
+					{
+						"id": "C",
+						"text": "The segment the team happens to know best from its own life"
+					},
+					{
+						"id": "D",
+						"text": "The one with the cheapest test of its riskiest assumption"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder’s canvas for a rehearsal-room booking app says: \"Problem: musicians need a better way to rehearse. Key metric: app downloads. Unfair advantage: great team.\" Name two weaknesses and rewrite each in a stronger form."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why the Lean Canvas asks founders to fill in the problem and customer segments before the solution. Use a laundry pick-up service as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder connects home cooks with office workers. Each meal costs $8 and the platform keeps 10%; monthly costs are $4,000. She can choose one: (1) spend $20,000 building the full app, (2) run a $1,500 pilot in one office building with orders by WhatsApp, or (3) raise the fee to 25% to reach break-even sooner. Choose one and justify it with the canvas."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder of a scheduling tool for physiotherapists has two canvases."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Canvas 1: sell to hospital HR departments; deals take nine months, price $30,000 a year."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Canvas 2: sell to independent physiotherapists; they sign up online, price $25 a month, and 40 of them said in interviews they miss appointments."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "She can test only one in the next quarter. Which should she test first, and what are the trade-offs?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A team plans \"LastBite\", an app where cafés sell unsold food as $4 surprise boxes. Canvas: Problem: food waste is bad. Customers: everyone. Solution: an app with a map and payments. Revenue: 15% commission per box. Costs: $2,400 a month. Key metric: downloads. Unfair advantage: our passion. They have signed 25 cafés; each expects to sell about one box a day."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Find the weak boxes, estimate break-even, name the riskiest assumption and propose a four-week test."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "До чого ощадлива канва підштовхує засновника насамперед?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "До списку функцій продукту"
+					},
+					{
+						"id": "B",
+						"text": "До проблеми клієнта й найризикованіших припущень за нею"
+					},
+					{
+						"id": "C",
+						"text": "До детального фінансового прогнозу на три роки"
+					},
+					{
+						"id": "D",
+						"text": "До списку ключових партнерів і постачальників"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які блоки ощадлива канва додає порівняно з канвою бізнес-моделі замість ключових партнерів, ключової діяльності, ключових ресурсів і відносин з клієнтами?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Конкурентів, ціноутворення, графік і команду"
+					},
+					{
+						"id": "B",
+						"text": "Місію, візію, цінності й культуру"
+					},
+					{
+						"id": "C",
+						"text": "Проблему, рішення, ключові показники й нечесну перевагу"
+					},
+					{
+						"id": "D",
+						"text": "Розмір ринку, бренд, обізнаність і лояльність"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновник із досвідченою командою може вписати «сильна команда» в поле нечесної переваги."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У полі проблеми «наявні альтернативи» мають перелічувати, як клієнти вже справляються, навіть якщо справляються погано."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для вивчення мов хоче один ключовий показник, що свідчить про цінність для клієнтів. Який найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Загальна кількість завантажень від запуску"
+					},
+					{
+						"id": "B",
+						"text": "Підписники сторінки компанії в соцмережах"
+					},
+					{
+						"id": "C",
+						"text": "Згадки в технологічних медіа"
+					},
+					{
+						"id": "D",
+						"text": "Частка учнів, які повертаються на урок протягом тижня"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця стартапу з доставки обідів для офісних працівників показує свою канву. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " записи слабкі й потребують переписування?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Нечесна перевага: «Ми перші й маємо чудову команду»."
+					},
+					{
+						"id": "B",
+						"text": "Ключовий показник: повторні замовлення на клієнта за тиждень."
+					},
+					{
+						"id": "C",
+						"text": "Проблема: офісні працівники біля двох київських бізнес-центрів стоять у черзі за обідом по 30 хвилин."
+					},
+					{
+						"id": "D",
+						"text": "Ключовий показник: загальна кількість відвідувань сайту."
+					},
+					{
+						"id": "E",
+						"text": "Дохід: середнє замовлення $9 з маржею 15%."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця планує застосунок, що поєднує власників собак із тими, хто вигулює, і в «наявних альтернативах» написала «немає». Вона опитує 15 власників: 11 уже платять сусідському підлітку або користуються чатом вигульників у WhatsApp. Який висновок їй зробити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Проблеми не існує, тому ідею слід відкинути"
+					},
+					{
+						"id": "B",
+						"text": "Прибрати поле альтернатив, бо воно плутає інвесторів"
+					},
+					{
+						"id": "C",
+						"text": "Проблема справжня: записати альтернативи й перевірити, у чому застосунок кращий за них"
+					},
+					{
+						"id": "D",
+						"text": "Не перевіряти далі й будувати застосунок, бо 11 із 15 це більшість"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Маркетплейс репетиторів бере комісію 15% із уроку за $30. Щомісячні витрати $2 700. Засновниця розраховує на 150 учнів по два уроки на місяць. Що їй каже канва?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "План працює, бо 150 учнів це багато для одного міста"
+					},
+					{
+						"id": "B",
+						"text": "Витрати треба скоротити до нуля, щоб план колись запрацював"
+					},
+					{
+						"id": "C",
+						"text": "Сегмент хибний, його треба негайно замінити"
+					},
+					{
+						"id": "D",
+						"text": "Для беззбитковості потрібно 600 уроків, а не 300, тож спершу перевірте ціну"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда використовує ощадливу канву для стартапу зі smart-замками, якому потрібні завод за кордоном, мережа монтажників і сертифікація безпеки. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Без блоків партнерів і ресурсів канва може приховати найбільші ризики апаратного бізнесу, тож їх варто додати як примітки."
+					},
+					{
+						"id": "B",
+						"text": "Заповнена однією сторінкою канва доводить, що модель міцна."
+					},
+					{
+						"id": "C",
+						"text": "Канва все одно допомагає перевіряти гіпотези про проблему й сегмент клієнтів."
+					},
+					{
+						"id": "D",
+						"text": "Апаратним стартапам слід пропускати поле проблеми, бо продукт фізичний."
+					},
+					{
+						"id": "E",
+						"text": "У полі нечесної переваги треба написати «перші на ринку», щоб заспокоїти інвесторів."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У команди три канви для трьох сегментів: студенти, фрілансери й малі дизайн-агенції. Яку перевіряти першою?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сегмент із найбільшим загальним ринком у країні"
+					},
+					{
+						"id": "B",
+						"text": "Сегмент, з якого можна взяти найвищу ціну"
+					},
+					{
+						"id": "C",
+						"text": "Сегмент, який команда найкраще знає зі свого життя"
+					},
+					{
+						"id": "D",
+						"text": "Ту, де найризикованіше припущення найдешевше перевірити"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У канві застосунку для бронювання репетиційних кімнат написано: «Проблема: музикантам потрібен кращий спосіб репетирувати. Ключовий показник: завантаження застосунку. Нечесна перевага: сильна команда». Назвіть дві слабкості й перепишіть кожну в сильнішому вигляді."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому ощадлива канва просить засновників заповнювати проблему й сегменти клієнтів раніше за рішення. Використайте як приклад сервіс забору білизни до пральні."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця поєднує домашніх кухарів з офісними працівниками. Страва коштує $8, платформа забирає 10%; щомісячні витрати $4 000. Вона може обрати одне: (1) витратити $20 000 на повний застосунок, (2) провести пілот за $1 500 в одному офісному будинку із замовленнями через WhatsApp або (3) підняти комісію до 25%, щоб швидше вийти на беззбитковість. Оберіть одне й обґрунтуйте за допомогою канви."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця сервісу розкладу для фізіотерапевтів має дві канви."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Канва 1: продаж відділам кадрів лікарень; угода триває дев’ять місяців, ціна $30 000 на рік."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Канва 2: продаж незалежним фізіотерапевтам; вони реєструються онлайн, ціна $25 на місяць, і 40 із них в інтерв’ю сказали, що пропускають візити."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Протягом наступного кварталу вона може перевірити лише одну. Яку перевіряти першою і які компроміси?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Команда планує «LastBite», застосунок, де кафе продають нерозпродану їжу як сюрприз-бокси по $4. Канва: Проблема: харчові відходи це погано. Клієнти: усі. Рішення: застосунок із мапою й оплатою. Дохід: комісія 15% із боксу. Витрати: $2 400 на місяць. Ключовий показник: завантаження. Нечесна перевага: наша пристрасть. Підписано 25 кафе; кожне очікує продавати близько одного боксу на день."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Знайдіть слабкі поля, оцініть беззбитковість, назвіть найризикованіше припущення й запропонуйте чотиритижневий тест."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,870 @@
+{
+	"slug": "positioning-theory",
+	"topicId": 47,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "According to positioning theory, where is the battle for customers fought?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "On the factory floor, through lower production costs"
+					},
+					{
+						"id": "B",
+						"text": "In the customer’s mind, where brands are filed on mental ladders"
+					},
+					{
+						"id": "C",
+						"text": "On the shelf, through the layout of the store"
+					},
+					{
+						"id": "D",
+						"text": "In the price list, through the lowest price"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does the “mental ladder” refer to?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The company’s management hierarchy"
+					},
+					{
+						"id": "B",
+						"text": "The sequence of price tiers in a product range"
+					},
+					{
+						"id": "C",
+						"text": "The steps of the sales process"
+					},
+					{
+						"id": "D",
+						"text": "The ranking of brands that customers keep in mind for a category, where the top rung gets most of the sales"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A strong position can usually be captured in one simple word or idea."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A newcomer should attack the market leader directly on the leader’s main strength."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In one city, one gym owns “cheapest” and another owns “biggest equipment”. Which positioning statement is best for a new gym?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "“The gym for people who dislike crowds: never more than 60 members per hour”"
+					},
+					{
+						"id": "B",
+						"text": "“Great prices, great equipment, great service”"
+					},
+					{
+						"id": "C",
+						"text": "“The best gym in town”"
+					},
+					{
+						"id": "D",
+						"text": "“Cheaper than the cheapest”"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " moves fall into the line-extension trap?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A premium chocolate brand known for “pure dark chocolate” launches fizzy drinks under the same name"
+					},
+					{
+						"id": "B",
+						"text": "The same brand enters mass-market sweets under a separate new name"
+					},
+					{
+						"id": "C",
+						"text": "The brand repeats one idea in all its messages for years"
+					},
+					{
+						"id": "D",
+						"text": "A premium watch maker sells a $30 line under the original name"
+					},
+					{
+						"id": "E",
+						"text": "The brand enters a new category with a name that fits the new promise"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A survey of coffee drinkers in a city finds:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Chain X owns “fast”. Chain Y owns “cheap”. No chain owns “a place to sit and work”, and 35% of respondents say they struggle to find one."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which open position should a new café consider?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Fast"
+					},
+					{
+						"id": "B",
+						"text": "Cheap"
+					},
+					{
+						"id": "C",
+						"text": "A place to sit and work"
+					},
+					{
+						"id": "D",
+						"text": "Everything the two chains offer"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An e-reader brand is second behind a leader with 70% share, known for “the biggest library”. Buyers complain that the leader’s device is heavy and full of distractions. Which positioning is most consistent with the theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "“The lighter e-reader that does one thing: reading”"
+					},
+					{
+						"id": "B",
+						"text": "“A library even bigger than the leader’s”"
+					},
+					{
+						"id": "C",
+						"text": "“The same as the leader, but cheaper”"
+					},
+					{
+						"id": "D",
+						"text": "“Everything the leader offers, plus more”"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements about the limits of positioning theory are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It was built in the era of mass advertising, and in fragmented digital markets a single slogan carries less weight."
+					},
+					{
+						"id": "B",
+						"text": "Its laws are backed by large controlled experiments."
+					},
+					{
+						"id": "C",
+						"text": "“Owning a word” is easier to claim than to prove."
+					},
+					{
+						"id": "D",
+						"text": "Byron Sharp’s research shows that buyers always see big differences between brands."
+					},
+					{
+						"id": "E",
+						"text": "It is mainly a method for changing a product’s physical features."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A maker of professional-grade chef’s knives launches a $9 set in supermarkets under the same name. Sales jump 30% in the first quarter. What does positioning theory predict over time?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The brand’s position strengthens, since awareness is higher"
+					},
+					{
+						"id": "B",
+						"text": "The cheap set may sell at first but weakens the “professional” position, eroding the reason people paid more for the original knives"
+					},
+					{
+						"id": "C",
+						"text": "Nothing changes, because customers keep the two lines separate in their minds"
+					},
+					{
+						"id": "D",
+						"text": "The premium knives become more valuable"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A new tea brand enters a market where Brand A owns “organic”, Brand B owns “cheap” and Brand C owns “gifts”. A survey of 200 office workers shows 45% say it is hard to find tea that brews quickly at their desk. Propose a position: name the open slot with its evidence, state the one idea, and say what the product must do to support it."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why does a position written as a list of virtues, such as “quality, service, innovation and value”, fail? What should a company do instead?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bank with 40 branches competes against a leader that owns “the largest branch network”. You have a marketing budget of $2 million. Choose one: claim “branches everywhere” by opening 20 more branches, position the bank as “the bank for small business owners” with a team of advisers and simple business accounts, or claim “the best rates”. Justify the choice with positioning logic."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A toothpaste brand, SafeSmile, owns “safe for children” (60% of parents associate it with this) and earns 80% of its revenue from it. A retailer offers three routes for growth: a whitening line for adults under the same name (about $2 million extra), a new brand, Lumo, for adults, or repositioning SafeSmile as “for the whole family”. Choose one and weigh the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A regional airline, Baltic Wings, flies between eight cities and carries 400,000 passengers a year at an average fare of $140. BigAir owns “the widest network and connections”, and LowFly owns “the cheapest fares”. In a survey of 300 business travellers, 52% name delays as their top frustration, and no airline is linked with “punctual”. Baltic Wings’ on-time record is 91%, against 78% for BigAir and 74% for LowFly. Keeping this level needs two spare aircraft at a cost of $6 million a year, and the company could charge a $25 premium."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Map the mental ladder, choose a position and check that the product can deliver it, say what messages to drop, and name one threat to the position."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Згідно з теорією позиціювання, де точиться боротьба за клієнтів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "На заводі, через нижчі виробничі витрати"
+					},
+					{
+						"id": "B",
+						"text": "У свідомості клієнта, де бренди розкладені на ментальних драбинах"
+					},
+					{
+						"id": "C",
+						"text": "На полиці, через викладку в магазині"
+					},
+					{
+						"id": "D",
+						"text": "У прайс-листі, через найнижчу ціну"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що означає «ментальна драбина»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Управлінську ієрархію компанії"
+					},
+					{
+						"id": "B",
+						"text": "Послідовність цінових рівнів у лінійці продуктів"
+					},
+					{
+						"id": "C",
+						"text": "Кроки процесу продажу"
+					},
+					{
+						"id": "D",
+						"text": "Рейтинг брендів, які клієнти тримають у голові для категорії, де верхній щабель отримує більшість продажів"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сильну позицію зазвичай можна виразити одним простим словом чи ідеєю."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Новачок має атакувати лідера ринку безпосередньо на його головній силі."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "В одному місті один спортзал володіє словом «найдешевший», а інший «найбільше обладнання». Яке формулювання позиціювання найкраще для нового спортзалу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "«Зал для тих, хто не любить натовпу: не більше 60 відвідувачів на годину»"
+					},
+					{
+						"id": "B",
+						"text": "«Чудові ціни, чудове обладнання, чудовий сервіс»"
+					},
+					{
+						"id": "C",
+						"text": "«Найкращий зал у місті»"
+					},
+					{
+						"id": "D",
+						"text": "«Дешевше за найдешевший»"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " кроки потрапляють у пастку розширення лінійки?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Преміальний бренд шоколаду, відомий «чистим гірким шоколадом», випускає газовані напої під тією самою назвою"
+					},
+					{
+						"id": "B",
+						"text": "Той самий бренд виходить у масові цукерки під окремою новою назвою"
+					},
+					{
+						"id": "C",
+						"text": "Бренд роками повторює одну ідею в усіх повідомленнях"
+					},
+					{
+						"id": "D",
+						"text": "Виробник преміальних годинників продає лінійку за $30 під первісною назвою"
+					},
+					{
+						"id": "E",
+						"text": "Бренд виходить у нову категорію з назвою, що пасує новій обіцянці"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Опитування любителів кави в місті показує:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Мережа X володіє словом «швидко». Мережа Y володіє словом «дешево». Жодна мережа не володіє позицією «місце, де можна сидіти й працювати», і 35% респондентів кажуть, що їм важко знайти таке."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яку вільну позицію варто розглянути новій кав’ярні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Швидко"
+					},
+					{
+						"id": "B",
+						"text": "Дешево"
+					},
+					{
+						"id": "C",
+						"text": "Місце, де можна сидіти й працювати"
+					},
+					{
+						"id": "D",
+						"text": "Усе, що пропонують дві мережі"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бренд електронних читалок другий після лідера з часткою 70%, відомого «найбільшою бібліотекою». Покупці скаржаться, що пристрій лідера важкий і сповнений відволікань. Яке позиціювання найбільше відповідає теорії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "«Легша читалка, що робить одну річ: дає читати»"
+					},
+					{
+						"id": "B",
+						"text": "«Бібліотека, ще більша за бібліотеку лідера»"
+					},
+					{
+						"id": "C",
+						"text": "«Те саме, що в лідера, але дешевше»"
+					},
+					{
+						"id": "D",
+						"text": "«Усе, що пропонує лідер, і більше»"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження про межі теорії позиціювання правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Її створили в добу масової реклами, а на фрагментованих цифрових ринках один слоган важить менше."
+					},
+					{
+						"id": "B",
+						"text": "Її закони підтверджені великими контрольованими експериментами."
+					},
+					{
+						"id": "C",
+						"text": "«Володіти словом» легше заявити, ніж довести."
+					},
+					{
+						"id": "D",
+						"text": "Дослідження Байрона Шарпа показують, що покупці завжди бачать великі відмінності між брендами."
+					},
+					{
+						"id": "E",
+						"text": "Це переважно метод зміни фізичних властивостей продукту."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник професійних кухарських ножів випускає набір за $9 у супермаркетах під тією самою назвою. Продажі за перший квартал зростають на 30%. Що передбачає теорія позиціювання з часом?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Позиція бренду зміцнюється, бо обізнаність вища"
+					},
+					{
+						"id": "B",
+						"text": "Дешевий набір спершу може продаватися, але послаблює позицію «професійний» і руйнує причину, з якої люди платили більше за первісні ножі"
+					},
+					{
+						"id": "C",
+						"text": "Нічого не змінюється, бо клієнти тримають дві лінійки окремо у свідомості"
+					},
+					{
+						"id": "D",
+						"text": "Преміальні ножі стають цінніші"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Новий бренд чаю виходить на ринок, де бренд A володіє словом «органічний», бренд B «дешевий», а бренд C «подарунковий». Опитування 200 офісних працівників показує, що 45% кажуть, що важко знайти чай, який швидко заварюється на робочому столі. Запропонуйте позицію: назвіть вільну нішу з доказом, сформулюйте одну ідею й скажіть, що має робити продукт, щоб її підтримати."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому позиція, записана як перелік чеснот на кшталт «якість, сервіс, інновації й цінність», не працює? Що компанії слід робити натомість?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Банк із 40 відділеннями конкурує з лідером, який володіє словами «найбільша мережа відділень». Маркетинговий бюджет $2 млн. Оберіть одне: заявити «відділення скрізь», відкривши ще 20, позиціювати банк як «банк для власників малого бізнесу» з командою консультантів і простими бізнес-рахунками або заявити «найкращі ставки». Обґрунтуйте вибір логікою позиціювання."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бренд зубної пасти SafeSmile володіє позицією «безпечна для дітей» (60% батьків пов’язують його з цим) і отримує 80% виручки саме з неї. Рітейлер пропонує три шляхи зростання: лінійку відбілювання для дорослих під тією самою назвою (близько $2 млн додатково), новий бренд Lumo для дорослих або репозиціонування SafeSmile як «для всієї родини». Оберіть один і зважте компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Регіональна авіакомпанія Baltic Wings літає між вісьмома містами й перевозить 400 000 пасажирів на рік за середнього тарифу $140. BigAir володіє словами «найширша мережа й пересадки», а LowFly «найдешевші квитки». В опитуванні 300 бізнес-мандрівників 52% називають затримки головним роздратуванням, і жодну авіакомпанію не пов’язують зі словом «пунктуальна». Пунктуальність Baltic Wings 91% проти 78% у BigAir і 74% у LowFly. Щоб її зберігати, потрібні два резервні літаки за $6 млн на рік, а компанія могла б брати надбавку $25."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Складіть ментальну драбину, оберіть позицію й перевірте, чи продукт може її виконати, скажіть, від яких повідомлень відмовитися, і назвіть одну загрозу позиції."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

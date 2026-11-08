@@ -1,0 +1,838 @@
+{
+	"slug": "theory-of-constraints",
+	"topicId": 69,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In the Theory of Constraints, what is the constraint of a system?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The most expensive machine in the plant"
+					},
+					{
+						"id": "B",
+						"text": "The step that employs the most people"
+					},
+					{
+						"id": "C",
+						"text": "The step that limits how much the whole system can produce"
+					},
+					{
+						"id": "D",
+						"text": "The step that produces the most defects"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which sequence gives the five focusing steps in the right order?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Identify, exploit, subordinate, elevate, repeat"
+					},
+					{
+						"id": "B",
+						"text": "Elevate, identify, exploit, repeat, subordinate"
+					},
+					{
+						"id": "C",
+						"text": "Subordinate, elevate, identify, exploit, repeat"
+					},
+					{
+						"id": "D",
+						"text": "Measure, improve, control, standardise, repeat"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An hour saved at a step that is not the bottleneck usually adds nothing to the output of the system."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Once a bottleneck has been expanded, it stays at the same step, so there is no need to analyse the system again."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A print shop can design 120 jobs a day, print 80, bind 100 and pack 150. Customers want 90 jobs a day. Where should the owner add a night shift first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Design"
+					},
+					{
+						"id": "B",
+						"text": "Binding"
+					},
+					{
+						"id": "C",
+						"text": "Packing"
+					},
+					{
+						"id": "D",
+						"text": "Printing"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery’s oven is the bottleneck. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " actions exploit it without buying anything?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Buying a second oven"
+					},
+					{
+						"id": "B",
+						"text": "Having staff cover the lunch break so the oven never stops"
+					},
+					{
+						"id": "C",
+						"text": "Loading it with trays that have already been checked for defects"
+					},
+					{
+						"id": "D",
+						"text": "Making the mixer run faster than the oven can bake"
+					},
+					{
+						"id": "E",
+						"text": "Releasing dough to the oven as soon as it is mixed, whatever its queue"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery can mix 500 kg of dough a day, bake 300 kg and pack 450 kg, while customers order only 280 kg. The owner wants to buy a larger mixer. What advice fits the theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Buy the mixer, because mixing is the first step in the line"
+					},
+					{
+						"id": "B",
+						"text": "Do not buy it: orders (280 kg) are below the oven’s capacity (300 kg), so the constraint is market demand and the effort belongs in sales"
+					},
+					{
+						"id": "C",
+						"text": "Buy another oven, because ovens are the most expensive equipment"
+					},
+					{
+						"id": "D",
+						"text": "Buy a packing line, because packing is the last step before the customer"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hospital’s MRI scanner is idle about 30% of the time, yet patients wait six weeks. The cause is that referrals need approval from one manager, who processes them in a batch on Fridays. What is the best action?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Buy a second scanner"
+					},
+					{
+						"id": "B",
+						"text": "Make the scans themselves faster"
+					},
+					{
+						"id": "C",
+						"text": "Change the approval policy: daily approvals and pre-approved referral rules for routine cases"
+					},
+					{
+						"id": "D",
+						"text": "Hire more radiologists to read the images"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements describe drum-buffer-rope correctly?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The constraint sets the beat of the whole plant (the drum)"
+					},
+					{
+						"id": "B",
+						"text": "The buffer is a pile of stock kept in front of every machine"
+					},
+					{
+						"id": "C",
+						"text": "The rope is a signal that releases work only as fast as the constraint can use it"
+					},
+					{
+						"id": "D",
+						"text": "The rope is a bonus that pushes workers to speed up"
+					},
+					{
+						"id": "E",
+						"text": "The drum is the largest machine in the factory"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In a laundry, the ironer is the constraint, and each hour of ironing produces $300 of throughput (sales minus truly variable costs). A supervisor proposes an $8,000 upgrade that saves three hours a week at the polishing step, which is not the constraint. What is that upgrade worth in extra throughput?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "About $900 a week"
+					},
+					{
+						"id": "B",
+						"text": "About $300 a week"
+					},
+					{
+						"id": "C",
+						"text": "About $2,400 a month"
+					},
+					{
+						"id": "D",
+						"text": "Close to zero, because the ironer still sets the output"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coffee roaster can roast 600 kg a day, grind 500 kg, pack 420 kg and ship 700 kg, while customers want 600 kg a day. Name the constraint, say how much demand goes unmet each day, and give one way to exploit the constraint without buying equipment."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why keeping every machine busy can make a factory worse off. Use numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software team’s monthly capacity by stage: design 12 features, coding 10, code review 6 (two senior reviewers), testing 9, release 15. The business wants 10 features a month. Choose one: (1) hire two more developers, (2) protect the reviewers’ time with automated checks before review and no meetings on review days, and limit the number of items waiting for review, or (3) hire another designer. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A factory’s constraint used to be the paint line at 70 units a day. After a $60,000 upgrade it makes 130. The other steps: assembly 100, packing 120. Orders are 90 units a day. Choose one: (1) buy a second assembly line for $80,000, (2) invest in sales, such as faster delivery promises and new dealers, keeping production as it is, or (3) upgrade the paint line again. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "An online store receives 1,500 orders a day. Picking handles 2,200 parcels a day, packing 1,800, labelling 1,300 (one machine) and shipping 2,000. The labeller stops for an hour at lunch and for five changeovers of 20 minutes between carriers, and the rule is to collect a batch of 500 parcels before moving them to labelling. The operations manager wants to hire ten more pickers because the picking area looks overloaded."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Identify the constraint, apply the first four focusing steps, explain why hiring pickers is a mistake, and name the measures you would track."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що в теорії обмежень є обмеженням системи?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Найдорожча машина на заводі"
+					},
+					{
+						"id": "B",
+						"text": "Етап, на якому працює найбільше людей"
+					},
+					{
+						"id": "C",
+						"text": "Етап, що обмежує, скільки може виробити вся система"
+					},
+					{
+						"id": "D",
+						"text": "Етап, що дає найбільше браку"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка послідовність дає п’ять кроків фокусування в правильному порядку?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Виявити, максимально використати, підпорядкувати, розширити, повторити"
+					},
+					{
+						"id": "B",
+						"text": "Розширити, виявити, максимально використати, повторити, підпорядкувати"
+					},
+					{
+						"id": "C",
+						"text": "Підпорядкувати, розширити, виявити, максимально використати, повторити"
+					},
+					{
+						"id": "D",
+						"text": "Виміряти, поліпшити, контролювати, стандартизувати, повторити"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Година, зекономлена на етапі, що не є вузьким місцем, зазвичай нічого не додає до випуску системи."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Після розширення вузького місця воно лишається на тому самому етапі, тож систему не потрібно аналізувати знову."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Друкарня може розробити 120 макетів на день, надрукувати 80, переплести 100 і запакувати 150. Клієнти хочуть 90 замовлень на день. Де власнику спершу додати нічну зміну?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Дизайн"
+					},
+					{
+						"id": "B",
+						"text": "Палітурна"
+					},
+					{
+						"id": "C",
+						"text": "Пакування"
+					},
+					{
+						"id": "D",
+						"text": "Друк"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Піч пекарні є вузьким місцем. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " дії максимально використовують її без жодних покупок?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Купити другу піч"
+					},
+					{
+						"id": "B",
+						"text": "Організувати підміну працівників на обід, щоб піч ніколи не зупинялася"
+					},
+					{
+						"id": "C",
+						"text": "Завантажувати її лише тими деками, які вже перевірено на брак"
+					},
+					{
+						"id": "D",
+						"text": "Змусити тістомісильну машину працювати швидше, ніж піч встигає випікати"
+					},
+					{
+						"id": "E",
+						"text": "Передавати тісто в піч одразу після замісу, незалежно від черги"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пекарня може замісити 500 кг тіста на день, випекти 300 кг і запакувати 450 кг, а клієнти замовляють лише 280 кг. Власник хоче купити більшу тістомісильну машину. Яка порада відповідає теорії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Купити машину, бо заміс це перший етап лінії"
+					},
+					{
+						"id": "B",
+						"text": "Не купувати: замовлення (280 кг) нижчі за потужність печі (300 кг), тож обмеження це ринковий попит, а зусилля слід спрямувати на продажі"
+					},
+					{
+						"id": "C",
+						"text": "Купити ще одну піч, бо печі це найдорожче обладнання"
+					},
+					{
+						"id": "D",
+						"text": "Купити лінію пакування, бо пакування це останній етап перед клієнтом"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "МРТ-апарат лікарні простоює близько 30% часу, а пацієнти чекають шість тижнів. Причина в тому, що направлення має схвалювати один керівник, який опрацьовує їх партіями по п’ятницях. Яка дія найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Купити другий апарат"
+					},
+					{
+						"id": "B",
+						"text": "Прискорити самі обстеження"
+					},
+					{
+						"id": "C",
+						"text": "Змінити правило схвалення: щоденні схвалення й попередньо схвалені правила для типових направлень"
+					},
+					{
+						"id": "D",
+						"text": "Найняти більше рентгенологів для опису знімків"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження правильно описують метод «барабан-буфер-мотузка»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Обмеження задає такт усього заводу (барабан)"
+					},
+					{
+						"id": "B",
+						"text": "Буфер це купа запасів перед кожною машиною"
+					},
+					{
+						"id": "C",
+						"text": "Мотузка це сигнал, що випускає роботу лише в тому темпі, в якому обмеження може її використати"
+					},
+					{
+						"id": "D",
+						"text": "Мотузка це бонус, який підганяє працівників"
+					},
+					{
+						"id": "E",
+						"text": "Барабан це найбільша машина на заводі"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У пральні обмеженням є прасувальна машина, і кожна година прасування дає $300 пропускної здатності (продажі мінус справді змінні витрати). Керівник пропонує оновлення за $8 000, яке заощаджує три години на тиждень на етапі полірування, що не є обмеженням. Скільки це оновлення дає додаткової пропускної здатності?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Близько $900 на тиждень"
+					},
+					{
+						"id": "B",
+						"text": "Близько $300 на тиждень"
+					},
+					{
+						"id": "C",
+						"text": "Близько $2 400 на місяць"
+					},
+					{
+						"id": "D",
+						"text": "Майже нуль, бо прасувальна машина й далі задає випуск"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кав’ярня-обсмажувальня може обсмажити 600 кг на день, змолоти 500 кг, запакувати 420 кг і відвантажити 700 кг, а клієнти хочуть 600 кг на день. Назвіть обмеження, скажіть, скільки попиту щодня лишається незадоволеним, і запропонуйте один спосіб максимально використати обмеження без купівлі обладнання."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому завантаження кожної машини на повну може погіршити становище заводу. Використайте числа."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Місячна потужність команди розробників за етапами: дизайн 12 функцій, написання коду 10, рев’ю коду 6 (двоє старших рев’юерів), тестування 9, випуск 15. Бізнес хоче 10 функцій на місяць. Оберіть одне: (1) найняти двох розробників, (2) захистити час рев’юерів автоматичними перевірками до рев’ю й днями без нарад для рев’ю та обмежити кількість елементів, що чекають на рев’ю, або (3) найняти ще одного дизайнера. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обмеженням заводу була лінія фарбування з 70 одиницями на день. Після оновлення за $60 000 вона робить 130. Інші етапи: складання 100, пакування 120. Замовлень 90 одиниць на день. Оберіть одне: (1) купити другу лінію складання за $80 000, (2) вкласти в продажі, як-от швидші обіцянки щодо доставки й нові дилери, лишивши виробництво без змін, або (3) знову оновити лінію фарбування. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Інтернет-магазин отримує 1 500 замовлень на день. Комплектування обробляє 2 200 посилок на день, пакування 1 800, маркування 1 300 (одна машина), а відправлення 2 000. Маркувальна машина зупиняється на годину на обід і на п’ять переналагоджень по 20 хвилин між перевізниками, а за правилом перед маркуванням збирають партію з 500 посилок. Керівник операцій хоче найняти десять комплектувальників, бо зона комплектування виглядає перевантаженою."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте обмеження, застосуйте перші чотири кроки фокусування, поясніть, чому найм комплектувальників помилка, і назвіть показники, за якими стежили б."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

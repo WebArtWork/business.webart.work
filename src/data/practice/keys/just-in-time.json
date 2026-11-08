@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "JIT lines up supply with real use so that materials arrive just before they are needed. Mass production for low unit cost and big safety stocks create the piles of inventory JIT tries to remove, and relocating to cheap countries is a different decision."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In kanban a bin, card or electronic signal authorises production or delivery of a fixed quantity, so work starts on actual use. It is not a stop order, a supplier failure or a reason to buy in bulk."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "With little stock, a broken machine or a bad part stops the next step almost at once. Like lowering the water in a river, falling stock reveals the rocks, which can then be fixed."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Without a buffer, every breakdown or defect stops the line. Stock should fall only as fast as reliability improves, so the process must be stabilised first."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "$240,000 divided by $20,000 a day gives 12 days. Measuring inventory in days is the first step of applying JIT, because it shows where stock piles up and sets a target."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Frequent, short deliveries and pull from confirmed orders are the core of JIT. Large stocks, quarterly bulk buying and making the supplier hold the stock all keep inventory in the chain instead of removing it."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A single source with a long and fragile supply route is where a delay would stop production, so a buffer is sensible there. The other parts are close, quick and have alternatives."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Pushing inventory onto suppliers just moves the cost, and the supplier will recover it in the price. Real JIT shares forecasts, levels orders and shortens lead times so that stock is removed from the chain."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Instability and long setups are the rocks that stock was hiding, and they should be fixed before stock is cut. Kanban works with low stock, suppliers do not need the buyer to hold stock, and lower inventory only exposes quality problems, it does not fix them."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The lesson drawn by many firms was to combine JIT with a deliberate buffer for risky single-source items. Dropping JIT entirely brings back the cost of stock everywhere, and faster trucks cannot deliver chips that do not exist."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The station holds two bins of hinges. When the first bin is empty, that is the signal to refill a fixed quantity while the worker uses the second one. Work and delivery start on actual use, not on a forecast, so the station never holds more than two bins. It replaces production based on forecasts, which fills the floor with stock that may never be used."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: an empty bin is a signal to refill a fixed quantity",
+					"points": 2
+				},
+				{
+					"criterion": "Says work starts on actual use, not on a forecast (pull, not push)",
+					"points": 1
+				},
+				{
+					"criterion": "States the effect: stock at the station is capped and problems show up sooner",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Current stock is $300,000 ÷ $15,000 = 20 days. At 5 days the stock is $75,000, so $225,000 of cash is freed. Closing the warehouse saves $3,000 × 12 = $36,000 a year. Caution: cut stock only as fast as breakdowns and defects are fixed, and keep a buffer for risky parts."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates 20 days of current stock",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates $75,000 target stock and $225,000 of cash freed",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates $36,000 yearly rent saving",
+					"points": 1
+				},
+				{
+					"criterion": "Names a sensible caution, such as stabilising the process first or keeping safety stock for risky parts",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Choose (b). Cutting stock from three weeks to one frees $12,000 of cash. The 2% premium costs $120 × 52 = $6,240 a year, which one avoided stock-out like last winter’s $9,000 loss more than repays. Two mills with short, frequent deliveries follow JIT’s logic of near, reliable suppliers and give a fallback if one fails. Option (c) just pushes the stock onto the mill, which will charge for it later. Risk: the nearer mill may be less reliable, so track late deliveries and keep a few days of buffer until it proves itself."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses numbers from the case, such as $12,000 cash freed, $6,240 premium and a $9,000 avoided loss",
+					"points": 2
+				},
+				{
+					"criterion": "Links the choice to JIT logic: short, frequent, reliable supply, and not pushing stock onto a supplier",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to watch it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Pure JIT would need capacity for a peak of 70% ÷ 3 = about 23% of the year’s volume each month, against an average month of 1 ÷ 12 = about 8%, so nearly three times the average. The plant would pay for idle capacity most of the year or miss orders in the peak. JIT suits stable, repetitive demand better than highly seasonal work. I recommend a hybrid: level production and pre-build stable basics in summer, and use JIT for custom items and components with short supplier lead times. The trade-off is carrying some stock and the risk of unsold toys, so cap pre-builds at forecasts for proven best sellers."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Quantifies the peak: about 23% of volume a month against an 8% average, nearly three times",
+					"points": 2
+				},
+				{
+					"criterion": "Recognises that JIT suits steady demand and strains under strong seasonality",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends a hybrid with levelled production for basics and JIT for the rest",
+					"points": 1
+				},
+				{
+					"criterion": "States a trade-off, such as holding stock and the risk of unsold toys",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "What worked: $2.4 million of cash freed and problems made visible within a day. What failed: the loss of $3.1 million is larger than the cash gain, because a critical part had a single source and no buffer. Freight up 18% is a real cost that should be set against the savings. Revised policy: classify parts by risk. Hold safety stock for the power modules, qualify a second supplier, and extend buffers to other hard-to-replace items. Keep JIT for common, nearby, reliable parts. Review each part’s risk twice a year and consolidate deliveries to limit freight."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names what worked: cash freed and problems made visible",
+					"points": 1
+				},
+				{
+					"criterion": "Explains the failure: single-source critical part with no buffer, loss larger than the gain",
+					"points": 2
+				},
+				{
+					"criterion": "Counts the freight increase as a cost to weigh",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes risk-based policy: safety stock or a second supplier for critical parts, JIT for the rest",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "JIT узгоджує постачання з реальним використанням, тож матеріали надходять безпосередньо перед потребою. Масове виробництво заради низької собівартості й великі страхові запаси створюють ті гори запасів, які JIT намагається прибрати, а переїзд у дешеву країну це зовсім інше рішення."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "У канбані контейнер, картка чи електронний сигнал дозволяє виробити або доставити фіксовану кількість, тож робота починається за фактичним використанням. Це не наказ зупинитися, не збій постачальника й не привід купувати оптом."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "За малих запасів зламаний верстат чи погана деталь майже одразу зупиняють наступний етап. Як і при зниженні рівня води в річці, зі зменшенням запасів з’являються камені, які тоді можна усунути."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Без буфера кожна поломка чи брак зупиняє лінію. Запаси слід зменшувати лише в міру того, як зростає надійність, тож спершу треба стабілізувати процес."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "$240 000 поділити на $20 000 на день дорівнює 12 дням. Вимірювання запасів у днях це перший крок упровадження JIT, адже воно показує, де запаси накопичуються, і задає ціль."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Часті короткі поставки й витягування від підтверджених замовлень це суть JIT. Великі запаси, квартальні оптові закупівлі й перекладання запасів на постачальника зберігають товар у ланцюгу замість того, щоб його прибрати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Єдине джерело з довгим і вразливим шляхом постачання це місце, де затримка зупинить виробництво, тож буфер тут розумний. Інші деталі близькі, швидкі й мають альтернативи."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перекладання запасів на постачальників лише переносить витрати, і постачальник відшкодує їх у ціні. Справжній JIT передбачає обмін прогнозами, вирівнювання замовлень і скорочення термінів постачання, щоб запас зник із ланцюга."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Нестабільність і довгі переналагодження це ті камені, які ховали запаси, і їх слід усувати до скорочення запасів. Канбан працює з малими запасами, постачальникам не потрібно, щоб покупець тримав запас, а менші запаси лише оголюють проблеми якості, але їх не виправляють."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Багато компаній винесли урок поєднувати JIT зі свідомим буфером для ризикованих позицій від єдиного джерела. Повна відмова від JIT повертає вартість запасів скрізь, а швидші вантажівки не привезуть чипів, яких немає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На станції стоять два контейнери з петлями. Коли перший порожній, це сигнал поповнити фіксовану кількість, поки працівник користується другим. Робота й доставка починаються за фактичним використанням, а не за прогнозом, тож станція ніколи не тримає більше двох контейнерів. Канбан замінює виробництво за прогнозами, яке заповнює цех запасами, що можуть так і не знадобитися."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: порожній контейнер це сигнал поповнити фіксовану кількість",
+					"points": 2
+				},
+				{
+					"criterion": "Каже, що робота починається за фактичним використанням, а не за прогнозом (витягування, а не штовхання)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає наслідок: запас на станції обмежений, а проблеми видно раніше",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Поточний запас: $300 000 ÷ $15 000 = 20 днів. За 5 днів запас становить $75 000, тож вивільняється $225 000. Закриття складу заощаджує $3 000 × 12 = $36 000 на рік. Застереження: скорочувати запас лише в міру усунення поломок і браку та тримати буфер для ризикованих деталей."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує 20 днів поточного запасу",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує цільовий запас $75 000 і вивільнені $225 000",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує річну економію на оренді $36 000",
+					"points": 1
+				},
+				{
+					"criterion": "Називає слушне застереження, наприклад спершу стабілізувати процес або тримати страховий запас для ризикованих деталей",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Обираю (б). Скорочення запасу з трьох тижнів до одного вивільняє $12 000. Надбавка 2% коштує $120 × 52 = $6 240 на рік, і один уникнутий дефіцит на кшталт минулозимового збитку в $9 000 окуповує її з надлишком. Два млини з короткими частими поставками відповідають логіці JIT про близьких надійних постачальників і дають запасний варіант, якщо один підведе. Варіант (в) лише переносить запас на млин, який згодом візьме за це гроші. Ризик: ближчий млин може бути менш надійним, тож стежте за запізненими поставками й тримайте кілька днів буфера, доки він не підтвердить надійність."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує числа з умови, наприклад $12 000 вивільнених коштів, надбавку $6 240 і уникнутий збиток $9 000",
+					"points": 2
+				},
+				{
+					"criterion": "Пов’язує вибір із логікою JIT: короткі, часті й надійні поставки, а не перекладання запасу на постачальника",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Чистий JIT вимагав би потужностей під пік у 70% ÷ 3 = близько 23% річного обсягу щомісяця проти середнього місяця 1 ÷ 12 = близько 8%, тобто майже втричі більше за середнє. Завод або платив би за простій потужностей більшу частину року, або не встигав би з замовленнями в пік. JIT краще пасує до стабільного повторюваного попиту, ніж до сильно сезонної роботи. Раджу гібрид: вирівняти виробництво й улітку заздалегідь робити стабільні базові моделі, а JIT застосовувати для індивідуальних виробів і комплектуючих із короткими термінами постачання. Компроміс: частина запасів і ризик нерозпроданих іграшок, тож обмежте попереднє виробництво прогнозами для перевірених бестселерів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Кількісно оцінює пік: близько 23% обсягу на місяць проти середніх 8%, майже втричі",
+					"points": 2
+				},
+				{
+					"criterion": "Розуміє, що JIT пасує до стабільного попиту й не витримує сильної сезонності",
+					"points": 1
+				},
+				{
+					"criterion": "Рекомендує гібрид: вирівняне виробництво для базових моделей і JIT для решти",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс, наприклад утримання запасів і ризик нерозпроданих іграшок",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Що спрацювало: вивільнені $2,4 млн і проблеми, видимі за добу. Що не спрацювало: збиток $3,1 млн більший за виграш у грошах, бо критична деталь мала єдине джерело й не мала буфера. Зростання витрат на перевезення на 18% це реальна вартість, яку треба зіставити з економією. Переглянута політика: класифікувати деталі за ризиком. Тримати страховий запас модулів живлення, кваліфікувати другого постачальника й поширити буфери на інші позиції, які важко замінити. Зберегти JIT для звичайних, близьких і надійних деталей. Двічі на рік переглядати ризик кожної деталі й об’єднувати поставки, щоб стримувати витрати на перевезення."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає, що спрацювало: вивільнені гроші й видимі проблеми",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює невдачу: критична деталь від єдиного джерела без буфера, збиток більший за виграш",
+					"points": 2
+				},
+				{
+					"criterion": "Враховує зростання витрат на перевезення як вартість, яку треба зважити",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує політику за ризиком: страховий запас або другий постачальник для критичних деталей, JIT для решти",
+					"points": 2
+				}
+			]
+		}
+	}
+}

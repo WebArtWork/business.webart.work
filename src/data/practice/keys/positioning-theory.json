@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ries and Trout argued that positioning is done to the mind of the prospect, not to the product. Costs, shelf layout and price matter, but customers act on the ranking they already hold in their heads."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "People remember only a few brands per category and rank them, and the top ones win most purchases. The other options describe internal structures, not the order in customers’ minds."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The mind simplifies, so a single idea such as “safety” for a car brand is far easier to remember than a list of virtues."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A challenger claiming to be “the best networking space” against the networking leader loses. Better to find a weakness that is inherent in the leader’s strength and claim the opposite."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It claims a single idea that no rival owns and that follows from a weakness of busy, cheap gyms. B is a list of virtues, C is empty, and D attacks a rival on the strength it already owns."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Stretching one name across unrelated or cheaper products blurs what the brand means and weakens the position of all of them. A separate name, a consistent idea and a fitting new name avoid that."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The slot is empty and the unmet need is real, so the café can own it with one idea. Fast and cheap are already owned, and claiming everything leaves a brand standing for nothing."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It turns the leader’s strength (a big, feature-packed device) into a weakness and claims a simple idea the leader cannot copy without hurting itself. The others fight the leader on its own ground, where it is already first."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Digital markets let customers research directly, and the evidence for the laws is mostly anecdotal. Sharp’s research suggests buyers often see little difference between brands, and positioning is about the prospect’s mind, not the product."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A single name stretched over a cheap line blurs what it stands for, so the premium range loses its meaning. Higher awareness does not help if the idea behind the name is diluted, and customers rarely separate lines carrying one name."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The open slot is “quick tea for the desk”: 45% of the office workers say they cannot find tea that brews fast, and no rival owns it. The one idea is “tea in 60 seconds”. The product must truly deliver, with fine-cut leaves and a pot-free bag that infuse in about a minute, and the packaging and messaging should repeat only that idea."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies an open slot that no rival owns and supports it with the survey figure",
+					"points": 2
+				},
+				{
+					"criterion": "States the position as one simple idea or word",
+					"points": 1
+				},
+				{
+					"criterion": "Says that the product, packaging and messages must deliver and repeat that idea",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Customers are flooded with messages and remember only one or two things about each brand, so a list leaves no idea in anyone’s mind. Every rival can claim the same words, so nothing is distinctive. A company should choose the single attribute that matters to its target customers and that no rival owns, for example “safety” for a car brand, and repeat it consistently in product, price and messages."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that the mind remembers very little, so a list leaves no clear idea and does not differentiate",
+					"points": 2
+				},
+				{
+					"criterion": "Says to pick a single attribute that matters to customers and no rival owns",
+					"points": 1
+				},
+				{
+					"criterion": "Gives an example or says to repeat the idea consistently",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Position as the bank for small business owners. The leader already owns “largest network”, and 20 extra branches would still leave us second at a high cost. “Best rates” can be copied by anyone and invites a price war. Small business owners are a group with specific needs, and no bank owns them, so one clear idea is open. I would back it with business advisers, fast loans and simple accounts, and drop messages aimed at everyone. Risk: the leader may start its own business service, so I would track recall among business owners and the number of new business accounts."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses positioning logic: the leader owns the network, rates are easy to copy, small business is an open slot",
+					"points": 2
+				},
+				{
+					"criterion": "Says how the product and messages must support the position",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Launch Lumo for adults. “Safe for children” is the idea that earns 80% of revenue, and a whitening line under the same name would blur it: parents may doubt a children’s brand that sells strong whitening, and adults may find the name childish. “For the whole family” gives up a word that is owned for one that nobody remembers. A new brand costs more because it starts with no recognition, which is the trade-off against the extra $2 million. Risk: Lumo may not catch on, so I would set a launch budget cap and track recall and sales, while keeping all SafeSmile messages on safety for children."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the risk of stretching the name or broadening the position, using the case figures",
+					"points": 2
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the analysis",
+					"points": 1
+				},
+				{
+					"criterion": "Weighs the cost of a new brand against the $2 million upside",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to monitor it, and keeps the core position intact",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ladder: BigAir is first for “network”, LowFly first for “cheap”, and nobody owns “punctual” although 52% of business travellers cite delays. Position: “the airline that is on time”. It is true, since 91% beats 78% and 74%. Economics: the $25 premium over 400,000 passengers is $10 million, against $6 million for the spare aircraft, so the position can pay for itself even if some passengers do not pay it. Drop messages about fares, networks and onboard extras, and repeat only punctuality, with the on-time record in every communication. Threat: a run of delays would break the claim, so track the on-time rate monthly, and avoid a cheap-fare sub-brand under the same name, which would blur the idea."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Maps the ladder with evidence from the case (who owns what, the open slot)",
+					"points": 2
+				},
+				{
+					"criterion": "Chooses punctuality as the one idea and links it to the record",
+					"points": 1
+				},
+				{
+					"criterion": "Checks that the position pays, with numbers ($10 million against $6 million)",
+					"points": 1
+				},
+				{
+					"criterion": "Names messages to drop and the need for consistent repetition",
+					"points": 1
+				},
+				{
+					"criterion": "Names a threat and how to watch for it",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Райс і Траут стверджували, що позиціювання роблять із розумом потенційного клієнта, а не з продуктом. Витрати, викладка й ціна мають значення, але клієнти діють за рейтингом, який уже тримають у голові."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Люди запам’ятовують лише кілька брендів у категорії й ранжують їх, а верхні перемагають у більшості покупок. Інші варіанти описують внутрішні структури, а не порядок у свідомості клієнтів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Розум спрощує, тож одна ідея, як-от «безпека» для автомобільного бренду, запам’ятовується набагато легше, ніж перелік чеснот."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Новачок, що заявляє «найкращий простір для нетворкінгу» проти лідера в нетворкінгу, програє. Краще знайти слабкість, закладену в силі лідера, і зайняти протилежне."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Воно займає одну ідею, якої не має жоден конкурент і яка випливає зі слабкості людних дешевих залів. B це перелік чеснот, C порожнє, а D атакує конкурента на силі, яку він уже посідає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Розтягування однієї назви на непов’язані чи дешевші продукти розмиває, що бренд означає, і послаблює позицію всіх продуктів. Окрема назва, послідовна ідея й доречна нова назва цього уникають."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Місце вільне, а незадоволена потреба справжня, тож кав’ярня може посісти його однією ідеєю. Швидко й дешево вже зайняті, а заява про все лишає бренд таким, що ні за що не стоїть."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Воно обертає силу лідера (великий, насичений функціями пристрій) на слабкість і займає просту ідею, яку лідер не може скопіювати, не нашкодивши собі. Решта б’ється з лідером на його полі, де він уже перший."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Цифрові ринки дають клієнтам шукати інформацію самостійно, а докази законів переважно анекдотичні. Дослідження Шарпа свідчать, що покупці часто бачать мало різниці між брендами, а позиціювання стосується розуму потенційного клієнта, а не продукту."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Одна назва, розтягнута на дешеву лінійку, розмиває те, за що вона стоїть, тож преміальна лінійка втрачає зміст. Вища обізнаність не допомагає, якщо ідею за назвою розбавлено, а клієнти рідко розділяють лінійки з однією назвою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Вільна ніша «швидкий чай для робочого столу»: 45% офісних працівників кажуть, що не можуть знайти чай, який швидко заварюється, і жоден конкурент нею не володіє. Одна ідея: «чай за 60 секунд». Продукт має справді це виконувати, із дрібним листом і пакетиком, що заварюється приблизно за хвилину без чайника, а упаковка й повідомлення мають повторювати лише цю ідею."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає вільну нішу, якою не володіє жоден конкурент, і підкріплює її цифрою з опитування",
+					"points": 2
+				},
+				{
+					"criterion": "Формулює позицію як одну просту ідею чи слово",
+					"points": 1
+				},
+				{
+					"criterion": "Каже, що продукт, упаковка й повідомлення мають виконувати й повторювати цю ідею",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Клієнти завалені повідомленнями й запам’ятовують про кожен бренд лише одну-дві речі, тож перелік не лишає в жодній голові жодної ідеї. Кожен конкурент може заявити ті самі слова, тож нічого не вирізняє. Компанії слід обрати єдину ознаку, яка важлива для цільових клієнтів і якою не володіє жоден конкурент, наприклад «безпека» для автомобільного бренду, і послідовно повторювати її в продукті, ціні й повідомленнях."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що розум запам’ятовує дуже мало, тож перелік не лишає чіткої ідеї й не вирізняє",
+					"points": 2
+				},
+				{
+					"criterion": "Каже обрати єдину ознаку, важливу для клієнтів, якою не володіє жоден конкурент",
+					"points": 1
+				},
+				{
+					"criterion": "Наводить приклад або каже послідовно повторювати ідею",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Позиціювати як банк для власників малого бізнесу. Лідер уже володіє «найбільшою мережею», а 20 додаткових відділень усе одно лишили б нас другими за високу ціну. «Найкращі ставки» може скопіювати будь-хто, і це веде до цінової війни. Власники малого бізнесу це група зі специфічними потребами, якою не володіє жоден банк, тож одна чітка ідея вільна. Я б підкріпив її бізнес-консультантами, швидкими кредитами й простими рахунками й відмовився б від повідомлень для всіх. Ризик: лідер може запустити власний бізнес-сервіс, тому я б стежив за впізнаваністю серед власників бізнесу й кількістю нових бізнес-рахунків."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує логіку позиціювання: лідер володіє мережею, ставки легко скопіювати, малий бізнес це вільна ніша",
+					"points": 2
+				},
+				{
+					"criterion": "Каже, як продукт і повідомлення мають підтримувати позицію",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Запустити Lumo для дорослих. «Безпечна для дітей» це ідея, що дає 80% виручки, а лінійка відбілювання під тією самою назвою розмила б її: батьки можуть сумніватися в дитячому бренді з сильним відбілюванням, а дорослі можуть вважати назву дитячою. «Для всієї родини» віддає слово, яким володієш, заради слова, яке ніхто не запам’ятає. Новий бренд коштує дорожче, бо стартує без впізнаваності, і це компроміс проти додаткових $2 млн. Ризик: Lumo може не прижитися, тому я б обмежив бюджет запуску й стежив за впізнаваністю та продажами, залишивши всі повідомлення SafeSmile про безпеку для дітей."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює ризик розтягування назви чи розширення позиції на цифрах з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з аналізу",
+					"points": 1
+				},
+				{
+					"criterion": "Зважує вартість нового бренду проти потенціалу в $2 млн",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб за ним стежити та зберігає основну позицію цілою",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Драбина: BigAir перша за «мережу», LowFly перша за «дешевизну», а «пунктуальністю» не володіє ніхто, хоча 52% бізнес-мандрівників скаржаться на затримки. Позиція: «авіакомпанія, яка не запізнюється». Це правда, бо 91% перевершує 78% і 74%. Економіка: надбавка $25 на 400 000 пасажирів це $10 млн проти $6 млн за резервні літаки, тож позиція може сама себе окупити, навіть якщо не всі пасажири її платитимуть. Відмовитися від повідомлень про тарифи, мережу й додаткові послуги на борту й повторювати лише пунктуальність, із показником вчасних рейсів у кожній комунікації. Загроза: серія затримок зруйнувала б заяву, тож щомісяця стежити за часткою вчасних рейсів і не робити дешевого суббренду під тією самою назвою, що розмило б ідею."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Складає драбину з доказами з умови (хто чим володіє, вільна ніша)",
+					"points": 2
+				},
+				{
+					"criterion": "Обирає пунктуальність як єдину ідею й пов’язує її з показником",
+					"points": 1
+				},
+				{
+					"criterion": "Перевіряє, що позиція окупається, з числами ($10 млн проти $6 млн)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає повідомлення, від яких відмовитися, і потребу в послідовному повторенні",
+					"points": 1
+				},
+				{
+					"criterion": "Називає загрозу й спосіб за нею стежити",
+					"points": 1
+				}
+			]
+		}
+	}
+}

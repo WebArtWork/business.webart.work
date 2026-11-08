@@ -1,0 +1,586 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Opportunity cost is the value of the single next-best option that the choice rules out. The cash paid is the explicit cost, adding up all alternatives overstates it because only one could have been chosen, and borrowing interest is a separate financing cost."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "4% of $200,000 is $8,000 of interest given up each year. The accounts show no cost, which is exactly why opportunity cost is easy to miss. $4,000 would be only 2%, and $200,000 is the capital itself, not the return forgone."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Accounts record what was paid. The value of the option you did not take is never invoiced or booked, which is why decisions must be checked against alternatives on purpose."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Only one alternative could have been chosen instead, so the cost is the best of them, $10,000. Adding all three to get $23,000 would count benefits that could never have been collected together."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "An implicit cost is a return given up on a resource you already own, here her own time. Rent, invoices and wages are cash payments, so they are explicit costs recorded in the accounts."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Economic profit also subtracts what the owner’s capital and time would earn elsewhere, so it can be below zero even when the accounts show a profit. Revenue minus cash costs is accounting profit, and economic profit counts the owner’s time rather than ignoring it."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The next-best alternative to A is B, worth $2,600 − $500 = $2,100, so choosing A costs her $100 net. $1,900 is the weaker alternative, $4,000 wrongly adds B and C together, and $2,000 is the benefit of A itself."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Economic profit is $3,800 − $5,000 − $500 = −$1,700. Accounting profit ignores the salary he gives up and the return on his capital. The $500 alone omits the largest implicit cost, his own time."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The best option given up is renting at $150,000, so own use, worth $120,000, is $30,000 a year worse. Adding rent and interest counts two alternatives that exclude each other, owning does not make the use free, and $120,000 is the benefit of the chosen option."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Repaying the loan saves $60,000 against $40,000 from the project, so the project’s 8% is worth less than its next-best use. A positive return alone is not a reason to choose it, and the options are not equal because the returns differ. Safety could matter, but repaying the loan is also risk-free."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Each hour of bookkeeping is an hour she could bill at $80, so doing the 10 hours herself costs $800 a week in forgone income, against $300 for the bookkeeper. She should hire the bookkeeper and use the freed hours for clients, which adds about $500 a week, as long as the waiting list means the hours can really be billed."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Values her time at $80 an hour and compares $800 with $300",
+					"points": 2
+				},
+				{
+					"criterion": "Recommends delegating, with the condition that the freed hours can be billed",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Accounting profit subtracts only costs actually paid, while economic profit also subtracts what the owner’s time and capital would earn in their best alternative use. Suppose a shop shows a profit of $30,000 a year, but the owner could earn $45,000 in a job, and her $50,000 of capital could earn $3,000. Economic profit is $30,000 − $45,000 − $3,000 = −$18,000, so she would be better off elsewhere. This matters because the accounts alone would tell her to carry on."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: economic profit also subtracts implicit costs of time and capital",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a correct numerical example with a negative result",
+					"points": 1
+				},
+				{
+					"criterion": "Draws the decision implication (better alternative exists, accounts alone mislead)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Profits are A $3,600, B $3,700 and C $3,000. B is the best and A is only $100 behind, so choosing A costs about $3,700 in forgone profit, which is a net loss of $100. I choose B: it earns the most and keeps the regular customers, who may order again. A could still win if the retailer promises repeat business, but a one-off order carries more risk. The risk with B is that customers delay their orders, so confirm them in writing and keep C as a fallback."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates profits of all three options and identifies the next-best alternative",
+					"points": 2
+				},
+				{
+					"criterion": "Considers non-monetary factors (customer relationships, repeat business, risk)",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to monitor or reduce it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option A is $36,000 if it works, so about $27,000 expected after the 25% risk. Option B saves 9% of $300,000, which is $27,000 and is certain. Option C frees 10 × $60 × 52 = $31,200 a year, assuming the hours can be used productively. C is the best, then A and B tie in expected value, though A is riskier. I choose C. Its opportunity cost is the $27,000 from the next-best alternative, so it is $4,200 ahead. The weak point is that the owner’s time must really be used for valuable work, so I would track what the freed hours produce."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Values all three options correctly (about $27,000 expected, $27,000, $31,200)",
+					"points": 2
+				},
+				{
+					"criterion": "Adjusts option A for risk",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the opportunity cost of the chosen option as the next-best alternative",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear decision and names the main assumption to check",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Every non-billable hour costs her $120 of forgone billing. Admin: 8 hours cost $960, while an assistant would cost $200, so delegating saves $760 a week. Social media: 6 hours cost $720 for no measurable return, so stop it or give it to the assistant for $150 at most. Pitches: 6 hours cost $720 and win about $2,400, so keep them. This depends on clients really waiting, so the freed hours can be billed, and on quality holding up when an assistant takes over. I would review the numbers after a month."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Prices her time at $120 an hour and applies it to each non-billable activity",
+					"points": 2
+				},
+				{
+					"criterion": "Shows that delegating admin saves about $760 a week",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends stopping or delegating social media because its return is low",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends keeping the pitches because $2,400 exceeds the $720 cost",
+					"points": 1
+				},
+				{
+					"criterion": "Notes the assumptions (waiting list, quality) and a way to check them",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Альтернативна вартість це цінність єдиного наступного найкращого варіанта, який виключає цей вибір. Сплачені гроші це явні витрати, додавання всіх альтернатив завищує її, бо обрати можна було лише одну, а відсотки за позикою це окрема вартість фінансування."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "4% від $200 000 це $8000 відсотків, від яких щороку відмовляються. У звітності цієї витрати немає, тож її легко пропустити. $4000 це лише 2%, а $200 000 це сам капітал, а не недоотримана віддача."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Облік фіксує те, що сплачено. Цінність варіанта, який не обрали, ніколи не виставляють у рахунку й не проводять в обліку, тому рішення треба свідомо звіряти з альтернативами."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Замість обраного можна було вибрати лише один варіант, тож вартість це найкращий із них, $10 000. Додавання всіх трьох до $23 000 враховувало б вигоди, які ніколи не могли б надійти разом."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Неявна витрата це віддача, від якої відмовляються щодо ресурсу, що вже є, тут її власного часу. Оренда, рахунки й зарплати це грошові виплати, тобто явні витрати, які фіксує облік."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Економічний прибуток віднімає також те, що час і капітал власника заробили б деінде, тож він може бути нижчим за нуль, навіть коли облік показує прибуток. Виторг мінус грошові витрати це бухгалтерський прибуток, а економічний враховує час власника, а не ігнорує його."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Наступна найкраща альтернатива до A це Б вартістю $2600 − $500 = $2100, тож вибір A коштує їй $100 чистими. $1900 це слабша альтернатива, $4000 помилково додає Б і В, а $2000 це вигода самого A."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Економічний прибуток $3800 − $5000 − $500 = −$1700. Бухгалтерський прибуток ігнорує зарплату, від якої він відмовляється, і віддачу його капіталу. Самі $500 пропускають найбільшу неявну витрату, його власний час."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Найкращий варіант, від якого відмовляються, це оренда за $150 000, тож власне використання вартістю $120 000 на $30 000 на рік гірше. Додавання оренди й відсотків враховує дві альтернативи, що виключають одна одну, володіння не робить використання безкоштовним, а $120 000 це вигода обраного варіанта."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Погашення позики економить $60 000 проти $40 000 від проєкту, тож 8% проєкту менше за наступне найкраще використання. Додатна віддача сама по собі не причина обирати проєкт, а варіанти не рівні, бо віддача різна. Надійність важлива, але погашення позики теж безризикове."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кожна година бухгалтерії це година, яку вона могла б виставити за $80, тож 10 годин самостійної роботи коштують $800 на тиждень недоотриманого доходу проти $300 для бухгалтера. Їй варто найняти бухгалтера й використати вивільнені години для клієнтів, що дасть близько $500 на тиждень, якщо черга означає, що ці години справді можна виставити."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Оцінює її час у $80 за годину й порівнює $800 із $300",
+					"points": 2
+				},
+				{
+					"criterion": "Радить делегувати з умовою, що вивільнені години можна виставити",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бухгалтерський прибуток віднімає лише фактично сплачені витрати, а економічний віднімає ще те, що час і капітал власника заробили б у найкращому альтернативному застосуванні. Припустімо, магазин показує прибуток $30 000 на рік, але власниця могла б заробляти $45 000 на роботі, а її $50 000 капіталу могли б заробляти $3000. Економічний прибуток $30 000 − $45 000 − $3000 = −$18 000, тож їй було б краще деінде. Це важливо, бо самі звіти радили б їй продовжувати."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: економічний прибуток віднімає також неявні витрати часу й капіталу",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить правильний числовий приклад із від’ємним результатом",
+					"points": 1
+				},
+				{
+					"criterion": "Робить висновок для рішення (є краща альтернатива, самі звіти вводять в оману)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Прибутки: A $3600, Б $3700 і В $3000. Б найкращий, а A відстає лише на $100, тож вибір A коштує близько $3700 недоотриманого прибутку, тобто чистий мінус $100. Я обираю Б: він заробляє найбільше й зберігає постійних клієнтів, які можуть замовити знову. A все одно міг би виграти, якби рітейлер пообіцяв повторні замовлення, але разове замовлення несе більше ризику. Ризик Б у тому, що клієнти відкладуть замовлення, тож підтвердіть їх письмово й тримайте В як запасний варіант."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Обчислює прибутки всіх трьох варіантів і визначає наступну найкращу альтернативу",
+					"points": 2
+				},
+				{
+					"criterion": "Враховує нематеріальні чинники (стосунки з клієнтами, повторні замовлення, ризик)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб стежити за ним або зменшити його",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант A це $36 000, якщо спрацює, тож приблизно $27 000 очікувано після ризику 25%. Варіант Б економить 9% від $300 000, тобто $27 000 і це гарантовано. Варіант В вивільняє 10 × $60 × 52 = $31 200 на рік, якщо години можна використати продуктивно. В найкращий, далі A і Б рівні за очікуваною цінністю, хоча A ризикованіший. Я обираю В. Його альтернативна вартість це $27 000 від наступної найкращої альтернативи, тож він випереджає її на $4200. Слабке місце в тому, що час власника справді має піти на цінну роботу, тож я б відстежував, що дають вивільнені години."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно оцінює всі три варіанти (близько $27 000 очікувано, $27 000, $31 200)",
+					"points": 2
+				},
+				{
+					"criterion": "Коригує варіант A на ризик",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає альтернативну вартість обраного варіанта як наступну найкращу альтернативу",
+					"points": 1
+				},
+				{
+					"criterion": "Ухвалює чітке рішення й називає головне припущення для перевірки",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кожна неоплачувана година коштує їй $120 недоотриманого виставлення. Адміністрування: 8 годин коштують $960, а помічник коштував би $200, тож делегування економить $760 на тиждень. Соціальні мережі: 6 годин коштують $720 без вимірюваної віддачі, тож їх варто припинити або віддати помічникові щонайбільше за $150. Пітчі: 6 годин коштують $720 і приносять близько $2400, тож їх варто залишити. Це залежить від того, що клієнти справді чекають, тож вивільнені години можна виставити, і від того, що якість не впаде, коли помічник перейме роботу. Я б перевірила цифри через місяць."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Оцінює її час у $120 за годину й застосовує до кожної неоплачуваної діяльності",
+					"points": 2
+				},
+				{
+					"criterion": "Показує, що делегування адміністрування економить близько $760 на тиждень",
+					"points": 1
+				},
+				{
+					"criterion": "Радить припинити або делегувати соціальні мережі, бо віддача низька",
+					"points": 1
+				},
+				{
+					"criterion": "Радить залишити пітчі, бо $2400 перевищують витрати $720",
+					"points": 1
+				},
+				{
+					"criterion": "Зауважує припущення (черга, якість) і спосіб їх перевірити",
+					"points": 1
+				}
+			]
+		}
+	}
+}

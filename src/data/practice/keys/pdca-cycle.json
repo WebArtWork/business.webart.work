@@ -1,0 +1,602 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The Plan step describes the problem, picks a likely cause and a change, and predicts a measurable result, which turns the change into a hypothesis. Do runs the test, Check compares results with that prediction, and Act decides what to do next."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Act has three outcomes: standardize what worked, adjust and rerun what partly worked, or drop what failed. Declaring success skips learning, abandoning wastes a promising lead, and a full rollout of a half-working change is exactly the expensive mistake PDCA avoids."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Do means a small-scale trial on one shift, line or store. A full launch makes failure expensive and removes the comparison group needed in the Check step."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "PDCA suits problems that can be tested in small pieces. A merger cannot be piloted on one shift and then rolled back, so it needs other decision tools."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The comparison shop shows that 2 points of the drop came from outside factors such as the holiday, so the schedule itself explains about 5 − 2 = 3 points. Reading the full 5 points ignores the control, 9% is the new level rather than a change, and the control improving less still leaves a real effect."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A baseline measured long enough to show normal variation and a measurable prediction for a limited test are what Plan needs. Options A and B are vague wishes with no number, and D is a full rollout that skips the small test."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A limited trial with comparison wards shows whether the double-check, rather than something else, changed the error rate, and limits the cost if it slows care. Options A and B spread an untested change everywhere with no clean comparison, and D skips learning entirely."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Test machines averaged 1 stoppage against about 2.9 on the others, saving about $940 a month per machine for $40, so the change should become standard and enter the procedure. Because the sample was small, tracking continues to confirm it. Stopping monitoring ignores false-signal risk, dropping it wastes clear evidence, and a year-long repeat delays a cheap, well-supported gain."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Without a prediction any rise looks like success, and with every store changed there is no comparison to separate the layout from season or promotions. Measuring a baseline, involving the people doing the work and using numbers are all good PDCA practice."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The cycle tells you how to test and learn, not which problems deserve attention, which is a known limitation. The Plan step does not rank problems, PDCA is not limited to machines, and thirty parallel cycles would spread the team thin and blur the comparisons."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Problem: over the last eight weeks, 18% of appointments were no-shows, about 36 of 200 a week. Likely cause: front-desk staff say most no-shows are patients booked more than three weeks ahead who forget. Change: send an SMS reminder two days before the visit, tested for four weeks on one dentist's diary while the other two dentists continue as before. Prediction: no-shows on the test diary fall below 10%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "States the problem with a baseline number over a stated period",
+					"points": 1
+				},
+				{
+					"criterion": "Names a likely cause based on evidence or staff input",
+					"points": 1
+				},
+				{
+					"criterion": "Describes the change with a limited test scope and a comparison group",
+					"points": 1
+				},
+				{
+					"criterion": "Gives a measurable prediction with a target and time frame",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A small trial limits the cost of being wrong and keeps a comparison. If the chain gives loyalty cards at 2 sites while 10 continue as before, it can see whether repeat visits rose more at the test sites than elsewhere, which separates the card's effect from weather or season. Launching at all 12 at once would cost far more to print and train, and a rise in visits during a dry month could not be told apart from the card's effect."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: limited cost of failure and a comparison that separates the change from outside factors",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the car wash chain with a concrete test design",
+					"points": 1
+				},
+				{
+					"criterion": "Shows what goes wrong with a full launch (no comparison, higher cost of failure)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Pilot in one restaurant. First I would write a prediction, such as ticket time falling from 22 to 15 minutes, then install one system for about $15,000 and compare that kitchen with the other five over four weeks. If it works, we standardize and train; if not, we lose a sixth of the cost and learn what really slows the kitchen. Installing everywhere risks $90,000 on an untested idea and leaves no comparison. Risk: one kitchen may differ, so I pick a typical one and watch staffing levels."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses PDCA logic: a written prediction, a small-scale test and a comparison group",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the case numbers to show the limited cost of failure",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk of the pilot and how to handle it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Extend the test. The 1.2-minute drop sits inside the normal weekly range of 9.5 to 12.5 minutes, so 30 tickets in one week cannot separate the template's effect from ordinary variation. I would run it for four weeks on one team of about 20 agents, with a similar team as a comparison, and predict a drop of at least 1 minute against that team. Rolling out now risks standardizing a false signal; abandoning throws away a possibly real gain. Risk: a slight delay, which costs little."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Shows that the 1.2-minute drop is within normal variation and the sample is small",
+					"points": 2
+				},
+				{
+					"criterion": "Designs a better test with more data, a comparison group and a prediction",
+					"points": 1
+				},
+				{
+					"criterion": "Explains why the other two options are weaker",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Check: the prediction held, since 3.9% is below 4% and far outside the normal 5.6–6.8% range, and the comparison lines stayed at 6.0%, so the effect is about 2.1 points. That saves roughly 2.1 × $14,000 = $29,400 a month per line against $6,000 of lost output, a net gain of about $23,400. Act: standardize the temperature on Line 2, update work instructions, then extend to Line 1 while Line 3 stays as a comparison for a few weeks before all lines switch. Next cycle: attack the extra 4 seconds of cycle time to recover the output loss."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Compares the result with the prediction and the normal variation range",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the comparison lines to estimate the effect at about 2.1 points",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates the trade-off correctly (about $29,400 saved against $6,000 lost per line)",
+					"points": 1
+				},
+				{
+					"criterion": "Chooses to standardize, with procedure updates and a sensible rollout that keeps learning",
+					"points": 2
+				},
+				{
+					"criterion": "Names a next cycle that follows from the results, such as cycle time",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На кроці «плануй» описують проблему, обирають імовірну причину й зміну та прогнозують вимірюваний результат, що перетворює зміну на гіпотезу. «Виконуй» запускає тест, «перевіряй» порівнює результати з прогнозом, а «дій» вирішує, що робити далі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Крок «дій» має три варіанти: закріпити те, що спрацювало, скоригувати й повторити те, що спрацювало частково, або відкинути невдале. Оголошення успіху пропускає навчання, відмова марнує перспективну ідею, а повне запровадження напівробочої зміни якраз і є дорогою помилкою, від якої захищає PDCA."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Крок «виконуй» означає невелике випробування на одній зміні, лінії чи в одному магазині. Повний запуск робить невдачу дорогою й прибирає групу порівняння, потрібну на кроці «перевіряй»."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "PDCA пасує до проблем, які можна перевірити невеликими частинами. Злиття неможливо спершу випробувати на одній зміні, а потім скасувати, тож для нього потрібні інші інструменти."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Магазин для порівняння показує, що 2 пункти зниження дали зовнішні чинники, як-от свята, тож сам графік пояснює близько 5 − 2 = 3 пунктів. Повні 5 пунктів ігнорують контрольну групу, 9% це новий рівень, а не зміна, а менше покращення контрольного магазину все одно залишає реальний ефект."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кроку «плануй» потрібні базове значення, виміряне досить довго, щоб побачити звичайні коливання, і вимірюваний прогноз для обмеженого тесту. Варіанти A і B це розмиті побажання без чисел, а D це повний запуск без невеликого тесту."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Обмежене випробування з відділеннями для порівняння показує, чи саме подвійна перевірка, а не щось інше, змінила частоту помилок, і обмежує втрати, якщо вона сповільнить догляд. Варіанти A і B поширюють неперевірену зміну всюди без чистого порівняння, а D взагалі пропускає навчання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Тестові верстати мали в середньому 1 зупинку проти приблизно 2,9 на інших, що економить близько $940 на місяць на верстат за $40, тож зміну варто зробити стандартом і внести в регламент. Оскільки вибірка мала, спостереження триває для підтвердження. Припинення спостереження ігнорує ризик хибного сигналу, відмова марнує чіткі докази, а річний повтор відкладає дешевий і добре підтверджений виграш."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Без прогнозу будь-яке зростання схоже на успіх, а коли змінено всі магазини, немає порівняння, щоб відділити вплив викладки від сезону чи акцій. Вимірювання базового рівня, залучення тих, хто виконує роботу, і використання чисел це добра практика PDCA."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Цикл показує, як перевіряти й вчитися, але не які проблеми заслуговують уваги, і це відоме обмеження. Крок «плануй» не ранжує проблеми, PDCA не обмежений верстатами, а тридцять паралельних циклів розпорошать команду й змішають порівняння."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Проблема: за останні вісім тижнів пацієнти не прийшли на 18% записів, близько 36 з 200 на тиждень. Імовірна причина: адміністратори кажуть, що найчастіше не приходять ті, кого записали більш ніж за три тижні, і вони просто забувають. Зміна: надсилати SMS-нагадування за два дні до візиту, протестувати чотири тижні на розкладі одного лікаря, поки двоє інших працюють як раніше. Прогноз: частка неявок у тестовому розкладі впаде нижче 10%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Формулює проблему з базовим числом за визначений період",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ймовірну причину на основі фактів чи думки персоналу",
+					"points": 1
+				},
+				{
+					"criterion": "Описує зміну з обмеженим масштабом тесту й групою порівняння",
+					"points": 1
+				},
+				{
+					"criterion": "Дає вимірюваний прогноз із цільовим значенням і строком",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Невелике випробування обмежує ціну помилки й зберігає порівняння. Якщо мережа видає картки лояльності на 2 мийках, а 10 працюють як раніше, вона бачить, чи зросли повторні візити на тестових мийках більше, ніж на інших, і так відділяє ефект картки від погоди чи сезону. Запуск одразу на всіх 12 коштував би значно більше на друк і навчання, а зростання візитів у сухий місяць неможливо було б відрізнити від ефекту картки."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: обмежена ціна невдачі й порівняння, що відділяє зміну від зовнішніх чинників",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до мережі автомийок із конкретним дизайном тесту",
+					"points": 1
+				},
+				{
+					"criterion": "Показує, що йде не так за повного запуску (немає порівняння, дорожча невдача)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Випробувати в одному ресторані. Спершу я записав би прогноз, скажімо скорочення часу з 22 до 15 хвилин, потім встановив би одну систему приблизно за $15 000 і чотири тижні порівнював би цю кухню з п’ятьма іншими. Якщо спрацює, закріплюємо й навчаємо; якщо ні, втрачаємо шосту частину суми й дізнаємося, що насправді гальмує кухню. Установка всюди ризикує $90 000 на неперевіреній ідеї й не залишає порівняння. Ризик: одна кухня може відрізнятися, тож я обираю типову й стежу за кількістю персоналу."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує логіку PDCA: записаний прогноз, невеликий тест і група порівняння",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує числа з умови, щоб показати обмежену ціну невдачі",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик пілоту й спосіб із ним упоратися",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Продовжити тест. Зниження на 1,2 хвилини лежить у межах звичайного тижневого діапазону від 9,5 до 12,5 хвилини, тож 30 звернень за тиждень не дозволяють відділити ефект шаблону від звичайних коливань. Я провів би тест чотири тижні на одній команді приблизно з 20 операторів, зі схожою командою для порівняння, і спрогнозував би зниження щонайменше на 1 хвилину відносно неї. Запровадження зараз ризикує закріпити хибний сигнал, а відмова викидає можливий реальний виграш. Ризик: невелика затримка, яка коштує мало."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Показує, що зниження на 1,2 хвилини в межах звичайних коливань, а вибірка мала",
+					"points": 2
+				},
+				{
+					"criterion": "Проєктує кращий тест із більшою кількістю даних, групою порівняння й прогнозом",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, чому два інші варіанти слабші",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перевірка: прогноз справдився, бо 3,9% нижче за 4% і далеко за межами звичайного діапазону 5,6–6,8%, а лінії для порівняння залишилися на 6,0%, тож ефект становить близько 2,1 пункту. Це економить приблизно 2,1 × $14 000 = $29 400 на місяць на лінію проти $6 000 втраченого випуску, тобто чистий виграш близько $23 400. Дія: закріпити температуру на лінії 2, оновити робочі інструкції, потім поширити на лінію 1, залишивши лінію 3 на кілька тижнів для порівняння, а далі перевести всі лінії. Наступний цикл: прибрати зайві 4 секунди циклу, щоб повернути втрачений випуск."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Порівнює результат із прогнозом і діапазоном звичайних коливань",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує лінії для порівняння, щоб оцінити ефект приблизно у 2,1 пункту",
+					"points": 1
+				},
+				{
+					"criterion": "Правильно рахує компроміс (близько $29 400 економії проти $6 000 втрат на лінію)",
+					"points": 1
+				},
+				{
+					"criterion": "Обирає закріплення зміни з оновленням інструкцій і розумним поширенням, що зберігає навчання",
+					"points": 2
+				},
+				{
+					"criterion": "Називає наступний цикл, що випливає з результатів, наприклад час циклу",
+					"points": 1
+				}
+			]
+		}
+	}
+}

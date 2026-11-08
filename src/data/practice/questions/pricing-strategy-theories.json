@@ -1,0 +1,891 @@
+{
+	"slug": "pricing-strategy-theories",
+	"topicId": 49,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which approach starts from what customers believe a product is worth compared with their alternatives, and works down from there?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Cost-plus pricing"
+					},
+					{
+						"id": "B",
+						"text": "Value-based pricing"
+					},
+					{
+						"id": "C",
+						"text": "Penetration pricing"
+					},
+					{
+						"id": "D",
+						"text": "Skimming"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In the floor-and-ceiling view of pricing, what sets the "
+							},
+							{
+								"t": "ceiling",
+								"b": true
+							},
+							{
+								"t": " of a price?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The unit cost of delivering the product"
+					},
+					{
+						"id": "B",
+						"text": "The margin the owner would like to earn"
+					},
+					{
+						"id": "C",
+						"text": "The value customers see compared with their alternatives"
+					},
+					{
+						"id": "D",
+						"text": "The price of the cheapest product in the shop"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Penetration pricing works best when a company has no cost advantage and rivals can match its low price immediately."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A product that costs $60 to make and is sold with a 25% markup on cost is priced at $75, which gives a 20% margin on the selling price."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which product fits "
+							},
+							{
+								"t": "skimming",
+								"b": true
+							},
+							{
+								"t": " best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Table salt sold to supermarkets"
+					},
+					{
+						"id": "B",
+						"text": "A new food-delivery app that rivals can clone in a month"
+					},
+					{
+						"id": "C",
+						"text": "A regulated electricity tariff"
+					},
+					{
+						"id": "D",
+						"text": "A patented portable ultrasound scanner that clinics are eager to be first to own"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " conditions favour a penetration launch for a new budget mobile plan?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Early buyers are eager to pay a premium to be first."
+					},
+					{
+						"id": "B",
+						"text": "Unit costs fall sharply as the number of subscribers grows."
+					},
+					{
+						"id": "C",
+						"text": "A patent blocks all copies for the next three years."
+					},
+					{
+						"id": "D",
+						"text": "Customers compare prices and switch providers easily."
+					},
+					{
+						"id": "E",
+						"text": "The service cannot be expanded beyond 5,000 users."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A consulting firm spends $20,000 of its own costs on each client project and adds 25%, so it charges $25,000. Clients say the work saves them about $200,000 a year, and the only alternative, a rival firm with a weaker method, charges $60,000."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which pricing approach would raise profit the most?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Keep cost-plus at $25,000, because it is simple to justify"
+					},
+					{
+						"id": "B",
+						"text": "Cut the price to $21,000 to win every project"
+					},
+					{
+						"id": "C",
+						"text": "Value-based pricing, in the range of $60,000 to $90,000, anchored on the $200,000 saving and the rival’s $60,000"
+					},
+					{
+						"id": "D",
+						"text": "Charge exactly $200,000 to take all the value created"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meal-kit startup can pack 5,000 boxes a week at a unit cost of $9 and currently charges $12. The founder wants to cut the price to $7 to reach 20,000 customers within a year."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the main flaw in this penetration plan?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It sells below the $9 unit cost and attracts demand it cannot serve"
+					},
+					{
+						"id": "B",
+						"text": "Skimming would always fill capacity faster than a price cut"
+					},
+					{
+						"id": "C",
+						"text": "A price of $7 is too high to win price-sensitive buyers and gain share"
+					},
+					{
+						"id": "D",
+						"text": "It ignores the value customers see, which is the only thing that sets a price"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A startup plans to launch a simple budgeting app at $15 a month, hoping to skim the market. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " facts argue against skimming?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Rivals could copy its features within weeks."
+					},
+					{
+						"id": "B",
+						"text": "Many early users say they would pay a premium to try it first."
+					},
+					{
+						"id": "C",
+						"text": "It has no patent and no strong brand yet."
+					},
+					{
+						"id": "D",
+						"text": "The app saves a typical user around $200 a month."
+					},
+					{
+						"id": "E",
+						"text": "Building the app cost more than the founders planned."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A games console launches at $499 and a year later is sold at $399. Which reading fits best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Cost-plus pricing recalculated after the company’s costs rose"
+					},
+					{
+						"id": "B",
+						"text": "Penetration pricing used to gain market share on day one"
+					},
+					{
+						"id": "C",
+						"text": "A sign that the original price was a mistake, since good pricing never changes"
+					},
+					{
+						"id": "D",
+						"text": "Skimming: eager buyers paid more first, and the cut now reaches more price-sensitive customers"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A boutique bakery makes wedding cakes that cost $120 in ingredients and labour and sells them at a 50% markup, so $180. The cakes are booked three months ahead, and the only comparable local rival charges $320. Explain what is wrong with the pricing approach and say which way the bakery should move."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why skimming needs protection from imitation, and give one example of such protection."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company launches an analytics tool that costs $15 per user a month to serve. A spreadsheet consultant who does a similar job costs customers about $400 a month, and the closest rival tool sells at $60 per user. Choose one: cost-plus at $22.50, penetration at $25, or value-based at $90. Justify your choice using the numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A startup has built a smart irrigation sensor that costs $60 per unit. A patent is pending, which should block copies for about 12 months. Pre-orders from 300 large farms are at $400, and a much bigger rival is expected to launch a similar sensor in 12 months, probably around $150. Plan the price path: the launch price, when and how it should change, and the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A fitness-app maker has 40,000 free users. A premium plan costs about $3 per user a month to serve. Competing apps charge $10. In a survey, 25% of free users said they would pay $15 a month for personalised training plans. The company has 14 months of cash and investors expect fast user growth."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Evaluate cost-plus (50% markup), penetration at $5, and value-based at $15 using figures from the case. Recommend one price and explain the trade-offs and how you would test it."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який підхід починає з того, чого, на думку клієнтів, вартий продукт порівняно з альтернативами, і рухається звідти вниз?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Витратне ціноутворення"
+					},
+					{
+						"id": "B",
+						"text": "Ціннісне ціноутворення"
+					},
+					{
+						"id": "C",
+						"text": "Ціноутворення проникнення"
+					},
+					{
+						"id": "D",
+						"text": "«Зняття вершків»"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що за логікою нижньої й верхньої меж ціни задає "
+							},
+							{
+								"t": "верхню",
+								"b": true
+							},
+							{
+								"t": " межу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Собівартість постачання продукту"
+					},
+					{
+						"id": "B",
+						"text": "Маржа, яку хоче отримати власник"
+					},
+					{
+						"id": "C",
+						"text": "Цінність, яку клієнти бачать порівняно з альтернативами"
+					},
+					{
+						"id": "D",
+						"text": "Ціна найдешевшого товару в магазині"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ціноутворення проникнення найкраще працює, коли компанія не має переваги у витратах, а конкуренти можуть одразу повторити її низьку ціну."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продукт із собівартістю $60, що продається з націнкою 25% на витрати, коштує $75, а маржа від ціни продажу становить 20%."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який продукт найкраще підходить для «зняття вершків»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Кухонна сіль для супермаркетів"
+					},
+					{
+						"id": "B",
+						"text": "Новий застосунок доставки їжі, який конкуренти можуть клонувати за місяць"
+					},
+					{
+						"id": "C",
+						"text": "Регульований тариф на електроенергію"
+					},
+					{
+						"id": "D",
+						"text": "Запатентований портативний УЗД-апарат, який клініки прагнуть отримати першими"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " умови підтримують запуск за стратегією проникнення для нового бюджетного мобільного тарифу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Перші покупці охоче платять надбавку, щоб отримати послугу першими."
+					},
+					{
+						"id": "B",
+						"text": "Собівартість одиниці різко падає зі зростанням кількості абонентів."
+					},
+					{
+						"id": "C",
+						"text": "Патент блокує будь-які копії на найближчі три роки."
+					},
+					{
+						"id": "D",
+						"text": "Клієнти порівнюють ціни й легко змінюють оператора."
+					},
+					{
+						"id": "E",
+						"text": "Послугу не можна розширити понад 5000 користувачів."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Консалтингова фірма витрачає на кожен проєкт $20 000 власних витрат і додає 25%, тож бере $25 000. Клієнти кажуть, що робота економить їм близько $200 000 на рік, а єдина альтернатива, конкурент із слабшою методикою, бере $60 000."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який підхід до ціни підвищить прибуток найбільше?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Залишити витратну ціну $25 000, бо її легко обґрунтувати"
+					},
+					{
+						"id": "B",
+						"text": "Знизити ціну до $21 000, щоб виграти кожен проєкт"
+					},
+					{
+						"id": "C",
+						"text": "Ціннісне ціноутворення в межах $60 000-90 000, з опорою на економію $200 000 і ціну конкурента $60 000"
+					},
+					{
+						"id": "D",
+						"text": "Брати рівно $200 000, щоб забрати всю створену цінність"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап із доставки наборів для приготування їжі може пакувати 5000 коробок на тиждень за собівартості $9 і наразі бере $12. Засновник хоче знизити ціну до $7, щоб за рік охопити 20 000 клієнтів."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У чому головна вада цього плану проникнення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ціна нижча за собівартість $9 і приваблює попит, який неможливо обслужити"
+					},
+					{
+						"id": "B",
+						"text": "«Зняття вершків» завжди заповнює потужності швидше, ніж зниження ціни"
+					},
+					{
+						"id": "C",
+						"text": "Ціна $7 надто висока, щоб привабити чутливих до ціни покупців і набрати частку"
+					},
+					{
+						"id": "D",
+						"text": "План ігнорує цінність для клієнтів, яка є єдиним, що визначає ціну"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап планує запустити простий застосунок для бюджету за $15 на місяць, сподіваючись «зняти вершки». Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " факти говорять проти цієї стратегії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Конкуренти можуть скопіювати функції за кілька тижнів."
+					},
+					{
+						"id": "B",
+						"text": "Багато перших користувачів кажуть, що заплатили б надбавку, аби спробувати першими."
+					},
+					{
+						"id": "C",
+						"text": "У нього ще немає ні патенту, ні сильного бренду."
+					},
+					{
+						"id": "D",
+						"text": "Застосунок економить типовому користувачеві близько $200 на місяць."
+					},
+					{
+						"id": "E",
+						"text": "Розробка коштувала більше, ніж планували засновники."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ігрова консоль виходить за $499, а через рік продається за $399. Яке тлумачення найкраще?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Витратне ціноутворення, перераховане після зростання витрат компанії"
+					},
+					{
+						"id": "B",
+						"text": "Ціноутворення проникнення, щоб одразу набрати частку ринку"
+					},
+					{
+						"id": "C",
+						"text": "Ознака того, що початкова ціна була помилкою, бо добра ціна ніколи не змінюється"
+					},
+					{
+						"id": "D",
+						"text": "«Зняття вершків»: нетерплячі покупці заплатили більше першими, а зниження тепер охоплює чутливіших до ціни клієнтів"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бутикова пекарня робить весільні торти, що коштують $120 інгредієнтів і праці, і продає їх з націнкою 50%, тобто за $180. Торти розписані на три місяці вперед, а єдиний подібний місцевий конкурент бере $320. Поясніть, що не так із підходом до ціни, і скажіть, куди пекарні варто рухатися."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому «зняття вершків» потребує захисту від копіювання, і наведіть один приклад такого захисту."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія запускає аналітичний інструмент, обслуговування якого коштує $15 на користувача на місяць. Консультант із таблиць, що виконує схожу роботу, коштує клієнтам близько $400 на місяць, а найближчий конкурентний інструмент продається по $60 на користувача. Оберіть одне: витратну ціну $22,50, проникнення за $25 або ціннісну ціну $90. Обґрунтуйте вибір цифрами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап створив розумний датчик поливу, що коштує $60 за одиницю. Заявка на патент подана, і він має блокувати копії приблизно 12 місяців. Попередні замовлення від 300 великих ферм по $400, а значно більший конкурент має випустити схожий датчик за 12 місяців, імовірно близько $150. Сплануйте цінову траєкторію: стартову ціну, коли і як її змінювати та компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Розробник фітнес-застосунку має 40 000 безкоштовних користувачів. Преміальний план коштує близько $3 на користувача на місяць. Конкурентні застосунки беруть $10. В опитуванні 25% безкоштовних користувачів сказали, що заплатили б $15 на місяць за персональні плани тренувань. У компанії є грошей на 14 місяців, а інвестори чекають швидкого зростання користувачів."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оцініть витратний підхід (націнка 50%), проникнення за $5 і ціннісний за $15 за цифрами з умови. Порекомендуйте одну ціну та поясніть компроміси й те, як ви її перевірите."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

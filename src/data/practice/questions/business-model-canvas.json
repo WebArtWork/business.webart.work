@@ -1,0 +1,852 @@
+{
+	"slug": "business-model-canvas",
+	"topicId": 24,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "How many building blocks does the Business Model Canvas have?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Nine"
+					},
+					{
+						"id": "B",
+						"text": "Seven"
+					},
+					{
+						"id": "C",
+						"text": "Twelve"
+					},
+					{
+						"id": "D",
+						"text": "Five"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which block describes how value reaches customers?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Customer relationships"
+					},
+					{
+						"id": "B",
+						"text": "Key activities"
+					},
+					{
+						"id": "C",
+						"text": "Channels"
+					},
+					{
+						"id": "D",
+						"text": "Key partnerships"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Once every block of the canvas is filled in, the business model has been proven."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "When two customer segments need different value propositions and channels, each should have its own canvas."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "For a mobile bicycle-repair van, which entry belongs in "
+							},
+							{
+								"t": "revenue streams",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The monthly lease of the van"
+					},
+					{
+						"id": "B",
+						"text": "$25 a month per subscribed rider and $60 for each one-off repair"
+					},
+					{
+						"id": "C",
+						"text": "The mechanic’s monthly wage"
+					},
+					{
+						"id": "D",
+						"text": "The parts wholesaler who supplies spare parts"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery that sold only in its shop starts delivering to offices on a subscription. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " canvas blocks change most directly?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Channels: ordering by app and delivery"
+					},
+					{
+						"id": "B",
+						"text": "A mission statement"
+					},
+					{
+						"id": "C",
+						"text": "A list of competitors"
+					},
+					{
+						"id": "D",
+						"text": "An estimate of market size"
+					},
+					{
+						"id": "E",
+						"text": "Key resources: vans, drivers and cold boxes"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A café’s canvas lists the customer segment as “everyone who likes good coffee” and the value proposition as “quality”. What should the owner do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Keep them, because broad terms reach more people"
+					},
+					{
+						"id": "B",
+						"text": "Add a second line saying “great service”"
+					},
+					{
+						"id": "C",
+						"text": "Delete the blocks until the café has more customers"
+					},
+					{
+						"id": "D",
+						"text": "Name a specific segment, for example office workers within 300 metres who want a five-minute takeaway, with a concrete benefit and price"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A mobile bicycle mechanic has costs of $6,500 a month and 180 subscribers at $25, which brings in $4,500. He plans a corporate plan at $20 per employee, paid by employers. Assuming costs stay the same and there is no other revenue, how many corporate riders does he need to break even?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "325"
+					},
+					{
+						"id": "B",
+						"text": "260"
+					},
+					{
+						"id": "C",
+						"text": "180"
+					},
+					{
+						"id": "D",
+						"text": "430"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A team put students, corporate HR departments and parents of students on one canvas with the same value proposition, “quality education”, and treated every note as a fact. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " mistakes did it make?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It used sticky notes"
+					},
+					{
+						"id": "B",
+						"text": "It mixed segments with different value propositions and channels into one canvas"
+					},
+					{
+						"id": "C",
+						"text": "It treated untested notes as facts rather than hypotheses"
+					},
+					{
+						"id": "D",
+						"text": "It wrote down revenue streams"
+					},
+					{
+						"id": "E",
+						"text": "It began with customer segments"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A startup wants to use the canvas to decide whether its market is large enough and how to beat rivals. What is the best reply?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The canvas fully covers market size and competitors"
+					},
+					{
+						"id": "B",
+						"text": "A bigger canvas with more blocks will solve it"
+					},
+					{
+						"id": "C",
+						"text": "Competitors do not matter in a business model"
+					},
+					{
+						"id": "D",
+						"text": "The canvas says little about competitors and market size, so use other tools beside it"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why the value proposition sits in the centre of the canvas."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder plans a mobile car-wash service for office car parks. Write four canvas blocks in specific terms: customer segment, value proposition, channel and revenue stream with a price. Mark which entries are hypotheses."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software firm sells a tool as a $2,400 one-time licence and considers moving to $99 a month. Choose one: switch all customers at once, pilot the subscription with new customers for six months and map the canvas changes, or keep the licence. Justify the choice, with numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A music school has 120 students paying $60 a month ($7,200). Monthly costs are $9,000: rent $4,000, three teachers $4,200 and other $800. Options: raise the price to $75, rent the rooms to a kindergarten that offers $1,500 a month for weekday mornings when they are empty, or add online lessons at $45. Choose one and justify it with canvas blocks and numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A platform sells local farmers’ produce to two groups. Families (300) buy $35 boxes four times a month and the platform keeps 20%. Restaurants (12) order $400 each week and the platform keeps 12%. Families want convenience and low price and order through an app. Restaurants want reliability, invoices and a named contact and order by phone. Monthly costs are $14,000 (warehouse, drivers, staff)."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Show why one canvas is not enough, name the differences between the segments in at least three blocks, calculate the monthly margin and result, and recommend a change with the hypotheses to test."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Скільки блоків має канва бізнес-моделі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Дев’ять"
+					},
+					{
+						"id": "B",
+						"text": "Сім"
+					},
+					{
+						"id": "C",
+						"text": "Дванадцять"
+					},
+					{
+						"id": "D",
+						"text": "П’ять"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який блок описує, як цінність доходить до клієнтів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Відносини з клієнтами"
+					},
+					{
+						"id": "B",
+						"text": "Ключові види діяльності"
+					},
+					{
+						"id": "C",
+						"text": "Канали"
+					},
+					{
+						"id": "D",
+						"text": "Ключові партнери"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Коли всі блоки канви заповнено, бізнес-модель доведено."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Коли двом сегментам клієнтів потрібні різні ціннісні пропозиції та канали, кожен має мати свою канву."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що для фургона виїзного ремонту велосипедів належить до "
+							},
+							{
+								"t": "потоків доходів",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Місячний лізинг фургона"
+					},
+					{
+						"id": "B",
+						"text": "$25 на місяць за кожного велосипедиста з підпискою й $60 за кожен разовий ремонт"
+					},
+					{
+						"id": "C",
+						"text": "Місячна зарплата механіка"
+					},
+					{
+						"id": "D",
+						"text": "Оптовий постачальник, що продає запчастини"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пекарня, що продавала лише у своїй крамниці, починає доставляти в офіси за підпискою. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " блоки канви змінюються найбезпосередніше?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Канали: замовлення через застосунок і доставка"
+					},
+					{
+						"id": "B",
+						"text": "Заява про місію"
+					},
+					{
+						"id": "C",
+						"text": "Список конкурентів"
+					},
+					{
+						"id": "D",
+						"text": "Оцінка розміру ринку"
+					},
+					{
+						"id": "E",
+						"text": "Ключові ресурси: фургони, водії й термобокси"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У канві кав’ярні сегмент клієнтів записано як «усі, хто любить добру каву», а ціннісну пропозицію як «якість». Що має зробити власниця?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Залишити, бо широкі слова охоплюють більше людей"
+					},
+					{
+						"id": "B",
+						"text": "Додати другий рядок «чудовий сервіс»"
+					},
+					{
+						"id": "C",
+						"text": "Видалити блоки, доки не з’явиться більше клієнтів"
+					},
+					{
+						"id": "D",
+						"text": "Назвати конкретний сегмент, наприклад офісних працівників у радіусі 300 метрів, яким потрібна кава на винос за п’ять хвилин, із конкретною вигодою й ціною"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виїзний механік має витрати $6 500 на місяць і 180 підписників по $25, що приносить $4 500. Він планує корпоративний тариф по $20 за працівника, який сплачує роботодавець. Якщо витрати не зміняться й іншого доходу немає, скільки корпоративних велосипедистів йому потрібно для беззбитковості?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "325"
+					},
+					{
+						"id": "B",
+						"text": "260"
+					},
+					{
+						"id": "C",
+						"text": "180"
+					},
+					{
+						"id": "D",
+						"text": "430"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда помістила студентів, відділи кадрів компаній і батьків студентів в одну канву з однаковою ціннісною пропозицією «якісна освіта» й вважала кожен запис фактом. Яких "
+							},
+							{
+								"t": "двох",
+								"b": true
+							},
+							{
+								"t": " помилок вона припустилася?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Користувалася липкими стікерами"
+					},
+					{
+						"id": "B",
+						"text": "Змішала сегменти з різними ціннісними пропозиціями й каналами в одній канві"
+					},
+					{
+						"id": "C",
+						"text": "Вважала неперевірені записи фактами, а не гіпотезами"
+					},
+					{
+						"id": "D",
+						"text": "Записала потоки доходів"
+					},
+					{
+						"id": "E",
+						"text": "Почала із сегментів клієнтів"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап хоче за допомогою канви вирішити, чи достатньо великий його ринок і як перемогти суперників. Яка відповідь найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Канва повністю охоплює розмір ринку й конкурентів"
+					},
+					{
+						"id": "B",
+						"text": "Більша канва з більшою кількістю блоків усе розв’яже"
+					},
+					{
+						"id": "C",
+						"text": "Конкуренти не мають значення для бізнес-моделі"
+					},
+					{
+						"id": "D",
+						"text": "Канва мало каже про конкурентів і розмір ринку, тож поруч потрібні інші інструменти"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому ціннісна пропозиція стоїть у центрі канви."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця планує виїзну мийку авто для офісних парковок. Напишіть чотири блоки канви конкретно: сегмент клієнтів, ціннісну пропозицію, канал і потік доходів із ціною. Позначте, які записи є гіпотезами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Програмна компанія продає інструмент за разову ліцензію $2 400 і розглядає перехід на $99 на місяць. Оберіть одне: перевести всіх клієнтів одразу, пілотувати підписку з новими клієнтами шість місяців і скласти карту змін канви або залишити ліцензію. Обґрунтуйте вибір цифрами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Музична школа має 120 учнів, які платять $60 на місяць ($7 200). Місячні витрати становлять $9 000: оренда $4 000, троє викладачів $4 200 і решта $800. Варіанти: підняти ціну до $75, здати кімнати дитячому садку, що пропонує $1 500 на місяць за ранки буднів, коли вони порожні, або додати онлайн-уроки по $45. Оберіть один і обґрунтуйте блоками канви та цифрами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Платформа продає продукцію місцевих фермерів двом групам. Родини (300) купують ящики по $35 чотири рази на місяць, і платформа залишає собі 20%. Ресторани (12) замовляють по $400 щотижня, і платформа залишає 12%. Родини хочуть зручності й низької ціни та замовляють через застосунок. Ресторани хочуть надійності, рахунків і конкретної контактної особи та замовляють телефоном. Місячні витрати становлять $14 000 (склад, водії, персонал)."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Покажіть, чому однієї канви замало, назвіть відмінності між сегментами щонайменше у трьох блоках, порахуйте місячну маржу й результат і порадьте зміну з гіпотезами для перевірки."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

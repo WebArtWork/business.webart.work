@@ -1,0 +1,902 @@
+{
+	"slug": "marketing-mix",
+	"topicId": 40,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A dental clinic changes how patients book, how long they wait in reception and when they get reminder texts. Which P is it working on?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Product"
+					},
+					{
+						"id": "B",
+						"text": "Promotion"
+					},
+					{
+						"id": "C",
+						"text": "Physical evidence"
+					},
+					{
+						"id": "D",
+						"text": "Process"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A law firm redesigns its reception area, its letterheads and its website so that clients feel they are in safe hands before any lawyer speaks to them. Which P is this?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Physical evidence"
+					},
+					{
+						"id": "B",
+						"text": "People"
+					},
+					{
+						"id": "C",
+						"text": "Place"
+					},
+					{
+						"id": "D",
+						"text": "Product"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The original 4Ps are enough for a hair salon, because staff behaviour and the look of the salon are part of promotion."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If a premium brand cuts its price sharply, it will usually need to change other Ps too, such as its channel or service level."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bicycle shop’s sales fell 25% after a rival opened two streets away. The owner wants to double the ad budget. What does the marketing mix suggest doing first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Double the ad budget, since the drop came right after the rival opened"
+					},
+					{
+						"id": "B",
+						"text": "Compare all Ps with the rival’s, because the gap may be price, location, range or staff"
+					},
+					{
+						"id": "C",
+						"text": "Cut prices by 20% to win customers back"
+					},
+					{
+						"id": "D",
+						"text": "Add electric scooters to the range"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A watch brand positions itself as a luxury heirloom at $4,000 a watch. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of its choices contradict that position?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Selling through a flash-sale website that offers 40% off"
+					},
+					{
+						"id": "B",
+						"text": "Boutique staff trained to explain the movement and the brand’s history"
+					},
+					{
+						"id": "C",
+						"text": "Radio ads that shout “lowest prices in town”"
+					},
+					{
+						"id": "D",
+						"text": "A ten-year warranty with free servicing"
+					},
+					{
+						"id": "E",
+						"text": "A heavy wooden presentation case"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A yoga brand runs two studios at the same $120-a-month price with the same ads and teachers. At Studio A, 60% of trial visitors sign up; at Studio B only 25% do. At Studio B the changing rooms are cramped and reception is empty at peak times. What should the brand fix first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Run more social media ads for Studio B"
+					},
+					{
+						"id": "B",
+						"text": "Cut Studio B’s price to $90"
+					},
+					{
+						"id": "C",
+						"text": "Improve Studio B’s changing rooms and staff the reception at peak times"
+					},
+					{
+						"id": "D",
+						"text": "Add more class types at Studio B"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company makes noise-cancelling headphones at $350. The product team built them for frequent business travellers. Sales placed them in a discount electronics chain with 30%-off promotions, and the marketing team runs ads aimed at students. Sales are flat. What is the best first step?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Raise the ad budget so more students see the product"
+					},
+					{
+						"id": "B",
+						"text": "Cut the list price to $250 to match the discount channel"
+					},
+					{
+						"id": "C",
+						"text": "Launch a cheaper version for students"
+					},
+					{
+						"id": "D",
+						"text": "Agree on one target customer and position, then check every P against them"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A consultant presents a full 7P audit to a client. The CEO raises objections. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are fair limitations of the marketing mix?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It looks at the offer from the seller’s side, which is why the 4Cs were proposed to put the buyer first"
+					},
+					{
+						"id": "B",
+						"text": "It lists what to decide but does not tell you how to choose between options"
+					},
+					{
+						"id": "C",
+						"text": "It only applies to physical products, not services"
+					},
+					{
+						"id": "D",
+						"text": "It was designed for digital marketing and fits offline businesses poorly"
+					},
+					{
+						"id": "E",
+						"text": "It forbids changing more than one P at a time"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A private clinic adds a basic check-up at $40, against its usual $70, to win more patients. Which other change keeps the mix consistent with the new offer?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Physical evidence: add a marble lobby to signal quality"
+					},
+					{
+						"id": "B",
+						"text": "Process: shorter standardised appointments and online booking, so the cheaper offer stays profitable"
+					},
+					{
+						"id": "C",
+						"text": "Promotion: place ads in luxury lifestyle magazines"
+					},
+					{
+						"id": "D",
+						"text": "None: price can change without affecting other Ps"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A burger truck positions itself as “chef-made burgers from local farms”. It uses dry-aged beef and brioche buns, charges $16, parks outside a budget outlet mall where shoppers spend about $8 on lunch, and advertises with two-for-one coupons in a discount flyer. The chef cooks in full view. It sells 300 burgers a week against a target of 600. Name the two Ps that clash with the position and propose a fix for each."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why changing one P usually forces changes in others. Use a bakery that moves from a market stall to a premium shopping street as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A family hotel runs at 70% occupancy against a target of 85%. Website visits are up 30% this year, but the share of visitors who book has fallen. Online reviews score the rooms 4.6 out of 5 but check-in 3.2, with complaints about 30-minute queues and unfriendly staff. You have $20,000. Choose one: more online ads, renovating the lobby and rooms, or staff training plus online check-in. Justify your choice with the 7Ps."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A mid-priced cosmetics brand, known for $12 creams in supermarkets, wants to enter the premium segment with a $45 serum."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option A: same brand name and packaging style, sold on the same supermarket shelves next to its $12 range."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option B: a separate line with new packaging, sold through pharmacies and its own website, with trained beauty advisers in 40 pharmacies."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A pilot showed 0.4% of supermarket shoppers who saw the serum bought it, against 3% in pharmacies."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one option. Check at least four Ps for consistency and use the pilot data."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A coworking space positions itself as “a quiet place for professionals to focus”. Desks cost $250 a month against a city average of $180. It has ergonomic chairs and modern design in a business district. It has 120 members but only 2 phone booths, booked on a paper sheet; members wait 25 minutes on average. Its social media ads show parties and “free beer Fridays”. The single community manager is often away. Occupancy is 62% against a target of 85%, and 45% of members who left cite noise and waits for booths."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Audit the mix against the position, name the two weakest Ps, and propose changes with a metric to track."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стоматологічна клініка змінює те, як пацієнти записуються, скільки чекають у приймальні й коли отримують нагадування. Над яким P вона працює?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Продукт"
+					},
+					{
+						"id": "B",
+						"text": "Просування"
+					},
+					{
+						"id": "C",
+						"text": "Фізичне оточення"
+					},
+					{
+						"id": "D",
+						"text": "Процес"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Юридична фірма оновлює приймальню, бланки й сайт, щоб клієнти відчували себе в надійних руках ще до розмови з юристом. Який це P?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Фізичне оточення"
+					},
+					{
+						"id": "B",
+						"text": "Люди"
+					},
+					{
+						"id": "C",
+						"text": "Місце"
+					},
+					{
+						"id": "D",
+						"text": "Продукт"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Класичних 4P достатньо для перукарні, бо поведінка персоналу й вигляд салону входять до просування."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо преміальний бренд різко знижує ціну, йому зазвичай доведеться змінити й інші P, як-от канал чи рівень сервісу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продажі веломагазину впали на 25% після того, як за дві вулиці відкрився конкурент. Власник хоче подвоїти рекламний бюджет. Що радить маркетинговий комплекс зробити спершу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Подвоїти рекламу, адже падіння почалося одразу після відкриття конкурента"
+					},
+					{
+						"id": "B",
+						"text": "Порівняти з конкурентом усі P, бо розрив може бути в ціні, розташуванні, асортименті чи персоналі"
+					},
+					{
+						"id": "C",
+						"text": "Знизити ціни на 20%, щоб повернути клієнтів"
+					},
+					{
+						"id": "D",
+						"text": "Додати до асортименту електросамокати"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Годинниковий бренд позиціює себе як розкішну сімейну реліквію за $4 000 за годинник. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " його рішення суперечать цій позиції?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Продаж через сайт флеш-розпродажів зі знижками 40%"
+					},
+					{
+						"id": "B",
+						"text": "Персонал бутиків, навчений розповідати про механізм та історію бренду"
+					},
+					{
+						"id": "C",
+						"text": "Радіореклама з гаслом «найнижчі ціни в місті»"
+					},
+					{
+						"id": "D",
+						"text": "Десятирічна гарантія з безкоштовним обслуговуванням"
+					},
+					{
+						"id": "E",
+						"text": "Важкий дерев’яний подарунковий футляр"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Йога-бренд має дві студії з однаковою ціною $120 на місяць, однаковою рекламою й викладачами. У студії A абонемент купують 60% тих, хто прийшов на пробне заняття, у студії B лише 25%. У студії B тісні роздягальні, а рецепція в години пік порожня. Що бренду виправити спершу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Запустити більше реклами в соцмережах для студії B"
+					},
+					{
+						"id": "B",
+						"text": "Знизити ціну в студії B до $90"
+					},
+					{
+						"id": "C",
+						"text": "Поліпшити роздягальні студії B і забезпечити персонал на рецепції в години пік"
+					},
+					{
+						"id": "D",
+						"text": "Додати в студії B більше видів занять"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія виробляє навушники з шумозаглушенням за $350. Продуктова команда створювала їх для бізнес-мандрівників. Відділ продажів поставив їх у мережу дешевої електроніки з акціями «мінус 30%», а маркетинг запустив рекламу для студентів. Продажі стоять на місці. Який перший крок найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Збільшити рекламний бюджет, щоб більше студентів побачили продукт"
+					},
+					{
+						"id": "B",
+						"text": "Знизити ціну до $250, щоб відповідати дешевому каналу"
+					},
+					{
+						"id": "C",
+						"text": "Випустити дешевшу версію для студентів"
+					},
+					{
+						"id": "D",
+						"text": "Узгодити одного цільового клієнта й позицію, а тоді перевірити кожен P на відповідність їм"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Консультант показує клієнту повний аудит за 7P. Генеральна директорка висуває заперечення. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з них є справедливими обмеженнями маркетингового комплексу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він дивиться на пропозицію з боку продавця, тому й запропонували 4C, щоб поставити покупця на перше місце"
+					},
+					{
+						"id": "B",
+						"text": "Він перелічує, що треба вирішити, але не каже, як обирати між варіантами"
+					},
+					{
+						"id": "C",
+						"text": "Він стосується лише фізичних товарів, а не послуг"
+					},
+					{
+						"id": "D",
+						"text": "Його створили для цифрового маркетингу, і він погано пасує офлайн-бізнесу"
+					},
+					{
+						"id": "E",
+						"text": "Він забороняє змінювати більше одного P водночас"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Приватна клініка додає базовий огляд за $40 замість звичних $70, щоб залучити більше пацієнтів. Яка інша зміна збереже узгодженість комплексу з новою пропозицією?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Фізичне оточення: мармуровий хол як сигнал якості"
+					},
+					{
+						"id": "B",
+						"text": "Процес: коротші стандартизовані прийоми й онлайн-запис, щоб дешевша пропозиція лишалася прибутковою"
+					},
+					{
+						"id": "C",
+						"text": "Просування: реклама в журналах про розкішне життя"
+					},
+					{
+						"id": "D",
+						"text": "Жодна: ціна може змінюватися, не впливаючи на інші P"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фудтрак із бургерами позиціює себе як «бургери від шефа з продуктів місцевих ферм». Він використовує яловичину сухого визрівання й булочки бріош, бере $16, стоїть біля бюджетного аутлету, де покупці витрачають на обід близько $8, і рекламується купонами «два за ціною одного» в листівці знижок. Шеф готує на очах у клієнтів. Фудтрак продає 300 бургерів на тиждень за мети 600. Назвіть два P, що суперечать позиції, і запропонуйте виправлення для кожного."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому зміна одного P зазвичай змушує змінювати інші. Використайте як приклад пекарню, що переїжджає з ринкового прилавка на преміальну торгову вулицю."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сімейний готель заповнений на 70% за мети 85%. Відвідуваність сайту цього року зросла на 30%, але частка відвідувачів, які бронюють, упала. Онлайн-відгуки оцінюють номери на 4,6 з 5, а заселення на 3,2, зі скаргами на 30-хвилинні черги й неприязний персонал. У вас $20 000. Оберіть одне: більше онлайн-реклами, ремонт холу й номерів або навчання персоналу разом з онлайн-заселенням. Обґрунтуйте вибір через 7P."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Косметичний бренд середнього цінового рівня, відомий кремами за $12 у супермаркетах, хоче вийти в преміальний сегмент із сироваткою за $45."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант A: та сама назва й стиль упаковки, продаж на тих самих полицях супермаркетів поруч із лінійкою за $12."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант B: окрема лінійка з новою упаковкою, продаж в аптеках і на власному сайті, з навченими консультантками в 40 аптеках."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Пілот показав, що сироватку купили 0,4% покупців супермаркету, які її побачили, проти 3% в аптеках."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть один варіант. Перевірте на узгодженість щонайменше чотири P і використайте дані пілоту."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Коворкінг позиціює себе як «тихе місце для зосередженої роботи професіоналів». Робоче місце коштує $250 на місяць проти середніх $180 у місті. Тут ергономічні крісла й сучасний дизайн у діловому районі. У коворкінгу 120 учасників, але лише 2 телефонні кабінки, які бронюють на паперовому аркуші; учасники чекають у середньому 25 хвилин. Реклама в соцмережах показує вечірки й «пивні п’ятниці». Єдиний ком’юніті-менеджер часто відсутній. Заповненість 62% за мети 85%, і 45% учасників, які пішли, називають шум і чергу до кабінок."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Проведіть аудит комплексу щодо позиції, назвіть два найслабші P і запропонуйте зміни з показником для відстеження."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

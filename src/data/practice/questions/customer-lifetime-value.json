@@ -1,0 +1,998 @@
+{
+	"slug": "customer-lifetime-value",
+	"topicId": 42,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meal box sells for $60 a month. Ingredients, packing and delivery cost $38 per box. Which monthly figure belongs in the CLV calculation?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$22"
+					},
+					{
+						"id": "B",
+						"text": "$60"
+					},
+					{
+						"id": "C",
+						"text": "$38"
+					},
+					{
+						"id": "D",
+						"text": "$98"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A streaming service loses 4% of its subscribers each month. Roughly how long does the average subscriber stay?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "4 months"
+					},
+					{
+						"id": "B",
+						"text": "12 months"
+					},
+					{
+						"id": "C",
+						"text": "25 months"
+					},
+					{
+						"id": "D",
+						"text": "96 months"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Leaving future profits undiscounted slightly understates what a customer is worth today."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Two customers who spend the same amount per month can have very different CLVs if they came through different acquisition channels."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A language-learning app earns $8 a month in margin per subscriber, and 5% of subscribers cancel each month. Ads cost $80 per new subscriber. What is the CLV-to-CAC ratio, before discounting?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "1:1"
+					},
+					{
+						"id": "B",
+						"text": "2:1"
+					},
+					{
+						"id": "C",
+						"text": "3:1"
+					},
+					{
+						"id": "D",
+						"text": "4:1"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coffee subscription wants to raise the CLV of its customers. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " moves do that directly?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Reducing monthly churn from 6% to 4% with better onboarding"
+					},
+					{
+						"id": "B",
+						"text": "Cutting packaging cost by $1 per box, which raises the margin"
+					},
+					{
+						"id": "C",
+						"text": "Doubling the advertising budget"
+					},
+					{
+						"id": "D",
+						"text": "Lowering acquisition cost through a referral programme"
+					},
+					{
+						"id": "E",
+						"text": "Splitting customers into more cohorts for reporting"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A four-month-old startup has one cohort with 1% monthly churn, which gives a CLV of $900. The founders plan to spend up to $800 to acquire each new customer. What is the best advice?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Go ahead, since $800 is still below $900"
+					},
+					{
+						"id": "B",
+						"text": "Spend up to $900, because any customer worth more than its cost is profitable"
+					},
+					{
+						"id": "C",
+						"text": "Stop marketing until there are two years of data"
+					},
+					{
+						"id": "D",
+						"text": "Keep CAC well below CLV, often around a third, and recalculate by cohort, since later cohorts usually churn more than the first"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online fitness platform earns $10 a month in margin per member and compares two channels:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Influencer posts: CAC $40, monthly churn 10%."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Physiotherapist partnerships: CAC $120, monthly churn 2.5%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which channel should get more budget?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Influencer posts, because each customer costs a third as much"
+					},
+					{
+						"id": "B",
+						"text": "Both equally, because margin per member is the same"
+					},
+					{
+						"id": "C",
+						"text": "Physiotherapist partnerships, because their CLV-to-CAC ratio is higher"
+					},
+					{
+						"id": "D",
+						"text": "Neither, because both ratios are below 2:1"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hardware store calculates CLV by treating anyone who has not bought for two months as lost. Its average CLV is $240. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " limitations should it keep in mind?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "In a business without contracts it cannot see when a customer has quietly left, so a probability model works better than a fixed cut-off"
+					},
+					{
+						"id": "B",
+						"text": "The average hides a long tail in which a few customers, such as builders, create most of the value"
+					},
+					{
+						"id": "C",
+						"text": "CLV cannot be based on margin in retail"
+					},
+					{
+						"id": "D",
+						"text": "CLV only applies to subscriptions, so it is meaningless for a store"
+					},
+					{
+						"id": "E",
+						"text": "Discounting is not needed for retail customers"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software firm earns $20 a month in margin per customer, keeps 95% of customers each month and uses a monthly discount rate of 1%. Using margin × retention ÷ (1 + discount rate − retention), what is the CLV?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "About $317"
+					},
+					{
+						"id": "B",
+						"text": "$400"
+					},
+					{
+						"id": "C",
+						"text": "$380"
+					},
+					{
+						"id": "D",
+						"text": "$1,900"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A project-management tool costs $50 a month, its gross margin is 80%, and 2.5% of customers cancel each month. LinkedIn ads cost $500 per new customer. Calculate the CLV before discounting and the CLV-to-CAC ratio, and say whether the channel is healthy."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why it is dangerous to spend up to the full CLV on acquiring a customer. Use a monthly snack-box subscription as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online florist has $30,000 to spend."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Today a customer earns $15 margin per order, orders 4 times a year and stays 2 years, so CLV is $120. New customers from ads cost $50 each."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option A: spend it all on ads."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option B: a birthday-reminder and loyalty programme for the 5,000 existing customers ($6 each), expected to stretch the average stay from 2 to 2.5 years."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one option and justify it with CLV numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meal-kit company earns $20 a month in margin per customer and has $11,000 for one acquisition campaign."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Campaign A: 50% off the first box. CAC (including the discount) is $50, but these customers churn 20% a month."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Campaign B: full price with a free recipe book. CAC is $110, and these customers churn 5% a month."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose a campaign. Compare CLV, the CLV-to-CAC ratio and the total value each campaign creates."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "An online tutoring platform earns $30 a month in margin per student after paying tutors. Its quarterly acquisition budget of $60,000 is split 50% search ads, 40% TikTok creators and 10% school partnerships. Search ads cost $90 per student, with 10% monthly churn. TikTok creators cost $40, with 20% churn. School partnerships cost $150, with 4% churn. Partnerships have only run for six months."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate CLV and the CLV-to-CAC ratio for each channel, recommend a new budget split, and name one caveat."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Набір страв коштує $60 на місяць. Інгредієнти, пакування й доставка коштують $38 за набір. Яка місячна цифра має увійти до розрахунку CLV?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$22"
+					},
+					{
+						"id": "B",
+						"text": "$60"
+					},
+					{
+						"id": "C",
+						"text": "$38"
+					},
+					{
+						"id": "D",
+						"text": "$98"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стрімінговий сервіс щомісяця втрачає 4% підписників. Скільки приблизно залишається середній підписник?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "4 місяці"
+					},
+					{
+						"id": "B",
+						"text": "12 місяців"
+					},
+					{
+						"id": "C",
+						"text": "25 місяців"
+					},
+					{
+						"id": "D",
+						"text": "96 місяців"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо не дисконтувати майбутній прибуток, це трохи занижує цінність клієнта сьогодні."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Двоє клієнтів, що витрачають однакову суму на місяць, можуть мати дуже різну CLV, якщо прийшли різними каналами залучення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для вивчення мов заробляє $8 маржі на місяць із підписника, а щомісяця скасовують підписку 5%. Реклама коштує $80 за нового підписника. Яке співвідношення CLV до CAC без дисконтування?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "1:1"
+					},
+					{
+						"id": "B",
+						"text": "2:1"
+					},
+					{
+						"id": "C",
+						"text": "3:1"
+					},
+					{
+						"id": "D",
+						"text": "4:1"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кавова підписка хоче підвищити CLV своїх клієнтів. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " кроки роблять це безпосередньо?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Знизити щомісячний відтік з 6% до 4% завдяки кращому онбордингу"
+					},
+					{
+						"id": "B",
+						"text": "Зменшити вартість пакування на $1 за коробку, що підвищує маржу"
+					},
+					{
+						"id": "C",
+						"text": "Подвоїти рекламний бюджет"
+					},
+					{
+						"id": "D",
+						"text": "Знизити вартість залучення через реферальну програму"
+					},
+					{
+						"id": "E",
+						"text": "Поділити клієнтів на більше когорт для звітності"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чотиримісячний стартап має одну когорту з відтоком 1% на місяць, що дає CLV $900. Засновники планують витрачати до $800 на залучення кожного нового клієнта. Яка порада найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Діяти, бо $800 усе ще менше за $900"
+					},
+					{
+						"id": "B",
+						"text": "Витрачати до $900, бо будь-який клієнт, що вартий більше за свою ціну, прибутковий"
+					},
+					{
+						"id": "C",
+						"text": "Зупинити маркетинг, доки не буде даних за два роки"
+					},
+					{
+						"id": "D",
+						"text": "Тримати CAC значно нижчим за CLV, часто на рівні третини, і перераховувати за когортами, бо пізніші когорти зазвичай мають вищий відтік за першу"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Онлайн-фітнес-платформа заробляє $10 маржі на місяць з учасника й порівнює два канали:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Дописи інфлюенсерів: CAC $40, щомісячний відтік 10%."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Партнерство з фізіотерапевтами: CAC $120, щомісячний відтік 2,5%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який канал має отримати більше бюджету?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Інфлюенсери, бо кожен клієнт коштує втричі менше"
+					},
+					{
+						"id": "B",
+						"text": "Обидва порівну, бо маржа на учасника однакова"
+					},
+					{
+						"id": "C",
+						"text": "Партнерство з фізіотерапевтами, бо співвідношення CLV до CAC вище"
+					},
+					{
+						"id": "D",
+						"text": "Жоден, бо обидва співвідношення нижчі за 2:1"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Будівельний магазин рахує CLV, вважаючи втраченим кожного, хто не купував два місяці. Середня CLV у нього $240. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " обмеження йому варто пам’ятати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "У бізнесі без договорів не видно, коли клієнт тихо пішов, тож імовірнісна модель працює краще за фіксовану межу"
+					},
+					{
+						"id": "B",
+						"text": "Середнє приховує довгий хвіст, де кілька клієнтів, як-от будівельники, створюють більшість цінності"
+					},
+					{
+						"id": "C",
+						"text": "У роздрібній торгівлі CLV не можна рахувати на основі маржі"
+					},
+					{
+						"id": "D",
+						"text": "CLV застосовна лише до підписок, тож для магазину вона безглузда"
+					},
+					{
+						"id": "E",
+						"text": "Для роздрібних клієнтів дисконтування не потрібне"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Софтверна фірма заробляє $20 маржі на місяць із клієнта, щомісяця зберігає 95% клієнтів і використовує місячну ставку дисконтування 1%. За формулою маржа × утримання ÷ (1 + ставка дисконтування − утримання), яка CLV?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Близько $317"
+					},
+					{
+						"id": "B",
+						"text": "$400"
+					},
+					{
+						"id": "C",
+						"text": "$380"
+					},
+					{
+						"id": "D",
+						"text": "$1 900"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інструмент для управління проєктами коштує $50 на місяць, валова маржа 80%, щомісяця скасовують підписку 2,5% клієнтів. Реклама в LinkedIn коштує $500 за нового клієнта. Обчисліть CLV без дисконтування й співвідношення CLV до CAC і скажіть, чи здоровий цей канал."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому небезпечно витрачати на залучення клієнта всю його CLV. Використайте як приклад щомісячну підписку на снеки."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Онлайн-квіткарня має $30 000 для витрат."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Зараз клієнт приносить $15 маржі із замовлення, замовляє 4 рази на рік і лишається 2 роки, тож CLV становить $120. Нові клієнти з реклами коштують по $50."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант A: витратити все на рекламу."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант B: програма нагадувань про дні народження й лояльності для 5 000 наявних клієнтів (по $6 на кожного), яка, за очікуванням, подовжить середній строк з 2 до 2,5 року."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть один варіант і обґрунтуйте його цифрами CLV."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія наборів для готування заробляє $20 маржі на місяць із клієнта й має $11 000 на одну кампанію залучення."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Кампанія A: 50% знижки на перший набір. CAC (разом зі знижкою) $50, але ці клієнти мають відтік 20% на місяць."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Кампанія B: повна ціна й безкоштовна книга рецептів. CAC $110, відтік цих клієнтів 5% на місяць."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть кампанію. Порівняйте CLV, співвідношення CLV до CAC і загальну цінність, яку створює кожна кампанія."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Платформа онлайн-репетиторства заробляє $30 маржі на місяць з учня після оплати репетиторів. Квартальний бюджет залучення $60 000 поділено так: 50% пошукова реклама, 40% TikTok-автори, 10% партнерство зі школами. Пошукова реклама коштує $90 за учня з відтоком 10% на місяць. TikTok-автори коштують $40 з відтоком 20%. Партнерство зі школами коштує $150 з відтоком 4%. Партнерства працюють лише шість місяців."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обчисліть CLV і співвідношення CLV до CAC для кожного каналу, запропонуйте новий розподіл бюджету й назвіть одне застереження."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

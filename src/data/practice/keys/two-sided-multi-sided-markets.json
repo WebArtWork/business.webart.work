@@ -1,0 +1,586 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A two-sided market connects groups such as buyers and sellers or diners and restaurants through one intermediary, and each group gains from the other’s presence. A single product line, a merger or a two-product factory has no such dependence between groups."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The central lesson of the theory is that the split of fees between sides matters as much as their total. A platform may charge one side little or nothing and the other side more. Price level, loyalty discounts and price display do not describe that split."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A free or below-cost side can attract members that make the platform valuable to the other side, which pays. The loss on paper is recovered on the money side, so profit must be judged for the whole platform."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Such a side values the platform most and cannot easily go elsewhere, so it will accept a fee. Charging the more price-sensitive side instead drives it away and weakens the whole platform."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Garages gain income from the drivers and cannot easily find these customers elsewhere, while drivers are price-sensitive and have free alternatives. Being the larger side is not a reason to charge it, and splitting fees equally ignores how sides differ."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A cross-side effect is the value one side gets from the size or quality of the other side, and here each side attracts the other. A rival photographer is a same-side effect, hiring staff is a cost decision and charging couples is a pricing choice."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The fee was put on the side that is most sensitive to price, which cut participation and lowered the value for employers, who then see little reason to stay. Employers paying nothing is not the cause, and a fee making seekers distrust the platform does not match the symptoms."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "With 2,100 projects, commission is $63,000 and the client fee is $42,000, so $105,000 total, but 900 projects disappear. Because designers come for clients, falling demand can shrink the supply and further reduce client value. A small test checks the cross-side effect before rollout. Always adopting or always rejecting the fee ignores the evidence, and a higher fee would drive away more clients."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Multi-homing means participants use several platforms at once, so they can switch easily and the platform’s pricing power is limited. This is why price-sensitive riders are often subsidised. The number of sides is a different matter, raising fees on multi-homers risks losing them, and multi-homing can continue after launch."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The console buyers are the subsidy side: every extra owner makes the platform more valuable to developers, who pay. Developers do not always pay more, selling at a loss is not generally profitable, and a competitor threat would not explain taking a loss on one side only."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The sides are dog owners and dog walkers. Cross-side effect: more walkers in a district means owners find one quickly and trust the choice, and more owners mean walkers fill their schedules. I would charge walkers a commission, because they earn money from each booking and gain most from the owners, while owners can ask friends or neighbours for free. Owners would stay free at first to build the demand that walkers pay for."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names both sides correctly",
+					"points": 1
+				},
+				{
+					"criterion": "Gives a cross-side effect that works in at least one direction",
+					"points": 1
+				},
+				{
+					"criterion": "Chooses the paying side and justifies it with price sensitivity, value gained or alternatives",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Homeowners will not come to a platform without plumbers, and plumbers will not join without homeowners, so neither side starts. The founder would pick one city, hand-list 50 reliable plumbers for free for six months, then advertise only to homeowners in that city. Seeding the harder side first gives the first visitors real choice. Only after bookings become frequent would the founder start charging plumbers a fee."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that each side waits for the other, so neither joins first",
+					"points": 2
+				},
+				{
+					"criterion": "Proposes seeding one side in a narrow market (one city, hand-listing, free offer)",
+					"points": 1
+				},
+				{
+					"criterion": "Sequences the steps: attract the other side after seeding, charge later",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 2. Employers are the money side, and seekers are numerous and price-sensitive. Charging seekers $4 might bring up to $20,000 a month on paper, but if 40% leave, only 3,000 remain and employers see fewer candidates, so the loss spreads to the employers’ side too. A free first posting meets the competitor’s offer and keeps the cross-side effect, since more employers means more jobs for seekers. Paid promotion keeps revenue from the side that values visibility. Risk: employers may multi-home, so I would track how many post on both boards and how many applications each posting receives."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies money side and subsidy side and explains why seekers should not be charged",
+					"points": 2
+				},
+				{
+					"criterion": "Uses a cross-side effect or multi-homing in the argument",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a measure to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Plan B. A marketplace is only valuable when a search ends in a match, and ten cities with a thin supply in each would leave most families without an answer, so they would not return. In one district, 60 hand-picked professionals give early users real choice, and the founder can watch the match rate and fix problems. Professionals should pay, through a commission, but only once bookings are frequent, because early fees would push them to deal off-platform. Trade-offs: B grows slowly and might lose the race to a rival, and early bookings could leak outside, so I would measure repeat bookings and open the next district only when the match rate in the first is high."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains why thin supply in many markets fails, using matches or the chicken-and-egg problem",
+					"points": 2
+				},
+				{
+					"criterion": "Chooses B and links it to seeding one side in a narrow market",
+					"points": 1
+				},
+				{
+					"criterion": "Says which side pays and delays charging until value exists",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off (speed, rivals, leakage) and a metric to decide the next step",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "There are three sides: restaurants, diners and couriers. Cross-side effects: more restaurants attract diners, more diners bring restaurants more orders, and more couriers mean faster delivery, which keeps diners. Restaurants pay $5 per order (25% of $20), so about $150,000 a month; diners add $60,000 and couriers cost $90,000. Diners multi-home and are price-sensitive, so they are the subsidy side. Restaurants are the money side, but with a rival at 15% they may leave, so I would cut the commission to about 18%, which is $3.60 per order or $108,000 a month, and give up $42,000. I would fund a courier bonus at dinner time from that money, because late deliveries push diners to the rival, and that hurts restaurants most. Risk: if the rival cuts further, I would track order share per restaurant and the delivery time."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies the three sides and at least two correct cross-side effects",
+					"points": 2
+				},
+				{
+					"criterion": "Names the money side and subsidy side with reasons (multi-homing, price sensitivity)",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends a concrete pricing change using the case numbers",
+					"points": 2
+				},
+				{
+					"criterion": "States what is given up and a risk or metric",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Двосторонній ринок поєднує групи, як-от покупців і продавців чи відвідувачів і ресторани, через одного посередника, і кожна група виграє від присутності іншої. В одній продуктовій лінії, злитті чи заводі з двома продуктами такої залежності між групами немає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Головний урок теорії в тому, що розподіл плати між сторонами важить не менше за її суму. Платформа може майже нічого не брати з однієї сторони й більше з іншої. Рівень цін, знижки для постійних клієнтів і відображення цін цього розподілу не описують."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Безкоштовна чи нижча за собівартість сторона може привабити учасників, завдяки яким платформа цінна для іншої, платної сторони. Збиток на папері покривається на платній стороні, тож прибуток слід оцінювати для всієї платформи."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Така сторона найбільше цінує платформу й не може легко піти деінде, тож прийме плату. Якщо ж брати гроші з чутливішої до ціни сторони, вона піде, і вся платформа ослабне."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Гаражі отримують дохід від водіїв і не можуть легко знайти таких клієнтів деінде, а водії чутливі до ціни й мають безкоштовні альтернативи. Чисельність не є підставою брати плату, а однакова плата ігнорує різницю між сторонами."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перехресний ефект це цінність, яку одна сторона отримує від розміру чи якості іншої, і тут кожна сторона приваблює іншу. Конкурент-фотограф це ефект усередині сторони, найм працівників це рішення про витрати, а плата з пар це вибір ціни."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Плату поклали на сторону, найчутливішу до ціни, це скоротило участь і знизило цінність для роботодавців, яким тепер немає сенсу залишатися. Безкоштовність для роботодавців причиною не є, а недовіра через низьку ціну не пояснює симптомів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "За 2 100 проєктів комісія дає $63 000, а плата з клієнтів $42 000, разом $105 000, але 900 проєктів зникає. Дизайнери приходять заради клієнтів, тож падіння попиту може скоротити пропозицію й ще більше знизити цінність для клієнтів. Невеликий тест перевіряє перехресний ефект до запуску. Завжди вводити чи завжди відкидати плату означає ігнорувати докази, а вища плата відлякала б ще більше клієнтів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Мультихоумінг означає, що учасники користуються кількома платформами одночасно, тож легко перемикаються, а цінова влада платформи обмежена. Тому чутливих до ціни пасажирів часто субсидують. Кількість сторін це інше питання, підняття плати для мультихоумерів ризикує їх втратою, а мультихоумінг може тривати й після запуску."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Покупці консолей це субсидована сторона: кожен новий власник робить платформу ціннішою для розробників, які платять. Розробники не завжди платять більше, продаж зі збитком загалом не прибутковий, а загроза з боку конкурентів не пояснює збитку лише на одній стороні."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сторони: власники собак і вигульники. Перехресний ефект: що більше вигульників у районі, то швидше власники знаходять когось і довіряють вибору, а що більше власників, то повніше розклад вигульників. Я б брав комісію з вигульників, бо вони заробляють на кожному бронюванні й найбільше виграють від власників, тоді як власники можуть попросити друзів чи сусідів безкоштовно. Власники спершу лишилися б безкоштовними, щоб нарощувати попит, за який платять вигульники."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно називає обидві сторони",
+					"points": 1
+				},
+				{
+					"criterion": "Наводить перехресний ефект, що працює хоча б в одному напрямку",
+					"points": 1
+				},
+				{
+					"criterion": "Обирає платну сторону й обґрунтовує чутливістю до ціни, отриманою цінністю чи альтернативами",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Власники домівок не прийдуть на платформу без сантехніків, а сантехніки не приєднаються без власників домівок, тож жодна сторона не починає. Засновник обрав би одне місто, вручну додав би 50 надійних сантехніків безкоштовно на півроку, а потім рекламував би платформу лише власникам домівок цього міста. Спершу залучена складніша сторона дає перших відвідувачів справжній вибір. Лише коли бронювання стануть частими, засновник почне брати плату із сантехніків."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що кожна сторона чекає на іншу, тож ніхто не приходить першим",
+					"points": 2
+				},
+				{
+					"criterion": "Пропонує залучити одну сторону на вузькому ринку (одне місто, ручне додавання, безкоштовна пропозиція)",
+					"points": 1
+				},
+				{
+					"criterion": "Вибудовує послідовність: після залучення першої сторони привабити іншу, платити потім",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 2. Роботодавці це платна сторона, а кандидатів багато, і вони чутливі до ціни. Плата $4 з кандидатів могла б дати на папері до $20 000 на місяць, але якщо піде 40%, лишиться 3 000, і роботодавці побачать менше кандидатів, тож збиток поширюється й на їхню сторону. Безкоштовна перша публікація відповідає пропозиції конкурента й зберігає перехресний ефект: що більше роботодавців, то більше вакансій для кандидатів. Платне просування зберігає дохід зі сторони, яка цінує видимість. Ризик: роботодавці можуть публікувати на кількох дошках, тож я стежив би, скільки з них публікуються на обох і скільки відгуків отримує кожна вакансія."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає платну й субсидовану сторони та пояснює, чому з кандидатів не варто брати плату",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує в аргументі перехресний ефект або мультихоумінг",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і показник для спостереження",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "План B. Маркетплейс цінний лише тоді, коли пошук завершується підбором, а десять міст із тонкою пропозицією в кожному залишили б більшість родин без відповіді, тож вони не повернулися б. В одному районі 60 відібраних майстрів дають перших користувачам справжній вибір, а засновник може стежити за часткою підборів і виправляти проблеми. Платити мають майстри через комісію, але лише коли бронювання стануть частими, бо ранні збори штовхнули б їх домовлятися повз платформу. Компроміси: B росте повільно й може програти гонку конкуренту, а ранні замовлення можуть «витікати» повз платформу, тож я міряв би повторні бронювання й відкривав наступний район лише коли частка підборів у першому висока."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, чому тонка пропозиція на багатьох ринках не працює, спираючись на підбори чи проблему курки і яйця",
+					"points": 2
+				},
+				{
+					"criterion": "Обирає B і пов’язує з залученням однієї сторони на вузькому ринку",
+					"points": 1
+				},
+				{
+					"criterion": "Каже, яка сторона платить, і відкладає плату до появи цінності",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс (швидкість, конкуренти, витік) і показник для рішення про наступний крок",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Є три сторони: ресторани, відвідувачі й кур’єри. Перехресні ефекти: більше ресторанів приваблює відвідувачів, більше відвідувачів дає ресторанам більше замовлень, а більше кур’єрів означає швидшу доставку, що утримує відвідувачів. Ресторани платять $5 із замовлення (25% від $20), тобто близько $150 000 на місяць; відвідувачі додають $60 000, а кур’єри коштують $90 000. Відвідувачі користуються кількома застосунками й чутливі до ціни, тож це субсидована сторона. Ресторани це платна сторона, але з конкурентом на 15% вони можуть піти, тож я б знизив комісію до приблизно 18%, тобто $3,60 із замовлення або $108 000 на місяць, і пожертвував би $42 000. З цих грошей я б профінансував вечірній бонус кур’єрам, бо запізнілі доставки штовхають відвідувачів до конкурента, а це найбільше б’є по ресторанах. Ризик: якщо конкурент знизить ще, я б стежив за часткою замовлень на ресторан і часом доставки."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає три сторони й щонайменше два правильні перехресні ефекти",
+					"points": 2
+				},
+				{
+					"criterion": "Називає платну й субсидовану сторони з причинами (мультихоумінг, чутливість до ціни)",
+					"points": 1
+				},
+				{
+					"criterion": "Рекомендує конкретну зміну цін з числами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Вказує, чим жертвує, і ризик чи показник",
+					"points": 1
+				}
+			]
+		}
+	}
+}

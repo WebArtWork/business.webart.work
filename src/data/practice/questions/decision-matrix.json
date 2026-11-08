@@ -1,0 +1,838 @@
+{
+	"slug": "decision-matrix",
+	"topicId": 94,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does a weighted decision matrix do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It predicts the probability that each option will succeed"
+					},
+					{
+						"id": "B",
+						"text": "It ranks options by a vote of the whole company"
+					},
+					{
+						"id": "C",
+						"text": "It scores each option against weighted criteria and combines the scores"
+					},
+					{
+						"id": "D",
+						"text": "It replaces the need to discuss the decision"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does the weight of a criterion express?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "How important the criterion is compared with the others"
+					},
+					{
+						"id": "B",
+						"text": "How well a particular option performs on it"
+					},
+					{
+						"id": "C",
+						"text": "How many people proposed the criterion"
+					},
+					{
+						"id": "D",
+						"text": "How expensive the criterion is to measure"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Must-have criteria should be applied as pass-or-fail conditions before options are scored."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "It is best to choose the weights after seeing the scores, so that the result looks realistic."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A business chooses between two laptops. The weights are price 50%, battery life 30% and weight 20%. Laptop A scores 4, 3 and 5 on a scale of 1 to 5. Laptop B scores 5, 2 and 3. Which result is correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Laptop B wins with 3.7"
+					},
+					{
+						"id": "B",
+						"text": "Tie at 3.8"
+					},
+					{
+						"id": "C",
+						"text": "Laptop A wins with 3.6"
+					},
+					{
+						"id": "D",
+						"text": "Laptop A wins with 3.9"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are errors in building a decision matrix?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Agreeing the weights before rating the options"
+					},
+					{
+						"id": "B",
+						"text": "Choosing the weights after seeing how the options score"
+					},
+					{
+						"id": "C",
+						"text": "Having several people score independently"
+					},
+					{
+						"id": "D",
+						"text": "Listing \"price\" and \"total cost\" as two separate criteria"
+					},
+					{
+						"id": "E",
+						"text": "Defining what a 1, 3 and 5 look like for each criterion"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A café owner scores two espresso machines. Machine X totals 4.1, but it needs a three-phase power connection, and the café cannot install one, which was set as a must-have. Machine Y totals 3.4. What should she do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Buy X, because it has the highest total"
+					},
+					{
+						"id": "B",
+						"text": "Buy Y, because X fails a must-have condition"
+					},
+					{
+						"id": "C",
+						"text": "Average the two totals and choose a third machine"
+					},
+					{
+						"id": "D",
+						"text": "Buy neither and run the matrix again with new weights"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A manufacturer compares suppliers. P scores 5 on cost and 3 on quality. Q scores 3 on cost and 5 on quality. With the weights cost 55% and quality 45%, P totals 4.10 and Q 3.90. At 50% and 50% they tie at 4.00, and below 50% for cost, Q wins. What is the best next step?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Pick P, because it wins at the current weights"
+					},
+					{
+						"id": "B",
+						"text": "Toss a coin"
+					},
+					{
+						"id": "C",
+						"text": "Discuss directly how much cost matters against quality, and gather data on it"
+					},
+					{
+						"id": "D",
+						"text": "Add more criteria until P wins by a larger margin"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A colleague says \"the matrix gives us an objective answer\". Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " limitations show that this is too strong?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The output looks precise but rests on subjective weights and scores"
+					},
+					{
+						"id": "B",
+						"text": "The matrix handles uncertain outcomes better than scenario analysis"
+					},
+					{
+						"id": "C",
+						"text": "A simple weighted sum assumes a weakness on one criterion can be offset by strength on another"
+					},
+					{
+						"id": "D",
+						"text": "Strategic fit and trust are usually overweighted because they are easy to quantify"
+					},
+					{
+						"id": "E",
+						"text": "The matrix removes any need for discussion"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hiring panel’s matrix gives candidate Oksana 4.31 and candidate Taras 4.27. What should the panel do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Hire Oksana, because the matrix has spoken"
+					},
+					{
+						"id": "B",
+						"text": "Toss a coin"
+					},
+					{
+						"id": "C",
+						"text": "Raise the weights of the criteria on which their favorite is strong"
+					},
+					{
+						"id": "D",
+						"text": "Treat the two as close, test how sensitive the result is and check for deal-breakers"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery chooses between two ovens. The weights are energy cost 40%, capacity 35% and warranty 25%. Oven 1 scores 3, 5 and 2. Oven 2 scores 4, 3 and 4. Calculate the weighted totals, name the winner and say whether the result is clear."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why weights should be agreed before scoring, and why several people should score options independently before comparing. Give one example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A 40-person company chooses a CRM tool. The weights are cost 30%, ease of use 30%, integrations 25% and support 15%. Tool A scores 5, 3, 2 and 3. Tool B scores 3, 4, 4 and 4. Tool C scores 2, 5, 5 and 2. Choose one tool, show the totals and say how sure you are of the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A delivery start-up is choosing a second city. The matrix gives Kraków 3.80, Gdańsk 3.70 and Vilnius 3.60. The CEO feels that Vilnius is strategically important, a factor that the matrix includes only weakly. Choose how to proceed: follow the matrix, override it with the CEO’s judgment, or use the matrix as a basis for discussion and test the close results. Explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A clinic compared three scanner vendors. Two managers scored them together in one meeting, after which the weights were set. The criteria included \"price\" and \"total cost of ownership\". Vendor A totals 4.2 but lacks the safety certification required by law, Vendor B totals 3.9, and Vendor C totals 3.8. The director wants to buy A."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Identify at least three flaws in the process, rebuild it step by step and say what you would do with the results."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що робить зважена матриця рішень?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Прогнозує ймовірність успіху кожного варіанта"
+					},
+					{
+						"id": "B",
+						"text": "Ранжує варіанти за голосуванням усієї компанії"
+					},
+					{
+						"id": "C",
+						"text": "Оцінює кожен варіант за зваженими критеріями й поєднує оцінки"
+					},
+					{
+						"id": "D",
+						"text": "Замінює потребу обговорювати рішення"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що виражає вага критерію?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Наскільки критерій важливий порівняно з іншими"
+					},
+					{
+						"id": "B",
+						"text": "Наскільки добре певний варіант виконує цей критерій"
+					},
+					{
+						"id": "C",
+						"text": "Скільки людей запропонувало критерій"
+					},
+					{
+						"id": "D",
+						"text": "Наскільки дорого вимірювати критерій"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обов’язкові критерії слід застосовувати як умови «проходить чи ні» до того, як оцінювати варіанти."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Найкраще вибирати ваги після того, як побачено оцінки, щоб результат виглядав реалістично."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бізнес обирає між двома ноутбуками. Ваги: ціна 50%, час роботи від батареї 30% і вага 20%. Ноутбук A отримує 4, 3 і 5 за шкалою від 1 до 5. Ноутбук B отримує 5, 2 і 3. Який результат правильний?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Перемагає ноутбук B із 3,7"
+					},
+					{
+						"id": "B",
+						"text": "Нічия на 3,8"
+					},
+					{
+						"id": "C",
+						"text": "Перемагає ноутбук A із 3,6"
+					},
+					{
+						"id": "D",
+						"text": "Перемагає ноутбук A із 3,9"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " дії є помилками під час складання матриці рішень?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Погодити ваги до оцінювання варіантів"
+					},
+					{
+						"id": "B",
+						"text": "Вибрати ваги після того, як побачено оцінки варіантів"
+					},
+					{
+						"id": "C",
+						"text": "Дати кільком людям оцінювати незалежно"
+					},
+					{
+						"id": "D",
+						"text": "Вказати «ціну» й «загальну вартість» як два окремі критерії"
+					},
+					{
+						"id": "E",
+						"text": "Визначити, як виглядають 1, 3 і 5 за кожним критерієм"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник кав’ярні оцінює дві еспресо-машини. Машина X набирає 4,1, але їй потрібне трифазне підключення, якого кав’ярня не може встановити, а це було обов’язковою умовою. Машина Y набирає 3,4. Що їй зробити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Купити X, бо в неї найвищий підсумок"
+					},
+					{
+						"id": "B",
+						"text": "Купити Y, бо X не відповідає обов’язковій умові"
+					},
+					{
+						"id": "C",
+						"text": "Усереднити підсумки й обрати третю машину"
+					},
+					{
+						"id": "D",
+						"text": "Не купувати жодної й повторити матрицю з новими вагами"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник порівнює постачальників. P отримує 5 за вартість і 3 за якість. Q отримує 3 за вартість і 5 за якість. За ваг вартість 55% і якість 45% P набирає 4,10, а Q 3,90. За 50% і 50% вони рівні на 4,00, а коли вага вартості нижча за 50%, перемагає Q. Який наступний крок найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Обрати P, бо він перемагає за поточних ваг"
+					},
+					{
+						"id": "B",
+						"text": "Підкинути монетку"
+					},
+					{
+						"id": "C",
+						"text": "Прямо обговорити, наскільки вартість важить порівняно з якістю, й зібрати дані про це"
+					},
+					{
+						"id": "D",
+						"text": "Додавати критерії, доки P не виграє з більшим відривом"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Колега каже: «матриця дає нам об’єктивну відповідь». Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " обмеження показують, що це надто сильне твердження?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Результат виглядає точним, але спирається на суб’єктивні ваги й оцінки"
+					},
+					{
+						"id": "B",
+						"text": "Матриця краще за сценарний аналіз працює з невизначеними результатами"
+					},
+					{
+						"id": "C",
+						"text": "Проста зважена сума припускає, що слабкість за одним критерієм можна компенсувати силою за іншим"
+					},
+					{
+						"id": "D",
+						"text": "Стратегічну відповідність і довіру зазвичай переоцінюють, бо їх легко виміряти"
+					},
+					{
+						"id": "E",
+						"text": "Матриця скасовує потребу в обговоренні"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Матриця комісії з найму дає кандидатці Оксані 4,31, а кандидатові Тарасу 4,27. Що має зробити комісія?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Найняти Оксану, бо матриця висловилася"
+					},
+					{
+						"id": "B",
+						"text": "Підкинути монетку"
+					},
+					{
+						"id": "C",
+						"text": "Підвищити ваги критеріїв, за якими сильний їхній фаворит"
+					},
+					{
+						"id": "D",
+						"text": "Вважати їх близькими, перевірити чутливість результату й пошукати непрохідні умови"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пекарня обирає між двома печами. Ваги: вартість енергії 40%, потужність 35% і гарантія 25%. Піч 1 отримує 3, 5 і 2. Піч 2 отримує 4, 3 і 4. Обчисліть зважені підсумки, назвіть переможця й скажіть, чи результат чіткий."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому ваги слід погоджувати до оцінювання і чому кілька людей мають оцінювати варіанти незалежно, перш ніж порівнювати. Наведіть один приклад."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія на 40 людей обирає CRM-систему. Ваги: вартість 30%, зручність 30%, інтеграції 25% і підтримка 15%. Інструмент A отримує 5, 3, 2 і 3. Інструмент B отримує 3, 4, 4 і 4. Інструмент C отримує 2, 5, 5 і 2. Оберіть один інструмент, покажіть підсумки й скажіть, наскільки ви впевнені у виборі."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап із доставки обирає друге місто. Матриця дає Краків 3,80, Гданськ 3,70 і Вільнюс 3,60. Директор вважає Вільнюс стратегічно важливим, а матриця враховує цей чинник слабко. Оберіть, як діяти: слідувати матриці, переважити її судженням директора чи використати матрицю як основу для обговорення й перевірити близькі результати. Поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Клініка порівнювала трьох постачальників сканерів. Двоє менеджерів оцінювали їх разом на одній нараді, після чого встановили ваги. Серед критеріїв були «ціна» і «загальна вартість володіння». Постачальник A набирає 4,2, але не має сертифіката безпеки, обов’язкового за законом, постачальник B набирає 3,9, а постачальник C 3,8. Директор хоче купити A."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте щонайменше три вади процесу, поетапно перебудуйте його й скажіть, що ви зробили б із результатами."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

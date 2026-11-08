@@ -1,0 +1,900 @@
+{
+	"slug": "economic-moats",
+	"topicId": 15,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hospital software vendor's clients would need 18 months and the retraining of 2,000 nurses to change systems. Which moat source does this describe?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Network effects"
+					},
+					{
+						"id": "B",
+						"text": "Switching costs"
+					},
+					{
+						"id": "C",
+						"text": "Efficient scale"
+					},
+					{
+						"id": "D",
+						"text": "Intangible assets"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these is "
+							},
+							{
+								"t": "not",
+								"b": true
+							},
+							{
+								"t": " a moat source in the framework?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Patents and licences that bar entry"
+					},
+					{
+						"id": "B",
+						"text": "Access to a unique location that rivals cannot match"
+					},
+					{
+						"id": "C",
+						"text": "A market that profitably supports only one player"
+					},
+					{
+						"id": "D",
+						"text": "A charismatic CEO and a talented team"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company with the largest market share in its industry necessarily has a wide moat."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A toll-bridge company has earned a 17% return on invested capital against an 8% cost of capital every year for 15 years. This persistence is the kind of evidence a moat test looks for."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A regional airport serves a city of 300,000, and the nearest other airport is 200 km away. Passenger numbers support one airport profitably, and a second would leave both losing money. What best explains its high returns?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Network effects"
+					},
+					{
+						"id": "B",
+						"text": "A strong brand"
+					},
+					{
+						"id": "C",
+						"text": "Efficient scale"
+					},
+					{
+						"id": "D",
+						"text": "Switching costs"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " facts are evidence that a dental implant maker has a real moat rather than a good run?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Its operating margin has stayed ten points above rivals' for twelve years."
+					},
+					{
+						"id": "B",
+						"text": "Sales jumped 40% last year after an advertising campaign went viral."
+					},
+					{
+						"id": "C",
+						"text": "Dentists trained on its system rarely move, and only 2% of clients leave each year."
+					},
+					{
+						"id": "D",
+						"text": "Analysts praise its new CEO."
+					},
+					{
+						"id": "E",
+						"text": "It is the largest implant maker by revenue this year."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bubble tea chain earns a 25% operating margin, and queues form at every store. Rivals can copy its drinks within weeks, and customers have no reason to stay other than taste. How wide is its moat?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "None or very narrow: it has a popular product, not a structural barrier"
+					},
+					{
+						"id": "B",
+						"text": "Wide, because queues prove customers love the brand"
+					},
+					{
+						"id": "C",
+						"text": "Wide, because it has the biggest share of the local market"
+					},
+					{
+						"id": "D",
+						"text": "Narrow but permanent, because tastes change slowly"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A document management software company serves 1,200 law firms. Firms keep years of case files in it, and fewer than 3% leave each year. The board has $5 million to strengthen the business. What is the best use?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Split it equally between a brand campaign, a cost-cutting programme and an online community"
+					},
+					{
+						"id": "B",
+						"text": "Run a national TV campaign to build brand awareness"
+					},
+					{
+						"id": "C",
+						"text": "Cut prices by 20% to win share from rivals"
+					},
+					{
+						"id": "D",
+						"text": "Build integrations with court filing and billing systems so more of each firm's work runs inside the product"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An analyst writes: \"This meal-delivery company has a wide moat. Profits have risen for three years, the CEO is brilliant and the app is the best on the market.\" Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " problems does her reasoning have?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "She tells a moat story from a few recent profitable years instead of testing returns over a decade."
+					},
+					{
+						"id": "B",
+						"text": "She credits the team and the product instead of naming a structural source."
+					},
+					{
+						"id": "C",
+						"text": "She rates the moat as none, narrow or wide."
+					},
+					{
+						"id": "D",
+						"text": "She looks at the company's profits at all."
+					},
+					{
+						"id": "E",
+						"text": "She does not add a sixth moat source for management quality."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "For decades, a regional printed business directory collected 90% of local small-business advertising spending. Within ten years of search engines spreading, its revenue fell by 80%. Which lesson does this illustrate?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A wide moat, once built, is permanent"
+					},
+					{
+						"id": "B",
+						"text": "Technology shifts can drain moats that looked wide, so evidence such as churn and price premium should be tracked every year"
+					},
+					{
+						"id": "C",
+						"text": "It never had a moat, because it lacked network effects"
+					},
+					{
+						"id": "D",
+						"text": "Its managers were not talented enough to keep the moat"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A gym chain in a city of 400,000 earns a 30% margin. Members can quit with one month's notice, and six other gyms operate within 2 km of each branch. However, it owns the only 50-metre pool in the city, which swim clubs rent for training. Which moat source, if any, does it have, and how wide is it?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why efficient scale keeps rivals out even without patents or brands. Use a cinema in a town of 25,000 people as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online marketplace for used farm machinery holds 70% of all listings in the country. Farmers sell there because buyers are there, and buyers search there because most machines are listed there. The company has $3 million to invest. Choose one: a national TV brand campaign, a company-owned truck fleet to cut delivery costs, or new features such as inspection reports and loan offers that bring in more sellers and buyers. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An investor can buy one of two companies at a similar price."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Company A: a premium chocolate brand that has sold at 15% above rivals' prices for 20 years. Its return on capital has been 20% against a 9% cost of capital for 15 years."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Company B: a photo-editing app with a 35% return on capital over the last two years. Users can cancel at any time, and four copycat apps launched this year."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one, judge each moat as none, narrow or wide, and explain."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A medical testing laboratory in a city of 600,000 has earned a 19% return on $50 million of invested capital for 11 years, while its cost of capital is 9%. It holds the only state licence in the region for certain genetic tests. 300 clinics order tests through software the lab installed for free, which links to their patient records. Its cost per routine test is $14, against $21 for a national chain's local branch, because of its volume. A startup has launched home test kits for some routine tests that patients mail in."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Identify the moat sources, calculate the yearly return above the cost of capital, judge the width, name the main threat and recommend which source to widen."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Клієнтам постачальника лікарняного програмного забезпечення знадобилося б 18 місяців і перенавчання 2 000 медсестер, щоб змінити систему. Яке джерело захисної переваги тут описано?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Мережеві ефекти"
+					},
+					{
+						"id": "B",
+						"text": "Витрати на перехід"
+					},
+					{
+						"id": "C",
+						"text": "Ефективний масштаб"
+					},
+					{
+						"id": "D",
+						"text": "Нематеріальні активи"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що з переліченого "
+							},
+							{
+								"t": "не є",
+								"b": true
+							},
+							{
+								"t": " джерелом захисної переваги в цій моделі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Патенти й ліцензії, що закривають вхід"
+					},
+					{
+						"id": "B",
+						"text": "Доступ до унікальної локації, з якою конкуренти не зрівняються"
+					},
+					{
+						"id": "C",
+						"text": "Ринок, що прибутково утримує лише одного гравця"
+					},
+					{
+						"id": "D",
+						"text": "Харизматичний CEO і талановита команда"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія з найбільшою часткою ринку в галузі обов’язково має широку захисну перевагу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія, що володіє платним мостом, 15 років поспіль заробляє 17% на вкладений капітал за вартості капіталу 8%. Така сталість це саме той доказ, який шукає перевірка захисної переваги."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Регіональний аеропорт обслуговує місто з населенням 300 000, а найближчий інший аеропорт за 200 км. Пасажиропотоку вистачає, щоб прибутково працював один аеропорт, а з другим обидва були б збитковими. Що найкраще пояснює високу прибутковість?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Мережеві ефекти"
+					},
+					{
+						"id": "B",
+						"text": "Сильний бренд"
+					},
+					{
+						"id": "C",
+						"text": "Ефективний масштаб"
+					},
+					{
+						"id": "D",
+						"text": "Витрати на перехід"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " факти свідчать, що виробник зубних імплантів має справжню захисну перевагу, а не просто вдалий період?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Його операційна маржа дванадцять років тримається на десять пунктів вище, ніж у конкурентів."
+					},
+					{
+						"id": "B",
+						"text": "Торік продажі зросли на 40% після вірусної рекламної кампанії."
+					},
+					{
+						"id": "C",
+						"text": "Стоматологи, навчені працювати з його системою, рідко переходять до інших, і щороку йде лише 2% клієнтів."
+					},
+					{
+						"id": "D",
+						"text": "Аналітики хвалять нового CEO."
+					},
+					{
+						"id": "E",
+						"text": "Цього року він найбільший виробник імплантів за виручкою."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа закладів бабл-ті має операційну маржу 25%, і біля кожної точки черги. Конкуренти можуть скопіювати напої за кілька тижнів, а клієнтів не утримує нічого, крім смаку. Наскільки широка її захисна перевага?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Її немає або вона дуже вузька: це популярний продукт, а не структурний бар’єр"
+					},
+					{
+						"id": "B",
+						"text": "Широка, бо черги доводять, що клієнти люблять бренд"
+					},
+					{
+						"id": "C",
+						"text": "Широка, бо мережа має найбільшу частку місцевого ринку"
+					},
+					{
+						"id": "D",
+						"text": "Вузька, але постійна, бо смаки змінюються повільно"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія, що розробляє систему керування документами, обслуговує 1 200 юридичних фірм. Фірми роками зберігають у ній матеріали справ, і щороку йде менше 3% клієнтів. Рада директорів має $5 млн на зміцнення бізнесу. Як найкраще їх використати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Розділити порівну між брендовою кампанією, програмою скорочення витрат і онлайн-спільнотою"
+					},
+					{
+						"id": "B",
+						"text": "Запустити національну телерекламу для впізнаваності бренду"
+					},
+					{
+						"id": "C",
+						"text": "Знизити ціни на 20%, щоб забрати частку в конкурентів"
+					},
+					{
+						"id": "D",
+						"text": "Створити інтеграції з системами подання документів до суду й виставлення рахунків, щоб більше роботи кожної фірми відбувалося в продукті"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Аналітикиня пише: «Ця компанія доставки їжі має широку захисну перевагу. Прибуток зростає три роки, CEO блискучий, а застосунок найкращий на ринку». Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " проблеми є в її міркуваннях?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вона вибудовує історію про захисну перевагу на кількох нещодавніх прибуткових роках, а не перевіряє прибутковість за десятиліття."
+					},
+					{
+						"id": "B",
+						"text": "Вона пояснює успіх командою й продуктом, а не називає структурне джерело."
+					},
+					{
+						"id": "C",
+						"text": "Вона оцінює захисну перевагу як відсутню, вузьку чи широку."
+					},
+					{
+						"id": "D",
+						"text": "Вона взагалі дивиться на прибуток компанії."
+					},
+					{
+						"id": "E",
+						"text": "Вона не додала шосте джерело захисної переваги для якості менеджменту."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Десятиліттями регіональний друкований бізнес-довідник отримував 90% рекламних витрат місцевого малого бізнесу. За десять років після поширення пошукових систем його виручка впала на 80%. Який урок це ілюструє?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Широка захисна перевага, раз створена, постійна"
+					},
+					{
+						"id": "B",
+						"text": "Технологічні зміни можуть знищити захисні переваги, що здавалися широкими, тож показники на кшталт відтоку й цінової надбавки треба відстежувати щороку"
+					},
+					{
+						"id": "C",
+						"text": "Захисної переваги в нього ніколи не було, бо бракувало мережевих ефектів"
+					},
+					{
+						"id": "D",
+						"text": "Його менеджерам забракло таланту, щоб утримати захисну перевагу"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа спортзалів у місті з населенням 400 000 має маржу 30%. Клієнти можуть припинити членство з місячним попередженням, а в радіусі 2 км від кожного залу працюють ще шість. Водночас мережі належить єдиний у місті 50-метровий басейн, який орендують плавальні клуби для тренувань. Яке джерело захисної переваги вона має, якщо має, і наскільки воно широке?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому ефективний масштаб стримує конкурентів навіть без патентів і брендів. Використайте як приклад кінотеатр у містечку з населенням 25 000."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Онлайн-майданчик уживаної сільгосптехніки має 70% усіх оголошень у країні. Фермери продають там, бо там покупці, а покупці шукають там, бо там більшість техніки. Компанія має $3 млн на інвестиції. Оберіть одне: національна телереклама, власний парк вантажівок для здешевлення доставки або нові функції, як-от звіти про огляд техніки й кредитні пропозиції, що залучать більше продавців і покупців. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інвестор може за схожу ціну купити одну з двох компаній."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Компанія A: преміальний шоколадний бренд, який 20 років продає на 15% дорожче за конкурентів. Його прибутковість капіталу 15 років становить 20% за вартості капіталу 9%."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Компанія B: застосунок для редагування фото з прибутковістю капіталу 35% за останні два роки. Користувачі можуть скасувати підписку будь-коли, а цього року вийшло чотири застосунки-клони."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть одну, оцініть захисну перевагу кожної як відсутню, вузьку чи широку й поясніть."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Медична лабораторія в місті з населенням 600 000 протягом 11 років заробляє 19% на $50 млн вкладеного капіталу за вартості капіталу 9%. Вона має єдину в регіоні державну ліцензію на певні генетичні аналізи. 300 клінік замовляють аналізи через програму, яку лабораторія встановила безкоштовно і яка пов’язана з їхніми картками пацієнтів. Завдяки обсягам рутинний аналіз коштує їй $14 проти $21 у місцевій філії національної мережі. Стартап запустив домашні тест-набори для деяких рутинних аналізів, які пацієнти надсилають поштою."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте джерела захисної переваги, порахуйте річний прибуток понад вартість капіталу, оцініть ширину переваги, назвіть головну загрозу й порадьте, яке джерело розширювати."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

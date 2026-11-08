@@ -1,0 +1,852 @@
+{
+	"slug": "kaizen",
+	"topicId": 72,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which description fits kaizen best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A large redesign of the whole business, led by outside consultants"
+					},
+					{
+						"id": "B",
+						"text": "Small, frequent improvements made by the people who do the work"
+					},
+					{
+						"id": "C",
+						"text": "Cost-cutting targets handed down from head office each year"
+					},
+					{
+						"id": "D",
+						"text": "A yearly contest for the single best idea in the company"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In kaizen, what is the "
+							},
+							{
+								"t": "gemba",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The monthly report that lists quality problems"
+					},
+					{
+						"id": "B",
+						"text": "The box where employees drop written suggestions"
+					},
+					{
+						"id": "C",
+						"text": "The real place where the work is done and the value is created"
+					},
+					{
+						"id": "D",
+						"text": "The team at head office that approves every change"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Kaizen aims mainly at one big transformation project every few years."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If a successful change is not written into the standard way of working, its gain is likely to fade."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pharmacy chain wants to start kaizen in one branch. Which first step fits best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Book a three-day workshop with consultants and then return to normal work"
+					},
+					{
+						"id": "B",
+						"text": "Offer a $5,000 prize for the best idea of the year"
+					},
+					{
+						"id": "C",
+						"text": "Install new dispensing software in every branch at once"
+					},
+					{
+						"id": "D",
+						"text": "Write down how dispensing is done now and hold a short weekly meeting at the counter"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " practices fit kaizen in a parcel warehouse?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Managers order a new layout for all 30 stations without talking to packers"
+					},
+					{
+						"id": "B",
+						"text": "A packing team moves the tape dispenser for a week and measures seconds per parcel"
+					},
+					{
+						"id": "C",
+						"text": "Ideas are collected once a year for the annual report"
+					},
+					{
+						"id": "D",
+						"text": "Every suggestion gets an answer within three days, even when the answer is no"
+					},
+					{
+						"id": "E",
+						"text": "Only supervisors are allowed to propose changes"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A picker at a warehouse says shelf labels are hard to read and cause about six wrong picks a week. What is the best kaizen response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Print larger labels for one aisle, count wrong picks for two weeks and, if they fall, write the new label rule into the standard"
+					},
+					{
+						"id": "B",
+						"text": "Wait for the annual review of warehouse processes"
+					},
+					{
+						"id": "C",
+						"text": "Replace the entire warehouse management system"
+					},
+					{
+						"id": "D",
+						"text": "Remind all pickers to read labels more carefully"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hotel’s housekeeping team finds a new room-cleaning order that saves 4 minutes per room. A month later the checklist is unchanged, new hires use the old order and the saving has gone. What is the root problem?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The staff were not paid enough for the idea"
+					},
+					{
+						"id": "B",
+						"text": "Four minutes per room is too small to matter"
+					},
+					{
+						"id": "C",
+						"text": "The new order was never written into the standard and taught to new hires"
+					},
+					{
+						"id": "D",
+						"text": "Kaizen works only in factories, not in hotels"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A plant manager announces: “Each team must send in five ideas a month, and the team with the biggest saving wins a car.” After six months the idea count is high, but most ideas are trivial and teams hide good ones for the contest. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " design mistakes explain this?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The prize rewards only the biggest saving, which pulls people away from small daily fixes"
+					},
+					{
+						"id": "B",
+						"text": "The target counts submitted ideas, not tested and adopted changes"
+					},
+					{
+						"id": "C",
+						"text": "The plant holds its improvement meetings near the production line"
+					},
+					{
+						"id": "D",
+						"text": "Operators are allowed to propose changes to their own work"
+					},
+					{
+						"id": "E",
+						"text": "Changes are tested on a small scale before spreading"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bank processes paper cheques, and volumes are falling 40% a year as customers move to apps. A manager proposes a kaizen push to make cheque handling 2% faster each month. What is the best view of this plan?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Excellent, because small steps always beat strategic change"
+					},
+					{
+						"id": "B",
+						"text": "Wrong target: the whole process is becoming obsolete, so the bank needs a strategic decision about digital services first"
+					},
+					{
+						"id": "C",
+						"text": "Pointless, because kaizen cannot improve office work"
+					},
+					{
+						"id": "D",
+						"text": "Fine, as long as the bonus for the best idea is raised"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A café chain has eight baristas, and drinks take 5 minutes at the morning peak while customers complain. Describe how a manager would start kaizen at one café, in three clear steps."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A manager says that saving 15 seconds is pointless. A bakery’s order handling takes 6 minutes, and the team has found 8 small changes that each save about 15 seconds. Use these numbers to answer the manager, and add one reason why kaizen is valuable beyond the time saved."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You own a 40-person print shop. Paper waste is 9% and costs about $4,500 a month. Choose one: buy a $120,000 press that promises 3% waste, start weekly kaizen meetings with the operators (about $2,000 of staff time a year), or pay $8,000 for a one-time three-day improvement workshop. Justify your choice with numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A frozen-meal plant has stable sales. A competitor has launched a cooking technology that cuts unit cost by 30%, and retail buyers are expected to demand lower prices within two years. The plant manager proposes a kaizen drive of 1% cost saving a month instead of buying the technology for $2 million. Give your recommendation with trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A 40-seat restaurant held a three-day kaizen workshop. Staff proposed 14 ideas, and three were tried. There was no follow-up. Two months later ticket times are back to 22 minutes. Cooks say, “Nobody answers our ideas.” The owner now plans a $1,000 prize each quarter for the single best idea."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Diagnose three mistakes and propose a restart plan."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який опис найкраще підходить до кайдзен?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Масштабна перебудова всього бізнесу під керівництвом зовнішніх консультантів"
+					},
+					{
+						"id": "B",
+						"text": "Невеликі й часті покращення, які роблять люди, що виконують роботу"
+					},
+					{
+						"id": "C",
+						"text": "Цілі зі скорочення витрат, які щороку спускає головний офіс"
+					},
+					{
+						"id": "D",
+						"text": "Щорічний конкурс на єдину найкращу ідею в компанії"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що в кайдзен означає "
+							},
+							{
+								"t": "гемба",
+								"b": true
+							},
+							{
+								"t": " (gemba)?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Щомісячний звіт зі списком проблем із якістю"
+					},
+					{
+						"id": "B",
+						"text": "Скринька, куди працівники кидають письмові пропозиції"
+					},
+					{
+						"id": "C",
+						"text": "Реальне місце, де виконується робота й створюється цінність"
+					},
+					{
+						"id": "D",
+						"text": "Команда головного офісу, яка погоджує кожну зміну"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кайдзен спрямований переважно на один великий проєкт трансформації раз на кілька років."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо вдала зміна не записана в стандарт роботи, її користь, імовірно, зникне."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа аптек хоче запустити кайдзен в одному відділенні. Який перший крок найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Замовити триденний воркшоп із консультантами й повернутися до звичайної роботи"
+					},
+					{
+						"id": "B",
+						"text": "Пообіцяти приз $5 000 за найкращу ідею року"
+					},
+					{
+						"id": "C",
+						"text": "Одночасно встановити нове програмне забезпечення видачі ліків у всіх відділеннях"
+					},
+					{
+						"id": "D",
+						"text": "Записати, як зараз відпускають ліки, і щотижня проводити коротку нараду біля прилавка"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " практики відповідають кайдзен на складі посилок?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Керівники наказують нове розташування для всіх 30 робочих місць, не питаючи пакувальників"
+					},
+					{
+						"id": "B",
+						"text": "Бригада пакувальників на тиждень переносить диспенсер скотчу й міряє секунди на посилку"
+					},
+					{
+						"id": "C",
+						"text": "Ідеї збирають раз на рік для річного звіту"
+					},
+					{
+						"id": "D",
+						"text": "На кожну пропозицію відповідають протягом трьох днів, навіть якщо відповідь «ні»"
+					},
+					{
+						"id": "E",
+						"text": "Пропонувати зміни можуть лише наглядачі"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Комплектувальник на складі каже, що етикетки на полицях погано читаються й спричиняють близько шести помилкових комплектувань на тиждень. Яка реакція найкраща за кайдзен?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Надрукувати більші етикетки для одного проходу, два тижні рахувати помилки й, якщо їх поменшало, вписати нове правило етикеток у стандарт"
+					},
+					{
+						"id": "B",
+						"text": "Чекати на щорічний перегляд складських процесів"
+					},
+					{
+						"id": "C",
+						"text": "Замінити всю систему управління складом"
+					},
+					{
+						"id": "D",
+						"text": "Нагадати всім комплектувальникам уважніше читати етикетки"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда прибирання готелю знаходить новий порядок прибирання номера, що заощаджує 4 хвилини на номер. Через місяць чек-лист не змінено, нові працівники користуються старим порядком, а економія зникла. У чому корінь проблеми?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Працівникам замало заплатили за ідею"
+					},
+					{
+						"id": "B",
+						"text": "Чотири хвилини на номер надто мало, щоб це мало значення"
+					},
+					{
+						"id": "C",
+						"text": "Новий порядок так і не записали в стандарт і не навчили йому нових працівників"
+					},
+					{
+						"id": "D",
+						"text": "Кайдзен працює лише на заводах, а не в готелях"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Керівник заводу оголошує: «Кожна команда має подати п’ять ідей на місяць, а команда з найбільшою економією виграє автомобіль». Через пів року ідей багато, але більшість дрібні, а команди ховають добрі ідеї заради конкурсу. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " помилки в дизайні системи це пояснюють?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Приз за найбільшу економію відволікає людей від дрібних щоденних виправлень"
+					},
+					{
+						"id": "B",
+						"text": "Ціль рахує подані ідеї, а не випробувані й упроваджені зміни"
+					},
+					{
+						"id": "C",
+						"text": "Завод проводить наради з покращень біля виробничої лінії"
+					},
+					{
+						"id": "D",
+						"text": "Оператори можуть пропонувати зміни у власній роботі"
+					},
+					{
+						"id": "E",
+						"text": "Зміни спершу перевіряють у малому масштабі, а потім поширюють"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Банк обробляє паперові чеки, а їх обсяг падає на 40% на рік, бо клієнти переходять у застосунки. Керівник пропонує кампанію кайдзен, щоб обробка чеків прискорювалася на 2% щомісяця. Яка оцінка цього плану найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Чудово, адже малі кроки завжди переважують стратегічні зміни"
+					},
+					{
+						"id": "B",
+						"text": "Хибна ціль: увесь процес застаріває, тож банку спершу потрібне стратегічне рішення щодо цифрових послуг"
+					},
+					{
+						"id": "C",
+						"text": "Безглуздо, бо кайдзен не може покращувати офісну роботу"
+					},
+					{
+						"id": "D",
+						"text": "Нормально, якщо збільшити бонус за найкращу ідею"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У мережі кав’ярень працює вісім бариста, і вранці в годину пік напій готують 5 хвилин, а клієнти скаржаться. Опишіть трьома чіткими кроками, як керівник почне кайдзен в одній кав’ярні."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Керівник каже, що економити 15 секунд безглуздо. Обробка замовлення в пекарні триває 6 хвилин, а команда знайшла 8 малих змін, кожна з яких заощаджує близько 15 секунд. Відповідайте керівникові з цими числами й додайте одну причину, чому кайдзен цінний не лише зекономленим часом."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви володієте друкарнею на 40 працівників. Втрати паперу становлять 9% і коштують близько $4 500 на місяць. Оберіть одне: купити друкарську машину за $120 000, яка обіцяє 3% втрат, запровадити щотижневі наради кайдзен з операторами (близько $2 000 робочого часу на рік) або заплатити $8 000 за разовий триденний воркшоп із покращень. Обґрунтуйте вибір числами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Завод заморожених страв має стабільні продажі. Конкурент запустив технологію приготування, що знижує собівартість одиниці на 30%, і очікують, що протягом двох років покупці вимагатимуть нижчих цін. Керівник заводу пропонує замість покупки технології за $2 млн кампанію кайдзен зі скороченням витрат на 1% щомісяця. Дайте рекомендацію з компромісами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Ресторан на 40 місць провів триденний воркшоп кайдзен. Персонал запропонував 14 ідей, випробували три. Продовження не було. Через два місяці час подачі знову 22 хвилини. Кухарі кажуть: «Нашим ідеям ніхто не відповідає». Власник планує щокварталу виплачувати $1 000 за єдину найкращу ідею."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте три помилки й запропонуйте план перезапуску."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

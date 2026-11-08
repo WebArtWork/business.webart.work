@@ -1,0 +1,1076 @@
+{
+	"slug": "stp",
+	"topicId": 41,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pet food brand has already split owners into budget feeders, health-focused owners and breeders who buy in bulk. It now decides to serve health-focused owners and to stop chasing breeders. Which step of STP is this?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Segmentation"
+					},
+					{
+						"id": "B",
+						"text": "Positioning"
+					},
+					{
+						"id": "C",
+						"text": "Targeting"
+					},
+					{
+						"id": "D",
+						"text": "Marketing mix"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A furniture maker designs only foldable, space-saving furniture for renters in small city apartments and ignores every other buyer. Which targeting strategy is this?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Undifferentiated"
+					},
+					{
+						"id": "B",
+						"text": "Concentrated"
+					},
+					{
+						"id": "C",
+						"text": "Differentiated"
+					},
+					{
+						"id": "D",
+						"text": "Micro-marketing"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A segment can be large and attractive on paper yet unusable if the company has no channel to reach it."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Segmenting by age and income alone is usually enough, because people with the same demographics buy for the same reasons."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meal-kit company targets busy parents with young children. Which positioning statement serves that target best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Quality food for everyone"
+					},
+					{
+						"id": "B",
+						"text": "The best meal kit on the market"
+					},
+					{
+						"id": "C",
+						"text": "Healthy, tasty, affordable and sustainable meals for all"
+					},
+					{
+						"id": "D",
+						"text": "Dinner for a family of four on the table in 20 minutes, with recipes children actually eat"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A language school considers a new segment: nurses preparing to work abroad. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " facts make this segment "
+							},
+							{
+								"t": "usable",
+								"b": true
+							},
+							{
+								"t": ", not just interesting?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "About 4,000 nurses register for the foreign licensing exam each year, so the segment can be measured"
+					},
+					{
+						"id": "B",
+						"text": "Nursing colleges and recruitment agencies give the school a channel to reach them"
+					},
+					{
+						"id": "C",
+						"text": "Most of them say they enjoy travelling"
+					},
+					{
+						"id": "D",
+						"text": "Many of them are women aged 25–35"
+					},
+					{
+						"id": "E",
+						"text": "They came across as friendly in interviews"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A roofing company has 12 roofers, three of them certified for heritage work. It weighs three segments:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Homeowner repairs: 30,000 jobs a year, 25% margin, 40 rival firms."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "New-build developers: 500 projects a year, 8% margin, 60-day payment terms, large crews needed."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Heritage buildings: 800 jobs a year, 40% margin, 2 rival firms."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which segment should it target?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Heritage buildings"
+					},
+					{
+						"id": "B",
+						"text": "Homeowner repairs, because it is the largest"
+					},
+					{
+						"id": "C",
+						"text": "New-build developers, because each project is big"
+					},
+					{
+						"id": "D",
+						"text": "All three, to spread the risk"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A skincare startup chose women with sensitive skin as its target and wrote a sharp positioning statement. A year later the product range, prices, packaging and channels are still the same for every customer, and sales are flat. What is the main problem?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It segmented by the wrong variable"
+					},
+					{
+						"id": "B",
+						"text": "The position is only words, because the marketing mix was never changed to deliver it"
+					},
+					{
+						"id": "C",
+						"text": "It should have targeted the largest segment instead"
+					},
+					{
+						"id": "D",
+						"text": "It needs a bigger advertising budget to spread the statement"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A tutoring company built five neat segments from a survey of parents. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are real limitations it should keep in mind?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Real customers move between segments, for example a parent who buys one course for a child and another for herself"
+					},
+					{
+						"id": "B",
+						"text": "Segments built on survey answers can look clean on paper but fail to predict who actually buys"
+					},
+					{
+						"id": "C",
+						"text": "STP only works for business-to-business markets"
+					},
+					{
+						"id": "D",
+						"text": "Segmentation must not use demographics at all"
+					},
+					{
+						"id": "E",
+						"text": "Positioning must be written before segmentation begins"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A mass-market snack brand with 30% of its category wants to narrow its marketing to fitness fans only. A board member objects, quoting the critique of narrow targeting. What is the substance of that critique?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A brand should always narrow its target as it grows"
+					},
+					{
+						"id": "B",
+						"text": "Positioning does not matter for snack brands"
+					},
+					{
+						"id": "C",
+						"text": "Segmenting by behaviour is always wrong"
+					},
+					{
+						"id": "D",
+						"text": "Brands grow mainly by reaching all buyers in the category, so narrowing could shrink a mass brand"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software firm for accountants weighs three segments:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Solo bookkeepers: 9,000 of them, would pay $20 a month, reached through online ads, many rivals."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Mid-size firms (10–50 staff): 1,200 of them, would pay $400 a month, need integrations the firm already has, 3 rivals."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Large firms: 40 of them, would pay $5,000 a month, need a nine-month buying process and a sales team the firm lacks."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the monthly revenue potential of each segment, choose one target and give two reasons."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why segmenting by needs and behaviour works better than segmenting by demographics alone. Use running shoes as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery chain with eight shops has $50,000 for marketing this year."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Office lunch buyers: 25,000 workers within 1 km of six shops, average spend $7, near-daily visits, two strong sandwich chains nearby; sandwiches earn a 30% margin."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Families buying weekend cakes: 12,000 households in the area, average spend $35 about twice a month, few specialist rivals; the chain is already known for its cakes, which earn a 55% margin."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one segment to target this year and justify the choice with STP criteria."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A small e-bike maker has $200,000 for its first year. Its strengths are swappable batteries and a mobile repair van."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Commuters: 40,000 potential buyers in the city, care about style and price, served by five large brands."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Delivery couriers: 3,000 riders who cover about 80 km a day, lose income every hour a bike is broken, and are ignored by the large brands."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose between a concentrated strategy on one segment and a differentiated strategy for both. Justify your choice and write a positioning statement for your target."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "An online wine shop markets to everyone with the slogan “great wines for every occasion” and has $40,000 for marketing. Its sales data show four groups. Gift buyers: 35% of revenue, average order $90, 1.2 orders a year. Restaurants: 25% of revenue, demand 30% discounts and 60-day payment. Enthusiasts: 2,500 customers, average order $60, 8 orders a year, and they mostly buy from the small family vineyards the shop imports. Casual buyers: 20% of revenue, buy only during promotions, average order $25."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose a target segment using the data, write a positioning statement, and propose two changes to the marketing mix. State which segments you will not focus on."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бренд кормів для тварин уже поділив власників на економних, тих, хто дбає про здоров’я тварини, і заводчиків, що купують гуртом. Тепер він вирішує обслуговувати власників, які дбають про здоров’я, і перестати боротися за заводчиків. Який це крок STP?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сегментування"
+					},
+					{
+						"id": "B",
+						"text": "Позиціювання"
+					},
+					{
+						"id": "C",
+						"text": "Вибір цільового ринку"
+					},
+					{
+						"id": "D",
+						"text": "Маркетинговий комплекс"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Меблевий виробник робить лише складні компактні меблі для орендарів маленьких міських квартир і ігнорує всіх інших покупців. Яка це стратегія вибору цільового ринку?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Недиференційована"
+					},
+					{
+						"id": "B",
+						"text": "Концентрована"
+					},
+					{
+						"id": "C",
+						"text": "Диференційована"
+					},
+					{
+						"id": "D",
+						"text": "Мікромаркетинг"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сегмент може бути великим і привабливим на папері, але непридатним, якщо компанія не має каналу, щоб до нього дістатися."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сегментування лише за віком і доходом зазвичай достатнє, бо люди з однаковими демографічними ознаками купують з однакових причин."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія наборів для приготування їжі обрала цільовим ринком зайнятих батьків маленьких дітей. Яке твердження про позиціювання найкраще служить цій цілі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Якісна їжа для всіх"
+					},
+					{
+						"id": "B",
+						"text": "Найкращий набір для готування на ринку"
+					},
+					{
+						"id": "C",
+						"text": "Корисні, смачні, доступні й екологічні страви для кожного"
+					},
+					{
+						"id": "D",
+						"text": "Вечеря для родини з чотирьох на столі за 20 хвилин, за рецептами, які діти справді їдять"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мовна школа розглядає новий сегмент: медсестер, які готуються працювати за кордоном. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " факти роблять цей сегмент "
+							},
+							{
+								"t": "придатним",
+								"b": true
+							},
+							{
+								"t": ", а не просто цікавим?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Щороку близько 4 000 медсестер реєструються на іспит для іноземної ліцензії, тож сегмент можна виміряти"
+					},
+					{
+						"id": "B",
+						"text": "Медичні коледжі й рекрутингові агенції дають школі канал, щоб до них дістатися"
+					},
+					{
+						"id": "C",
+						"text": "Більшість із них кажуть, що люблять подорожувати"
+					},
+					{
+						"id": "D",
+						"text": "Багато з них жінки віком 25–35 років"
+					},
+					{
+						"id": "E",
+						"text": "В інтерв’ю вони справили дружнє враження"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Покрівельна компанія має 12 покрівельників, троє з них сертифіковані для робіт на пам’ятках архітектури. Вона розглядає три сегменти:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Ремонт для власників будинків: 30 000 замовлень на рік, маржа 25%, 40 фірм-конкурентів."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Забудовники новобудов: 500 проєктів на рік, маржа 8%, оплата через 60 днів, потрібні великі бригади."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Історичні будівлі: 800 замовлень на рік, маржа 40%, 2 фірми-конкуренти."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який сегмент їй обрати цільовим?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Історичні будівлі"
+					},
+					{
+						"id": "B",
+						"text": "Ремонт для власників будинків, бо він найбільший"
+					},
+					{
+						"id": "C",
+						"text": "Забудовників, бо кожен проєкт великий"
+					},
+					{
+						"id": "D",
+						"text": "Усі три, щоб розподілити ризик"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап доглядової косметики обрав цільовим ринком жінок із чутливою шкірою й написав чітке твердження про позиціювання. Через рік асортимент, ціни, упаковка й канали досі однакові для всіх клієнтів, а продажі стоять. У чому головна проблема?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сегментування за неправильною ознакою"
+					},
+					{
+						"id": "B",
+						"text": "Позиція лишилася словами, бо маркетинговий комплекс так і не змінили, щоб її втілити"
+					},
+					{
+						"id": "C",
+						"text": "Треба було обрати найбільший сегмент"
+					},
+					{
+						"id": "D",
+						"text": "Потрібен більший рекламний бюджет, щоб поширити твердження"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія репетиторства створила п’ять акуратних сегментів за опитуванням батьків. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " справжні обмеження їй варто пам’ятати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Реальні клієнти переходять між сегментами, наприклад мати купує один курс для дитини, а інший для себе"
+					},
+					{
+						"id": "B",
+						"text": "Сегменти, побудовані на відповідях в опитуванні, можуть гарно виглядати на папері, але не передбачати, хто справді купить"
+					},
+					{
+						"id": "C",
+						"text": "STP працює лише на ринках «бізнес для бізнесу»"
+					},
+					{
+						"id": "D",
+						"text": "Сегментування взагалі не повинно використовувати демографію"
+					},
+					{
+						"id": "E",
+						"text": "Позиціювання треба писати до початку сегментування"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Масовий бренд снеків із 30% категорії хоче звузити маркетинг лише до любителів фітнесу. Член ради заперечує, посилаючись на критику вузького націлювання. У чому суть цієї критики?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Бренд завжди має звужувати ціль у міру зростання"
+					},
+					{
+						"id": "B",
+						"text": "Позиціювання не має значення для брендів снеків"
+					},
+					{
+						"id": "C",
+						"text": "Сегментування за поведінкою завжди хибне"
+					},
+					{
+						"id": "D",
+						"text": "Бренди ростуть передусім завдяки охопленню всіх покупців категорії, тож звуження може зменшити масовий бренд"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія, що робить програму для бухгалтерів, розглядає три сегменти:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Бухгалтери-одинаки: 9 000, готові платити $20 на місяць, досяжні через онлайн-рекламу, багато конкурентів."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Середні фірми (10–50 працівників): 1 200, готові платити $400 на місяць, потребують інтеграцій, які в компанії вже є, 3 конкуренти."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Великі фірми: 40, готові платити $5 000 на місяць, потребують дев’ятимісячної процедури закупівлі й відділу продажів, якого в компанії немає."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обчисліть місячний потенціал доходу кожного сегмента, оберіть одну ціль і наведіть дві причини."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому сегментування за потребами й поведінкою працює краще, ніж лише за демографією. Використайте як приклад кросівки для бігу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа з восьми пекарень має $50 000 на маркетинг цього року."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Офісні працівники на обід: 25 000 людей у радіусі 1 км від шести пекарень, середній чек $7, візити майже щодня, поруч дві сильні мережі сендвічів; маржа сендвічів 30%."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Родини, що купують торти на вихідні: 12 000 домогосподарств у районі, середній чек $35 приблизно двічі на місяць, мало спеціалізованих конкурентів; мережу вже знають за торти, маржа яких 55%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть один сегмент цільовим на цей рік і обґрунтуйте вибір критеріями STP."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Невеликий виробник електровелосипедів має $200 000 на перший рік. Його сильні сторони: змінні батареї й мобільний ремонтний фургон."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Ті, хто їздить на роботу: 40 000 потенційних покупців у місті, зважають на стиль і ціну, їх обслуговують п’ять великих брендів."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Кур’єри доставки: 3 000 людей, які проїжджають близько 80 км на день, втрачають дохід за кожну годину поламки, і великі бренди їх ігнорують."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть між концентрованою стратегією на одному сегменті й диференційованою для обох. Обґрунтуйте вибір і напишіть твердження про позиціювання для своєї цілі."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Онлайн-магазин вина звертається до всіх із гаслом «чудові вина для будь-якої нагоди» й має $40 000 на маркетинг. Дані продажів показують чотири групи. Покупці подарунків: 35% доходу, середнє замовлення $90, 1,2 замовлення на рік. Ресторани: 25% доходу, вимагають знижок 30% і оплати через 60 днів. Поціновувачі: 2 500 клієнтів, середнє замовлення $60, 8 замовлень на рік, купують переважно вина невеликих сімейних виноробень, які магазин імпортує. Випадкові покупці: 20% доходу, купують лише під час акцій, середнє замовлення $25."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть цільовий сегмент на основі даних, напишіть твердження про позиціювання й запропонуйте дві зміни маркетингового комплексу. Укажіть, на яких сегментах ви не зосереджуватиметеся."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

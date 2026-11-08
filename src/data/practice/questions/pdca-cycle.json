@@ -1,0 +1,884 @@
+{
+	"slug": "pdca-cycle",
+	"topicId": 76,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In which step of the PDCA cycle should the team write down the result it expects the change to produce?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Do"
+					},
+					{
+						"id": "B",
+						"text": "Plan"
+					},
+					{
+						"id": "C",
+						"text": "Check"
+					},
+					{
+						"id": "D",
+						"text": "Act"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A change tested in the Do step "
+							},
+							{
+								"t": "partly",
+								"b": true
+							},
+							{
+								"t": " worked. What does the Act step call for?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Declaring success and moving on, because some improvement is enough"
+					},
+					{
+						"id": "B",
+						"text": "Abandoning the change and picking a completely new problem"
+					},
+					{
+						"id": "C",
+						"text": "Rolling the change out everywhere so the full effect becomes visible"
+					},
+					{
+						"id": "D",
+						"text": "Adjusting the change and running another cycle"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In the Do step, the change should be rolled out across the whole organization so that the data are complete."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "PDCA is a good method for deciding whether to merge with a competitor."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery chain tests a new baking schedule in one shop to cut unsold bread. Over the same four weeks, which included a holiday, waste in the test shop fell from 14% to 9%, and in a similar shop that kept the old schedule it fell from 14% to 12%. What is the best estimate of the schedule's effect?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "About 3 percentage points"
+					},
+					{
+						"id": "B",
+						"text": "About 5 percentage points"
+					},
+					{
+						"id": "C",
+						"text": "About 9 percentage points"
+					},
+					{
+						"id": "D",
+						"text": "No effect, because the comparison shop improved too"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A call centre wants to cut how long customers wait on hold. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " entries belong in a well-written Plan step?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "\"Improve the customer experience this quarter\""
+					},
+					{
+						"id": "B",
+						"text": "\"Try something new with the phone system and see what happens\""
+					},
+					{
+						"id": "C",
+						"text": "Baseline: average hold time measured over six weeks is 7.5 minutes"
+					},
+					{
+						"id": "D",
+						"text": "Roll the new callback script out to all 120 agents on Monday"
+					},
+					{
+						"id": "E",
+						"text": "Prediction: offering a callback on one team will cut its hold time below 5 minutes within four weeks"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hospital wants to reduce medication errors with a new double-check by a second nurse. How should it run the Do step?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Introduce the double-check in all 14 wards at once to protect every patient"
+					},
+					{
+						"id": "B",
+						"text": "Introduce it on night shifts in all wards, where errors are most common"
+					},
+					{
+						"id": "C",
+						"text": "Run it on one ward for four weeks while similar wards continue as before"
+					},
+					{
+						"id": "D",
+						"text": "Skip the test and write the double-check straight into hospital policy"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A factory has 10 identical machines, each stopping about 3 times a month. The team predicted a new lubricant would halve stoppages and tested it on 2 machines for four weeks: those 2 stopped 2 times in total, while the other 8 stopped 23 times. The lubricant costs $40 more per machine per month, and each stoppage costs about $500. What should the Act step be?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Roll it out and stop monitoring, since the result beat the prediction"
+					},
+					{
+						"id": "B",
+						"text": "Drop it, since two machines are too few to prove anything"
+					},
+					{
+						"id": "C",
+						"text": "Repeat the same test on the same two machines for another year before deciding"
+					},
+					{
+						"id": "D",
+						"text": "Adopt it on all machines, update the maintenance procedure and keep tracking stoppages"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A clothing retailer changed the shelf layout in all 40 stores at once, without writing down what it expected. Sales rose 4% the next month, and the team declared success. Store staff had suggested the change, and the team had measured sales carefully for a year before. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " mistakes did the team make?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It rolled the change out everywhere instead of testing it on a small scale"
+					},
+					{
+						"id": "B",
+						"text": "It measured sales before and after the change"
+					},
+					{
+						"id": "C",
+						"text": "It wrote no prediction in the Plan step"
+					},
+					{
+						"id": "D",
+						"text": "It asked store staff for likely causes"
+					},
+					{
+						"id": "E",
+						"text": "It described the problem with a number"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A plant manager has a list of 30 quality problems and asks whether PDCA can tell her which one to tackle first. What is the best answer?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Yes, the Plan step ranks problems automatically by their cost"
+					},
+					{
+						"id": "B",
+						"text": "No, PDCA describes how to learn about a problem, so she needs data or another tool to set priorities"
+					},
+					{
+						"id": "C",
+						"text": "No, PDCA works only for single machines, not for plant-wide problems"
+					},
+					{
+						"id": "D",
+						"text": "Yes, she should run thirty cycles at once and see which one improves"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A dental clinic loses money because 18% of booked appointments are no-shows. Write the Plan step for one PDCA cycle: the problem with data, a likely cause, the change and test scope, and the prediction."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why a small trial with a comparison group teaches more than a company-wide launch. Use a chain of 12 car washes testing a loyalty card as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You run 6 restaurants. Average ticket time from order to plate is 22 minutes, and guests complain. Your head chef wants to install a $90,000 kitchen display system in all six kitchens at once. Choose one: install it everywhere now, pilot it in one restaurant for four weeks with the others as a comparison, or do nothing. Justify your choice with the PDCA logic."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software support team tested a new reply template for one week on 30 tickets. Average handling time fell from 11.0 to 9.8 minutes. Over the past year, the weekly average has normally moved between 9.5 and 12.5 minutes. The manager wants to roll the template out to all 200 agents tomorrow. Choose one: roll it out now, extend the test with more tickets and a comparison group, or abandon the template. Justify your choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A plastic packaging plant has three lines. Over the last six months the scrap rate has averaged 6.2%, moving between 5.6% and 6.8% month to month."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "The team predicted that a lower mould temperature would cut scrap below 4%. They tested it on Line 2 for three weeks: Line 2 scrap was 3.9%, while Lines 1 and 3 averaged 6.0% over the same weeks."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "The change adds 4 seconds per part, cutting output by 2%. On each line, every percentage point of scrap costs about $14,000 a month, and a 2% output loss costs about $6,000 a month."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Evaluate the Check results and decide the Act step. Then say what the next cycle should target."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На якому кроці циклу PDCA команда має записати результат, якого очікує від зміни?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Виконуй"
+					},
+					{
+						"id": "B",
+						"text": "Плануй"
+					},
+					{
+						"id": "C",
+						"text": "Перевіряй"
+					},
+					{
+						"id": "D",
+						"text": "Дій"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Зміна, випробувана на кроці «виконуй», спрацювала "
+							},
+							{
+								"t": "частково",
+								"b": true
+							},
+							{
+								"t": ". Чого вимагає крок «дій»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Оголосити успіх і рухатися далі, бо певного покращення досить"
+					},
+					{
+						"id": "B",
+						"text": "Відмовитися від зміни й узятися за зовсім іншу проблему"
+					},
+					{
+						"id": "C",
+						"text": "Запровадити зміну всюди, щоб побачити повний ефект"
+					},
+					{
+						"id": "D",
+						"text": "Скоригувати зміну й провести ще один цикл"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На кроці «виконуй» зміну слід запровадити в усій організації, щоб дані були повними."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "PDCA добре підходить для рішення, чи зливатися з конкурентом."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа пекарень випробовує в одному магазині новий графік випікання, щоб зменшити непроданий хліб. За ті самі чотири тижні, що припали на свята, списання в тестовому магазині впали з 14% до 9%, а в схожому магазині зі старим графіком з 14% до 12%. Яка найкраща оцінка ефекту графіка?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Близько 3 відсоткових пунктів"
+					},
+					{
+						"id": "B",
+						"text": "Близько 5 відсоткових пунктів"
+					},
+					{
+						"id": "C",
+						"text": "Близько 9 відсоткових пунктів"
+					},
+					{
+						"id": "D",
+						"text": "Ефекту немає, бо магазин для порівняння теж покращився"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кол-центр хоче скоротити час очікування клієнтів на лінії. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " записи належать до добре складеного кроку «плануй»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "«Покращити клієнтський досвід цього кварталу»"
+					},
+					{
+						"id": "B",
+						"text": "«Спробувати щось нове з телефонною системою й подивитися, що вийде»"
+					},
+					{
+						"id": "C",
+						"text": "Базове значення: середній час очікування, виміряний за шість тижнів, становить 7,5 хвилини"
+					},
+					{
+						"id": "D",
+						"text": "У понеділок запровадити новий сценарій зворотного дзвінка для всіх 120 операторів"
+					},
+					{
+						"id": "E",
+						"text": "Прогноз: пропозиція зворотного дзвінка в одній команді скоротить її час очікування до менш ніж 5 хвилин за чотири тижні"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Лікарня хоче зменшити кількість помилок із ліками за допомогою нової подвійної перевірки другою медсестрою. Як провести крок «виконуй»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Запровадити подвійну перевірку одразу в усіх 14 відділеннях, щоб захистити кожного пацієнта"
+					},
+					{
+						"id": "B",
+						"text": "Запровадити її в нічні зміни в усіх відділеннях, де помилок найбільше"
+					},
+					{
+						"id": "C",
+						"text": "Провести її в одному відділенні протягом чотирьох тижнів, поки схожі відділення працюють як раніше"
+					},
+					{
+						"id": "D",
+						"text": "Пропустити тест і одразу внести подвійну перевірку до правил лікарні"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На заводі 10 однакових верстатів, кожен зупиняється приблизно 3 рази на місяць. Команда спрогнозувала, що нове мастило вдвічі скоротить зупинки, і випробувала його на 2 верстатах протягом чотирьох тижнів: ці 2 зупинялися загалом 2 рази, а решта 8 зупинялися 23 рази. Мастило коштує на $40 більше на верстат щомісяця, а кожна зупинка обходиться приблизно в $500. Яким має бути крок «дій»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Запровадити мастило й припинити спостереження, бо результат перевершив прогноз"
+					},
+					{
+						"id": "B",
+						"text": "Відмовитися від нього, бо двох верстатів замало, щоб щось довести"
+					},
+					{
+						"id": "C",
+						"text": "Повторювати той самий тест на тих самих двох верстатах ще рік, перш ніж вирішувати"
+					},
+					{
+						"id": "D",
+						"text": "Запровадити мастило на всіх верстатах, оновити регламент обслуговування й далі відстежувати зупинки"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа одягу змінила викладку в усіх 40 магазинах одночасно, не записавши, чого очікує. Наступного місяця продажі зросли на 4%, і команда оголосила успіх. Зміну запропонували продавці, а продажі команда ретельно вимірювала цілий рік до того. Яких "
+							},
+							{
+								"t": "двох",
+								"b": true
+							},
+							{
+								"t": " помилок припустилася команда?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Запровадила зміну всюди замість невеликого тесту"
+					},
+					{
+						"id": "B",
+						"text": "Виміряла продажі до й після зміни"
+					},
+					{
+						"id": "C",
+						"text": "Не записала прогнозу на кроці «плануй»"
+					},
+					{
+						"id": "D",
+						"text": "Запитала продавців про ймовірні причини"
+					},
+					{
+						"id": "E",
+						"text": "Описала проблему числом"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Керівниця заводу має перелік із 30 проблем якості й питає, чи може PDCA підказати, з якої почати. Яка відповідь найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Так, крок «плануй» автоматично ранжує проблеми за вартістю"
+					},
+					{
+						"id": "B",
+						"text": "Ні, PDCA описує, як вчитися на проблемі, тож для пріоритетів їй потрібні дані чи інший інструмент"
+					},
+					{
+						"id": "C",
+						"text": "Ні, PDCA працює лише для окремих верстатів, а не для проблем усього заводу"
+					},
+					{
+						"id": "D",
+						"text": "Так, їй варто запустити тридцять циклів одночасно й подивитися, де буде покращення"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стоматологічна клініка втрачає гроші, бо на 18% записів пацієнти не приходять. Запишіть крок «плануй» для одного циклу PDCA: проблему з даними, імовірну причину, зміну й масштаб тесту, а також прогноз."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому невелике випробування з групою порівняння вчить більше, ніж запуск на всю компанію. Як приклад візьміть мережу з 12 автомийок, що тестує картку лояльності."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви керуєте 6 ресторанами. Середній час від замовлення до подачі страви становить 22 хвилини, і гості скаржаться. Шеф-кухар хоче встановити кухонну систему відображення замовлень за $90 000 одразу на всіх шести кухнях. Оберіть одне: встановити всюди зараз, випробувати в одному ресторані чотири тижні, порівнюючи з іншими, або нічого не робити. Обґрунтуйте вибір логікою PDCA."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда підтримки софтверної компанії тиждень тестувала новий шаблон відповіді на 30 зверненнях. Середній час обробки впав з 11,0 до 9,8 хвилини. За минулий рік середнє за тиждень зазвичай коливалося між 9,5 і 12,5 хвилини. Керівник хоче завтра запровадити шаблон для всіх 200 операторів. Оберіть одне: запровадити зараз, продовжити тест із більшою кількістю звернень і групою порівняння або відмовитися від шаблону. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Завод пластикової упаковки має три лінії. За останні шість місяців частка браку становила в середньому 6,2% і коливалася від 5,6% до 6,8% щомісяця."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Команда спрогнозувала, що нижча температура прес-форми зменшить брак до менш ніж 4%. Її три тижні випробовували на лінії 2: брак на лінії 2 становив 3,9%, а на лініях 1 і 3 за ті самі тижні в середньому 6,0%."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Зміна додає 4 секунди на виріб і скорочує випуск на 2%. На кожній лінії кожен відсотковий пункт браку коштує близько $14 000 на місяць, а втрата 2% випуску близько $6 000 на місяць."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оцініть результати кроку «перевіряй» і визначте крок «дій». Потім скажіть, на що має бути спрямований наступний цикл."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

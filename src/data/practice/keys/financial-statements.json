@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The balance sheet is a snapshot of assets, liabilities and equity at one date. The income statement covers a period and shows profit, the cash flow statement covers a period and shows cash movements, and the notes only explain the policies and risks behind the numbers."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Revenue minus the cost of goods sold gives gross profit. Net profit comes only after operating expenses, interest and tax, operating cash flow depends on payments received, and equity is an item on the balance sheet."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Everything a business owns was financed either by borrowing (liabilities) or by owners’ money and retained profit (equity), so the two sides must balance."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Borrowing raises cash and liabilities by the same amount and does not touch revenue or profit. The loan appears in financing activities on the cash flow statement."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Buying an asset swaps cash for a truck, so the balance sheet total does not change and the cash flow statement shows an investing outflow. Profit is touched only later, through depreciation. Paying cash creates no liability."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Slower payments and a bigger stock tie up cash while profit still counts the sales. Dividends and loans belong to financing activities, not operating cash flow, and more depreciation is a non-cash charge that, if anything, makes operating cash flow higher than profit."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "$60,000 + $10,000 (non-cash depreciation) − $35,000 (receivables up, cash tied up) + $5,000 (stock down, cash released) + $8,000 (supplier credit up) = $48,000. The other results come from ignoring the adjustments or applying a sign wrongly."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The gap sits in receivables, so the answer is to shorten the cash cycle and plan for the shortfall. A price rise does not address the 100-day wait, a profit alone says nothing about cash, and changing depreciation only moves profit on paper and brings no cash."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The cash flow statement ends where the balance sheet’s cash line stands, and the period’s profit adds to retained earnings. Revenue and assets are different things, operating cash flow differs from profit by non-cash items and working capital, and equity is not limited to cash."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Internally built intangibles are mostly invisible in the accounts, so book equity can understate what the business is worth. Equity is an accounting figure, not a market price, and loans and the cash flow statement have nothing to do with valuing a brand."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Operating cash flow = 90,000 + 20,000 − 70,000 − 30,000 + 15,000 = $25,000. It is far below profit because customers have not yet paid $70,000 of invoices and $30,000 more cash is tied up in stock. Profit records the sales when invoiced, while cash arrives only when customers pay."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the operating cash flow correctly ($25,000) with the right signs",
+					"points": 2
+				},
+				{
+					"criterion": "Explains the gap through receivables and stock, and the difference between invoicing and being paid",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A loan is not income: the company must repay it, so it is not earned revenue. On the income statement nothing changes at first (only interest is an expense later). On the balance sheet, cash rises by $200,000 and so do liabilities. On the cash flow statement it is a financing inflow of $200,000, and the repayment later will be an outflow there, not an expense."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "States that a loan is not revenue or profit",
+					"points": 1
+				},
+				{
+					"criterion": "Shows the balance sheet effect on both sides (cash and liabilities up by $200,000)",
+					"points": 2
+				},
+				{
+					"criterion": "Places the loan in financing activities and says that repayment is not an expense",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 2. The statements show that profit is real but cash is stuck in receivables: $130,000 of unpaid invoices and a $45,000 investment explain the fall. Deposits and shorter terms attack the cause, and the forecast shows a shortfall early. A loan would cover the hole but keep the cause and add interest. Cost cuts raise profit, which was never the problem, and may hurt quality. Risk: some corporate clients may leave over shorter terms, so track days of receivables and the loss of clients each month and adjust the discount."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Diagnoses the problem across the statements with case numbers (profit against cash, receivables of $130,000, the van as investing outflow)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the other options fit worse",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Company B. Its cash flow is above its profit and receivables are stable, so profit turns into cash that can repay the loan, and its low debt to equity leaves a cushion. Company A reports a larger profit but generates negative cash, and its receivables jumped $300,000, which suggests slow collection or aggressive revenue recognition. Its heavy debt adds risk. I would check the notes on revenue recognition, how old A’s receivables are and whether customers actually pay, and B’s growth plans, since a stable business may need less credit than it seems."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Compares profit with operating cash flow for both companies and draws the conclusion",
+					"points": 2
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the analysis",
+					"points": 1
+				},
+				{
+					"criterion": "Uses a ratio such as debt to equity, or receivables, as supporting evidence",
+					"points": 1
+				},
+				{
+					"criterion": "Names further checks (notes, quality of receivables, revenue recognition)",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Operating cash flow = 320 + 80 − 500 (receivables) − 300 (stock) + 80 (supplier credit) = −$320,000. Investing was −$260,000. Cash fell by $250,000, so financing must have brought in $330,000, most likely a new loan. So growth was paid for by lenders, not by operations. Main risks: receivables almost doubled while sales rose 30%, stock grew by 60%, and the company now has more debt while its operations burn cash, so a delayed payment could hit its ability to pay suppliers. Actions: tighten collection (deposits, shorter terms, follow-up on overdue invoices), reduce stock for slow items, build a monthly cash forecast and negotiate credit headroom with the bank before it is needed."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates operating cash flow correctly (−$320,000) with the correct signs",
+					"points": 2
+				},
+				{
+					"criterion": "Works out that financing brought in about $330,000 and that lenders funded the growth",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies receivables and stock growth as the cause of the cash drain",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends concrete actions (collection, stock, cash forecast, credit headroom) linked to the diagnosis",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Баланс це знімок активів, зобов’язань і капіталу на одну дату. Звіт про прибутки та збитки охоплює період і показує прибуток, звіт про рух грошових коштів охоплює період і показує рух грошей, а примітки лише пояснюють політику й ризики за цифрами."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Виторг мінус собівартість проданого дає валовий прибуток. Чистий прибуток виходить лише після операційних витрат, відсотків і податку, операційний грошовий потік залежить від отриманих платежів, а власний капітал це стаття балансу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Усе, чим володіє бізнес, профінансовано або позикою (зобов’язання), або грошима власників і нерозподіленим прибутком (капітал), тож обидві сторони мають збігатися."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Позика збільшує гроші й зобов’язання на однакову суму і не впливає на виторг чи прибуток. Вона відображається у фінансовій діяльності у звіті про рух грошових коштів."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Купівля активу міняє гроші на фургон, тож підсумок балансу не змінюється, а звіт про рух грошових коштів показує інвестиційний відтік. Прибуток зачіпає лише пізніша амортизація. Оплата готівкою не створює зобов’язання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Повільніші платежі й більші запаси зв’язують гроші, тоді як прибуток уже враховує продажі. Дивіденди й кредити належать до фінансової діяльності, а не до операційного грошового потоку, а більша амортизація це негрошові витрати, що радше роблять операційний потік більшим за прибуток."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "$60 000 + $10 000 (негрошова амортизація) − $35 000 (дебіторська заборгованість зросла, гроші зв’язано) + $5 000 (запаси зменшилися, гроші вивільнено) + $8 000 (кредит постачальників зріс) = $48 000. Інші результати виходять, якщо ігнорувати коригування чи помилитися зі знаком."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Розрив лежить у дебіторській заборгованості, тож відповідь у скороченні грошового циклу й плануванні дефіциту. Підвищення цін не вирішує 100-денного очікування, сам прибуток нічого не каже про гроші, а зміна амортизації лише переміщує прибуток на папері й не дає грошей."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Звіт про рух грошових коштів завершується там, де стоїть рядок грошей у балансі, а прибуток періоду збільшує нерозподілений прибуток. Виторг і активи це різні речі, операційний грошовий потік відрізняється від прибутку на негрошові статті й робочий капітал, а капітал не обмежується грошима."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Нематеріальні активи, створені всередині компанії, здебільшого невидимі в обліку, тож балансовий капітал може занижувати вартість бізнесу. Капітал це облікова величина, а не ринкова ціна, а кредити й звіт про рух грошових коштів не мають стосунку до оцінки бренду."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Операційний грошовий потік = 90 000 + 20 000 − 70 000 − 30 000 + 15 000 = $25 000. Він набагато менший за прибуток, бо клієнти ще не сплатили рахунків на $70 000, а ще $30 000 грошей зв’язано в запасах. Прибуток фіксує продажі в момент виставлення рахунку, а гроші надходять лише тоді, коли клієнти платять."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно розраховує операційний грошовий потік ($25 000) із правильними знаками",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює розрив через дебіторську заборгованість і запаси та різницю між виставленням рахунку й оплатою",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кредит не є доходом: компанія мусить його повернути, тож це не зароблений виторг. У звіті про прибутки спершу нічого не змінюється (витратами стануть лише відсотки згодом). У балансі гроші зростають на $200 000 і зобов’язання теж. У звіті про рух грошових коштів це фінансовий приплив $200 000, а пізніше погашення стане там відтоком, а не витратою."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Зазначає, що кредит не є виторгом чи прибутком",
+					"points": 1
+				},
+				{
+					"criterion": "Показує вплив на баланс з обох боків (гроші й зобов’язання зросли на $200 000)",
+					"points": 2
+				},
+				{
+					"criterion": "Відносить кредит до фінансової діяльності й каже, що погашення не є витратою",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 2. Звіти показують, що прибуток справжній, але гроші застрягли в дебіторській заборгованості: $130 000 неоплачених рахунків і інвестиція $45 000 пояснюють падіння. Передоплата й коротші строки б’ють по причині, а прогноз завчасно показує дефіцит. Кредит закрив би прогалину, але лишив би причину й додав відсотки. Скорочення витрат підвищує прибуток, який і не був проблемою, і може зашкодити якості. Ризик: частина корпоративних клієнтів може піти через коротші строки, тож щомісяця відстежуйте дні дебіторської заборгованості й втрату клієнтів і коригуйте знижку."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Діагностує проблему за звітами з числами з умови (прибуток проти грошей, дебіторська заборгованість $130 000, фургон як інвестиційний відтік)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому інші варіанти гірші",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб його відстежувати",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Компанії B. Її грошовий потік перевищує прибуток, а дебіторська заборгованість стабільна, тож прибуток перетворюється на гроші, з яких можна повернути кредит, а низьке співвідношення боргу до капіталу дає запас міцності. Компанія A показує більший прибуток, але генерує від’ємні гроші, а її дебіторська заборгованість стрибнула на $300 000, що натякає на повільне стягнення чи агресивне визнання виторгу. Великий борг додає ризику. Перевірив би примітки про визнання виторгу, вік дебіторської заборгованості A і чи справді клієнти платять, а також плани зростання B, бо стабільному бізнесові може бути потрібно менше кредиту, ніж здається."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Порівнює прибуток з операційним грошовим потоком для обох компаній і робить висновок",
+					"points": 2
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з аналізу",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує показник, як-от борг до капіталу, чи дебіторську заборгованість як підтвердження",
+					"points": 1
+				},
+				{
+					"criterion": "Називає додаткові перевірки (примітки, якість дебіторської заборгованості, визнання виторгу)",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Операційний грошовий потік = 320 + 80 − 500 (дебіторська заборгованість) − 300 (запаси) + 80 (кредит постачальників) = −$320 000. Інвестиційний потік −$260 000. Гроші впали на $250 000, тож фінансування мало принести $330 000, швидше за все, новий кредит. Отже, зростання оплатили кредитори, а не операційна діяльність. Основні ризики: дебіторська заборгованість майже подвоїлася, коли продажі зросли на 30%, запаси зросли на 60%, а боргу побільшало, тоді як операції спалюють гроші, тож затримка платежу може вдарити по здатності розрахуватися з постачальниками. Дії: посилити стягнення (передоплата, коротші строки, робота з простроченими рахунками), зменшити запаси повільних позицій, вести щомісячний прогноз грошей і домовитися з банком про запас кредитного ліміту, поки це ще не терміново."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно розраховує операційний грошовий потік (−$320 000) із правильними знаками",
+					"points": 2
+				},
+				{
+					"criterion": "З’ясовує, що фінансування принесло близько $330 000 і що зростання профінансували кредитори",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає зростання дебіторської заборгованості й запасів як причину відтоку грошей",
+					"points": 1
+				},
+				{
+					"criterion": "Рекомендує конкретні дії (стягнення, запаси, прогноз грошей, запас кредитного ліміту), пов’язані з діагнозом",
+					"points": 2
+				}
+			]
+		}
+	}
+}

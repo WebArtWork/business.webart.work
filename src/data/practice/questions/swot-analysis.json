@@ -1,0 +1,932 @@
+{
+	"slug": "swot-analysis",
+	"topicId": 4,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What separates strengths and weaknesses from opportunities and threats in SWOT?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Strengths and weaknesses are short-term, opportunities and threats are long-term"
+					},
+					{
+						"id": "B",
+						"text": "Strengths and weaknesses are internal, opportunities and threats are external"
+					},
+					{
+						"id": "C",
+						"text": "Strengths and weaknesses are financial, opportunities and threats are non-financial"
+					},
+					{
+						"id": "D",
+						"text": "Strengths and weaknesses come from customers, opportunities and threats from managers"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hostel in a tourist city learns that a low-cost airline will start four daily flights to the city next summer. Where does this belong?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Strengths"
+					},
+					{
+						"id": "B",
+						"text": "Weaknesses"
+					},
+					{
+						"id": "C",
+						"text": "Opportunities"
+					},
+					{
+						"id": "D",
+						"text": "Threats"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "\"We plan to launch a loyalty app next year\" belongs in the opportunities quadrant."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A quality that every competitor in the market also has is not a real strength in SWOT."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An accounting firm writes its SWOT. Which entry is written the way SWOT needs?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Strength: \"a great team\""
+					},
+					{
+						"id": "B",
+						"text": "Strength: \"a strong brand\""
+					},
+					{
+						"id": "C",
+						"text": "Weakness: \"some processes could be better\""
+					},
+					{
+						"id": "D",
+						"text": "Strength: \"client retention of 94% over five years, against an industry average of 80%\""
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A florist in a city centre lists her SWOT factors. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of these are "
+							},
+							{
+								"t": "threats",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Her two staff can make wedding arrangements that clients book months ahead."
+					},
+					{
+						"id": "B",
+						"text": "A supermarket chain has started selling bouquets at half her price."
+					},
+					{
+						"id": "C",
+						"text": "Her shop has no delivery van."
+					},
+					{
+						"id": "D",
+						"text": "Corporate events in the district are growing after three new office towers opened."
+					},
+					{
+						"id": "E",
+						"text": "The city plans to close her street to cars for two years of tram works."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An ice-cream maker finds that its main weakness (one small freezer warehouse) meets a threat (a heatwave forecast that will make power cuts more likely this summer). Under TOWS logic, how should it treat this pair?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "As the top defensive priority: reduce exposure before the summer, for example with a backup generator or a second storage site"
+					},
+					{
+						"id": "B",
+						"text": "As an SO option: use the heatwave to sell more ice cream"
+					},
+					{
+						"id": "C",
+						"text": "Ignore it, because threats cannot be controlled"
+					},
+					{
+						"id": "D",
+						"text": "Move the warehouse to the strengths list, since the heatwave raises demand"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coworking space produced a SWOT with 14 strengths, 11 weaknesses, 9 opportunities and 12 threats. Six months later the board says nothing in the plan changed because of it. What is the most likely cause?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It included too few threats compared with strengths"
+					},
+					{
+						"id": "B",
+						"text": "It should have used PESTEL instead of SWOT"
+					},
+					{
+						"id": "C",
+						"text": "The team should have listed more opportunities"
+					},
+					{
+						"id": "D",
+						"text": "The team stopped at four long, unranked lists and never paired factors into options tied to a decision"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A family winery writes: \"Strength: our vineyard is on steep hillsides.\" The owners want to grow volume with supermarket chains. A consultant points out a problem. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements describe it correctly?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Steep hillsides are an external factor, so they belong in opportunities."
+					},
+					{
+						"id": "B",
+						"text": "SWOT should never contain geographical facts."
+					},
+					{
+						"id": "C",
+						"text": "The same fact can be a strength for one goal and a weakness for another: hillsides give distinctive wine but make harvesting slow and costly."
+					},
+					{
+						"id": "D",
+						"text": "The analysis should be tied to one decision; for high-volume supermarket sales the hillsides are more of a weakness."
+					},
+					{
+						"id": "E",
+						"text": "The entry is fine because owners know their business best."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A sports shoe shop has a strength (staff trained in running gait analysis, used by 60% of buyers) and faces a threat (online stores selling the same shoes 15% cheaper). Which option is an ST strategy?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Open an online store with the lowest prices in the country"
+					},
+					{
+						"id": "B",
+						"text": "Stop selling running shoes and switch to fashion sneakers"
+					},
+					{
+						"id": "C",
+						"text": "Build the offer around free gait analysis and fitting, which online stores cannot provide"
+					},
+					{
+						"id": "D",
+						"text": "Wait until online prices rise"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A children's dance studio has: a teacher who is a former national champion, a hall rented only until next June, a new housing estate with 3,000 families nearby, and a fitness chain that plans to open kids' classes in the area. Sort each fact into its SWOT quadrant and explain the hall entry."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain what the TOWS step adds to a SWOT analysis. Use a sushi restaurant as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You run an IT bootcamp in a mid-sized city. Strengths: a 78% job placement rate against 55% for rivals, and ties with 20 local employers. Weaknesses: courses run only in person, and 40% of applicants drop out of the funnel because of evening timing. Opportunities: the government will fund retraining for 2,000 workers from a closing factory. Threats: a national online school is cutting prices by 30%. Choose one strategy: launch online courses nationwide, bid for the government retraining programme, or cut prices by 30%. Justify the choice by pairing SWOT factors."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An organic vegetable farm wants to decide its next two-year move."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Strengths: soil certified organic for 15 years; a box scheme with 900 subscribers and 92% renewal."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Weaknesses: only one cold store; the owner handles all sales personally."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Opportunities: two city schools want organic produce for 1,500 lunches a day; a farmers' market opens in a new district."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Threats: a supermarket chain launches its own organic box at 20% less; drought years are becoming more frequent."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Build a TOWS grid with one option in each cell, then choose the option you would pursue first and explain why."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A regional bookshop chain has five stores and revenue of $3.2 million, down 6% a year for three years. Its staff run 120 author events a year that fill every seat, and loyalty members spend $210 a year against $60 for other customers, but only 18% of customers are members. Rent takes 22% of revenue; two leases end next year. Its online shop has 2% of sales and the site is slow. Outside, online retailers sell bestsellers 25% cheaper. Two universities in the city are expanding, adding 6,000 students, and the city council offers lower rents to cultural venues in the old town."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Write a SWOT with the most important factor in each quadrant, cross them into two options, choose one and explain why."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що відрізняє сильні й слабкі сторони від можливостей і загроз у SWOT?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сильні й слабкі сторони короткострокові, а можливості й загрози довгострокові"
+					},
+					{
+						"id": "B",
+						"text": "Сильні й слабкі сторони внутрішні, а можливості й загрози зовнішні"
+					},
+					{
+						"id": "C",
+						"text": "Сильні й слабкі сторони фінансові, а можливості й загрози нефінансові"
+					},
+					{
+						"id": "D",
+						"text": "Сильні й слабкі сторони називають клієнти, а можливості й загрози менеджери"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Хостел у туристичному місті дізнається, що лоукост-авіакомпанія з наступного літа запускає чотири щоденні рейси до міста. Куди це віднести?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сильні сторони"
+					},
+					{
+						"id": "B",
+						"text": "Слабкі сторони"
+					},
+					{
+						"id": "C",
+						"text": "Можливості"
+					},
+					{
+						"id": "D",
+						"text": "Загрози"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "«Наступного року ми плануємо запустити застосунок лояльності» належить до квадранта можливостей."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якість, яку мають усі конкуренти на ринку, не є справжньою сильною стороною в SWOT."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бухгалтерська фірма складає SWOT. Який пункт сформульовано так, як потрібно для SWOT?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сильна сторона: «чудова команда»"
+					},
+					{
+						"id": "B",
+						"text": "Сильна сторона: «сильний бренд»"
+					},
+					{
+						"id": "C",
+						"text": "Слабка сторона: «деякі процеси можна покращити»"
+					},
+					{
+						"id": "D",
+						"text": "Сильна сторона: «утримання клієнтів 94% за п’ять років проти 80% у середньому по галузі»"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Флористка в центрі міста складає перелік чинників для SWOT. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з них є "
+							},
+							{
+								"t": "загрозами",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Двоє її працівників створюють весільні композиції, які клієнти бронюють за кілька місяців."
+					},
+					{
+						"id": "B",
+						"text": "Мережа супермаркетів почала продавати букети вдвічі дешевше."
+					},
+					{
+						"id": "C",
+						"text": "У її магазину немає фургона для доставки."
+					},
+					{
+						"id": "D",
+						"text": "Корпоративних заходів у районі більшає після відкриття трьох нових офісних веж."
+					},
+					{
+						"id": "E",
+						"text": "Місто планує закрити її вулицю для авто на два роки через будівництво трамвайної лінії."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник морозива бачить, що його головна слабкість (один невеликий склад-морозильник) збігається із загрозою (прогноз спеки, через яку цього літа ймовірніші відключення світла). Як за логікою TOWS трактувати цю пару?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Як головний захисний пріоритет: зменшити вразливість до літа, наприклад резервним генератором чи другим складом"
+					},
+					{
+						"id": "B",
+						"text": "Як варіант SO: скористатися спекою, щоб продати більше морозива"
+					},
+					{
+						"id": "C",
+						"text": "Ігнорувати, бо загрози не можна контролювати"
+					},
+					{
+						"id": "D",
+						"text": "Перенести склад до сильних сторін, адже спека підвищує попит"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Коворкінг склав SWOT із 14 сильних сторін, 11 слабких, 9 можливостей і 12 загроз. Через пів року рада директорів каже, що через нього в плані нічого не змінилося. Яка найімовірніша причина?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Загроз було замало порівняно із сильними сторонами"
+					},
+					{
+						"id": "B",
+						"text": "Варто було використати PESTEL замість SWOT"
+					},
+					{
+						"id": "C",
+						"text": "Команді слід було знайти більше можливостей"
+					},
+					{
+						"id": "D",
+						"text": "Команда зупинилася на чотирьох довгих неранжованих списках і не поєднала чинники у варіанти, прив’язані до рішення"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сімейна виноробня пише: «Сильна сторона: наш виноградник розташований на крутих схилах». Власники хочуть збільшити обсяги продажів через мережі супермаркетів. Консультант указує на проблему. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження правильно її описують?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Круті схили це зовнішній чинник, тож їх треба віднести до можливостей."
+					},
+					{
+						"id": "B",
+						"text": "У SWOT ніколи не повинно бути географічних фактів."
+					},
+					{
+						"id": "C",
+						"text": "Той самий факт може бути сильною стороною для однієї мети й слабкою для іншої: схили дають самобутнє вино, але роблять збір повільним і дорогим."
+					},
+					{
+						"id": "D",
+						"text": "Аналіз має бути прив’язаний до одного рішення, і для великих продажів у супермаркетах схили радше слабка сторона."
+					},
+					{
+						"id": "E",
+						"text": "Пункт правильний, бо власники найкраще знають свій бізнес."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Магазин спортивного взуття має сильну сторону (персонал навчений аналізу бігової техніки, нею користуються 60% покупців) і стикається із загрозою (інтернет-магазини продають те саме взуття на 15% дешевше). Який варіант є стратегією ST?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Відкрити інтернет-магазин із найнижчими цінами в країні"
+					},
+					{
+						"id": "B",
+						"text": "Припинити продаж бігового взуття й перейти на модні кросівки"
+					},
+					{
+						"id": "C",
+						"text": "Побудувати пропозицію навколо безкоштовного аналізу техніки й підбору, якого інтернет-магазини не дадуть"
+					},
+					{
+						"id": "D",
+						"text": "Чекати, поки ціни онлайн зростуть"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дитяча танцювальна студія має: викладачку, колишню чемпіонку країни, зал в оренді лише до наступного червня, новий житловий масив на 3 000 родин поруч і фітнес-мережу, яка планує відкрити в районі дитячі заняття. Розподіліть кожен факт за квадрантами SWOT і поясніть пункт про зал."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, що крок TOWS додає до SWOT-аналізу. Використайте як приклад суші-ресторан."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви керуєте IT-курсами в середньому місті. Сильні сторони: 78% випускників працевлаштовуються проти 55% у конкурентів, є зв’язки з 20 місцевими роботодавцями. Слабкі сторони: курси лише очні, а 40% кандидатів відсіюються через вечірній розклад. Можливості: держава профінансує перекваліфікацію 2 000 працівників заводу, що закривається. Загрози: національна онлайн-школа знижує ціни на 30%. Оберіть одну стратегію: запустити онлайн-курси на всю країну, подати заявку на державну програму перекваліфікації або знизити ціни на 30%. Обґрунтуйте вибір, поєднуючи чинники SWOT."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Органічна овочева ферма обирає крок на наступні два роки."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Сильні сторони: ґрунт сертифікований як органічний уже 15 років; програма овочевих наборів із 900 підписниками й 92% продовжень."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Слабкі сторони: лише одне холодильне сховище; усі продажі власник веде особисто."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Можливості: дві міські школи хочуть органічні продукти для 1 500 обідів на день; у новому районі відкривається фермерський ринок."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Загрози: мережа супермаркетів запускає власні органічні набори на 20% дешевше; посушливі роки трапляються дедалі частіше."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Побудуйте матрицю TOWS з одним варіантом у кожній клітинці, а потім оберіть варіант, з якого почнете, і поясніть чому."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Регіональна мережа книгарень має п’ять магазинів і виручку $3,2 млн, яка вже три роки падає на 6% щороку. Персонал проводить 120 зустрічей з авторами на рік, і на кожній усі місця зайняті. Учасники програми лояльності витрачають $210 на рік проти $60 в інших клієнтів, але учасниками є лише 18% клієнтів. Оренда забирає 22% виручки; дві угоди оренди закінчуються наступного року. Інтернет-магазин дає 2% продажів, а сайт повільний. Зовні: онлайн-рітейлери продають бестселери на 25% дешевше. Два університети міста розширюються й додають 6 000 студентів, а міська рада пропонує знижену оренду культурним закладам у старому місті."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Складіть SWOT із найважливішим чинником у кожному квадранті, поєднайте їх у два варіанти, оберіть один і поясніть чому."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

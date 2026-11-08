@@ -1,0 +1,838 @@
+{
+	"slug": "economies-of-scale",
+	"topicId": 33,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What do economies of scale mean?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The average cost per unit falls as the business produces more"
+					},
+					{
+						"id": "B",
+						"text": "The total cost of the business falls as it produces more"
+					},
+					{
+						"id": "C",
+						"text": "Prices fall because customers buy more"
+					},
+					{
+						"id": "D",
+						"text": "Competitors cooperate to share production costs"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which source of savings is the main driver of economies of scale?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Higher selling prices on every unit"
+					},
+					{
+						"id": "B",
+						"text": "A lower number of customers with larger orders"
+					},
+					{
+						"id": "C",
+						"text": "Fixed costs spread over a larger number of units"
+					},
+					{
+						"id": "D",
+						"text": "Cheaper packaging chosen by the designer"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Economies of scale keep lowering the average cost of a business at any size."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If every rival can buy raw materials at the same volume discount, that discount does not give a company a lasting advantage."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery pays $12,000 a month in fixed costs, and each loaf costs $1.50 in flour and energy. At 10,000 loaves the average cost is $2.70. If the fixed costs stay the same, what is the average cost at 30,000 loaves?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$1.50"
+					},
+					{
+						"id": "B",
+						"text": "$1.90"
+					},
+					{
+						"id": "C",
+						"text": "$2.70"
+					},
+					{
+						"id": "D",
+						"text": "$0.40"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are sources of economies of scale for a furniture factory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Customers like the brand more"
+					},
+					{
+						"id": "B",
+						"text": "The owner raises the price of each table"
+					},
+					{
+						"id": "C",
+						"text": "The timber supplier gives 10% off orders above a volume threshold"
+					},
+					{
+						"id": "D",
+						"text": "The rent doubles when a second shift is added"
+					},
+					{
+						"id": "E",
+						"text": "A specialised cutting machine that pays for itself only at high volume"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software firm and a furniture maker each double output. Whose cost per unit is likely to fall more?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The furniture maker, because it can buy more wood"
+					},
+					{
+						"id": "B",
+						"text": "Both the same, because output doubled for each"
+					},
+					{
+						"id": "C",
+						"text": "The software firm, because its costs are almost all fixed"
+					},
+					{
+						"id": "D",
+						"text": "Neither, because costs always rise with output"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Bottled-water makers reach their lowest unit cost at about 40 million bottles a year (the minimum efficient scale) at $0.30 a bottle. An entrant plans 8 million bottles and expects a unit cost of $0.45, while the market price is $0.40. What does this mean?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The entrant has a permanent cost handicap and should either seek a niche that sells above $0.45 or find a way to reach much higher volume"
+					},
+					{
+						"id": "B",
+						"text": "The entrant can match incumbents through better branding alone"
+					},
+					{
+						"id": "C",
+						"text": "The entrant should cut its price to $0.30 to win market share"
+					},
+					{
+						"id": "D",
+						"text": "The entrant will reach $0.30 as soon as it opens"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company plans to double its factory capacity. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Scale economies guarantee profit even if demand stays flat."
+					},
+					{
+						"id": "B",
+						"text": "Unit cost falls only on units actually sold, so orders should be secured before capacity is added."
+					},
+					{
+						"id": "C",
+						"text": "A larger factory always makes the company more flexible."
+					},
+					{
+						"id": "D",
+						"text": "Cloud services and contract manufacturing can reduce the fixed costs that gave large firms an edge."
+					},
+					{
+						"id": "E",
+						"text": "A volume discount from a supplier is always a lasting advantage."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A logistics company grows from 300 to 3,000 staff, and the cost per order rises. What has probably happened?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Fixed costs were spread over too many orders"
+					},
+					{
+						"id": "B",
+						"text": "Suppliers stopped giving volume discounts"
+					},
+					{
+						"id": "C",
+						"text": "The company reached its minimum efficient scale, so costs should have stopped falling but not risen"
+					},
+					{
+						"id": "D",
+						"text": "Diseconomies of scale: coordination, bureaucracy and slower communication outweighed the savings from size"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coffee roastery has fixed costs of $60,000 a year and spends $4 per kilogram on beans, packaging and energy. Calculate the average cost per kilogram at 20,000 kg and at 60,000 kg, assuming fixed costs do not change, and explain the change."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain what diseconomies of scale are and why they appear. Use a delivery company that grows quickly as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A workshop makes 4,000 chairs a year with fixed costs of $200,000 and a variable cost of $35 per chair. A hotel chain offers to buy 10,000 chairs at $60 each. Taking the order needs a second shift, which adds $60,000 in fixed costs. Choose one: accept the order, decline it, or counter with a higher price. Justify with numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A chain of 12 regional supermarkets faces a national discounter with 200 stores that buys at about 12% lower prices. Choose one: match the discounter’s prices, focus on fresh local products and service, or merge with another regional chain. Explain the role of economies of scale and the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A manufacturer sells 80,000 units a year at $44 from its plant with fixed costs of $1.5 million and a variable cost of $22. A new plant would have capacity for 200,000 units, fixed costs of $3 million and a variable cost of $20. A possible new customer may raise demand to 120,000 units by year three, but nothing is signed."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate average costs, find the volume at which the new plant breaks even against the price, and recommend a decision."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що означає економія на масштабі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Середня собівартість одиниці падає, коли бізнес виробляє більше"
+					},
+					{
+						"id": "B",
+						"text": "Загальні витрати бізнесу падають, коли він виробляє більше"
+					},
+					{
+						"id": "C",
+						"text": "Ціни падають, бо клієнти купують більше"
+					},
+					{
+						"id": "D",
+						"text": "Конкуренти співпрацюють, щоб ділити витрати виробництва"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке джерело економії є головним рушієм економії на масштабі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вищі ціни продажу кожної одиниці"
+					},
+					{
+						"id": "B",
+						"text": "Менша кількість клієнтів із більшими замовленнями"
+					},
+					{
+						"id": "C",
+						"text": "Постійні витрати, розподілені на більшу кількість одиниць"
+					},
+					{
+						"id": "D",
+						"text": "Дешевше пакування, яке обрав дизайнер"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Економія на масштабі продовжує знижувати середні витрати бізнесу за будь-якого розміру."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо всі конкуренти можуть купувати сировину з тією самою знижкою за обсяг, ця знижка не дає компанії тривалої переваги."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пекарня сплачує $12 000 на місяць постійних витрат, а кожен буханець коштує $1,50 борошна й енергії. За 10 000 буханців середня собівартість $2,70. Якщо постійні витрати не змінюються, якою буде середня собівартість за 30 000 буханців?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$1,50"
+					},
+					{
+						"id": "B",
+						"text": "$1,90"
+					},
+					{
+						"id": "C",
+						"text": "$2,70"
+					},
+					{
+						"id": "D",
+						"text": "$0,40"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " варіанти є джерелами економії на масштабі для меблевої фабрики?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Клієнтам більше подобається бренд"
+					},
+					{
+						"id": "B",
+						"text": "Власник підвищує ціну кожного столу"
+					},
+					{
+						"id": "C",
+						"text": "Постачальник деревини дає знижку 10% на замовлення понад порогом обсягу"
+					},
+					{
+						"id": "D",
+						"text": "Оренда подвоюється, коли додають другу зміну"
+					},
+					{
+						"id": "E",
+						"text": "Спеціалізований верстат для різання, що окупається лише за великого обсягу"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Софтверна фірма й виробник меблів удвічі збільшують випуск. Чия собівартість одиниці, найімовірніше, впаде сильніше?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Виробника меблів, бо він може купувати більше деревини"
+					},
+					{
+						"id": "B",
+						"text": "Однаково, бо випуск подвоївся в обох"
+					},
+					{
+						"id": "C",
+						"text": "Софтверної фірми, бо її витрати майже повністю постійні"
+					},
+					{
+						"id": "D",
+						"text": "Ні в кого, бо витрати завжди зростають із випуском"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробники бутильованої води досягають найнижчої собівартості приблизно за 40 млн пляшок на рік (мінімальний ефективний масштаб) з $0,30 за пляшку. Новий гравець планує 8 млн пляшок і очікує собівартість $0,45, а ринкова ціна $0,40. Що це означає?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Новачок має постійний програш у витратах і має або шукати нішу, що продає вище за $0,45, або знайти спосіб набрати значно більший обсяг"
+					},
+					{
+						"id": "B",
+						"text": "Новачок може зрівнятися з лідерами самим лише брендингом"
+					},
+					{
+						"id": "C",
+						"text": "Новачок має знизити ціну до $0,30, щоб здобути частку ринку"
+					},
+					{
+						"id": "D",
+						"text": "Новачок досягне $0,30, щойно відкриється"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія планує подвоїти потужність фабрики. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Економія на масштабі гарантує прибуток, навіть якщо попит не зростає."
+					},
+					{
+						"id": "B",
+						"text": "Собівартість падає лише на реально проданих одиницях, тож замовлення варто забезпечити до розширення."
+					},
+					{
+						"id": "C",
+						"text": "Більша фабрика завжди робить компанію гнучкішою."
+					},
+					{
+						"id": "D",
+						"text": "Хмарні сервіси й контрактне виробництво можуть зменшити постійні витрати, які давали великим фірмам перевагу."
+					},
+					{
+						"id": "E",
+						"text": "Знижка постачальника за обсяг завжди дає тривалу перевагу."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Логістична компанія виросла з 300 до 3 000 працівників, і вартість одного замовлення зросла. Що, найімовірніше, сталося?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Постійні витрати розподілилися на надто багато замовлень"
+					},
+					{
+						"id": "B",
+						"text": "Постачальники припинили давати знижки за обсяг"
+					},
+					{
+						"id": "C",
+						"text": "Компанія досягла мінімального ефективного масштабу, тож витрати мали перестати падати, але не зростати"
+					},
+					{
+						"id": "D",
+						"text": "Негативний ефект масштабу: координація, бюрократія й повільніша комунікація переважили економію від розміру"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обсмажувальна кави має постійні витрати $60 000 на рік і витрачає $4 на кілограм на зерно, пакування й енергію. Розрахуйте середню собівартість кілограма за 20 000 кг і за 60 000 кг, припускаючи, що постійні витрати не змінюються, і поясніть зміну."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, що таке негативний ефект масштабу і чому він виникає. Використайте як приклад службу доставки, що швидко зростає."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Майстерня виготовляє 4 000 стільців на рік із постійними витратами $200 000 і змінними $35 на стілець. Мережа готелів пропонує купити 10 000 стільців по $60. Для виконання замовлення потрібна друга зміна, що додає $60 000 постійних витрат. Оберіть одне: прийняти замовлення, відмовитися або запропонувати вищу ціну. Обґрунтуйте числами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа з 12 регіональних супермаркетів стикається з національним дискаунтером на 200 магазинів, який закуповує приблизно на 12% дешевше. Оберіть одне: зрівняти ціни з дискаунтером, зосередитися на свіжих місцевих продуктах і сервісі або об’єднатися з іншою регіональною мережею. Поясніть роль економії на масштабі й компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Виробник продає 80 000 одиниць на рік по $44 зі свого заводу з постійними витратами $1,5 млн і змінними $22. Новий завод мав би потужність 200 000 одиниць, постійні витрати $3 млн і змінні $20. Можливий новий клієнт може підняти попит до 120 000 одиниць до третього року, але нічого не підписано."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розрахуйте середні витрати, знайдіть обсяг беззбитковості нового заводу відносно ціни й порекомендуйте рішення."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

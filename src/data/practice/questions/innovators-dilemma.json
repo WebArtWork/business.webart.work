@@ -1,0 +1,934 @@
+{
+	"slug": "innovators-dilemma",
+	"topicId": 28,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does Christensen call the improvements that a leader's best customers value and that leaders usually win?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Disruptive innovation"
+					},
+					{
+						"id": "B",
+						"text": "Performance oversupply"
+					},
+					{
+						"id": "C",
+						"text": "Resource dependence"
+					},
+					{
+						"id": "D",
+						"text": "Sustaining innovation"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which situation fits the pattern of a disruptive entrant?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A rival launches a faster, more expensive lab analyser for top hospitals."
+					},
+					{
+						"id": "B",
+						"text": "A startup sells a simple, cheap blood-test device to small rural clinics that could never afford an analyser."
+					},
+					{
+						"id": "C",
+						"text": "A competitor copies the leader's analyser and sells it at the same price."
+					},
+					{
+						"id": "D",
+						"text": "A rival buys one of the leader's key suppliers."
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "According to the theory, incumbents lose to disruptors mainly because their managers lack talent."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "When a product's performance overshoots what most customers can use, room opens up for cheaper, simpler offers below it."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why would a well-run company with $800 million in revenue rationally pass on a new market worth $6 million a year?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Small markets always fail in the end"
+					},
+					{
+						"id": "B",
+						"text": "Disruptors usually hold patents that block incumbents"
+					},
+					{
+						"id": "C",
+						"text": "It barely moves growth, and its low margins drag down the numbers managers are judged on"
+					},
+					{
+						"id": "D",
+						"text": "Its customers have formally asked it to stay out"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A leading accounting-software vendor sells to mid-size firms. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " signs suggest a disruptive threat?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Its biggest clients ask for more advanced consolidation features."
+					},
+					{
+						"id": "B",
+						"text": "A free, simple mobile app is spreading among sole traders who never bought accounting software."
+					},
+					{
+						"id": "C",
+						"text": "A rival vendor raised its prices by 10%."
+					},
+					{
+						"id": "D",
+						"text": "The vendor's latest release won an industry award."
+					},
+					{
+						"id": "E",
+						"text": "The simple app adds a feature every quarter, and some small firms have already switched to it."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A maker of premium hearing aids ($4,000 a pair) sees $300 over-the-counter earbuds with a hearing boost. Audiologists at its top clinics call them inadequate and ask for better noise processing instead. What is the best move?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Watch non-customers and low-end buyers and track how fast the cheap devices improve, rather than relying on the top clinics' view"
+					},
+					{
+						"id": "B",
+						"text": "Follow the clinics' advice and ignore the earbuds"
+					},
+					{
+						"id": "C",
+						"text": "Sue the earbud makers for patent infringement"
+					},
+					{
+						"id": "D",
+						"text": "Cut the price of premium aids by 50% straight away"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bank built a simple, low-fee mobile account inside its main retail division. The new product is judged by the division's 25% margin target and competes for the same IT budget. After a year it is starved of resources. What should the board do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Merge it fully into the main product line so it gets the same attention"
+					},
+					{
+						"id": "B",
+						"text": "Move it into an autonomous unit with its own targets, cost base and customers"
+					},
+					{
+						"id": "C",
+						"text": "Raise its fees until it meets the 25% margin target"
+					},
+					{
+						"id": "D",
+						"text": "Close it, since the margin results show it is not viable"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An analyst calls a new electric luxury sports-car brand, which is faster and pricier than existing models, \"disruptive\" for established luxury makers. He advises them to ask their best buyers whether they would buy it. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " mistakes did he make?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "He compared the cars on performance."
+					},
+					{
+						"id": "B",
+						"text": "He considered whether the newcomer could take some of the incumbents' sales."
+					},
+					{
+						"id": "C",
+						"text": "He called a better, more expensive product for top customers disruptive."
+					},
+					{
+						"id": "D",
+						"text": "He suggested asking the best customers whether to adopt the new technology."
+					},
+					{
+						"id": "E",
+						"text": "He said a separate unit might be needed if the threat proved real."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A board member says the Innovator's Dilemma is useless because it cannot tell in advance which cheap product will improve enough. Which response is most balanced?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "He is wrong: the theory predicts disruption precisely."
+					},
+					{
+						"id": "B",
+						"text": "He is right, and critics have shown the theory is false, so ignore it."
+					},
+					{
+						"id": "C",
+						"text": "It is a fair limit: the theory explains failures well in hindsight, so use it to monitor trajectories and hedge, not as a forecast."
+					},
+					{
+						"id": "D",
+						"text": "The theory only applies to the hard-disk industry it came from."
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A maker of professional cameras sells mostly to wedding photographers, who keep asking for better sensors. Ten years ago it dismissed phone cameras as toys. Explain, using the theory's ideas, how the threat grew, and name one indicator the firm should have tracked."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain resource dependence and why it makes a well-run firm starve disruptive projects. Use a textbook publisher facing free online course materials as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An industrial printer maker earns $300 million a year at a 35% margin, mostly from aerospace clients. A startup sells $2,000 desktop 3D printers to hobbyists and schools at a 10% margin; quality is low but improving fast. Options: invest $15 million in an even better machine for aerospace clients, buy the startup and fold it into the main sales team, or set up an autonomous unit with $5 million, its own pricing and growth targets. Choose one and justify it with the theory."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A freight company worries that a drone-delivery startup will disrupt it."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Drones carry up to 2 kg over 10 km. Payload has grown from 1.5 kg to 2 kg in three years."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "70% of the company's revenue comes from pallets over 200 kg."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "City rules limit drone flights to a few test zones."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Options: create a $20 million drone unit now, set up monitoring with clear triggers, or ignore drones completely. Choose one and justify it, including the theory's limits."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A chain of 40 driving schools earns $12 million a year at a 28% margin, charging $45 an hour for lessons with an instructor."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A startup offers practice on driving simulators in shopping centres at $15 an hour. Its learners' first-time pass rate rose from 38% to 52% in one year; the chain's is 71%."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Corporate fleet training brings the chain 30% of revenue, and those clients say simulators are useless. Among young first-time learners, 8% switched to the startup this year."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Diagnose the threat using the Innovator's Dilemma and recommend how the chain should respond."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Як Крістенсен називає покращення, які цінують найкращі клієнти лідера і в яких лідери зазвичай перемагають?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Підривні інновації"
+					},
+					{
+						"id": "B",
+						"text": "Надлишок продуктивності"
+					},
+					{
+						"id": "C",
+						"text": "Залежність від ресурсів"
+					},
+					{
+						"id": "D",
+						"text": "Підтримувальні інновації"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка ситуація відповідає моделі підривного новачка?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Конкурент випускає швидший і дорожчий лабораторний аналізатор для провідних лікарень."
+					},
+					{
+						"id": "B",
+						"text": "Стартап продає простий дешевий прилад для аналізу крові невеликим сільським клінікам, які ніколи не могли дозволити собі аналізатор."
+					},
+					{
+						"id": "C",
+						"text": "Конкурент копіює аналізатор лідера й продає його за тією самою ціною."
+					},
+					{
+						"id": "D",
+						"text": "Конкурент купує одного з ключових постачальників лідера."
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Згідно з теорією, лідери програють підривникам насамперед через те, що їхнім менеджерам бракує таланту."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Коли продуктивність продукту перевищує те, чим може скористатися більшість клієнтів, нижче звільняється місце для дешевших і простіших пропозицій."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому добре керована компанія з виручкою $800 млн раціонально відмовляється від нового ринку на $6 млн на рік?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Малі ринки зрештою завжди провалюються"
+					},
+					{
+						"id": "B",
+						"text": "Підривники зазвичай мають патенти, що блокують лідерів"
+					},
+					{
+						"id": "C",
+						"text": "Він майже не впливає на зростання, а його низька маржа псує показники, за якими оцінюють менеджерів"
+					},
+					{
+						"id": "D",
+						"text": "Клієнти офіційно попросили її не заходити на цей ринок"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Провідний розробник бухгалтерських програм продає їх середнім компаніям. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " ознаки вказують на підривну загрозу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Найбільші клієнти просять складніших функцій консолідації."
+					},
+					{
+						"id": "B",
+						"text": "Безкоштовний простий мобільний застосунок поширюється серед ФОП, які ніколи не купували бухгалтерських програм."
+					},
+					{
+						"id": "C",
+						"text": "Конкурент підвищив ціни на 10%."
+					},
+					{
+						"id": "D",
+						"text": "Останній реліз компанії отримав галузеву нагороду."
+					},
+					{
+						"id": "E",
+						"text": "Простий застосунок щокварталу додає функцію, і деякі малі фірми вже перейшли на нього."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник преміальних слухових апаратів ($4 000 за пару) бачить навушники за $300 із функцією підсилення слуху, які продають без рецепта. Аудіологи провідних клінік називають їх неповноцінними й натомість просять кращого шумопригнічення. Який крок найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Спостерігати за тими, хто не купує, і покупцями нижнього сегмента та відстежувати, як швидко покращуються дешеві пристрої, а не покладатися на думку провідних клінік"
+					},
+					{
+						"id": "B",
+						"text": "Послухатися клінік і ігнорувати навушники"
+					},
+					{
+						"id": "C",
+						"text": "Подати до суду на виробників навушників за порушення патентів"
+					},
+					{
+						"id": "D",
+						"text": "Негайно знизити ціни на преміальні апарати на 50%"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Банк створив простий рахунок у мобільному застосунку з низькими комісіями всередині основного роздрібного підрозділу. Новий продукт оцінюють за цільовою маржею підрозділу 25%, і він змагається за той самий ІТ-бюджет. За рік він залишився без ресурсів. Що має зробити рада директорів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Повністю влити його в основну продуктову лінійку, щоб він отримував таку саму увагу"
+					},
+					{
+						"id": "B",
+						"text": "Винести його в автономний підрозділ із власними цілями, витратами й клієнтами"
+					},
+					{
+						"id": "C",
+						"text": "Підвищити комісії, доки він не досягне маржі 25%"
+					},
+					{
+						"id": "D",
+						"text": "Закрити його, бо результати за маржею доводять його неспроможність"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Аналітик називає новий бренд електричних люксових спорткарів, швидших і дорожчих за наявні моделі, «підривним» для визнаних люксових виробників. Він радить їм запитати найкращих покупців, чи купили б ті такий автомобіль. Яких "
+							},
+							{
+								"t": "двох",
+								"b": true
+							},
+							{
+								"t": " помилок він припустився?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Порівняв автомобілі за продуктивністю."
+					},
+					{
+						"id": "B",
+						"text": "Розглянув, чи може новачок забрати частину продажів лідерів."
+					},
+					{
+						"id": "C",
+						"text": "Назвав підривним кращий і дорожчий продукт для найвибагливіших клієнтів."
+					},
+					{
+						"id": "D",
+						"text": "Порадив питати найкращих клієнтів, чи варто впроваджувати нову технологію."
+					},
+					{
+						"id": "E",
+						"text": "Сказав, що може знадобитися окремий підрозділ, якщо загроза підтвердиться."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Член ради директорів каже, що дилема інноватора марна, бо не може заздалегідь сказати, який дешевий продукт покращиться достатньо. Яка відповідь найзваженіша?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він помиляється: теорія точно передбачає підрив."
+					},
+					{
+						"id": "B",
+						"text": "Він має рацію, критики довели хибність теорії, тож її варто ігнорувати."
+					},
+					{
+						"id": "C",
+						"text": "Це слушне обмеження: теорія добре пояснює провали заднім числом, тож її варто використовувати для відстеження траєкторій і страхування, а не як прогноз."
+					},
+					{
+						"id": "D",
+						"text": "Теорія стосується лише галузі жорстких дисків, з якої виросла."
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник професійних фотокамер продає їх переважно весільним фотографам, які постійно просять кращих сенсорів. Десять років тому він вважав камери телефонів іграшками. Поясніть за допомогою ідей теорії, як зростала загроза, і назвіть один показник, який фірмі варто було відстежувати."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, що таке залежність від ресурсів і чому через неї добре керована фірма позбавляє ресурсів підривні проєкти. Використайте як приклад видавництво підручників, яке стикається з безкоштовними онлайн-матеріалами для курсів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник промислових принтерів заробляє $300 млн на рік із маржею 35%, переважно на клієнтах з авіакосмічної галузі. Стартап продає настільні 3D-принтери за $2 000 аматорам і школам із маржею 10%; якість низька, але швидко зростає. Варіанти: вкласти $15 млн у ще кращу машину для авіакосмічних клієнтів, купити стартап і передати його основному відділу продажів або створити автономний підрозділ із бюджетом $5 млн, власними цінами й цілями зростання. Оберіть один варіант і обґрунтуйте його теорією."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Вантажна компанія боїться, що стартап доставки дронами її підірве."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Дрони перевозять до 2 кг на відстань до 10 км. За три роки вантажопідйомність зросла з 1,5 до 2 кг."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "70% виручки компанії дають палети вагою понад 200 кг."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Міські правила дозволяють польоти дронів лише в кількох тестових зонах."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Варіанти: негайно створити підрозділ дронів за $20 млн, налаштувати моніторинг із чіткими тригерами або повністю ігнорувати дрони. Оберіть один варіант і обґрунтуйте його, зокрема з урахуванням обмежень теорії."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Мережа з 40 автошкіл заробляє $12 млн на рік із маржею 28%, беручи $45 за годину заняття з інструктором."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Стартап пропонує практику на симуляторах водіння в торговельних центрах за $15 на годину. Частка його учнів, які складають іспит з першої спроби, за рік зросла з 38% до 52%; у мережі вона становить 71%."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Корпоративне навчання водіїв автопарків дає мережі 30% виручки, і ці клієнти кажуть, що симулятори марні. Серед молодих учнів, які вчаться вперше, 8% цього року перейшли до стартапу."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте загрозу за допомогою дилеми інноватора й порадьте, як мережі на неї відповісти."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

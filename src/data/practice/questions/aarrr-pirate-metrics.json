@@ -1,0 +1,884 @@
+{
+	"slug": "aarrr-pirate-metrics",
+	"topicId": 43,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which AARRR stage measures the share of new users who reach a first meaningful action, often called the “aha moment”?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Acquisition"
+					},
+					{
+						"id": "B",
+						"text": "Retention"
+					},
+					{
+						"id": "C",
+						"text": "Activation"
+					},
+					{
+						"id": "D",
+						"text": "Referral"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which measurement belongs to the "
+							},
+							{
+								"t": "Referral",
+								"b": true
+							},
+							{
+								"t": " stage?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The share of users who invite at least one other person"
+					},
+					{
+						"id": "B",
+						"text": "Visits to the website per marketing channel"
+					},
+					{
+						"id": "C",
+						"text": "The share of a sign-up cohort still using the product after 30 days"
+					},
+					{
+						"id": "D",
+						"text": "Average revenue per paying user"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Retention is best tracked by cohort, meaning groups of users who signed up in the same period."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A rising number of total downloads proves that users are getting value from the app."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A language-learning app gets 8,000 sign-ups a month, and 6,400 of them never finish the first lesson. Which stage is leaking?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Acquisition"
+					},
+					{
+						"id": "B",
+						"text": "Activation"
+					},
+					{
+						"id": "C",
+						"text": "Revenue"
+					},
+					{
+						"id": "D",
+						"text": "Referral"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A project-management tool defines its AARRR stages. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " definitions are based on actions that signal real use?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Activation: the user creates a first project and adds at least one task."
+					},
+					{
+						"id": "B",
+						"text": "Acquisition: the number of banner impressions on partner sites."
+					},
+					{
+						"id": "C",
+						"text": "Total downloads since the product launched."
+					},
+					{
+						"id": "D",
+						"text": "Retention: the share of a sign-up cohort that still creates tasks 30 days later."
+					},
+					{
+						"id": "E",
+						"text": "Total page views of the company blog."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A budgeting app reviews last month:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "10,000 visitors, 3,000 sign-ups, 600 users created a first budget, 420 of them were still active after 30 days, 126 of those upgraded to a paid plan."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The team can run experiments on only one stage. Which should it be?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Retention, because only 420 users stayed"
+					},
+					{
+						"id": "B",
+						"text": "Acquisition, because only 30% of visitors signed up"
+					},
+					{
+						"id": "C",
+						"text": "Revenue, because 126 paying users is a small number"
+					},
+					{
+						"id": "D",
+						"text": "Activation, because 80% of sign-ups never create a first budget"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A team finds that users who invite a colleague during the first week stay twice as long as users who do not. What is the best next step?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Move the invite step earlier in onboarding and test whether prompting it raises both referral and retention"
+					},
+					{
+						"id": "B",
+						"text": "Make an invite compulsory before anyone can use the product"
+					},
+					{
+						"id": "C",
+						"text": "Conclude that invites cause retention and put the whole budget into referral rewards"
+					},
+					{
+						"id": "D",
+						"text": "Ignore it, since referral comes after retention in the funnel"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company runs both a tax-filing app and a daily note-taking app. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements about defining the stages are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "One set of thresholds, such as “weekly active”, should be used for every product."
+					},
+					{
+						"id": "B",
+						"text": "A tax tool is naturally used a few times a year, so a weekly activity threshold would make its retention look poor for no real reason."
+					},
+					{
+						"id": "C",
+						"text": "Retention should be calculated as today’s active users divided by all sign-ups ever."
+					},
+					{
+						"id": "D",
+						"text": "Referral must always be measured before retention."
+					},
+					{
+						"id": "E",
+						"text": "Definitions should be reviewed when the product or the way people use it changes."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A referral programme gives a $10 credit for every invited friend. Sign-ups rise by 40%, but the share of new users who reach activation falls from 30% to 12%. How should the team read this?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The programme is a success because sign-ups are the main goal"
+					},
+					{
+						"id": "B",
+						"text": "Onboarding has become worse for every user and must be rebuilt"
+					},
+					{
+						"id": "C",
+						"text": "The reward attracts people who want the credit, so the programme should be judged by activated and retained users, not sign-ups"
+					},
+					{
+						"id": "D",
+						"text": "Referral programmes should be stopped in all products"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A budgeting app had 8,000 visitors, 1,600 sign-ups, 400 users who sent a first invoice, 160 still active after 30 days and 56 who paid. Calculate the conversion rate for the three steps after sign-up and name the stage that should be fixed first."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why improving an early funnel stage lifts all later numbers. Use a numerical example with 1,000 sign-ups."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meditation app gets 50,000 downloads a month, but only 3% of users open it a week later. You have $30,000 for the next quarter. Choose one: double the advertising to get more downloads, rebuild onboarding so that a first session starts within two minutes, or add paid features to raise revenue per user. Justify the choice using AARRR stages."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company sells accounting software to mid-size firms. It has 40 customers, each deal takes six months and includes demos, a pilot and a legal review. The board wants AARRR as the only growth dashboard. Recommend whether to adopt it, adapt it or reject it, and explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A recipe and meal-planning app spends $8,000 a month on advertising. Last month: 20,000 visits, 4,000 sign-ups, 1,000 users who saved a first meal plan (activation), 600 of them still active after 30 days, 90 of those invited a friend, and 60 paid $8 a month. The onboarding has nine screens and asks for dietary preferences, budget and cooking time before showing any recipes."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the stage rates and the advertising cost per paying user, choose the stage to fix first, propose two experiments with a success metric, and say what AARRR would not tell the team here."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який етап AARRR вимірює частку нових користувачів, що виконали першу значущу дію, яку часто називають «момент ага»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Залучення (Acquisition)"
+					},
+					{
+						"id": "B",
+						"text": "Утримання (Retention)"
+					},
+					{
+						"id": "C",
+						"text": "Активація (Activation)"
+					},
+					{
+						"id": "D",
+						"text": "Рекомендації (Referral)"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який вимір належить до етапу "
+							},
+							{
+								"t": "Рекомендації",
+								"b": true
+							},
+							{
+								"t": " (Referral)?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Частка користувачів, які запросили щонайменше одну людину"
+					},
+					{
+						"id": "B",
+						"text": "Візити на сайт за маркетинговими каналами"
+					},
+					{
+						"id": "C",
+						"text": "Частка когорти реєстрацій, що користується продуктом через 30 днів"
+					},
+					{
+						"id": "D",
+						"text": "Середній дохід на користувача, який платить"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Утримання найкраще відстежувати за когортами, тобто групами користувачів, що зареєструвалися в один період."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Зростання загальної кількості завантажень доводить, що користувачі отримують цінність від застосунку."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для вивчення мов отримує 8 000 реєстрацій на місяць, і 6 400 із них так і не проходять перший урок. Який етап «протікає»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Залучення"
+					},
+					{
+						"id": "B",
+						"text": "Активація"
+					},
+					{
+						"id": "C",
+						"text": "Дохід"
+					},
+					{
+						"id": "D",
+						"text": "Рекомендації"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інструмент управління проєктами визначає свої етапи AARRR. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " визначення ґрунтуються на діях, що свідчать про справжнє використання?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Активація: користувач створює перший проєкт і додає щонайменше одне завдання."
+					},
+					{
+						"id": "B",
+						"text": "Залучення: кількість показів банера на партнерських сайтах."
+					},
+					{
+						"id": "C",
+						"text": "Загальна кількість завантажень від запуску продукту."
+					},
+					{
+						"id": "D",
+						"text": "Утримання: частка когорти реєстрацій, що й через 30 днів створює завдання."
+					},
+					{
+						"id": "E",
+						"text": "Загальна кількість переглядів сторінок блогу компанії."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для бюджету аналізує минулий місяць:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "10 000 відвідувачів, 3 000 реєстрацій, 600 користувачів створили перший бюджет, 420 із них були активні й через 30 днів, 126 із цих 420 перейшли на платний тариф."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда може проводити експерименти лише над одним етапом. Яким?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Утриманням, бо лишилося лише 420 користувачів"
+					},
+					{
+						"id": "B",
+						"text": "Залученням, бо зареєструвалося лише 30% відвідувачів"
+					},
+					{
+						"id": "C",
+						"text": "Доходом, бо 126 платних користувачів це мало"
+					},
+					{
+						"id": "D",
+						"text": "Активацією, бо 80% зареєстрованих так і не створюють перший бюджет"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда помічає, що користувачі, які запросили колегу в перший тиждень, залишаються вдвічі довше за тих, хто не запрошував. Який наступний крок найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Перенести крок запрошення раніше в онбординг і перевірити, чи нагадування підвищує і рекомендації, і утримання"
+					},
+					{
+						"id": "B",
+						"text": "Зробити запрошення обов’язковим, перш ніж будь-хто зможе користуватися продуктом"
+					},
+					{
+						"id": "C",
+						"text": "Вирішити, що запрошення спричиняють утримання, і вкласти весь бюджет у винагороди за рекомендації"
+					},
+					{
+						"id": "D",
+						"text": "Проігнорувати, бо рекомендації йдуть після утримання у воронці"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія має і застосунок для подання податкової звітності, і щоденний застосунок для нотаток. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження про визначення етапів правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Один набір порогів, наприклад «активний щотижня», слід використовувати для кожного продукту."
+					},
+					{
+						"id": "B",
+						"text": "Податковий інструмент природно використовують кілька разів на рік, тож тижневий поріг активності зробить його утримання поганим без реальної причини."
+					},
+					{
+						"id": "C",
+						"text": "Утримання слід рахувати як кількість сьогоднішніх активних користувачів, поділену на всі реєстрації за весь час."
+					},
+					{
+						"id": "D",
+						"text": "Рекомендації завжди слід вимірювати раніше за утримання."
+					},
+					{
+						"id": "E",
+						"text": "Визначення слід переглядати, коли змінюється продукт або спосіб користування ним."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Програма рекомендацій дає кредит $10 за кожного запрошеного друга. Реєстрації зростають на 40%, але частка нових користувачів, що доходять до активації, падає з 30% до 12%. Як команді це прочитати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Програма успішна, бо реєстрації це головна мета"
+					},
+					{
+						"id": "B",
+						"text": "Онбординг погіршився для всіх користувачів і його треба переробити"
+					},
+					{
+						"id": "C",
+						"text": "Винагорода приваблює людей, яким потрібен кредит, тож програму слід оцінювати за активованими й утриманими користувачами, а не за реєстраціями"
+					},
+					{
+						"id": "D",
+						"text": "Програми рекомендацій слід зупинити в усіх продуктах"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для бюджету мав 8 000 відвідувачів, 1 600 реєстрацій, 400 користувачів, що надіслали перший рахунок, 160 активних і через 30 днів та 56 тих, хто заплатив. Обчисліть конверсію трьох кроків після реєстрації й назвіть етап, який слід виправляти першим."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому покращення раннього етапу воронки піднімає всі наступні показники. Наведіть числовий приклад на 1 000 реєстрацій."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для медитації отримує 50 000 завантажень на місяць, але через тиждень його відкриває лише 3% користувачів. У вас $30 000 на наступний квартал. Оберіть одне: удвічі збільшити рекламу, щоб отримати більше завантажень, переробити онбординг так, щоб перша сесія починалася за дві хвилини, або додати платні функції, щоб підвищити дохід на користувача. Обґрунтуйте вибір етапами AARRR."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія продає бухгалтерське програмне забезпечення середнім фірмам. У неї 40 клієнтів, кожна угода триває шість місяців і включає демонстрації, пілот і юридичну перевірку. Рада директорів хоче AARRR як єдину панель зростання. Порадьте, чи впроваджувати її, адаптувати чи відхилити, і поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Застосунок рецептів і планування харчування витрачає $8 000 на місяць на рекламу. Минулого місяця: 20 000 візитів, 4 000 реєстрацій, 1 000 користувачів зберегли перший план харчування (активація), 600 із них були активні й через 30 днів, 90 із цих 600 запросили друга, а 60 платили $8 на місяць. Онбординг має дев’ять екранів і перед показом будь-яких рецептів питає про дієтичні вподобання, бюджет і час на готування."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обчисліть показники етапів і вартість реклами на одного платного користувача, оберіть етап для виправлення першим, запропонуйте два експерименти з метрикою успіху й скажіть, чого AARRR тут команді не покаже."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

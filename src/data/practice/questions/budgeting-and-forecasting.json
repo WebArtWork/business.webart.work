@@ -1,0 +1,838 @@
+{
+	"slug": "budgeting-and-forecasting",
+	"topicId": 68,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the difference between a budget and a forecast?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "They are the same document under two names"
+					},
+					{
+						"id": "B",
+						"text": "A budget is the plan the business commits to, and a forecast is its current best estimate of what will happen"
+					},
+					{
+						"id": "C",
+						"text": "A budget covers only costs, and a forecast covers only revenue"
+					},
+					{
+						"id": "D",
+						"text": "A budget is prepared by the bank, and a forecast by the owner"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A shop budgeted sales of $500,000 and made $460,000. How is the variance described?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$40,000 favourable"
+					},
+					{
+						"id": "B",
+						"text": "$460,000 unfavourable"
+					},
+					{
+						"id": "C",
+						"text": "8% favourable"
+					},
+					{
+						"id": "D",
+						"text": "$40,000 unfavourable"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A rolling forecast is updated regularly, for example monthly, and always covers the next 12 to 18 months."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A budget built as last year’s figures plus 5% is a driver-based budget."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery budgeted 10,000 loaves, with ingredients at $0.80 per loaf, so $8,000. It baked 12,000 loaves and spent $9,000 on ingredients. How should the ingredient cost be judged?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$600 favourable against the flexible budget (12,000 × $0.80 = $9,600)"
+					},
+					{
+						"id": "B",
+						"text": "$1,000 unfavourable, because spending is above the original budget"
+					},
+					{
+						"id": "C",
+						"text": "Exactly on budget, because the cost per loaf is $0.75 and nobody can say more"
+					},
+					{
+						"id": "D",
+						"text": "It cannot be judged until the end of the year"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A gym chain is building a driver-based budget. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of these are drivers?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The number of paying members"
+					},
+					{
+						"id": "B",
+						"text": "Last year’s total revenue plus 5%"
+					},
+					{
+						"id": "C",
+						"text": "The average monthly fee per member"
+					},
+					{
+						"id": "D",
+						"text": "The bonus pool that the directors would like to receive"
+					},
+					{
+						"id": "E",
+						"text": "Last year’s overhead costs"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A driving school budgeted 200 students at $600 for the quarter, $120,000. It enrolled 180 students, each paying $600. What explains the $12,000 shortfall?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A price variance, because fees fell"
+					},
+					{
+						"id": "B",
+						"text": "An efficiency variance, because instructors were slow"
+					},
+					{
+						"id": "C",
+						"text": "A volume variance: fewer students at the planned fee"
+					},
+					{
+						"id": "D",
+						"text": "There is no shortfall, because the fee was on target"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A retailer’s budget, set in October, projected $5.0 million of sales. In March a competitor opened nearby, and the current run rate points to $4.3 million. The CEO wants to keep reporting only against the budget until year-end. What is the best approach?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Rewrite the budget every month so that the variance is always zero"
+					},
+					{
+						"id": "B",
+						"text": "Keep the budget as the target, but publish a separate rolling forecast every month and decide actions from it"
+					},
+					{
+						"id": "C",
+						"text": "Wait until year-end, because a budget must not be touched"
+					},
+					{
+						"id": "D",
+						"text": "Cut all spending by 14% at once to reach the budget"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In a company, managers’ bonuses depend entirely on hitting the annual budget. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " behaviours should you expect?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Managers volunteer ambitious stretch targets"
+					},
+					{
+						"id": "B",
+						"text": "Managers negotiate low targets during budgeting"
+					},
+					{
+						"id": "C",
+						"text": "Managers spend leftover money in December so that next year’s budget is not cut"
+					},
+					{
+						"id": "D",
+						"text": "Managers update forecasts more often than required"
+					},
+					{
+						"id": "E",
+						"text": "Managers reduce padding in their budgets"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A manufacturer grew through acquisitions, and its overhead has risen 45% in four years without anyone reviewing it. Which budgeting approach fits best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Last year’s figures plus 2%"
+					},
+					{
+						"id": "B",
+						"text": "A driver-based model with no review of existing costs"
+					},
+					{
+						"id": "C",
+						"text": "A rolling forecast only, with no change to the cost base"
+					},
+					{
+						"id": "D",
+						"text": "Zero-based budgeting for overhead for one cycle"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A courier firm budgeted 5,000 deliveries at $8 each ($40,000). It made 5,000 deliveries at an average of $7.20 ($36,000). Calculate the variance, classify it as volume, price or efficiency, and name one question to investigate."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why a fixed annual budget is not enough on its own and how a rolling forecast complements it. Use a restaurant as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coworking operator budgeted 75% occupancy across its 8 locations. In the first quarter, occupancy is 62%. By location: six mature sites are at 74%, and two new ones are at 35%. Staff and rent are fixed. Choose one: (1) cut marketing by 30% to protect the profit budget, (2) split the variance by location, update the rolling forecast and pause the third new opening while adding corporate memberships to the two weak sites, or (3) keep everything unchanged until the year-end review. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "After a merger, a manufacturer’s overhead has grown faster than sales for three years. The CFO considers: (a) last year’s figures plus 3%, (b) zero-based budgeting for every department, (c) zero-based budgeting for overhead only and a driver-based budget for operations. Choose one and explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A chain of dental clinics budgeted a quarter with 4,500 patient visits at an average of $120 ($540,000). Actual: 3,900 visits at an average of $128 ($499,200). Supplies were budgeted at 12% of revenue ($64,800) and cost $69,888."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the revenue variance and split it into volume and price. Judge the supplies cost with a flexible budget. Explain what you would change in the forecast and the actions."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чим бюджет відрізняється від прогнозу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Це той самий документ під двома назвами"
+					},
+					{
+						"id": "B",
+						"text": "Бюджет це план, до якого зобов’язується бізнес, а прогноз це його поточна найкраща оцінка того, що відбудеться"
+					},
+					{
+						"id": "C",
+						"text": "Бюджет охоплює лише витрати, а прогноз лише виторг"
+					},
+					{
+						"id": "D",
+						"text": "Бюджет складає банк, а прогноз власник"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Магазин запланував продажі на $500 000, а зробив $460 000. Як описують відхилення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$40 000 сприятливе"
+					},
+					{
+						"id": "B",
+						"text": "$460 000 несприятливе"
+					},
+					{
+						"id": "C",
+						"text": "8% сприятливе"
+					},
+					{
+						"id": "D",
+						"text": "$40 000 несприятливе"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ковзний прогноз оновлюють регулярно, наприклад щомісяця, і він завжди охоплює наступні 12–18 місяців."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бюджет, побудований як торішні цифри плюс 5%, є бюджетом на основі драйверів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пекарня запланувала 10 000 буханок з інгредієнтами по $0,80 на буханку, тобто $8 000. Вона спекла 12 000 буханок і витратила на інгредієнти $9 000. Як оцінити витрати на інгредієнти?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$600 сприятливе відхилення порівняно з гнучким бюджетом (12 000 × $0,80 = $9 600)"
+					},
+					{
+						"id": "B",
+						"text": "$1 000 несприятливе, бо витрати перевищують початковий бюджет"
+					},
+					{
+						"id": "C",
+						"text": "Точно за бюджетом, бо вартість буханки $0,75 і більше нічого не скажеш"
+					},
+					{
+						"id": "D",
+						"text": "Оцінити можна лише наприкінці року"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа спортзалів будує бюджет на основі драйверів. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з цих показників є драйверами?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Кількість платних членів клубу"
+					},
+					{
+						"id": "B",
+						"text": "Торішній загальний виторг плюс 5%"
+					},
+					{
+						"id": "C",
+						"text": "Середня місячна плата за одного члена клубу"
+					},
+					{
+						"id": "D",
+						"text": "Премійний фонд, який хотіли б отримати директори"
+					},
+					{
+						"id": "E",
+						"text": "Торішні накладні витрати"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Автошкола запланувала на квартал 200 учнів по $600, тобто $120 000. Записалися 180 учнів, кожен заплатив $600. Що пояснює нестачу в $12 000?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Цінове відхилення, бо плата знизилася"
+					},
+					{
+						"id": "B",
+						"text": "Відхилення ефективності, бо інструктори були повільні"
+					},
+					{
+						"id": "C",
+						"text": "Відхилення обсягу: менше учнів за запланованою платою"
+					},
+					{
+						"id": "D",
+						"text": "Нестачі немає, бо плата відповідала плану"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бюджет рітейлера, складений у жовтні, передбачав продажі $5,0 млн. У березні поруч відкрився конкурент, а поточний темп вказує на $4,3 млн. Генеральний директор хоче звітувати лише проти бюджету до кінця року. Який підхід найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Переписувати бюджет щомісяця, щоб відхилення завжди було нульовим"
+					},
+					{
+						"id": "B",
+						"text": "Лишити бюджет як ціль, але щомісяця публікувати окремий ковзний прогноз і ухвалювати дії на його основі"
+					},
+					{
+						"id": "C",
+						"text": "Зачекати до кінця року, бо бюджет чіпати не можна"
+					},
+					{
+						"id": "D",
+						"text": "Одразу скоротити всі витрати на 14%, щоб досягти бюджету"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У компанії бонуси керівників повністю залежать від виконання річного бюджету. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " поведінки слід очікувати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Керівники самі пропонують амбітні цілі з запасом"
+					},
+					{
+						"id": "B",
+						"text": "Керівники домовляються про низькі цілі під час складання бюджету"
+					},
+					{
+						"id": "C",
+						"text": "Керівники витрачають залишки грошей у грудні, щоб наступного року бюджет не скоротили"
+					},
+					{
+						"id": "D",
+						"text": "Керівники оновлюють прогнози частіше, ніж вимагають"
+					},
+					{
+						"id": "E",
+						"text": "Керівники зменшують запас міцності в своїх бюджетах"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник зростав через поглинання, і його накладні витрати за чотири роки зросли на 45%, але ніхто їх не переглядав. Який підхід до бюджетування найкраще підходить?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Торішні цифри плюс 2%"
+					},
+					{
+						"id": "B",
+						"text": "Модель на основі драйверів без перегляду наявних витрат"
+					},
+					{
+						"id": "C",
+						"text": "Лише ковзний прогноз без зміни бази витрат"
+					},
+					{
+						"id": "D",
+						"text": "Бюджетування з нуля для накладних витрат на один цикл"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кур’єрська фірма запланувала 5 000 доставок по $8 ($40 000). Вона зробила 5 000 доставок із середньою ціною $7,20 ($36 000). Розрахуйте відхилення, класифікуйте його як відхилення обсягу, ціни чи ефективності та назвіть одне питання для розслідування."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому фіксованого річного бюджету самого по собі недостатньо і як його доповнює ковзний прогноз. Використайте ресторан як приклад."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оператор коворкінгів запланував 75% заповнюваності на всіх 8 локаціях. У першому кварталі заповнюваність 62%. За локаціями: шість зрілих місць мають 74%, а дві нові 35%. Персонал і оренда фіксовані. Оберіть одне: (1) скоротити маркетинг на 30%, щоб захистити бюджет прибутку, (2) розкласти відхилення за локаціями, оновити ковзний прогноз і призупинити відкриття третьої нової локації, додавши корпоративні членства для двох слабких місць, або (3) нічого не змінювати до річного підсумку. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Після злиття накладні витрати виробника три роки ростуть швидше за продажі. Фінансовий директор розглядає: (a) торішні цифри плюс 3%, (b) бюджетування з нуля для кожного відділу, (c) бюджетування з нуля лише для накладних витрат і бюджет на основі драйверів для операційної діяльності. Оберіть одне й поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Мережа стоматологічних клінік запланувала квартал: 4 500 відвідувань із середнім чеком $120 ($540 000). Факт: 3 900 відвідувань із середнім чеком $128 ($499 200). Матеріали планували на рівні 12% виторгу ($64 800), а вони коштували $69 888."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розрахуйте відхилення виторгу й розкладіть його на обсяг і ціну. Оцініть витрати на матеріали за гнучким бюджетом. Поясніть, що змінили б у прогнозі, і які дії вжили б."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

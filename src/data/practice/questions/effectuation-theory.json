@@ -1,0 +1,870 @@
+{
+	"slug": "effectuation-theory",
+	"topicId": 27,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which effectuation principle tells an entrepreneur to start from who they are, what they know and whom they know?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Affordable loss"
+					},
+					{
+						"id": "B",
+						"text": "Bird in hand"
+					},
+					{
+						"id": "C",
+						"text": "Crazy quilt"
+					},
+					{
+						"id": "D",
+						"text": "Lemonade"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder says: \"I will put in at most $5,000 and my evenings for four months, whatever the possible payoff.\" Which principle is she applying?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Bird in hand"
+					},
+					{
+						"id": "B",
+						"text": "Lemonade"
+					},
+					{
+						"id": "C",
+						"text": "Pilot in the plane"
+					},
+					{
+						"id": "D",
+						"text": "Affordable loss"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In effectual logic, the venture's goal can change as new partners commit resources."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A chain opening its twelfth identical pharmacy in a well-studied district should rely on effectual rather than causal logic."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software tester wants to start a business but has no idea yet. Which first step is most effectual?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "List her skills, contacts, savings and free hours, and see what ventures they allow"
+					},
+					{
+						"id": "B",
+						"text": "Commission a market study to find the most profitable software niche"
+					},
+					{
+						"id": "C",
+						"text": "Write a five-year plan with revenue targets and look for investors"
+					},
+					{
+						"id": "D",
+						"text": "Wait until a clear market opportunity appears"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The founder of a kombucha brand is counting her crazy-quilt partners. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are partners in the effectual sense?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A gym owner who pre-pays for 200 bottles a month"
+					},
+					{
+						"id": "B",
+						"text": "A friend who says the idea is brilliant and shares her post"
+					},
+					{
+						"id": "C",
+						"text": "A food blogger who may write about the brand some day"
+					},
+					{
+						"id": "D",
+						"text": "A farm that supplies fruit in exchange for 5% of sales"
+					},
+					{
+						"id": "E",
+						"text": "A bank that sends her a brochure about business loans"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A furniture restorer's first batch of chairs sold poorly, but three interior designers asked whether she could restore pieces for their clients. What would an effectual entrepreneur do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ignore the requests and push the original chairs harder with ads"
+					},
+					{
+						"id": "B",
+						"text": "Treat the poor sales as proof the venture failed and stop"
+					},
+					{
+						"id": "C",
+						"text": "Treat the requests as new input and explore a restoration service for designers"
+					},
+					{
+						"id": "D",
+						"text": "Raise chair prices to make up for the weak sales"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder has $50,000 in savings and needs $20,000 of it as a safety cushion for his family. He thinks the venture could return $500,000, so he plans to risk $45,000 \"because the upside is ten times bigger\". What does effectuation recommend?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Risk $45,000, since the expected return justifies it"
+					},
+					{
+						"id": "B",
+						"text": "Risk all $50,000 to give the venture the best chance"
+					},
+					{
+						"id": "C",
+						"text": "Borrow $45,000 instead so the savings stay untouched"
+					},
+					{
+						"id": "D",
+						"text": "Set the limit by what he can lose without harm, at most $30,000, and ignore the upside when deciding"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A startup team writes \"how we use effectuation\" on its wiki. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " lines show a misreading of the theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "We ask specific people for pre-orders before we build."
+					},
+					{
+						"id": "B",
+						"text": "We do not track cash, because plans are pointless under uncertainty."
+					},
+					{
+						"id": "C",
+						"text": "We let a committed partner change our product focus."
+					},
+					{
+						"id": "D",
+						"text": "We cap our loss at what we can afford."
+					},
+					{
+						"id": "E",
+						"text": "Everyone who liked our launch post counts as a partner."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An effectual venture now has a proven product with steady demand in three cities and plans to expand to twenty. Which approach fits best now?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Keep making only small affordable-loss bets, city by city"
+					},
+					{
+						"id": "B",
+						"text": "Shift toward causal planning and forecasts, since the market is now known and measurable"
+					},
+					{
+						"id": "C",
+						"text": "Drop budgets, because flexibility got the venture this far"
+					},
+					{
+						"id": "D",
+						"text": "Wait for partners to decide where to expand"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A retired chef has cooked Georgian food for 30 years, knows three restaurant owners, has $12,000 in savings (of which he needs $8,000 as an emergency fund) and 15 free hours a week. Describe his bird in hand, set his affordable loss, and propose one crazy-quilt commitment he could ask for."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain how causal and effectual logic differ, and why expert entrepreneurs prefer to control outcomes rather than predict them when the market is uncertain. Use a board-game café as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder wants to offer drone photography to estate agents. Option 1: spend $35,000 on a market study and business plan to pitch investors. Option 2: run a $3,000 pilot with two estate agencies that have committed to 20 shoots at $150 each. Option 3: buy $25,000 of professional equipment first to look credible. Choose one and justify it with effectuation."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A small hot-sauce brand has grown effectually through markets and local shops. A national chain now offers a listing in 400 stores, which would need $180,000 of production and packaging upfront. The founder's affordable loss is $25,000. Options: decline the offer; take a $180,000 loan and accept in full; or negotiate a 40-store pilot with partners sharing the cost (a co-packer and the chain). Choose one and explain your reasoning, including where effectuation's limits matter."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A yoga teacher wants her own business. She has 8 years of teaching, an email list of 600 former students and $10,000 in savings, of which she could lose $4,000 without harm."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A studio owner offers her a room for a 50% share of class revenue instead of rent. An HR manager at a tech firm asks for lunchtime classes for 40 staff at $600 a month."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "She launches online classes by email: only 12 of 600 sign up. But 9 of those 12 ask for private sessions at $50 an hour."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Identify the effectuation principles at work in the case, judge her position, and propose her next step."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який принцип ефектуації радить підприємцю починати з того, хто він, що знає і кого знає?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Допустима втрата"
+					},
+					{
+						"id": "B",
+						"text": "Птах у руці"
+					},
+					{
+						"id": "C",
+						"text": "Клаптикова ковдра"
+					},
+					{
+						"id": "D",
+						"text": "Лимонад"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця каже: «Я вкладу не більше $5 000 і свої вечори протягом чотирьох місяців, хоч би який був можливий виграш». Який принцип вона застосовує?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Птах у руці"
+					},
+					{
+						"id": "B",
+						"text": "Лимонад"
+					},
+					{
+						"id": "C",
+						"text": "Пілот у літаку"
+					},
+					{
+						"id": "D",
+						"text": "Допустима втрата"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "В ефектуальній логіці мета проєкту може змінюватися, коли нові партнери вкладають ресурси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа, що відкриває дванадцяту однакову аптеку в добре вивченому районі, має спиратися на ефектуальну, а не на причинну логіку."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Тестувальниця програм хоче започаткувати бізнес, але ще не має ідеї. Який перший крок найбільш ефектуальний?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Скласти перелік своїх навичок, контактів, заощаджень і вільних годин і подивитися, які проєкти вони дозволяють"
+					},
+					{
+						"id": "B",
+						"text": "Замовити дослідження ринку, щоб знайти найприбутковішу нішу в програмуванні"
+					},
+					{
+						"id": "C",
+						"text": "Написати п’ятирічний план із цілями за виручкою і шукати інвесторів"
+					},
+					{
+						"id": "D",
+						"text": "Чекати, доки на ринку з’явиться очевидна можливість"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця бренду комбучі рахує своїх партнерів у «клаптиковій ковдрі». Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з них є партнерами в ефектуальному сенсі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Власник спортзалу, який наперед оплачує 200 пляшок на місяць"
+					},
+					{
+						"id": "B",
+						"text": "Подруга, яка каже, що ідея геніальна, і поширює її допис"
+					},
+					{
+						"id": "C",
+						"text": "Фудблогер, який, можливо, колись напише про бренд"
+					},
+					{
+						"id": "D",
+						"text": "Ферма, що постачає фрукти в обмін на 5% продажів"
+					},
+					{
+						"id": "E",
+						"text": "Банк, що надсилає їй буклет про кредити для бізнесу"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Перша партія відреставрованих стільців погано продалася, але троє дизайнерів інтер’єру запитали реставраторку, чи може вона реставрувати меблі для їхніх клієнтів. Що зробив би ефектуальний підприємець?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Проігнорувати запити й активніше рекламувати початкові стільці"
+					},
+					{
+						"id": "B",
+						"text": "Вважати слабкі продажі доказом провалу й зупинитися"
+					},
+					{
+						"id": "C",
+						"text": "Сприйняти запити як нові вхідні дані й дослідити послугу реставрації для дизайнерів"
+					},
+					{
+						"id": "D",
+						"text": "Підняти ціни на стільці, щоб компенсувати слабкі продажі"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновник має $50 000 заощаджень, з яких $20 000 потрібні як подушка безпеки для родини. Він вважає, що проєкт може принести $500 000, тож планує ризикнути $45 000, «бо виграш удесятеро більший». Що радить ефектуація?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ризикнути $45 000, бо очікувана віддача це виправдовує"
+					},
+					{
+						"id": "B",
+						"text": "Ризикнути всіма $50 000, щоб дати проєкту найкращий шанс"
+					},
+					{
+						"id": "C",
+						"text": "Позичити $45 000, щоб не чіпати заощадження"
+					},
+					{
+						"id": "D",
+						"text": "Визначити межу тим, що можна втратити без шкоди, тобто щонайбільше $30 000, і не враховувати потенційний виграш"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда стартапу описує у внутрішній вікі, «як ми використовуємо ефектуацію». Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " рядки свідчать про хибне розуміння теорії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ми просимо конкретних людей про передзамовлення ще до розробки."
+					},
+					{
+						"id": "B",
+						"text": "Ми не стежимо за грошима, бо в умовах невизначеності плани безглузді."
+					},
+					{
+						"id": "C",
+						"text": "Ми дозволяємо партнерові, який узяв зобов’язання, змінити фокус продукту."
+					},
+					{
+						"id": "D",
+						"text": "Ми обмежуємо втрати тим, що можемо собі дозволити."
+					},
+					{
+						"id": "E",
+						"text": "Кожен, хто вподобав наш допис про запуск, вважається партнером."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ефектуальний проєкт уже має перевірений продукт зі стабільним попитом у трьох містах і планує вийти у двадцять. Який підхід тепер доречніший?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "І далі робити лише малі ставки в межах допустимої втрати, місто за містом"
+					},
+					{
+						"id": "B",
+						"text": "Перейти до причинного планування й прогнозів, бо ринок тепер відомий і вимірюваний"
+					},
+					{
+						"id": "C",
+						"text": "Відмовитися від бюджетів, бо до цього етапу проєкт довела гнучкість"
+					},
+					{
+						"id": "D",
+						"text": "Чекати, доки партнери вирішать, куди розширюватися"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кухар на пенсії 30 років готував грузинську кухню, знає трьох власників ресторанів, має $12 000 заощаджень (з них $8 000 потрібні як резервний фонд) і 15 вільних годин на тиждень. Опишіть його «птаха в руці», визначте допустиму втрату й запропонуйте одне зобов’язання в межах «клаптикової ковдри», про яке він міг би попросити."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чим відрізняються причинна й ефектуальна логіка і чому досвідчені підприємці в умовах невизначеності воліють контролювати результат, а не прогнозувати його. Використайте як приклад кафе настільних ігор."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновник хоче пропонувати агентствам нерухомості зйомку з дрона. Варіант 1: витратити $35 000 на дослідження ринку й бізнес-план для інвесторів. Варіант 2: провести пілот за $3 000 із двома агентствами, які вже погодилися на 20 зйомок по $150. Варіант 3: спершу купити професійне обладнання за $25 000, щоб виглядати солідно. Оберіть один варіант і обґрунтуйте його ефектуацією."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Невеликий бренд гострого соусу зростав ефектуально через ярмарки й місцеві магазини. Тепер національна мережа пропонує поставки в 400 магазинів, для чого потрібно наперед $180 000 на виробництво й пакування. Допустима втрата засновника становить $25 000. Варіанти: відмовитися; взяти кредит $180 000 і погодитися повністю; або домовитися про пілот у 40 магазинах, де частину витрат беруть партнери (контрактний виробник і мережа). Оберіть один варіант і поясніть міркування, зокрема де проявляються обмеження ефектуації."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Викладачка йоги хоче власний бізнес. Вона має 8 років досвіду, розсилку на 600 колишніх учнів і $10 000 заощаджень, з яких без шкоди може втратити $4 000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Власник студії пропонує їй зал за 50% виручки від занять замість оренди. HR-менеджерка технологічної компанії просить проводити обідні заняття для 40 працівників за $600 на місяць."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Вона запускає онлайн-заняття через розсилку: записуються лише 12 із 600. Але 9 із цих 12 просять індивідуальні заняття по $50 за годину."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте принципи ефектуації, що проявляються в цьому кейсі, оцініть її становище й запропонуйте наступний крок."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

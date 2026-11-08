@@ -1,0 +1,586 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In such a market increasing returns turn a modest lead into dominance, so one firm captures most of the profit. An equal split is the opposite picture, no law is involved, and a pure cost advantage is a different source of strength that does not need self-reinforcing growth."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Users flock to the biggest network, they find it costly or annoying to keep two providers, and nobody needs a special version, so there is no room for a second firm. In A and B at least one condition points to several survivors, and cost alone does not create a self-reinforcing lead."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The race is for the self-sustaining lead. A firm that earns a small profit now but loses the race may end up with nothing, while the leader can earn far more later."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Network effects are only one of three conditions. If users can easily join several providers or want different features, several firms survive, as with delivery apps that restaurants list on side by side."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Separate payment setup and paid integration make it expensive to join a second system, which keeps users on one. The other options show users moving between providers freely, which weakens the leader’s grip."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A describes a network effect and D a high cost of leaving, both of which concentrate users. B is cheap multi-homing and C is demand for variety, which both leave room for several platforms. Price differences between tutors say nothing about tipping."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "X combines strong network effects, annoying multi-homing and uniform demand. In Y and Z customers gain nothing from everyone choosing the same provider, and tastes and locations differ, so many firms survive."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Fighting a likely-to-lose race with six months of cash burns the money for nothing. A segment with different needs sits outside the tipping logic, so a smaller firm can be the leader there. Higher prices speed up the loss of share, and waiting leaves the lead to grow."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Dominance can be worthless if later prices cannot cover the race, and a near-monopoly invites regulation that trims the returns. Funding does not guarantee profit, regulators watch winners more closely, and a weaker firm often does better in a niche than in a race it will probably lose."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Restaurants and diners both multi-home cheaply, so a lead does not lock anyone in and the extra spending would mostly raise losses. The market is contested, not hopeless, and giving away commissions only deepens the losses."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Network effects: parents and coaches must be on the same app, so each new club makes the app more valuable to the next. Costly multi-homing: two apps with separate notifications annoy users. Little demand for variety: every club needs the same functions. All three are strong, so the market is likely to tip toward one app, and the share race matters more than early profit."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names the three conditions (network effects, multi-homing cost, little demand for variety) and links each to a fact from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Concludes that the market is likely to tip toward one app",
+					"points": 1
+				},
+				{
+					"criterion": "Adds the consequence: early share matters more than early profit, so growth should be prioritised",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "If one firm will capture most of the profit, the reward for being that firm is large enough that the expected value covers the losses during the race. Each extra customer makes the leader stronger, so early spending buys a self-sustaining lead. The logic works only if the winner can later charge enough, or otherwise earn profit, to repay what the race cost. Without that path, the winner takes the market and still loses money."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that the large reward of being the single winner (increasing returns, most of the profit) justifies the losses",
+					"points": 2
+				},
+				{
+					"criterion": "States the condition: the winner must be able to earn enough afterwards to repay the race",
+					"points": 1
+				},
+				{
+					"criterion": "Notes a risk such as losing the race or regulators limiting returns",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Focus on school clubs. Coaches multi-home cheaply because uploading to both takes minutes, so a lead from subsidies would not lock them in. Demand is varied: schools need safeguarding, class scheduling and parent access that general platforms ignore. These two conditions are weak, so a market-wide race is likely to burn the $3 million without a winner. A club segment can be led and defended with features. Risk: the rival may copy the school features, so track retention and the number of school clubs per month and move early on integrations with school systems."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses at least two tipping conditions with evidence from the case (cheap multi-homing, varied demand)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the choice fits the situation better than a market-wide subsidy",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to watch it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Match the bonus for a limited period and invest in features. Buying the rival gives a near-monopoly, but with 100% of drivers it would likely draw antitrust scrutiny and could be blocked or limited, with $3 million spent on a deal that may fail. Holding prices risks a slow slide: if the rival tips drivers across, our network advantage turns against us. Matching costs $400,000 a year, which is small against the value of a dominant network, and features raise switching costs. The cost is that margins fall for a time and the rival may keep escalating, so set a spending cap and track the share of drivers monthly."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Weighs the three options against tipping logic and cost, using numbers from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Recognises the antitrust risk of buying the rival",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the analysis",
+					"points": 1
+				},
+				{
+					"criterion": "Names a cost or risk of the choice and how to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Network effects: patients use their clinic’s app, so more clinics make an app stronger. Multi-homing cost: only $500, but staff dislike two apps, so it is moderate. Demand for variety: general needs are uniform, but 15% of children’s clinics want different features. The market leans toward tipping between X and Y, who are burning $1.7 million a month between them, but the children’s segment is a gap. Z should not race, because $4 million is under three months of X’s burn. Z should lead children’s clinics (about 300 of them) with parent accounts and play-friendly screens. At a monthly fee of $100, 150 clinics bring $15,000 a month, a base that can fund growth. Risks: X or Y may copy the features, and a larger player may buy Z, so track retention and the share of children’s clinics."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Tests all three conditions with evidence from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a verdict on tipping and sees the children’s segment as an exception",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends a niche position instead of a race and supports it with numbers (cash against burn, segment size)",
+					"points": 2
+				},
+				{
+					"criterion": "Names a risk (copying, acquisition) and a way to watch it",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На такому ринку зростаюча віддача перетворює скромну перевагу на домінування, тож одна фірма забирає більшу частину прибутку. Рівний поділ це протилежна картина, закону тут немає, а суто цінова перевага це інше джерело сили, якому не потрібне самопідсилення."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Користувачі тягнуться до найбільшої мережі, тримати двох постачальників їм дорого чи прикро, а особливі версії нікому не потрібні, тож другій фірмі місця немає. У варіантах A і B принаймні одна умова залишає шанс кільком фірмам, а самі витрати не створюють самопідсильної переваги."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Гонка йде за самопідтримну перевагу. Фірма, що зараз заробляє трохи, але програє гонку, може лишитися ні з чим, а лідер згодом заробить набагато більше."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Мережеві ефекти це лише одна з трьох умов. Якщо користувачі легко працюють із кількома постачальниками або хочуть різних функцій, виживає кілька фірм, як-от застосунки доставки, на яких ресторани розміщуються одночасно."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Окреме налаштування оплати й платна інтеграція роблять підключення другої системи дорогим, тож користувачі лишаються з однією. Інші варіанти показують, що користувачі вільно перемикаються між постачальниками, а це послаблює хватку лідера."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A описує мережевий ефект, а D високу ціну виходу, і обидва концентрують користувачів. B це дешевий мультихоумінг, а C попит на різноманітність, і вони залишають місце для кількох платформ. Різниця в цінах репетиторів нічого не каже про перелом."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "X поєднує сильні мережеві ефекти, прикрий мультихоумінг і однаковий попит. У Y і Z клієнти нічого не виграють від того, що всі обирають одного постачальника, а смаки й локації різні, тож виживає багато фірм."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Гонка, яку, найімовірніше, програєш, за шість місяців спалить гроші без користі. Сегмент з іншими потребами лежить поза логікою перелому, тож менша фірма може лідирувати там. Вищі ціни прискорюють втрату частки, а очікування дає перевазі лідера зростати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Домінування може виявитися марним, якщо пізніші ціни не покриють гонку, а майже монопольне становище викликає регулювання, що урізає віддачу. Фінансування не гарантує прибутку, регулятори стежать за переможцями пильніше, а слабша фірма часто виграє в ніші більше, ніж у гонці, яку, найімовірніше, програє."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "І ресторани, і відвідувачі дешево працюють із кількома застосунками, тож перевага нікого не прив’язує, а додаткові витрати здебільшого збільшать збитки. Ринок конкурентний, а не безнадійний, і роздавання комісій лише поглиблює збитки."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Мережеві ефекти: батьки й тренери мають бути в одному застосунку, тож кожен новий клуб робить його цінним для наступного. Дорогий мультихоумінг: два застосунки з окремими сповіщеннями дратують. Малий попит на різноманітність: усі клуби потребують однакових функцій. Усі три умови сильні, тож ринок, імовірно, схилиться до одного застосунку, а гонка за часткою важить більше за ранній прибуток."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає три умови (мережеві ефекти, витрати на мультихоумінг, малий попит на різноманітність) і пов’язує кожну з фактом з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Робить висновок, що ринок, імовірно, схилиться до одного застосунку",
+					"points": 1
+				},
+				{
+					"criterion": "Додає наслідок: рання частка важить більше за ранній прибуток, тож зростання в пріоритеті",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Якщо одна фірма забере більшу частину прибутку, винагорода за статус цієї фірми настільки велика, що очікуване значення покриває збитки під час гонки. Кожен новий клієнт робить лідера сильнішим, тож ранні витрати купують самопідтримну перевагу. Логіка працює лише тоді, коли переможець згодом зможе брати достатню ціну або іншим способом заробити, щоб відшкодувати вартість гонки. Без такого шляху переможець забирає ринок, але все одно лишається зі збитками."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що велика винагорода за статус єдиного переможця (зростаюча віддача, більшість прибутку) виправдовує збитки",
+					"points": 2
+				},
+				{
+					"criterion": "Називає умову: переможець має згодом заробити достатньо, щоб відшкодувати гонку",
+					"points": 1
+				},
+				{
+					"criterion": "Згадує ризик, наприклад програш гонки або обмеження віддачі регуляторами",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зосередитися на шкільних клубах. Тренери дешево працюють із двома платформами, бо завантаження на обидві займає хвилини, тож перевага від субсидій нікого б не прив’язала. Попит різноманітний: школам потрібні безпека дітей, розклад занять і доступ для батьків, чого загальні платформи не дають. Ці дві умови слабкі, тож загальноринкова гонка, імовірно, спалить $3 млн без переможця. Сегмент клубів можна очолити й захистити функціями. Ризик: конкурент може скопіювати шкільні функції, тому щомісяця стежте за утриманням і кількістю шкільних клубів та вчасно робіть інтеграції зі шкільними системами."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує щонайменше дві умови перелому з доказами з умови (дешевий мультихоумінг, різноманітний попит)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому вибір краще пасує до ситуації, ніж загальноринкова субсидія",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зрівняти бонус на обмежений час і інвестувати в функції. Купівля конкурента дає майже монополію, але зі 100% водіїв вона, імовірно, привабить увагу антимонопольників, угоду можуть заблокувати чи обмежити, а $3 млн підуть на ризикову угоду. Тримати ціни означає ризик повільного сповзання: якщо конкурент переманить водіїв, наша перевага мережі обернеться проти нас. Зрівняння коштує $400 000 на рік, це небагато порівняно з цінністю домінантної мережі, а функції підвищують витрати на перехід. Ціна такого вибору: маржа на час упаде, а конкурент може й далі підвищувати ставки, тому встановіть ліміт витрат і щомісяця стежте за часткою водіїв."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Зважує три варіанти за логікою перелому й вартістю, використовуючи числа з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Бачить антимонопольний ризик купівлі конкурента",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з аналізу",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ціну чи ризик вибору й спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Мережеві ефекти: пацієнти користуються застосунком своєї клініки, тож більше клінік робить застосунок сильнішим. Вартість мультихоумінгу: лише $500, але персонал не любить двох застосунків, тож вона помірна. Попит на різноманітність: загальні потреби однакові, але 15% дитячих клінік хочуть інших функцій. Ринок схиляється до перелому між X і Y, які разом спалюють $1,7 млн на місяць, але дитячий сегмент це розрив. Z не слід гнатися за ними, бо $4 млн менше ніж три місяці витрат X. Z варто лідирувати серед дитячих клінік (приблизно 300) із батьківськими акаунтами й дружніми до дітей екранами. За абонплати $100 на місяць 150 клінік дадуть $15 000 на місяць, і така база може фінансувати зростання. Ризики: X або Y можуть скопіювати функції, а більший гравець може купити Z, тож стежте за утриманням і часткою дитячих клінік."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Перевіряє всі три умови з доказами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Дає висновок про перелом і бачить дитячий сегмент як виняток",
+					"points": 1
+				},
+				{
+					"criterion": "Радить нішеву позицію замість гонки й підкріплює числами (готівка проти витрат, розмір сегмента)",
+					"points": 2
+				},
+				{
+					"criterion": "Називає ризик (копіювання, поглинання) і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		}
+	}
+}

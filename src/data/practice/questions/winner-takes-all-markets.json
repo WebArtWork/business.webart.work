@@ -1,0 +1,916 @@
+{
+	"slug": "winner-takes-all-markets",
+	"topicId": 37,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which description fits a winner-takes-all market best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Profit is split roughly equally among all firms because each serves its own customers"
+					},
+					{
+						"id": "B",
+						"text": "A small lead grows into a dominant share because the leader’s advantages feed on themselves"
+					},
+					{
+						"id": "C",
+						"text": "A law limits the market to the single biggest firm"
+					},
+					{
+						"id": "D",
+						"text": "One firm wins because its product is far cheaper to make"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which combination of conditions tips a market toward a single winner?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Weak network effects, cheap use of several providers, wide demand for variety"
+					},
+					{
+						"id": "B",
+						"text": "Strong network effects, cheap use of several providers, wide demand for variety"
+					},
+					{
+						"id": "C",
+						"text": "Strong network effects, costly use of several providers, little demand for specialised versions"
+					},
+					{
+						"id": "D",
+						"text": "High production costs alone, whatever the customers do"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In a winner-takes-all market, early market share can matter more than early profit."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Any market with network effects will inevitably end up with one dominant firm."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which fact shows that using several providers is "
+							},
+							{
+								"t": "costly",
+								"b": true
+							},
+							{
+								"t": " for users?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Shoppers compare prices on four websites before buying a laptop"
+					},
+					{
+						"id": "B",
+						"text": "Freelancers publish the same portfolio on three platforms with one click"
+					},
+					{
+						"id": "C",
+						"text": "Drivers can install a second ride app in a minute and run both at once"
+					},
+					{
+						"id": "D",
+						"text": "Each parking app needs its own linked card, and car parks pay $3,000 to integrate every system"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online marketplace connects language tutors with learners. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " facts support the view that it will tip toward one platform?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Learners choose the platform with the most tutors, and tutors list where most learners are."
+					},
+					{
+						"id": "B",
+						"text": "Tutors can copy their profile to three other platforms in ten minutes."
+					},
+					{
+						"id": "C",
+						"text": "Learners want very different things: exam prep, children’s lessons, business English."
+					},
+					{
+						"id": "D",
+						"text": "Tutors’ ratings cannot be exported, so leaving a platform means starting again at zero."
+					},
+					{
+						"id": "E",
+						"text": "Hourly prices differ widely between tutors."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An investor compares three markets in one country:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Market X: a messaging app for 3 million people. Users need their friends on it, a second app is a nuisance, and everyone wants the same basic features."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Market Y: restaurants in a big city. Diners happily use any of them, and each has its own menu."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Market Z: local plumbing services. Customers call whoever is near and free."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which market is most likely to end with one dominant firm?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Market X"
+					},
+					{
+						"id": "B",
+						"text": "Market Y"
+					},
+					{
+						"id": "C",
+						"text": "Market Z"
+					},
+					{
+						"id": "D",
+						"text": "All three are equally likely to"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A start-up has 25% of car parks signed in a city, while the leader has 70%. The market shows all three tipping conditions, and the start-up has $1.5 million, enough for six months of a price war. What is the best move?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Match the leader’s free integration offers in every district"
+					},
+					{
+						"id": "B",
+						"text": "Raise prices and rely on better service to win back share"
+					},
+					{
+						"id": "C",
+						"text": "Look for a segment with distinct needs, such as fleet and delivery parking, and lead there"
+					},
+					{
+						"id": "D",
+						"text": "Wait until the leader makes a mistake and then expand"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A founder plans to spend $50 million to win a market she believes is winner-takes-all. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements should her plan take into account?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The firm with the most funding is guaranteed to earn back its spending."
+					},
+					{
+						"id": "B",
+						"text": "Winning only pays if the leader can later charge enough, so the economics after the race must be modelled."
+					},
+					{
+						"id": "C",
+						"text": "Once the firm leads, regulators will lose interest in the market."
+					},
+					{
+						"id": "D",
+						"text": "A leader with almost the whole market attracts antitrust scrutiny that can limit prices and acquisitions."
+					},
+					{
+						"id": "E",
+						"text": "Because only one firm wins, every competitor should join the race."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In a city, restaurants list on four food-delivery apps at once, and diners keep two or three apps and pick the cheapest. A fund proposes to back one app with $20 million to “win the city”. What is the sound conclusion?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Approve it, since every delivery market ends with one winner"
+					},
+					{
+						"id": "B",
+						"text": "Do not assume tipping: cheap multi-homing weakens the leader’s lead, so compete on margin and differentiation"
+					},
+					{
+						"id": "C",
+						"text": "Approve it, but only if the app also cuts all commissions to zero"
+					},
+					{
+						"id": "D",
+						"text": "Reject it, since delivery can never be profitable"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A shared-calendar app for sports clubs is growing. Parents and coaches must use the same app to see fixtures, keeping two apps with separate notifications annoys them, and every club needs the same basic functions. Name the three tipping conditions, link each to a fact in the case, and say whether the market is likely to tip."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why can it be rational for investors to fund heavy losses in a market they believe is winner-takes-all? State the condition that must hold for the logic to work."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You run a video platform for online chess coaches. Your main rival has almost the same share (40% against your 38%). You have $3 million. Coaches can upload to both platforms in minutes, and demand splits into very different groups: school clubs, adult beginners and tournament players. Choose one: spend the $3 million on free promotions for coaches, focus on one segment such as school clubs, or sell the company now. Justify the choice with at least two tipping conditions."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You lead a taxi-payment app in Kraków with 62% of drivers. A rival with 38% pays drivers a $20 monthly bonus to join, and the market shows strong network effects and costly multi-homing. The city’s competition office watches the sector. Choose one: match the bonus for about $400,000 a year, buy the rival for $3 million, or hold prices and invest in features. Weigh the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A country has about 2,000 private clinics. Three apps offer video consultations. App X has 52% of clinics, App Y has 41%, and your App Z has 7% and $4 million in cash. Patients must use the app their clinic has chosen. A clinic can add a second app for $500, but staff dislike using two. About 15% of clinics are children’s clinics that need parent accounts and play-friendly screens, which X and Y lack. X burns $1 million a month and Y about $700,000."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Test the three tipping conditions, say how likely the market is to tip, and recommend a position for Z with its economics."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який опис найкраще відповідає ринку, де переможець отримує майже все?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Прибуток ділиться приблизно порівну між усіма фірмами, бо кожна обслуговує своїх клієнтів"
+					},
+					{
+						"id": "B",
+						"text": "Невелика перевага перетворюється на домінування, бо переваги лідера живлять самі себе"
+					},
+					{
+						"id": "C",
+						"text": "Закон обмежує ринок єдиною найбільшою фірмою"
+					},
+					{
+						"id": "D",
+						"text": "Одна фірма перемагає, бо її продукт набагато дешевше виробляти"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке поєднання умов штовхає ринок до одного переможця?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Слабкі мережеві ефекти, дешеве користування кількома постачальниками, широкий попит на різноманітність"
+					},
+					{
+						"id": "B",
+						"text": "Сильні мережеві ефекти, дешеве користування кількома постачальниками, широкий попит на різноманітність"
+					},
+					{
+						"id": "C",
+						"text": "Сильні мережеві ефекти, дороге користування кількома постачальниками, малий попит на спеціалізовані версії"
+					},
+					{
+						"id": "D",
+						"text": "Лише високі витрати виробництва, незалежно від поведінки клієнтів"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На ринку, де переможець отримує майже все, рання частка ринку може важити більше за ранній прибуток."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Будь-який ринок із мережевими ефектами неминуче закінчується однією домінантною фірмою."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який факт показує, що користування кількома постачальниками для користувачів "
+							},
+							{
+								"t": "дороге",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Покупці порівнюють ціни на ноутбук на чотирьох сайтах перед покупкою"
+					},
+					{
+						"id": "B",
+						"text": "Фрилансери публікують те саме портфоліо на трьох платформах одним кліком"
+					},
+					{
+						"id": "C",
+						"text": "Водії можуть встановити другий застосунок виклику авто за хвилину й працювати з обома одразу"
+					},
+					{
+						"id": "D",
+						"text": "Кожен застосунок паркування потребує окремої прив’язаної картки, а паркінги платять $3 000 за інтеграцію кожної системи"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Онлайн-маркетплейс поєднує репетиторів іноземних мов і учнів. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " факти підтримують думку, що він схилиться до однієї платформи?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Учні обирають платформу з найбільшою кількістю репетиторів, а репетитори розміщуються там, де більше учнів."
+					},
+					{
+						"id": "B",
+						"text": "Репетитори можуть скопіювати профіль на три інші платформи за десять хвилин."
+					},
+					{
+						"id": "C",
+						"text": "Учні хочуть дуже різного: підготовка до іспитів, уроки для дітей, ділова англійська."
+					},
+					{
+						"id": "D",
+						"text": "Рейтинги репетиторів не можна перенести, тож перехід на іншу платформу означає починати з нуля."
+					},
+					{
+						"id": "E",
+						"text": "Погодинні ціни репетиторів сильно відрізняються."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інвестор порівнює три ринки в одній країні:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Ринок X: застосунок для обміну повідомленнями на 3 млн людей. Користувачам потрібні друзі в ньому, другий застосунок дратує, а основні функції всім потрібні однакові."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Ринок Y: ресторани у великому місті. Відвідувачі охоче йдуть у будь-який, у кожного власне меню."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Ринок Z: місцеві послуги сантехніків. Клієнти телефонують тому, хто поруч і вільний."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який ринок, імовірно, закінчиться однією домінантною фірмою?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ринок X"
+					},
+					{
+						"id": "B",
+						"text": "Ринок Y"
+					},
+					{
+						"id": "C",
+						"text": "Ринок Z"
+					},
+					{
+						"id": "D",
+						"text": "Однаково імовірно для всіх трьох"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап уклав договори з 25% паркінгів міста, а лідер із 70%. На ринку є всі три умови перелому, а в стартапі $1,5 млн, достатньо на шість місяців цінової війни. Який хід найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Повторити безкоштовні пропозиції інтеграції лідера в кожному районі"
+					},
+					{
+						"id": "B",
+						"text": "Підвищити ціни й сподіватися повернути частку кращим сервісом"
+					},
+					{
+						"id": "C",
+						"text": "Шукати сегмент з особливими потребами, наприклад паркування для автопарків і доставки, і лідирувати в ньому"
+					},
+					{
+						"id": "D",
+						"text": "Дочекатися помилки лідера й тоді розширитися"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновниця планує витратити $50 млн, щоб виграти ринок, який вважає ринком одного переможця. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження її план має враховувати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Фірма з найбільшим фінансуванням гарантовано поверне витрати."
+					},
+					{
+						"id": "B",
+						"text": "Перемога окупається лише тоді, коли лідер згодом зможе брати достатню ціну, тож економіку після гонки треба моделювати."
+					},
+					{
+						"id": "C",
+						"text": "Щойно фірма стане лідером, регулятори втратять інтерес до ринку."
+					},
+					{
+						"id": "D",
+						"text": "Лідер, що має майже весь ринок, привертає увагу антимонопольних органів, які можуть обмежити ціни й поглинання."
+					},
+					{
+						"id": "E",
+						"text": "Оскільки виграє лише одна фірма, кожен конкурент має долучитися до гонки."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У місті ресторани розміщуються одразу на чотирьох застосунках доставки, а відвідувачі тримають два-три застосунки й обирають найдешевший. Фонд пропонує підтримати один застосунок $20 млн, щоб «виграти місто». Який висновок розумний?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Погодитися, бо кожен ринок доставки закінчується одним переможцем"
+					},
+					{
+						"id": "B",
+						"text": "Не вважати перелом даністю: дешевий мультихоумінг послаблює перевагу лідера, тож конкурувати треба маржею й диференціацією"
+					},
+					{
+						"id": "C",
+						"text": "Погодитися, але лише якщо застосунок ще й скасує всі комісії"
+					},
+					{
+						"id": "D",
+						"text": "Відмовитися, бо доставка ніколи не буває прибутковою"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок спільного календаря для спортивних клубів зростає. Батьки й тренери мають користуватися одним застосунком, щоб бачити розклад матчів, тримати два застосунки з окремими сповіщеннями їх дратує, а всі клуби потребують однакових базових функцій. Назвіть три умови перелому, пов’яжіть кожну з фактом з умови й скажіть, чи ринок, імовірно, схилиться до одного гравця."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому інвесторам може бути раціонально фінансувати великі збитки на ринку, який вони вважають ринком одного переможця? Назвіть умову, за якої ця логіка працює."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви керуєте відеоплатформою для онлайн-тренерів із шахів. Головний конкурент має майже таку саму частку (40% проти ваших 38%). У вас $3 млн. Тренери можуть завантажувати відео на обидві платформи за лічені хвилини, а попит ділиться на дуже різні групи: шкільні клуби, дорослі початківці й турнірні гравці. Оберіть одне: витратити $3 млн на безкоштовні акції для тренерів, зосередитися на одному сегменті, наприклад шкільних клубах, або продати компанію зараз. Обґрунтуйте вибір щонайменше двома умовами перелому."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви очолюєте застосунок оплати таксі в Кракові, до якого підключено 62% водіїв. Конкурент із 38% платить водіям бонус $20 на місяць за приєднання, а на ринку сильні мережеві ефекти й дорогий мультихоумінг. За сектором стежить міська антимонопольна служба. Оберіть одне: зрівняти бонус приблизно за $400 000 на рік, купити конкурента за $3 млн або тримати ціни та інвестувати в функції. Зважте компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "У країні близько 2 000 приватних клінік. Три застосунки пропонують відеоконсультації. Застосунок X має 52% клінік, Y має 41%, а ваш Z має 7% і $4 млн готівки. Пацієнти мусять користуватися застосунком, який обрала їхня клініка. Клініка може додати другий застосунок за $500, але персоналу не подобається працювати з двома. Близько 15% клінік дитячі, їм потрібні батьківські акаунти й дружні до дітей екрани, яких у X і Y немає. X витрачає $1 млн на місяць, Y близько $700 000."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Перевірте три умови перелому, скажіть, наскільки ймовірний перелом ринку, і порадьте позицію для Z з економікою."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

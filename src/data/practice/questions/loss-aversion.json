@@ -1,0 +1,838 @@
+{
+	"slug": "loss-aversion",
+	"topicId": 91,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does loss aversion mean?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "People prefer a sure small gain to a risky larger one"
+					},
+					{
+						"id": "B",
+						"text": "People avoid every kind of risk"
+					},
+					{
+						"id": "C",
+						"text": "People ignore small amounts of money"
+					},
+					{
+						"id": "D",
+						"text": "The pain of a loss feels stronger than the pleasure of an equal gain"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In loss aversion, what is the \"reference point\"?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The lowest price a customer has ever seen"
+					},
+					{
+						"id": "B",
+						"text": "What a person has or expects now, used as the baseline"
+					},
+					{
+						"id": "C",
+						"text": "The average price in the market"
+					},
+					{
+						"id": "D",
+						"text": "The seller’s break-even point"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Loss aversion means that people never take risks."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A 30-day free trial of a paid plan can convert better than a discount on the first month, partly because cancelling after the trial feels like losing something."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A telecom must remove a bundled streaming add-on from its mobile plan. Which approach is most likely to limit customer anger?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Keep the add-on for existing customers for 12 months, and let them try the new plan before it applies to them"
+					},
+					{
+						"id": "B",
+						"text": "Remove it silently and hope nobody notices"
+					},
+					{
+						"id": "C",
+						"text": "Announce the removal on the last day"
+					},
+					{
+						"id": "D",
+						"text": "Give a discount coupon to new customers only"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " situations are examples of loss aversion?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "An employee protests a 3% pay cut loudly but accepts a 3% rise calmly"
+					},
+					{
+						"id": "B",
+						"text": "A buyer picks the cheaper of two identical products"
+					},
+					{
+						"id": "C",
+						"text": "A customer picks a notebook for its cover colour"
+					},
+					{
+						"id": "D",
+						"text": "A manager keeps funding a failing product because stopping would record a loss"
+					},
+					{
+						"id": "E",
+						"text": "A shop sets prices at $9.99 instead of $10"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A recipe-box company wants customers to move from monthly to annual plans, which cost $36 less a year. Which message uses loss framing honestly?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "\"Only 2 annual plans left today!\""
+					},
+					{
+						"id": "B",
+						"text": "\"Annual is the cheaper plan.\""
+					},
+					{
+						"id": "C",
+						"text": "\"Our best plan, loved by thousands.\""
+					},
+					{
+						"id": "D",
+						"text": "\"Staying on monthly costs you $36 more a year than you need to pay.\""
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A ride-hailing app replaced free cancellation with a $2 fee and cut base fares by 5% to compensate. Riders on average pay less, yet complaints and uninstalls rose. What explains this, and what is the best response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Riders cannot do the arithmetic, so email a long explanation of the maths"
+					},
+					{
+						"id": "B",
+						"text": "Cut fares by another 20%"
+					},
+					{
+						"id": "C",
+						"text": "The loss of a free benefit weighs more than an equal gain; keep the first three cancellations a month free and phase the fee in"
+					},
+					{
+						"id": "D",
+						"text": "Withdraw the fare cut and keep the fee"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A finance manager wants to use \"losses weigh exactly twice as much as gains\" in a pricing model. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " objections are fair?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The ratio of about two is an average from particular experiments, and researchers debate how large and universal the effect is"
+					},
+					{
+						"id": "B",
+						"text": "Loss aversion has been disproved in all studies"
+					},
+					{
+						"id": "C",
+						"text": "The asymmetry is strongest for small routine amounts"
+					},
+					{
+						"id": "D",
+						"text": "Experienced traders show stronger effects than beginners"
+					},
+					{
+						"id": "E",
+						"text": "For small, routine amounts the asymmetry often disappears"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company has spent $4 million on a mobile app that is failing. Four people discuss whether to give it a further $1 million. Whose reasoning most clearly shows the loss-aversion trap?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "\"Stopping frees $1 million for the retail project, which has a better return.\""
+					},
+					{
+						"id": "B",
+						"text": "\"We have put $4 million in, so stopping would turn it into a real loss. We must go on.\""
+					},
+					{
+						"id": "C",
+						"text": "\"Compare the app’s expected future cash flow with the extra $1 million.\""
+					},
+					{
+						"id": "D",
+						"text": "\"Let us set a kill criterion, such as 10,000 paid users by June.\""
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain the endowment effect and give one business example where it can raise sales."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meal-kit company tests two offers: 30% off the first box, or two weeks of free subscription with the right to cancel. The free subscription has a higher conversion to paying customers. Explain why, and name one honest limit of the explanation."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A gym with 1,000 members wants to raise the monthly fee from $30 to $36 while adding two extra opening hours. Choose one: raise it for everyone next month and announce the new hours, keep the old price for current members for six months and charge new members $36, or keep the fee and add a $6 charge for evening use. Justify the choice with at least three ideas from loss aversion."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A note-taking app has 50,000 free users and 2,000 paying users. The CEO wants to end the free tier within 30 days to raise revenue. The product lead suggests lowering limits gradually and keeping current free users on their old limits for a year. Choose a plan and explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Zelena Pharmacy has 80,000 loyalty members. Its points never expired, and 30% of members hold more than 1,000 points. Management introduced expiry after 12 months, while raising the earn rate by 10%, and argued that members are better off on average. In the first week the pharmacy received 3,000 complaints, and the number of active members fell 12% in a quarter."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain the result with loss aversion, redesign the change, avoid manipulative tactics, and say how you would test the new design."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що означає неприйняття втрат?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Люди віддають перевагу певному невеликому виграшу над ризикованим більшим"
+					},
+					{
+						"id": "B",
+						"text": "Люди уникають будь-якого ризику"
+					},
+					{
+						"id": "C",
+						"text": "Люди не зважають на невеликі суми грошей"
+					},
+					{
+						"id": "D",
+						"text": "Біль від втрати відчувається сильніше, ніж задоволення від рівного виграшу"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке «точка відліку» у неприйнятті втрат?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Найнижча ціна, яку клієнт коли-небудь бачив"
+					},
+					{
+						"id": "B",
+						"text": "Те, що людина має або очікує зараз, як базовий рівень"
+					},
+					{
+						"id": "C",
+						"text": "Середня ціна на ринку"
+					},
+					{
+						"id": "D",
+						"text": "Точка беззбитковості продавця"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Неприйняття втрат означає, що люди ніколи не ризикують."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "30-денний безкоштовний пробний період платного тарифу може конвертувати краще, ніж знижка на перший місяць, почасти тому, що скасування після пробного періоду схоже на втрату."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Телеком мусить прибрати з мобільного тарифу пакетну стрімінгову послугу. Який підхід найімовірніше зменшить обурення клієнтів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Зберегти послугу для наявних клієнтів на 12 місяців і дати їм спробувати новий тариф до того, як він почне діяти"
+					},
+					{
+						"id": "B",
+						"text": "Прибрати мовчки й сподіватися, що ніхто не помітить"
+					},
+					{
+						"id": "C",
+						"text": "Оголосити про прибирання в останній день"
+					},
+					{
+						"id": "D",
+						"text": "Видати знижковий купон лише новим клієнтам"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " ситуації є прикладами неприйняття втрат?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Працівник гучно протестує проти скорочення зарплати на 3%, але спокійно приймає підвищення на 3%"
+					},
+					{
+						"id": "B",
+						"text": "Покупець обирає дешевший із двох однакових товарів"
+					},
+					{
+						"id": "C",
+						"text": "Клієнт обирає зошит за кольором обкладинки"
+					},
+					{
+						"id": "D",
+						"text": "Керівник і далі фінансує провальний продукт, бо зупинка зафіксує втрату"
+					},
+					{
+						"id": "E",
+						"text": "Магазин ставить ціни $9,99 замість $10"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія з доставки наборів для рецептів хоче переконати клієнтів перейти з місячних планів на річні, які дешевші на $36 на рік. Яке повідомлення чесно використовує рамку втрати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "«Сьогодні залишилося лише 2 річні плани!»"
+					},
+					{
+						"id": "B",
+						"text": "«Річний план дешевший.»"
+					},
+					{
+						"id": "C",
+						"text": "«Наш найкращий план, який люблять тисячі людей.»"
+					},
+					{
+						"id": "D",
+						"text": "«Залишаючись на місячному плані, ви переплачуєте $36 на рік.»"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для виклику авто замінив безкоштовне скасування комісією $2 і знизив базові тарифи на 5% як компенсацію. У середньому пасажири платять менше, але скарг і видалень застосунку побільшало. Що це пояснює і яка реакція найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Пасажири не вміють рахувати, тож надіслати їм довгий лист із поясненням математики"
+					},
+					{
+						"id": "B",
+						"text": "Знизити тарифи ще на 20%"
+					},
+					{
+						"id": "C",
+						"text": "Втрата безкоштовної опції важить більше за рівний виграш; залишити перші три скасування на місяць безкоштовними й запроваджувати комісію поступово"
+					},
+					{
+						"id": "D",
+						"text": "Скасувати зниження тарифів і лишити комісію"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фінансовий менеджер хоче закласти в цінову модель «втрати важать рівно вдвічі більше за виграші». Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " заперечення слушні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Співвідношення близько двох це середнє з окремих експериментів, а дослідники сперечаються про розмір і універсальність ефекту"
+					},
+					{
+						"id": "B",
+						"text": "Неприйняття втрат спростовано в усіх дослідженнях"
+					},
+					{
+						"id": "C",
+						"text": "Асиметрія найсильніша для невеликих рутинних сум"
+					},
+					{
+						"id": "D",
+						"text": "Досвідчені трейдери демонструють сильніші ефекти, ніж початківці"
+					},
+					{
+						"id": "E",
+						"text": "Для невеликих рутинних сум асиметрія часто зникає"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія вклала $4 млн у мобільний застосунок, який не вдається. Четверо людей обговорюють, чи давати йому ще $1 млн. Чиє міркування найяскравіше показує пастку неприйняття втрат?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "«Зупинка вивільняє $1 млн для роздрібного проєкту, який має кращу віддачу.»"
+					},
+					{
+						"id": "B",
+						"text": "«Ми вже вклали $4 млн, тож зупинка зробить це справжньою втратою. Треба продовжувати.»"
+					},
+					{
+						"id": "C",
+						"text": "«Порівняймо очікуваний майбутній грошовий потік застосунку з додатковим $1 млн.»"
+					},
+					{
+						"id": "D",
+						"text": "«Визначмо критерій закриття, наприклад 10 000 платних користувачів до червня.»"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть ефект володіння й наведіть один бізнес-приклад, де він може збільшити продажі."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія з доставки наборів для приготування страв тестує дві пропозиції: знижка 30% на перший набір або два тижні безкоштовної підписки з правом скасувати. Безкоштовна підписка дає вищу конверсію в платних клієнтів. Поясніть чому й назвіть одне чесне обмеження цього пояснення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Спортзал із 1000 членів хоче підвищити щомісячний внесок з $30 до $36 і додати дві години роботи. Оберіть одне: підвищити для всіх з наступного місяця й оголосити нові години; залишити стару ціну для наявних членів на шість місяців, а нових брати за $36; або зберегти внесок і додати доплату $6 за вечірнє відвідування. Обґрунтуйте вибір щонайменше трьома ідеями неприйняття втрат."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для нотаток має 50 000 безкоштовних і 2000 платних користувачів. Директор хоче закрити безкоштовний тариф за 30 днів, щоб збільшити виручку. Керівниця продукту пропонує поступово знижувати ліміти й залишити наявних безкоштовних користувачів на старих лімітах на рік. Оберіть план і поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "«Зелена аптека» має 80 000 учасників програми лояльності. Бали раніше не згорали, і 30% учасників мають понад 1000 балів. Керівництво запровадило згоряння через 12 місяців, підвищивши нарахування на 10%, і стверджувало, що учасникам у середньому вигідніше. За перший тиждень аптека отримала 3000 скарг, а кількість активних учасників за квартал впала на 12%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть результат через неприйняття втрат, перепроєктуйте зміну, уникнувши маніпулятивних прийомів, і скажіть, як ви перевірите новий дизайн."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

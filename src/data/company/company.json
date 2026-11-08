@@ -522,11 +522,6 @@
 			"description": "First principles thinking breaks a problem down to the facts that are known to be true, such as physical limits, material costs or a customer's basic need…",
 			"image": "/seo/theory.jpg"
 		},
-		"/practices/porters-five-forces": {
-			"title": "Porter’s Five Forces: practice",
-			"description": "Ten checked questions and five written business tasks on Porter’s Five Forces, with sample answers and a scoring rubric.",
-			"image": "/seo/practice.jpg"
-		},
 		"/sign-in": {
 			"image": "/seo/sign-in.jpg",
 			"title": "Sign in",
@@ -536,6 +531,486 @@
 			"image": "/seo/profile.jpg",
 			"title": "Your learning profile",
 			"robots": "noindex, nofollow"
+		},
+		"/practices/porters-five-forces": {
+			"title": "Porter’s Five Forces: practice",
+			"description": "Ten checked questions and five written business tasks on Porter’s Five Forces, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/porters-generic-strategies": {
+			"title": "Porter’s Generic Strategies: practice",
+			"description": "Ten checked questions and five written business tasks on Porter’s Generic Strategies, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/value-chain-analysis": {
+			"title": "Value Chain Analysis: practice",
+			"description": "Ten checked questions and five written business tasks on Value Chain Analysis, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/swot-analysis": {
+			"title": "SWOT Analysis: practice",
+			"description": "Ten checked questions and five written business tasks on SWOT Analysis, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/pestel-analysis": {
+			"title": "PESTEL Analysis: practice",
+			"description": "Ten checked questions and five written business tasks on PESTEL Analysis, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/resource-based-view": {
+			"title": "Resource-Based View (RBV): practice",
+			"description": "Ten checked questions and five written business tasks on Resource-Based View (RBV), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/vrio-framework": {
+			"title": "VRIO Framework: practice",
+			"description": "Ten checked questions and five written business tasks on VRIO Framework, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/core-competencies-theory": {
+			"title": "Core Competencies Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Core Competencies Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/blue-ocean-strategy": {
+			"title": "Blue Ocean Strategy: practice",
+			"description": "Ten checked questions and five written business tasks on Blue Ocean Strategy, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/ansoff-matrix": {
+			"title": "Ansoff Matrix: practice",
+			"description": "Ten checked questions and five written business tasks on Ansoff Matrix, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/bcg-growth-share-matrix": {
+			"title": "BCG Growth-Share Matrix: practice",
+			"description": "Ten checked questions and five written business tasks on BCG Growth-Share Matrix, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/ge-mckinsey-nine-box-matrix": {
+			"title": "GE-McKinsey Nine-Box Matrix: practice",
+			"description": "Ten checked questions and five written business tasks on GE-McKinsey Nine-Box Matrix, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/game-theory-in-business": {
+			"title": "Game Theory in Business: practice",
+			"description": "Ten checked questions and five written business tasks on Game Theory in Business, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/first-mover-advantage": {
+			"title": "First-Mover Advantage: practice",
+			"description": "Ten checked questions and five written business tasks on First-Mover Advantage, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/economic-moats": {
+			"title": "Economic Moats: practice",
+			"description": "Ten checked questions and five written business tasks on Economic Moats, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/disruptive-innovation-theory": {
+			"title": "Disruptive Innovation Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Disruptive Innovation Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/diffusion-of-innovations": {
+			"title": "Diffusion of Innovations: practice",
+			"description": "Ten checked questions and five written business tasks on Diffusion of Innovations, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/crossing-the-chasm": {
+			"title": "Crossing the Chasm: practice",
+			"description": "Ten checked questions and five written business tasks on Crossing the Chasm, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/lean-startup": {
+			"title": "Lean Startup (Build–Measure–Learn): practice",
+			"description": "Ten checked questions and five written business tasks on Lean Startup (Build–Measure–Learn), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/minimum-viable-product": {
+			"title": "Minimum Viable Product (MVP): practice",
+			"description": "Ten checked questions and five written business tasks on Minimum Viable Product (MVP), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/product-market-fit": {
+			"title": "Product-Market Fit: practice",
+			"description": "Ten checked questions and five written business tasks on Product-Market Fit, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/jobs-to-be-done": {
+			"title": "Jobs to Be Done (JTBD): practice",
+			"description": "Ten checked questions and five written business tasks on Jobs to Be Done (JTBD), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/customer-development-model": {
+			"title": "Customer Development Model: practice",
+			"description": "Ten checked questions and five written business tasks on Customer Development Model, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/business-model-canvas": {
+			"title": "Business Model Canvas: practice",
+			"description": "Ten checked questions and five written business tasks on Business Model Canvas, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/lean-canvas": {
+			"title": "Lean Canvas: practice",
+			"description": "Ten checked questions and five written business tasks on Lean Canvas, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/value-proposition-canvas": {
+			"title": "Value Proposition Canvas: practice",
+			"description": "Ten checked questions and five written business tasks on Value Proposition Canvas, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/effectuation-theory": {
+			"title": "Effectuation Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Effectuation Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/innovators-dilemma": {
+			"title": "Innovator's Dilemma: practice",
+			"description": "Ten checked questions and five written business tasks on Innovator's Dilemma, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/hype-cycle": {
+			"title": "Hype Cycle: practice",
+			"description": "Ten checked questions and five written business tasks on Hype Cycle, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/network-effects": {
+			"title": "Network Effects: practice",
+			"description": "Ten checked questions and five written business tasks on Network Effects, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/two-sided-multi-sided-markets": {
+			"title": "Two-Sided / Multi-Sided Markets: practice",
+			"description": "Ten checked questions and five written business tasks on Two-Sided / Multi-Sided Markets, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/platform-business-model": {
+			"title": "Platform Business Model: practice",
+			"description": "Ten checked questions and five written business tasks on Platform Business Model, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/economies-of-scale": {
+			"title": "Economies of Scale: practice",
+			"description": "Ten checked questions and five written business tasks on Economies of Scale, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/economies-of-scope": {
+			"title": "Economies of Scope: practice",
+			"description": "Ten checked questions and five written business tasks on Economies of Scope, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/long-tail-theory": {
+			"title": "Long Tail Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Long Tail Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/flywheel-effect": {
+			"title": "Flywheel Effect: practice",
+			"description": "Ten checked questions and five written business tasks on Flywheel Effect, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/winner-takes-all-markets": {
+			"title": "Winner-Takes-All Markets: practice",
+			"description": "Ten checked questions and five written business tasks on Winner-Takes-All Markets, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/switching-costs-and-lock-in": {
+			"title": "Switching Costs & Lock-In: practice",
+			"description": "Ten checked questions and five written business tasks on Switching Costs & Lock-In, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/aggregation-theory": {
+			"title": "Aggregation Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Aggregation Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/marketing-mix": {
+			"title": "Marketing Mix (4Ps / 7Ps): practice",
+			"description": "Ten checked questions and five written business tasks on Marketing Mix (4Ps / 7Ps), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/stp": {
+			"title": "STP (Segmentation, Targeting, Positioning): practice",
+			"description": "Ten checked questions and five written business tasks on STP (Segmentation, Targeting, Positioning), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/customer-lifetime-value": {
+			"title": "Customer Lifetime Value (CLV/LTV): practice",
+			"description": "Ten checked questions and five written business tasks on Customer Lifetime Value (CLV/LTV), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/aarrr-pirate-metrics": {
+			"title": "AARRR Pirate Metrics: practice",
+			"description": "Ten checked questions and five written business tasks on AARRR Pirate Metrics, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/aida-model": {
+			"title": "AIDA Model: practice",
+			"description": "Ten checked questions and five written business tasks on AIDA Model, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/customer-journey-mapping": {
+			"title": "Customer Journey Mapping: practice",
+			"description": "Ten checked questions and five written business tasks on Customer Journey Mapping, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/brand-equity-model": {
+			"title": "Brand Equity Model: practice",
+			"description": "Ten checked questions and five written business tasks on Brand Equity Model, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/positioning-theory": {
+			"title": "Positioning Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Positioning Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/freemium-model": {
+			"title": "Freemium Model: practice",
+			"description": "Ten checked questions and five written business tasks on Freemium Model, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/pricing-strategy-theories": {
+			"title": "Pricing Strategy Theories (Value-Based, Cost-Plus, Penetration, Skimming): practice",
+			"description": "Ten checked questions and five written business tasks on Pricing Strategy Theories (Value-Based, Cost-Plus, Penetration, Skimming), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/price-elasticity-of-demand": {
+			"title": "Price Elasticity of Demand: practice",
+			"description": "Ten checked questions and five written business tasks on Price Elasticity of Demand, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/market-sizing": {
+			"title": "Market Sizing (TAM, SAM, SOM): practice",
+			"description": "Ten checked questions and five written business tasks on Market Sizing (TAM, SAM, SOM), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/sales-funnel": {
+			"title": "Sales Funnel: practice",
+			"description": "Ten checked questions and five written business tasks on Sales Funnel, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/customer-acquisition-cost": {
+			"title": "Customer Acquisition Cost (CAC): practice",
+			"description": "Ten checked questions and five written business tasks on Customer Acquisition Cost (CAC), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/negotiation-and-batna": {
+			"title": "Negotiation and BATNA: practice",
+			"description": "Ten checked questions and five written business tasks on Negotiation and BATNA, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/supply-and-demand": {
+			"title": "Supply and Demand: practice",
+			"description": "Ten checked questions and five written business tasks on Supply and Demand, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/unit-economics": {
+			"title": "Unit Economics: practice",
+			"description": "Ten checked questions and five written business tasks on Unit Economics, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/break-even-analysis": {
+			"title": "Break-Even Analysis: practice",
+			"description": "Ten checked questions and five written business tasks on Break-Even Analysis, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/opportunity-cost": {
+			"title": "Opportunity Cost: practice",
+			"description": "Ten checked questions and five written business tasks on Opportunity Cost, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/sunk-cost-fallacy": {
+			"title": "Sunk Cost Fallacy: practice",
+			"description": "Ten checked questions and five written business tasks on Sunk Cost Fallacy, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/transaction-cost-economics": {
+			"title": "Transaction Cost Economics: practice",
+			"description": "Ten checked questions and five written business tasks on Transaction Cost Economics, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/agency-theory": {
+			"title": "Agency Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Agency Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/time-value-of-money": {
+			"title": "Time Value of Money: practice",
+			"description": "Ten checked questions and five written business tasks on Time Value of Money, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/return-on-investment": {
+			"title": "Return on Investment (ROI): practice",
+			"description": "Ten checked questions and five written business tasks on Return on Investment (ROI), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/cash-flow-cycle": {
+			"title": "Cash Flow Cycle: practice",
+			"description": "Ten checked questions and five written business tasks on Cash Flow Cycle, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/marginal-cost-and-marginal-revenue": {
+			"title": "Marginal Cost and Marginal Revenue: practice",
+			"description": "Ten checked questions and five written business tasks on Marginal Cost and Marginal Revenue, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/pareto-principle": {
+			"title": "Pareto Principle (80/20 Rule): practice",
+			"description": "Ten checked questions and five written business tasks on Pareto Principle (80/20 Rule), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/financial-statements": {
+			"title": "Financial Statements: practice",
+			"description": "Ten checked questions and five written business tasks on Financial Statements, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/budgeting-and-forecasting": {
+			"title": "Budgeting and Forecasting: practice",
+			"description": "Ten checked questions and five written business tasks on Budgeting and Forecasting, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/theory-of-constraints": {
+			"title": "Theory of Constraints: practice",
+			"description": "Ten checked questions and five written business tasks on Theory of Constraints, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/lean-management": {
+			"title": "Lean Management: practice",
+			"description": "Ten checked questions and five written business tasks on Lean Management, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/six-sigma": {
+			"title": "Six Sigma: practice",
+			"description": "Ten checked questions and five written business tasks on Six Sigma, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/kaizen": {
+			"title": "Kaizen (Continuous Improvement): practice",
+			"description": "Ten checked questions and five written business tasks on Kaizen (Continuous Improvement), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/just-in-time": {
+			"title": "Just-in-Time (JIT): practice",
+			"description": "Ten checked questions and five written business tasks on Just-in-Time (JIT), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/okrs": {
+			"title": "OKRs (Objectives and Key Results): practice",
+			"description": "Ten checked questions and five written business tasks on OKRs (Objectives and Key Results), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/balanced-scorecard": {
+			"title": "Balanced Scorecard: practice",
+			"description": "Ten checked questions and five written business tasks on Balanced Scorecard, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/pdca-cycle": {
+			"title": "PDCA Cycle (Plan–Do–Check–Act): practice",
+			"description": "Ten checked questions and five written business tasks on PDCA Cycle (Plan–Do–Check–Act), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/eisenhower-matrix": {
+			"title": "Eisenhower Matrix: practice",
+			"description": "Ten checked questions and five written business tasks on Eisenhower Matrix, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/maslows-hierarchy-of-needs": {
+			"title": "Maslow's Hierarchy of Needs: practice",
+			"description": "Ten checked questions and five written business tasks on Maslow's Hierarchy of Needs, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/herzbergs-two-factor-theory": {
+			"title": "Herzberg's Two-Factor Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Herzberg's Two-Factor Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/mcgregors-theory-x-and-theory-y": {
+			"title": "McGregor's Theory X and Theory Y: practice",
+			"description": "Ten checked questions and five written business tasks on McGregor's Theory X and Theory Y, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/situational-leadership": {
+			"title": "Situational Leadership: practice",
+			"description": "Ten checked questions and five written business tasks on Situational Leadership, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/transformational-leadership": {
+			"title": "Transformational Leadership: practice",
+			"description": "Ten checked questions and five written business tasks on Transformational Leadership, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/tuckmans-stages-of-team-development": {
+			"title": "Tuckman's Stages of Team Development: practice",
+			"description": "Ten checked questions and five written business tasks on Tuckman's Stages of Team Development, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/kotters-8-step-change-model": {
+			"title": "Kotter's 8-Step Change Model: practice",
+			"description": "Ten checked questions and five written business tasks on Kotter's 8-Step Change Model, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/organizational-culture-model": {
+			"title": "Organizational Culture Model (Schein): practice",
+			"description": "Ten checked questions and five written business tasks on Organizational Culture Model (Schein), with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/stakeholder-theory": {
+			"title": "Stakeholder Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Stakeholder Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/peter-principle": {
+			"title": "Peter Principle: practice",
+			"description": "Ten checked questions and five written business tasks on Peter Principle, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/structured-hiring": {
+			"title": "Structured Hiring: practice",
+			"description": "Ten checked questions and five written business tasks on Structured Hiring, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/bounded-rationality": {
+			"title": "Bounded Rationality: practice",
+			"description": "Ten checked questions and five written business tasks on Bounded Rationality, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/prospect-theory": {
+			"title": "Prospect Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Prospect Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/loss-aversion": {
+			"title": "Loss Aversion: practice",
+			"description": "Ten checked questions and five written business tasks on Loss Aversion, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/anchoring-effect": {
+			"title": "Anchoring Effect: practice",
+			"description": "Ten checked questions and five written business tasks on Anchoring Effect, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/nudge-theory": {
+			"title": "Nudge Theory: practice",
+			"description": "Ten checked questions and five written business tasks on Nudge Theory, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/decision-matrix": {
+			"title": "Decision Matrix: practice",
+			"description": "Ten checked questions and five written business tasks on Decision Matrix, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/second-order-thinking": {
+			"title": "Second-Order Thinking: practice",
+			"description": "Ten checked questions and five written business tasks on Second-Order Thinking, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
+		},
+		"/practices/first-principles-thinking": {
+			"title": "First Principles Thinking: practice",
+			"description": "Ten checked questions and five written business tasks on First Principles Thinking, with sample answers and a scoring rubric.",
+			"image": "/seo/practice.jpg"
 		}
 	},
 	"logo": "/logo.png"

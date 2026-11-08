@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A dominant strategy pays at least as well as any alternative against every move the others could make. Being best only against cooperation is not dominance, avoiding risk is a different aim, and the leader’s choice need not be dominant."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In equilibrium each strategy is a best response to the others, so nobody wants to move alone. The outcome can be worse for everyone, as in a price war, so it is not the same as the best joint result, the most preferred outcome or cooperation."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Agreeing on prices is illegal collusion in most countries. Game theory is used to choose your own moves, such as commitments, product differences or loyalty programmes, that change the incentives."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A firm that cuts its price today gains only until the rival responds, and then loses the better prices in all later rounds. When interactions recur, reputation and retaliation change the best strategy."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Against a rival that keeps fares, cutting earns $7 million against $5 million for keeping. The $3 million result happens only if the rival also cuts, and $2 million is what you get from keeping when the rival cuts."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A loyalty scheme and a differentiated product change customers’ options and so the payoffs. A secret price deal is illegal, assuming no reaction is the mistake the theory warns about, and blind matching ignores the firm’s own economics."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Discounting is better for each bakery whatever the other does ($1,300 against $1,000, and $700 against $500), so it is a dominant strategy and both end at $700. Both keeping prices pays more, but each would be tempted to deviate."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "If the cut is matched immediately, the rival wins no extra customers and only loses margin, so the incentive to start a price war disappears. This is why a price-match promise can raise prices. It is not generally illegal, and it works precisely because customers can use it."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "When rivals meet again, today’s move affects tomorrow’s response, which can support cooperation. Tit-for-tat, copying the rival’s last move, is an example. Repetition is exactly what makes one-shot logic incomplete, and it does not always lead to price wars."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Sunk, irreversible commitments change what the chain would do if the rival entered: it has no option to leave and so has more reason to fight. A threat that is only spoken is not credible. The leases do not touch the rival’s costs or legality."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Cutting is better for each vendor whatever the other does: $600 against $400 if the rival keeps prices, and $250 against $150 if the rival cuts. So cutting is a dominant strategy and both cut, each earning $250 instead of $400. The equilibrium is worse for both than keeping prices, which is the prisoner’s dilemma, because neither can trust the other to hold prices and the one who holds loses most."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Shows that cutting is better for each whatever the other does, using the payoffs",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that the resulting equilibrium ($250 each) is worse than mutual normal pricing ($400 each)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A station that cuts price gains customers only until the rival matches the cut, which usually happens the next day, and after that both earn less. The one-day gain is small compared with the long loss of margin, so neither wants to start. A price-match promise makes the response automatic. Risk: it only works while both expect to meet for a long time, and a new rival or a sudden crisis can break it. Coordinating through an explicit agreement would be illegal, so each owner must act independently."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that a cut is quickly matched, so the gain is brief and the loss lasts",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the stations or a price-match promise as a concrete illustration",
+					"points": 1
+				},
+				{
+					"criterion": "Names a valid risk or the legal limit on agreeing prices",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Sign the employer contracts. The rival will enter if it expects to earn more than $1 million, and today sharing gives it $1.8 million. My announcement would be cheap talk: in a price war I would earn $0.4 million, against $1.8 million from sharing, so the rival expects me to share rather than fight. The contracts change the payoffs: the rival’s share of the market falls to $0.9 million, below its entry cost, so entry is no longer worthwhile and no threat is needed. Risk: employers may demand lower fares or the rival may find other customers, so track contract renewals and the rival’s announcements."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses payoffs from the case to show why the announcement is not credible and why entry is currently attractive",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that the contracts change the rival’s payoff below its entry cost",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and an indicator",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Match the cut and announce a price-match policy. Holding the price gives 80 a month against 120 from matching, with no sign that the rival will return, so waiting loses 40 a month. The phone call is illegal price coordination, which risks fines and criminal liability, so it is ruled out. Because the game repeats, a clear policy that every rival cut will be matched removes the rival’s gain from cutting and can bring prices back up over time without any agreement. Risk: both stay at 120, so watch the rival’s prices and my margin and review the policy if the rival stays low for several months."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Compares holding (80) with matching (120) using the payoffs",
+					"points": 2
+				},
+				{
+					"criterion": "Recognises that phoning the rival is illegal collusion",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the repeated game or a price-match policy to reduce the rival’s incentive",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear choice and names a risk",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Without capacity: if the entrant enters, the incumbent compares accommodating (5) with fighting (2) and accommodates. Knowing this, the entrant compares 3 with 0 and enters. The outcome is 3 for the entrant and 5 for the incumbent. The announcement is not credible, because fighting hurts the incumbent, so it will not do it. With capacity: after entry the incumbent prefers fighting (5 against 3), so the entrant expects −2 and stays out, leaving the incumbent with 8, more than 5 without the investment, so it pays. Trade-offs: the $2 million is irreversible, the entrant may misjudge and enter anyway, and aggressive pricing could invite a predatory pricing complaint from regulators."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Applies backward induction without capacity: incumbent accommodates, entrant enters, outcome (3, 5)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that the threat is not credible because fighting gives 2, less than 5",
+					"points": 1
+				},
+				{
+					"criterion": "Shows that with capacity the incumbent fights (5 against 3), the entrant stays out and the incumbent gets 8 against 5",
+					"points": 2
+				},
+				{
+					"criterion": "Names a trade-off such as irreversibility, misjudgement or regulatory risk",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Домінантна стратегія приносить не менше за будь-яку альтернативу проти кожного можливого ходу інших. Бути найкращим лише проти співпраці це не домінування, уникання ризику має іншу мету, а вибір лідера не обов’язково домінантний."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "У рівновазі кожна стратегія є найкращою відповіддю на інші, тож ніхто не хоче рухатися сам. Результат може бути гіршим для всіх, як у ціновій війні, тому це не те саме, що найкращий спільний результат, найбажаніший результат чи співпраця."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Домовленість про ціни в більшості країн є незаконною змовою. Теорію ігор використовують, щоб обирати власні ходи, як-от зобов’язання, відмінності продукту чи програми лояльності, що змінюють стимули."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Фірма, яка сьогодні знижує ціну, виграє лише доти, доки суперник не відповість, а потім втрачає кращі ціни в усіх наступних раундах. Коли взаємодії повторюються, репутація й відплата змінюють найкращу стратегію."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Проти суперника, що тримає тарифи, зниження приносить $7 млн проти $5 млн за збереження. Результат $3 млн виникає, лише якщо суперник теж знижує, а $2 млн це те, що ви отримуєте, тримаючи тариф, коли суперник знижує."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Програма лояльності й диференційований продукт змінюють вибір клієнтів, а отже виграші. Таємна змова про ціни незаконна, припущення, що реакції не буде, це помилка, про яку застерігає теорія, а сліпе повторення ігнорує власну економіку фірми."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Знижка вигідна кожній пекарні незалежно від дій іншої ($1300 проти $1000 і $700 проти $500), тож це домінантна стратегія, і обидві опиняються на $700. Збереження цін обома приносить більше, але кожну спокушало б відступити."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Якщо зниження одразу зрівнюють, суперник не залучає додаткових клієнтів і лише втрачає маржу, тож стимул починати цінову війну зникає. Тому обіцянка зрівняти ціну може підвищувати ціни. Вона загалом не незаконна й працює саме тому, що клієнти можуть нею скористатися."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Коли суперники зустрічаються знову, сьогоднішній хід впливає на завтрашню відповідь, що може підтримувати співпрацю. «Зуб за зуб», тобто повторення останнього ходу суперника, є прикладом. Повторення саме й робить логіку одноразової гри неповною, і воно не завжди веде до цінових війн."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Безповоротні витрати змінюють те, що мережа робила б у разі входу суперника: вона не може піти, тож має більше причин воювати. Загроза, яку лише проголошено, неправдоподібна. Оренда не торкається ні витрат суперника, ні законності."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Знижка вигідніша кожному продавцеві незалежно від дій іншого: $600 проти $400, якщо суперник тримає ціни, і $250 проти $150, якщо суперник знижує. Отже, зниження це домінантна стратегія, і обидва знижують та заробляють по $250 замість $400. Рівновага гірша для обох, ніж збереження цін, і це дилема в’язня, бо ніхто не може довіряти іншому, що той триматиме ціни, а той, хто тримає, втрачає найбільше."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Показує, що зниження вигідніше кожному незалежно від дій іншого, використовуючи виграші",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що отримана рівновага ($250 кожному) гірша за взаємні звичайні ціни ($400 кожному)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Заправка, що знижує ціну, залучає клієнтів лише доти, доки суперник не зрівняє зниження, а це зазвичай відбувається наступного дня, і після цього обидві заробляють менше. Одноденний виграш малий порівняно з довгою втратою маржі, тож жодна не хоче починати. Обіцянка зрівняти ціну робить відповідь автоматичною. Ризик: це працює, лише поки обидві очікують довго зустрічатися, а новий конкурент чи раптова криза можуть це зламати. Координація через явну домовленість була б незаконною, тож кожен власник мусить діяти самостійно."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що зниження швидко зрівнюють, тож виграш короткий, а втрата тривала",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує заправки або обіцянку зрівняти ціну як конкретну ілюстрацію",
+					"points": 1
+				},
+				{
+					"criterion": "Називає слушний ризик або юридичну межу домовленості про ціни",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підписати договори з роботодавцями. Конкурент увійде, якщо очікує заробити понад $1 млн, а нині поділ дає йому $1,8 млн. Моя заява була б порожніми словами: у ціновій війні я заробив би $0,4 млн проти $1,8 млн від поділу, тож конкурент очікує, що я поділюся, а не воюватиму. Договори змінюють виграші: частка конкурента на ринку падає до $0,9 млн, нижче за його витрати на вхід, тож входити невигідно, і жодна загроза не потрібна. Ризик: роботодавці можуть вимагати нижчих тарифів, а конкурент може знайти інших клієнтів, тож стежте за продовженням договорів і заявами конкурента."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує виграші з умови, щоб показати, чому заява неправдоподібна і чому вхід нині привабливий",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що договори знижують виграш конкурента нижче за його витрати на вхід",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і індикатор",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зрівняти зниження й оголосити політику зрівнювання цін. Тримання ціни дає 80 на місяць проти 120 від зрівняння, без жодних ознак, що суперник повернеться, тож очікування втрачає 40 на місяць. Телефонний дзвінок це незаконна координація цін, що ризикує штрафами й кримінальною відповідальністю, тож його виключено. Оскільки гра повторюється, чітка політика, що кожне зниження суперника буде зрівняно, знімає з нього вигоду від зниження й може з часом повернути ціни вгору без жодної домовленості. Ризик: обидва лишаться на 120, тож стежте за цінами суперника й власною маржею та переглядайте політику, якщо суперник залишається низьким кілька місяців."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Порівнює тримання (80) зі зрівнянням (120) за виграшами",
+					"points": 2
+				},
+				{
+					"criterion": "Визнає, що телефонний дзвінок суперникові це незаконна змова",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує гру, що повторюється, або політику зрівняння цін, щоб зменшити стимул суперника",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий вибір і називає ризик",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Без потужностей: якщо новачок увійде, інкумбент порівнює поступку (5) з війною (2) і поступається. Знаючи це, новачок порівнює 3 з 0 і входить. Результат: 3 для новачка й 5 для інкумбента. Заява неправдоподібна, бо війна шкодить інкумбентові, тож він її не вестиме. З потужностями: після входу інкумбент віддає перевагу війні (5 проти 3), тож новачок очікує −2 і лишається поза ринком, а інкумбент отримує 8, більше за 5 без інвестиції, тож вона окупається. Компроміси: $2 млн незворотні, новачок може помилитися й увійти попри все, а агресивне ціноутворення може викликати скаргу регуляторів на хижацьке ціноутворення."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Застосовує зворотну індукцію без потужностей: інкумбент поступається, новачок входить, результат (3, 5)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що загроза неправдоподібна, бо війна дає 2, менше за 5",
+					"points": 1
+				},
+				{
+					"criterion": "Показує, що з потужностями інкумбент воює (5 проти 3), новачок лишається поза ринком, а інкумбент отримує 8 проти 5",
+					"points": 2
+				},
+				{
+					"criterion": "Називає компроміс, як-от незворотність, помилкова оцінка чи регуляторний ризик",
+					"points": 1
+				}
+			]
+		}
+	}
+}

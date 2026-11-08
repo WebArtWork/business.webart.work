@@ -1,0 +1,948 @@
+{
+	"slug": "marginal-cost-and-marginal-revenue",
+	"topicId": 65,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "At what output level does a firm maximise profit, according to the marginal rule?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Where price equals average cost"
+					},
+					{
+						"id": "B",
+						"text": "Where total revenue is highest"
+					},
+					{
+						"id": "C",
+						"text": "Where marginal revenue equals marginal cost"
+					},
+					{
+						"id": "D",
+						"text": "Where marginal cost is lowest"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery is deciding whether to bake one extra batch tonight. Which cost is "
+							},
+							{
+								"t": "irrelevant",
+								"b": true
+							},
+							{
+								"t": " to that decision?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Flour and butter for the batch"
+					},
+					{
+						"id": "B",
+						"text": "The monthly rent for the bakery"
+					},
+					{
+						"id": "C",
+						"text": "Gas for running the oven longer"
+					},
+					{
+						"id": "D",
+						"text": "Overtime for the baker who stays late"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Marginal revenue always equals the price of the extra unit sold."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A print shop running close to full capacity may find that the next order costs much more per unit than earlier ones, because it needs overtime or a second shift."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A car rental office rents 50 cars a day at $40. To rent 60 cars it must cut the price to $36 for every customer. What is the marginal revenue of each of the 10 extra rentals?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$16"
+					},
+					{
+						"id": "B",
+						"text": "$36"
+					},
+					{
+						"id": "C",
+						"text": "$40"
+					},
+					{
+						"id": "D",
+						"text": "$4"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A furniture factory with idle capacity receives a one-off export order. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " costs belong to the marginal cost of the order?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The factory lease"
+					},
+					{
+						"id": "B",
+						"text": "Wood and fabric for the order"
+					},
+					{
+						"id": "C",
+						"text": "The managing director's salary"
+					},
+					{
+						"id": "D",
+						"text": "Extra electricity for running the machines"
+					},
+					{
+						"id": "E",
+						"text": "Last year's showroom renovation"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A yoga studio's class has 20 mats and usually 12 members. The instructor and room cost $160 per class, and each attendee adds $1.50 for towels and cleaning. A company offers to buy 8 spots in each class at $6, against the regular $15. What should the studio do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Reject: $6 is below the average cost of about $9.50 per attendee"
+					},
+					{
+						"id": "B",
+						"text": "Accept only if the company pays at least $15"
+					},
+					{
+						"id": "C",
+						"text": "Reject: corporate clients never bring repeat business"
+					},
+					{
+						"id": "D",
+						"text": "Accept, as long as these mats would otherwise be empty and regular members cannot get the $6 price"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bottled-water plant can make at most 100,000 bottles a month on one shift, and it is full. Each bottle costs $0.20 in materials and energy. A customer orders 30,000 extra bottles a month at $0.30. Producing them requires a second shift that costs $12,000 a month in wages and supervision, plus $0.20 per bottle. What should the plant do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Accept: $0.30 is above the $0.20 marginal cost"
+					},
+					{
+						"id": "B",
+						"text": "Reject: with the second shift, the order really costs $18,000, or $0.60 per bottle, double the price"
+					},
+					{
+						"id": "C",
+						"text": "Accept: a second shift spreads fixed costs over more bottles"
+					},
+					{
+						"id": "D",
+						"text": "Reject: the price is below the plant's average cost"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A city hotel starts selling large blocks of rooms to tour operators at close to marginal cost all year round, not just in quiet months. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " risks does this create?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The marginal rule says such sales can never add profit."
+					},
+					{
+						"id": "B",
+						"text": "Equating marginal revenue and marginal cost does not apply to hotels."
+					},
+					{
+						"id": "C",
+						"text": "If most rooms are sold near marginal cost, the fixed costs may never be covered."
+					},
+					{
+						"id": "D",
+						"text": "Every room should always be priced at average cost."
+					},
+					{
+						"id": "E",
+						"text": "Regular guests may learn about the low prices and stop paying the full rate."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A craft brewery sells beer at $1.50 a litre, and its average cost is $1.00 a litre. To sell the next 1,000 litres it would need discounts, so marginal revenue is $1.10 a litre, while overtime makes the marginal cost $1.40 a litre. The manager says: \"We earn $0.50 above average cost, so keep expanding.\" What is right?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Produce less, or at least not more: the next 1,000 litres would lose about $0.30 a litre"
+					},
+					{
+						"id": "B",
+						"text": "Expand, because more volume lowers average cost"
+					},
+					{
+						"id": "C",
+						"text": "Keep expanding, because fixed costs are already covered"
+					},
+					{
+						"id": "D",
+						"text": "Expand and cut prices further to win share"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A catering company's average cost is $14 a meal, including kitchen rent and staff salaries. A charity asks for 300 meals at $9 on a quiet Tuesday. Each meal needs $5 of ingredients and $0.80 of packaging, and the job needs $600 of extra hourly staff. Should the company accept? Show your working."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An e-bike shop sells 30 bikes a month at $1,500. To sell 31, it would have to charge $1,480 to everyone. Calculate the marginal revenue of the 31st bike and explain why it is so far below the price."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A plastic-moulding firm uses 70% of its 100,000-unit monthly capacity. A supermarket chain offers a one-year contract for 20,000 storage boxes a month at $2.10 under the chain's own label. The firm's regular price is $3.00, its average cost is $2.40, and the marginal cost of a box is $1.60. Choose: accept, reject or counter-offer at $2.40. Justify your choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An intercity bus company considers one extra evening trip. Tickets cost $14."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option A, 20:00: costs $240 per trip. Expected 26 passengers, but 12 of them would otherwise ride the existing 18:00 bus, which has free seats."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option B, 21:30: costs $260 per trip because of a night bonus. Expected 22 passengers, of whom 2 would otherwise ride an existing bus."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option C: add no trip."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one option and show why the obvious answer is wrong."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A contract cosmetics maker can fill 50,000 jars a month on one shift and now fills 38,000. Its fixed costs are $60,000 a month, so its average cost is about $3.20 a jar. Materials and direct labour cost $1.60 a jar. Above 50,000 jars, overtime adds $0.90 to every extra jar."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Offer A: a discount chain wants 10,000 jars a month at $2.30 for twelve months."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Offer B: a pharmacy chain wants 18,000 jars a month at $2.60."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the monthly profit effect of A, B and both together. Recommend what to accept, explain why the average cost misleads, and name one side effect to check."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "За якого обсягу виробництва фірма максимізує прибуток згідно з граничним правилом?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Коли ціна дорівнює середнім витратам"
+					},
+					{
+						"id": "B",
+						"text": "Коли загальна виручка найбільша"
+					},
+					{
+						"id": "C",
+						"text": "Коли граничний дохід дорівнює граничним витратам"
+					},
+					{
+						"id": "D",
+						"text": "Коли граничні витрати найнижчі"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пекарня вирішує, чи пекти сьогодні ввечері ще одну партію. Які витрати для цього рішення "
+							},
+							{
+								"t": "нерелевантні",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Борошно й масло для партії"
+					},
+					{
+						"id": "B",
+						"text": "Щомісячна оренда пекарні"
+					},
+					{
+						"id": "C",
+						"text": "Газ для довшої роботи печі"
+					},
+					{
+						"id": "D",
+						"text": "Понаднормові для пекаря, який залишиться довше"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Граничний дохід завжди дорівнює ціні додаткової проданої одиниці."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Друкарня, що працює майже на повну потужність, може виявити, що наступне замовлення коштує на одиницю значно більше за попередні, бо потребує понаднормових або другої зміни."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Прокат авто здає 50 машин на день по $40. Щоб здати 60, треба знизити ціну до $36 для кожного клієнта. Який граничний дохід кожної з 10 додаткових оренд?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$16"
+					},
+					{
+						"id": "B",
+						"text": "$36"
+					},
+					{
+						"id": "C",
+						"text": "$40"
+					},
+					{
+						"id": "D",
+						"text": "$4"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Меблева фабрика з вільними потужностями отримала разове експортне замовлення. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " статті належать до граничних витрат замовлення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Оренда фабрики"
+					},
+					{
+						"id": "B",
+						"text": "Деревина й тканина для замовлення"
+					},
+					{
+						"id": "C",
+						"text": "Зарплата генерального директора"
+					},
+					{
+						"id": "D",
+						"text": "Додаткова електроенергія для роботи верстатів"
+					},
+					{
+						"id": "E",
+						"text": "Торішній ремонт шоуруму"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У заняття йога-студії є 20 килимків, і зазвичай приходять 12 клієнтів. Інструктор і зала коштують $160 за заняття, а кожен відвідувач додає $1,50 на рушники й прибирання. Компанія пропонує купувати 8 місць на кожному занятті по $6 при звичайній ціні $15. Що робити студії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Відмовитися: $6 нижче за середні витрати близько $9,50 на відвідувача"
+					},
+					{
+						"id": "B",
+						"text": "Погодитися, лише якщо компанія платитиме щонайменше $15"
+					},
+					{
+						"id": "C",
+						"text": "Відмовитися: корпоративні клієнти ніколи не повертаються"
+					},
+					{
+						"id": "D",
+						"text": "Погодитися за умови, що ці килимки інакше стояли б порожні, а постійні клієнти не зможуть отримати ціну $6"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Завод бутильованої води може виготовити щонайбільше 100 000 пляшок на місяць в одну зміну, і він завантажений повністю. Кожна пляшка коштує $0,20 матеріалів та енергії. Клієнт замовляє додатково 30 000 пляшок на місяць по $0,30. Для цього потрібна друга зміна, яка коштує $12 000 на місяць на зарплати й нагляд, плюс $0,20 на пляшку. Що робити заводу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Погодитися: $0,30 більше за граничні витрати $0,20"
+					},
+					{
+						"id": "B",
+						"text": "Відмовитися: з другою зміною замовлення насправді коштує $18 000, або $0,60 за пляшку, удвічі більше за ціну"
+					},
+					{
+						"id": "C",
+						"text": "Погодитися: друга зміна розподіляє постійні витрати на більше пляшок"
+					},
+					{
+						"id": "D",
+						"text": "Відмовитися: ціна нижча за середні витрати заводу"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Міський готель почав продавати туроператорам великі блоки номерів майже за граничними витратами цілий рік, а не лише в тихі місяці. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " ризики це створює?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Граничне правило каже, що такі продажі ніколи не додають прибутку."
+					},
+					{
+						"id": "B",
+						"text": "Рівність граничного доходу й граничних витрат не стосується готелів."
+					},
+					{
+						"id": "C",
+						"text": "Якщо більшість номерів продається майже за граничними витратами, постійні витрати можуть так і не покритися."
+					},
+					{
+						"id": "D",
+						"text": "Кожен номер слід завжди оцінювати за середніми витратами."
+					},
+					{
+						"id": "E",
+						"text": "Постійні гості можуть дізнатися про низькі ціни й перестати платити повний тариф."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Крафтова броварня продає пиво по $1,50 за літр, а її середні витрати становлять $1,00 за літр. Щоб продати наступні 1 000 літрів, потрібні знижки, тож граничний дохід становить $1,10 за літр, а через понаднормові граничні витрати сягають $1,40 за літр. Менеджер каже: «Ми заробляємо $0,50 понад середні витрати, тож розширюймося далі». Що правильно?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Виробляти менше або принаймні не більше: наступні 1 000 літрів втрачатимуть близько $0,30 на літрі"
+					},
+					{
+						"id": "B",
+						"text": "Розширюватися, бо більший обсяг знижує середні витрати"
+					},
+					{
+						"id": "C",
+						"text": "Розширюватися далі, бо постійні витрати вже покриті"
+					},
+					{
+						"id": "D",
+						"text": "Розширюватися й ще знижувати ціни, щоб завоювати частку"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Середні витрати кейтерингової компанії становлять $14 на порцію, включно з орендою кухні й зарплатами персоналу. Благодійна організація просить 300 порцій по $9 у спокійний вівторок. Кожна порція потребує $5 продуктів і $0,80 упаковки, а для замовлення потрібно $600 на додатковий погодинний персонал. Чи варто погодитися? Покажіть розрахунок."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Магазин електровелосипедів продає 30 велосипедів на місяць по $1 500. Щоб продати 31-й, довелося б брати $1 480 з кожного. Розрахуйте граничний дохід 31-го велосипеда й поясніть, чому він так сильно нижчий за ціну."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фірма з лиття пластику використовує 70% своєї потужності в 100 000 виробів на місяць. Мережа супермаркетів пропонує річний контракт на 20 000 контейнерів для зберігання на місяць по $2,10 під власною маркою мережі. Звичайна ціна фірми $3,00, середні витрати $2,40, граничні витрати на контейнер $1,60. Оберіть: погодитися, відмовитися чи запропонувати $2,40. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Міжміська автобусна компанія розглядає один додатковий вечірній рейс. Квиток коштує $14."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант A, 20:00: рейс коштує $240. Очікують 26 пасажирів, але 12 із них інакше поїхали б наявним рейсом о 18:00, де є вільні місця."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант B, 21:30: рейс коштує $260 через нічну доплату. Очікують 22 пасажири, з яких 2 інакше поїхали б наявним рейсом."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант C: не додавати рейсу."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть один варіант і покажіть, чому очевидна відповідь хибна."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Контрактний виробник косметики може наповнювати 50 000 баночок на місяць в одну зміну, а зараз наповнює 38 000. Його постійні витрати становлять $60 000 на місяць, тож середні витрати близько $3,20 за баночку. Матеріали й пряма праця коштують $1,60 за баночку. Понад 50 000 баночок понаднормові додають $0,90 до кожної додаткової."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Пропозиція A: дискаунтер хоче 10 000 баночок на місяць по $2,30 протягом дванадцяти місяців."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Пропозиція B: аптечна мережа хоче 18 000 баночок на місяць по $2,60."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розрахуйте вплив на місячний прибуток A, B і обох разом. Порекомендуйте, що прийняти, поясніть, чому середні витрати вводять в оману, і назвіть один побічний ефект, який треба перевірити."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

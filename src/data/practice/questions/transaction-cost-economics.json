@@ -1,0 +1,852 @@
+{
+	"slug": "transaction-cost-economics",
+	"topicId": 60,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What question does transaction cost economics try to answer?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "How to maximise the share price"
+					},
+					{
+						"id": "B",
+						"text": "Why some work is bought on the market while other work is done inside the firm"
+					},
+					{
+						"id": "C",
+						"text": "How to set the right price for a new product"
+					},
+					{
+						"id": "D",
+						"text": "How to forecast demand for the next year"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these is a "
+							},
+							{
+								"t": "transaction cost",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The cost of raw materials in a product"
+					},
+					{
+						"id": "B",
+						"text": "Wages of factory workers"
+					},
+					{
+						"id": "C",
+						"text": "The cost of searching for suppliers, negotiating contracts, monitoring quality and enforcing agreements"
+					},
+					{
+						"id": "D",
+						"text": "The depreciation of a machine"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Asset specificity means that an investment loses much of its value outside one particular relationship."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "According to the theory, a standard product available from many suppliers is best made inside the firm."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which activity is most likely to be bought through ordinary market deals?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Standard office paper"
+					},
+					{
+						"id": "B",
+						"text": "A mould used only for one product"
+					},
+					{
+						"id": "C",
+						"text": "A proprietary algorithm at the core of the product"
+					},
+					{
+						"id": "D",
+						"text": "Training staff in the firm’s own methods"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " conditions push a car maker towards a long-term contract or in-house production of a component?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Many suppliers offer the same standard part."
+					},
+					{
+						"id": "B",
+						"text": "The part needs tooling that fits only this buyer."
+					},
+					{
+						"id": "C",
+						"text": "The purchase happens once."
+					},
+					{
+						"id": "D",
+						"text": "Quality is easy to check on delivery."
+					},
+					{
+						"id": "E",
+						"text": "Orders recur every week."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A printer buys a $400,000 press built only for one publisher’s book format. What is the main risk?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Paper prices may rise"
+					},
+					{
+						"id": "B",
+						"text": "The machine may run too slowly"
+					},
+					{
+						"id": "C",
+						"text": "Hold-up: once installed, the publisher can push prices down, because the press has little value elsewhere"
+					},
+					{
+						"id": "D",
+						"text": "Other printers may copy the format"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An electric-bike maker sells 6,000 bikes a year and orders battery packs weekly. A supplier quotes $310 per pack but needs $250,000 of moulds that fit only this bike, and the specification changes often. In-house production would cost about $330 per pack. What is the best governance?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Spot-market quotes each week from the cheapest supplier"
+					},
+					{
+						"id": "B",
+						"text": "Buy in-house because that is always the safest"
+					},
+					{
+						"id": "C",
+						"text": "Buy in-house because $310 hides costs that make the market always dearer"
+					},
+					{
+						"id": "D",
+						"text": "A multi-year contract with shared mould ownership and a price formula"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A restaurant chain buys accounting services from an outside firm but employs its own chefs. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements explain this using the theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Accounting is a standard, infrequent service that is easy to buy and check."
+					},
+					{
+						"id": "B",
+						"text": "Chef work needs daily direction and would be costly to contract shift by shift."
+					},
+					{
+						"id": "C",
+						"text": "Accounting involves highly specific assets."
+					},
+					{
+						"id": "D",
+						"text": "Chef work is simple and needs no supervision."
+					},
+					{
+						"id": "E",
+						"text": "Outsourcing is always cheaper than employment."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why do car makers usually buy standard tyres on the open market but design and build their engines themselves?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Tyres are cheap, and engines are expensive"
+					},
+					{
+						"id": "B",
+						"text": "Tyres are standard products with many suppliers, while engines involve specific designs and frequent changes that would invite hold-up by an outside supplier"
+					},
+					{
+						"id": "C",
+						"text": "Engine makers refuse to sell to car makers"
+					},
+					{
+						"id": "D",
+						"text": "Car makers have no skills in buying tyres"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A small hotel buys linen cleaning from a laundry but trains and employs its own receptionists. Use transaction cost economics to explain both choices."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain what hold-up means in transaction cost economics, give an example, and name two ways to protect against it."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coffee chain uses 5 million cups a year. Custom-printed cups cost $0.12 each and need printing plates worth $80,000 that fit only this brand. Standard cups with a printed sleeve cost $0.10 in total. Choose one: custom cups on spot quotes, custom cups on a three-year contract with minimum volumes where the chain owns the plates, or standard cups with sleeves. Justify the choice using the theory and the figures."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A fintech company gets 400,000 support tickets a year. A call centre would charge $6 per ticket, or $2.4 million. In-house support would cost $7.50 per ticket, or $3.0 million. Outsourcing would also need a vendor-management team costing $450,000 a year, and quality failures are estimated to cost $300,000 a year. The tickets need product knowledge and change with every weekly release. Decide how to organise support."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A furniture maker buys a bespoke fabric from a single supplier, who had to build a $400,000 dyeing line used only for this fabric. The maker orders every week, the designs change each season, and the supplier cannot sell the fabric to anyone else. The options are spot orders, a five-year contract with minimum volumes and shared investment, or buying the supplier for about $1.5 million."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Rate asset specificity, uncertainty and frequency, name the risks on each side, assess the three options and recommend one with specific protections."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На яке питання намагається відповісти економіка трансакційних витрат?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Як максимізувати ціну акцій"
+					},
+					{
+						"id": "B",
+						"text": "Чому одну роботу купують на ринку, а іншу виконують усередині фірми"
+					},
+					{
+						"id": "C",
+						"text": "Як встановити правильну ціну нового продукту"
+					},
+					{
+						"id": "D",
+						"text": "Як спрогнозувати попит на наступний рік"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що з наведеного є "
+							},
+							{
+								"t": "трансакційною витратою",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вартість сировини в продукті"
+					},
+					{
+						"id": "B",
+						"text": "Зарплата працівників заводу"
+					},
+					{
+						"id": "C",
+						"text": "Витрати на пошук постачальників, переговори про договір, контроль якості й забезпечення виконання угод"
+					},
+					{
+						"id": "D",
+						"text": "Амортизація верстата"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Специфічність активу означає, що інвестиція втрачає значну частину цінності поза однією конкретною співпрацею."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "За цією теорією стандартний продукт, доступний у багатьох постачальників, найкраще виробляти всередині фірми."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яку діяльність найімовірніше купують звичайними ринковими угодами?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Стандартний офісний папір"
+					},
+					{
+						"id": "B",
+						"text": "Прес-форму, що використовується лише для одного продукту"
+					},
+					{
+						"id": "C",
+						"text": "Власний алгоритм у серці продукту"
+					},
+					{
+						"id": "D",
+						"text": "Навчання персоналу за власними методами фірми"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " умови штовхають автовиробника до довгострокового договору чи власного виробництва компонента?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Багато постачальників пропонують ту саму стандартну деталь."
+					},
+					{
+						"id": "B",
+						"text": "Для деталі потрібне оснащення, що підходить лише цьому покупцеві."
+					},
+					{
+						"id": "C",
+						"text": "Закупівля відбувається один раз."
+					},
+					{
+						"id": "D",
+						"text": "Якість легко перевірити під час поставки."
+					},
+					{
+						"id": "E",
+						"text": "Замовлення повторюються щотижня."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Друкарня купує за $400 000 верстат, зроблений лише для формату книг одного видавця. Який головний ризик?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ціни на папір можуть зрости"
+					},
+					{
+						"id": "B",
+						"text": "Верстат може працювати надто повільно"
+					},
+					{
+						"id": "C",
+						"text": "Hold-up: після встановлення видавець може знижувати ціни, бо верстат майже нічого не вартий деінде"
+					},
+					{
+						"id": "D",
+						"text": "Інші друкарні можуть скопіювати формат"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник електровелосипедів продає 6000 велосипедів на рік і щотижня замовляє батареї. Постачальник пропонує $310 за батарею, але потребує $250 000 на прес-форми, що підходять лише до цього велосипеда, а специфікація часто змінюється. Власне виробництво коштувало б близько $330 за батарею. Яке управління найкраще?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Щотижневі спотові пропозиції від найдешевшого постачальника"
+					},
+					{
+						"id": "B",
+						"text": "Виробляти самим, бо це завжди найбезпечніше"
+					},
+					{
+						"id": "C",
+						"text": "Виробляти самим, бо $310 приховує витрати, через які ринок завжди дорожчий"
+					},
+					{
+						"id": "D",
+						"text": "Багаторічний договір зі спільним володінням формами та цінової формулою"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа ресторанів купує бухгалтерські послуги в зовнішньої фірми, але наймає власних кухарів. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження пояснюють це за теорією?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Бухгалтерія це стандартна, нечаста послуга, яку легко купити й перевірити."
+					},
+					{
+						"id": "B",
+						"text": "Робота кухарів потребує щоденного керівництва, а контрактувати її по змінах було б дорого."
+					},
+					{
+						"id": "C",
+						"text": "Бухгалтерія пов’язана з високоспецифічними активами."
+					},
+					{
+						"id": "D",
+						"text": "Робота кухарів проста й не потребує нагляду."
+					},
+					{
+						"id": "E",
+						"text": "Аутсорсинг завжди дешевший за найм."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому автовиробники зазвичай купують стандартні шини на відкритому ринку, а двигуни проєктують і виробляють самі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Шини дешеві, а двигуни дорогі"
+					},
+					{
+						"id": "B",
+						"text": "Шини це стандартні продукти з багатьма постачальниками, а двигуни потребують специфічних конструкцій і частих змін, які запрошували б до шантажу залежністю з боку зовнішнього постачальника"
+					},
+					{
+						"id": "C",
+						"text": "Виробники двигунів відмовляються продавати їх автовиробникам"
+					},
+					{
+						"id": "D",
+						"text": "Автовиробники не вміють купувати шини"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Невеликий готель купує прання білизни в пральні, але навчає й наймає власних адміністраторів на ресепшн. Поясніть обидва вибори за економікою трансакційних витрат."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, що означає hold-up (шантаж залежністю) в економіці трансакційних витрат, наведіть приклад і назвіть два способи захисту."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа кав’ярень використовує 5 млн стаканчиків на рік. Стаканчики з індивідуальним друком коштують $0,12 кожен і потребують друкарських форм на $80 000, що підходять лише цьому бренду. Стандартні стаканчики з друкованим рукавом коштують разом $0,10. Оберіть одне: індивідуальні стаканчики за спотовими пропозиціями, індивідуальні стаканчики за трирічним договором із мінімальними обсягами, де мережа володіє формами, або стандартні стаканчики з рукавами. Обґрунтуйте вибір теорією та цифрами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фінтех-компанія отримує 400 000 звернень у підтримку на рік. Кол-центр брав би $6 за звернення, тобто $2,4 млн. Власна підтримка коштувала б $7,50 за звернення, тобто $3,0 млн. Аутсорсинг також потребував би команди з управління підрядником за $450 000 на рік, а збої якості оцінюють у $300 000 на рік. Звернення потребують знання продукту й змінюються з кожним тижневим релізом. Вирішіть, як організувати підтримку."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Виробник меблів купує особливу тканину в єдиного постачальника, якому довелося збудувати лінію фарбування за $400 000, що використовується лише для цієї тканини. Виробник замовляє щотижня, дизайни змінюються щосезону, а постачальник не може продати тканину нікому іншому. Варіанти: спотові замовлення, п’ятирічний договір із мінімальними обсягами та спільними інвестиціями або купівля постачальника приблизно за $1,5 млн."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оцініть специфічність активу, невизначеність і частоту, назвіть ризики кожної сторони, оцініть три варіанти й порадьте один із конкретними захистами."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,852 @@
+{
+	"slug": "herzbergs-two-factor-theory",
+	"topicId": 79,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these is a "
+							},
+							{
+								"t": "motivator",
+								"b": true
+							},
+							{
+								"t": " in Herzberg’s theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The level of the base salary"
+					},
+					{
+						"id": "B",
+						"text": "Company policy on holidays"
+					},
+					{
+						"id": "C",
+						"text": "Responsibility for a complete piece of work"
+					},
+					{
+						"id": "D",
+						"text": "The temperature and lighting of the office"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "According to Herzberg, what is the opposite of job dissatisfaction?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "No dissatisfaction"
+					},
+					{
+						"id": "B",
+						"text": "Job satisfaction"
+					},
+					{
+						"id": "C",
+						"text": "Strong motivation"
+					},
+					{
+						"id": "D",
+						"text": "Loyalty to the company"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "According to Herzberg, a pay rise alone is likely to create lasting motivation."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Job enrichment adds responsibility and decision rights, while adding more tasks of the same level only enlarges the job."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A retail chain repairs the broken lockers in its staff rooms and moves its pay to the market level. What does Herzberg’s theory predict?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Lasting motivation, because working conditions drive effort"
+					},
+					{
+						"id": "B",
+						"text": "Lower attrition for good, since pay solves engagement"
+					},
+					{
+						"id": "C",
+						"text": "Higher motivation, because hygiene factors are the main motivators"
+					},
+					{
+						"id": "D",
+						"text": "Less dissatisfaction, but not necessarily more engagement"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of these are motivators in Herzberg’s theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Pay level"
+					},
+					{
+						"id": "B",
+						"text": "Achievement in the work"
+					},
+					{
+						"id": "C",
+						"text": "Company policy"
+					},
+					{
+						"id": "D",
+						"text": "Responsibility for a customer case from start to finish"
+					},
+					{
+						"id": "E",
+						"text": "Supervision style"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Warehouse workers complain about broken forklifts and an unfair shift roster. HR proposes an employee-of-the-month plaque. What is the best first step?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Repair the forklifts and make the roster fair, then add ways to give workers more ownership"
+					},
+					{
+						"id": "B",
+						"text": "Introduce the plaque only, since recognition is a motivator"
+					},
+					{
+						"id": "C",
+						"text": "Raise pay by 2% and consider the issue closed"
+					},
+					{
+						"id": "D",
+						"text": "Ignore complaints, because only motivators matter"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software company raised salaries by 10%, but engagement did not move. In exit interviews engineers say: “I only close tickets that others assign, and I never see how customers use our work.” What is the best action?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Raise salaries by another 10%"
+					},
+					{
+						"id": "B",
+						"text": "Add free lunches and a games room"
+					},
+					{
+						"id": "C",
+						"text": "Give small teams ownership of one product area with direct customer feedback"
+					},
+					{
+						"id": "D",
+						"text": "Give every engineer three more tickets a week"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements are genuine criticisms of Herzberg’s theory?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Asking people to recall good and bad moments may itself produce the split, because people credit themselves for successes and blame the environment for failures"
+					},
+					{
+						"id": "B",
+						"text": "The original study covered 200,000 workers in every country and industry"
+					},
+					{
+						"id": "C",
+						"text": "Later studies using other methods often found pay and recognition acting as both satisfiers and dissatisfiers"
+					},
+					{
+						"id": "D",
+						"text": "Herzberg claimed that pay is completely irrelevant to employees"
+					},
+					{
+						"id": "E",
+						"text": "Every later study has confirmed the theory without exception"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A call center pilots job enrichment with 10 senior agents. Attrition falls to 12% in the pilot, against 36% for the other agents. What is the best reading of this result?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Conclusive: roll it out to everyone immediately"
+					},
+					{
+						"id": "B",
+						"text": "Promising, but the pilot agents were hand-picked seniors, so test it with a mixed group before concluding"
+					},
+					{
+						"id": "C",
+						"text": "Worthless, because pilots can never show anything"
+					},
+					{
+						"id": "D",
+						"text": "Irrelevant, since attrition does not measure engagement at all"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A manager lists four items: new ergonomic chairs, a fair pay band, authority to approve refunds up to $50, and a client praising an agent by name. Sort them into hygiene factors and motivators, and say what each group does for employees."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A cashier’s manager wants to “motivate” by adding two more tasks of the same level to each shift. Explain why this does not match Herzberg’s advice, and give one example of true job enrichment for a cashier."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A delivery company has 60 drivers with 45% yearly attrition, and each departure costs about $6,000 to replace. Complaints are about old vans and a rota published one day ahead, and about drivers having no say in routes and never hearing customer feedback. Choose one: (a) raise pay by 6% for all drivers ($129,600 a year), (b) spend $30,000 once on van repairs and a rota published a week ahead, and pilot route ownership and customer feedback with 12 drivers, or (c) hire two supervisors ($110,000 a year) to monitor drivers. Justify with numbers and Herzberg’s two lists."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A 40-person engineering firm has an $80,000 budget this year. Eight key engineers are paid 12% below the market, and all staff say their work is routine. The CEO says, “Motivators matter more, so skip pay and just launch an ownership program, which costs $15,000.” Recommend how to spend the budget and explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A bank branch has 30 tellers and 30% yearly attrition. Management introduced an employee-of-the-month plaque, but nothing changed. Tellers say: the queue software crashes twice a day, the schedule is posted only two days ahead, supervisors quote policy instead of helping, and “I cannot solve a customer’s problem without asking a supervisor to approve a $20 fee refund.”"
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Diagnose with Herzberg’s theory, explain why the plaque failed and propose a plan with a measure of success."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що з наведеного є "
+							},
+							{
+								"t": "мотиватором",
+								"b": true
+							},
+							{
+								"t": " за теорією Герцберга?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Розмір базової зарплати"
+					},
+					{
+						"id": "B",
+						"text": "Політика компанії щодо відпусток"
+					},
+					{
+						"id": "C",
+						"text": "Відповідальність за завершену частину роботи"
+					},
+					{
+						"id": "D",
+						"text": "Температура й освітлення в офісі"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що, за Герцбергом, є протилежністю невдоволення роботою?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Відсутність невдоволення"
+					},
+					{
+						"id": "B",
+						"text": "Задоволеність роботою"
+					},
+					{
+						"id": "C",
+						"text": "Сильна мотивація"
+					},
+					{
+						"id": "D",
+						"text": "Лояльність до компанії"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "За Герцбергом, саме підвищення зарплати, імовірно, створить тривалу мотивацію."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Збагачення роботи додає відповідальність і право ухвалювати рішення, а додавання завдань того самого рівня лише розширює посаду."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа магазинів ремонтує зламані шафки в кімнатах персоналу й доводить оплату до ринкового рівня. Що передбачає теорія Герцберга?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Тривалу мотивацію, бо умови праці рухають зусиллями"
+					},
+					{
+						"id": "B",
+						"text": "Назавжди нижчу плинність, бо оплата розв’язує питання залученості"
+					},
+					{
+						"id": "C",
+						"text": "Вищу мотивацію, бо гігієнічні чинники є головними мотиваторами"
+					},
+					{
+						"id": "D",
+						"text": "Менше невдоволення, але не обов’язково більшу залученість"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з наведених чинників є мотиваторами за теорією Герцберга?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Рівень оплати"
+					},
+					{
+						"id": "B",
+						"text": "Досягнення в роботі"
+					},
+					{
+						"id": "C",
+						"text": "Політика компанії"
+					},
+					{
+						"id": "D",
+						"text": "Відповідальність за звернення клієнта від початку до кінця"
+					},
+					{
+						"id": "E",
+						"text": "Стиль нагляду"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Працівники складу скаржаться на зламані навантажувачі та несправедливий графік змін. Відділ кадрів пропонує табличку «працівник місяця». Який перший крок найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Полагодити навантажувачі й зробити графік справедливим, а потім додати способи дати працівникам більше самостійності"
+					},
+					{
+						"id": "B",
+						"text": "Запровадити лише табличку, бо визнання це мотиватор"
+					},
+					{
+						"id": "C",
+						"text": "Підвищити оплату на 2% і вважати питання закритим"
+					},
+					{
+						"id": "D",
+						"text": "Проігнорувати скарги, бо важливі лише мотиватори"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Програмна компанія підвищила зарплати на 10%, але залученість не змінилася. У вихідних інтерв’ю інженери кажуть: «Я лише закриваю тікети, які мені призначають, і ніколи не бачу, як клієнти користуються нашою роботою». Яка дія найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Підвищити зарплати ще на 10%"
+					},
+					{
+						"id": "B",
+						"text": "Додати безкоштовні обіди й ігрову кімнату"
+					},
+					{
+						"id": "C",
+						"text": "Дати невеликим командам власність над однією продуктовою ділянкою з прямим зворотним зв’язком від клієнтів"
+					},
+					{
+						"id": "D",
+						"text": "Давати кожному інженерові ще три тікети на тиждень"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження є справжньою критикою теорії Герцберга?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Прохання пригадати добрі й погані моменти само може створювати розподіл, бо люди приписують успіхи собі, а невдачі середовищу"
+					},
+					{
+						"id": "B",
+						"text": "Початкове дослідження охопило 200 000 працівників у кожній країні й галузі"
+					},
+					{
+						"id": "C",
+						"text": "Пізніші дослідження з іншими методами часто виявляли, що оплата й визнання діють і як джерело задоволеності, і як джерело невдоволення"
+					},
+					{
+						"id": "D",
+						"text": "Герцберг стверджував, що оплата для працівників узагалі не має значення"
+					},
+					{
+						"id": "E",
+						"text": "Кожне пізніше дослідження підтвердило теорію без винятків"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кол-центр випробовує збагачення роботи на 10 досвідчених операторах. Плинність у пілоті падає до 12% проти 36% в інших операторів. Як найкраще прочитати цей результат?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Остаточний: поширити на всіх негайно"
+					},
+					{
+						"id": "B",
+						"text": "Багатообіцяючий, але пілотна група це відібрані досвідчені оператори, тож перш ніж робити висновок, варто перевірити на змішаній групі"
+					},
+					{
+						"id": "C",
+						"text": "Безглуздий, бо пілоти ніколи нічого не показують"
+					},
+					{
+						"id": "D",
+						"text": "Нерелевантний, бо плинність узагалі не вимірює залученість"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Керівник складає список із чотирьох пунктів: нові ергономічні крісла, справедлива сітка оплати, право схвалювати компенсації до $50 і клієнт, який хвалить оператора на ім’я. Розподіліть їх на гігієнічні чинники й мотиватори та скажіть, що кожна група дає працівникам."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Керівник касирів хоче «мотивувати», додавши до кожної зміни ще два завдання того самого рівня. Поясніть, чому це не відповідає пораді Герцберга, і наведіть один приклад справжнього збагачення роботи касира."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія доставки має 60 водіїв із 45% річної плинності, а кожен звільнений коштує близько $6 000 на заміну. Скарги стосуються старих фургонів, графіка, який публікують за день, а також того, що водії не впливають на маршрути й не чують відгуків клієнтів. Оберіть одне: (а) підвищити оплату на 6% усім водіям ($129 600 на рік), (б) один раз витратити $30 000 на ремонт фургонів і графік, що публікується за тиждень, а також випробувати власність над маршрутами та відгуки клієнтів на 12 водіях, або (в) найняти двох супервайзерів ($110 000 на рік), щоб стежити за водіями. Обґрунтуйте числами й двома списками Герцберга."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інженерна фірма на 40 осіб має бюджет $80 000 на цей рік. Вісім ключових інженерів отримують на 12% менше за ринок, а весь персонал каже, що робота рутинна. Генеральний директор каже: «Мотиватори важливіші, тож пропустімо оплату й просто запустімо програму самостійності за $15 000». Порадьте, як витратити бюджет, і поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "У відділенні банку працює 30 касирів, а річна плинність становить 30%. Керівництво запровадило табличку «працівник місяця», але нічого не змінилося. Касири кажуть: програма черги падає двічі на день, графік публікують лише за два дні, супервайзери цитують політику замість допомоги, а ще «я не можу розв’язати проблему клієнта, не попросивши супервайзера схвалити повернення комісії в $20»."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Проаналізуйте за теорією Герцберга, поясніть, чому табличка не спрацювала, і запропонуйте план із показником успіху."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

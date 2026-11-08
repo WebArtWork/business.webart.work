@@ -1,0 +1,870 @@
+{
+	"slug": "brand-equity-model",
+	"topicId": 46,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is brand equity?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The total cost of designing a brand’s logo and packaging"
+					},
+					{
+						"id": "B",
+						"text": "The yearly advertising budget of the brand"
+					},
+					{
+						"id": "C",
+						"text": "The legal ownership of a registered trademark"
+					},
+					{
+						"id": "D",
+						"text": "The extra value a product earns because of its name: customers pay more, choose faster and forgive mistakes more easily"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In Keller’s pyramid, which layer forms the base that the others rest on?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Resonance"
+					},
+					{
+						"id": "B",
+						"text": "Salience"
+					},
+					{
+						"id": "C",
+						"text": "Judgments"
+					},
+					{
+						"id": "D",
+						"text": "Imagery"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A price premium over a comparable unbranded product is a direct signal of brand equity."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A loyalty campaign aimed at resonance works best when launched before people know the brand."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A new snack brand earns taste ratings of 8.8 out of 10, yet sells poorly, and only 4% of shoppers name it unprompted. Which layer is most likely weak?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Performance"
+					},
+					{
+						"id": "B",
+						"text": "Resonance"
+					},
+					{
+						"id": "C",
+						"text": "Salience"
+					},
+					{
+						"id": "D",
+						"text": "Judgments"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " measures give direct evidence of a brand’s equity?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The price premium over a comparable store brand"
+					},
+					{
+						"id": "B",
+						"text": "The number of design hours spent on the logo"
+					},
+					{
+						"id": "C",
+						"text": "Unprompted recall in a customer survey"
+					},
+					{
+						"id": "D",
+						"text": "The size of the advertising budget"
+					},
+					{
+						"id": "E",
+						"text": "The number of logo variants in use"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coffee chain’s survey shows:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "85% recognise the brand and 60% name it unprompted. Customers rate its taste 6 out of 10 against 8 for rivals. 70% describe it as “trendy”. Few say they trust its quality."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Following the pyramid, which layer should be repaired first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Performance, since taste is the lowest layer that scores poorly"
+					},
+					{
+						"id": "B",
+						"text": "Imagery, since “trendy” is not enough"
+					},
+					{
+						"id": "C",
+						"text": "Resonance, since loyalty is the top goal"
+					},
+					{
+						"id": "D",
+						"text": "Salience, since recall is below 100%"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A laptop brand has 80% unprompted recall, but 40% of owners rate its reliability poorly. Marketing proposes a $3 million loyalty community. What is the best response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Launch the community now, since recall is already high"
+					},
+					{
+						"id": "B",
+						"text": "Run a larger discount campaign to raise sales"
+					},
+					{
+						"id": "C",
+						"text": "Fix reliability first, then build loyalty on a product that deserves it"
+					},
+					{
+						"id": "D",
+						"text": "Rename the brand to remove the bad associations"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements about the limits of the model are accurate?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Brand equity can be turned into one exact number that all methods agree on."
+					},
+					{
+						"id": "B",
+						"text": "Different valuation methods can give very different values for the same brand."
+					},
+					{
+						"id": "C",
+						"text": "Byron Sharp’s research suggests most brands grow by being easy to notice and buy more than by deep loyalty."
+					},
+					{
+						"id": "D",
+						"text": "Survey answers always predict what people will buy."
+					},
+					{
+						"id": "E",
+						"text": "The pyramid works unchanged in business-to-business markets with long contracts."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A premium skincare brand discounts 30% every month to hit sales targets. Over two years its price premium over rivals falls from 25% to 8%, and unit sales stay flat. How should this be read?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The discounts succeeded because sales did not fall"
+					},
+					{
+						"id": "B",
+						"text": "Constant discounts are eroding the premium that took years to build, with no gain in volume to pay for it"
+					},
+					{
+						"id": "C",
+						"text": "The premium fell because rivals improved their products"
+					},
+					{
+						"id": "D",
+						"text": "Price promotions have no effect on brand equity"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A branded sparkling water of the same quality as a store brand costs $4.20 for a six-pack, against $3.00 for the store brand, and it still sells out. Calculate the price premium in dollars and in percent, and say what it shows."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why should brand equity be built from the lower layers up? Give an example of what goes wrong when a company skips a layer."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A regional craft cider sells at $3.20 against $2.60 for a rival. A survey of 600 buyers shows: 68% recognise the brand but only 18% name it unprompted, taste rated 8.4 out of 10, 79% trust its quality, few feel any emotion about it, 30% buy weekly, and 55% switch when a rival has a promotion. Choose one: cut the price to $2.60, run a campaign to raise unprompted recall, or launch a new flavour range. Justify the choice using the pyramid."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A premium organic baby-food brand sells jars at $2.40 against a category average of $1.60. Its name stands for “safe and gentle for babies”. The company considers adult snack bars under the same name: a launch costs $1.5 million and could bring $4 million in revenue. Choose one: extend under the same name, launch the bars under a new endorsed name, or skip the extension. Weigh the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A running-shoe brand surveys 1,000 runners. Salience: 90% recognise the brand, 12% name it unprompted. Performance: cushioning rated 8.9 out of 10. Imagery: it is linked with “serious marathoners” and “expensive”, and 55% of casual runners say “not for me”. Judgments: 76% trust its quality. Feelings: 20% say they feel proud wearing it. Resonance: 18% bought twice. The shoes sell at $140 against a $120 category average, and 60% of buyers say they would switch for a $20 discount."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Rate each layer using the data, choose the layer to improve first and give two actions, say how to track success, and name one limit of the survey."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке капітал бренду?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Загальна вартість розробки логотипа й упаковки бренду"
+					},
+					{
+						"id": "B",
+						"text": "Річний рекламний бюджет бренду"
+					},
+					{
+						"id": "C",
+						"text": "Юридичне право власності на зареєстрований товарний знак"
+					},
+					{
+						"id": "D",
+						"text": "Додаткова цінність, яку продукт отримує завдяки назві: клієнти платять більше, обирають швидше й легше пробачають помилки"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який рівень піраміди Келлера є основою, на якій стоять інші?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Резонанс"
+					},
+					{
+						"id": "B",
+						"text": "Помітність (salience)"
+					},
+					{
+						"id": "C",
+						"text": "Судження"
+					},
+					{
+						"id": "D",
+						"text": "Образ"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Надбавка до ціни порівняно з аналогічним небрендовим продуктом це прямий сигнал капіталу бренду."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кампанія лояльності, спрямована на резонанс, найкраще працює, якщо запустити її до того, як люди дізналися про бренд."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Новий бренд снеків має оцінки смаку 8,8 із 10, але продається погано, і лише 4% покупців називають його без підказки. Який рівень, імовірно, слабкий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Характеристики продукту (performance)"
+					},
+					{
+						"id": "B",
+						"text": "Резонанс"
+					},
+					{
+						"id": "C",
+						"text": "Помітність (salience)"
+					},
+					{
+						"id": "D",
+						"text": "Судження"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " виміри дають прямі свідчення про капітал бренду?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Надбавка до ціни порівняно з аналогічною торговою маркою магазину"
+					},
+					{
+						"id": "B",
+						"text": "Кількість годин дизайну, витрачених на логотип"
+					},
+					{
+						"id": "C",
+						"text": "Спонтанна впізнаваність в опитуванні клієнтів"
+					},
+					{
+						"id": "D",
+						"text": "Розмір рекламного бюджету"
+					},
+					{
+						"id": "E",
+						"text": "Кількість варіантів логотипа в обігу"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Опитування мережі кав’ярень показує:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "85% упізнають бренд, 60% називають його без підказки. Клієнти оцінюють смак на 6 із 10 проти 8 у конкурентів. 70% описують його як «модний». Мало хто довіряє його якості."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який рівень за логікою піраміди слід виправляти першим?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Характеристики продукту, бо смак це найнижчий рівень із поганим результатом"
+					},
+					{
+						"id": "B",
+						"text": "Образ, бо «модний» замало"
+					},
+					{
+						"id": "C",
+						"text": "Резонанс, бо лояльність це головна мета"
+					},
+					{
+						"id": "D",
+						"text": "Помітність, бо впізнаваність нижча за 100%"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бренд ноутбуків має 80% спонтанної впізнаваності, але 40% власників погано оцінюють надійність. Маркетинг пропонує спільноту лояльності за $3 млн. Яка відповідь найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Запустити спільноту негайно, бо впізнаваність уже висока"
+					},
+					{
+						"id": "B",
+						"text": "Провести більшу кампанію зі знижками, щоб підняти продажі"
+					},
+					{
+						"id": "C",
+						"text": "Спершу виправити надійність, а тоді будувати лояльність на продукті, який її заслуговує"
+					},
+					{
+						"id": "D",
+						"text": "Змінити назву бренду, щоб прибрати погані асоціації"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження про межі моделі точні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Капітал бренду можна звести до єдиного точного числа, з яким погоджуються всі методи."
+					},
+					{
+						"id": "B",
+						"text": "Різні методи оцінки можуть давати дуже різну вартість того самого бренду."
+					},
+					{
+						"id": "C",
+						"text": "Дослідження Байрона Шарпа свідчать, що більшість брендів зростає завдяки тому, що їх легко помітити й купити, а не завдяки глибокій лояльності."
+					},
+					{
+						"id": "D",
+						"text": "Відповіді в опитуваннях завжди передбачають, що люди купуватимуть."
+					},
+					{
+						"id": "E",
+						"text": "Піраміда без змін працює на ринках бізнес-до-бізнесу з довгими контрактами."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Преміальний бренд догляду за шкірою щомісяця дає знижку 30%, щоб виконати плани продажів. За два роки надбавка до ціни порівняно з конкурентами падає з 25% до 8%, а обсяг продажів у штуках лишається незмінним. Як це прочитати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Знижки спрацювали, бо продажі не впали"
+					},
+					{
+						"id": "B",
+						"text": "Постійні знижки руйнують надбавку, яку будували роками, без приросту обсягу, що її виправдав би"
+					},
+					{
+						"id": "C",
+						"text": "Надбавка впала, бо конкуренти покращили продукти"
+					},
+					{
+						"id": "D",
+						"text": "Акції на ціни не впливають на капітал бренду"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Газована вода відомого бренду тієї самої якості, що й торгова марка магазину, коштує $4,20 за упаковку з шести пляшок проти $3,00 за торгову марку, і все одно розкуповується. Обчисліть надбавку до ціни в доларах і відсотках і скажіть, що вона показує."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому капітал бренду слід будувати від нижчих рівнів угору? Наведіть приклад того, що йде не так, коли компанія пропускає рівень."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Регіональний крафтовий сидр продається по $3,20 проти $2,60 у конкурента. Опитування 600 покупців показує: 68% упізнають бренд, але лише 18% називають його без підказки, смак оцінено на 8,4 із 10, 79% довіряють його якості, мало хто відчуває до нього емоції, 30% купують щотижня, а 55% переходять до конкурента, коли в нього акція. Оберіть одне: знизити ціну до $2,60, провести кампанію для підвищення спонтанної впізнаваності або запустити нову лінійку смаків. Обґрунтуйте вибір за допомогою піраміди."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Преміальний органічний бренд дитячого харчування продає баночки по $2,40 проти середньої по категорії $1,60. Його назва означає «безпечно й дбайливо для малюків». Компанія розглядає батончики-снеки для дорослих під тією самою назвою: запуск коштує $1,5 млн і може дати $4 млн виручки. Оберіть одне: розширити під тією самою назвою, запустити батончики під новою підтримуваною назвою або відмовитися від розширення. Зважте компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Бренд бігового взуття опитує 1 000 бігунів. Помітність: 90% упізнають бренд, 12% називають його без підказки. Характеристики: амортизацію оцінено на 8,9 із 10. Образ: його пов’язують із «серйозними марафонцями» й «дорого», а 55% непрофесійних бігунів кажуть «це не для мене». Судження: 76% довіряють його якості. Почуття: 20% кажуть, що пишаються, коли носять його. Резонанс: 18% купили двічі. Взуття продається по $140 проти $120 середньої по категорії, а 60% покупців кажуть, що перейшли б за знижку $20."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оцініть кожен рівень за даними, оберіть рівень для покращення першим і дайте дві дії, скажіть, як відстежувати успіх, і назвіть одне обмеження опитування."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

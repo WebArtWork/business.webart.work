@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The Lean Canvas exists because most startups fail by building something nobody wants, so it starts from the problem and makes risk visible. Features come later, a long forecast is premature, and partners were deliberately dropped from this canvas."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ash Maurya swapped the operational boxes for four testable ones: problem, solution, key metrics and unfair advantage. The other lists are not boxes of the canvas."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "An unfair advantage is something that cannot easily be copied or bought, and a good team can be matched or hired away. If nothing qualifies yet, the honest entry is an empty box."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "If customers really have the problem, they already solve it somehow: with spreadsheets, a relative, a competitor or by putting up with it. Naming those alternatives shows what the new product has to beat."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Returning for another lesson shows the app is useful enough to come back to. Downloads, followers and press mentions measure attention, not whether customers get value, so they can grow while the business fails."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "\"First\" and \"great team\" can be copied, so the box should stay empty until something real exists, and website visits do not show customers getting value. The queue problem, the repeat-order metric and the revenue line are specific and testable."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Owners already solving the problem is proof that the problem exists. \"None\" was the warning sign, and the canvas should now name teenagers and WhatsApp groups as alternatives and test whether the app clearly beats them. Dropping the idea or building blind both ignore what the interviews showed."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Commission is $4.50 per lesson, and $2,700 divided by $4.50 is 600 lessons a month. Expected volume is only 300, so the model fails on its current numbers. The right move is to test the weak box (price or revenue), not to build, cut costs to zero or abandon the segment unexamined."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Removing partners and key resources can mislead hardware and regulated businesses, but the problem and segment boxes remain valuable. A neat page can make a weak model look finished, the problem box matters for every business, and \"first mover\" is a weak claim."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Early testing is about learning fast: cheap tests of the riskiest assumption in a segment that urgently feels the pain give the quickest signal. Market size, price and familiarity are not the same as risk and urgency."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The problem is vague: better could mean anything. A stronger version is \"Cover bands book rooms by phone and rooms stand empty 40% of weekday hours.\" The key metric, downloads, shows curiosity, not value; use bookings per band per month. The unfair advantage \"great team\" can be copied or hired, so leave the box empty until the founder has something like an exclusive contract with studios."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies a weakness and rewrites it as a specific, testable statement (vague problem or weak metric)",
+					"points": 2
+				},
+				{
+					"criterion": "Identifies a second weakness and rewrites it (metric that does not show value, or unfair advantage that is easy to copy)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Most startups fail by building what nobody wants, so the cheapest thing to test is whether the problem exists. For a laundry pick-up service, the founder first interviews students and busy parents to learn whether they really lose hours to laundry and what they do now. If they say they have a cheap launderette next door, the idea needs rethinking before any app is built. If the problem is confirmed, the solution is designed around it."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the reasoning: startups fail by building unwanted products, and a problem can be tested cheaper than a product",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the laundry service with concrete customers or alternatives",
+					"points": 1
+				},
+				{
+					"criterion": "Shows how interviews or tests could change the plan",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 2. At 10% of $8 the platform earns $0.80 per meal, so break-even needs 5,000 meals a month, which is far from proven. The riskiest assumptions are that workers reorder and that cooks deliver reliably, and a pilot tests both for $1,500 instead of $20,000. Raising the fee to 25% would test price, but cooks may leave before demand exists. I would track repeat orders per worker each week. Risk: one building may not represent the city, so I would run a second pilot before building."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the numbers: $0.80 per meal and 5,000 meals for break-even, or the cost gap between the options",
+					"points": 2
+				},
+				{
+					"criterion": "Names the riskiest assumption and how the choice tests it",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk or limit and a metric to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Canvas 2. Independent physiotherapists feel the pain now, can be reached online and decide in days, so a test of the riskiest assumption (will they pay $25 a month?) takes weeks. Hospitals pay more, but a nine-month sales cycle means one test per year. The trade-off is lower revenue per customer and likely churn, so she must track retention. If the product works with small clinics, it becomes evidence to sell to hospitals later."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Compares the canvases on speed and cost of testing and on how sharply the segment feels the problem",
+					"points": 2
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the comparison",
+					"points": 1
+				},
+				{
+					"criterion": "Names the trade-off, such as lower revenue per customer or churn",
+					"points": 1
+				},
+				{
+					"criterion": "Links the early test to a later step, such as using small clinics as evidence for hospitals",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The problem and customers are too broad: \"everyone\" cannot be interviewed, so pick students and office workers near the signed cafés and write a concrete problem such as \"I skip lunch because it costs too much\". Downloads and passion are weak: use boxes collected per café per week, and leave unfair advantage empty or cite the 25 signed cafés if exclusive. Commission is 15% of $4, which is $0.60, so $2,400 needs 4,000 boxes a month. Twenty-five cafés sell about 750, so the model fails by more than five times. The riskiest assumption is that buyers will keep coming back and pay enough, so I would test in four weeks with five cafés by WhatsApp, aiming for 100 boxes a week and 40% repeat buyers, and then revise price, commission or segment on the canvas."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Finds at least three weak boxes (broad customers or problem, downloads, passion) and fixes them",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates break-even correctly (4,000 boxes) and compares it with about 750 expected",
+					"points": 1
+				},
+				{
+					"criterion": "Names the riskiest assumption, such as repeat purchase or willingness to pay",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a concrete four-week test with a success threshold and says how the canvas will be updated",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ощадлива канва з’явилася, бо більшість стартапів гинуть, створивши те, що нікому не потрібно, тож вона починається з проблеми й робить ризик видимим. Функції йдуть пізніше, довгий прогноз зарано, а партнерів у цій канві свідомо прибрано."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Еш Мор’я замінив операційні блоки чотирма такими, що їх можна перевірити: проблема, рішення, ключові показники й нечесна перевага. Інші переліки не є блоками цієї канви."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Нечесна перевага це те, що не можна легко скопіювати чи купити, а добру команду можна повторити або переманити. Якщо нічого такого ще немає, чесний запис це порожнє поле."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Якщо проблема в клієнтів справжня, вони вже якось її розв’язують: таблицею, родичем, конкурентом або просто терплять. Назвавши альтернативи, ви бачите, що має перевершити новий продукт."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Повернення на наступний урок показує, що застосунок корисний настільки, щоб до нього повертатися. Завантаження, підписники й згадки в медіа вимірюють увагу, а не цінність, тож вони можуть зростати, коли бізнес програє."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "«Перші» і «сильна команда» можна повторити, тож поле має лишатися порожнім, доки не з’явиться щось реальне, а відвідування сайту не показують, що клієнти отримують цінність. Черга за обідом, показник повторних замовлень і рядок доходу конкретні й придатні до перевірки."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Власники, які вже розв’язують проблему, доводять, що вона існує. Тривожним знаком було «немає», і тепер у канві мають з’явитися підлітки та чати як альтернативи, а далі слід перевірити, чи застосунок явно кращий. Відкинути ідею чи будувати наосліп означає проігнорувати, що показали інтерв’ю."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Комісія становить $4,50 за урок, а $2 700 ÷ $4,50 дорівнює 600 урокам на місяць. Очікується лише 300, тож модель за чинними числами не працює. Правильний крок: перевірити слабке поле (ціну або дохід), а не будувати, не скорочувати витрати до нуля й не відмовлятися від сегмента без аналізу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Відсутність партнерів і ключових ресурсів може ввести в оману в апаратних і регульованих бізнесах, але блоки проблеми й сегмента лишаються цінними. Акуратна сторінка може зробити слабку модель на вигляд завершеною, поле проблеми важливе для будь-якого бізнесу, а «перші на ринку» це слабке твердження."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Рання перевірка це швидке навчання: дешеві тести найризикованішого припущення в сегменті, якому проблема дошкуляє, дають найшвидший сигнал. Розмір ринку, ціна й знайомість це не те саме, що ризик і гострота."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Проблема розпливчаста: «кращий» може означати що завгодно. Сильніша версія: «Кавер-гурти бронюють кімнати телефоном, а кімнати порожні 40% буденних годин». Ключовий показник, завантаження, показує цікавість, а не цінність; краще брати бронювання на гурт на місяць. Нечесну перевагу «сильна команда» можна скопіювати чи переманити, тож поле слід залишити порожнім, доки в засновника не з’явиться щось на кшталт ексклюзивної угоди зі студіями."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає слабкість і переписує її конкретно й так, щоб це можна було перевірити (розпливчаста проблема або слабкий показник)",
+					"points": 2
+				},
+				{
+					"criterion": "Визначає другу слабкість і переписує її (показник, що не свідчить про цінність, або легко копійована нечесна перевага)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Більшість стартапів гинуть, бо створюють те, що нікому не потрібно, тож найдешевше перевірити, чи існує проблема. Для сервісу забору білизни засновник спершу опитує студентів і зайнятих батьків: чи справді вони втрачають години на прання і як вирішують це зараз. Якщо виявиться, що поруч є дешева пральня самообслуговування, ідею треба переглянути ще до створення застосунку. Якщо проблему підтверджено, рішення проєктують навколо неї."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює логіку: стартапи гинуть через непотрібні продукти, а проблему перевірити дешевше за продукт",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує до сервісу білизни з конкретними клієнтами чи альтернативами",
+					"points": 1
+				},
+				{
+					"criterion": "Показує, як інтерв’ю чи тести можуть змінити план",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 2. Із 10% від $8 платформа заробляє $0,80 за страву, тож для беззбитковості потрібно 5 000 страв на місяць, а це далеко не доведено. Найризикованіші припущення: працівники замовлятимуть повторно, а кухарі доставлятимуть надійно, і пілот перевіряє обидва за $1 500 замість $20 000. Підняття комісії до 25% перевірило б ціну, але кухарі можуть піти ще до появи попиту. Я стежила б за повторними замовленнями на працівника щотижня. Ризик: один будинок може не відображати все місто, тож перед розробкою я провела б ще один пілот."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує числа: $0,80 за страву й 5 000 страв для беззбитковості або різницю у вартості варіантів",
+					"points": 2
+				},
+				{
+					"criterion": "Називає найризикованіше припущення і як вибір його перевіряє",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик чи обмеження й показник для спостереження",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Канву 2. Незалежні фізіотерапевти відчувають біль зараз, їх можна знайти онлайн, і вони вирішують за кілька днів, тож перевірка найризикованішого припущення (чи заплатять вони $25 на місяць?) займе тижні. Лікарні платять більше, але дев’ятимісячний цикл продажу дає один тест на рік. Компроміс: менший дохід з одного клієнта й імовірний відтік, тож треба стежити за утриманням. Якщо продукт працює для малих кабінетів, це стане доказом для продажу лікарням пізніше."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Порівнює канви за швидкістю й вартістю перевірки та за гостротою проблеми в сегменті",
+					"points": 2
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з порівняння",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс, як-от менший дохід з клієнта або відтік",
+					"points": 1
+				},
+				{
+					"criterion": "Пов’язує ранній тест з наступним кроком, як-от використання малих кабінетів як доказу для лікарень",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Проблема й клієнти надто широкі: «усіх» не опитаєш, тож варто взяти студентів і офісних працівників поруч із підписаними кафе й записати конкретну проблему, наприклад «Я пропускаю обід, бо він дорогий». Завантаження й пристрасть слабкі: беріть бокси, забрані на кафе за тиждень, а нечесну перевагу лишіть порожньою або вкажіть 25 підписаних кафе, якщо вони ексклюзивні. Комісія це 15% від $4, тобто $0,60, тож $2 400 потребують 4 000 боксів на місяць. Двадцять п’ять кафе продадуть близько 750, тож модель не дотягує більш ніж у п’ять разів. Найризикованіше припущення: покупці повертатимуться й платитимуть достатньо, тож за чотири тижні я перевірила б його в п’яти кафе через WhatsApp, ставлячи ціль 100 боксів на тиждень і 40% повторних покупців, а потім переглянула б ціну, комісію чи сегмент у канві."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Знаходить щонайменше три слабкі поля (широкі клієнти чи проблема, завантаження, пристрасть) і виправляє їх",
+					"points": 2
+				},
+				{
+					"criterion": "Правильно рахує беззбитковість (4 000 боксів) і порівнює з очікуваними близько 750",
+					"points": 1
+				},
+				{
+					"criterion": "Називає найризикованіше припущення, як-от повторна купівля чи готовність платити",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує конкретний чотиритижневий тест із порогом успіху й каже, як оновить канву",
+					"points": 2
+				}
+			]
+		}
+	}
+}

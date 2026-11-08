@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The theory says that cheap storage and distribution let niche products, each selling in small numbers, add up to sales comparable to the hits. Focusing on a few bestsellers is the opposite idea, and the theory does not say that cheapness or hits take over."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The head is the few hits at the top of the sales ranking, and the tail is the very large number of niche products below them. The other options are not parts of the picture."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The theory says that the tail adds up to a significant share of sales, not that the head disappears. Hits usually remain important, and a good business serves both."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Customers cannot buy what they cannot find. Filters such as search, reviews and recommendations connect niche supply with the tastes of customers who would never have guessed it existed."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Digital titles cost almost nothing to store and deliver, so rarely watched titles can still earn more than they cost. The showroom, bakery and pop-up shop are limited by shelf space or freshness."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The tail pays when adding an item is nearly free and customers can find it. High per-item costs, warehousing slow sellers and showing only the hits all work against the tail."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The tail only pays when the cost of holding an extra item is near zero. Physical stock takes space and ties up cash, so the shop should use made-to-order or supplier-held stock instead. A flood of customers, a lack of variety or dislike of choice are not the issue."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Each title earns $12 in margin a year, so it pays only if listing and maintaining it costs less than that. The tail is not automatically profitable, and 20,000 sales mean little if the costs are higher. Niche titles do sell, just in small numbers."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Later research challenged the claim of a strong tail, and the idea works best where storage and delivery cost almost nothing. Hits did not vanish, large aggregators usually capture the tail’s profit, and scale is usually required."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A strong head and a profitable tail can both exist. The question is whether the tail items cover their own costs and add to revenue. The data limit the theory’s claims but do not make the tail worthless, and sales data are exactly what tests it."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The head is the 100 shows with 30% of listening, and the tail is the other 49,900 shows with the remaining 70%. So the tail matters a great deal in total even though each show is small. Listeners cannot choose among 50,000 shows without help, so recommendations connect niche shows with people who would enjoy them, which keeps listeners and lets the tail earn."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies the head (100 shows, 30%) and the tail (49,900 shows, 70%) and says the tail is important in total",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that recommendations help listeners find niche shows and so make the tail pay",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A physical shop pays for shelf space and holds stock, so a book that sells once a year loses money, and the owner stocks only the likely hits. An online store holds digital or supplier-held stock, so adding a title costs almost nothing, and a title that sells a few copies still pays. But a catalogue of 3 million is useless unless search, categories and recommendations help readers find the titles they like."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the cost difference: shelf space and holding cost against near-zero cost per extra title",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a concrete detail (a book that sells once a year, digital or supplier-held stock)",
+					"points": 1
+				},
+				{
+					"criterion": "Adds that filters (search, recommendations) are needed to make the catalogue sell",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 2. Head revenue is $225,000, so a 10% rise adds $22,500. In option 2 the 4,000 new titles at $15 add $60,000, and 8% growth of the $275,000 tail adds $22,000, about $82,000 in total, nearly four times more. Each tail title earns about $23 a year on average, so there is real demand in the tail, and better discovery makes it grow. A bigger server does not add revenue by itself. Risk: new titles may earn less than $15, so I would track the share of tail titles that sell at least once a year and delist those that do not."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Compares the numbers: about $22,500 for option 1 against about $82,000 for option 2",
+					"points": 2
+				},
+				{
+					"criterion": "Links the choice to the tail logic: low cost per title and discovery",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a metric to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 2. Stocking 20,000 titles means paying for space and cash tied up in books that sell once a year, which is the problem the tail theory warns about. A distributor already has the scale to hold a very large catalogue cheaply, so the shop can offer rare titles without holding them. The shop’s own strength is curation: it knows its readers and can recommend, which fits the need for filters. The limit is that the distributor gets much of the margin and big aggregators compete, so the shop must stand out through recommendations and events. I would keep the bestsellers in store and measure how many special orders turn into repeat customers."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the holding cost of physical stock and why a small shop cannot carry a large tail",
+					"points": 2
+				},
+				{
+					"criterion": "Chooses option 2 and links it to someone else holding the stock",
+					"points": 1
+				},
+				{
+					"criterion": "Uses curation or recommendations as the shop’s role",
+					"points": 1
+				},
+				{
+					"criterion": "Names a limit or risk and a metric",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Total revenue is 500 million times $0.004, or $2 million. The head brings 80%, or $1.6 million, and the other 1.98 million tracks bring $400,000. The unplayed 1.2 million tracks cost $120,000 in licences and earn nothing. The remaining 780,000 tracks earn about $0.51 each, more than the $0.10 they cost, so the tail does pay on average. The data support part of the theory, since the tail adds 20% of revenue, but they also fit Elberse’s finding that hits stay concentrated and the tail is flat. I would (1) renegotiate or drop licences for tracks with no plays, saving up to $120,000, and (2) invest in recommendations and playlists so the 780,000 tail tracks get found, tracking the share of plays that come from outside the top 1%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates revenue correctly ($2 million total, $1.6 million head, $400,000 rest)",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates the cost of unplayed tracks ($120,000)",
+					"points": 1
+				},
+				{
+					"criterion": "Interprets the data: a tail that pays but a strong head, linked to the theory and its critique",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends two sensible actions with a metric",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Теорія каже, що дешеві зберігання й доставка дають змогу нішевим товарам, кожен з яких продається в малих обсягах, у сумі зрівнятися з хітами. Орієнтація на кілька бестселерів це протилежна ідея, а теорія не стверджує, що переможуть дешевизна чи хіти."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Голова це кілька хітів на вершині рейтингу продажів, а хвіст це дуже велика кількість нішевих товарів нижче. Інші варіанти не є частинами цієї картини."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Теорія стверджує, що хвіст складає значну частку продажів, а не що голова зникає. Хіти зазвичай лишаються важливими, і добрий бізнес обслуговує обидві частини."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Клієнти не можуть купити те, чого не можуть знайти. Фільтри, як-от пошук, відгуки й рекомендації, поєднують нішеву пропозицію зі смаками клієнтів, які б і не здогадалися, що вона існує."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Цифрові назви майже нічого не коштують у зберіганні й доставці, тож рідко переглядувані назви все ж можуть заробити більше, ніж коштують. Шоурум, пекарня й тимчасовий магазин обмежені площею полиць або свіжістю."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Хвіст окупається, коли додати позицію майже безкоштовно й клієнти можуть її знайти. Високі витрати на позицію, склад для повільних товарів і показ лише хітів працюють проти хвоста."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Хвіст окупається лише тоді, коли тримати додаткову позицію майже нічого не коштує. Фізичний запас займає місце й заморожує гроші, тож магазину краще працювати під замовлення або із запасами постачальника. Наплив клієнтів, брак розмаїття чи нелюбов до вибору не є проблемою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кожна назва приносить $12 маржі на рік, тож окупається лише тоді, коли її розміщення й підтримка коштують менше. Хвіст не є автоматично прибутковим, а 20 000 продажів мало важать, якщо витрати вищі. Нішеві назви продаються, просто малими обсягами."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Пізніші дослідження поставили під сумнів тезу про сильний хвіст, а ідея найкраще працює там, де зберігання й доставка майже безкоштовні. Хіти не зникли, прибуток хвоста зазвичай забирають великі агрегатори, а масштаб зазвичай потрібен."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сильна голова і прибутковий хвіст можуть існувати разом. Питання в тому, чи позиції хвоста покривають власні витрати й додають виручки. Дані обмежують твердження теорії, але не роблять хвіст безцінним, а дані про продажі саме й перевіряють теорію."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Голова це 100 шоу з 30% прослуховування, а хвіст це решта 49 900 шоу з рештою 70%. Отже, хвіст у сумі дуже важливий, хоча кожне шоу мале. Слухачі не можуть обрати з 50 000 шоу без допомоги, тож рекомендації з’єднують нішеві шоу з людьми, яким вони сподобаються, а це утримує слухачів і дає хвосту заробляти."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає голову (100 шоу, 30%) і хвіст (49 900 шоу, 70%) та каже, що хвіст у сумі важливий",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що рекомендації допомагають слухачам знаходити нішеві шоу й так змушують хвіст окупатися",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Фізична крамниця платить за площу полиць і тримає запас, тож книжка, що продається раз на рік, збиткова, і власник тримає лише ймовірні хіти. Інтернет-магазин має цифровий запас або запас постачальника, тож додати назву майже безкоштовно, і назва, що продається кількома примірниками, все одно окупається. Але каталог на 3 млн марний, якщо пошук, категорії й рекомендації не допомагають читачам знаходити назви, які їм до вподоби."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює різницю у витратах: площа полиць і утримання проти майже нульової вартості додаткової назви",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить конкретну деталь (книжка, що продається раз на рік, цифровий запас чи запас постачальника)",
+					"points": 1
+				},
+				{
+					"criterion": "Додає, що потрібні фільтри (пошук, рекомендації), щоб каталог продавався",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 2. Виручка голови $225 000, тож зростання на 10% додає $22 500. У варіанті 2 4 000 нових назв по $15 додають $60 000, а зростання хвоста $275 000 на 8% додає $22 000, разом близько $82 000, майже вчетверо більше. Кожна назва хвоста в середньому приносить близько $23 на рік, тож у хвості є справжній попит, а краще відкриття змушує його зростати. Потужніший сервер сам по собі виручки не додає. Ризик: нові назви можуть заробляти менше $15, тож я стежив би за часткою назв хвоста, які продаються бодай раз на рік, і знімав би ті, що ні."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Порівнює числа: близько $22 500 для варіанта 1 проти близько $82 000 для варіанта 2",
+					"points": 2
+				},
+				{
+					"criterion": "Пов’язує вибір з логікою хвоста: низька вартість назви й відкриття",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і показник для спостереження",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 2. Тримати 20 000 назв означає платити за площу й заморожувати гроші в книжках, що продаються раз на рік, а це саме проблема, про яку попереджає теорія хвоста. Дистриб’ютор уже має масштаб, щоб дешево тримати дуже великий каталог, тож крамниця може пропонувати рідкісні назви, не тримаючи їх. Власна сила крамниці це добір: вона знає своїх читачів і може радити, а це відповідає потребі у фільтрах. Межа в тому, що дистриб’ютор забирає значну частину маржі, а великі агрегатори конкурують, тож крамниця має виділятися рекомендаціями й заходами. Я б лишив бестселери в залі й міряв, скільки спецзамовлень перетворюються на постійних клієнтів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює витрати на утримання фізичного запасу й чому мала крамниця не може тримати великий хвіст",
+					"points": 2
+				},
+				{
+					"criterion": "Обирає варіант 2 і пов’язує з тим, що запас тримає хтось інший",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує добір чи рекомендації як роль крамниці",
+					"points": 1
+				},
+				{
+					"criterion": "Називає межу чи ризик і показник",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Загальна виручка це 500 млн × $0,004, тобто $2 млн. Голова дає 80%, або $1,6 млн, а решта 1,98 млн треків дає $400 000. Непрослухані 1,2 млн треків коштують $120 000 ліцензій і не заробляють нічого. Решта 780 000 треків заробляють близько $0,51 кожен, що більше за $0,10, які вони коштують, тож хвіст у середньому окупається. Дані підтверджують частину теорії, бо хвіст додає 20% виручки, але вони й узгоджуються з висновком Ельберс, що хіти лишаються сконцентрованими, а хвіст плоский. Я б (1) переглянув або припинив ліцензії на треки без прослуховувань, заощадивши до $120 000, і (2) вклав у рекомендації та добірки, щоб 780 000 треків хвоста знаходили, стежачи за часткою прослуховувань поза топ-1%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно розраховує виручку ($2 млн загалом, $1,6 млн голова, $400 000 решта)",
+					"points": 2
+				},
+				{
+					"criterion": "Розраховує вартість непрослуханих треків ($120 000)",
+					"points": 1
+				},
+				{
+					"criterion": "Інтерпретує дані: хвіст, що окупається, але сильна голова, з посиланням на теорію й критику",
+					"points": 1
+				},
+				{
+					"criterion": "Рекомендує дві слушні дії з показником",
+					"points": 2
+				}
+			]
+		}
+	}
+}

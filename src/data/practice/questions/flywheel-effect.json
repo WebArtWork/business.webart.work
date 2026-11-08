@@ -1,0 +1,838 @@
+{
+	"slug": "flywheel-effect",
+	"topicId": 36,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the Flywheel Effect?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Growth that comes from a loop of connected actions, each making the next easier"
+					},
+					{
+						"id": "B",
+						"text": "A single big product launch that creates lasting growth"
+					},
+					{
+						"id": "C",
+						"text": "A way to reduce costs by cutting every second step"
+					},
+					{
+						"id": "D",
+						"text": "A schedule of marketing campaigns repeated every year"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is a \"doom loop\"?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A loop with more than six steps"
+					},
+					{
+						"id": "B",
+						"text": "A flywheel that is too fast to control"
+					},
+					{
+						"id": "C",
+						"text": "A pattern of frequent reversals of strategy or leadership that kills momentum"
+					},
+					{
+						"id": "D",
+						"text": "A loop that has no first step"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A list of five company goals is a flywheel."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A flywheel builds slowly, so in the early months it can look like failure."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A café describes its loop as \"better coffee, more regulars, more revenue, better coffee\". Which arrow is the weakest?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Better coffee leads to more regulars"
+					},
+					{
+						"id": "B",
+						"text": "More revenue leads to better coffee"
+					},
+					{
+						"id": "C",
+						"text": "More regulars lead to more revenue"
+					},
+					{
+						"id": "D",
+						"text": "All arrows are equally strong"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A team draws a flywheel with six steps. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " checks should it apply?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Does each step really cause the next one?"
+					},
+					{
+						"id": "B",
+						"text": "Is the diagram attractive enough to share with investors?"
+					},
+					{
+						"id": "C",
+						"text": "Does it include every activity of the company?"
+					},
+					{
+						"id": "D",
+						"text": "Does the last step feed back into the first?"
+					},
+					{
+						"id": "E",
+						"text": "Is the diagram owned by the marketing department?"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A meal-kit company’s loop is: lower prices, more orders, bigger supplier volumes, lower cost per box, lower prices. The CEO proposes spending $50,000 on a celebrity advertisement that touches none of these steps. What is the best response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Approve it, since awareness always helps"
+					},
+					{
+						"id": "B",
+						"text": "Approve half the amount as a compromise"
+					},
+					{
+						"id": "C",
+						"text": "Reject all marketing for good"
+					},
+					{
+						"id": "D",
+						"text": "Compare it with putting the same money into the slowest step of the loop, since the ad drives none of the steps"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A grocery delivery company’s loop is: lower prices, more orders, denser routes, lower cost per order, lower prices. Data: a price cut took one month to roll out, orders grew 30% in three months, but cost per order fell from $6.50 to only $5.70 in twelve months. Where should the next investment go?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Into route density and courier planning, the slowest step in the loop"
+					},
+					{
+						"id": "B",
+						"text": "Into a further price cut, because it is the fastest to apply"
+					},
+					{
+						"id": "C",
+						"text": "Into advertising, because orders are already growing"
+					},
+					{
+						"id": "D",
+						"text": "Nowhere, because the loop is working"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements about the limits of the flywheel idea are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A flywheel is proven once a team has drawn it neatly."
+					},
+					{
+						"id": "B",
+						"text": "Many diagrams contain arrows that are hopes rather than tested causes, so each arrow should be checked against data."
+					},
+					{
+						"id": "C",
+						"text": "A strong loop can lock a company into an outdated model when the market changes."
+					},
+					{
+						"id": "D",
+						"text": "The concept comes from controlled experiments on thousands of firms."
+					},
+					{
+						"id": "E",
+						"text": "Once built, a flywheel never needs to be revised."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company changed its strategy and its chief executive three times in six years, and growth stalled. Which explanation fits the flywheel idea best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It built a flywheel that was too strong"
+					},
+					{
+						"id": "B",
+						"text": "It was in a doom loop: each reversal destroyed the momentum the previous push had built"
+					},
+					{
+						"id": "C",
+						"text": "Its flywheel had too few steps"
+					},
+					{
+						"id": "D",
+						"text": "Strategy changes always improve growth over time"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Write a four-step flywheel for a language school and name the arrow that is most likely a hope rather than a tested cause. Explain why."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain the difference between a flywheel and a doom loop, using a restaurant that changes its concept every year as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A grocery delivery company’s loop is: lower prices, more customers, larger orders to suppliers, supplier discounts, lower prices. A 4% price cut raised orders by 18% in six months, but supplier discounts are only 2%, because the supplier’s next tier starts at 50% more volume. Choose one: (1) cut prices a further 8%, (2) spend the money on a loyalty app that touches no step of the loop, or (3) renegotiate and consolidate suppliers to reach a higher discount tier sooner. Justify with the loop."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A discount grocery chain has a strong flywheel: low prices, high volume, supplier discounts and lower costs. Surveys now show customers in its main city increasingly want organic and premium products. Choose one: stay with the loop unchanged, add a premium organic line that draws on the same stores and suppliers, or abandon the loop and rebuild as a premium chain. Use the flywheel idea to explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A meal-kit startup’s loop: lower prices, more subscribers, larger supplier orders, lower cost per box, lower prices. A 5% price cut raised subscribers by 12% in a quarter. But larger orders cut the cost per box by only 2% (from $9.00 to $8.82), because supplier tiers start at 50% higher volume. The company sells 50,000 boxes a month and has $40,000 to spend on one of: (A) an influencer campaign, (B) hiring a procurement manager to consolidate suppliers and reach a 6% discount tier, (C) a redesign of the recipe app."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Test the loop arrow by arrow, identify the slowest step, screen the three projects, and say how you would measure the result."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке ефект маховика?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Зростання від петлі пов’язаних дій, кожна з яких полегшує наступну"
+					},
+					{
+						"id": "B",
+						"text": "Один великий запуск продукту, що створює тривале зростання"
+					},
+					{
+						"id": "C",
+						"text": "Спосіб знизити витрати, прибравши кожен другий крок"
+					},
+					{
+						"id": "D",
+						"text": "Графік маркетингових кампаній, що повторюються щороку"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке «петля загибелі»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Петля з понад шістьма кроками"
+					},
+					{
+						"id": "B",
+						"text": "Маховик, що надто швидко обертається, щоб ним керувати"
+					},
+					{
+						"id": "C",
+						"text": "Модель частих розворотів стратегії чи керівництва, що вбиває інерцію"
+					},
+					{
+						"id": "D",
+						"text": "Петля, у якої немає першого кроку"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Список із п’яти цілей компанії це маховик."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Маховик розкручується повільно, тож у перші місяці може виглядати як провал."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кав’ярня описує свою петлю так: «краща кава, більше постійних клієнтів, більше виручки, краща кава». Яка стрілка найслабша?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Краща кава веде до більшої кількості постійних клієнтів"
+					},
+					{
+						"id": "B",
+						"text": "Більше виручки веде до кращої кави"
+					},
+					{
+						"id": "C",
+						"text": "Більше постійних клієнтів веде до більшої виручки"
+					},
+					{
+						"id": "D",
+						"text": "Усі стрілки однаково міцні"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда малює маховик із шести кроків. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " перевірки їй слід застосувати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Чи справді кожен крок спричиняє наступний?"
+					},
+					{
+						"id": "B",
+						"text": "Чи досить привабливою є схема, щоб показати інвесторам?"
+					},
+					{
+						"id": "C",
+						"text": "Чи містить вона кожну діяльність компанії?"
+					},
+					{
+						"id": "D",
+						"text": "Чи повертається останній крок до першого?"
+					},
+					{
+						"id": "E",
+						"text": "Чи належить схема відділу маркетингу?"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Петля компанії з наборів для готування: нижчі ціни, більше замовлень, більші обсяги в постачальників, нижча собівартість набору, нижчі ціни. Директор пропонує витратити $50 000 на рекламу із знаменитістю, що не торкається жодного з цих кроків. Яка реакція найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Схвалити, бо обізнаність завжди допомагає"
+					},
+					{
+						"id": "B",
+						"text": "Схвалити половину суми як компроміс"
+					},
+					{
+						"id": "C",
+						"text": "Назавжди відмовитися від усього маркетингу"
+					},
+					{
+						"id": "D",
+						"text": "Порівняти з вкладенням тих самих грошей у найповільніший крок петлі, бо реклама не рухає жодного кроку"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Петля компанії доставки продуктів: нижчі ціни, більше замовлень, щільніші маршрути, нижча вартість замовлення, нижчі ціни. Дані: зниження цін запровадили за місяць, замовлень стало на 30% більше за три місяці, але вартість замовлення за дванадцять місяців упала лише з $6,50 до $5,70. Куди спрямувати наступну інвестицію?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "У щільність маршрутів і планування кур’єрів, найповільніший крок петлі"
+					},
+					{
+						"id": "B",
+						"text": "У подальше зниження цін, бо його найшвидше застосувати"
+					},
+					{
+						"id": "C",
+						"text": "У рекламу, бо замовлення вже зростають"
+					},
+					{
+						"id": "D",
+						"text": "Нікуди, бо петля працює"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження про обмеження ідеї маховика правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Маховик доведено, щойно команда його акуратно намалювала."
+					},
+					{
+						"id": "B",
+						"text": "Багато схем містять стрілки, що є сподіваннями, а не перевіреними причинами, тож кожну стрілку слід звіряти з даними."
+					},
+					{
+						"id": "C",
+						"text": "Сильна петля може закрити компанію в застарілій моделі, коли ринок змінюється."
+					},
+					{
+						"id": "D",
+						"text": "Концепція походить з контрольованих експериментів на тисячах фірм."
+					},
+					{
+						"id": "E",
+						"text": "Збудований маховик ніколи не потребує перегляду."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія за шість років тричі змінила стратегію й генерального директора, і зростання зупинилося. Яке пояснення найкраще пасує до ідеї маховика?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вона збудувала надто сильний маховик"
+					},
+					{
+						"id": "B",
+						"text": "Вона потрапила в петлю загибелі: кожен розворот руйнував інерцію, яку набрав попередній поштовх"
+					},
+					{
+						"id": "C",
+						"text": "У її маховика було замало кроків"
+					},
+					{
+						"id": "D",
+						"text": "Зміни стратегії завжди покращують зростання з часом"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Напишіть маховик із чотирьох кроків для мовної школи й назвіть стрілку, що найімовірніше є сподіванням, а не перевіреною причиною. Поясніть чому."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть різницю між маховиком і петлею загибелі на прикладі ресторану, що щороку змінює концепцію."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Петля компанії доставки продуктів: нижчі ціни, більше клієнтів, більші замовлення постачальникам, знижки постачальників, нижчі ціни. Зниження цін на 4% підняло замовлення на 18% за пів року, але знижки постачальників лише 2%, бо наступний рівень постачальника починається з обсягу на 50% більшого. Оберіть одне: (1) знизити ціни ще на 8%, (2) витратити гроші на програму лояльності, що не торкається жодного кроку петлі або (3) переглянути умови й об’єднати постачальників, щоб швидше досягти вищого рівня знижки. Обґрунтуйте за допомогою петлі."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа продуктових дискаунтерів має сильний маховик: низькі ціни, великий обсяг, знижки постачальників і нижчі витрати. Опитування тепер показують, що клієнти в її головному місті дедалі більше хочуть органічних і преміальних продуктів. Оберіть одне: лишити петлю без змін, додати преміальну органічну лінію, що спирається на ті самі магазини й постачальників, або відмовитися від петлі й перебудуватися на преміальну мережу. Поясніть компроміси за допомогою ідеї маховика."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Петля стартапу з наборів для готування: нижчі ціни, більше підписників, більші замовлення постачальникам, нижча собівартість набору, нижчі ціни. Зниження цін на 5% підняло кількість підписників на 12% за квартал. Але більші замовлення знизили собівартість набору лише на 2% (з $9,00 до $8,82), бо рівні постачальників починаються з обсягу на 50% більшого. Компанія продає 50 000 наборів на місяць і має $40 000 на один із проєктів: (A) кампанію з інфлюенсерами, (B) найм менеджера із закупівель, щоб об’єднати постачальників і досягти рівня знижки 6%, (C) редизайн застосунку з рецептами."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Перевірте петлю стрілка за стрілкою, визначте найповільніший крок, відсійте три проєкти й скажіть, як вимірюватимете результат."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

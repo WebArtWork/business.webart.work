@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A nudge shapes the context of a choice while keeping all options open and cheap. Fines, discounts and mandates change incentives or remove freedom, which is what separates them from a nudge."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The default is the outcome when no action is taken, and it is the most powerful lever because most people stay with it through inertia. It need not be cheap, popular or required by law."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A nudge keeps every option available and easy to choose. Banning options is a mandate, not a nudge."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A nudge serves outcomes people would choose themselves and leaves opting out easy. Deliberate friction against their wishes is manipulation and invites complaints and regulation."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The pre-booking is a default that makes attendance the easy path, and cancelling stays free and simple. A ban removes freedom, and a fee or a price rise changes financial incentives."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A nudge must preserve easy choice and serve the person’s own interests. Hidden renewals and buried buttons are sludge, and an option fixed by law is a mandate."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A timely prompt and lower effort target the moment of decision. A longer policy does nothing, a price penalty is an incentive change, and burying the page adds friction."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It changes presentation and default but leaves every option open and cheap. A ban removes freedom, a tax changes incentives, and hiding prices while showing partial information is closer to manipulation than to helping people choose."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "DellaVigna and Linos found nudge-unit effects several times smaller than the academic ones, and effects can fade. The other claims are the opposite of what the evidence and critics say."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Published studies tend to overstate effects, and your pilot reflects your audience and conditions and has a control group. The midpoint has no basis, and waiting wastes the data you already have."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Choice architecture is the design of the setting in which people decide: what is the default, what comes first, and how much effort each option takes. A dental clinic can book the next check-up for the patient at the end of each visit, so the default is \"you are booked\" and the patient can move it with one text."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that choice architecture is the design of the context of a decision, including defaults and effort",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a concrete small-business default that keeps opting out easy",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A nudge helps people do what they would choose themselves while keeping all options easy, and sludge adds friction against their interests. A reminder before a trial ends, with a one-tap cancel link, is a nudge. Hiding the cancel button behind four screens and a phone call is sludge, and it invites complaints and regulation. A good test is whether the customer would endorse the design if they understood it."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Distinguishes helping people reach their own aims with easy choice from friction that works against them",
+					"points": 2
+				},
+				{
+					"criterion": "Gives one example of each in a subscription service",
+					"points": 1
+				},
+				{
+					"criterion": "Offers a test, such as whether people would endorse the design or whether opt-out is easy",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Automatic enrolment with an easy opt-out. The default decides the outcome for many customers who intend to save but never act, and the round-up feature uses tiny amounts, so little effort or willpower is needed. Opting out stays one tap, so freedom of choice is preserved and customers would endorse the aim. A newsletter relies on attention and motivation, which are limited, and a bonus is a paid incentive that attracts people who then close the account. The trade-off is that some customers will feel surprised, so I would tell them clearly on enrolment, and I would run it on a random half of customers and measure the savings balances and opt-out rate after three months."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses at least three ideas with evidence from the case (default, friction, freedom of choice, limited attention)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains the trade-off against the rejected options",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk or a test to measure the behavior",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "I would enrol everyone automatically at 3%, with a clear schedule that raises it by 1 point each year until 6%, and with an easy opt-out. Most people stay with the default, so participation will jump, but they also stay at the default level, so a 3% default alone leaves many under-saving. Starting at 6% would be better for pensions but could push low-paid staff to opt out entirely or into hardship, and it takes a choice away without their awareness. The gradual rise serves their interest while limiting the shock. The risk is that people do not change the rate, so I would test it and track opt-outs and later contributions."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Compares the default levels with their trade-offs (participation, adequacy, affordability)",
+					"points": 2
+				},
+				{
+					"criterion": "Recognizes that the default level is what most people will keep",
+					"points": 1
+				},
+				{
+					"criterion": "Keeps opting out easy and attends to the interests of low-paid staff",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear recommendation, with a way to measure the effect",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Hiding the cancel button is sludge: it adds friction against members’ wishes and invites complaints. The Sunday message with one-tap booking is a nudge: a prompt at the right moment with lower effort. The automatic first booking with free cancellation is a nudge: a default that keeps opting out easy. Test: split 1,200 members at random into control and two groups, run for three months and measure actual visits and cancellations, not stated intentions. Plan for a few percentage points, not 20, since field trials usually show smaller effects than academic studies and the effect can fade, so check again after six months."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Classifies all three proposals correctly with reasons (friction against wishes versus easy choice)",
+					"points": 2
+				},
+				{
+					"criterion": "Designs a test with random groups and a control, and measures actual behavior",
+					"points": 2
+				},
+				{
+					"criterion": "Plans for a realistic effect of a few points and notes it can fade",
+					"points": 1
+				},
+				{
+					"criterion": "Keeps opting out easy and does not rely on sludge to retain members",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підштовхування формує контекст вибору, лишаючи всі варіанти відкритими й дешевими. Штрафи, знижки й обов’язкові правила змінюють стимули чи прибирають свободу, і саме цим відрізняються від підштовхування."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант за замовчуванням це результат, коли жодної дії не вжито, і це найпотужніший важіль, бо більшість людей лишається при ньому через інерцію. Він не мусить бути дешевим, популярним чи обов’язковим за законом."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підштовхування лишає всі варіанти доступними й легкими для вибору. Заборона варіантів це примус, а не підштовхування."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підштовхування служить результатам, які люди обрали б самі, і залишає вихід легким. Навмисне тертя проти їхніх бажань це маніпуляція, що викликає скарги й регулювання."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Автозапис це варіант за замовчуванням, який робить відвідування найлегшим шляхом, а скасувати можна вільно й просто. Заборона відбирає свободу, а штраф чи підвищення ціни змінюють фінансові стимули."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підштовхування мусить зберігати легкий вибір і служити інтересам самої людини. Приховані продовження й заховані кнопки це «намул», а варіант, закріплений законом, це примус."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Своєчасна підказка й менше зусиль націлені на момент рішення. Довша політика нічого не дає, штраф за ціною це зміна стимулів, а заховування сторінки додає тертя."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це змінює подачу й варіант за замовчуванням, але лишає всі варіанти відкритими й дешевими. Заборона відбирає свободу, податок змінює стимули, а приховування цін із частковою інформацією ближче до маніпуляції, ніж до допомоги у виборі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Делла Віньї й Лінос виявили, що ефекти випробувань урядових груп у кілька разів менші за академічні, а ефекти можуть згасати. Решта тверджень є протилежністю того, що кажуть дані й критики."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Опубліковані дослідження зазвичай завищують ефекти, а ваш пілот відображає вашу аудиторію й умови та має контрольну групу. Середина не має підстав, а очікування марнує вже наявні дані."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Архітектура вибору це проєктування середовища, в якому люди ухвалюють рішення: що є типовим, що йде першим і скільки зусиль потребує кожен варіант. Стоматологічна клініка може наприкінці кожного візиту записувати пацієнта на наступний огляд, тож типово «ви записані», а перенести запис можна одним повідомленням."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що архітектура вибору це проєктування контексту рішення, зокрема типових варіантів і зусиль",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить конкретний варіант за замовчуванням для малого бізнесу, що лишає відмову легкою",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підштовхування допомагає людям робити те, що вони обрали б самі, лишаючи всі варіанти легкими, а «намул» додає тертя проти їхніх інтересів. Нагадування перед кінцем пробного періоду з посиланням для скасування одним дотиком це підштовхування. Ховати кнопку скасування за чотирма екранами й телефонним дзвінком це «намул», і він викликає скарги та регулювання. Хороший тест: чи схвалив би клієнт такий дизайн, якби розумів його."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розрізняє допомогу людям досягати власних цілей із легким вибором і тертя, що працює проти них",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить по одному прикладу кожного в сервісі з підпискою",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує тест, наприклад чи схвалили б люди дизайн або чи легко відмовитися",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Автоматичне підключення з легкою відмовою. Варіант за замовчуванням вирішує результат для багатьох клієнтів, які мають намір заощаджувати, але не діють, а заокруглення стосується крихітних сум, тож потрібно мало зусиль і сили волі. Відмова лишається одним дотиком, тож свобода вибору збережена, а клієнти схвалили б мету. Розсилка спирається на увагу й мотивацію, яких обмаль, а бонус це оплачуваний стимул, що приваблює людей, які потім закривають рахунок. Компроміс у тому, що дехто здивується, тож я чітко повідомляла б про підключення, а також запустила б це на випадковій половині клієнтів і за три місяці виміряла б залишки та частку відмов."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує щонайменше три ідеї з доказами з умови (типовий варіант, тертя, свобода вибору, обмежена увага)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює компроміс порівняно з відкинутими варіантами",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик або тест для вимірювання поведінки",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Я автоматично залучила б усіх із внеском 3%, з чітким графіком підвищення на 1 пункт щороку до 6% і з легкою відмовою. Більшість людей лишається при типовому варіанті, тож участь різко зросте, але вони лишаються й на типовому рівні, тож лише 3% залишають багатьох недозаощадженими. Старт із 6% був би кращим для пенсій, але міг би змусити низькооплачуваних працівників зовсім відмовитися чи потрапити у скруту й забирає вибір без їхнього усвідомлення. Поступове підвищення служить їхнім інтересам і пом’якшує шок. Ризик у тому, що люди не змінюватимуть ставку, тож я протестувала б це й відстежувала відмови та подальші внески."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Порівнює типові рівні з їхніми компромісами (участь, достатність, доступність)",
+					"points": 2
+				},
+				{
+					"criterion": "Розуміє, що типовий рівень це те, що більшість лишить",
+					"points": 1
+				},
+				{
+					"criterion": "Зберігає легку відмову й зважає на інтереси низькооплачуваних працівників",
+					"points": 1
+				},
+				{
+					"criterion": "Дає чітку рекомендацію зі способом виміряти ефект",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ховати кнопку скасування це «намул»: воно додає тертя проти бажань членів і викликає скарги. Недільне повідомлення з бронюванням одним дотиком це підштовхування: підказка в потрібний момент зі зниженими зусиллями. Автозапис на перше заняття з безкоштовним скасуванням це підштовхування: варіант за замовчуванням, що лишає відмову легкою. Тест: випадково розділити 1200 членів на контрольну й дві групи, провести три місяці й виміряти фактичні візити та скасування, а не заявлені наміри. Планувати варто на кілька відсоткових пунктів, а не на 20, бо польові випробування зазвичай показують менші ефекти, ніж академічні, а ефект може згасати, тож перевірити ще раз за шість місяців."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно класифікує всі три пропозиції з аргументами (тертя проти бажань чи легкий вибір)",
+					"points": 2
+				},
+				{
+					"criterion": "Розробляє тест із випадковими групами й контролем і вимірює фактичну поведінку",
+					"points": 2
+				},
+				{
+					"criterion": "Планує на реалістичний ефект у кілька пунктів і зазначає, що він може згасати",
+					"points": 1
+				},
+				{
+					"criterion": "Зберігає легку відмову й не покладається на «намул» для утримання членів",
+					"points": 1
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,586 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Procedural costs are the time spent searching, migrating data and learning a new system. The penalty is a financial cost, the account manager is a relational cost, and the plug-ins are durable purchases and complements."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The machine is a durable purchase that only works with one supplier’s complements, so leaving means throwing it away. Nobody else’s use of the machine matters (not network), there is no personal tie (not relational), and no contract is signed (not contractual)."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Training time, lost data, broken habits and personal relationships are switching costs too, and they often weigh more than any fee. Counting only the price of leaving is one of the common mistakes."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A customer won today will be costly to lose later, so firms bid hard at the start and then raise prices for customers who are already locked in."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The full cost of leaving is $3,000 + $2,500 + $1,500 = $7,000, and the saving is $2,000 a year, so payback takes 3.5 years. 1.5 years counts only the migration fee and 2.8 years leaves out the parallel run, which is the mistake of counting only the visible price of leaving."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Integrations and accumulated history make the product more valuable the longer a studio stays, so leaving costs value, not a fine. The exit fee, export charge and hidden renewal are penalties that breed resentment and give rivals a “freedom to leave” message."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The barrier is the cost of moving, not the price, so the challenger should absorb that cost for the buyer. Deeper price cuts and ads ignore switching costs, which is exactly the attacker’s common mistake, and waiting leaves the lock-in intact."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Lock-in built on penalties damages reputation and invites exactly this campaign, and the rival has already neutralised the penalty. A higher penalty deepens resentment, discounts only for newcomers anger the installed base, and standing still ignores that the barrier is being bought out."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Trapped data and the pain of repeating an audit are switching costs that hold clients regardless of how they feel, and the complaints show low satisfaction. Rising referrals and an award point to real satisfaction, and the number of accountants says nothing about why clients stay."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In fast-changing markets a big enough gain lets clients write off sunk investments, so the barrier disappears. Customisation is not permanent protection, regulators tend to cut switching costs rather than raise them, and the case gives no sign of network lock-in."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The saving is $70 a month, or $840 a year. Training costs 15 × 4 × $15 = $900, so the total is $900 + $900 + $1,200 = $3,000. Payback takes $3,000 / $840, about 3.6 years, so the move does not pay for a long time. The numbers leave out the loss of the customer loyalty data stored in the old system, plus the disruption of staff habits during busy service."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the yearly saving of $840",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates the $3,000 total including $900 of training and a payback of about 3.6 years",
+					"points": 2
+				},
+				{
+					"criterion": "Names a hidden cost such as lost customer data, habits or relationships",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A penalty keeps customers without giving them a reason to want to stay. An operator with a 24-month contract and a high exit fee may show low churn, but its customers resent the trap and count the months until they can leave. When the contract ends, or when a rival offers to pay the fee or number portability makes moving easy, they leave in a wave. Meanwhile rivals advertise freedom to leave against it."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: penalties hold customers without value, so they resent it and leave at the first chance",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to a phone operator with a concrete detail (contract term, exit fee, porting the number)",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trigger that releases them: contract end, rival buy-outs, regulation or a rival’s campaign",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Build the integrations and template library. They raise switching costs through value: every project a studio runs adds templates and history it would lose by leaving, and the CAD link saves time daily. Exit fees would cut churn on paper but breed resentment and a reputation rivals can attack. A 20% cut gives away revenue on every studio, including the 98% who stay each month, and a cheaper tool can always undercut it. Risk: integrations take months, so track churn among studios that adopt them against those that do not."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Explains how the choice raises switching costs through value (history, templates, integrations)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why penalties or a price cut are weaker (resentment, reputation, lost revenue from stayers)",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to measure whether the choice works",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option 2. The client’s switching cost is $6,500. Under Option 1 it saves $3,600 a year, so payback is about 1.8 years, and I lose $1 × 100 × 12 = $1,200 a year per client for as long as it stays. Under Option 2 the client only bears $1,500 of retraining, so payback is $1,500 / $2,400, about 7.5 months, and my cost is a one-off $3,000, less than three years of the price cut. Absorbing the switching cost attacks the real barrier instead of competing on price alone."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates both paybacks correctly (about 1.8 years and about 7.5 months)",
+					"points": 2
+				},
+				{
+					"criterion": "Compares the challenger’s cost: $1,200 a year forever against a one-off $3,000",
+					"points": 1
+				},
+				{
+					"criterion": "Explains that the barrier is the switching cost, not the price gap",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the numbers",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Cafés are held by a contractual cost (three years, $3,000 fee), a durable complement (the loaned machine, which leaves with the contract) and a relational cost (the monthly trainer visits). Low churn does not prove loyalty: satisfaction fell from 8.1 to 6.2 after the price rise, so many cafés stay because leaving is costly. The rival’s offer removes both the fee and the machine barrier, so only the relationship remains. The roaster should rebuild value: roll back part of the 18% rise for cafés near renewal, expand the training into menu and staff support, and offer shorter contracts. It should watch satisfaction and renewal rates monthly, not churn alone."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names at least three switching costs from the case (contract and fee, loaned machine, trainer relationship)",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the drop from 8.1 to 6.2 to show retention comes from lock-in, not satisfaction",
+					"points": 1
+				},
+				{
+					"criterion": "Sees that the rival’s offer neutralises the fee and the machine, leaving only the relationship",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends a value-based response (pricing, service, contract terms) and a metric beyond churn",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Процедурні витрати це час на пошук, перенесення даних і освоєння нової системи. Штраф належить до фінансових витрат, менеджер до стосункових, а плагіни до тривалих покупок і доповнень."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кавоварка є тривалою покупкою, що працює лише з доповненнями одного постачальника, тож перехід означає її викинути. Чужі користувачі тут нічого не важать (не мережева), особистого зв’язку немає (не стосункова), договору ніхто не підписував (не договірна)."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Час на навчання, втрачені дані, зламані звички й особисті стосунки теж є витратами на перехід і часто важать більше за будь-який штраф. Рахувати лише ціну виходу це одна з типових помилок."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Клієнта, здобутого сьогодні, згодом буде дорого втратити, тож компанії активно борються за нього на старті, а потім піднімають ціни для тих, хто вже прив’язаний."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Повна ціна виходу становить $3 000 + $2 500 + $1 500 = $7 000, а економія $2 000 на рік, тож окупність 3,5 року. 1,5 року враховує лише плату за перенесення, а 2,8 року не враховує паралельної роботи: це помилка, коли рахують лише видиму ціну виходу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Інтеграції й накопичена історія роблять продукт ціннішим що довше бюро ним користується, тож вихід коштує втраченої цінності, а не штрафу. Штраф за вихід, плата за вивантаження і приховане продовження є покараннями, що викликають образу й дають конкурентам гасло «свободи виходу»."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бар’єр полягає у вартості переходу, а не в ціні, тож претендент має взяти цю вартість на себе. Ще більші знижки й реклама ігнорують витрати на перехід, і саме в цьому типова помилка атакувальника, а очікування лишає прив’язку недоторканою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Прив’язка на штрафах шкодить репутації й провокує саме таку кампанію, а конкурент уже нейтралізував штраф. Вищий штраф поглибить образу, знижки лише для новачків розлютять наявну базу, а бездіяльність ігнорує те, що бар’єр уже викуповують."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Заблоковані дані й необхідність повторювати аудит є витратами на перехід, які тримають клієнтів незалежно від їхніх почуттів, а скарги показують низьку задоволеність. Зростання рекомендацій і нагорода вказують на справжню задоволеність, а кількість бухгалтерів нічого не каже про причини, з яких клієнти лишаються."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На ринках, що швидко змінюються, достатньо великий виграш дозволяє клієнтам списати колишні вкладення, і бар’єр зникає. Налаштування не дає вічного захисту, регулятори радше знижують витрати на перехід, ніж підвищують, а ознак мережевої прив’язки в умові немає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Економія становить $70 на місяць, або $840 на рік. Навчання коштує 15 × 4 × $15 = $900, тож загалом $900 + $900 + $1 200 = $3 000. Окупність $3 000 / $840, приблизно 3,6 року, тож перехід довго не окупиться. У цифрах немає втрати даних програми лояльності, що зберігаються в старій системі, а також збою звичок персоналу в години пік."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Обчислює річну економію $840",
+					"points": 1
+				},
+				{
+					"criterion": "Обчислює загальну суму $3 000 разом із $900 на навчання й окупність близько 3,6 року",
+					"points": 2
+				},
+				{
+					"criterion": "Називає приховану витрату, як-от втрачені дані клієнтів, звички чи стосунки",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Штраф утримує клієнтів, не даючи їм причини хотіти залишитися. Оператор із 24-місячним договором і високим штрафом може мати низький відтік, але клієнти ображаються на пастку й рахують місяці до виходу. Коли договір закінчується, конкурент пропонує сплатити штраф або перенесення номера спрощує перехід, вони йдуть хвилею. Тим часом конкуренти рекламують проти нього свободу виходу."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: штрафи утримують без цінності, тож клієнти ображаються й ідуть за першої нагоди",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до оператора з конкретною деталлю (строк договору, штраф, перенесення номера)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає подію, що звільняє клієнтів: кінець договору, викуп конкурентом, регулювання чи кампанія конкурента",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Створити інтеграції й бібліотеку шаблонів. Вони підвищують витрати на перехід через цінність: кожен проєкт додає шаблони й історію, які бюро втратить, якщо піде, а зв’язок із CAD щодня економить час. Штрафи знизили б відтік на папері, але викликали б образу й репутацію, яку атакуватимуть конкуренти. Знижка 20% віддає дохід із кожного бюро, зокрема з тих 98%, що щомісяця лишаються, а дешевший інструмент завжди може дати ціну нижчу. Ризик: інтеграції займуть місяці, тож порівнюйте відтік серед бюро, які ними користуються, і тих, що ні."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, як вибір підвищує витрати на перехід через цінність (історія, шаблони, інтеграції)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому штрафи чи знижка слабші (образа, репутація, втрачений дохід від тих, хто лишається)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб виміряти, чи працює вибір",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант 2. Витрати клієнта на перехід становлять $6 500. У варіанті 1 він заощаджує $3 600 на рік, тож окупність близько 1,8 року, а я втрачаю $1 × 100 × 12 = $1 200 на рік із кожного клієнта, поки він лишається. У варіанті 2 клієнт несе лише $1 500 на перенавчання, тож окупність $1 500 / $2 400, приблизно 7,5 місяця, а мої витрати разові $3 000, менше ніж три роки знижки. Покриття витрат на перехід атакує справжній бар’єр замість конкуренції лише ціною."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно обчислює обидві окупності (близько 1,8 року й близько 7,5 місяця)",
+					"points": 2
+				},
+				{
+					"criterion": "Порівнює витрати претендента: $1 200 на рік безстроково проти разових $3 000",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, що бар’єр полягає у витратах на перехід, а не в різниці цін",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з цифр",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кав’ярні тримає договірна витрата (три роки, штраф $3 000), тривале доповнення (позичена машина, яку забирають разом із договором) і стосункова витрата (щомісячні візити тренера). Низький відтік не доводить лояльності: задоволеність упала з 8,1 до 6,2 після підвищення цін, тож багато кав’ярень лишаються, бо піти дорого. Пропозиція конкурента знімає і штраф, і бар’єр машини, тож лишаються тільки стосунки. Обсмажувальнику варто відновлювати цінність: скасувати частину 18% підвищення для кав’ярень, яким скоро продовжувати договір, розширити навчання до підтримки меню й персоналу та пропонувати коротші договори. Стежити щомісяця треба за задоволеністю й часткою продовжень, а не лише за відтоком."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає щонайменше три витрати на перехід з умови (договір і штраф, позичена машина, стосунки з тренером)",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує падіння з 8,1 до 6,2, щоб показати, що утримання тримається на прив’язці, а не на задоволеності",
+					"points": 1
+				},
+				{
+					"criterion": "Бачить, що пропозиція конкурента нейтралізує штраф і машину, лишаючи тільки стосунки",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує відповідь через цінність (ціни, сервіс, умови договору) і показник, ширший за відтік",
+					"points": 2
+				}
+			]
+		}
+	}
+}

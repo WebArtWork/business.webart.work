@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The unit can be an order, a subscriber or a customer, and the test is whether each one earns more than the variable costs it triggers. Total profit includes fixed costs, sales volume is only a count, and the cheapest item says nothing about the economics of a typical unit."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Contribution is what a unit leaves after the costs that rise with it, and it goes towards fixed costs and profit. Rent is fixed, the ratio in B is a cost share, and total revenue minus total costs is profit for the whole business."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Every extra unit adds a loss on top of the fixed costs, so growth digs a deeper hole. Volume helps only when each unit contributes something to cover fixed costs."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Positive unit economics is necessary but not sufficient. If volume never grows enough to cover rent, salaries and software, the company still loses money overall."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The courier is paid only when an order is delivered, so the cost disappears if the order is not sold. Rent, the CEO’s salary and a yearly licence are paid regardless of order volume, so they are fixed."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Payment fees and packaging rise with every order and would vanish if the order were not sold. Rent, the founder’s salary and a redesign are paid whatever the number of orders."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Contribution is $25 − $21 = $4, and six orders give $24, which is less than $30. Revenue ignores costs, a positive $4 is not enough if it never repays the acquisition cost, and fixed costs are deliberately left out of the customer-level test."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Contribution is $14 a month, so payback takes six months, but customers leave after five. $70 against $84 leaves a $14 loss per customer. The model is not healthy, and the loss is not the whole $84, because $70 has been earned back."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "An average can hide cities with negative units, and leaving out repairs or vandalism makes the margin look better than it is. A positive average is no reason to scale blindly, rent is fixed, and the customer level shows whether acquisition costs are repaid."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In X, growth adds $6 per order towards the fixed costs, so the loss shrinks. In Y every new order adds a $3 loss, so scaling makes it worse. Equal total losses hide very different unit economics."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Variable costs are $7 + $4 + $1 = $12, so contribution is $18 − $12 = $6 a month. The margin is $6 / $18, about 33%. Payback is the $30 acquisition cost divided by $6, which is 5 months, so a customer must stay longer than five months before the company earns anything on them."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates contribution of $6 per month and a margin of about 33%",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates payback of 5 months and explains what it means",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The average mixes a very profitable market with two that lose money on every order, so scaling by the average would grow the losing cities as well. The company should split the numbers by city, find out why costs there are higher (longer routes, fewer orders per trip), and fix those units with a delivery fee, a higher price or a smaller delivery area. If they cannot be fixed, it should stop spending on growth there. It should recalculate monthly before adding more marketing."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that the average hides segments with different, even negative, economics",
+					"points": 2
+				},
+				{
+					"criterion": "Proposes a concrete action for the losing cities (fee, price, smaller area or exit)",
+					"points": 1
+				},
+				{
+					"criterion": "Says to recalculate and not to fund growth until the units are positive",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Today a customer contributes $9 × 8 = $72 against $90, a loss of $18, so keeping the current numbers means growth multiplies the losses. A price of $34 gives $13 × 8 = $104, a gain of $14 per customer. The referral programme gives $72 − $60 = $12. I would test the price rise first, because it improves every customer and needs no new channel, but the assumption of unchanged retention is risky: if customers stay only six months, $13 × 6 = $78 is below $90 and the loss returns, so I would watch churn after the change. Run a referral pilot alongside it and keep the option that improves lifetime contribution most."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates the current loss (−$18) and the result of the chosen option correctly",
+					"points": 2
+				},
+				{
+					"criterion": "Compares with at least one other option and explains the difference",
+					"points": 1
+				},
+				{
+					"criterion": "Names the main risk (such as higher churn after a price rise) and how to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Consumer: contribution is $6 a month, so 20 months give $120 against $60, a net gain of $60, and payback is 10 months. Business: contribution is $13 a month, so 36 months give $468 against $400, a net gain of $68, but payback takes about 31 months. Net gain is similar, yet with 14 months of cash only the consumer segment repays its acquisition cost before the cash runs out. I would put most of the budget into consumers and a small test into business customers. The risk is that the lifetime figures are guesses, so I would check real retention after six months and shift the budget if it differs."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates both segments correctly (net $60 and payback of 10 months; net $68 and payback of about 31 months)",
+					"points": 2
+				},
+				{
+					"criterion": "Connects payback to the 14-month cash limit",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear allocation decision that follows from the analysis",
+					"points": 1
+				},
+				{
+					"criterion": "Notes that lifetime and retention are estimates and proposes a check",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Centre contribution is $3 and outer is minus $1, so the average is 0.75 × 3 + 0.25 × (−1) = $2. Monthly contribution is 40,000 × $2 = $80,000, so against $120,000 of fixed costs the result is a loss of $40,000. Break-even at the average is $120,000 / $2 = 60,000 orders. The outer districts are the problem: a customer there brings 15 × (−$1) = −$15 before the $15 acquisition cost. If the company stopped serving or advertising there, contribution would be 30,000 × $3 = $90,000, the loss would fall to $30,000 and break-even would be 40,000 orders. A better option is to add a delivery fee of $2 or more in the outer districts so they stop losing money."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the average contribution of $2 and the loss of $40,000 per month",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates break-even volume of 60,000 orders and compares it with the current 40,000",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the outer districts as negative, with the customer-level figure",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends an action (exit, fee or price change) and quantifies its effect",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Одиницею може бути замовлення, передплатник чи клієнт, а перевірка полягає в тому, чи кожна приносить більше, ніж змінні витрати, які вона викликає. Загальний прибуток включає постійні витрати, обсяг продажів це лише кількість, а найдешевший товар нічого не каже про економіку типової одиниці."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маржинальний дохід це те, що лишається від одиниці після витрат, які зростають разом із нею, і він іде на покриття постійних витрат та прибуток. Оренда це постійна витрата, співвідношення у варіанті B показує частку витрат, а загальний виторг мінус загальні витрати це прибуток усього бізнесу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кожна додаткова одиниця додає збиток до постійних витрат, тож зростання копає глибшу яму. Обсяг допомагає лише тоді, коли кожна одиниця щось вносить у покриття постійних витрат."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Додатна юніт-економіка необхідна, але недостатня. Якщо обсяг так і не виросте настільки, щоб покрити оренду, зарплати й програми, компанія однаково залишиться збитковою."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кур’єру платять лише тоді, коли замовлення доставлене, тож ця витрата зникає, якщо замовлення не продали. Оренда, зарплата директора й річна ліцензія сплачуються незалежно від обсягу замовлень, тож вони постійні."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Платіжні комісії й пакування зростають із кожним замовленням і зникли б, якби замовлення не продали. Оренда, зарплата засновника й оновлення сайту сплачуються незалежно від кількості замовлень."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маржинальний дохід становить $25 − $21 = $4, а шість замовлень дають $24, що менше за $30. Виторг не враховує витрат, додатні $4 недостатні, якщо вони не повертають вартість залучення, а постійні витрати свідомо не входять до перевірки на рівні клієнта."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маржинальний дохід $14 на місяць, тож окупність потребує шести місяців, а клієнти йдуть за п’ять. $70 проти $84 лишає $14 збитку на клієнта. Модель не здорова, а збиток не дорівнює всім $84, бо $70 уже повернулося."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Середнє може приховувати міста з від’ємною одиницею, а пропуск ремонтів чи вандалізму робить маржу кращою, ніж вона є. Додатне середнє не причина масштабуватися наосліп, оренда постійна, а рівень клієнта показує, чи окуповуються витрати на залучення."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "У X зростання додає $6 із замовлення на покриття постійних витрат, тож збиток зменшується. У Y кожне нове замовлення додає $3 збитку, тож масштабування погіршує справи. Однакові загальні збитки приховують дуже різну юніт-економіку."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Змінні витрати $7 + $4 + $1 = $12, тож маржинальний дохід $18 − $12 = $6 на місяць. Маржа $6 / $18, близько 33%. Окупність це $30 витрат на залучення, поділені на $6, тобто 5 місяців, тож клієнт має залишитися довше за п’ять місяців, перш ніж компанія почне на ньому заробляти."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Обчислює маржинальний дохід $6 на місяць і маржу близько 33%",
+					"points": 2
+				},
+				{
+					"criterion": "Обчислює окупність 5 місяців і пояснює, що це означає",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Середнє змішує дуже прибутковий ринок із двома, що втрачають на кожному замовленні, тож масштабування за середнім розвивало б і збиткові міста. Компанії варто розбити цифри за містами, з’ясувати, чому там вищі витрати (довші маршрути, менше замовлень за поїздку), і виправити ці одиниці платою за доставку, вищою ціною чи меншою зоною. Якщо виправити не вдасться, треба припинити витрати на зростання там. Перед додатковим маркетингом слід щомісяця перераховувати показники."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що середнє ховає сегменти з різною, навіть від’ємною економікою",
+					"points": 2
+				},
+				{
+					"criterion": "Пропонує конкретну дію для збиткових міст (плата, ціна, менша зона чи вихід)",
+					"points": 1
+				},
+				{
+					"criterion": "Радить перераховувати й не фінансувати зростання, поки одиниці не стануть додатними",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сьогодні клієнт дає $9 × 8 = $72 проти $90, тобто збиток $18, тож за нинішніх цифр зростання множить збитки. Ціна $34 дає $13 × 8 = $104, прибуток $14 на клієнта. Реферальна програма дає $72 − $60 = $12. Я б спершу перевірив підвищення ціни, бо воно покращує кожного клієнта й не потребує нового каналу, але припущення про незмінне утримання ризиковане: якщо клієнти залишаться лише на шість місяців, $13 × 6 = $78, що менше за $90, тож буде збиток $12, і слід стежити за відтоком після зміни. Паралельно запустити реферальний пілот і залишити варіант, що найбільше покращує пожиттєвий маржинальний дохід."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Правильно обчислює нинішній збиток (−$18) і результат обраного варіанта",
+					"points": 2
+				},
+				{
+					"criterion": "Порівнює принаймні з одним іншим варіантом і пояснює різницю",
+					"points": 1
+				},
+				{
+					"criterion": "Називає головний ризик (наприклад вищий відтік після підвищення ціни) і спосіб стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Споживачі: маржинальний дохід $6 на місяць, тож 20 місяців дають $120 проти $60, чистий виграш $60, окупність 10 місяців. Бізнес: маржинальний дохід $13 на місяць, тож 36 місяців дають $468 проти $400, чистий виграш $68, але окупність триває близько 31 місяця. Чистий виграш схожий, проте за грошей на 14 місяців лише споживчий сегмент окупить витрати на залучення до закінчення коштів. Я б спрямував більшу частину бюджету на споживачів, а невелику частину на тест бізнес-клієнтів. Ризик у тому, що пожиттєві цифри це припущення, тож я б перевірив реальне утримання через шість місяців і змінив розподіл, якщо воно відрізнятиметься."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно обчислює обидва сегменти (чистий виграш $60 й окупність 10 місяців; чистий виграш $68 й окупність близько 31 місяця)",
+					"points": 2
+				},
+				{
+					"criterion": "Пов’язує окупність із 14-місячним обмеженням грошей",
+					"points": 1
+				},
+				{
+					"criterion": "Ухвалює чітке рішення про розподіл, що випливає з аналізу",
+					"points": 1
+				},
+				{
+					"criterion": "Зауважує, що пожиттєві показники й утримання це оцінки, і пропонує перевірку",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маржинальний дохід у центрі $3, а у віддалених районах мінус $1, тож середній 0,75 × 3 + 0,25 × (−1) = $2. Місячний маржинальний дохід 40 000 × $2 = $80 000, тож проти постійних витрат $120 000 результат це збиток $40 000. Беззбитковість за середнім $120 000 / $2 = 60 000 замовлень. Проблема у віддалених районах: клієнт там приносить 15 × (−$1) = −$15 ще до витрат на залучення $15. Якби компанія перестала там обслуговувати чи рекламуватися, маржинальний дохід був би 30 000 × $3 = $90 000, збиток скоротився б до $30 000, а беззбитковість становила б 40 000 замовлень. Краще запровадити там плату за доставку від $2, щоб райони перестали бути збитковими."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Обчислює середній маржинальний дохід $2 і збиток $40 000 на місяць",
+					"points": 2
+				},
+				{
+					"criterion": "Обчислює беззбитковий обсяг 60 000 замовлень і порівнює з нинішніми 40 000",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає віддалені райони як від’ємні, з показником на рівні клієнта",
+					"points": 1
+				},
+				{
+					"criterion": "Радить дію (вихід, плата чи зміна ціни) і кількісно оцінює її ефект",
+					"points": 2
+				}
+			]
+		}
+	}
+}

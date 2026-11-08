@@ -1,0 +1,586 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Motivators come from the content of the work: achievement, recognition, responsibility, growth. Salary, company policy and the physical environment belong to the context of the job, so Herzberg calls them hygiene factors."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Herzberg treated satisfaction and dissatisfaction as two separate scales. Removing the causes of dissatisfaction leaves a person with no dissatisfaction, but it does not by itself create satisfaction or motivation."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Pay is a hygiene factor. It can remove dissatisfaction when it is unfair, but lasting effort comes from the work itself: achievement, responsibility and recognition."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Enrichment redesigns the job vertically by adding authority, accountability and complete units of work, which are motivators. Enlargement just adds volume, which makes the job bigger without making it more meaningful."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Lockers and market pay are hygiene factors, so fixing them removes causes of dissatisfaction. Engagement depends on motivators such as responsibility and achievement, which these changes do not supply."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Achievement and responsibility come from the content of the work. Pay, policy and supervision are context factors, which Herzberg calls hygiene factors."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Poor equipment and an unfair roster are hygiene problems that can wipe out the effect of any recognition scheme. Fix them first, and then work on motivators. A plaque alone ignores the basics, and a small raise does not address the actual complaints."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The complaints are about the content of the work, so the fix is enrichment: ownership and feedback are motivators. Another raise and perks are hygiene factors, and extra tickets only enlarge the job without adding responsibility."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The recall method and mixed later findings are real limitations. The original sample was about 200 engineers and accountants from one region, Herzberg did not call pay irrelevant but a hygiene factor, and later research has not confirmed the theory without exception."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The gap is large, but the pilot group differs from the rest in seniority, which could explain part of it. A wider test with a comparable group gives more reliable evidence. Pilots are a standard method and attrition is a useful, though partial, signal."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Chairs and the pay band are hygiene factors: they remove dissatisfaction when they are fair, but they rarely create lasting effort. Refund authority and client praise are motivators: they give responsibility and recognition, which create engagement. Fixing hygiene stops complaints, and motivators make people care about the work."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Sorts correctly: chairs and pay band as hygiene factors, refund authority and praise as motivators",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that hygiene factors remove dissatisfaction but rarely create lasting effort",
+					"points": 1
+				},
+				{
+					"criterion": "Explains that motivators create engagement through responsibility and recognition",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Adding tasks of the same level is job enlargement: it increases the volume of work without adding responsibility, achievement or recognition, so it does not create motivators and can add resentment. Enrichment adds authority and complete pieces of work. For example, the cashier could approve refunds up to $50 and follow a complaint through to its resolution, then hear the customer’s feedback."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Distinguishes enlargement (more of the same) from enrichment (more responsibility and authority)",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a concrete enrichment example for a cashier, such as refund authority or owning a complaint",
+					"points": 1
+				},
+				{
+					"criterion": "Links enrichment to motivators: responsibility, achievement, recognition",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Choose (b). Attrition costs 27 departures × $6,000 = $162,000 a year. Vans and the rota are hygiene factors, and $30,000 once fixes them, which ends a source of dissatisfaction. Route ownership and customer feedback are motivators and address what pay cannot. A 6% raise costs $129,600 every year and mainly removes the pay complaint, which was not the main one. Supervisors would add control, not motivation. Risk: the pilot may only work for the chosen drivers, so compare attrition and engagement with the other 48 drivers after six months and extend only if the gap holds."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses numbers from the case, such as $162,000 yearly attrition cost against $129,600 for the raise and $30,000 for repairs",
+					"points": 2
+				},
+				{
+					"criterion": "Sorts complaints into hygiene factors and motivators and matches the choice to them",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a pilot comparison and a risk to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "I would not skip pay. Pay 12% below market is a hygiene problem, and Herzberg warned that unfair pay can wipe out the effect of any motivator. But a raise alone will not make work less routine. So I would spend about $65,000 to bring the eight engineers closer to market, starting with those furthest below, and use $15,000 for the ownership program, such as letting teams own a client project and talk to the client directly. Trade-off: the budget closes only part of the pay gap, so I would plan the rest for next year and track attrition and engagement quarterly to see whether the program holds people."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Sees that both lists matter: unfair pay is a hygiene risk and routine work needs motivators",
+					"points": 2
+				},
+				{
+					"criterion": "Notes that pay alone will not create engagement",
+					"points": 1
+				},
+				{
+					"criterion": "Splits the budget with numbers, such as $65,000 for pay and $15,000 for the program",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off and a measure, such as a partial pay gap and tracking attrition",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The crashing software, the late schedule and the quoting supervisors are hygiene problems, and they cause dissatisfaction that no recognition scheme can offset. The refund approval complaint is about missing responsibility, a motivator. The plaque failed because recognition without real control over the job is quickly seen as empty. Plan: fix the software and publish schedules a week ahead, train supervisors to give feedback, and let tellers approve refunds up to $50 and own a customer’s issue until it is resolved. Pilot with 10 tellers for six months and compare attrition and engagement with the other 20. Limitation: the theory is built on interviews, so check the results rather than assuming they will follow."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Classifies the complaints: software, schedule and supervision as hygiene, missing authority as a motivator",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the plaque failed: recognition without responsibility",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a plan that fixes hygiene factors and gives real authority and ownership",
+					"points": 2
+				},
+				{
+					"criterion": "Names a measure and a comparison group, such as attrition and engagement in a pilot against the rest",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Мотиватори походять зі змісту роботи: досягнення, визнання, відповідальність, зростання. Зарплата, політика компанії й фізичне середовище належать до контексту посади, тому Герцберг називає їх гігієнічними чинниками."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Герцберг розглядав задоволеність і невдоволення як дві окремі шкали. Усунення причин невдоволення залишає людину без невдоволення, але саме по собі не створює ні задоволеності, ні мотивації."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Оплата це гігієнічний чинник. Вона може усунути невдоволення, коли несправедлива, але тривалі зусилля народжуються з самої роботи: досягнень, відповідальності й визнання."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Збагачення перебудовує посаду вертикально, додаючи повноваження, підзвітність і завершені блоки роботи, а це мотиватори. Розширення просто додає обсяг, який збільшує посаду, але не робить її змістовнішою."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Шафки й ринкова оплата це гігієнічні чинники, тож їх виправлення усуває причини невдоволення. Залученість залежить від мотиваторів, таких як відповідальність і досягнення, яких ці зміни не дають."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Досягнення й відповідальність випливають зі змісту роботи. Оплата, політика й нагляд це чинники контексту, які Герцберг називає гігієнічними."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Погане обладнання й несправедливий графік це гігієнічні проблеми, які можуть звести нанівець ефект будь-якої програми визнання. Спершу їх треба виправити, а потім працювати з мотиваторами. Табличка сама по собі ігнорує базові умови, а невелике підвищення не стосується справжніх скарг."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Скарги стосуються змісту роботи, тож розв’язання це збагачення: самостійність і зворотний зв’язок є мотиваторами. Нове підвищення й бонуси це гігієнічні чинники, а додаткові тікети лише розширюють посаду без відповідальності."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Метод пригадування та суперечливі пізніші результати це справжні обмеження. Початкова вибірка становила близько 200 інженерів і бухгалтерів з одного регіону, Герцберг не називав оплату неважливою, а відносив її до гігієнічних чинників, і пізніші дослідження не підтвердили теорію без винятків."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Розрив великий, але пілотна група відрізняється від решти досвідом, і це може частково його пояснювати. Ширший тест із порівнянною групою дасть надійніший доказ. Пілоти це стандартний метод, а плинність корисний, хоч і неповний сигнал."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Крісла й сітка оплати це гігієнічні чинники: вони усувають невдоволення, коли справедливі, але рідко створюють тривалі зусилля. Право на компенсації й похвала клієнта це мотиватори: вони дають відповідальність і визнання, які створюють залученість. Виправлення гігієни припиняє скарги, а мотиватори змушують людей перейматися роботою."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розподіляє правильно: крісла й сітка оплати як гігієнічні чинники, право на компенсації й похвала як мотиватори",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що гігієнічні чинники усувають невдоволення, але рідко створюють тривалі зусилля",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, що мотиватори створюють залученість через відповідальність і визнання",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Додавання завдань того самого рівня це розширення роботи: воно збільшує обсяг без додаткової відповідальності, досягнень чи визнання, тож не створює мотиваторів і може посилити роздратування. Збагачення додає повноваження й завершені частини роботи. Наприклад, касир може схвалювати компенсації до $50 і вести скаргу до розв’язання, а потім чути відгук клієнта."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розрізняє розширення (більше того самого) і збагачення (більше відповідальності й повноважень)",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить конкретний приклад збагачення для касира, наприклад право на компенсації чи ведення скарги",
+					"points": 1
+				},
+				{
+					"criterion": "Пов’язує збагачення з мотиваторами: відповідальність, досягнення, визнання",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Обираю (б). Плинність коштує 27 звільнень × $6 000 = $162 000 на рік. Фургони й графік це гігієнічні чинники, і $30 000 одноразово усувають джерело невдоволення. Власність над маршрутами й відгуки клієнтів це мотиватори, які закривають те, чого оплата не дасть. Підвищення на 6% коштує $129 600 щороку й переважно усуває скаргу на оплату, яка не була головною. Супервайзери додали б контролю, а не мотивації. Ризик: пілот може спрацювати лише для відібраних водіїв, тож через пів року порівняйте плинність і залученість з рештою 48 водіїв і розширюйте, лише якщо розрив збережеться."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує числа з умови, наприклад $162 000 річних витрат на плинність проти $129 600 на підвищення й $30 000 на ремонт",
+					"points": 2
+				},
+				{
+					"criterion": "Розподіляє скарги на гігієнічні чинники й мотиватори та узгоджує з ними вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує порівняння в пілоті й називає ризик, за яким слід стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Оплату я б не пропускав. Оплата на 12% нижча за ринок це гігієнічна проблема, а Герцберг застерігав, що несправедлива оплата може звести нанівець дію будь-якого мотиватора. Але саме підвищення не зробить роботу менш рутинною. Тож близько $65 000 я б спрямував на наближення восьми інженерів до ринку, починаючи з тих, хто найдалі, а $15 000 на програму самостійності, наприклад щоб команди вели клієнтський проєкт і спілкувалися із замовником напряму. Компроміс: бюджет закриває лише частину розриву в оплаті, тож решту я б запланував на наступний рік і щокварталу стежив би за плинністю й залученістю, щоб побачити, чи програма втримує людей."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Бачить, що важливі обидва списки: несправедлива оплата це гігієнічний ризик, а рутинна робота потребує мотиваторів",
+					"points": 2
+				},
+				{
+					"criterion": "Зазначає, що саме оплата не створить залученості",
+					"points": 1
+				},
+				{
+					"criterion": "Ділить бюджет числами, наприклад $65 000 на оплату й $15 000 на програму",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс і показник, наприклад часткове закриття розриву й стеження за плинністю",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Програма, що падає, пізній графік і супервайзери, які цитують політику, це гігієнічні проблеми, що спричиняють невдоволення, якого жодна програма визнання не компенсує. Скарга на схвалення повернення стосується браку відповідальності, тобто мотиватора. Табличка не спрацювала, бо визнання без реального контролю над роботою швидко здається порожнім. План: виправити програму й публікувати графіки за тиждень, навчити супервайзерів давати зворотний зв’язок, а касирам дозволити схвалювати повернення до $50 і вести звернення клієнта до розв’язання. Випробувати на 10 касирах протягом пів року й порівняти плинність і залученість з рештою 20. Обмеження: теорія побудована на інтерв’ю, тому перевіряйте результати, а не сподівайтеся, що вони настануть самі."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Класифікує скарги: програма, графік і нагляд як гігієнічні чинники, брак повноважень як мотиватор",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому табличка не спрацювала: визнання без відповідальності",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує план, що виправляє гігієнічні чинники й дає справжні повноваження та власність",
+					"points": 2
+				},
+				{
+					"criterion": "Називає показник і контрольну групу, наприклад плинність і залученість у пілоті проти решти",
+					"points": 1
+				}
+			]
+		}
+	}
+}

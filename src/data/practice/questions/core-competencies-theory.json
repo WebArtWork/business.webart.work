@@ -1,0 +1,902 @@
+{
+	"slug": "core-competencies-theory",
+	"topicId": 8,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "According to Prahalad and Hamel, what is a core competence?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The product line that earns the most revenue"
+					},
+					{
+						"id": "B",
+						"text": "A strong department such as finance or human resources"
+					},
+					{
+						"id": "C",
+						"text": "The company’s cheapest production process"
+					},
+					{
+						"id": "D",
+						"text": "A combination of skills and technologies that feeds several products and is hard for rivals to copy"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In Prahalad and Hamel’s tree metaphor, what do the roots represent?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "End products"
+					},
+					{
+						"id": "B",
+						"text": "Core competencies"
+					},
+					{
+						"id": "C",
+						"text": "Business units"
+					},
+					{
+						"id": "D",
+						"text": "Customers"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A core competence is used up when it is applied in several business units, so it should be kept in one unit."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A restaurant chain that is excellent at accounting has not necessarily found a core competence."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A Japanese maker has spent 20 years perfecting tiny, precise motors that appear in its drones, medical pumps and camera lenses. Which of these best describes its core competence?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Precision micro-motor engineering that serves several product lines"
+					},
+					{
+						"id": "B",
+						"text": "Its drone product"
+					},
+					{
+						"id": "C",
+						"text": "Its marketing department"
+					},
+					{
+						"id": "D",
+						"text": "Its factory building"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of these are tests a core competence must pass?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It is the largest team in the company by headcount."
+					},
+					{
+						"id": "B",
+						"text": "It gives potential access to a wide variety of markets."
+					},
+					{
+						"id": "C",
+						"text": "It makes a significant contribution to the benefits customers perceive in the end product."
+					},
+					{
+						"id": "D",
+						"text": "It is protected by the most patents in the industry."
+					},
+					{
+						"id": "E",
+						"text": "It is already the firm’s most profitable activity."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bicycle maker lists three candidates for a core competence:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "1. Its friendly human resources department."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "2. Its famous logo, used on all its bikes."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "3. Carbon-fibre bonding know-how that makes frames 30% lighter, and is also used in wheelchairs and prosthetic frames, built over 14 years."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which passes the three tests?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The human resources department"
+					},
+					{
+						"id": "B",
+						"text": "The logo"
+					},
+					{
+						"id": "C",
+						"text": "The carbon-fibre bonding know-how"
+					},
+					{
+						"id": "D",
+						"text": "None, because competencies cannot be about materials"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A mill has three business units: uniforms, outdoor jackets and hospital gowns. A coating process that makes fabric breathable and waterproof is its real strength. Two chemists carry it, and all of them sit in the uniform unit, which earns most of the revenue. The jackets unit has waited a year for help. What is the best decision?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Fund the coating competence centrally and rotate the chemists across all three units"
+					},
+					{
+						"id": "B",
+						"text": "Keep the chemists in the uniform unit because it earns the most revenue"
+					},
+					{
+						"id": "C",
+						"text": "Outsource the coating to a supplier so the units can focus on selling"
+					},
+					{
+						"id": "D",
+						"text": "Split the chemists’ budget equally so that each unit hires its own chemist"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of these are mistakes in applying core competence thinking?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Naming a product, such as the best-selling tablet, as the core competence."
+					},
+					{
+						"id": "B",
+						"text": "Rotating the people who carry the competence across business units."
+					},
+					{
+						"id": "C",
+						"text": "Calling every activity the company does well a core competence."
+					},
+					{
+						"id": "D",
+						"text": "Applying the three tests before labelling a skill as core."
+					},
+					{
+						"id": "E",
+						"text": "Reviewing every few years whether each competence is still distinctive."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A film manufacturer’s chemical skills made it the market leader for decades, but the same skills now make managers resist digital imaging, and sales fall 12% a year. Which concept describes the problem?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Economies of scope"
+					},
+					{
+						"id": "B",
+						"text": "Core rigidity"
+					},
+					{
+						"id": "C",
+						"text": "Strategic architecture"
+					},
+					{
+						"id": "D",
+						"text": "Redeploying talent"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain the difference between a core competence and a core product, using a motor maker as an example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A 60-person software firm says its core competence is “friendly customer service”. Apply the three tests and reach a conclusion."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A Polish filter company with 120 employees earns 85% of its revenue from car filters at a 9% margin. Its real strength is a microfibre membrane process refined over 16 years. A trial sale of membranes to a medical-device maker earned a 30% margin. The CEO can choose one: invest $500,000 in a new car-filter plant, assign two engineers to develop membrane products for medical and water-purification customers, or outsource membrane production to cut costs by 15% and focus on assembly. Choose one and justify it with the core competence tests."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A camera-lens maker’s sales fall 10% a year as smartphones replace cameras. It has a precision optics competence used in cameras, microscopes and projectors. It can choose one: keep investing to defend camera-lens share, redeploy the optics team to medical endoscopes and industrial inspection while shrinking cameras, or diversify into food packaging. Choose and explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A mobility company has three business units: e-bike motors (14 engineers), mobility scooters (9) and robotic lawn mowers (11). Each unit built its own battery management and motor control software, so the work was done three times. Customers in all three units praise long range per charge, and competitors have tried and failed to match it. The scooter unit manager refuses to lend engineers to the others."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Name the core competence using the three tests, diagnose the organisational problem, and propose a plan including one new market and one risk."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке ключова компетенція за Прахаладом і Гемелом?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Продуктова лінія, що приносить найбільше виторгу"
+					},
+					{
+						"id": "B",
+						"text": "Сильний відділ, наприклад фінансів чи кадрів"
+					},
+					{
+						"id": "C",
+						"text": "Найдешевший виробничий процес компанії"
+					},
+					{
+						"id": "D",
+						"text": "Поєднання навичок і технологій, що живить кілька продуктів і важке для копіювання конкурентами"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що в метафорі дерева Прахалада й Гемела означають корені?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Кінцеві продукти"
+					},
+					{
+						"id": "B",
+						"text": "Ключові компетенції"
+					},
+					{
+						"id": "C",
+						"text": "Бізнес-одиниці"
+					},
+					{
+						"id": "D",
+						"text": "Клієнтів"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ключова компетенція витрачається, коли її застосовують у кількох бізнес-одиницях, тож її слід тримати в одній одиниці."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа ресторанів, що чудово веде бухгалтерію, необов’язково знайшла ключову компетенцію."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Японський виробник 20 років вдосконалював крихітні точні двигуни, що застосовуються в його дронах, медичних насосах і об’єктивах. Що найкраще описує його ключову компетенцію?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Точна інженерія мікродвигунів, що обслуговує кілька продуктових ліній"
+					},
+					{
+						"id": "B",
+						"text": "Його дрон"
+					},
+					{
+						"id": "C",
+						"text": "Його відділ маркетингу"
+					},
+					{
+						"id": "D",
+						"text": "Будівля його заводу"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з цих пунктів є тестами, що їх має пройти ключова компетенція?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Це найбільша за кількістю працівників команда компанії."
+					},
+					{
+						"id": "B",
+						"text": "Вона дає потенційний доступ до широкого розмаїття ринків."
+					},
+					{
+						"id": "C",
+						"text": "Вона суттєво впливає на вигоди, які клієнти бачать у кінцевому продукті."
+					},
+					{
+						"id": "D",
+						"text": "Її захищає найбільше патентів у галузі."
+					},
+					{
+						"id": "E",
+						"text": "Це вже найприбутковіша діяльність фірми."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник велосипедів розглядає три кандидатури на ключову компетенцію:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "1. Його привітний відділ кадрів."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "2. Його відомий логотип на всіх велосипедах."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "3. Знання склеювання вуглецевого волокна, що робить рами на 30% легшими, а також використовується у візках і рамах протезів, напрацьоване за 14 років."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що проходить три тести?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Відділ кадрів"
+					},
+					{
+						"id": "B",
+						"text": "Логотип"
+					},
+					{
+						"id": "C",
+						"text": "Знання склеювання вуглецевого волокна"
+					},
+					{
+						"id": "D",
+						"text": "Нічого, бо компетенції не можуть стосуватися матеріалів"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У текстильної фабрики три бізнес-одиниці: уніформа, куртки для активного відпочинку й медичні халати. Її справжня сила в процесі нанесення покриття, що робить тканину дихаючою й водонепроникною. Його носять двоє хіміків, і всі вони працюють в одиниці уніформи, яка дає більшість виторгу. Одиниця курток уже рік чекає допомоги. Яке рішення найкраще?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Фінансувати компетенцію покриття централізовано й ротувати хіміків між трьома одиницями"
+					},
+					{
+						"id": "B",
+						"text": "Залишити хіміків в одиниці уніформи, бо вона приносить найбільше виторгу"
+					},
+					{
+						"id": "C",
+						"text": "Віддати покриття постачальнику на аутсорсинг, щоб одиниці зосередилися на продажах"
+					},
+					{
+						"id": "D",
+						"text": "Розділити бюджет хіміків порівну, щоб кожна одиниця найняла свого"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " з цих дій є помилками у застосуванні підходу ключових компетенцій?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Назвати ключовою компетенцією продукт, наприклад найпопулярніший планшет."
+					},
+					{
+						"id": "B",
+						"text": "Ротувати людей, що носять компетенцію, між бізнес-одиницями."
+					},
+					{
+						"id": "C",
+						"text": "Називати ключовою компетенцією будь-яку діяльність, яку компанія робить добре."
+					},
+					{
+						"id": "D",
+						"text": "Застосувати три тести, перш ніж називати навичку ключовою."
+					},
+					{
+						"id": "E",
+						"text": "Раз на кілька років перевіряти, чи кожна компетенція ще вирізняє компанію."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Хімічні знання виробника фотоплівки десятиліттями робили його лідером ринку, але тепер саме вони змушують керівників опиратися цифровій зйомці, і продажі падають на 12% на рік. Яке поняття описує проблему?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ефект масштабу сфери діяльності"
+					},
+					{
+						"id": "B",
+						"text": "Ключова жорсткість"
+					},
+					{
+						"id": "C",
+						"text": "Стратегічна архітектура"
+					},
+					{
+						"id": "D",
+						"text": "Перерозподіл талантів"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть різницю між ключовою компетенцією та ключовим продуктом на прикладі виробника двигунів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Софтверна фірма на 60 осіб каже, що її ключова компетенція це «привітне обслуговування клієнтів». Застосуйте три тести й зробіть висновок."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Польська фільтрувальна компанія зі 120 працівниками отримує 85% виторгу від автомобільних фільтрів з маржею 9%. Її справжня сила це процес виготовлення мікроволокнистих мембран, який вдосконалювали 16 років. Пробний продаж мембран виробнику медичних пристроїв дав маржу 30%. Директор може обрати одне: вкласти $500 000 у новий завод автомобільних фільтрів, призначити двох інженерів розробляти мембранні продукти для медичних і водоочисних клієнтів або віддати виробництво мембран на аутсорсинг, щоб знизити витрати на 15% і зосередитися на складанні. Оберіть одне й обґрунтуйте тестами ключової компетенції."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продажі виробника об’єктивів падають на 10% на рік, бо смартфони витісняють фотоапарати. Він має компетенцію точної оптики, що застосовується у фотоапаратах, мікроскопах і проєкторах. Він може обрати одне: і далі інвестувати, щоб захистити частку на ринку об’єктивів, перевести команду оптиків на медичні ендоскопи й промислову інспекцію, скорочуючи фотоапарати, або диверсифікуватися в пакування харчів. Оберіть і поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "У мобільної компанії три бізнес-одиниці: мотори для електровелосипедів (14 інженерів), візки для людей з обмеженою мобільністю (9) і роботи-газонокосарки (11). Кожна одиниця розробила власне програмне забезпечення для керування батареєю й двигуном, тож роботу виконали тричі. Клієнти в усіх трьох одиницях хвалять великий запас ходу на одному заряді, а конкуренти намагалися це повторити й не змогли. Керівник одиниці візків відмовляється давати інженерів іншим."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Назвіть ключову компетенцію за трьома тестами, діагностуйте організаційну проблему й запропонуйте план, що містить один новий ринок і один ризик."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

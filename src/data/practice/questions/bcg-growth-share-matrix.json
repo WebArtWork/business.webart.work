@@ -1,0 +1,918 @@
+{
+	"slug": "bcg-growth-share-matrix",
+	"topicId": 11,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which two measures form the axes of the BCG matrix?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Industry attractiveness and competitive strength"
+					},
+					{
+						"id": "B",
+						"text": "Market size and profit margin"
+					},
+					{
+						"id": "C",
+						"text": "Market growth rate and relative market share"
+					},
+					{
+						"id": "D",
+						"text": "Price level and product quality"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which position describes a cash cow?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "High relative share in a slow-growing market"
+					},
+					{
+						"id": "B",
+						"text": "High relative share in a fast-growing market"
+					},
+					{
+						"id": "C",
+						"text": "Low relative share in a fast-growing market"
+					},
+					{
+						"id": "D",
+						"text": "Low relative share in a slow-growing market"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A product with a 15% market share is always a market leader in BCG terms."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A star that keeps its leading share usually becomes a cash cow when its market matures."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pasta maker’s organic line has annual sales of $6 million. The largest rival in that market sells $15 million. What is the line’s relative market share?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "2.5"
+					},
+					{
+						"id": "B",
+						"text": "9.0"
+					},
+					{
+						"id": "C",
+						"text": "0.6"
+					},
+					{
+						"id": "D",
+						"text": "0.4"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements explain why cash cows generate cash?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "They need heavy investment to keep up with rapid market growth."
+					},
+					{
+						"id": "B",
+						"text": "A leading share brings scale and experience-curve cost advantages."
+					},
+					{
+						"id": "C",
+						"text": "In a slow market little investment is needed to keep the position."
+					},
+					{
+						"id": "D",
+						"text": "Their relative share is below 1.0."
+					},
+					{
+						"id": "E",
+						"text": "Their market is growing faster than 20% a year."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A snack maker has four lines:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Granola: market growth 2%, relative share 2.1, free cash +$900,000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Protein bars: market growth 20%, relative share 1.4, needs $500,000 a year."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Rice cakes: market growth 1%, relative share 0.3, breaks even."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Seaweed crisps: market growth 24%, relative share 0.15, loses $200,000."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Where should the granola cash go first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Seaweed crisps, to build share quickly"
+					},
+					{
+						"id": "B",
+						"text": "Protein bars, to hold leadership in a fast-growing market"
+					},
+					{
+						"id": "C",
+						"text": "Rice cakes, to turn them around"
+					},
+					{
+						"id": "D",
+						"text": "Out to shareholders, because every line is already placed"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A tool maker’s cordless-drill line has a 15% share. The market leader has 45%, and the market grows 4% a year. A manager says: “15% is a solid share, so this is our cash cow.” What is the best response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Agree, and keep investing at the current level"
+					},
+					{
+						"id": "B",
+						"text": "Treat it as a star, because it has a double-digit share"
+					},
+					{
+						"id": "C",
+						"text": "Classify it as a dog with a relative share of about 0.33, then check its margin and ties to other lines before choosing to harvest, keep or exit"
+					},
+					{
+						"id": "D",
+						"text": "Sell it at once, because every dog must be sold"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are real limitations of the BCG matrix?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Share and growth are crude proxies, and many profitable firms lead small niches."
+					},
+					{
+						"id": "B",
+						"text": "It fully accounts for synergies between units."
+					},
+					{
+						"id": "C",
+						"text": "Labels such as “dog” can demotivate teams and become self-fulfilling."
+					},
+					{
+						"id": "D",
+						"text": "It builds in the cost of capital outside the firm."
+					},
+					{
+						"id": "E",
+						"text": "It uses a three-by-three grid that is too detailed."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A fitness-drink line was a star: its market grew 22% a year and its relative share was 1.3. Three years later the market grows 4% and the share is still 1.3. How should it be classified now?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Dog"
+					},
+					{
+						"id": "B",
+						"text": "Question mark"
+					},
+					{
+						"id": "C",
+						"text": "Star"
+					},
+					{
+						"id": "D",
+						"text": "Cash cow"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why market share predicts a business’s cash generation and why market growth predicts its cash needs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A shoe company’s sandals line has sales of $4.5 million, the largest rival sells $9 million, and the market grows 14%. Its boots line has sales of $12 million, the largest rival sells $8 million, and the market grows 2%. Calculate each relative share and classify each line (using 10% as the growth threshold)."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A tea company’s cash cow produces $1.5 million of free cash this year. Its star needs $900,000. It has two question marks: Line A (relative share 0.1, market growth 18%) needs $1.2 million to reach only 0.3; Line B (relative share 0.45, market growth 20%, margin improving each quarter) needs $600,000 to reach 0.8. Choose one: split the $1.5 million equally among the star and both question marks, fund the star ($900,000) and Line B ($600,000) and give Line A a deadline or sale, or put all $1.5 million into Line A. Justify the choice with the matrix."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A medical-equipment maker has plain wheelchairs (relative share 0.3, market growth 1%, margin 2%) and powered wheelchairs (relative share 1.6, market growth 6%, strong margin). Hospitals buy both together, and 80% of powered-chair buyers also purchase plain chairs. A buyer offers $2 million for the plain-wheelchair line. Choose one: sell it, keep it and raise prices, or discontinue it. Explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A beverage company has four lines. Sparkling water: sales $30 million, largest rival $20 million, market growth 3%, free cash +$6 million. Cold-brew coffee: sales $12 million, largest rival $15 million, growth 25%, needs $4 million. Kombucha: sales $2 million, largest rival $10 million, growth 30%, loses $1.5 million. Plain tonic: sales $5 million, largest rival $20 million, growth 1%, earns $100,000 and is bought by bars together with spirits sold by a partner."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate relative shares, classify each line, propose how the cash should move, say what to do about kombucha and tonic, and name one caveat about the analysis."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які дві міри утворюють осі матриці BCG?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Привабливість галузі та конкурентна сила"
+					},
+					{
+						"id": "B",
+						"text": "Розмір ринку та маржа прибутку"
+					},
+					{
+						"id": "C",
+						"text": "Темп зростання ринку та відносна частка ринку"
+					},
+					{
+						"id": "D",
+						"text": "Рівень цін і якість продукту"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка позиція описує «дійну корову»?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Висока відносна частка на ринку, що повільно зростає"
+					},
+					{
+						"id": "B",
+						"text": "Висока відносна частка на ринку, що швидко зростає"
+					},
+					{
+						"id": "C",
+						"text": "Низька відносна частка на ринку, що швидко зростає"
+					},
+					{
+						"id": "D",
+						"text": "Низька відносна частка на ринку, що повільно зростає"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продукт із часткою ринку 15% завжди є лідером ринку за логікою BCG."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Зірка, що зберігає лідерську частку, зазвичай стає «дійною коровою», коли ринок дозріває."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Органічна лінія виробника пасти має річні продажі $6 млн. Найбільший конкурент на цьому ринку продає $15 млн. Яка відносна частка лінії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "2,5"
+					},
+					{
+						"id": "B",
+						"text": "9,0"
+					},
+					{
+						"id": "C",
+						"text": "0,6"
+					},
+					{
+						"id": "D",
+						"text": "0,4"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження пояснюють, чому «дійні корови» генерують готівку?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вони потребують великих інвестицій, щоб устигати за швидким зростанням ринку."
+					},
+					{
+						"id": "B",
+						"text": "Лідерська частка дає переваги масштабу й кривої досвіду у витратах."
+					},
+					{
+						"id": "C",
+						"text": "На повільному ринку для збереження позиції потрібно мало інвестицій."
+					},
+					{
+						"id": "D",
+						"text": "Їхня відносна частка нижча за 1,0."
+					},
+					{
+						"id": "E",
+						"text": "Їхній ринок зростає швидше ніж на 20% на рік."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник снеків має чотири лінії:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Гранола: зростання ринку 2%, відносна частка 2,1, вільний грошовий потік +$900 000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Протеїнові батончики: зростання ринку 20%, відносна частка 1,4, потребують $500 000 на рік."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Рисові хлібці: зростання ринку 1%, відносна частка 0,3, виходять у нуль."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Чипси з водоростей: зростання ринку 24%, відносна частка 0,15, збитки $200 000."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Куди має піти готівка від граноли насамперед?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "У чипси з водоростей, щоб швидко нарощувати частку"
+					},
+					{
+						"id": "B",
+						"text": "У протеїнові батончики, щоб утримати лідерство на ринку, що швидко зростає"
+					},
+					{
+						"id": "C",
+						"text": "У рисові хлібці, щоб їх розвернути"
+					},
+					{
+						"id": "D",
+						"text": "Акціонерам, бо всі лінії вже розподілено"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Лінія бездротових дрилів виробника інструментів має частку 15%. У лідера ринку 45%, а ринок зростає на 4% на рік. Менеджер каже: «15% це міцна частка, тож це наша дійна корова». Яка реакція найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Погодитися й інвестувати на нинішньому рівні"
+					},
+					{
+						"id": "B",
+						"text": "Вважати це зіркою, бо частка двозначна"
+					},
+					{
+						"id": "C",
+						"text": "Класифікувати як собаку з відносною часткою близько 0,33, а потім перевірити маржу й зв’язки з іншими лініями, перш ніж обирати: збирати прибуток, залишити чи вийти"
+					},
+					{
+						"id": "D",
+						"text": "Негайно продати, бо кожну собаку треба продавати"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з цих пунктів є справжніми обмеженнями матриці BCG?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Частка й зростання є грубими замінниками, а багато прибуткових фірм лідирують у малих нішах."
+					},
+					{
+						"id": "B",
+						"text": "Вона повністю враховує синергію між одиницями."
+					},
+					{
+						"id": "C",
+						"text": "Мітки на кшталт «собака» можуть демотивувати команди й справджуватися самі."
+					},
+					{
+						"id": "D",
+						"text": "Вона вбудовує вартість капіталу поза фірмою."
+					},
+					{
+						"id": "E",
+						"text": "Вона використовує сітку три на три, надто деталізовану."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Лінія спортивних напоїв була зіркою: її ринок зростав на 22% на рік, а відносна частка була 1,3. Через три роки ринок зростає на 4%, а частка досі 1,3. Як її класифікувати тепер?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Собака"
+					},
+					{
+						"id": "B",
+						"text": "Знак питання"
+					},
+					{
+						"id": "C",
+						"text": "Зірка"
+					},
+					{
+						"id": "D",
+						"text": "Дійна корова"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому частка ринку прогнозує генерування готівки бізнесом, а зростання ринку прогнозує його потребу в готівці."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Лінія сандалій взуттєвої компанії має продажі $4,5 млн, найбільший конкурент продає $9 млн, а ринок зростає на 14%. Лінія черевиків має продажі $12 млн, найбільший конкурент продає $8 млн, а ринок зростає на 2%. Розрахуйте відносну частку кожної та класифікуйте лінії (поріг зростання 10%)."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "«Дійна корова» чайної компанії дає цього року $1,5 млн вільної готівки. Її зірка потребує $900 000. Є два знаки питання: лінія A (відносна частка 0,1, зростання ринку 18%) потребує $1,2 млн, щоб дійти лише до 0,3; лінія B (відносна частка 0,45, зростання ринку 20%, маржа щокварталу покращується) потребує $600 000, щоб дійти до 0,8. Оберіть одне: поділити $1,5 млн порівну між зіркою та обома знаками питання, профінансувати зірку ($900 000) і лінію B ($600 000), а лінії A дати дедлайн або продати її, або вкласти всі $1,5 млн у лінію A. Обґрунтуйте вибір матрицею."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник медичного обладнання має звичайні інвалідні візки (відносна частка 0,3, зростання ринку 1%, маржа 2%) і візки з електроприводом (відносна частка 1,6, зростання ринку 6%, висока маржа). Лікарні купують обидва види разом, і 80% покупців візків з електроприводом купують також звичайні. Покупець пропонує $2 млн за лінію звичайних візків. Оберіть одне: продати її, залишити й підвищити ціни або припинити випуск. Поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "У компанії напоїв чотири лінії. Газована вода: продажі $30 млн, найбільший конкурент $20 млн, зростання ринку 3%, вільна готівка +$6 млн. Холодна кава: продажі $12 млн, найбільший конкурент $15 млн, зростання 25%, потребує $4 млн. Комбуча: продажі $2 млн, найбільший конкурент $10 млн, зростання 30%, збитки $1,5 млн. Звичайний тонік: продажі $5 млн, найбільший конкурент $20 млн, зростання 1%, прибуток $100 000, бари купують його разом зі спиртним, яке продає партнер."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розрахуйте відносні частки, класифікуйте кожну лінію, запропонуйте, як переміщувати готівку, скажіть, що робити з комбучею й тоніком, і назвіть одне застереження щодо аналізу."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,838 @@
+{
+	"slug": "financial-statements",
+	"topicId": 67,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which statement shows what a business owns and owes on one particular date?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The income statement"
+					},
+					{
+						"id": "B",
+						"text": "The cash flow statement"
+					},
+					{
+						"id": "C",
+						"text": "The balance sheet"
+					},
+					{
+						"id": "D",
+						"text": "The notes to the accounts"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery sells goods for $200,000 in a year, and the ingredients used cost $80,000. What is the $120,000 difference called?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Net profit"
+					},
+					{
+						"id": "B",
+						"text": "Gross profit"
+					},
+					{
+						"id": "C",
+						"text": "Operating cash flow"
+					},
+					{
+						"id": "D",
+						"text": "Equity"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "On the balance sheet, assets always equal liabilities plus equity."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company that receives a $50,000 bank loan reports $50,000 more net profit."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company pays $100,000 in cash for a new delivery truck. What happens on the day of purchase?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Profit falls by $100,000, because the truck is an expense"
+					},
+					{
+						"id": "B",
+						"text": "Profit rises by $100,000, because the company now owns more"
+					},
+					{
+						"id": "C",
+						"text": "Liabilities rise by $100,000, because the truck is a big commitment"
+					},
+					{
+						"id": "D",
+						"text": "Cash falls, fixed assets rise by $100,000, and profit is unchanged"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A shop reports a profit of $80,000 but an operating cash flow of −$30,000. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " causes are the most likely?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Customers are paying more slowly, so receivables grew"
+					},
+					{
+						"id": "B",
+						"text": "The shop paid a dividend to its owner"
+					},
+					{
+						"id": "C",
+						"text": "The shop bought much more stock than it sold"
+					},
+					{
+						"id": "D",
+						"text": "Depreciation grew compared with last year"
+					},
+					{
+						"id": "E",
+						"text": "The shop took a new bank loan"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company reports net profit of $60,000 and depreciation of $10,000. Receivables rose by $35,000, stock fell by $5,000, and supplier credit rose by $8,000. What is its operating cash flow?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$60,000"
+					},
+					{
+						"id": "B",
+						"text": "$28,000"
+					},
+					{
+						"id": "C",
+						"text": "$48,000"
+					},
+					{
+						"id": "D",
+						"text": "$38,000"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A furniture maker’s revenue rose 35% to $2.1 million and net profit to $120,000, but its cash fell from $90,000 to $15,000. The largest customer pays in 100 days. What is the best first step?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ask for deposits and shorter terms from the large customers, build a monthly cash forecast and arrange a credit line before the next big order"
+					},
+					{
+						"id": "B",
+						"text": "Raise prices by 35% across the range, so profit grows as fast as revenue"
+					},
+					{
+						"id": "C",
+						"text": "Treat the situation as healthy, because the income statement shows a profit and growth"
+					},
+					{
+						"id": "D",
+						"text": "Reduce the depreciation charge so that reported profit looks even better"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements describe how the three financial statements check one another?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Revenue on the income statement equals total assets on the balance sheet"
+					},
+					{
+						"id": "B",
+						"text": "Closing cash on the cash flow statement equals cash on the balance sheet"
+					},
+					{
+						"id": "C",
+						"text": "Operating cash flow always equals net profit"
+					},
+					{
+						"id": "D",
+						"text": "Net profit flows into retained earnings within equity"
+					},
+					{
+						"id": "E",
+						"text": "Equity on the balance sheet always equals the amount of cash"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An investor offers exactly the balance sheet equity of $400,000 for a software firm that has a loyal customer base, a strong brand and valuable proprietary data, all built in-house. Which limitation of the statements explains why this offer may be too low?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Equity always equals the price at which a business can be sold"
+					},
+					{
+						"id": "B",
+						"text": "Loan proceeds should have been counted as revenue"
+					},
+					{
+						"id": "C",
+						"text": "The cash flow statement is meant to show the value of the brand"
+					},
+					{
+						"id": "D",
+						"text": "Assets are recorded mostly at historical cost, and in-house brand and data often do not appear at all"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A courier company reports a net profit of $90,000 and depreciation of $20,000. Receivables rose by $70,000, stock rose by $30,000 and supplier credit rose by $15,000. Calculate its operating cash flow and explain why it is much lower than profit."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A manager says: “We took a $200,000 bank loan, so this year’s profit is $200,000 higher.” Explain what is wrong and show where the loan appears in each of the three statements."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A catering company reports revenue of $900,000 and net profit of $54,000, yet its cash fell by $110,000. Receivables grew by $130,000 because corporate clients pay in 75 days, and the company bought a $45,000 van for cash. Choose one: (1) borrow $100,000 and carry on, (2) ask for 30% deposits on large corporate orders, shorten terms to 30 days with a 2% early-payment discount and prepare a monthly cash forecast, or (3) cut costs by 10% to raise profit. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bank can lend $300,000 to one of two companies. Company A: net profit $200,000, operating cash flow −$40,000, receivables up $300,000, debt to equity 2.5. Company B: net profit $80,000, operating cash flow $110,000, receivables stable, debt to equity 0.6. Which would you lend to, and what else would you check?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A distributor’s year: revenue $4.0 million (up 30%), net profit $320,000, depreciation $80,000. Cash fell from $400,000 to $150,000. Receivables rose from $600,000 to $1.1 million, stock from $500,000 to $800,000, supplier credit from $300,000 to $380,000. The company bought equipment for $260,000 in cash."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the operating cash flow, work out how the year was financed, name the main risks and recommend actions."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який звіт показує, чим бізнес володіє й що винен на одну конкретну дату?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Звіт про прибутки та збитки"
+					},
+					{
+						"id": "B",
+						"text": "Звіт про рух грошових коштів"
+					},
+					{
+						"id": "C",
+						"text": "Баланс"
+					},
+					{
+						"id": "D",
+						"text": "Примітки до звітності"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пекарня за рік продала продукції на $200 000, а використані інгредієнти коштували $80 000. Як називається різниця в $120 000?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Чистий прибуток"
+					},
+					{
+						"id": "B",
+						"text": "Валовий прибуток"
+					},
+					{
+						"id": "C",
+						"text": "Операційний грошовий потік"
+					},
+					{
+						"id": "D",
+						"text": "Власний капітал"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У балансі активи завжди дорівнюють сумі зобов’язань і власного капіталу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія, що отримала банківський кредит $50 000, показує на $50 000 більше чистого прибутку."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія платить готівкою $100 000 за новий вантажний фургон. Що відбувається в день купівлі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Прибуток падає на $100 000, бо фургон це витрати"
+					},
+					{
+						"id": "B",
+						"text": "Прибуток зростає на $100 000, бо компанія тепер має більше майна"
+					},
+					{
+						"id": "C",
+						"text": "Зобов’язання зростають на $100 000, бо фургон це велике зобов’язання"
+					},
+					{
+						"id": "D",
+						"text": "Гроші зменшуються, основні засоби зростають на $100 000, а прибуток не змінюється"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Магазин показує прибуток $80 000, але операційний грошовий потік −$30 000. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " причини найімовірніші?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Покупці розраховуються повільніше, тож дебіторська заборгованість зросла"
+					},
+					{
+						"id": "B",
+						"text": "Магазин виплатив дивіденди власнику"
+					},
+					{
+						"id": "C",
+						"text": "Магазин закупив значно більше товару, ніж продав"
+					},
+					{
+						"id": "D",
+						"text": "Амортизація зросла порівняно з минулим роком"
+					},
+					{
+						"id": "E",
+						"text": "Магазин узяв новий банківський кредит"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія показує чистий прибуток $60 000 і амортизацію $10 000. Дебіторська заборгованість зросла на $35 000, запаси зменшилися на $5 000, а кредиторська заборгованість перед постачальниками зросла на $8 000. Який її операційний грошовий потік?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$60 000"
+					},
+					{
+						"id": "B",
+						"text": "$28 000"
+					},
+					{
+						"id": "C",
+						"text": "$48 000"
+					},
+					{
+						"id": "D",
+						"text": "$38 000"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виторг виробника меблів зріс на 35% до $2,1 млн, а чистий прибуток до $120 000, але гроші впали з $90 000 до $15 000. Найбільший клієнт платить за 100 днів. Який перший крок найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Попросити в великих клієнтів передоплату та коротші строки, вести щомісячний прогноз грошей і домовитися про кредитну лінію до наступного великого замовлення"
+					},
+					{
+						"id": "B",
+						"text": "Підняти ціни на 35% на весь асортимент, щоб прибуток ріс так само швидко, як виторг"
+					},
+					{
+						"id": "C",
+						"text": "Вважати ситуацію здоровою, бо звіт про прибутки показує прибуток і зростання"
+					},
+					{
+						"id": "D",
+						"text": "Зменшити нарахування амортизації, щоб звітний прибуток виглядав ще кращим"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження описують, як три фінансові звіти перевіряють один одного?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Виторг у звіті про прибутки дорівнює сумі активів у балансі"
+					},
+					{
+						"id": "B",
+						"text": "Кінцевий залишок грошей у звіті про рух грошових коштів дорівнює грошам у балансі"
+					},
+					{
+						"id": "C",
+						"text": "Операційний грошовий потік завжди дорівнює чистому прибутку"
+					},
+					{
+						"id": "D",
+						"text": "Чистий прибуток надходить до нерозподіленого прибутку у складі капіталу"
+					},
+					{
+						"id": "E",
+						"text": "Власний капітал у балансі завжди дорівнює сумі грошей"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інвестор пропонує рівно $400 000, тобто суму власного капіталу за балансом, за софтверну фірму з лояльною базою клієнтів, сильним брендом і цінними власними даними, створеними всередині компанії. Яке обмеження звітності пояснює, чому пропозиція може бути заниженою?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Власний капітал завжди дорівнює ціні, за яку можна продати бізнес"
+					},
+					{
+						"id": "B",
+						"text": "Надходження від кредиту треба було враховувати як виторг"
+					},
+					{
+						"id": "C",
+						"text": "Звіт про рух грошових коштів має показувати вартість бренду"
+					},
+					{
+						"id": "D",
+						"text": "Активи здебільшого обліковують за історичною вартістю, а створені всередині компанії бренд і дані часто взагалі не відображаються"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кур’єрська компанія показує чистий прибуток $90 000 і амортизацію $20 000. Дебіторська заборгованість зросла на $70 000, запаси на $30 000, а кредиторська заборгованість перед постачальниками на $15 000. Розрахуйте операційний грошовий потік і поясніть, чому він набагато менший за прибуток."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Менеджер каже: «Ми взяли банківський кредит $200 000, отже прибуток цього року на $200 000 більший». Поясніть, що тут не так, і покажіть, де кредит відображається в кожному з трьох звітів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кейтерингова компанія показує виторг $900 000 і чистий прибуток $54 000, але гроші впали на $110 000. Дебіторська заборгованість зросла на $130 000, бо корпоративні клієнти платять за 75 днів, а компанія купила фургон за $45 000 готівкою. Оберіть одне: (1) позичити $100 000 і продовжувати, (2) вимагати 30% передоплати за великі корпоративні замовлення, скоротити строки до 30 днів зі знижкою 2% за дострокову оплату й вести щомісячний прогноз грошей або (3) скоротити витрати на 10%, щоб підвищити прибуток. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Банк може позичити $300 000 одній із двох компаній. Компанія A: чистий прибуток $200 000, операційний грошовий потік −$40 000, дебіторська заборгованість зросла на $300 000, співвідношення боргу до капіталу 2,5. Компанія B: чистий прибуток $80 000, операційний грошовий потік $110 000, дебіторська заборгованість стабільна, співвідношення боргу до капіталу 0,6. Кому ви дали б кредит і що ще перевірили б?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Рік дистриб’ютора: виторг $4,0 млн (на 30% більше), чистий прибуток $320 000, амортизація $80 000. Гроші впали з $400 000 до $150 000. Дебіторська заборгованість зросла з $600 000 до $1,1 млн, запаси з $500 000 до $800 000, кредиторська заборгованість перед постачальниками з $300 000 до $380 000. Компанія купила обладнання за $260 000 готівкою."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розрахуйте операційний грошовий потік, з’ясуйте, як профінансовано рік, назвіть основні ризики й порадьте дії."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

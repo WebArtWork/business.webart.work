@@ -1,0 +1,886 @@
+{
+	"slug": "diffusion-of-innovations",
+	"topicId": 17,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which perceived attribute describes how easily people can see the results others get from an innovation?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Compatibility"
+					},
+					{
+						"id": "B",
+						"text": "Trialability"
+					},
+					{
+						"id": "C",
+						"text": "Relative advantage"
+					},
+					{
+						"id": "D",
+						"text": "Observability"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which adopter group follows the innovators and often includes the respected opinion leaders others copy?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Early majority"
+					},
+					{
+						"id": "B",
+						"text": "Early adopters"
+					},
+					{
+						"id": "C",
+						"text": "Late majority"
+					},
+					{
+						"id": "D",
+						"text": "Laggards"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In diffusion research, mass media mainly drive the adoption decision, while personal contacts mainly build awareness."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A product that 40% of its market has already adopted is now selling mostly to the early majority."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Households like a new solar water heater, but installation takes three days and cannot be undone easily, so few dare to buy. Which fix targets the attribute that slows adoption?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Cut the price by 10%"
+					},
+					{
+						"id": "B",
+						"text": "Run TV ads about the savings"
+					},
+					{
+						"id": "C",
+						"text": "Offer a one-month rental with free removal"
+					},
+					{
+						"id": "D",
+						"text": "Add more colour options"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Restaurant cooks adopt a new induction range slowly. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " facts most likely explain the delay?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Cooks must replace their pans, because the old ones do not work on induction."
+					},
+					{
+						"id": "B",
+						"text": "The range cuts energy costs by 30%."
+					},
+					{
+						"id": "C",
+						"text": "The supplier has no demo kitchen, so buying is the only way to try it."
+					},
+					{
+						"id": "D",
+						"text": "Food critics praise restaurants that use it."
+					},
+					{
+						"id": "E",
+						"text": "The range looks like a normal stove."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company sells smart irrigation controllers to 5,000 golf courses. In two years, 150 courses (3%) have bought one, mostly tech-loving owners. What is the best way to reach the next group?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Show results from the first courses and win over respected head greenkeepers that other courses copy"
+					},
+					{
+						"id": "B",
+						"text": "Keep the same \"newest technology\" pitch and double the advertising"
+					},
+					{
+						"id": "C",
+						"text": "Wait for the laggards, who are the largest group"
+					},
+					{
+						"id": "D",
+						"text": "Halve the price at once"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A town market introduced cashless payment for its stalls. 18% of stallholders now accept it, and sign-ups are speeding up. The marketing still says \"Be the first. Cutting-edge payments.\" What should change?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Keep the novelty message, since it worked so far"
+					},
+					{
+						"id": "B",
+						"text": "Focus all effort on the laggards"
+					},
+					{
+						"id": "C",
+						"text": "Stop marketing, since growth is already speeding up"
+					},
+					{
+						"id": "D",
+						"text": "Switch to peer proof: stories from ordinary stallholders who sell more since accepting cards"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A planner for a city e-bike sharing scheme writes: \"We will get exactly 2.5% of residents in year one and 13.5% in year two. Anyone who has not joined by year three is simply backward.\" Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " mistakes does he make?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "He treats the category percentages as a forecast."
+					},
+					{
+						"id": "B",
+						"text": "He blames non-adopters instead of checking the attributes and the fit of the scheme."
+					},
+					{
+						"id": "C",
+						"text": "He expects adoption to follow an S-curve."
+					},
+					{
+						"id": "D",
+						"text": "He thinks of residents as different adopter groups."
+					},
+					{
+						"id": "E",
+						"text": "He plans to use opinion leaders."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A health agency promotes a new diabetes management app. Older patients rarely adopt it, and the agency's plan only asks how to persuade them faster. Which limitation of the diffusion model does this show?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The S-curve does not apply to health products"
+					},
+					{
+						"id": "B",
+						"text": "Pro-innovation bias: the plan assumes the app should spread and does not ask whether it suits these patients"
+					},
+					{
+						"id": "C",
+						"text": "The model ignores mass media"
+					},
+					{
+						"id": "D",
+						"text": "The model ignores opinion leaders"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A robot lawn mower costs $900, while a gardener charges $60 a month. It needs a boundary wire buried around the lawn, sold through stores only, with no trial. Many gardens in the region have steep slopes the mower cannot handle. The robots are easy to spot working in front gardens. Score the five attributes, name the weakest one and propose a fix."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why cumulative adoption follows an S-curve. Use taxi drivers in a city adopting card terminals as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A heat pump installer works in a region of 20,000 homes, and 1,000 homes (5%) already have a heat pump. Surveys show people worry about whether the system will keep the house warm in winter and about a complicated installation. The installer has $100,000 to spend. Choose one: regional TV ads, a 10% price cut, or an \"open homes\" programme where current owners host winter visits, combined with a fixed-price installation guarantee. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company can launch only one product this year and needs fast adoption to raise its next round."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Product X: a reusable cup deposit scheme for cafés. It saves cafés a little money, fits how they already work, can be tried free for a month, and customers see the cups everywhere."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Product Y: a smart beehive sensor. It can save 30% of hives lost each winter, but installation is complex, the results are hidden inside the hive, and a trial costs a beekeeper a full season."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one for this year, score both on the five attributes, and say how you would later improve the other."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A city runs an e-bike leasing scheme for 10,000 employees at 50 companies. In year one, 300 employees joined; by the end of year two, 1,100 had joined in total. In a survey, 60% of non-users said they would consider it if they could try an e-bike for a week. Most users first heard about the scheme by email, but say they decided after a colleague let them ride theirs. Few companies have safe bike parking."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Locate the scheme on the S-curve and name the group buying now, calculate how many more adopters are needed to complete the early adopter group, identify the weakest attributes and propose a plan for year three."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка сприйнята характеристика описує, наскільки легко люди бачать результати, які інші отримують від інновації?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сумісність"
+					},
+					{
+						"id": "B",
+						"text": "Можливість спробувати"
+					},
+					{
+						"id": "C",
+						"text": "Відносна перевага"
+					},
+					{
+						"id": "D",
+						"text": "Помітність результатів"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка група користувачів іде слідом за новаторами й часто включає шанованих лідерів думок, яких копіюють інші?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Рання більшість"
+					},
+					{
+						"id": "B",
+						"text": "Ранні послідовники"
+					},
+					{
+						"id": "C",
+						"text": "Пізня більшість"
+					},
+					{
+						"id": "D",
+						"text": "Відстаючі"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У дослідженнях дифузії медіа переважно підштовхують до рішення про прийняття інновації, а особисті контакти переважно створюють обізнаність."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продукт, який уже прийняли 40% ринку, зараз продається переважно ранній більшості."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Домогосподарствам подобається новий сонячний водонагрівач, але монтаж триває три дні й легко його не скасуєш, тож купувати наважуються небагато. Яке рішення спрямоване на характеристику, що гальмує поширення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Знизити ціну на 10%"
+					},
+					{
+						"id": "B",
+						"text": "Запустити телерекламу про економію"
+					},
+					{
+						"id": "C",
+						"text": "Запропонувати оренду на місяць із безкоштовним демонтажем"
+					},
+					{
+						"id": "D",
+						"text": "Додати більше кольорів"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кухарі ресторанів повільно переходять на нову індукційну плиту. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " факти найімовірніше пояснюють затримку?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Кухарям доводиться замінювати посуд, бо старий не працює на індукції."
+					},
+					{
+						"id": "B",
+						"text": "Плита знижує витрати на енергію на 30%."
+					},
+					{
+						"id": "C",
+						"text": "Постачальник не має демонстраційної кухні, тож спробувати можна лише купивши."
+					},
+					{
+						"id": "D",
+						"text": "Ресторанні критики хвалять заклади, що нею користуються."
+					},
+					{
+						"id": "E",
+						"text": "Плита виглядає як звичайна."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія продає розумні контролери поливу 5 000 гольф-полям. За два роки їх купили 150 полів (3%), переважно власники-ентузіасти технологій. Як найкраще охопити наступну групу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Показувати результати перших полів і переконати шанованих головних доглядачів газонів, яких копіюють інші поля"
+					},
+					{
+						"id": "B",
+						"text": "Зберегти посил «найновіша технологія» й подвоїти рекламу"
+					},
+					{
+						"id": "C",
+						"text": "Чекати на відстаючих, бо це найбільша група"
+					},
+					{
+						"id": "D",
+						"text": "Одразу вдвічі знизити ціну"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Міський ринок запровадив безготівкову оплату для своїх яток. Зараз її приймають 18% продавців, і підключення пришвидшуються. Реклама досі каже: «Будьте першими. Найсучасніші платежі». Що варто змінити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Зберегти посил про новизну, бо досі він працював"
+					},
+					{
+						"id": "B",
+						"text": "Зосередити всі зусилля на відстаючих"
+					},
+					{
+						"id": "C",
+						"text": "Припинити маркетинг, бо зростання й так пришвидшується"
+					},
+					{
+						"id": "D",
+						"text": "Перейти до доказів від таких самих: історії звичайних продавців, які продають більше, відколи приймають картки"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Планувальник міського прокату електровелосипедів пише: «У перший рік ми отримаємо рівно 2,5% мешканців, у другий 13,5%. Хто не приєднається до третього року, просто відсталий». Яких "
+							},
+							{
+								"t": "двох",
+								"b": true
+							},
+							{
+								"t": " помилок він припускається?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він сприймає відсотки категорій як прогноз."
+					},
+					{
+						"id": "B",
+						"text": "Він звинувачує тих, хто не приєднався, замість перевірити характеристики сервісу та його відповідність людям."
+					},
+					{
+						"id": "C",
+						"text": "Він очікує, що поширення піде S-подібною кривою."
+					},
+					{
+						"id": "D",
+						"text": "Він розглядає мешканців як різні групи користувачів."
+					},
+					{
+						"id": "E",
+						"text": "Він планує залучати лідерів думок."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Агентство охорони здоров’я просуває новий застосунок для контролю діабету. Літні пацієнти рідко ним користуються, а план агентства запитує лише, як швидше їх переконати. Яке обмеження моделі дифузії це показує?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "S-крива не стосується медичних продуктів"
+					},
+					{
+						"id": "B",
+						"text": "Упередження на користь інновацій: план припускає, що застосунок має поширитися, і не питає, чи підходить він цим пацієнтам"
+					},
+					{
+						"id": "C",
+						"text": "Модель ігнорує медіа"
+					},
+					{
+						"id": "D",
+						"text": "Модель ігнорує лідерів думок"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Робот-газонокосарка коштує $900, а садівник бере $60 на місяць. Для роботи треба закопати обмежувальний дріт по периметру газону, продають косарку лише в магазинах і без пробного періоду. У багатьох садах регіону круті схили, з якими косарка не впорається. Роботів легко помітити за роботою в садах перед будинками. Оцініть п’ять характеристик, назвіть найслабшу й запропонуйте рішення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому накопичене поширення має форму S-подібної кривої. Використайте як приклад таксистів у місті, які переходять на платіжні термінали."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія з монтажу теплових насосів працює в регіоні з 20 000 будинків, і 1 000 будинків (5%) уже мають тепловий насос. Опитування показують, що люди сумніваються, чи система зігріє дім узимку, і бояться складного монтажу. Компанія має $100 000. Оберіть одне: регіональна телереклама, знижка 10% або програма «відкритих домів», де нинішні власники приймають гостей узимку, разом із гарантією монтажу за фіксованою ціною. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія може запустити цього року лише один продукт, і їй потрібне швидке поширення, щоб залучити наступний раунд інвестицій."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Продукт X: схема застави за багаторазові стакани для кав’ярень. Вона трохи заощаджує кав’ярням гроші, відповідає тому, як вони вже працюють, її можна безкоштовно спробувати місяць, а клієнти бачать стакани всюди."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Продукт Y: розумний датчик для вулика. Він може зберегти 30% вуликів, що гинуть щозими, але монтаж складний, результати сховані всередині вулика, а пробний період коштує пасічнику цілий сезон."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть продукт на цей рік, оцініть обидва за п’ятьма характеристиками й скажіть, як згодом покращите інший."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Місто реалізує програму лізингу електровелосипедів для 10 000 працівників 50 компаній. У перший рік приєдналися 300 працівників, а до кінця другого року загалом 1 100. В опитуванні 60% тих, хто не користується, сказали, що розглянули б програму, якби могли тиждень покататися на електровелосипеді. Більшість користувачів уперше дізналися про програму з електронного листа, але кажуть, що вирішили після того, як колега дав покататися на своєму. Мало компаній мають безпечні велопарковки."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте місце програми на S-кривій і групу, що приєднується зараз, порахуйте, скільки ще користувачів потрібно, щоб завершити групу ранніх послідовників, визначте найслабші характеристики й запропонуйте план на третій рік."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

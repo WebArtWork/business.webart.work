@@ -1,0 +1,886 @@
+{
+	"slug": "structured-hiring",
+	"topicId": 88,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which part of structured hiring sets out the role’s mission, three to five measurable outcomes and the competencies needed, before sourcing starts?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Work-sample test"
+					},
+					{
+						"id": "B",
+						"text": "Anchored rating scale"
+					},
+					{
+						"id": "C",
+						"text": "Decision rule"
+					},
+					{
+						"id": "D",
+						"text": "Role scorecard"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why do interviewers submit their scores in writing before the debrief?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It makes the debrief shorter"
+					},
+					{
+						"id": "B",
+						"text": "It stops the first or most senior voice from anchoring everyone else"
+					},
+					{
+						"id": "C",
+						"text": "Employment law requires written scores"
+					},
+					{
+						"id": "D",
+						"text": "It lets HR average the scores without a meeting"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In a structured interview, interviewers may not ask any follow-up questions."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A restaurant that picks chefs mainly by years of experience is using one of the strongest predictors found in selection research."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which is the best work sample for a customer support hire at a software company?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Asking “How do you handle angry customers?”"
+					},
+					{
+						"id": "B",
+						"text": "A general personality questionnaire"
+					},
+					{
+						"id": "C",
+						"text": "Answering three real, anonymised tickets in 40 minutes, scored against a rubric"
+					},
+					{
+						"id": "D",
+						"text": "Checking whether the CV lists earlier support job titles"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A logistics firm says it uses structured hiring. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " practices undermine the structure?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Every candidate gets the same six core questions"
+					},
+					{
+						"id": "B",
+						"text": "The hiring manager writes the scorecard after meeting the first three candidates"
+					},
+					{
+						"id": "C",
+						"text": "Each question has written examples of a 1, 3 and 5 answer"
+					},
+					{
+						"id": "D",
+						"text": "Each interviewer is assigned specific competencies to probe"
+					},
+					{
+						"id": "E",
+						"text": "The debrief opens with the director saying whom she liked before scores are submitted"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A design agency interviewed eight candidates for art director. Each of three interviewers asked whatever felt relevant and then gave an overall rating from 1 to 10. Ratings for the same candidate ranged from 3 to 9. What is the most likely cause?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Different questions and no written standards made the answers impossible to compare, so the ratings were noisy"
+					},
+					{
+						"id": "B",
+						"text": "Eight candidates are too few for interviewers to agree"
+					},
+					{
+						"id": "C",
+						"text": "The interviewers lacked experience in design"
+					},
+					{
+						"id": "D",
+						"text": "A scale of 1 to 10 is too wide and should be 1 to 5"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A 15-person startup must hire a backend developer within a month and has little time for process. Which approach keeps most of the predictive gain?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "One long, friendly conversation with the CTO"
+					},
+					{
+						"id": "B",
+						"text": "A six-hour unpaid take-home project"
+					},
+					{
+						"id": "C",
+						"text": "A short scorecard, five common questions with anchors, a 90-minute paid work sample and written scores before discussion"
+					},
+					{
+						"id": "D",
+						"text": "Reference checks with two former managers"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bank uses a fully structured process but still hires almost only graduates of two universities. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " explanations fit the method’s limitations?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The scorecard demands a specific degree that is not tied to the role’s outcomes"
+					},
+					{
+						"id": "B",
+						"text": "The panel has too many interviewers"
+					},
+					{
+						"id": "C",
+						"text": "The work sample is scored against a rubric"
+					},
+					{
+						"id": "D",
+						"text": "Candidates from those universities rehearse standard behavioural answers in career workshops"
+					},
+					{
+						"id": "E",
+						"text": "Scores are collected in writing before the debrief"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A year after adopting structured hiring, a firm finds that hires who scored 4 or more perform no better than those who scored 3. What should it do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Drop structured hiring and go back to free interviews"
+					},
+					{
+						"id": "B",
+						"text": "Check which questions and which work sample actually predicted performance, and revise them and their anchors"
+					},
+					{
+						"id": "C",
+						"text": "Add two more interviewers to every panel"
+					},
+					{
+						"id": "D",
+						"text": "Raise the hiring bar to 4.5"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Write a short scorecard for a warehouse shift manager: the mission, two measurable outcomes and one work sample linked to them."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why several independent structured ratings give a more reliable signal than one interviewer’s overall impression. Use a hiring example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You must hire 20 sales reps for a new branch in six weeks. Choose one: unstructured interviews by three managers (fastest), a structured process (scorecard, common questions, a role-play work sample and independent scoring), or an agency’s personality test only. Justify the choice and say how you would make it work within six weeks."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A clinic chain is choosing a head of operations. The scorecard lists two top outcomes: scheduling doctors efficiently and controlling costs."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Candidate M: 4.6 on the structured questions, 3.2 on the work sample (building a week’s schedule for 12 doctors), and the panel was enthusiastic in the debrief."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Candidate N: 3.9 on the structured questions, 4.7 on the work sample. Two interviewers forgot to score one competency."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose a candidate, justify the choice with the scorecard and decision rule, and say how to handle the missing scores."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A hotel group hires 30 front-desk staff a year. Managers interview informally and say they look for “people like us”. 45% of new hires leave within six months, guest complaints about check-in rose 20% last year, and each early leaver costs about $3,500 to replace and train."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Design a structured hiring process for this role, explain how each step addresses the current problems, and estimate the yearly saving if early leavers fall to 25% of hires."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка частина структурованого найму описує місію посади, три–п’ять вимірюваних результатів і потрібні компетенції ще до пошуку кандидатів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Робоче завдання"
+					},
+					{
+						"id": "B",
+						"text": "Шкала оцінок з описами рівнів"
+					},
+					{
+						"id": "C",
+						"text": "Правило ухвалення рішення"
+					},
+					{
+						"id": "D",
+						"text": "Профіль посади"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому інтерв’юери подають оцінки письмово до спільного обговорення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Так обговорення стає коротшим"
+					},
+					{
+						"id": "B",
+						"text": "Так перша або найстарша за посадою думка не стає якорем для решти"
+					},
+					{
+						"id": "C",
+						"text": "Цього вимагає трудове законодавство"
+					},
+					{
+						"id": "D",
+						"text": "Так кадровики можуть усереднити оцінки без зустрічі"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На структурованому інтерв’ю інтерв’юерам заборонено ставити будь-які уточнювальні запитання."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ресторан, який обирає кухарів переважно за стажем, користується одним із найсильніших прогностичних чинників, знайдених у дослідженнях добору персоналу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке робоче завдання найкраще підходить для найму фахівця підтримки в софтверну компанію?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Запитати: «Як ви працюєте з розлюченими клієнтами?»"
+					},
+					{
+						"id": "B",
+						"text": "Загальний опитувальник особистості"
+					},
+					{
+						"id": "C",
+						"text": "Відповісти на три реальні знеособлені звернення за 40 хвилин з оцінкою за рубрикою"
+					},
+					{
+						"id": "D",
+						"text": "Перевірити, чи є в резюме попередні посади в підтримці"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Логістична компанія каже, що використовує структурований найм. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " практики руйнують структуру?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Кожен кандидат отримує ті самі шість основних запитань"
+					},
+					{
+						"id": "B",
+						"text": "Керівник, що наймає, пише профіль посади після зустрічі з першими трьома кандидатами"
+					},
+					{
+						"id": "C",
+						"text": "Для кожного запитання є письмові приклади відповіді на 1, 3 і 5 балів"
+					},
+					{
+						"id": "D",
+						"text": "Кожен інтерв’юер має свої компетенції для перевірки"
+					},
+					{
+						"id": "E",
+						"text": "Обговорення починається з того, що директорка каже, хто їй сподобався, ще до подання оцінок"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дизайн-агенція провела співбесіди з вісьмома кандидатами на посаду арт-директора. Кожен із трьох інтерв’юерів питав те, що здавалося доречним, і ставив загальну оцінку від 1 до 10. Оцінки одного кандидата коливалися від 3 до 9. Яка найімовірніша причина?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Різні запитання й відсутність письмових стандартів зробили відповіді непорівнянними, тож оцінки вийшли шумними"
+					},
+					{
+						"id": "B",
+						"text": "Вісім кандидатів замало, щоб інтерв’юери дійшли згоди"
+					},
+					{
+						"id": "C",
+						"text": "Інтерв’юерам бракувало досвіду в дизайні"
+					},
+					{
+						"id": "D",
+						"text": "Шкала від 1 до 10 надто широка, потрібна від 1 до 5"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап на 15 людей має за місяць найняти бекенд-розробника, і часу на процеси обмаль. Який підхід зберігає більшу частину точності прогнозу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Одна довга дружня розмова з технічним директором"
+					},
+					{
+						"id": "B",
+						"text": "Шестигодинне неоплачуване домашнє завдання"
+					},
+					{
+						"id": "C",
+						"text": "Короткий профіль посади, п’ять однакових запитань з описами рівнів, оплачене 90-хвилинне робоче завдання й письмові оцінки до обговорення"
+					},
+					{
+						"id": "D",
+						"text": "Рекомендації від двох колишніх керівників"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Банк використовує повністю структурований процес, але все одно наймає майже лише випускників двох університетів. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " пояснення відповідають обмеженням методу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Профіль посади вимагає конкретного диплома, не пов’язаного з результатами роботи"
+					},
+					{
+						"id": "B",
+						"text": "У комісії забагато інтерв’юерів"
+					},
+					{
+						"id": "C",
+						"text": "Робоче завдання оцінюється за рубрикою"
+					},
+					{
+						"id": "D",
+						"text": "Кандидати з цих університетів відпрацьовують стандартні поведінкові відповіді на кар’єрних тренінгах"
+					},
+					{
+						"id": "E",
+						"text": "Оцінки збирають письмово до обговорення"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Через рік після запровадження структурованого найму фірма бачить, що працівники з оцінкою 4 і вище працюють не краще за тих, хто отримав 3. Що їй варто зробити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Відмовитися від структурованого найму й повернутися до вільних співбесід"
+					},
+					{
+						"id": "B",
+						"text": "Перевірити, які запитання й яке робоче завдання справді прогнозували результати, і переробити їх разом з описами рівнів"
+					},
+					{
+						"id": "C",
+						"text": "Додати до кожної комісії ще двох інтерв’юерів"
+					},
+					{
+						"id": "D",
+						"text": "Підняти поріг найму до 4,5"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Складіть короткий профіль посади для керівника зміни на складі: місію, два вимірювані результати й одне робоче завдання, пов’язане з ними."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому кілька незалежних структурованих оцінок дають надійніший сигнал, ніж загальне враження одного інтерв’юера. Використайте приклад із найму."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Вам треба за шість тижнів найняти 20 торгових представників для нової філії. Оберіть одне: неструктуровані співбесіди з трьома менеджерами (найшвидше), структурований процес (профіль посади, однакові запитання, рольова гра як робоче завдання й незалежне оцінювання) або лише особистісний тест від агенції. Обґрунтуйте вибір і поясніть, як укластися в шість тижнів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа клінік обирає операційного директора. У профілі посади два головні результати: ефективний розклад лікарів і контроль витрат."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Кандидатка М: 4,6 за структуровані запитання, 3,2 за робоче завдання (скласти тижневий розклад для 12 лікарів), комісія була в захваті на обговоренні."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Кандидат Н: 3,9 за структуровані запитання, 4,7 за робоче завдання. Двоє інтерв’юерів забули оцінити одну компетенцію."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть кандидата, обґрунтуйте вибір профілем посади й правилом рішення та поясніть, що робити з пропущеними оцінками."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Готельна група щороку наймає 30 адміністраторів рецепції. Менеджери проводять неформальні співбесіди й кажуть, що шукають «людей як ми». 45% нових працівників ідуть протягом шести місяців, скарги гостей на поселення торік зросли на 20%, а заміна й навчання кожного, хто пішов рано, коштує близько $3 500."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розробіть структурований процес найму для цієї посади, поясніть, як кожен крок розв’язує нинішні проблеми, і оцініть річну економію, якщо частка ранніх звільнень знизиться до 25% наймів."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,884 @@
+{
+	"slug": "okrs",
+	"topicId": 74,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In an OKR set, how does a key result differ from an initiative?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A key result is a project the team will deliver, and an initiative is the number that proves it worked"
+					},
+					{
+						"id": "B",
+						"text": "Key results are set for the year, while initiatives are set for the quarter"
+					},
+					{
+						"id": "C",
+						"text": "A key result is a measurable outcome with a baseline and a target, and an initiative is a project expected to move it"
+					},
+					{
+						"id": "D",
+						"text": "Key results are qualitative statements, while initiatives carry the numbers"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A logistics team ends the quarter with a score of 0.7 on an "
+							},
+							{
+								"t": "aspirational",
+								"b": true
+							},
+							{
+								"t": " key result: cut average delivery time from 48 to 24 hours. How should this score be read?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "As a failure, because only 1.0 means the key result was met"
+					},
+					{
+						"id": "B",
+						"text": "As a sign the target was too safe and should be raised"
+					},
+					{
+						"id": "C",
+						"text": "As a reason to reduce the team's bonus by 30%"
+					},
+					{
+						"id": "D",
+						"text": "As a good result, because about 70% on a stretch goal counts as success"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The objective in an OKR should be written as a number, so that progress on it can be scored directly."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A sales team whose bonus is paid as a percentage of its OKR score is likely to set more ambitious key results."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pet-food subscription company sets the objective \"Make our subscription the easiest one to keep\". Which is the strongest key result?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Raise six-month subscriber retention from 58% to 70%"
+					},
+					{
+						"id": "B",
+						"text": "Launch a \"pause subscription\" button in the app"
+					},
+					{
+						"id": "C",
+						"text": "Hold ten customer interviews every month"
+					},
+					{
+						"id": "D",
+						"text": "Redesign the account settings page"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online language school drafts its key results for the quarter. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are written as tasks rather than key results?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Raise lesson completion from 52% to 65%"
+					},
+					{
+						"id": "B",
+						"text": "Launch a mobile app for iOS and Android"
+					},
+					{
+						"id": "C",
+						"text": "Cut refund requests from 9% to 5% of new students"
+					},
+					{
+						"id": "D",
+						"text": "Raise the net promoter score from 31 to 40"
+					},
+					{
+						"id": "E",
+						"text": "Hire two more Spanish tutors"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A furniture workshop with 14 people wants to start using OKRs. The owner's draft gives each of the three teams six objectives with five key results each. What is the best advice?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Keep the draft, because more objectives cover more of the business"
+					},
+					{
+						"id": "B",
+						"text": "Cut to at most three objectives with a few key results each, so the list forces real choices"
+					},
+					{
+						"id": "C",
+						"text": "Replace the key results with a list of weekly tasks, which are easier to track"
+					},
+					{
+						"id": "D",
+						"text": "Set the OKRs for a full year so the teams have time to finish everything"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hotel group's quarterly OKR is \"Become the first choice for business travellers in Kraków\", with the key result \"raise corporate-account bookings from 18% to 30% of room nights\". At week seven the figure is 19%. The main initiative, a loyalty-app redesign, is 80% done, but corporate clients surveyed say their real problems are wrong invoices and no late checkout. What should management do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Lower the key result to 20% so the team can still reach it"
+					},
+					{
+						"id": "B",
+						"text": "Finish the app first, because most of the work is already done"
+					},
+					{
+						"id": "C",
+						"text": "Drop the objective and pick a new one for the rest of the quarter"
+					},
+					{
+						"id": "D",
+						"text": "Keep the key result and move people from the app to invoice accuracy and a late-checkout package"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The CEO of a 300-person insurer introduces OKRs. She writes every team's OKRs herself and emails each team only its own set. All key results have a baseline and a target, teams hold weekly check-ins, and each key result is scored from 0.0 to 1.0 at quarter end. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " practices go against the method?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Teams receive ready-made OKRs instead of drafting their own in support of the company set"
+					},
+					{
+						"id": "B",
+						"text": "Key results are scored from 0.0 to 1.0"
+					},
+					{
+						"id": "C",
+						"text": "Check-ins happen every week"
+					},
+					{
+						"id": "D",
+						"text": "OKRs are not visible to the whole company"
+					},
+					{
+						"id": "E",
+						"text": "Every key result has a baseline next to the target"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A drug research lab adopts OKRs. Key results include \"run 40 assays per month\" and \"file 3 patent drafts per quarter\". After two quarters, scientists have quietly dropped a slow, risky project that leadership considered the lab's best long-term bet. Which limitation of OKRs does this show?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "OKRs reward what can be counted, so slow research work gets crowded out"
+					},
+					{
+						"id": "B",
+						"text": "The quarterly cycle is too long to catch problems in time"
+					},
+					{
+						"id": "C",
+						"text": "The lab forgot to tie OKR scores to bonuses"
+					},
+					{
+						"id": "D",
+						"text": "The objectives were too qualitative to guide the scientists"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coffee roaster sets the objective \"Win loyal café customers\" with three key results: \"visit 30 cafés\", \"launch a new espresso blend\" and \"send a monthly newsletter\". Explain what is wrong with these key results and rewrite two of them as proper key results."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain how making all OKRs visible across the company helps teams align. Use the marketing and product teams of a fintech app as the example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You run a 12-person web design agency. A consultant proposes full quarterly OKRs: three objectives per person, a planning offsite each quarter and a weekly OKR meeting. Choose one: adopt the full system, adopt one company OKR with a short monthly check-in, or skip OKRs entirely. Justify your choice using what the theory says about the method's strengths and limits."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software company with 40 salespeople plans to pay 30% of each bonus on the person's OKR score, starting next quarter. Last year salespeople set their own key results, and the average score was 0.65. Choose one: tie 30% of bonuses to OKR scores, or keep bonuses on revenue and keep OKR scores out of pay. Justify your choice and say what you expect to happen to the scores."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A chain of 9 veterinary clinics introduced OKRs a year ago. This quarter the head office set 5 objectives with 19 key results in total; 11 of the key results are tasks such as \"open online booking\" or \"run a staff training day\"."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Each vet's bonus is 20% based on the clinic's OKR score. Last quarter the average score was 0.98."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Meanwhile, the share of pets returning for their yearly vaccination has stayed at 48% for three quarters, and the owner's real goal is to raise it."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Diagnose what is wrong with how the chain uses OKRs and propose a revised OKR set for next quarter."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чим у системі OKR ключовий результат відрізняється від ініціативи?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ключовий результат це проєкт, який команда виконає, а ініціатива це показник, що доводить успіх"
+					},
+					{
+						"id": "B",
+						"text": "Ключові результати ставлять на рік, а ініціативи на квартал"
+					},
+					{
+						"id": "C",
+						"text": "Ключовий результат це вимірюваний наслідок із базовим і цільовим значенням, а ініціатива це проєкт, який має його зрушити"
+					},
+					{
+						"id": "D",
+						"text": "Ключові результати формулюють якісно, а числа містять ініціативи"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Логістична команда завершує квартал з оцінкою 0,7 за "
+							},
+							{
+								"t": "амбітним",
+								"b": true
+							},
+							{
+								"t": " ключовим результатом: скоротити середній час доставки з 48 до 24 годин. Як розуміти цю оцінку?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Як провал, бо лише 1,0 означає виконання"
+					},
+					{
+						"id": "B",
+						"text": "Як ознаку надто обережної цілі, яку треба підвищити"
+					},
+					{
+						"id": "C",
+						"text": "Як привід урізати команді премію на 30%"
+					},
+					{
+						"id": "D",
+						"text": "Як добрий результат, бо близько 70% за амбітною ціллю вважають успіхом"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ціль в OKR слід формулювати числом, щоб прогрес за нею можна було оцінювати напряму."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Відділ продажів, премія якого залежить від оцінки OKR, імовірно, ставитиме амбітніші ключові результати."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія, що продає корм для тварин за підпискою, ставить ціль «Зробити нашу підписку найзручнішою, щоб її не хотілося скасовувати». Який ключовий результат найсильніший?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Підняти утримання підписників за шість місяців з 58% до 70%"
+					},
+					{
+						"id": "B",
+						"text": "Додати в застосунок кнопку «призупинити підписку»"
+					},
+					{
+						"id": "C",
+						"text": "Щомісяця проводити десять інтерв’ю з клієнтами"
+					},
+					{
+						"id": "D",
+						"text": "Переробити сторінку налаштувань акаунта"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Онлайн-школа мов складає ключові результати на квартал. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з них записані як завдання, а не як ключові результати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Підняти частку завершених уроків з 52% до 65%"
+					},
+					{
+						"id": "B",
+						"text": "Запустити мобільний застосунок для iOS та Android"
+					},
+					{
+						"id": "C",
+						"text": "Скоротити запити на повернення коштів з 9% до 5% нових студентів"
+					},
+					{
+						"id": "D",
+						"text": "Підняти індекс NPS з 31 до 40"
+					},
+					{
+						"id": "E",
+						"text": "Найняти ще двох викладачів іспанської"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Меблева майстерня на 14 людей хоче запровадити OKR. У чернетці власника кожна з трьох команд має шість цілей по п’ять ключових результатів. Яка порада найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Залишити чернетку, бо більше цілей охоплює більшу частину бізнесу"
+					},
+					{
+						"id": "B",
+						"text": "Скоротити до трьох цілей щонайбільше з кількома ключовими результатами, щоб список змушував обирати"
+					},
+					{
+						"id": "C",
+						"text": "Замінити ключові результати переліком щотижневих завдань, які легше відстежувати"
+					},
+					{
+						"id": "D",
+						"text": "Поставити OKR на цілий рік, щоб команди встигли все виконати"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Квартальне OKR готельної мережі: «Стати першим вибором бізнес-мандрівників у Кракові», ключовий результат: «підняти частку корпоративних бронювань з 18% до 30% номероночей». На сьомому тижні показник становить 19%. Головна ініціатива, редизайн застосунку лояльності, готова на 80%, але опитані корпоративні клієнти кажуть, що їхні справжні проблеми це помилки в рахунках і відсутність пізнього виїзду. Що має зробити керівництво?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Знизити ключовий результат до 20%, щоб команда все ж його досягла"
+					},
+					{
+						"id": "B",
+						"text": "Спершу доробити застосунок, бо більшу частину роботи вже зроблено"
+					},
+					{
+						"id": "C",
+						"text": "Відмовитися від цілі й обрати нову на решту кварталу"
+					},
+					{
+						"id": "D",
+						"text": "Залишити ключовий результат і перевести людей із застосунку на точність рахунків і пакет пізнього виїзду"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Генеральна директорка страхової компанії на 300 працівників запроваджує OKR. Вона сама пише OKR для кожної команди й надсилає кожній лише її власний набір. Усі ключові результати мають базове й цільове значення, команди щотижня перевіряють прогрес, а наприкінці кварталу кожен ключовий результат оцінюють від 0,0 до 1,0. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " практики суперечать методу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Команди отримують готові OKR замість того, щоб самим скласти їх на підтримку корпоративних"
+					},
+					{
+						"id": "B",
+						"text": "Ключові результати оцінюють від 0,0 до 1,0"
+					},
+					{
+						"id": "C",
+						"text": "Перевірки прогресу відбуваються щотижня"
+					},
+					{
+						"id": "D",
+						"text": "OKR не видно всій компанії"
+					},
+					{
+						"id": "E",
+						"text": "Кожен ключовий результат має базове значення поруч із цільовим"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фармацевтична дослідницька лабораторія запроваджує OKR. Серед ключових результатів: «проводити 40 аналізів на місяць» і «подати 3 чернетки патентів за квартал». Через два квартали науковці тихо згорнули повільний ризикований проєкт, який керівництво вважало найкращою довгостроковою ставкою лабораторії. Яке обмеження OKR це показує?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "OKR винагороджують те, що можна порахувати, тож повільна дослідницька робота відходить на другий план"
+					},
+					{
+						"id": "B",
+						"text": "Квартальний цикл задовгий, щоб вчасно помітити проблему"
+					},
+					{
+						"id": "C",
+						"text": "Лабораторія забула прив’язати оцінки OKR до премій"
+					},
+					{
+						"id": "D",
+						"text": "Цілі були надто якісними, щоб спрямовувати науковців"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обсмажувальник кави ставить ціль «Завоювати лояльних клієнтів серед кав’ярень» із трьома ключовими результатами: «відвідати 30 кав’ярень», «запустити нову суміш для еспресо» і «щомісяця надсилати розсилку». Поясніть, що не так із цими ключовими результатами, і перепишіть два з них правильно."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, як відкритість усіх OKR для всієї компанії допомагає командам узгоджуватися. Як приклад візьміть команди маркетингу й продукту фінтех-застосунку."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви керуєте агенцією вебдизайну на 12 людей. Консультант пропонує повну систему квартальних OKR: по три цілі на кожного, виїзну сесію планування щокварталу й щотижневу нараду з OKR. Оберіть одне: запровадити повну систему, запровадити одне корпоративне OKR із короткою щомісячною перевіркою або зовсім відмовитися від OKR. Обґрунтуйте вибір тим, що теорія каже про сильні сторони й обмеження методу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Софтверна компанія з 40 продавцями планує з наступного кварталу виплачувати 30% премії кожного за його оцінкою OKR. Торік продавці самі ставили ключові результати, і середня оцінка становила 0,65. Оберіть одне: прив’язати 30% премій до оцінок OKR або залишити премії за виручку, а оцінки OKR тримати окремо від оплати. Обґрунтуйте вибір і скажіть, що, на вашу думку, станеться з оцінками."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Мережа з 9 ветеринарних клінік запровадила OKR рік тому. Цього кварталу головний офіс поставив 5 цілей із 19 ключовими результатами загалом; 11 ключових результатів це завдання на кшталт «відкрити онлайн-запис» чи «провести день навчання персоналу»."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Премія кожного лікаря на 20% залежить від оцінки OKR клініки. Минулого кварталу середня оцінка становила 0,98."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Тим часом частка тварин, які повертаються на щорічне щеплення, уже три квартали тримається на рівні 48%, а справжня мета власника полягає в тому, щоб її підняти."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте, що не так із тим, як мережа використовує OKR, і запропонуйте оновлений набір OKR на наступний квартал."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

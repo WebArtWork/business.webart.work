@@ -1,0 +1,838 @@
+{
+	"slug": "blue-ocean-strategy",
+	"topicId": 9,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does value innovation mean in Blue Ocean Strategy?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Adding more features than every rival"
+					},
+					{
+						"id": "B",
+						"text": "Cutting prices to win market share"
+					},
+					{
+						"id": "C",
+						"text": "Pursuing differentiation and low cost at the same time"
+					},
+					{
+						"id": "D",
+						"text": "Entering a market with no rivals by patenting a technology"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which tool charts the factors an industry competes on and shows each firm’s offering level as a value curve?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The ERRC grid"
+					},
+					{
+						"id": "B",
+						"text": "The value chain"
+					},
+					{
+						"id": "C",
+						"text": "The six paths"
+					},
+					{
+						"id": "D",
+						"text": "The strategy canvas"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Blue Ocean Strategy advises firms to win by outperforming rivals on the factors the industry already competes on."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If a company only adds features and never eliminates or reduces anything, its costs rise and it remains in a red ocean."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A factor that the industry takes for granted but buyers hardly value should go in which part of the ERRC grid?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Eliminate or reduce"
+					},
+					{
+						"id": "B",
+						"text": "Raise"
+					},
+					{
+						"id": "C",
+						"text": "Create"
+					},
+					{
+						"id": "D",
+						"text": "Leave unchanged"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are among the three tiers of noncustomers?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Soon-to-be customers on the edge of the market"
+					},
+					{
+						"id": "B",
+						"text": "The firm’s most loyal customers"
+					},
+					{
+						"id": "C",
+						"text": "Refusing customers who have decided against the industry"
+					},
+					{
+						"id": "D",
+						"text": "Staff of competing firms"
+					},
+					{
+						"id": "E",
+						"text": "Shareholders of the firm"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In a city of 300,000 people, six gyms advertise low monthly fees, many machines and big changing rooms. On a strategy canvas their value curves look almost the same. What does this show?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A blue ocean, because six firms prove demand"
+					},
+					{
+						"id": "B",
+						"text": "A red ocean, because all firms compete on the same factors at similar levels"
+					},
+					{
+						"id": "C",
+						"text": "That the market is too small to enter"
+					},
+					{
+						"id": "D",
+						"text": "That each gym has strong differentiation"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A boutique hotel owner plans to add a spa, a restaurant, a kids’ club, a concierge and a rooftop bar to stand out from rivals. Costs would rise 45% and room prices 10%. How does this match Blue Ocean thinking?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It fits well: more features create a new market space"
+					},
+					{
+						"id": "B",
+						"text": "It fits well, because a higher price shows higher value"
+					},
+					{
+						"id": "C",
+						"text": "It does not: it only adds factors, costs grow much faster than price, and no noncustomers are targeted"
+					},
+					{
+						"id": "D",
+						"text": "It fits as long as the spa is unique in the city"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A startup studied only its 5,000 current customers, added six features to its product and assumes that, once it succeeds, the market will stay empty of rivals. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " mistakes does this show?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Using a strategy canvas"
+					},
+					{
+						"id": "B",
+						"text": "Studying only current customers instead of noncustomers"
+					},
+					{
+						"id": "C",
+						"text": "Targeting noncustomers"
+					},
+					{
+						"id": "D",
+						"text": "Expecting the new space to stay uncontested after it works"
+					},
+					{
+						"id": "E",
+						"text": "Checking that costs allow a profit"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A café raises the average bill from $8 to $14 with a slower, tasting-focused format. Weekly visitors fall from 1,000 to 700, and costs drop by 30%. Which conclusion is right?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The strategy failed because volume fell"
+					},
+					{
+						"id": "B",
+						"text": "Prices must be lowered back to $8 to win visitors"
+					},
+					{
+						"id": "C",
+						"text": "The result cannot be judged without knowing rivals’ prices"
+					},
+					{
+						"id": "D",
+						"text": "Revenue rose from $8,000 to $9,800 and costs fell, so fewer but different customers can still create value innovation"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain how the four actions framework (eliminate, reduce, raise, create) lets a firm lower cost and raise buyer value at the same time. Give one example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why are noncustomers a better source of blue ocean ideas than current customers? Name at least two of the three tiers and say how each differs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A town of 80,000 has three driving schools competing on price (a course costs $420) and pass rates. Surveys show that many adults over 30 avoid learning because they fear traffic and feel embarrassed in classes with teenagers. Choose one: cut the price by 15%, add simulators and GPS-equipped cars (costs up 25%), or launch a programme for nervous adults, with theory taught online, fewer fixed class hours, small automatic cars, quiet-road training and confidence coaching at $650. Justify your choice using Blue Ocean concepts."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A sports-drink maker competes with dozens of brands on caffeine, flavour variety and celebrity ads. It can choose one: launch 12 new flavours with a celebrity campaign, or create a drink for adults over 55 with low sugar, electrolytes for blood-pressure medication users and distribution through pharmacies, with no celebrity advertising. Choose and explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "In a city of 600,000, 120 private dental clinics compete on price (cleaning costs $60), modern equipment and online advertising. Surveys show that 38% of adults skip check-ups, mostly from fear and long waits; some refuse to go at all because of cost; and office workers say they have no time during working hours."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Design a blue ocean move with an ERRC grid (at least one factor in each of the four actions), name which noncustomer tiers you target, check price and cost, and explain how you would test and defend it."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що означає інновація цінності в Стратегії блакитного океану?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Додавання більшої кількості функцій, ніж у кожного конкурента"
+					},
+					{
+						"id": "B",
+						"text": "Зниження цін, щоб здобути частку ринку"
+					},
+					{
+						"id": "C",
+						"text": "Одночасне прагнення до диференціації й низьких витрат"
+					},
+					{
+						"id": "D",
+						"text": "Вихід на ринок без конкурентів за допомогою запатентованої технології"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який інструмент відображає чинники, за якими конкурує галузь, і показує рівень пропозиції кожної фірми як криву цінності?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сітка ERRC"
+					},
+					{
+						"id": "B",
+						"text": "Ланцюг створення цінності"
+					},
+					{
+						"id": "C",
+						"text": "Шість шляхів"
+					},
+					{
+						"id": "D",
+						"text": "Стратегічне полотно"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стратегія блакитного океану радить фірмам перемагати, випереджаючи конкурентів за чинниками, за якими галузь уже конкурує."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо компанія лише додає функції й нічого не усуває та не зменшує, витрати зростають, і вона залишається в червоному океані."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У яку частину сітки ERRC слід віднести чинник, який галузь вважає самоочевидним, але який покупці майже не цінують?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Усунути або зменшити"
+					},
+					{
+						"id": "B",
+						"text": "Підвищити"
+					},
+					{
+						"id": "C",
+						"text": "Створити"
+					},
+					{
+						"id": "D",
+						"text": "Залишити без змін"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з цих варіантів належать до трьох рівнів неклієнтів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Майбутні клієнти на межі ринку"
+					},
+					{
+						"id": "B",
+						"text": "Найлояльніші клієнти фірми"
+					},
+					{
+						"id": "C",
+						"text": "Клієнти, що відмовляються й свідомо вирішили проти галузі"
+					},
+					{
+						"id": "D",
+						"text": "Працівники конкуруючих фірм"
+					},
+					{
+						"id": "E",
+						"text": "Акціонери фірми"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У місті на 300 000 мешканців шість спортзалів рекламують низькі щомісячні платежі, багато тренажерів і великі роздягальні. На стратегічному полотні їхні криві цінності майже однакові. Що це показує?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Блакитний океан, бо шість фірм доводять наявність попиту"
+					},
+					{
+						"id": "B",
+						"text": "Червоний океан, бо всі фірми конкурують за тими самими чинниками на схожих рівнях"
+					},
+					{
+						"id": "C",
+						"text": "Що ринок надто малий для входу"
+					},
+					{
+						"id": "D",
+						"text": "Що кожен зал має сильну диференціацію"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник бутик-готелю планує додати спа, ресторан, дитячий клуб, консьєржа й бар на даху, щоб вирізнитися серед конкурентів. Витрати зростуть на 45%, а ціни номерів на 10%. Як це узгоджується з мисленням блакитного океану?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Добре узгоджується: більше функцій створює новий ринковий простір"
+					},
+					{
+						"id": "B",
+						"text": "Добре узгоджується, бо вища ціна свідчить про вищу цінність"
+					},
+					{
+						"id": "C",
+						"text": "Не узгоджується: лише додає чинники, витрати зростають значно швидше за ціну й не залучає неклієнтів"
+					},
+					{
+						"id": "D",
+						"text": "Узгоджується, якщо спа буде єдиним у місті"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап вивчав лише своїх 5000 нинішніх клієнтів, додав до продукту шість функцій і вважає, що після успіху ринок лишиться без конкурентів. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " помилки це показує?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Використання стратегічного полотна"
+					},
+					{
+						"id": "B",
+						"text": "Вивчення лише нинішніх клієнтів замість неклієнтів"
+					},
+					{
+						"id": "C",
+						"text": "Орієнтація на неклієнтів"
+					},
+					{
+						"id": "D",
+						"text": "Очікування, що новий простір залишиться без конкурентів після успіху"
+					},
+					{
+						"id": "E",
+						"text": "Перевірка того, що витрати дозволяють отримувати прибуток"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кав’ярня підвищує середній чек з $8 до $14 завдяки повільнішому формату з дегустаціями. Щотижневі відвідувачі падають з 1000 до 700, а витрати знижуються на 30%. Який висновок правильний?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Стратегія провалилася, бо обсяг упав"
+					},
+					{
+						"id": "B",
+						"text": "Ціни треба повернути до $8, щоб залучити відвідувачів"
+					},
+					{
+						"id": "C",
+						"text": "Результат неможливо оцінити, не знаючи цін конкурентів"
+					},
+					{
+						"id": "D",
+						"text": "Виторг зріс з $8000 до $9800, а витрати впали, тож менша, але інша клієнтура все одно може створювати інновацію цінності"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, як рамка чотирьох дій (усунути, зменшити, підвищити, створити) дає змогу фірмі одночасно знизити витрати й підвищити цінність для покупців. Наведіть один приклад."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому неклієнти є кращим джерелом ідей блакитного океану, ніж нинішні клієнти? Назвіть щонайменше два з трьох рівнів і поясніть, чим вони різняться."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У місті на 80 000 мешканців три автошколи конкурують ціною (курс коштує $420) і відсотком складених іспитів. Опитування показують, що багато дорослих старших за 30 років не вчаться водити, бо бояться руху й соромляться навчатися в групах з підлітками. Оберіть одне: знизити ціну на 15%, додати симулятори й автомобілі з GPS (витрати зростуть на 25%) або запустити програму для невпевнених дорослих: теорія онлайн, менше фіксованих годин, малі автомати, тренування на тихих вулицях і коучинг упевненості за $650. Обґрунтуйте вибір поняттями блакитного океану."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник спортивних напоїв конкурує з десятками брендів за кофеїном, різноманіттям смаків і рекламою знаменитостей. Він може обрати одне: запустити 12 нових смаків із кампанією за участі знаменитості або створити напій для дорослих старших за 55 років з низьким вмістом цукру, електролітами для тих, хто приймає ліки від тиску, і розповсюдженням через аптеки без реклами знаменитостей. Оберіть і поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "У місті на 600 000 мешканців 120 приватних стоматологічних клінік конкурують ціною (чищення коштує $60), сучасним обладнанням і онлайн-рекламою. Опитування показують, що 38% дорослих пропускають профілактичні огляди, здебільшого через страх і довгі черги; дехто взагалі відмовляється йти через вартість; а офісні працівники кажуть, що не мають часу в робочі години."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розробіть хід у блакитний океан за допомогою сітки ERRC (щонайменше один чинник у кожній із чотирьох дій), назвіть, на які рівні неклієнтів ви орієнтуєтеся, перевірте ціну й витрати та поясніть, як перевірите й захистите хід."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

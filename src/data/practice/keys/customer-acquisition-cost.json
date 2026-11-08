@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Fully loaded CAC includes every sales and marketing cost: $30,000 / 400 = $75. $50 counts ads only, $70 leaves out the software, and $55 leaves out the salaries."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Payback is CAC divided by monthly gross profit: $120 / ($40 × 50%) = $120 / $20 = 6 months. Three months uses revenue instead of gross profit, which ignores the cost of delivering the product; the other figures do not follow from the data."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Both divide the same costs, but blended CAC divides by all new customers, organic ones included. That is why blended CAC alone can hide an expensive paid channel."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A ratio far above the common target of about 3 can signal underinvestment: the company could probably win many more profitable customers by spending more on acquisition."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "With a three-month cycle, Q1 spend mostly produces Q2 customers: $90,000 / 30 = $3,000. $9,000 matches Q1 spend with Q1 customers, who came from earlier spending; $2,000 and $3,750 mix periods that do not match."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Commissions and agency fees are spent to win new customers. Servers and support serve customers already won (cost of delivery), and engineering rent is a fixed product cost."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Channel A brings $200 of lifetime gross profit for $80 (2.5:1), while B brings $60 for $50 (1.2:1). A lower CAC means little when customers leave quickly, so CAC must be read with retention."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The extra $10,000 bought only 100 extra customers, a marginal CAC of $100 against $90 of gross profit, so each loses $10. The average of $67 hides this rising cost of the next customer, and there is no universal $50 rule."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Dividing by free organic customers and leaving out salaries both make CAC look smaller than the real cost of a paid customer. A monthly period, channel tracking and comparison with lifetime value are all correct practice."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Acquisition is paid upfront, so a 4-month payback lets A fund new customers from earlier ones' gross profit. B must finance each customer for 30 months, so fast growth burns cash. The same ratio hides very different cash needs, and 3:1 is the usual target."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Total cost is $3,200. Blended CAC: $3,200 / 80 = $40. Paid CAC: $3,200 / 50 paid customers = $64. For budget decisions use paid CAC, ideally per channel (Instagram media $45, flyers $40 before the marketer's cost), because the 30 word-of-mouth customers would have come without the spend and make the paid channels look cheaper than they are."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates blended CAC of $40",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates paid CAC of $64 with all three costs",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that paid or channel CAC should guide the budget because organic customers hide the real cost",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A customer may see an Instagram ad, read a blog post a week later and then search the brand name and buy. A first-touch rule credits Instagram, a last-touch rule credits search, and the blog gets nothing either way. Multiplied across thousands of customers, the chosen rule decides which channel has more customers and therefore a lower CAC, so budgets can move towards a channel that only finished journeys others started. One consistent rule and tests that switch a channel off help check the result."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Gives a concrete multi-touch customer journey and shows different rules credit different channels",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that this shifts customers between channels and changes their CAC",
+					"points": 1
+				},
+				{
+					"criterion": "Names a way to reduce the problem (one consistent rule, holdout or switch-off tests)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Move budget from search to podcasts. Podcast CAC is $100 against $288 of lifetime gross profit (2.9:1); search CAC is $50 against $96 (1.9:1). Search pays back faster, in about 4 months against 8, but podcast customers bring three times the value. I would shift money in steps of $3,000 and watch whether podcast CAC rises as spend grows, because the next customer usually costs more than today's average."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates CAC and lifetime value for both channels ($100 vs $288, $50 vs $96)",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates or compares payback (about 8 vs 4 months)",
+					"points": 1
+				},
+				{
+					"criterion": "Names the risk of rising marginal CAC and a way to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Hire one. Today CAC is $3,000 against $400 of monthly gross profit, a 7.5-month payback and a $12,000 lifetime value (4:1). The new hires bring a marginal CAC of $40,000 / 10 = $4,000, a 10-month payback and 3:1, still healthy. But hiring two burns $120,000 during ramp-up and then funds each customer for 10 months, a big share of $300,000 when the lead supply is uncertain. One hire tests whether leads really support 5 extra deals before committing to the second."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates current CAC, payback and LTV:CAC ($3,000, 7.5 months, 4:1)",
+					"points": 2
+				},
+				{
+					"criterion": "Calculates the marginal CAC of the new hires ($4,000, 10-month payback)",
+					"points": 1
+				},
+				{
+					"criterion": "Weighs cash use during ramp-up against the $300,000 balance",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Total cost $60,000. Blended CAC: $60,000 / 1,000 = $60. Paid CAC: $60,000 / 650 = about $92. Lifetime gross profit: $12 × 10 = $120, so paid LTV:CAC is about 1.3:1 and payback about 7.7 months; the blended 2:1 looks healthier only because of free customers. Media CAC: Facebook $60, TikTok $120, affiliates $40. With overhead of about $28 per paid customer, TikTok costs about $148 and loses money on every customer. Cut TikTok, move that budget to affiliates and Facebook in steps while watching marginal CAC, and work on retention."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates blended CAC of $60 and paid CAC of about $92",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates lifetime value of $120, LTV:CAC of about 1.3 and payback of about 7.7 months",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates media CAC per channel ($60, $120, $40)",
+					"points": 1
+				},
+				{
+					"criterion": "Explains that the blended figure hides weak paid economics",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends cutting TikTok and shifting budget with a check on rising marginal CAC",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Повна CAC охоплює всі витрати на продажі й маркетинг: $30 000 / 400 = $75. $50 враховує лише рекламу, $70 не враховує програми, а $55 не враховує зарплати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Окупність це CAC, поділена на місячний валовий прибуток: $120 / ($40 × 50%) = $120 / $20 = 6 місяців. Три місяці виходять, якщо брати виторг, а не валовий прибуток, тобто ігнорувати вартість надання продукту; інші цифри з даних не випливають."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Обидві ділять ті самі витрати, але змішана CAC ділить їх на всіх нових клієнтів, разом з органічними. Саме тому одна лише змішана CAC може приховати дорогий платний канал."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Співвідношення значно вище за поширену ціль близько 3 може свідчити про недоінвестування: компанія, імовірно, могла б залучити набагато більше прибуткових клієнтів, якби більше витрачала на залучення."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "За тримісячного циклу витрати першого кварталу дають переважно клієнтів другого: $90 000 / 30 = $3 000. $9 000 зіставляє витрати першого кварталу з його ж клієнтами, які прийшли від попередніх витрат, а $2 000 і $3 750 змішують періоди, що не відповідають одне одному."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Комісійні й оплату агенції витрачають, щоб залучити нових клієнтів. Сервери й підтримка обслуговують уже залучених клієнтів (вартість надання продукту), а оренда для розробників це постійні витрати на продукт."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Канал A приносить $200 пожиттєвого валового прибутку за $80 (2,5:1), а B приносить $60 за $50 (1,2:1). Низька CAC мало що означає, коли клієнти швидко йдуть, тож CAC завжди треба читати разом з утриманням."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Додаткові $10 000 дали лише 100 додаткових клієнтів, тобто гранична CAC становить $100 проти $90 валового прибутку, і кожен із них приносить збиток $10. Середні $67 приховують зростання вартості наступного клієнта, а універсального правила про $50 немає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ділення на безкоштовних органічних клієнтів і пропуск зарплат роблять CAC меншою за справжню вартість платного клієнта. Місячний період, облік за каналами й порівняння з пожиттєвою цінністю це правильна практика."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Залучення оплачують наперед, тож окупність за 4 місяці дозволяє A фінансувати нових клієнтів з валового прибутку попередніх. B мусить фінансувати кожного клієнта 30 місяців, тож швидке зростання спалює гроші. Однакове співвідношення приховує дуже різні потреби в грошах, а 3:1 це звичайна ціль."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Загальні витрати становлять $3 200. Змішана CAC: $3 200 / 80 = $40. Платна CAC: $3 200 / 50 платних клієнтів = $64. Для рішень про бюджет потрібна платна CAC, а краще CAC за каналами (реклама в Instagram $45, листівки $40 без витрат на маркетологиню), бо 30 клієнтів із рекомендацій прийшли б і без витрат і роблять платні канали дешевшими, ніж вони є."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує змішану CAC $40",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує платну CAC $64 з усіма трьома статтями витрат",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що для бюджету потрібна платна CAC або CAC каналу, бо органічні клієнти приховують справжню вартість",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Клієнтка може побачити рекламу в Instagram, через тиждень прочитати статтю в блозі, а потім знайти бренд через пошук і купити. Правило першого контакту зараховує її Instagram, правило останнього контакту пошуку, а блог за будь-якого правила не отримує нічого. На тисячах клієнтів обране правило вирішує, який канал має більше клієнтів, а отже нижчу CAC, тож бюджет може перетікати до каналу, що лише завершує шлях, розпочатий іншими. Одне послідовне правило й тести з вимкненням каналу допомагають перевірити результат."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Наводить конкретний шлях клієнта з кількома контактами й показує, що різні правила зараховують різні канали",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що це перекидає клієнтів між каналами й змінює їхню CAC",
+					"points": 1
+				},
+				{
+					"criterion": "Називає спосіб зменшити проблему (одне послідовне правило, контрольна група чи вимкнення каналу)",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Перенести бюджет із пошуку в подкасти. CAC подкастів становить $100 проти $288 пожиттєвого валового прибутку (2,9:1), CAC пошуку $50 проти $96 (1,9:1). Пошук окуповується швидше, приблизно за 4 місяці проти 8, але клієнти з подкастів приносять утричі більше. Я переносив би гроші кроками по $3 000 і стежив би, чи зростає CAC подкастів зі збільшенням витрат, бо наступний клієнт зазвичай коштує дорожче за нинішнє середнє."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує CAC і пожиттєву цінність для обох каналів ($100 проти $288, $50 проти $96)",
+					"points": 2
+				},
+				{
+					"criterion": "Рахує або порівнює окупність (близько 8 проти 4 місяців)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик зростання граничної CAC і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Найняти одного. Зараз CAC становить $3 000 проти $400 місячного валового прибутку, окупність 7,5 місяця, пожиттєва цінність $12 000 (4:1). Нові продавці дають граничну CAC $40 000 / 10 = $4 000, окупність 10 місяців і 3:1, що все ще здорово. Але двоє продавців спалять $120 000 за час входження в роботу, а потім компанія фінансуватиме кожного клієнта 10 місяців, а це велика частка від $300 000, коли потік лідів непевний. Один найм перевірить, чи справді ліди дають 5 додаткових угод, перш ніж брати другого."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує нинішні CAC, окупність і LTV:CAC ($3 000, 7,5 місяця, 4:1)",
+					"points": 2
+				},
+				{
+					"criterion": "Рахує граничну CAC нових продавців ($4 000, окупність 10 місяців)",
+					"points": 1
+				},
+				{
+					"criterion": "Зважує витрати грошей за час входження в роботу на тлі $300 000 на рахунку",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Загальні витрати $60 000. Змішана CAC: $60 000 / 1 000 = $60. Платна CAC: $60 000 / 650 = близько $92. Пожиттєвий валовий прибуток: $12 × 10 = $120, тож платне LTV:CAC близько 1,3:1, а окупність близько 7,7 місяця; змішане 2:1 виглядає краще лише завдяки безкоштовним клієнтам. Медійна CAC: Facebook $60, TikTok $120, партнери $40. З накладними близько $28 на платного клієнта TikTok коштує близько $148 і приносить збиток на кожному клієнті. Відмовитися від TikTok, поступово перенести бюджет до партнерів і Facebook, стежачи за граничною CAC, і працювати над утриманням."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує змішану CAC $60 і платну CAC близько $92",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує пожиттєву цінність $120, LTV:CAC близько 1,3 і окупність близько 7,7 місяця",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує медійну CAC кожного каналу ($60, $120, $40)",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, що змішана цифра приховує слабку економіку платних каналів",
+					"points": 1
+				},
+				{
+					"criterion": "Радить відмовитися від TikTok і переносити бюджет, перевіряючи зростання граничної CAC",
+					"points": 2
+				}
+			]
+		}
+	}
+}

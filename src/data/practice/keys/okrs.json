@@ -1,0 +1,586 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Key results define success as outcomes, and initiatives are the bets placed to reach them, kept on a separate list. Option A swaps the two, the cadence for both is usually quarterly, and it is the objective, not the key result, that is qualitative."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Aspirational OKRs are stretch goals where around 0.6–0.7 is a good outcome. Full delivery is expected only for committed OKRs, a safe target would show up as a steady 1.0, and tying scores to bonuses is exactly what the method warns against."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The objective is a short, qualitative and memorable statement of where the team wants to go. The numbers belong to the key results, which show whether the objective is being reached."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "When money depends on the score, people protect it by choosing targets they are sure to hit. That is why OKR scoring is kept separate from compensation, so stretch goals stay honest."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Retention with a baseline and a target is an outcome that proves the subscription got easier to keep. The pause button and the redesign are initiatives that may or may not move retention, and interviews measure activity, not results."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Launching an app and hiring tutors can both be finished while nothing improves for students, so they are initiatives. Completion, refunds and the promoter score are outcomes with a baseline and a target."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "With 18 objectives and 90 key results nothing is a priority, and the point of a short list is to decide what not to work on. Tasks are not key results, and a yearly cycle removes the quarterly course correction the method relies on."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The key result still defines success, and the evidence shows the current initiative is the wrong bet, so the initiative should change. Lowering the target hides the problem, finishing the app is a sunk-cost argument, and dropping the objective throws away a goal the customers' answers still support."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "OKRs rely on teams drafting their own goals and on transparency, so that teams can align with each other without a manager translating targets. Scoring from 0.0 to 1.0, weekly check-ins and baselines are all standard parts of the method."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Countable outputs won attention while hard-to-measure research lost it, which is a known weakness of the method. A quarter was short enough to see the effect, bonuses would make gaming worse, and objectives are meant to be qualitative."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "All three are tasks: the team could visit 30 cafés, launch the blend and send every newsletter while no café becomes more loyal. Key results should be outcomes with a baseline and a target. Better versions: \"raise the share of café clients who reorder within 30 days from 45% to 65%\" and \"grow the number of cafés buying every month from 22 to 35\". The visits and the new blend move to the initiatives list as ways to reach these numbers."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies the three items as tasks or activities rather than outcomes",
+					"points": 1
+				},
+				{
+					"criterion": "Explains that tasks can be completed with no improvement in loyalty",
+					"points": 1
+				},
+				{
+					"criterion": "Writes two outcome key results, each with a baseline and a target, that measure loyalty (1 point each)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "When every OKR is public, each team can see what others are trying to move and adjust its own goals without a manager passing messages. If product aims to raise card activation from 40% to 60%, marketing can see it and target its campaign at users who signed up but never activated, instead of chasing raw downloads. Conflicts and duplicate work show up early, at drafting time, rather than at the end of the quarter."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: teams see each other's goals and align their own without a manager translating",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a concrete fintech example linking a product key result to a marketing choice",
+					"points": 1
+				},
+				{
+					"criterion": "Names the effect: fewer conflicting or duplicated priorities, spotted early",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "One company OKR with a monthly check-in. The agency needs focus: last year we took any project, so one objective such as \"become the go-to agency for clinics\" with two key results, like clinic clients from 3 to 8 and average project value from $6,000 to $9,000, forces us to choose. The full system adds planning overhead a 12-person team does not need, and three objectives per person means no priorities. Risk: a monthly check-in may slide, so the owner reviews the two numbers in the first Monday meeting each month."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the method's strengths (focus, deciding what not to do, measurable outcomes) and its overhead limit for a small firm",
+					"points": 2
+				},
+				{
+					"criterion": "Gives an example objective with at least one outcome key result that has a baseline and a target",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk of the choice and a way to watch it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Keep OKR scores out of pay. Today the average of 0.65 shows people set real stretch targets, which is what the method wants. Once 30% of a bonus depends on the score, each salesperson gains by writing targets they are sure to hit, so scores would jump towards 1.0 while actual ambition falls, and the OKRs would stop showing where the team is going. Risk: without money attached, some may ignore OKRs, so managers review them in weekly check-ins and discuss lessons at quarter end, separately from appraisal."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Explains the gaming mechanism: pay on scores leads to safe targets",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the 0.65 average as evidence of honest stretch goals and predicts scores drifting towards 1.0 if pay is linked",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk of the choice and how to manage it",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Three problems. Five objectives and 19 key results mean nothing is a priority. Eleven key results are tasks, so clinics can tick them off while the return rate stays at 48%. The 0.98 score with a 20% bonus link suggests targets are set safely, which is why a near-perfect score sits beside a flat real result. Revised set: one objective, \"Make every pet a lifelong patient\", with key results: yearly vaccination return from 48% to 58%, reminder-to-booking conversion from 20% to 35%, and new-client second visits within 90 days from 30% to 45%. Online booking and training go on the initiatives list, and the bonus moves off the OKR score."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies too many objectives and key results, and task-type key results, with numbers from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Links the 0.98 score to the bonus as a sign of safe targets",
+					"points": 1
+				},
+				{
+					"criterion": "Points out the gap between near-perfect scores and the flat 48% return rate",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a revised set: few objectives, outcome key results with baselines and targets, initiatives kept separate, scoring separated from pay",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ключові результати визначають успіх як наслідок, а ініціативи це ставки, зроблені заради нього, і їх записують окремо. Варіант A міняє їх місцями, ритм для обох зазвичай квартальний, а якісно формулюють ціль, а не ключовий результат."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Амбітні OKR це цілі на розтягнення, де 0,6–0,7 вважають добрим результатом. Повного виконання чекають лише від обов’язкових OKR, обережна ціль давала б стабільне 1,0, а прив’язка оцінок до премій якраз те, від чого метод застерігає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ціль це коротке, якісне формулювання напряму, яке легко запам’ятати. Числа належать ключовим результатам, що показують, чи досягається ціль."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Коли гроші залежать від оцінки, люди захищають її, обираючи цілі, які точно виконають. Саме тому оцінювання OKR тримають окремо від винагороди, щоб амбітні цілі залишалися чесними."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Утримання з базовим і цільовим значенням це наслідок, який доводить, що підписку стало легше зберігати. Кнопка й редизайн це ініціативи, які можуть і не зрушити утримання, а інтерв’ю вимірюють активність, а не результат."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Застосунок можна запустити, а викладачів найняти, і при цьому для студентів нічого не покращиться, тож це ініціативи. Частка завершених уроків, повернення коштів і NPS це наслідки з базовим і цільовим значенням."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "За 18 цілей і 90 ключових результатів пріоритету немає, а короткий список потрібен, щоб вирішити, чим не займатися. Завдання не є ключовими результатами, а річний цикл прибирає квартальне коригування курсу, на якому тримається метод."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ключовий результат і далі визначає успіх, а факти показують, що поточна ініціатива це хибна ставка, тож змінювати треба ініціативу. Зниження цілі ховає проблему, доробка застосунку спирається на вже витрачені зусилля, а відмова від цілі викидає мету, яку відповіді клієнтів досі підтримують."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "OKR спираються на те, що команди самі складають свої цілі, і на прозорість, щоб команди узгоджувалися між собою без керівника-перекладача. Шкала від 0,0 до 1,0, щотижневі перевірки й базові значення це стандартні елементи методу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Показники, які легко порахувати, перетягнули увагу, а дослідження, яке важко виміряти, її втратило, і це відома слабкість методу. Квартал виявився достатньо коротким, щоб побачити ефект, премії лише посилили б підгонку, а ціль і має бути якісною."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Усі три пункти це завдання: команда може відвідати 30 кав’ярень, запустити суміш і надіслати кожну розсилку, а жодна кав’ярня не стане лояльнішою. Ключові результати мають бути наслідками з базовим і цільовим значенням. Кращі варіанти: «підняти частку кав’ярень, що повторно замовляють протягом 30 днів, з 45% до 65%» і «збільшити кількість кав’ярень, які купують щомісяця, з 22 до 35». Візити й нова суміш переходять до списку ініціатив як способи досягти цих чисел."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає всі три пункти як завдання чи активність, а не наслідки",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, що завдання можна виконати без жодного зростання лояльності",
+					"points": 1
+				},
+				{
+					"criterion": "Записує два ключові результати-наслідки з базовим і цільовим значенням, що вимірюють лояльність (по 1 балу за кожен)",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Коли всі OKR відкриті, кожна команда бачить, що намагаються зрушити інші, і підлаштовує свої цілі без керівника-посередника. Якщо продуктова команда хоче підняти активацію карток з 40% до 60%, маркетинг це бачить і спрямовує кампанію на тих, хто зареєструвався, але не активував картку, замість гонитви за завантаженнями. Конфлікти й дублювання помітні рано, ще під час складання цілей, а не наприкінці кварталу."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: команди бачать цілі одна одної й узгоджують свої без керівника-перекладача",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить конкретний фінтех-приклад, що пов’язує продуктовий ключовий результат із рішенням маркетингу",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ефект: менше суперечливих чи дубльованих пріоритетів, і їх видно рано",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Одне корпоративне OKR із щомісячною перевіркою. Агенції бракує фокусу: торік ми брали будь-які проєкти, тож одна ціль, як-от «стати агенцією номер один для клінік», із двома ключовими результатами, скажімо клієнтів-клінік з 3 до 8 і середня вартість проєкту з $6 000 до $9 000, змусить обирати. Повна система додає роботи з планування, яка команді з 12 людей не потрібна, а три цілі на кожного означають відсутність пріоритетів. Ризик: щомісячна перевірка може забутися, тож власник переглядає обидва числа на першій понеділковій нараді кожного місяця."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Спирається на сильні сторони методу (фокус, рішення, чим не займатися, вимірювані наслідки) і на обмеження щодо зайвої роботи для малої фірми",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить приклад цілі принаймні з одним ключовим результатом-наслідком із базовим і цільовим значенням",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик вибору й спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Тримати оцінки OKR окремо від оплати. Сьогоднішнє середнє 0,65 показує, що люди ставлять справді амбітні цілі, а саме цього метод і хоче. Щойно 30% премії залежатимуть від оцінки, кожному продавцю стане вигідно писати цілі, які він точно виконає, тож оцінки підскочать ближче до 1,0, а реальна амбітність упаде, і OKR перестануть показувати напрям команди. Ризик: без грошей дехто може ігнорувати OKR, тому керівники обговорюють їх на щотижневих перевірках і розбирають висновки наприкінці кварталу окремо від атестації."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює механізм підгонки: оплата за оцінку веде до безпечних цілей",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує середнє 0,65 як доказ чесних амбітних цілей і прогнозує зсув оцінок до 1,0 у разі прив’язки до оплати",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик вибору й спосіб ним керувати",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Три проблеми. П’ять цілей і 19 ключових результатів означають, що пріоритету немає. Одинадцять ключових результатів це завдання, тож клініки можуть їх виконати, поки частка повернень стоїть на 48%. Оцінка 0,98 за прив’язки 20% премії вказує на обережні цілі, тому майже ідеальна оцінка співіснує з незмінним реальним результатом. Оновлений набір: одна ціль «Зробити кожну тварину пацієнтом на все життя» з ключовими результатами: повернення на щорічне щеплення з 48% до 58%, конверсія нагадувань у записи з 20% до 35%, повторний візит нових клієнтів протягом 90 днів з 30% до 45%. Онлайн-запис і навчання йдуть у список ініціатив, а премію відв’язують від оцінки OKR."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає забагато цілей і ключових результатів та ключові результати-завдання, з числами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Пов’язує оцінку 0,98 із премією як ознаку обережних цілей",
+					"points": 1
+				},
+				{
+					"criterion": "Вказує на розрив між майже ідеальними оцінками й незмінними 48% повернень",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує оновлений набір: мало цілей, ключові результати-наслідки з базовим і цільовим значенням, окремі ініціативи, оцінювання відокремлене від оплати",
+					"points": 2
+				}
+			]
+		}
+	}
+}

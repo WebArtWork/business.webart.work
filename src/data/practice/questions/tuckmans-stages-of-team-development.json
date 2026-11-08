@@ -1,0 +1,838 @@
+{
+	"slug": "tuckmans-stages-of-team-development",
+	"topicId": 83,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In which order do new teams typically pass through Tuckman’s four main stages?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Forming, norming, storming, performing"
+					},
+					{
+						"id": "B",
+						"text": "Storming, forming, norming, performing"
+					},
+					{
+						"id": "C",
+						"text": "Forming, storming, norming, performing"
+					},
+					{
+						"id": "D",
+						"text": "Forming, performing, storming, norming"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In which stage do members openly disagree about goals, roles, methods and influence?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Forming"
+					},
+					{
+						"id": "B",
+						"text": "Storming"
+					},
+					{
+						"id": "C",
+						"text": "Norming"
+					},
+					{
+						"id": "D",
+						"text": "Performing"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Open conflict in the storming stage shows that the team has failed."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A new manager or new members joining can send a performing team back to an earlier stage."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In week one, a team of six is polite, nobody is sure about roles and everyone looks to the project lead for direction. What fits best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Write a team charter with goals, roles, deadlines and working agreements"
+					},
+					{
+						"id": "B",
+						"text": "Hold a closing retrospective"
+					},
+					{
+						"id": "C",
+						"text": "Delegate all decisions to the team"
+					},
+					{
+						"id": "D",
+						"text": "Wait for conflict before doing anything"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " descriptions match the performing stage?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The team manages itself and focuses on results"
+					},
+					{
+						"id": "B",
+						"text": "Members are polite and wait for instructions"
+					},
+					{
+						"id": "C",
+						"text": "Disagreements are handled constructively"
+					},
+					{
+						"id": "D",
+						"text": "People argue openly about who does what"
+					},
+					{
+						"id": "E",
+						"text": "The team holds its closing retrospective"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Four weeks into a project, a designer and a lead developer clash repeatedly over scope. What should the project lead do?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Tell them to stop arguing in front of the team"
+					},
+					{
+						"id": "B",
+						"text": "Replace one of them at once"
+					},
+					{
+						"id": "C",
+						"text": "Wait and see whether it passes"
+					},
+					{
+						"id": "D",
+						"text": "Name the conflict, mediate and agree explicit rules for deciding scope disputes"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A performing team of six, delivering 34 story points a sprint, gains two new members. Output falls to 26 points over two sprints. What is the best explanation?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The newcomers are simply less capable than the original six"
+					},
+					{
+						"id": "B",
+						"text": "The group is partly re-forming: roles, trust and norms need renegotiating with the newcomers"
+					},
+					{
+						"id": "C",
+						"text": "Performing teams cannot accept new members"
+					},
+					{
+						"id": "D",
+						"text": "The fall proves that storming means the team has failed"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements are genuine limitations of Tuckman’s model?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It was built mainly from therapy, training and laboratory groups, not workplace project teams"
+					},
+					{
+						"id": "B",
+						"text": "Gersick found that project teams often show long inertia broken by a shift around the midpoint of the deadline"
+					},
+					{
+						"id": "C",
+						"text": "Tuckman added adjourning in the original 1965 article"
+					},
+					{
+						"id": "D",
+						"text": "The model states exactly how many weeks each stage lasts"
+					},
+					{
+						"id": "E",
+						"text": "It has been confirmed by controlled trials on thousands of corporate teams"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A six-person team finished a 16-week project at 34 points a sprint. The next project starts in two weeks, and a manager wants to reshuffle everyone “to spread talent.” What is the best view?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Reshuffle, because teams should always be rotated after each project"
+					},
+					{
+						"id": "B",
+						"text": "Keep the exact same team forever"
+					},
+					{
+						"id": "C",
+						"text": "Weigh it first: the weeks spent reaching performing are an investment, so rotate only if the benefit is larger"
+					},
+					{
+						"id": "D",
+						"text": "Split the team into pairs to avoid conflict"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A six-person agency team behaves like this: weeks 1–2 polite with vague roles, weeks 3–5 clashes over scope, weeks 6–7 agreement on a definition of done and review times, and from week 8 output of 34 points with no rework. Name the stage in each period and give one leader action for each."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "During the project in Q11, output fell from 22 points in forming to 18 in storming, then rose to 34 in performing. Calculate the percentage drop and the later rise from the forming level, and explain why trying to skip the conflict would not have helped."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A product team of seven is in week five of a 13-week project. Two senior members clash over priorities, and output has fallen from 30 to 21 points a sprint. Choose one: (a) replace both senior members, (b) hold a facilitated session to agree decision rules and roles, then check progress every week, or (c) tell the team to wait because conflicts pass by themselves. Justify using Tuckman’s model."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A consultancy reshuffles its teams after every 16-week project. Data show a new team needs about 7 weeks to reach performing, with output around 20 points a sprint against 34 at full performance. Evaluate the policy with numbers and recommend a change."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A non-profit’s team of eight prepares a 12-week event. The first two weeks are smooth, and the leader proudly says, “We skipped the conflict stage.” In week six a milestone is missed, two members blame each other and two leave. There is no final review after the event, and the same leader will run the next one."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Diagnose the situation with Tuckman’s model and propose a plan for the next event, including the end of the project."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У якому порядку нові команди зазвичай проходять чотири основні етапи Такмена?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Формування, нормування, «штурм», продуктивна робота"
+					},
+					{
+						"id": "B",
+						"text": "«Штурм», формування, нормування, продуктивна робота"
+					},
+					{
+						"id": "C",
+						"text": "Формування, «штурм», нормування, продуктивна робота"
+					},
+					{
+						"id": "D",
+						"text": "Формування, продуктивна робота, «штурм», нормування"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На якому етапі учасники відкрито сперечаються про цілі, ролі, методи й вплив?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Формування"
+					},
+					{
+						"id": "B",
+						"text": "«Штурм»"
+					},
+					{
+						"id": "C",
+						"text": "Нормування"
+					},
+					{
+						"id": "D",
+						"text": "Продуктивна робота"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Відкритий конфлікт на етапі «штурму» свідчить, що команда провалилася."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Новий керівник або нові учасники можуть повернути продуктивну команду до попереднього етапу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У перший тиждень команда з шести людей ввічлива, ніхто не певен щодо ролей, і всі чекають вказівок від керівника проєкту. Що підходить найкраще?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Скласти статут команди з цілями, ролями, термінами й домовленостями про роботу"
+					},
+					{
+						"id": "B",
+						"text": "Провести підсумкову ретроспективу"
+					},
+					{
+						"id": "C",
+						"text": "Делегувати всі рішення команді"
+					},
+					{
+						"id": "D",
+						"text": "Чекати конфлікту й нічого не робити"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " описи відповідають етапу продуктивної роботи?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Команда керує собою й зосереджена на результаті"
+					},
+					{
+						"id": "B",
+						"text": "Учасники ввічливі й чекають вказівок"
+					},
+					{
+						"id": "C",
+						"text": "Розбіжності розв’язують конструктивно"
+					},
+					{
+						"id": "D",
+						"text": "Люди відкрито сперечаються, хто що робить"
+					},
+					{
+						"id": "E",
+						"text": "Команда проводить підсумкову ретроспективу"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Через чотири тижні після старту проєкту дизайнер і провідний розробник раз у раз сперечаються про обсяг робіт. Що має зробити керівник проєкту?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Сказати їм припинити суперечки на очах у команди"
+					},
+					{
+						"id": "B",
+						"text": "Одразу замінити одного з них"
+					},
+					{
+						"id": "C",
+						"text": "Почекати, чи мине саме"
+					},
+					{
+						"id": "D",
+						"text": "Назвати конфлікт, виступити посередником і домовитися про чіткі правила розв’язання суперечок про обсяг"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продуктивна команда з шести людей, що видає 34 стор-поінти за спринт, отримує двох нових учасників. За два спринти результат падає до 26 поінтів. Яке пояснення найкраще?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Новачки просто менш здібні за початкову шістку"
+					},
+					{
+						"id": "B",
+						"text": "Група частково формується заново: ролі, довіру й норми треба переузгодити з новачками"
+					},
+					{
+						"id": "C",
+						"text": "Продуктивні команди не можуть приймати нових учасників"
+					},
+					{
+						"id": "D",
+						"text": "Падіння доводить, що «штурм» означає провал команди"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження є справжніми обмеженнями моделі Такмена?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Її побудовано переважно на терапевтичних, навчальних і лабораторних групах, а не на робочих проєктних командах"
+					},
+					{
+						"id": "B",
+						"text": "Ґерсік виявила, що проєктні команди часто мають тривалу інерцію, яку перериває злам приблизно посередині строку"
+					},
+					{
+						"id": "C",
+						"text": "Такмен додав розформування вже в початковій статті 1965 року"
+					},
+					{
+						"id": "D",
+						"text": "Модель точно вказує, скільки тижнів триває кожен етап"
+					},
+					{
+						"id": "E",
+						"text": "Її підтверджено контрольованими експериментами на тисячах корпоративних команд"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда з шести людей завершила 16-тижневий проєкт зі 34 поінтами за спринт. Наступний проєкт стартує за два тижні, і керівник хоче перетасувати всіх, «щоб розподілити таланти». Яка оцінка найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Перетасувати, бо команди завжди слід ротувати після кожного проєкту"
+					},
+					{
+						"id": "B",
+						"text": "Залишити саме цей склад назавжди"
+					},
+					{
+						"id": "C",
+						"text": "Спершу зважити: тижні, витрачені на вихід до продуктивності, це інвестиція, тож ротувати лише тоді, коли вигода більша"
+					},
+					{
+						"id": "D",
+						"text": "Розбити команду на пари, щоб уникнути конфліктів"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда агенції з шести людей поводиться так: тижні 1–2 ввічливо й розмиті ролі, тижні 3–5 сутички щодо обсягу, тижні 6–7 домовленість про критерії готовності й часи перегляду, а з 8-го тижня результат 34 поінти без доопрацювань. Назвіть етап кожного періоду й одну дію лідера для кожного."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Під час проєкту з питання 11 результат упав із 22 поінтів на формуванні до 18 на «штурмі», а потім зріс до 34 на продуктивній роботі. Розрахуйте відсоткове падіння й подальше зростання від рівня формування та поясніть, чому спроба оминути конфлікт не допомогла б."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Продуктова команда з семи людей перебуває на п’ятому тижні 13-тижневого проєкту. Двоє старших учасників сперечаються про пріоритети, і результат упав із 30 до 21 поінта за спринт. Оберіть одне: (а) замінити обох старших учасників, (б) провести модеровану зустріч, щоб узгодити правила ухвалення рішень і ролі, а потім щотижня перевіряти прогрес, або (в) сказати команді почекати, бо конфлікти минають самі. Обґрунтуйте за моделлю Такмена."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Консалтингова компанія перетасовує команди після кожного 16-тижневого проєкту. Дані показують, що новій команді потрібно близько 7 тижнів, щоб вийти на продуктивну роботу, з результатом приблизно 20 поінтів за спринт проти 34 за повної продуктивності. Оцініть політику числами й порадьте зміну."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Команда неприбуткової організації з восьми людей готує 12-тижневу подію. Перші два тижні проходять гладко, і керівниця гордо каже: «Ми пропустили етап конфлікту». На шостому тижні зривають віху, двоє учасників звинувачують один одного, і двоє йдуть. Підсумкового огляду після події немає, а наступну проводитиме та сама керівниця."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Проаналізуйте ситуацію за моделлю Такмена й запропонуйте план для наступної події, зокрема завершення проєкту."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Blank’s model treats a startup as a search for a repeatable business model and gives that search its own steps. It runs beside product development, not instead of it, and it is not about manufacturing or brochures."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Discovery is the first step: write down the guesses and test them in conversation with real customers. Validation then proves they will buy, creation builds demand and company building sets up departments."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Validation needs evidence of buying: money paid, contracts signed and a sales process that repeats with strangers. Friendly opinions are cheap and often polite."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A failed hypothesis means the team does not yet know the right customer, problem or price, so it returns to discovery with new hypotheses. Spending more on the same plan only repeats the failure."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It asks about recent real behaviour and the cost of the problem, so the answer is evidence. The first two invite polite answers, and a logo opinion says nothing about the problem."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Paid commitments and a repeatable process with strangers are the proof of validation. Interviews, social posts and investor opinions show interest in a problem or a story, not buying."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Learning who actually buys is a result of discovery and validation, and the pitch and channel must follow it. More owners or a lower price do not fix talking to the wrong person."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The gap between stated interest and payment means a hypothesis is wrong: perhaps the buyer, the urgency or the price. The model sends the team back to learn, not forward to scale. Sales and ads would amplify a flawed plan."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Hiring before validation scales an unproven process, and pitching in interviews yields polite answers rather than learning. Meeting customers, writing hypotheses and asking about behaviour are what the model recommends."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The model was written mainly for business-to-business technology, where a small number of buyers can be interviewed in depth. In mass consumer markets, numbers from experiments are needed that conversations cannot give."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In the early stage the startup is searching for the right customer, problem and price, and only the founders can change the product and the business model based on what they hear. Hired salespeople execute a known script and may filter or soften the feedback, so learning would not reach the people who decide. Founders who do the work themselves also feel the objections first hand."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that early conversations are about learning and only founders can change the product or model",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that hired sales staff execute a known process, so feedback is filtered or lost",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Discovery tests whether the problem and the proposed solution matter: the evidence is interviews that reveal a real problem, how people handle it today and what it costs them. Validation tests whether customers will buy: the evidence is money paid or contracts signed, and a documented sales process that repeats with buyers who do not know the founders, at a known price and cycle."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Defines discovery and gives suitable evidence (problem, current behaviour, cost)",
+					"points": 2
+				},
+				{
+					"criterion": "Defines validation and gives suitable evidence (payment, repeatable process with strangers)",
+					"points": 2
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Run 15 more pilots with strangers first. Three pilots from the founder’s network do not prove a repeatable process, and “would love it” in interviews is not payment. The model says to spend on demand creation and hiring only after validation. I would target at least 8 of 15 strangers paying $60 for two months, with a documented sequence of steps and a known sales cycle. Hiring six salespeople now would scale an unproven pitch. Risk: the investor may not wait, so I would ask for a staged deal, with the first part released at the validation result."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the model with case evidence (pilots from the network, interviews are not payment, hiring after validation)",
+					"points": 2
+				},
+				{
+					"criterion": "Defines a measurable validation test",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk or a way to handle the investor",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Return to discovery. Two signings in 40 demos with consistent feedback show the hypothesis about the buyer is wrong: the person who likes the product is not the person who pays. New hypotheses: the buyer is the regional manager, and a 30-day pilot at $30 per practice avoids the long budget process. Test: meet 15 regional managers, offer the pilot and aim for at least 5 to start within six weeks and half to convert to paid. Trade-off: it delays revenue and uses runway, but more demos to the wrong person would only repeat the 5% result."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Reads the data correctly (wrong buyer, long cycle, 5% conversion)",
+					"points": 2
+				},
+				{
+					"criterion": "Chooses to return to discovery with specific new hypotheses",
+					"points": 1
+				},
+				{
+					"criterion": "Designs a test with a numeric criterion",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off (time, cash) honestly",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "She has finished most of discovery and is in validation: the problem is real (22 of 35, 12% of revenue), the buyer is known (the owner) and there is a rhythm (Monday mornings). But validation is not done. Only 4 of 10 pilots renewed (40%), every sale was made by the founder, and a sale costs $400 against $39 a month, which is a payback of about ten months. The plan to hire and advertise is premature: it would scale a process that has not yet been shown to work without her. Conditions: at least 60% pilot renewals, a written sales script that a stranger can run, a second salesperson achieving similar results, and a cost per sale under $150. Trade-off: waiting delays growth and competitors may enter, but spending $60,000 on an unproven channel risks the runway."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies that she is in validation, not yet ready for creation",
+					"points": 1
+				},
+				{
+					"criterion": "Uses evidence from the case (40% renewal, founder-led sales, $400 per sale)",
+					"points": 1
+				},
+				{
+					"criterion": "Sets clear conditions to prove before hiring and spending (renewal level, repeatable process with others, cost per sale)",
+					"points": 2
+				},
+				{
+					"criterion": "Judges the plan as premature and says what to do now",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Модель Бланка розглядає стартап як пошук повторюваної бізнес-моделі й дає цьому пошуку власні кроки. Вона йде поруч із розробкою продукту, а не замість неї, і не стосується виробництва чи брошур."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Пошук це перший крок: записати здогадки й перевірити їх у розмовах зі справжніми клієнтами. Підтвердження потім доводить, що клієнти купуватимуть, створення попиту наростить попит, а розбудова компанії вибудовує відділи."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підтвердження потребує доказів купівлі: сплачених грошей, підписаних договорів і процесу продажу, що повторюється з незнайомими людьми. Дружні думки нічого не коштують і часто ввічливі."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Не підтверджена гіпотеза означає, що команда ще не знає правильного клієнта, проблеми чи ціни, тож повертається до пошуку з новими гіпотезами. Більші витрати на той самий план лише повторюють невдачу."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Воно питає про недавню справжню поведінку й вартість проблеми, тож відповідь є доказом. Перші два запрошують ввічливі відповіді, а думка про логотип нічого не каже про проблему."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Платні зобов’язання й повторюваний процес із незнайомими людьми є доказом підтвердження. Інтерв’ю, дописи в соцмережах і думки інвесторів показують інтерес до проблеми чи історії, а не купівлю."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Дізнатися, хто насправді купує, це результат пошуку й підтвердження, і пропозиція та канал мають йти за ним. Більше власників чи нижча ціна не виправляють розмову не з тією людиною."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Розрив між заявленим інтересом і оплатою означає, що якась гіпотеза хибна: можливо, покупець, нагальність чи ціна. Модель повертає команду вчитися, а не рухає вперед масштабувати. Продажі й реклама лише підсилили б хибний план."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Наймання до підтвердження масштабує недоведений процес, а продаж в інтерв’ю дає ввічливі відповіді замість знань. Зустрічі з клієнтами, запис гіпотез і питання про поведінку це те, що радить модель."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Модель писали переважно для технологій у продажах бізнесу, де невелику кількість покупців можна опитати глибоко. На масових споживчих ринках потрібні цифри з експериментів, яких розмови не дадуть."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "На ранньому етапі стартап шукає правильного клієнта, проблему й ціну, і лише засновники можуть змінити продукт та бізнес-модель за почутим. Наймані продавці виконують відомий сценарій і можуть фільтрувати чи пом’якшувати відгуки, тож знання не дійдуть до тих, хто ухвалює рішення. Засновники, які працюють самі, ще й першими відчувають заперечення на собі."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що ранні розмови про навчання і лише засновники можуть змінити продукт чи модель",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що наймані продавці виконують відомий процес, тож відгуки фільтруються або губляться",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Пошук перевіряє, чи важливі проблема й запропоноване рішення: доказ це інтерв’ю, що розкривають справжню проблему, як люди справляються з нею нині й чого це їм коштує. Підтвердження перевіряє, чи купуватимуть клієнти: доказ це сплачені гроші або підписані договори й задокументований процес продажу, що повторюється з покупцями, які не знають засновників, за відомої ціни й тривалості циклу."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає пошук і дає відповідний доказ (проблема, поточна поведінка, вартість)",
+					"points": 2
+				},
+				{
+					"criterion": "Визначає підтвердження і дає відповідний доказ (оплата, повторюваний процес із незнайомими)",
+					"points": 2
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Спершу провести ще 15 пілотів із незнайомими людьми. Три пілоти з мережі засновника не доводять повторюваного процесу, а «дуже сподобалося б» в інтерв’ю це не оплата. Модель каже витрачатися на створення попиту й наймання лише після підтвердження. Я поставив би ціль: щонайменше 8 із 15 незнайомих платять $60 протягом двох місяців, із задокументованою послідовністю кроків і відомим циклом продажу. Наймання шістьох продавців зараз масштабувало б недоведену пропозицію. Ризик: інвестор може не чекати, тож я попросив би угоду в кілька етапів, де перша частина надходить після результату підтвердження."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує модель із доказами з умови (пілоти з мережі, інтерв’ю не є оплатою, наймання після підтвердження)",
+					"points": 2
+				},
+				{
+					"criterion": "Визначає вимірюваний тест підтвердження",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик або спосіб діяти з інвестором",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Повернутися до пошуку. Дві підписки на 40 демонстрацій за однакових відгуків показують, що гіпотеза про покупця хибна: той, кому подобається продукт, не той, хто платить. Нові гіпотези: покупець це регіональний менеджер, а 30-денний пілот за $30 на практику обходить довгий бюджетний процес. Тест: зустрітися з 15 регіональними менеджерами, запропонувати пілот і прагнути, щоб принаймні 5 стартували за шість тижнів, а половина перейшла на платний план. Компроміс: це відкладає виручку й витрачає запас грошей, але більше демонстрацій не тій людині лише повторили б результат 5%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно читає дані (не той покупець, довгий цикл, конверсія 5%)",
+					"points": 2
+				},
+				{
+					"criterion": "Обирає повернення до пошуку з конкретними новими гіпотезами",
+					"points": 1
+				},
+				{
+					"criterion": "Планує тест із числовим критерієм",
+					"points": 1
+				},
+				{
+					"criterion": "Чесно називає компроміс (час, гроші)",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Вона завершила більшість пошуку й перебуває на етапі підтвердження: проблема справжня (22 із 35, 12% виручки), покупця відомо (власниця), є ритм (понеділок зранку). Але підтвердження ще не завершене. Лише 4 із 10 пілотів продовжили (40%), кожен продаж зробила сама засновниця, а продаж коштує $400 при $39 на місяць, тобто окупність близько десяти місяців. План найняти людей і рекламуватися передчасний: він масштабував би процес, який ще не показав, що працює без неї. Умови: щонайменше 60% продовжень пілотів, письмовий сценарій продажу, який може провести незнайомий працівник, другий продавець із подібним результатом і вартість продажу нижче $150. Компроміс: очікування сповільнює зростання й можуть прийти конкуренти, але $60 000 на недоведений канал загрожують запасу грошей."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає, що вона на підтвердженні й ще не готова до створення попиту",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує докази з умови (40% продовжень, продажі засновниці, $400 за продаж)",
+					"points": 1
+				},
+				{
+					"criterion": "Задає чіткі умови, які слід довести перед наймом і витратами (рівень продовжень, повторюваний процес з іншими людьми, вартість продажу)",
+					"points": 2
+				},
+				{
+					"criterion": "Оцінює план як передчасний і каже, що робити зараз",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс",
+					"points": 1
+				}
+			]
+		}
+	}
+}

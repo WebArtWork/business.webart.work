@@ -1,0 +1,870 @@
+{
+	"slug": "sunk-cost-fallacy",
+	"topicId": 59,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is a sunk cost?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A cost that can be recovered through resale or a refund"
+					},
+					{
+						"id": "B",
+						"text": "A cost that will be paid in the future whichever option you choose"
+					},
+					{
+						"id": "C",
+						"text": "Past spending that cannot be recovered whatever you decide next"
+					},
+					{
+						"id": "D",
+						"text": "A fixed cost that stays the same as sales grow"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What should drive the decision to continue or stop a project?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Only the future costs and benefits that differ between the options"
+					},
+					{
+						"id": "B",
+						"text": "The amount of money already spent on it"
+					},
+					{
+						"id": "C",
+						"text": "The number of years the team has worked on it"
+					},
+					{
+						"id": "D",
+						"text": "The wish to show that the original decision was right"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "You paid $80 for a concert ticket and feel ill on the night. The $80 should influence whether you go."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Machinery bought for $100,000 that could now be resold for $40,000 is only partly sunk, and the $40,000 matters for the decision."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which statement is the sunk cost fallacy?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "“The remaining $300,000 will bring $500,000, so we should continue.”"
+					},
+					{
+						"id": "B",
+						"text": "“We have spent $2 million, but the rest will cost more than it returns, so we stop.”"
+					},
+					{
+						"id": "C",
+						"text": "“Let us write the stop criteria before we start.”"
+					},
+					{
+						"id": "D",
+						"text": "“We have spent $2 million already, so let us finish rather than waste it.”"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " of these are truly sunk when a company reviews a failing project?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A $15,000 supplier deposit that can be refunded in full"
+					},
+					{
+						"id": "B",
+						"text": "A $50,000 non-refundable licence fee already paid"
+					},
+					{
+						"id": "C",
+						"text": "A $20,000 machine that can be sold for $12,000"
+					},
+					{
+						"id": "D",
+						"text": "Next month’s $8,000 salary that has not yet been paid"
+					},
+					{
+						"id": "E",
+						"text": "$30,000 spent on market research whose results already exist"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A film studio has spent $8 million on a film. Finishing needs another $3 million, and the studio now expects only $2.4 million of revenue from it."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the right decision?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Finish, otherwise the $8 million is wasted"
+					},
+					{
+						"id": "B",
+						"text": "Stop: the last $3 million returns only $2.4 million"
+					},
+					{
+						"id": "C",
+						"text": "Finish, because the studio has gone too far to stop now"
+					},
+					{
+						"id": "D",
+						"text": "Stop, because the film has already lost $8 million"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A mobile game studio has spent $400,000 on a game. Option 1: spend $150,000 more to finish it, for expected revenue of $210,000. Option 2: spend $90,000 to port an older hit, for expected revenue of $180,000. Option 3: cancel everything."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which option is best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Finish the original game, because $400,000 has been invested in it"
+					},
+					{
+						"id": "B",
+						"text": "Cancel, since the project has already lost $400,000"
+					},
+					{
+						"id": "C",
+						"text": "Port the older hit: it nets +$90,000 on future money, against +$60,000 for finishing"
+					},
+					{
+						"id": "D",
+						"text": "All options are equal, because the $400,000 is spent either way"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " practices best reduce the sunk cost fallacy in a company?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ask an uninvolved colleague to review the future numbers without telling them how much has been spent."
+					},
+					{
+						"id": "B",
+						"text": "Let the manager who launched the project decide alone whether to stop it."
+					},
+					{
+						"id": "C",
+						"text": "Write stop criteria and review dates before the project starts."
+					},
+					{
+						"id": "D",
+						"text": "Raise the budget after bad news to show confidence."
+					},
+					{
+						"id": "E",
+						"text": "Remind the team how far they have come."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A manager says: “If we abandon this joint project, our partners will see us as a company that breaks commitments, and that will cost us future deals.” How should this be judged?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It can be legitimate when the reputation loss is a real future cost that belongs in the comparison"
+					},
+					{
+						"id": "B",
+						"text": "It is always the sunk cost fallacy, because it refers to the past"
+					},
+					{
+						"id": "C",
+						"text": "It proves that past spending should decide the case"
+					},
+					{
+						"id": "D",
+						"text": "It should be ignored, because feelings about reputation are never a cost"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A café owner paid $25,000 for a roasting corner. Roasted beans bring $4,000 a year in sales, and upkeep and ingredients cost $6,000. The equipment could be sold for $9,000 today. Explain what is sunk, what is relevant and what the owner should do."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why the sunk cost fallacy is stronger when a manager personally championed the project, and give two safeguards."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A drone startup has spent $600,000 on a delivery-drone project. Regulators will allow only 30% of the planned routes. Option A: finish the project for another $400,000, which is expected to bring $350,000 of contribution over three years. Option B: redirect the team to inspection drones for $250,000, expected to bring $500,000. Option C: stop. Choose one and justify with figures."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A logistics company has spent $3 million on its own routing software. Finishing needs $1.2 million and will save $900,000 a year for five years. A ready-made product costs $500,000 plus $100,000 a year and would save $800,000 a year. The CFO wants to drop the project because “$3 million is wasted”. The CTO wants to finish it because “we have come this far”. Decide using only the future numbers and comment on both arguments."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A fashion retailer opened a flagship store 18 months ago with a $900,000 fit-out that cannot be recovered. The lease still has 36 months to run at $20,000 a month. The store earns $15,000 a month before rent. The retailer can exit the lease by paying a $240,000 break fee, or spend $60,000 on a relaunch that is expected to lift monthly earnings before rent to $19,000. The owner wants to close the store so that “we stop the bleeding”."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Classify the costs, calculate the result of staying as it is, exiting and relaunching over the remaining 36 months, and recommend a plan with a way to limit the risk."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке неповернені витрати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Витрати, які можна повернути перепродажем чи відшкодуванням"
+					},
+					{
+						"id": "B",
+						"text": "Витрати, які будуть сплачені в майбутньому за будь-якого обраного варіанта"
+					},
+					{
+						"id": "C",
+						"text": "Минулі витрати, які неможливо повернути, що б ви не вирішили далі"
+					},
+					{
+						"id": "D",
+						"text": "Постійні витрати, що не змінюються зі зростанням продажів"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що має визначати рішення продовжити чи припинити проєкт?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Лише майбутні витрати й вигоди, що різняться між варіантами"
+					},
+					{
+						"id": "B",
+						"text": "Сума грошей, уже витрачена на нього"
+					},
+					{
+						"id": "C",
+						"text": "Кількість років, які команда над ним працювала"
+					},
+					{
+						"id": "D",
+						"text": "Бажання показати, що початкове рішення було правильним"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ви заплатили $80 за квиток на концерт і почуваєтеся хворим у день події. $80 мають вплинути на рішення, чи йти."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обладнання, куплене за $100 000, яке тепер можна перепродати за $40 000, є неповерненою витратою лише частково, і $40 000 мають значення для рішення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке твердження є помилкою неповернених витрат?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "«Решта $300 000 принесе $500 000, тож продовжуємо»."
+					},
+					{
+						"id": "B",
+						"text": "«Ми витратили $2 млн, але решта коштуватиме більше, ніж принесе, тож зупиняємося»."
+					},
+					{
+						"id": "C",
+						"text": "«Давайте запишемо критерії зупинки до початку»."
+					},
+					{
+						"id": "D",
+						"text": "«Ми вже витратили $2 млн, тож закінчімо, щоб гроші не пропали»."
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " з цих витрат справді неповернені, коли компанія переглядає провальний проєкт?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Завдаток постачальнику $15 000, який повністю повертається"
+					},
+					{
+						"id": "B",
+						"text": "Невідшкодовувана плата за ліцензію $50 000, уже сплачена"
+					},
+					{
+						"id": "C",
+						"text": "Верстат за $20 000, який можна продати за $12 000"
+					},
+					{
+						"id": "D",
+						"text": "Зарплата наступного місяця $8000, яку ще не виплатили"
+					},
+					{
+						"id": "E",
+						"text": "$30 000, витрачені на дослідження ринку, результати якого вже є"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кіностудія витратила $8 млн на фільм. Для завершення потрібно ще $3 млн, а виторг від нього студія тепер очікує лише $2,4 млн."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке рішення правильне?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Закінчити, інакше $8 млн пропадуть"
+					},
+					{
+						"id": "B",
+						"text": "Зупинитися: останні $3 млн повернуть лише $2,4 млн"
+					},
+					{
+						"id": "C",
+						"text": "Закінчити, бо студія зайшла надто далеко, щоб зупинятися"
+					},
+					{
+						"id": "D",
+						"text": "Зупинитися, бо фільм уже втратив $8 млн"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Студія мобільних ігор витратила $400 000 на гру. Варіант 1: витратити ще $150 000, щоб її завершити, з очікуваним виторгом $210 000. Варіант 2: витратити $90 000 на порт старого хіта з очікуваним виторгом $180 000. Варіант 3: скасувати все."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який варіант найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Завершити оригінальну гру, бо в неї вкладено $400 000"
+					},
+					{
+						"id": "B",
+						"text": "Скасувати, бо проєкт уже втратив $400 000"
+					},
+					{
+						"id": "C",
+						"text": "Портувати старий хіт: він дає +$90 000 на майбутніх грошах проти +$60 000 за завершення"
+					},
+					{
+						"id": "D",
+						"text": "Усі варіанти рівні, бо $400 000 витрачено за будь-якого з них"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " практики найкраще зменшують помилку неповернених витрат у компанії?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Попросити стороннього колегу переглянути майбутні цифри, не кажучи, скільки вже витрачено."
+					},
+					{
+						"id": "B",
+						"text": "Дозволити менеджерові, який запустив проєкт, самому вирішувати, чи його зупиняти."
+					},
+					{
+						"id": "C",
+						"text": "Записати критерії зупинки й дати перегляду до початку проєкту."
+					},
+					{
+						"id": "D",
+						"text": "Збільшити бюджет після поганих новин, щоб показати впевненість."
+					},
+					{
+						"id": "E",
+						"text": "Нагадати команді, як далеко вони зайшли."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Менеджер каже: «Якщо ми кинемо цей спільний проєкт, партнери вважатимуть нас компанією, що порушує зобов’язання, і це коштуватиме нам майбутніх угод». Як це оцінити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Це може бути слушним, коли втрата репутації є справжньою майбутньою витратою, що належить до порівняння"
+					},
+					{
+						"id": "B",
+						"text": "Це завжди помилка неповернених витрат, бо стосується минулого"
+					},
+					{
+						"id": "C",
+						"text": "Це доводить, що минулі витрати мають вирішувати справу"
+					},
+					{
+						"id": "D",
+						"text": "Це слід ігнорувати, бо почуття щодо репутації ніколи не є витратою"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник кав’ярні заплатив $25 000 за куточок для обсмажування. Обсмажена кава приносить $4000 продажів на рік, а утримання й інгредієнти коштують $6000. Обладнання можна продати сьогодні за $9000. Поясніть, що є неповерненим, що має значення і що власнику робити."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому помилка неповернених витрат сильніша, коли менеджер особисто просував проєкт, і назвіть два запобіжники."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Стартап із дронів витратив $600 000 на проєкт дронів-доставників. Регулятор дозволить лише 30% запланованих маршрутів. Варіант A: завершити проєкт за ще $400 000, що має принести $350 000 внеску за три роки. Варіант Б: перекинути команду на дрони для інспекцій за $250 000, що має принести $500 000. Варіант В: зупинитися. Оберіть один і обґрунтуйте цифрами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Логістична компанія витратила $3 млн на власну програму маршрутизації. Для завершення потрібно $1,2 млн, і вона заощаджуватиме $900 000 на рік протягом п’яти років. Готовий продукт коштує $500 000 плюс $100 000 на рік і заощаджуватиме $800 000 на рік. Фінансовий директор хоче закрити проєкт, бо «$3 млн пропали». Технічний директор хоче завершити, бо «ми вже так далеко зайшли». Вирішіть лише за майбутніми цифрами й прокоментуйте обидва аргументи."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Модний рітейлер відкрив флагманський магазин 18 місяців тому з облаштуванням за $900 000, яке не можна повернути. До кінця оренди ще 36 місяців по $20 000 на місяць. Магазин заробляє $15 000 на місяць до оренди. Рітейлер може вийти з оренди, сплативши штраф $240 000, або витратити $60 000 на перезапуск, що має підняти місячний заробіток до оренди до $19 000. Власник хоче закрити магазин, щоб «зупинити кровотечу»."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Класифікуйте витрати, обчисліть результат за 36 місяців, що залишилися, у разі збереження як є, виходу й перезапуску та порадьте план зі способом обмежити ризик."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Market development takes what the firm already sells to new regions, segments or channels. Penetration keeps both product and market, product development changes the product, and diversification changes both."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The same products go to the same shoppers, who are encouraged to buy more often, which is penetration. Nothing about the market or the product is new, so the other three quadrants do not fit."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A bigger pack of the same blocks for the same buyers changes almost nothing for the customer or the company, so it is still market penetration. Calling it a new product is the loose definition of \"new\" the lesson warns about."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The rising risk across the quadrants is a generalisation. A software or game company can often localise a proven product for a new country more safely than it can build a new product from scratch."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Cyber insurance is a new product for clients the broker already knows. Odesa is market development, win-backs are penetration, and car washes are unrelated diversification."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Poland is a new geographic market and schools are a new segment, while the product stays the same in both. The app is product development, the discount is penetration, and the café is diversification."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Expected revenue is $64,000 for $20,000 invested in Option 1, against $75,000 for $60,000 in Option 2 and $60,000 for $400,000 in Option 3, so Option 1 gives the best return relative to risk. The highest expected total is not the same as the best ratio, the clinic adds risk rather than spreading it, and covering every quadrant is not a goal."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "This is related diversification: billing, customers and installers are shared, which is the synergy that makes it safer than unrelated moves, and a small pilot tests it cheaply. Diversification is risky but not forbidden, a national launch bets everything before learning, and penetration is not automatically better when its headroom is unknown."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A blue version changes little for buyers or the firm, so it is still penetration, and the plan chases a new market before measuring cheaper growth at home. A deadline and a pilot are steps the lesson recommends, and the plan does not actually estimate chances of success."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The matrix only asks what is new, not how a strong incumbent will respond or whether the market is worth entering, so the real risk is higher than the label suggests. The product is not new, so it is not diversification, no quadrant is always riskier, and synergy is part of Ansoff's thinking."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "(1) Market development: the same kefir goes to a new city and a new channel, cafés. (2) Product development: the yogurt is new, but the supermarkets and shoppers are known. (3) Market penetration: the same milk, the same stores, just more volume per shopper. (4) Diversification, and unrelated: electricity is a new product for a new market and shares neither technology nor customers with dairy."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Places move 1 in market development, citing the new city or channel",
+					"points": 1
+				},
+				{
+					"criterion": "Places move 2 in product development, noting that the shoppers are known",
+					"points": 1
+				},
+				{
+					"criterion": "Places move 3 in market penetration",
+					"points": 1
+				},
+				{
+					"criterion": "Places move 4 in diversification and notes that it is unrelated",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "In diversification the firm learns a new product and a new market at once, so it cannot lean on existing customers or skills, and every estimate is a guess. If an insurance broker opened a gym, it would know neither fitness nor gym members. Related diversification shares something, which Ansoff called synergy: if the broker started a payroll service for the same small businesses, it could use its client relationships, sales team and billing, so less is unknown."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: new product and new market at once, with no existing customers or skills to lean on",
+					"points": 2
+				},
+				{
+					"criterion": "Gives an unrelated move for the broker as an example of high risk",
+					"points": 1
+				},
+				{
+					"criterion": "Explains related diversification as sharing resources (synergy) with a concrete shared element",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Raise occupancy. It is market penetration: same rooms, same city, known guests. Seven extra points of occupancy are 120 × 365 × 0.07 ≈ 3,066 room nights, or about $245,000 a year at $80, so roughly $490,000 over two years at a low cost. Uzhhorod is market development that needs $6 million and earns nothing in year one. Catering is diversification into skills the team lacks. Risk: occupancy may stall at 72%, so track direct bookings monthly and test corporate packages as a backup."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Places each option in its quadrant",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates the revenue from higher occupancy correctly (about $245,000 a year, about $490,000 over two years)",
+					"points": 2
+				},
+				{
+					"criterion": "Names a risk of the chosen option and a way to watch it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Move A. Its expected revenue is 40% of $400,000, or $160,000, double its $80,000 cost. Move B is product development with a bigger prize but an expected $450,000 against $600,000 of cost. The matrix would call Brazil market development and B product development, both moderate risk, but its risk levels are generalisations: for a game studio, localising a proven game is far less uncertain than building a new one. Risk: Brazilian players may behave differently, so test with a soft launch and one ad budget before scaling."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Computes expected revenue for both moves ($160,000 and $450,000) and compares them with cost",
+					"points": 2
+				},
+				{
+					"criterion": "Names the quadrants and uses a limitation (risk levels are generalisations, or the matrix ignores market attractiveness)",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a small test before full commitment",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Service contracts are penetration: 360 farms × $2,500 = $900,000, expected $675,000 for $150,000. The branch is market development: expected $1.35 million for $1.5 million. Drones are product development: expected $400,000 for $300,000. The elevator is diversification: expected $750,000 for $5 million, the worst ratio and new skills. Plan: start service contracts and drones now, together $1.7 million if both succeed for $450,000. Close the gap by testing the new region with a small sales office and a mobile service team before committing to a full branch. Drop the elevator."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Places all four options in the correct quadrants",
+					"points": 1
+				},
+				{
+					"criterion": "Computes expected revenue for each option correctly ($675,000, $1.35 million, $400,000, $750,000) and compares it with investment",
+					"points": 2
+				},
+				{
+					"criterion": "Recommends starting with the low-risk options and testing the riskier one with a pilot",
+					"points": 2
+				},
+				{
+					"criterion": "Checks whether the plan reaches the $2 million target and says how to close the gap",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Розвиток ринку означає, що фірма продає те, що вже має, у нових регіонах, сегментах чи каналах. Проникнення зберігає і продукт, і ринок, розвиток продукту змінює продукт, а диверсифікація змінює обидва."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ті самі продукти йдуть тим самим покупцям, яких заохочують купувати частіше, тобто це проникнення. Ні ринок, ні продукт не нові, тож інші три квадранти не підходять."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Більша упаковка тих самих кубиків для тих самих покупців майже нічого не змінює ні для клієнта, ні для компанії, тож це досі проникнення на ринок. Називати це новим продуктом означає надто вільно тлумачити «нове», про що застерігає урок."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зростання ризику від квадранта до квадранта є узагальненням. Компанія, що робить програми чи ігри, часто безпечніше локалізує перевірений продукт для нової країни, ніж створить новий з нуля."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кіберстрахування це новий продукт для клієнтів, яких брокер уже знає. Одеса означає розвиток ринку, повернення клієнтів є проникненням, а автомийки це непов’язана диверсифікація."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Польща це новий географічний ринок, а школи це новий сегмент, і в обох випадках продукт той самий. Застосунок означає розвиток продукту, знижка є проникненням, а кафе це диверсифікація."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Очікуваний виторг варіанта 1 становить $64 000 на $20 000 інвестицій, тоді як у варіанта 2 це $75 000 на $60 000, а у варіанта 3 $60 000 на $400 000, тож варіант 1 дає найкращу віддачу відносно ризику. Найбільша очікувана сума ще не означає найкраще співвідношення, клініка додає ризику, а не розподіляє його, а охоплення всіх квадрантів не є метою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це пов’язана диверсифікація: білінг, клієнти й монтажники спільні, і саме ця синергія робить її безпечнішою за непов’язані кроки, а невеликий пілот дешево її перевіряє. Диверсифікація ризикована, але не заборонена, національний запуск ставить усе на кін ще до навчання, а проникнення не є автоматично кращим, коли його запас невідомий."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Синій варіант мало що змінює для покупців чи фірми, тож це досі проникнення, а план женеться за новим ринком, не вимірявши дешевшого зростання вдома. Дедлайн і пілот це кроки, які радить урок, а ймовірностей успіху план насправді не оцінює."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Матриця питає лише, що саме нове, але не як відповість сильний гравець і чи варто взагалі заходити на ринок, тож реальний ризик вищий, ніж показує ярлик. Продукт не новий, тому це не диверсифікація, жоден квадрант не є завжди ризикованішим, а синергія якраз є частиною підходу Ансоффа."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "(1) Розвиток ринку: той самий кефір іде в нове місто й новий канал, кав’ярні. (2) Розвиток продукту: йогурт новий, але супермаркети й покупці знайомі. (3) Проникнення на ринок: те саме молоко, ті самі магазини, просто більший обсяг на покупця. (4) Диверсифікація, до того ж непов’язана: електроенергія це новий продукт для нового ринку, без спільних технологій чи клієнтів із молочним бізнесом."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Відносить крок 1 до розвитку ринку, згадуючи нове місто чи канал",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить крок 2 до розвитку продукту, зазначаючи, що покупці знайомі",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить крок 3 до проникнення на ринок",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить крок 4 до диверсифікації й зазначає, що вона непов’язана",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "У диверсифікації фірма водночас опановує новий продукт і новий ринок, тож не може спертися на наявних клієнтів чи навички, і кожна оцінка є здогадом. Якби страховий брокер відкрив спортзал, він не знав би ні фітнесу, ні відвідувачів залів. Пов’язана диверсифікація має щось спільне, що Ансофф назвав синергією: якщо брокер запустить сервіс нарахування зарплат для тих самих малих бізнесів, він використає стосунки з клієнтами, команду продажів і білінг, тож невідомого менше."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: новий продукт і новий ринок одночасно, без наявних клієнтів чи навичок, на які можна спертися",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить непов’язаний крок брокера як приклад високого ризику",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює пов’язану диверсифікацію як спільне використання ресурсів (синергію) з конкретним спільним елементом",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підняти завантаження. Це проникнення на ринок: ті самі номери, те саме місто, знайомі гості. Сім додаткових пунктів завантаження дають 120 × 365 × 0,07 ≈ 3 066 ночей, тобто близько $245 000 на рік за ціни $80, або приблизно $490 000 за два роки за невеликих витрат. Ужгород це розвиток ринку, що потребує $6 млн і нічого не дає в перший рік. Кейтеринг означає диверсифікацію в навички, яких команда не має. Ризик: завантаження може зупинитися на 72%, тож щомісяця відстежуйте прямі бронювання й тестуйте корпоративні пакети як запасний план."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить кожен варіант до його квадранта",
+					"points": 1
+				},
+				{
+					"criterion": "Правильно рахує виторг від вищого завантаження (близько $245 000 на рік, близько $490 000 за два роки)",
+					"points": 2
+				},
+				{
+					"criterion": "Називає ризик обраного варіанта й спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Крок A. Його очікуваний виторг становить 40% від $400 000, тобто $160 000, удвічі більше за вартість $80 000. Крок B це розвиток продукту з більшим призом, але очікуваними $450 000 проти $600 000 витрат. Матриця назвала б Бразилію розвитком ринку, а B розвитком продукту, обидва з помірним ризиком, але її рівні ризику є узагальненням: для ігрової студії локалізація перевіреної гри значно менш невизначена, ніж створення нової. Ризик: бразильські гравці можуть поводитися інакше, тому спершу зробіть м’який запуск з одним рекламним бюджетом, а тоді масштабуйте."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує очікуваний виторг обох кроків ($160 000 і $450 000) і порівнює його з вартістю",
+					"points": 2
+				},
+				{
+					"criterion": "Називає квадранти й використовує обмеження (рівні ризику є узагальненням або матриця ігнорує привабливість ринку)",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує невеликий тест перед повним рішенням",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сервісні контракти це проникнення: 360 господарств × $2 500 = $900 000, очікувано $675 000 на $150 000. Філія означає розвиток ринку: очікувано $1,35 млн на $1,5 млн. Дрони це розвиток продукту: очікувано $400 000 на $300 000. Елеватор це диверсифікація: очікувано $750 000 на $5 млн, найгірше співвідношення та ще й нові навички. План: зараз запустити сервісні контракти й дрони, разом $1,7 млн у разі успіху обох за $450 000 інвестицій. Решту розриву закрити, перевіривши нову область невеликим офісом продажів і мобільною сервісною бригадою, перш ніж відкривати повну філію. Від елеватора відмовитися."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно відносить усі чотири варіанти до квадрантів",
+					"points": 1
+				},
+				{
+					"criterion": "Правильно рахує очікуваний виторг кожного варіанта ($675 000, $1,35 млн, $400 000, $750 000) і порівнює його з інвестиціями",
+					"points": 2
+				},
+				{
+					"criterion": "Радить почати з низькоризикових варіантів, а ризикованіший перевірити пілотом",
+					"points": 2
+				},
+				{
+					"criterion": "Перевіряє, чи план досягає цілі в $2 млн, і пояснює, як закрити розрив",
+					"points": 1
+				}
+			]
+		}
+	}
+}

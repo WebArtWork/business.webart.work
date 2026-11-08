@@ -1,0 +1,570 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A capability is the firm’s ability to combine resources through routines, and the re-planning routine does exactly that. Trucks and cash are tangible resources, and the brand is an intangible resource."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The finish is embedded in relationships and team culture, which is social complexity, so taking two people does not move it. Path dependence is about a unique history that cannot be replayed, a patent is a legal right the case never mentions, and scale is about cost per unit."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "RBV assumes heterogeneity: firms hold different bundles of resources, and that difference explains why companies in one industry perform differently."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Being rare is not enough: a strategic resource must be linked to a reason customers choose you or a cost you avoid. A licence that changes neither price nor speed earns nothing."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Referral ties and a surgical record took years to build and cannot be bought, so the rival cannot match them quickly. The X-ray machines and the lease can be bought on the open market, and a richer rival can simply outspend the advertising."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Know-how that lives in the team’s history and coordination cannot be bought or carried off by one person, so it is tied to the firm. Shelving, rented space and off-the-shelf software can all be bought by any rival."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "RBV explains why firms facing the same industry perform differently, so it looks at internal resources and capabilities. Wholesalers, regulation and buyers are the same for both chains, so they cannot explain the gap."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The strategic resource is the masters’ know-how, and RBV says to protect and develop it before it walks out of the door. A CNC router can be bought by any rival and gives parity at best, while advertising and a showroom sell a resource that is about to disappear."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Vans, stock and an office are available on the open market, and RBV warns that markets shift, so key resources must be reviewed and developed. Including an intangible is correct, Five Forces is a different lens rather than a prerequisite, and the problem is the quality of the list, not its length."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Defining valuable resources as those that create advantage, then explaining advantage by valuable resources, is the circular reasoning Priem and Butler pointed out. The other criticisms are real but are not what this argument shows."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The trucks and the leased warehouse are tangible resources; competitors can buy or lease the same. The zero-spoilage record is an intangible resource (reputation), and the rerouting routine is a capability. The record and the routine are strategic: hospitals choose a carrier they can trust with medicines, and both took 15 years of history and practice to build, so a rival cannot buy them."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Classifies all four correctly: trucks and warehouse tangible, record intangible, routine capability",
+					"points": 2
+				},
+				{
+					"criterion": "Names the record and the routine as strategic and links them to hospital customers and to being hard to buy or copy",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The original RBV is static: it tells the chain its store network is valuable and hard to copy, but not that a shift in the market can make it less relevant. This is why dynamic capabilities were developed: the ability to renew resources as markets change. The chain should use the stores as pick-up and same-day delivery points and build a prescription app, turning the old resource into part of a new one."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Names the static nature of the original view: a resource’s value can fade as the market shifts",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the case (store network losing relevance to online delivery)",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes building new capabilities, or names dynamic capabilities, with a concrete step",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Build the orthopaedic centre. The surgeons’ experience is valuable (owners will travel and pay for it), rare (the nearest service is 200 km away) and hard to copy, because 1,200 operations of practice cannot be bought. Standard clinics use resources any rival can lease, and a price cut uses no resource at all. To protect the asset, sign retention contracts and have each surgeon train a junior. Risk: if one surgeon leaves, the centre loses half its capability, so track referrals per surgeon and start training at once."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Shows the surgeons’ experience is valuable, rare and hard to copy, citing the 1,200 operations or the 200 km distance",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the other options rely on resources rivals can buy or on none",
+					"points": 1
+				},
+				{
+					"criterion": "Names how to protect or develop the resource and a risk to watch",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Option A. RBV says to enter markets that use your strategic resources. Cosmetics brands value exactly what the firm has built: a picking routine with 99.8% on-time dispatch and years of batch-tracking practice. Both grew inside the company, so rivals cannot simply buy them. Option B is larger, but floor space and forklifts are tangible assets anyone can rent, so the firm would compete only on price. A bigger market without a distinctive resource gives parity at best."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Links each option to the firm’s resources: A uses the picking routine and batch data, B needs only buyable assets",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that market size alone does not create advantage without a distinctive resource",
+					"points": 1
+				},
+				{
+					"criterion": "Uses an RBV test (hard to buy or copy, linked to customer value) with evidence from the case",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear choice that follows from the analysis",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Tangible: vans and cash. Intangible: the certification and the grid relationships. Capability: the design software and the routine around it. Vans, cash and the certification give parity, since rivals have or can buy them. The strategic resources are the software and the grid ties: both cut time to first power, which customers value most. The software rests on six years of path-dependent development; the grid ties rest on social complexity. Strategy: market “first power in five weeks”, keep the software in-house, spread the grid relationships across several staff so they do not depend on one person, and use the cash to extend the software to commercial roofs."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Classifies the resources and notes that vans, cash and the certification give only parity",
+					"points": 2
+				},
+				{
+					"criterion": "Identifies the design software and grid ties as strategic, linked to speed to first power, and names an isolating mechanism for at least one",
+					"points": 2
+				},
+				{
+					"criterion": "Recommends a strategy built on these resources with a concrete step to protect or extend them",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Здібність це вміння фірми поєднувати ресурси через усталені процедури, і перебудова маршрутів робить саме це. Вантажівки й гроші це матеріальні ресурси, а бренд належить до нематеріальних."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Полірування вбудоване в стосунки й культуру команди, а це і є соціальна складність, тож двоє людей його не переносять. Залежність від траєкторії стосується унікальної історії, яку не повториш, патенту в умові немає, а масштаб впливає на витрати на одиницю."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Підхід виходить із неоднорідності: фірми мають різні набори ресурсів, і саме ця різниця пояснює, чому компанії однієї галузі мають різні результати."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Рідкісності замало: стратегічний ресурс має бути пов’язаний із причиною, з якої вас обирають, або з витратами, яких ви уникаєте. Ліцензія, що не змінює ні ціни, ні швидкості, нічого не заробляє."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зв’язки з партнерами й хірургічний досвід будувалися роками й не продаються, тож конкурент не наздожене їх швидко. Апарати й оренду можна купити на ринку, а багатший конкурент легко перевищить рекламний бюджет."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ноу-хау, що живе в історії й злагодженості команди, не можна купити чи забрати з однією людиною, тож воно прив’язане до фірми. Стелажі, орендовану площу й готову програму може купити будь-який конкурент."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ресурсний підхід пояснює, чому фірми в однаковій галузі мають різні результати, тому дивиться на внутрішні ресурси та здібності. Дистриб’ютори, регулювання й покупці однакові для обох мереж, тож розриву вони не пояснюють."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Стратегічний ресурс це знання майстрів, і підхід радить захищати й розвивати його, поки він не пішов разом із людьми. Верстат може купити будь-який конкурент, тож він дає щонайбільше паритет, а реклама й шоурум продають ресурс, який от-от зникне."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Фургони, запаси й офіс доступні на ринку, а підхід застерігає, що ринки змінюються, тож ключові ресурси треба перевіряти й розвивати. Нематеріальний ресурс у переліку доречний, п’ять сил це інша оптика, а не обов’язковий перший крок, а проблема в якості переліку, а не в його довжині."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Називати цінними ресурси, що створюють перевагу, а потім пояснювати перевагу цінними ресурсами, це і є замкнене коло, на яке вказували Прім і Батлер. Інші закиди справжні, але це міркування ілюструє не їх."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Вантажівки й орендований склад це матеріальні ресурси: конкуренти можуть купити чи орендувати такі самі. Історія без зіпсованих партій це нематеріальний ресурс (репутація), а процедура перенаправлення це здібність. Стратегічні саме репутація й процедура: лікарні обирають перевізника, якому можна довірити ліки, а обидва активи будувалися 15 років практики, тож конкурент їх не купить."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно класифікує всі чотири пункти: вантажівки й склад матеріальні, репутація нематеріальна, процедура це здібність",
+					"points": 2
+				},
+				{
+					"criterion": "Називає репутацію й процедуру стратегічними й пов’язує їх із клієнтами-лікарнями та зі складністю купити чи скопіювати",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Початковий підхід статичний: він каже мережі, що її аптеки цінні й важкі для копіювання, але не попереджає, що зміна ринку може зробити їх менш актуальними. Саме тому з’явилася ідея динамічних здібностей, тобто вміння оновлювати ресурси, коли змінюється ринок. Мережі варто перетворити аптеки на пункти видачі й доставки того самого дня та запустити застосунок для рецептів, щоб старий ресурс став частиною нового."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Називає статичність початкового підходу: цінність ресурсу може згасати зі зміною ринку",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до кейсу (мережа аптек втрачає актуальність через онлайн-доставку)",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує будувати нові здібності або називає динамічні здібності з конкретним кроком",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Створити ортопедичний центр. Досвід хірургів цінний (власники поїдуть і заплатять за нього), рідкісний (найближча послуга за 200 км) і важкий для копіювання, бо практику 1 200 операцій не купиш. Звичайні клініки спираються на ресурси, які конкурент може орендувати, а знижка взагалі не використовує жодного ресурсу. Щоб захистити актив, підпишіть із хірургами договори про утримання й доручіть кожному навчати молодшого колегу. Ризик: якщо один хірург піде, центр втратить половину здібності, тому стежте за направленнями до кожного й починайте навчання негайно."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Показує, що досвід хірургів цінний, рідкісний і важкий для копіювання, згадуючи 1 200 операцій або 200 км",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому інші варіанти спираються на ресурси, які конкурент може купити, або взагалі на жодні",
+					"points": 1
+				},
+				{
+					"criterion": "Називає, як захистити чи розвинути ресурс, і ризик, за яким стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Варіант A. Ресурсний підхід радить виходити на ринки, де працюють ваші стратегічні ресурси. Брендам косметики потрібне саме те, що компанія збудувала: комплектація з 99,8% вчасних відвантажень і роки практики з відстеження партій. Обидва активи виросли всередині компанії, тож конкуренти не можуть їх просто купити. Варіант B більший, але площу й навантажувачі може орендувати будь-хто, і фірма конкуруватиме лише ціною. Більший ринок без особливого ресурсу дає щонайбільше паритет."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пов’язує кожен варіант із ресурсами фірми: A використовує процедуру комплектації й дані про партії, B потребує лише активів, які можна купити",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що сам розмір ринку не дає переваги без особливого ресурсу",
+					"points": 1
+				},
+				{
+					"criterion": "Застосовує критерій підходу (важко купити чи скопіювати, пов’язано з цінністю для клієнта) з доказами з умови",
+					"points": 1
+				},
+				{
+					"criterion": "Робить чіткий вибір, що випливає з аналізу",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Матеріальні: фургони й гроші. Нематеріальні: сертифікат і стосунки з оператором мережі. Здібність: програма проєктування й процедура роботи з нею. Фургони, гроші й сертифікат дають паритет, бо конкуренти мають їх або можуть купити. Стратегічні ресурси це програма й стосунки з оператором: обидва скорочують час до першої генерації, який клієнти цінують найбільше. Програма спирається на шість років розробки (залежність від траєкторії), стосунки на соціальну складність. Стратегія: рекламувати «перша генерація за п’ять тижнів», тримати програму всередині компанії, розподілити стосунки з оператором між кількома працівниками, щоб вони не залежали від однієї людини, і спрямувати гроші на адаптацію програми для комерційних дахів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Класифікує ресурси й зазначає, що фургони, гроші й сертифікат дають лише паритет",
+					"points": 2
+				},
+				{
+					"criterion": "Визначає програму й стосунки з оператором як стратегічні, пов’язує їх зі швидкістю до першої генерації й називає ізолювальний механізм хоча б для одного",
+					"points": 2
+				},
+				{
+					"criterion": "Пропонує стратегію на основі цих ресурсів із конкретним кроком для їх захисту чи розширення",
+					"points": 2
+				}
+			]
+		}
+	}
+}

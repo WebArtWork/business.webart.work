@@ -1,0 +1,602 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Stable income, predictable rules and job security are safety needs. Belonging is about acceptance and team ties, esteem about respect and recognition, and self-actualization about mastery and meaningful challenge."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Prepotency is the claim that a more basic unmet need, such as safety, tends to dominate until it is reasonably met. Options A and B contradict the hierarchy, and Maslow argued the opposite of D: a satisfied deficiency need stops motivating."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Maslow described the order as relative: a need only has to be partly met before the next one emerges. The strict ladder is a later simplification."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Reviews found little evidence for the ranking, and cross-national studies found the needs broadly universal but satisfied in no fixed order. The categories hold up far better than the sequence."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Being noticed, respected and credited for ideas are esteem needs. Pay and secure contracts cover physiological and safety needs, and a friendly team covers belonging."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Skipped inspections threaten physical safety, and rolling contracts threaten stable income, both safety needs. Social events concern belonging, thanks concern esteem, and a career path concerns growth."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Late pay and last-minute shifts threaten basic security, and the hierarchy suggests recognition and purpose fall flat while those needs are in doubt. The workshop, award and coaching target higher needs and would likely be read as ignoring the real problem."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Treating the levels as a strict ladder is a known misuse: a modestly paid nurse can still be driven by purpose, and the order is not supported by research. Asking the nurses tests what actually motivates them. Ignoring pay or swapping it for recognition makes the opposite mistake."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "An average hides the new hire worried about rent and the senior specialist seeking autonomy, and the hierarchy's order is not confirmed by research. Gathering evidence, sorting complaints into categories and rechecking after a reorganization are recommended steps."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Layoffs can push a whole team back to safety concerns, which then outweigh growth and esteem. Until uncertainty is reduced, stretch projects, team events and titles target needs that are no longer in focus."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "No hot meal is physiological, slippery floors are safety, new staff eating alone is belonging, and the chef taking credit is esteem. I would fix the floors and the meals first, because unmet basic needs tend to dominate and an injury risk is serious. Both are cheap to address. The belonging and esteem problems still matter and can be worked on in parallel, for example with a buddy system, since people pursue several needs at once."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Classifies the meal as physiological and the floors as safety",
+					"points": 1
+				},
+				{
+					"criterion": "Classifies eating alone as belonging and credit-taking as esteem",
+					"points": 1
+				},
+				{
+					"criterion": "Chooses the basic gaps (floors, meals) first",
+					"points": 1
+				},
+				{
+					"criterion": "Justifies with prepotency while noting that higher needs can be addressed in parallel",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Deficiency needs press hardest when missing and fade once met: if the tester gets a secure contract and fair pay, more security adds little motivation. Growth needs keep motivating as they are fed: when she learns test automation and leads a new project, she wants more challenge, not less. The evidence is weak, though: reviews found little support for the idea that a satisfied need stops motivating, so a manager should check with the tester rather than assume."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the distinction: deficiency needs stop motivating once met, growth needs keep motivating as they are fed",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the tester with concrete details for both kinds of need",
+					"points": 1
+				},
+				{
+					"criterion": "States that research gives weak support to this claim",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Market-rate pay plus fixed rosters. Pay 12% below market and weekly roster changes threaten physiological and safety needs, which tend to dominate until reasonably met. Recognition or leadership training would likely fall flat while cashiers worry about rent and childcare schedules. If $50,000 cannot cover the full pay gap, I would close part of it and fix rosters first, which costs little. Risk: the model's order is not proven, so I would check exit interviews three months later to see whether turnover reasons have changed."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Links the 12% pay gap and unstable rosters to physiological and safety needs and explains why higher-level schemes would fall flat",
+					"points": 2
+				},
+				{
+					"criterion": "Addresses the budget limit realistically",
+					"points": 1
+				},
+				{
+					"criterion": "Names the model's evidence limitation or another risk and how to check the result",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Use the categories as a checklist and test with data. The categories are well supported across cultures, so they help spot gaps such as job security or recognition. But the strict order is not confirmed by research, and people pursue several needs at once: a junior designer may be driven by mastery from day one, and reserving stretch work for seniors would waste that. Dropping the model loses a useful checklist. Risk: checklists can become box-ticking, so managers ask each person in one-to-ones and review exit data each quarter."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "States that research supports the categories but not the fixed order",
+					"points": 2
+				},
+				{
+					"criterion": "Explains the cost of the strict ladder for this agency (juniors' growth needs ignored)",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and how to manage it",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Turnover is 50% and costs about 60 × $2,500 = $150,000 a year. The top complaints are safety (same-day overtime, 8 injuries) and physiological or income needs (the $1 pay gap); promotion is growth and isolation is belonging, both much smaller. A retreat targets belonging, which only 10% raise. I would spend the $40,000 on guards and training for the cutting equipment and on publishing overtime a week ahead, then study the pay gap, which would cost about $250,000 a year for 120 workers at 2,080 hours, so it needs a separate case. Limitation: the order is not proven, so the 15% wanting promotion should not wait until safety is perfect."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates turnover cost (about $150,000) or rate (50%)",
+					"points": 1
+				},
+				{
+					"criterion": "Sorts the complaints into Maslow's categories and identifies safety and income as the dominant gaps",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the retreat misses the main problem",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends a concrete use of the $40,000 tied to the dominant needs",
+					"points": 1
+				},
+				{
+					"criterion": "Names a limitation of the model (weak evidence for the order, parallel needs)",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Стабільний дохід, передбачувані правила й гарантія роботи це потреби безпеки. Належність стосується прийняття й зв’язків у команді, повага стосується визнання, а самоактуалізація стосується майстерності й змістовних викликів."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Переважання означає, що базовіша незадоволена потреба, як-от безпека, домінує, доки її достатньо не задоволено. Варіанти A і B суперечать ієрархії, а Маслоу стверджував протилежне до D: задоволена дефіцитна потреба перестає мотивувати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Маслоу описував порядок як відносний: потребу достатньо задовольнити частково, щоб з’явилася наступна. Сувора драбина це пізніше спрощення."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Огляди знайшли мало доказів на користь такого ранжування, а міжнародні дослідження показали, що самі потреби майже універсальні, але задовольняють їх без фіксованого порядку. Категорії підтверджуються значно краще за послідовність."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Коли тебе помічають, поважають і визнають твої ідеї, задовольняється потреба в повазі. Зарплата й надійні договори закривають фізіологічні потреби й безпеку, а дружня команда закриває належність."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Пропущені перевірки загрожують фізичній безпеці, а щомісячні договори загрожують стабільності доходу, і обидва випадки стосуються безпеки. Корпоративні події стосуються належності, подяка стосується поваги, а кар’єрний шлях стосується зростання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Затримки зарплати й зміни в останню мить загрожують базовій безпеці, а ієрархія підказує, що визнання й місія не спрацюють, поки ці потреби під сумнівом. Семінар, нагорода й коучинг спрямовані на вищі потреби й, імовірно, сприймуться як ігнорування справжньої проблеми."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Сприйняття рівнів як суворої драбини це відоме хибне застосування: медсестру зі скромною зарплатою цілком може рухати мета, а сам порядок дослідження не підтверджують. Опитування медсестер перевіряє, що їх справді мотивує. Ігнорування зарплати чи її заміна визнанням це протилежна помилка."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Середній бал приховує і новачка, якого турбує оренда житла, і досвідченого фахівця, що прагне автономії, а порядок ієрархії дослідження не підтверджують. Збір фактів, розподіл скарг за категоріями й повторна оцінка після реорганізації це рекомендовані кроки."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Скорочення можуть повернути всю команду до питань безпеки, які тоді переважають зростання й повагу. Доки невизначеність не зменшиться, складні проєкти, командні заходи й посади спрямовані на потреби, які вже не в фокусі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Відсутність гарячої їжі це фізіологічна потреба, слизька підлога це безпека, самотні обіди новачків це належність, а привласнення ідей шефом це повага. Першими я виправив би підлогу й харчування, бо незадоволені базові потреби зазвичай домінують, а ризик травми серйозний. Обидві проблеми дешево розв’язати. Проблеми належності й поваги теж важливі, і над ними можна працювати паралельно, наприклад через систему наставників, бо люди прагнуть кількох потреб одночасно."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Відносить їжу до фізіологічних потреб, а підлогу до безпеки",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить самотні обіди до належності, а привласнення ідей до поваги",
+					"points": 1
+				},
+				{
+					"criterion": "Обирає першими базові прогалини (підлога, харчування)",
+					"points": 1
+				},
+				{
+					"criterion": "Обґрунтовує переважанням потреб, зазначаючи, що вищі потреби можна задовольняти паралельно",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Дефіцитні потреби тиснуть найсильніше, коли їх бракує, і слабшають після задоволення: якщо тестувальниця має надійний договір і справедливу зарплату, ще більше безпеки майже не додає мотивації. Потреби зростання мотивують і далі в міру задоволення: коли вона опановує автоматизацію тестів і очолює новий проєкт, їй хочеться більше викликів, а не менше. Проте докази слабкі: огляди знайшли мало підтверджень того, що задоволена потреба перестає мотивувати, тож керівнику варто запитати саму тестувальницю, а не припускати."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює розрізнення: дефіцитні потреби перестають мотивувати після задоволення, потреби зростання мотивують і далі",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до тестувальниці з конкретними деталями для обох типів потреб",
+					"points": 1
+				},
+				{
+					"criterion": "Зазначає, що дослідження слабко підтримують це твердження",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ринкова зарплата плюс фіксований графік. Зарплата на 12% нижча за ринок і щотижневі зміни графіка загрожують фізіологічним потребам і безпеці, які зазвичай домінують, доки їх достатньо не задоволено. Визнання чи навчання лідерства, імовірно, не спрацюють, поки касири переймаються орендою й тим, як влаштувати догляд за дітьми. Якщо $50 000 не покривають увесь розрив у зарплаті, я закрив би його частину й насамперед зафіксував би графік, що коштує мало. Ризик: порядок у моделі не доведений, тож через три місяці я перевірив би інтерв’ю при звільненні, чи змінилися причини відходу."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Пов’язує розрив у 12% і нестабільний графік із фізіологічними потребами й безпекою та пояснює, чому програми вищого рівня не спрацюють",
+					"points": 2
+				},
+				{
+					"criterion": "Реалістично враховує обмеження бюджету",
+					"points": 1
+				},
+				{
+					"criterion": "Називає слабку доказовість моделі чи інший ризик і спосіб перевірити результат",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Використовувати категорії як чек-лист і перевіряти даними. Категорії добре підтверджені в різних культурах, тож допомагають помітити прогалини, як-от гарантії роботи чи визнання. Але суворий порядок дослідження не підтверджують, і люди прагнуть кількох потреб одночасно: молодшу дизайнерку може з першого дня рухати прагнення майстерності, і резервування складної роботи для старших змарнувало б це. Відмова від моделі втрачає корисний чек-лист. Ризик: чек-лист може перетворитися на формальність, тож керівники розпитують кожного на особистих зустрічах і щокварталу переглядають дані про звільнення."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Зазначає, що дослідження підтримують категорії, але не фіксований порядок",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює ціну суворої драбини для цієї агенції (ігноровані потреби зростання молодших)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб ним керувати",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Плинність становить 50% і коштує близько 60 × $2 500 = $150 000 на рік. Головні скарги стосуються безпеки (понаднормові того ж дня, 8 травм) і фізіологічних потреб або доходу (розрив у $1 за годину); підвищення стосується зростання, а ізоляція належності, і обидві групи значно менші. Тимбілдинг спрямований на належність, про яку говорять лише 10%. Я витратив би $40 000 на захисні кожухи й навчання для різального обладнання та на оголошення понаднормових за тиждень, а потім розглянув би розрив у зарплаті: для 120 працівників по 2 080 годин він коштував би близько $250 000 на рік, тож потребує окремого обґрунтування. Обмеження: порядок не доведений, тож 15%, які хочуть підвищення, не мають чекати, доки безпека стане ідеальною."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує вартість плинності (близько $150 000) або її рівень (50%)",
+					"points": 1
+				},
+				{
+					"criterion": "Розподіляє скарги за категоріями Маслоу й визначає безпеку й дохід як головні прогалини",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому тимбілдинг оминає головну проблему",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує конкретне використання $40 000, пов’язане з домінантними потребами",
+					"points": 1
+				},
+				{
+					"criterion": "Називає обмеження моделі (слабкі докази щодо порядку, паралельні потреби)",
+					"points": 1
+				}
+			]
+		}
+	}
+}

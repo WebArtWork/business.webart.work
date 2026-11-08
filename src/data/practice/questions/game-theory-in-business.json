@@ -1,0 +1,838 @@
+{
+	"slug": "game-theory-in-business",
+	"topicId": 13,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is a dominant strategy?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A choice that is best only if the rival cooperates"
+					},
+					{
+						"id": "B",
+						"text": "A choice that avoids every possible risk"
+					},
+					{
+						"id": "C",
+						"text": "A choice that is best whatever the other players do"
+					},
+					{
+						"id": "D",
+						"text": "The choice made by the market leader"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is a Nash equilibrium?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A set of strategies in which no player can gain by changing only their own strategy"
+					},
+					{
+						"id": "B",
+						"text": "The outcome that gives the highest total payoff to all players"
+					},
+					{
+						"id": "C",
+						"text": "The outcome that every player prefers most"
+					},
+					{
+						"id": "D",
+						"text": "A situation in which all players cooperate"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Game theory shows that competitors in a price war should agree among themselves to raise prices."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In a game that repeats, the threat of retaliation can keep rivals from starting a price war."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Two airlines share a route. If both keep fares, each earns $5 million. If one cuts while the other keeps, the cutter earns $7 million and the other $2 million. If both cut, each earns $3 million. Suppose the rival keeps its fare. What is the better move for your airline, and what does it earn?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Keep the fare, $5 million"
+					},
+					{
+						"id": "B",
+						"text": "Cut the fare, $7 million"
+					},
+					{
+						"id": "C",
+						"text": "Cut the fare, $3 million"
+					},
+					{
+						"id": "D",
+						"text": "Keep the fare, $2 million"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are legitimate ways for a firm to improve its position by changing the game?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Making a secret deal with the rival to fix prices"
+					},
+					{
+						"id": "B",
+						"text": "Launching a loyalty programme that makes customers less likely to switch"
+					},
+					{
+						"id": "C",
+						"text": "Assuming the rival will not react to a price cut"
+					},
+					{
+						"id": "D",
+						"text": "Differentiating the product so that customers do not compare on price alone"
+					},
+					{
+						"id": "E",
+						"text": "Matching the rival’s price every day without looking at costs"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Two bakeries face each other across a street. At normal prices each earns $1,000 a day. If one discounts and the other does not, the discounter earns $1,300 and the other $500. If both discount, each earns $700. Which outcome is the Nash equilibrium of this one-shot game?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Both keep prices"
+					},
+					{
+						"id": "B",
+						"text": "Bakery 1 discounts, bakery 2 keeps its price"
+					},
+					{
+						"id": "C",
+						"text": "Bakery 2 discounts, bakery 1 keeps its price"
+					},
+					{
+						"id": "D",
+						"text": "Both discount"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An electronics shop promises to match any competitor’s lower price. A rival is thinking about a price cut. How does the promise affect the rival’s decision?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It forces the rival to cut prices further"
+					},
+					{
+						"id": "B",
+						"text": "It has no effect, because customers ignore such promises"
+					},
+					{
+						"id": "C",
+						"text": "It removes the rival’s gain from cutting, because any cut would be matched at once, which tends to keep prices stable"
+					},
+					{
+						"id": "D",
+						"text": "It is illegal in every country"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements about repeated games are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Reputation and the threat of retaliation can change the best strategy."
+					},
+					{
+						"id": "B",
+						"text": "One-shot logic always applies, however often the game repeats."
+					},
+					{
+						"id": "C",
+						"text": "Strategies such as tit-for-tat can sustain cooperation."
+					},
+					{
+						"id": "D",
+						"text": "Retaliation can never be effective."
+					},
+					{
+						"id": "E",
+						"text": "Repeated games always end in price wars."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A supermarket chain signs ten-year leases on every site in a small town. A discount rival is considering entry. Why can this move deter entry?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It raises the rival’s costs directly"
+					},
+					{
+						"id": "B",
+						"text": "It makes entry legally impossible"
+					},
+					{
+						"id": "C",
+						"text": "It lowers the chain’s own payoffs only"
+					},
+					{
+						"id": "D",
+						"text": "It is an irreversible commitment that makes the threat to fight on price believable"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Two ice-cream vendors on a beach each earn $400 a day at normal prices. If one cuts prices, it earns $600 and the other $150. If both cut, each earns $250. Explain why both are likely to cut even though both would prefer normal prices."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Two petrol stations at a junction compete every day. Explain why the repeated game lets them keep prices up without any agreement, and name one risk."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A regional coach operator earns $4 million a year on a route. A rival considers entering and needs at least $1 million a year to cover its entry costs. If both share the route, each would earn about $1.8 million; in a price war each would earn about $0.4 million. Choose one: announce publicly that you will fight any entrant, do nothing, or sign three-year contracts with the two largest employers, locking in about 40% of your passengers, which would cut the rival’s earnings from sharing to about $0.9 million. Justify the choice using game theory."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A supermarket’s monthly profit depends on its rival’s price. Payoffs (us, rival) in thousands of dollars: both keep prices 200, 200; we keep and rival cuts 80, 260; both cut 120, 120; we cut and rival keeps 260, 80. The rival has just cut its price. Choose one: match the cut, hold your price and wait for the rival to return, or phone the rival’s owner to agree that both go back to full prices. Explain the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A scooter-sharing startup (the entrant) can enter a city where an incumbent has a monopoly. Payoffs in $ million (entrant, incumbent): stay out 0, 10; enter and the incumbent accommodates 3, 5; enter and the incumbent fights −2, 2. The incumbent says it will fight any entrant. It can also spend $2 million now on extra capacity; then the payoffs become: stay out 0, 8; enter and accommodate 3, 3; enter and fight −2, 5."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Use backward induction to predict what happens without the capacity, explain why the announcement does not help, show whether the capacity investment pays, and name trade-offs."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке домінантна стратегія?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вибір, що найкращий лише тоді, коли суперник співпрацює"
+					},
+					{
+						"id": "B",
+						"text": "Вибір, що уникає будь-якого ризику"
+					},
+					{
+						"id": "C",
+						"text": "Вибір, що найкращий незалежно від того, що роблять інші гравці"
+					},
+					{
+						"id": "D",
+						"text": "Вибір, який робить лідер ринку"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке рівновага Неша?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Набір стратегій, за якого жоден гравець не виграє, змінивши лише свою стратегію"
+					},
+					{
+						"id": "B",
+						"text": "Результат, що дає найвищий сумарний виграш усім гравцям"
+					},
+					{
+						"id": "C",
+						"text": "Результат, який найбільше подобається кожному гравцеві"
+					},
+					{
+						"id": "D",
+						"text": "Ситуація, у якій усі гравці співпрацюють"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Теорія ігор показує, що конкуренти в ціновій війні мають домовитися між собою про підвищення цін."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У грі, що повторюється, загроза відплати може утримати суперників від початку цінової війни."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дві авіакомпанії ділять маршрут. Якщо обидві зберігають тарифи, кожна заробляє $5 млн. Якщо одна знижує, а інша тримає, та, що знизила, заробляє $7 млн, а інша $2 млн. Якщо знижують обидві, кожна заробляє $3 млн. Припустімо, суперник тримає тариф. Який хід кращий для вашої авіакомпанії і скільки він приносить?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Тримати тариф, $5 млн"
+					},
+					{
+						"id": "B",
+						"text": "Знизити тариф, $7 млн"
+					},
+					{
+						"id": "C",
+						"text": "Знизити тариф, $3 млн"
+					},
+					{
+						"id": "D",
+						"text": "Тримати тариф, $2 млн"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " способи є законними для фірми, щоб покращити позицію, змінивши гру?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Таємна змова з суперником про фіксацію цін"
+					},
+					{
+						"id": "B",
+						"text": "Програма лояльності, що робить клієнтів менш схильними переходити"
+					},
+					{
+						"id": "C",
+						"text": "Припущення, що суперник не відреагує на зниження цін"
+					},
+					{
+						"id": "D",
+						"text": "Диференціація продукту, щоб клієнти порівнювали не лише за ціною"
+					},
+					{
+						"id": "E",
+						"text": "Щоденне повторення цін суперника без огляду на витрати"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дві пекарні розташовані навпроти через вулицю. За звичайних цін кожна заробляє $1000 на день. Якщо одна дає знижку, а інша ні, та, що знизила, заробляє $1300, а інша $500. Якщо знижують обидві, кожна заробляє $700. Який результат є рівновагою Неша в цій одноразовій грі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Обидві тримають ціни"
+					},
+					{
+						"id": "B",
+						"text": "Пекарня 1 дає знижку, пекарня 2 тримає ціну"
+					},
+					{
+						"id": "C",
+						"text": "Пекарня 2 дає знижку, пекарня 1 тримає ціну"
+					},
+					{
+						"id": "D",
+						"text": "Обидві дають знижки"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Магазин електроніки обіцяє зрівняти будь-яку нижчу ціну конкурента. Суперник думає про зниження цін. Як ця обіцянка впливає на його рішення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Змушує суперника знижувати ціни ще більше"
+					},
+					{
+						"id": "B",
+						"text": "Не впливає, бо клієнти ігнорують такі обіцянки"
+					},
+					{
+						"id": "C",
+						"text": "Знімає з суперника вигоду від зниження, бо будь-яке зниження буде одразу зрівняно, що зазвичай стабілізує ціни"
+					},
+					{
+						"id": "D",
+						"text": "Вона незаконна в усіх країнах"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження про ігри, що повторюються, правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Репутація й загроза відплати можуть змінювати найкращу стратегію."
+					},
+					{
+						"id": "B",
+						"text": "Логіка одноразової гри завжди діє, скільки б гра не повторювалася."
+					},
+					{
+						"id": "C",
+						"text": "Стратегії на кшталт «зуб за зуб» можуть підтримувати співпрацю."
+					},
+					{
+						"id": "D",
+						"text": "Відплата ніколи не буває ефективною."
+					},
+					{
+						"id": "E",
+						"text": "Ігри, що повторюються, завжди закінчуються ціновими війнами."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа супермаркетів підписує десятирічні договори оренди на всі точки в невеликому місті. Конкурент-дискаунтер розглядає вихід на ринок. Чому цей хід може стримати вхід?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він безпосередньо підвищує витрати суперника"
+					},
+					{
+						"id": "B",
+						"text": "Він робить вхід юридично неможливим"
+					},
+					{
+						"id": "C",
+						"text": "Він знижує лише власні виграші мережі"
+					},
+					{
+						"id": "D",
+						"text": "Це незворотне зобов’язання, яке робить правдоподібною загрозу воювати цінами"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Два продавці морозива на пляжі заробляють по $400 на день за звичайних цін. Якщо один знижує ціни, він заробляє $600, а інший $150. Якщо знижують обидва, кожен заробляє $250. Поясніть, чому обидва, імовірно, знизять ціни, хоча обидва віддали б перевагу звичайним цінам."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дві заправки на перехресті конкурують щодня. Поясніть, чому гра, що повторюється, дає змогу їм утримувати ціни без жодної домовленості, і назвіть один ризик."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Регіональний автобусний перевізник заробляє $4 млн на рік на маршруті. Конкурент розглядає вихід на ринок і потребує щонайменше $1 млн на рік, щоб покрити витрати на вхід. Якщо вони ділять маршрут, кожен заробляє близько $1,8 млн; у ціновій війні кожен заробляє близько $0,4 млн. Оберіть одне: публічно оголосити, що ви воюватимете з будь-яким новачком, нічого не робити або підписати трирічні договори з двома найбільшими роботодавцями, які закріплять близько 40% ваших пасажирів і знизять заробіток конкурента від поділу маршруту до близько $0,9 млн. Обґрунтуйте вибір теорією ігор."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Місячний прибуток супермаркету залежить від ціни суперника. Виграші (ми, суперник) у тисячах доларів: обидва тримають ціни 200, 200; ми тримаємо, а суперник знижує 80, 260; обидва знижують 120, 120; ми знижуємо, а суперник тримає 260, 80. Суперник щойно знизив ціну. Оберіть одне: зрівняти зниження, тримати ціну й чекати, поки суперник повернеться, або зателефонувати власнику суперника й домовитися, що обидва повертаються до повних цін. Поясніть вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Стартап з оренди самокатів (новачок) може вийти в місто, де інкумбент має монополію. Виграші в млн доларів (новачок, інкумбент): лишитися поза ринком 0, 10; увійти, а інкумбент поступається 3, 5; увійти, а інкумбент воює −2, 2. Інкумбент заявляє, що воюватиме з будь-яким новачком. Він також може зараз витратити $2 млн на додаткові потужності; тоді виграші стають: поза ринком 0, 8; вхід і поступка 3, 3; вхід і війна −2, 5."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "За допомогою зворотної індукції спрогнозуйте, що буде без потужностей, поясніть, чому заява не допомагає, покажіть, чи окупається інвестиція в потужності, і назвіть компроміси."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

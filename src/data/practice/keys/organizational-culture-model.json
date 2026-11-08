@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Artifacts are the visible offices, dress, rituals and language. Anyone can observe them, but their meaning depends on the assumptions behind them. Basic assumptions are invisible, and espoused values are stated, not observed."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Basic assumptions are taken for granted and steer decisions where the rules are silent, so they usually beat the stated values. Artifacts and the mission statement are the surface, and espoused values are what the company says about itself."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "What works repeatedly in the group’s search for survival and cooperation becomes taken for granted, and it is then taught to newcomers as the right way to think and act."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Both are artifacts and perks. They leave untouched what leaders reward, measure and tolerate, so the underlying assumptions stay the same."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "People read signals from what is measured and punished, so they learn that speed is what counts. The poster is only an espoused value, and the layout and logo are artifacts with little power over behavior."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Schein lists what leaders attend to, measure and reward and how they react to crises as the strongest signals. Office design, stories and formal statements are secondary mechanisms that support them."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Praise from supervisors is a primary signal, and it contradicts the espoused value. The slogan is not meaningless, but it describes an aspiration. A survey could help, yet the behavior in the case already shows the assumption."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The CEO changes the primary mechanisms, promotion and her own reaction to failure, which are what staff actually learn from. A week of events, new wording or a new title leave the signals about failure as they were."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Unconscious assumptions are difficult to measure, and researchers such as Joanne Martin show conflicting meanings inside firms. The model says change takes years, it does cover artifacts, and it dates from 1985."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The clash comes from deep, taken-for-granted beliefs about authority, which each group learned in its own history. Uniforms and wording are surface artifacts, and events do not change assumptions."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Espoused values are what a company says it believes, in documents and speeches. Basic assumptions are the unspoken beliefs that actually guide behavior. The restaurant may advertise fresh food, but if the manager rewards cooks for using up old stock and scolds anyone who throws it away, the real assumption is \"cost matters more than freshness\", and the cooks follow that."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Distinguishes stated values from unspoken, taken-for-granted beliefs that drive behavior",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a restaurant example in which behavior or rewards contradict the stated value",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Casual Fridays and open doors are artifacts, so they do not touch the assumption people learned: speaking up is risky. Employees took that from the manager’s public criticism, which is a stronger signal than any office layout. To change it, leaders should thank people who raise problems and punish none of them, and promote managers who do the same."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: the changes affect artifacts, while the learned assumption stays",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the concrete detail of the manager’s public criticism as the signal people learned from",
+					"points": 1
+				},
+				{
+					"criterion": "Names a change in leaders’ behavior or rewards as the remedy",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Change the metric and leaders’ behavior. The value is espoused, but the tickets-per-hour measure is a primary mechanism that teaches agents that speed is what counts, so that is the real assumption. I would replace it with resolution quality and repeat-contact rate, and have managers listen to calls and praise slow but complete help. A new document only adds another artifact, and workshops talk about values without changing rewards. The trade-off is that handled volume may fall at first, and the risk is that agents game the new metric, so I would review satisfaction and repeat contacts monthly."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses at least three ideas from the model with evidence from the case (espoused value, basic assumption, primary mechanism, artifact)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains the trade-off against the rejected options",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to monitor it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "I would keep the startup as a protected subculture for two years, with a narrow interface to the insurer for security and compliance, because the engineers’ assumption of speed is the asset that was bought. Full integration would be simpler and cheaper, but it would punish the behavior that created the value, and the engineers would read promotions and approvals as the real signal. The cost is a split organization and some friction. To limit it, the insurer’s leaders should visit, adopt a small number of the startup’s practices and decide in advance which rules are non-negotiable, such as data security."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Compares full integration with keeping a separate subculture, with reasons from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Recognizes that the two groups hold different basic assumptions and that the engineers’ speed is the asset",
+					"points": 1
+				},
+				{
+					"criterion": "Addresses mechanisms (promotion, approvals, leaders’ behavior) or non-negotiable rules",
+					"points": 1
+				},
+				{
+					"criterion": "Makes a clear recommendation and accepts its cost",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Artifacts: painted walls, posters, route sheets. Espoused values: safety, respect, teamwork. Basic assumption: on-time delivery beats safety, learned from the dispatcher’s reprimand, the manager’s praise and the on-time scoring. Changes: first, add safety stops and incident reports to the dispatchers’ scorecards and bonus; second, the depot manager praises a driver who stopped to fix a strap and reprimands none of them; third, promote supervisors who keep their teams accident-free, and review near-misses with drivers in every weekly meeting. Limit: assumptions shift slowly, so results may take a year or more, and a sceptical depot may be a subculture that needs separate attention."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Describes artifacts, espoused values and basic assumptions with evidence from the case",
+					"points": 2
+				},
+				{
+					"criterion": "Names the real assumption that on-time delivery beats safety",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes at least two changes to primary mechanisms (measurement, rewards, leaders’ reactions, promotion)",
+					"points": 2
+				},
+				{
+					"criterion": "Names a limit such as slow change or subcultures, or says how progress will be measured",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Артефакти це видимі офіси, одяг, ритуали й мова. Їх може спостерігати будь-хто, але їхній зміст залежить від припущень, що стоять за ними. Базові припущення невидимі, а заявлені цінності проголошують, а не спостерігають."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Базові припущення сприймаються як належне й спрямовують рішення там, де правила мовчать, тож зазвичай перемагають заявлені цінності. Артефакти й місія це поверхня, а заявлені цінності це те, що компанія говорить про себе."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Те, що раз у раз працює в пошуку виживання й співпраці в групі, стає очевидним, і новачкам це передають як правильний спосіб думати й діяти."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Це артефакти й бонуси. Вони не чіпають того, що керівники винагороджують, вимірюють і терплять, тож базові припущення лишаються тими самими."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Люди читають сигнали з того, що вимірюють і за що карають, тож засвоюють, що рахується швидкість. Плакат лише заявлена цінність, а планування й логотип це артефакти з малим впливом на поведінку."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Шейн називає найсильнішими сигналами те, на що лідери звертають увагу, що вимірюють і винагороджують, а також їхню реакцію на кризи. Дизайн офісу, історії та формальні заяви це вторинні механізми, які їх підсилюють."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Похвала керівників це первинний сигнал, і вона суперечить заявленій цінності. Гасло не безглузде, але воно описує прагнення. Опитування могло б допомогти, але поведінка в умові вже показує припущення."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Директорка змінює первинні механізми, підвищення й власну реакцію на невдачу, а саме з них працівники й вчаться. Тиждень заходів, нове формулювання чи нова посада не змінюють сигналів про невдачу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Неусвідомлені припущення важко виміряти, а дослідники на кшталт Джоанн Мартін показують суперечливі значення всередині фірм. Модель стверджує, що зміни тривають роками, артефакти вона враховує, а датується вона 1985 роком."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Конфлікт випливає з глибоких, самозрозумілих переконань про владу, які кожна група засвоїла у своїй історії. Форма й формулювання це поверхневі артефакти, а заходи не змінюють припущень."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Заявлені цінності це те, у що компанія каже, що вірить, у документах і промовах. Базові припущення це неозвучені переконання, які насправді спрямовують поведінку. Ресторан може рекламувати свіжі продукти, але якщо керівник заохочує кухарів використати старі запаси й лає за викидання, то реальне припущення таке: «витрати важливіші за свіжість», і кухарі діють за ним."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розрізняє заявлені цінності та неозвучені, сприйняті як належне переконання, що спрямовують поведінку",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить приклад ресторану, де поведінка чи винагороди суперечать заявленій цінності",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Вільні п’ятниці й відчинені двері це артефакти, тож вони не зачіпають припущення, яке люди вже засвоїли: говорити вголос ризиковано. Працівники винесли це з публічної критики керівника, а це сильніший сигнал, ніж будь-яке планування офісу. Щоб це змінити, лідери мають дякувати тим, хто піднімає проблеми, нікого не карати й підвищувати менеджерів, які роблять так само."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: зміни стосуються артефактів, а засвоєне припущення лишається",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує деталь про публічну критику керівника як сигнал, з якого люди навчилися",
+					"points": 1
+				},
+				{
+					"criterion": "Називає зміну поведінки лідерів чи винагород як засіб",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Змінити метрику й поведінку лідерів. Цінність заявлена, але показник «звернень на годину» це первинний механізм, що вчить операторів, що рахується швидкість, а отже, це і є реальне припущення. Я замінила б його на якість розв’язання й частку повторних звернень, а менеджери слухали б розмови й хвалили повільну, але повну допомогу. Новий документ додасть лише ще один артефакт, а воркшопи говорять про цінності, не змінюючи винагород. Компроміс у тому, що кількість оброблених звернень спершу може впасти, а ризик у тому, що оператори почнуть підганяти нову метрику, тому щомісяця я перевіряла б задоволеність і повторні звернення."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує щонайменше три ідеї моделі з доказами з умови (заявлена цінність, базове припущення, первинний механізм, артефакт)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює компроміс порівняно з відкинутими варіантами",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб його відстежувати",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Я залишила б стартап захищеною субкультурою на два роки з вузьким інтерфейсом зі страховиком для безпеки й відповідності вимогам, бо саме припущення інженерів про швидкість і є тим активом, який купили. Повна інтеграція простіша й дешевша, але вона каратиме поведінку, що створила цінність, а інженери читатимуть підвищення й погодження як справжній сигнал. Ціна це розділена організація й тертя. Щоб його зменшити, лідери страховика мають відвідувати команду, перейняти кілька її практик і наперед визначити, які правила непорушні, наприклад безпека даних."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Порівнює повну інтеграцію зі збереженням окремої субкультури з аргументами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Розуміє, що дві групи мають різні базові припущення, а швидкість інженерів є активом",
+					"points": 1
+				},
+				{
+					"criterion": "Розглядає механізми (підвищення, погодження, поведінка лідерів) чи непорушні правила",
+					"points": 1
+				},
+				{
+					"criterion": "Дає чітку рекомендацію й погоджується з її ціною",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Артефакти: розмальовані стіни, плакати, маршрутні листи. Заявлені цінності: безпека, повага, командність. Базове припущення: вчасність важливіша за безпеку, що випливає з догани диспетчера, похвали керівника й оцінювання за вчасність. Зміни: по-перше, додати до карток оцінювання й бонусу диспетчерів зупинки з безпеки та звіти про інциденти; по-друге, керівник депо публічно хвалить водія, який зупинився полагодити ремінь, і нікого не лає за це; по-третє, підвищувати керівників змін, чиї команди без аварій, і щотижня розбирати інциденти, яких вдалося уникнути, з водіями. Обмеження: припущення змінюються повільно, тож результат може з’явитися за рік чи довше, а скептичне депо може бути субкультурою, що потребує окремої уваги."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Описує артефакти, заявлені цінності й базові припущення з доказами з умови",
+					"points": 2
+				},
+				{
+					"criterion": "Називає реальне припущення, що вчасність важливіша за безпеку",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує щонайменше дві зміни первинних механізмів (вимірювання, винагороди, реакції лідерів, підвищення)",
+					"points": 2
+				},
+				{
+					"criterion": "Називає обмеження, як-от повільність змін чи субкультури, або каже, як вимірюватиме прогрес",
+					"points": 1
+				}
+			]
+		}
+	}
+}

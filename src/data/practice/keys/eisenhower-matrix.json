@@ -1,0 +1,602 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Important, non-urgent work such as planning, prevention and relationship building loses to urgent work unless it gets protected time. Doing it immediately is for crises, delegation is for urgent but less important tasks, and dropping it would throw away the box the matrix exists to protect."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Urgency comes from the clock: a delay causes real harm soon. Who asked is not the test, moving a goal is the test for importance, and a quick task can be neither urgent nor important."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The matrix rates urgency and importance separately. A deadline makes a task loud, but it is important only if it advances one of your goals."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Many emergencies come from neglected prevention, training or broken processes. Doing that work early gradually shrinks the urgent-and-important box."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Room bookings and printing are urgent but do not advance her goal, so someone else can handle them. The pitch is important and not yet urgent (schedule), the tax return is urgent and important (do), and the email clean-up is neither (delete)."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Lease meetings and a training programme both advance the stated goals but have no immediate deadline, so they need booked time. The freezer is urgent and important, the blogger is urgent but not tied to the goals, and browsing posts is neither."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The delegate box allows handing over or batching, and batching is the practical option when there is nobody to delegate to, a known limitation of the matrix. Handling each request at once lets urgency win, ignoring colleagues causes harm, and relabelling everything as important defeats the tool."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Monitoring and patching are important but not urgent, and doing them removes the causes of the fires, so the crisis box shrinks over time. More firefighters or delegation treat symptoms, and dropping tickets just buys more time for the same fires."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Importance comes from goals, not from who asks, and important work without a calendar slot keeps losing to urgent work. Writing goals first, using them as the importance test and batching low-value emails are all recommended steps."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The matrix rates only urgency and importance, so a two-hour task and a three-week project land in the same box. Delegation is a different limitation, separating urgency from importance is the matrix's main strength, and it organizes an individual's list rather than a team's."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The contract translation is urgent and important: it is due tomorrow and her income and reputation depend on it, so do it now. The portfolio website is important but not urgent: it directly serves the move to corporate clients, so she books fixed blocks for it. Invoice reminders are urgent but not tied to her goal, so she automates them or hands them to a virtual assistant. A fourth logo redesign is neither, so she drops it."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Places the contract translation in do now, citing the deadline and its importance",
+					"points": 1
+				},
+				{
+					"criterion": "Places the portfolio website in schedule, linking it to the corporate-client goal",
+					"points": 1
+				},
+				{
+					"criterion": "Places invoice reminders in delegate, with a way to hand off or automate them",
+					"points": 1
+				},
+				{
+					"criterion": "Places the logo redesign in delete as busywork",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "People respond to time pressure faster than to value, so tasks with a deadline win even when they matter less. The head of a school answers parents' calls, signs forms and covers absent teachers all day, while the curriculum review and teacher mentoring, which have no deadline, never happen. By booking two fixed mornings a week for mentoring and the review, the head protects that work, and better-supported teachers mean fewer complaints and absences later."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the mechanism: time pressure drives behaviour more than value, so deadline-free work keeps losing",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a concrete school example of urgent tasks and neglected important ones",
+					"points": 1
+				},
+				{
+					"criterion": "Shows how fixed time blocks protect important work and reduce future crises",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Delegate the reporting and drop the webinars. The renewal negotiation directly serves her goal of keeping the largest accounts, so it stays with her even though it is uncomfortable: the matrix warns against delegating important work just because it is unpleasant. The weekly reporting is urgent but can be prepared by an analyst, which frees 12 hours, and the webinars do not advance the goal, which frees 6 more. That brings the week to 32 hours. Working 50 hours is not sustainable. Risk: the analyst's first report may contain errors, so she reviews it for 30 minutes."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Explains why the negotiation is important and must not be delegated for being unpleasant",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the hours to show the plan fits the week",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and how to manage it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Hire the assistant. Customer emails are urgent but do not need the founder, so they belong in the delegate box; handing over 12 hours frees more than enough for the 10 hours of wholesale outreach, which is the important, non-urgent work that keeps losing. The archive is neither urgent nor important, so she drops it, freeing 4 more hours. At $1,200 a month against a possible $8,000 in margin, the bet is cheap. Evening work would leave the schedule box unprotected again. Risk: the assistant needs training, so she writes reply templates first and reviews a sample each week."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Classifies the tasks correctly (emails delegate, supplier problems do, wholesale schedule, archive delete)",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the numbers ($1,200 cost, $8,000 potential, hours freed)",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and how to manage it",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Do: double bookings and payroll, 5 hours. Schedule: inspection checklist, appointment redesign and triage training, 20 hours, all tied to her goals with no deadline this week. Delegate: supply orders to the office administrator and sales-rep emails batched or handed to reception, 9 hours. Delete: handbook formatting and the coffee webinar, 11 hours. Her own work is 5 + 20 = 25 hours, leaving 10 hours of slack for interruptions. She books the 20 scheduled hours as fixed morning blocks before the week fills, starting with the inspection checklist since its date is fixed. Risk: the administrator may lack time, so she checks capacity first."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Sorts all nine tasks correctly, linking importance to the two goals",
+					"points": 2
+				},
+				{
+					"criterion": "Adds up the hours correctly (5 do, 20 schedule, 9 delegate, 11 delete) and shows the plan fits 35 hours",
+					"points": 1
+				},
+				{
+					"criterion": "Protects the scheduled work with fixed calendar blocks",
+					"points": 1
+				},
+				{
+					"criterion": "Names who receives the delegated tasks",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk or limitation of the plan",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Важлива, але нетермінова робота, як-от планування, профілактика й побудова стосунків, програє терміновим справам, якщо не має захищеного часу. Негайно виконують кризові справи, делегують термінові, але менш важливі, а відкинути їх означало б викинути саме той квадрант, заради якого існує матриця."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Терміновість задає годинник: затримка невдовзі завдасть реальної шкоди. Хто попросив, тут не критерій, просування цілі це критерій важливості, а швидке завдання може бути ні терміновим, ні важливим."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Матриця оцінює терміновість і важливість окремо. Дедлайн робить завдання гучним, але важливим воно є лише тоді, коли просуває одну з ваших цілей."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Багато надзвичайних ситуацій виникає через занедбану профілактику, навчання чи зламані процеси. Якщо виконувати цю роботу заздалегідь, квадрант термінового й важливого поступово зменшується."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Бронювання й друк термінові, але не просувають її цілі, тож їх може виконати хтось інший. Презентація важлива й поки нетермінова (запланувати), декларація термінова й важлива (виконати), а впорядкування пошти ні те, ні інше (відкинути)."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зустрічі щодо оренди й програма навчання просувають визначені цілі, але не мають негайного дедлайну, тож потребують заброньованого часу. Холодильна камера термінова й важлива, блогерка термінова, але не пов’язана з цілями, а перегляд дописів ні те, ні інше."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Квадрант делегування дозволяє передати справи або згрупувати їх, і групування стає практичним виходом, коли передати нікому, а це відоме обмеження матриці. Виконання кожного запиту одразу віддає перемогу терміновості, ігнорування колег завдає шкоди, а позначення всього важливим руйнує сам інструмент."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Моніторинг і оновлення важливі, але нетермінові, і вони усувають причини пожеж, тож кризовий квадрант із часом меншає. Додаткові пожежники чи делегування лікують симптоми, а відкинуті заявки лише дають більше часу на ті самі пожежі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Важливість визначають цілі, а не те, хто просить, а важлива робота без місця в календарі постійно програє терміновій. Записати цілі першими, використовувати їх як критерій важливості й групувати малоцінні листи це рекомендовані кроки."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Матриця оцінює лише терміновість і важливість, тож двогодинне завдання й тритижневий проєкт потрапляють в один квадрант. Делегування це інше обмеження, розділення термінового й важливого це головна сила матриці, а впорядковує вона список окремої людини, а не команди."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Переклад за договором терміновий і важливий: здати його треба завтра, і від нього залежать дохід і репутація, тож виконати зараз. Сайт-портфоліо важливий, але нетерміновий: він прямо служить переходу до корпоративних клієнтів, тому вона бронює для нього фіксовані блоки часу. Нагадування про рахунки термінові, але не пов’язані з ціллю, тож вона автоматизує їх або передає віртуальному асистентові. Четвертий редизайн логотипа ні те, ні інше, тож вона від нього відмовляється."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Відносить переклад до «виконати зараз», згадуючи дедлайн і важливість",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить сайт-портфоліо до «запланувати», пов’язуючи його з ціллю щодо корпоративних клієнтів",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить нагадування про рахунки до «делегувати» зі способом передати чи автоматизувати їх",
+					"points": 1
+				},
+				{
+					"criterion": "Відносить редизайн логотипа до «відкинути» як зайву метушню",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Люди реагують на тиск часу швидше, ніж на цінність, тож завдання з дедлайном перемагають, навіть коли важать менше. Директорка школи цілий день відповідає на дзвінки батьків, підписує документи й заміняє відсутніх учителів, а перегляд програми й наставництво для вчителів, які не мають дедлайну, так і не відбуваються. Забронювавши два фіксовані ранки на тиждень для наставництва й перегляду програми, вона захищає цю роботу, а вчителі з кращою підтримкою згодом дають менше скарг і пропусків."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює механізм: тиск часу керує поведінкою сильніше за цінність, тож робота без дедлайну постійно програє",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить конкретний шкільний приклад термінових справ і занедбаних важливих",
+					"points": 1
+				},
+				{
+					"criterion": "Показує, як фіксовані блоки часу захищають важливу роботу й зменшують майбутні кризи",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Делегувати звітність і відмовитися від вебінарів. Переговори прямо служать цілі утримати найбільших клієнтів, тож залишаються за нею, хоч і некомфортні: матриця застерігає від делегування важливої роботи лише через те, що вона неприємна. Щотижнева звітність термінова, але її може підготувати аналітик, що звільняє 12 годин, а вебінари не просувають ціль, що звільняє ще 6. Тиждень скорочується до 32 годин. Працювати 50 годин не можна постійно. Ризик: перший звіт аналітика може містити помилки, тож вона переглядає його 30 хвилин."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, чому переговори важливі й не можна делегувати їх через неприємність",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує години, щоб показати, що план вміщується в тиждень",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб ним керувати",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Найняти асистента. Листи клієнтів термінові, але не потребують саме засновниці, тож належать до квадранта делегування; передача 12 годин звільняє більш ніж досить часу на 10 годин пошуку оптових клієнтів, а це важлива нетермінова робота, яка постійно програє. Архів ні терміновий, ні важливий, тож від нього вона відмовляється, звільняючи ще 4 години. За $1 200 на місяць проти можливих $8 000 маржі ставка дешева. Вечірня робота знову залишила б квадрант «запланувати» без захисту. Ризик: асистента треба навчити, тож вона спершу пише шаблони відповідей і щотижня перевіряє частину листів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Правильно класифікує завдання (листи делегувати, постачальники виконати, опт запланувати, архів відкинути)",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує числа ($1 200 витрат, $8 000 потенціалу, звільнені години)",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб ним керувати",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Виконати: подвійні записи й зарплата, 5 годин. Запланувати: чек-лист для перевірки, переробка запису й навчання сортуванню, 20 годин, усе пов’язане з її цілями й без дедлайну цього тижня. Делегувати: замовлення матеріалів офіс-адміністраторці, а листи представників згрупувати або передати рецепції, 9 годин. Відкинути: форматування посібника й вебінар про каву, 11 годин. Її власна робота становить 5 + 20 = 25 годин, тож 10 годин залишаються запасом на непередбачене. Заплановані 20 годин вона бронює фіксованими ранковими блоками, поки тиждень не заповнився, починаючи з чек-листа, бо дата перевірки незмінна. Ризик: адміністраторці може бракувати часу, тож вона спершу перевіряє її завантаження."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно розподіляє всі дев’ять завдань, пов’язуючи важливість із двома цілями",
+					"points": 2
+				},
+				{
+					"criterion": "Правильно рахує години (5 виконати, 20 запланувати, 9 делегувати, 11 відкинути) і показує, що план вміщується в 35 годин",
+					"points": 1
+				},
+				{
+					"criterion": "Захищає заплановану роботу фіксованими блоками в календарі",
+					"points": 1
+				},
+				{
+					"criterion": "Називає, хто отримує делеговані завдання",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик чи обмеження плану",
+					"points": 1
+				}
+			]
+		}
+	}
+}

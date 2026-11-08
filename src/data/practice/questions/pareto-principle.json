@@ -1,0 +1,838 @@
+{
+	"slug": "pareto-principle",
+	"topicId": 66,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does the Pareto principle say about business results?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "In every business exactly 80% of results come from exactly 20% of causes, so any other split means the data is wrong"
+					},
+					{
+						"id": "B",
+						"text": "In many data sets a small share of causes produces most of the results, although the exact split varies"
+					},
+					{
+						"id": "C",
+						"text": "All causes contribute roughly equally, so effort should be spread evenly across them"
+					},
+					{
+						"id": "D",
+						"text": "A company should drop the bottom 20% of its products or customers every year"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A café sorts its 40 drinks by profit and finds that six of them bring 65% of all profit. In Pareto terms, what are these six drinks?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The long tail"
+					},
+					{
+						"id": "B",
+						"text": "The trivial many"
+					},
+					{
+						"id": "C",
+						"text": "Outliers that should be deleted from the data"
+					},
+					{
+						"id": "D",
+						"text": "The vital few"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Because 80/20 is only a rule of thumb, a real data set may show a 70/30 or a 95/5 split."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ranking products by revenue always gives the same priorities as ranking them by profit."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online shop logs 300 complaints last month: late delivery 90, login problems 140, wrong size 40, damaged parcel 20, other 10. Which action follows the Pareto approach?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Work first on login problems and late delivery, which together cover about 77% of complaints"
+					},
+					{
+						"id": "B",
+						"text": "Assign equal effort to all five categories so that nobody feels ignored"
+					},
+					{
+						"id": "C",
+						"text": "Start with the category “other”, because it is the easiest to remove"
+					},
+					{
+						"id": "D",
+						"text": "Start with damaged parcels, because they are the rarest and so the most urgent"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements describe a correctly built Pareto chart?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The bars are arranged in alphabetical order of the causes"
+					},
+					{
+						"id": "B",
+						"text": "The bars are sorted from the largest cause to the smallest"
+					},
+					{
+						"id": "C",
+						"text": "The cumulative line has to reach 100% after the first bar"
+					},
+					{
+						"id": "D",
+						"text": "A cumulative percentage line shows how fast the biggest causes add up to the total"
+					},
+					{
+						"id": "E",
+						"text": "The chart proves which causes lead to which results"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A parts distributor stocks 2,000 items. The top 200 items make 72% of sales value, and the owner wants to cut the cost of stock counts. What is the sensible plan?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Count all 2,000 items monthly, because each one matters equally"
+					},
+					{
+						"id": "B",
+						"text": "Never count the cheap items, because they matter too little"
+					},
+					{
+						"id": "C",
+						"text": "Count the top 200 items often and the rest less often"
+					},
+					{
+						"id": "D",
+						"text": "Remove the bottom 1,800 items from the catalogue"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A marketing agency has 40 clients. Three of them bring 62% of revenue, and the largest, with 25% of revenue, announces a review of its suppliers. What does Pareto thinking recommend?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ignore it, because 37 other clients remain"
+					},
+					{
+						"id": "B",
+						"text": "Protect and deepen the relationship with the key clients and, at the same time, build new business to lower the concentration"
+					},
+					{
+						"id": "C",
+						"text": "Drop the 37 small clients to free time for the big three"
+					},
+					{
+						"id": "D",
+						"text": "Raise prices for all clients to cover the risk"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pet shop with 1,200 products finds that the bottom 400 earn only 2% of profit and take 30% of shelf space. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " checks should the owner make before delisting them?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Whether buyers of these items also put top sellers into the same basket or come to the shop for them"
+					},
+					{
+						"id": "B",
+						"text": "Whether the items appear late in the catalogue"
+					},
+					{
+						"id": "C",
+						"text": "Whether some of them are growing fast and could become tomorrow’s best sellers"
+					},
+					{
+						"id": "D",
+						"text": "Whether the 2% is exactly one tenth of 20%"
+					},
+					{
+						"id": "E",
+						"text": "Whether the shelf space looks tidier without them"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A factory’s defect chart shows that scratches make 70% of all defects. A rare defect, overheating cables, makes 0.5% but could cause fires. How should the plant manager act?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ignore overheating, because 0.5% is too small to matter"
+					},
+					{
+						"id": "B",
+						"text": "Stop using the chart, because it hides the dangerous defect"
+					},
+					{
+						"id": "C",
+						"text": "Work only on scratches, because the chart says so and everything else is noise"
+					},
+					{
+						"id": "D",
+						"text": "Cut scratches for volume, and deal with overheating at once because counts do not capture severity"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A yoga studio logged 120 complaints last quarter: room temperature 54, booking app 31, showers 15, music 10, other 10. Using the Pareto approach, which causes should be fixed first, what share of complaints do they cover, and what is the next step after the fix?"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A shop owner wants to delist weak products and ranks them by revenue. Product X sells $90,000 a year at a 4% margin, product Y sells $30,000 at a 40% margin. Explain why revenue is the wrong measure here and what the owner should check besides profit."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A packaging distributor has 300 customers. The top 36 (12%) bring 68% of revenue. The bottom 150 (50%) bring 4% of revenue but make 35% of the calls to the order desk. Choose one: (1) drop the 150 smallest customers, (2) assign account managers to the top 36 and move small accounts to web self-service ordering, or (3) give the top 36 a 5% discount for a two-year contract. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software company gets 900 support tickets a month. The causes: confusing data import 31% (fix takes three months), invoice errors 22% (three weeks), password resets 9% (one week), and 38% spread over 20 small causes. Engineering can take on one project now. Choose what to do first and in what order, and say what the ticket counts do not show."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A restaurant group has 60 dishes on its menu. Nine dishes bring 71% of gross profit. Twenty-five dishes together bring 3% of gross profit, but take 40% of kitchen prep time and cause most food waste. Three of those 25 are vegan dishes launched four months ago; their orders grow 30% a month, and they are mostly ordered by tables that also order top dishes."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Read the data with the Pareto principle, recommend what to do with the menu, and explain how you would check whether the changes worked."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що принцип Парето говорить про бізнес-результати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "У кожному бізнесі рівно 80% результатів дає рівно 20% причин, тож будь-який інший розподіл означає, що дані хибні"
+					},
+					{
+						"id": "B",
+						"text": "У багатьох наборах даних невелика частка причин дає більшість результатів, хоча точне співвідношення різниться"
+					},
+					{
+						"id": "C",
+						"text": "Усі причини вносять приблизно однаково, тож зусилля слід розподіляти рівномірно"
+					},
+					{
+						"id": "D",
+						"text": "Компанія має щороку відмовлятися від нижніх 20% своїх товарів чи клієнтів"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кав’ярня впорядкувала свої 40 напоїв за прибутком і з’ясувала, що шість із них дають 65% усього прибутку. Як у термінах Парето називають ці шість напоїв?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Довгий хвіст"
+					},
+					{
+						"id": "B",
+						"text": "Другорядна більшість"
+					},
+					{
+						"id": "C",
+						"text": "Викиди, які треба видалити з даних"
+					},
+					{
+						"id": "D",
+						"text": "Життєво важлива меншість"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оскільки 80/20 це лише емпіричне правило, у реальних даних може бути розподіл 70/30 або 95/5."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ранжування товарів за виторгом завжди дає ті самі пріоритети, що й ранжування за прибутком."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інтернет-магазин зафіксував за місяць 300 скарг: запізнення доставки 90, проблеми зі входом 140, не той розмір 40, пошкоджена посилка 20, інше 10. Яка дія відповідає підходу Парето?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Спершу зайнятися проблемами зі входом і запізненням доставки, які разом дають близько 77% скарг"
+					},
+					{
+						"id": "B",
+						"text": "Виділити однакові зусилля на всі п’ять категорій, щоб нікого не образити"
+					},
+					{
+						"id": "C",
+						"text": "Почати з категорії «інше», бо її найлегше прибрати"
+					},
+					{
+						"id": "D",
+						"text": "Почати з пошкоджених посилок, бо вони найрідші, а отже найтерміновіші"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження описують правильно побудовану діаграму Парето?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Стовпчики розташовані за алфавітом причин"
+					},
+					{
+						"id": "B",
+						"text": "Стовпчики впорядковані від найбільшої причини до найменшої"
+					},
+					{
+						"id": "C",
+						"text": "Кумулятивна лінія має досягати 100% уже після першого стовпчика"
+					},
+					{
+						"id": "D",
+						"text": "Лінія накопичених відсотків показує, як швидко найбільші причини складаються в загальну суму"
+					},
+					{
+						"id": "E",
+						"text": "Діаграма доводить, які причини призводять до яких результатів"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дистриб’ютор запчастин тримає на складі 2 000 позицій. Топ-200 позицій дають 72% вартості продажів, і власник хоче здешевити інвентаризацію. Який план розумний?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Перераховувати всі 2 000 позицій щомісяця, бо кожна однаково важлива"
+					},
+					{
+						"id": "B",
+						"text": "Ніколи не рахувати дешеві позиції, бо вони замало важать"
+					},
+					{
+						"id": "C",
+						"text": "Рахувати топ-200 позицій часто, а решту рідше"
+					},
+					{
+						"id": "D",
+						"text": "Прибрати нижні 1 800 позицій з каталогу"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У маркетингової агенції 40 клієнтів. Троє приносять 62% виторгу, а найбільший, що дає 25% виторгу, оголошує перегляд постачальників. Що радить мислення за Парето?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Не зважати, бо лишається ще 37 клієнтів"
+					},
+					{
+						"id": "B",
+						"text": "Берегти й поглиблювати стосунки з ключовими клієнтами й водночас нарощувати новий бізнес, щоб зменшити концентрацію"
+					},
+					{
+						"id": "C",
+						"text": "Відмовитися від 37 дрібних клієнтів, щоб звільнити час для найбільшої трійки"
+					},
+					{
+						"id": "D",
+						"text": "Підняти ціни для всіх клієнтів, щоб покрити ризик"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У зоомагазині з 1 200 товарами нижні 400 дають лише 2% прибутку й займають 30% полиць. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " перевірки має зробити власник, перш ніж виводити їх з асортименту?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Чи купують ці товари ті, хто кладе в той самий кошик лідерів продажу, або чи приходять заради них у магазин"
+					},
+					{
+						"id": "B",
+						"text": "Чи стоять ці товари в каталозі наприкінці"
+					},
+					{
+						"id": "C",
+						"text": "Чи деякі з них швидко ростуть і можуть стати завтрашніми бестселерами"
+					},
+					{
+						"id": "D",
+						"text": "Чи 2% дорівнює рівно десятій частині від 20%"
+					},
+					{
+						"id": "E",
+						"text": "Чи виглядають полиці охайнішими без них"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "На діаграмі дефектів заводу подряпини становлять 70% усіх дефектів. Рідкісний дефект, перегрів кабелів, дає 0,5%, але може спричинити пожежу. Як діяти керівникові заводу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ігнорувати перегрів, бо 0,5% надто мало, щоб це мало значення"
+					},
+					{
+						"id": "B",
+						"text": "Відмовитися від діаграми, бо вона ховає небезпечний дефект"
+					},
+					{
+						"id": "C",
+						"text": "Працювати лише над подряпинами, бо так каже діаграма, а решта це шум"
+					},
+					{
+						"id": "D",
+						"text": "Зменшувати подряпини заради обсягу, а перегрів усувати негайно, бо кількість не відображає тяжкість наслідків"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Йога-студія зафіксувала за квартал 120 скарг: температура в залі 54, застосунок бронювання 31, душові 15, музика 10, інше 10. Використовуючи підхід Парето, скажіть, які причини виправляти першими, яку частку скарг вони охоплюють і що робити після виправлення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник магазину хоче вивести слабкі товари з асортименту й ранжує їх за виторгом. Товар X продається на $90 000 на рік із маржею 4%, товар Y на $30 000 із маржею 40%. Поясніть, чому виторг тут хибний показник і що власник має перевірити, окрім прибутку."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дистриб’ютор пакування має 300 клієнтів. Топ-36 (12%) приносять 68% виторгу. Нижні 150 (50%) приносять 4% виторгу, але роблять 35% дзвінків у відділ замовлень. Оберіть одне: (1) відмовитися від 150 найменших клієнтів, (2) закріпити за топ-36 персональних менеджерів, а дрібні акаунти перевести на самостійне замовлення через сайт або (3) дати топ-36 знижку 5% за дворічний контракт. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія-розробник програм отримує 900 звернень у підтримку на місяць. Причини: незрозумілий імпорт даних 31% (виправлення триває три місяці), помилки в рахунках 22% (три тижні), скидання паролів 9% (один тиждень), а 38% розпорошено по 20 дрібних причинах. Інженери можуть узятися зараз лише за один проєкт. Оберіть, що робити першим і в якому порядку, та скажіть, чого кількість звернень не показує."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "У ресторанної групи в меню 60 страв. Дев’ять страв приносять 71% валового прибутку. Двадцять п’ять страв разом приносять 3% валового прибутку, але забирають 40% часу заготовок на кухні й спричиняють більшість харчових відходів. Три з цих 25 це веганські страви, запущені чотири місяці тому; їхні замовлення ростуть на 30% щомісяця, а замовляють їх переважно столики, що беруть і топ-страви."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Прочитайте дані за принципом Парето, порадьте, що робити з меню, і поясніть, як перевірити, чи зміни спрацювали."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

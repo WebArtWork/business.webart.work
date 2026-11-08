@@ -1,0 +1,578 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Economies of scale are about the average cost per unit, which falls because fixed costs are spread over more units and large buyers get better prices. Total cost still rises with output, and neither prices nor cooperation define the concept."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Costs such as rent, equipment and management do not rise in proportion to output, so dividing them over more units lowers the cost of each unit. Selling prices, customer numbers or packaging choices are not the mechanism."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Past the minimum efficient scale, savings stop, and at very large sizes diseconomies of scale can raise average cost through coordination problems, layers of management and slower decisions."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A saving that everybody can get quickly becomes the market norm. A lasting advantage needs scale benefits that rivals cannot match."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Fixed cost per loaf falls from $1.20 to $0.40 ($12,000 divided by 30,000), and $0.40 plus the $1.50 variable cost gives $1.90. $1.50 ignores fixed costs, $2.70 is the old figure, and $0.40 forgets variable costs."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Purchasing discounts and specialised equipment are classic scale economies, because they need volume to pay. Brand liking and higher prices do not lower cost per unit, and doubling rent is a cost increase."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Most software costs are fixed, so an extra copy costs almost nothing and the average falls sharply. The furniture maker still pays for wood and labour on every piece, so its average falls much less."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Operating at a fifth of the minimum efficient scale means paying more per bottle than incumbents, so at $0.40 each bottle loses $0.05. Branding may justify a premium, but it needs to exceed $0.45. A $0.30 price would lose $0.15 per bottle, and unit cost does not fall without volume."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Extra capacity that stands idle pushes cost per unit up, and new technology makes many fixed costs cheap to rent. Scale does not guarantee profit, big capacity reduces flexibility when demand falls, and a discount available to rivals is not lasting."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Beyond a certain size, extra management layers, slower decisions and logistics complexity push average cost back up. More orders would reduce fixed cost per order, and reaching the minimum efficient scale would stop savings but not raise costs."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "At 20,000 kg, fixed cost per kilo is $3 ($60,000 divided by 20,000), so the average cost is $7. At 60,000 kg it is $1, so the average cost is $5. The fall of $2 comes entirely from spreading the same fixed costs over three times as many kilograms, because the variable cost stays at $4 per kilo."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates both average costs correctly ($7 and $5)",
+					"points": 2
+				},
+				{
+					"criterion": "Explains that fixed costs are spread over more units while variable cost per kilo does not change",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Diseconomies of scale are rising average costs at very large size. A delivery company that grows from 300 to 3,000 staff adds layers of managers, longer approval chains and more routes to coordinate, so mistakes and delays rise. Cost per parcel can then increase even though overhead is spread over more parcels. The company should track overhead per parcel as it grows."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Defines diseconomies and explains causes: coordination, bureaucracy, slower communication",
+					"points": 2
+				},
+				{
+					"criterion": "Applies to the delivery example with a concrete detail",
+					"points": 1
+				},
+				{
+					"criterion": "Shows the effect on average cost and suggests tracking it",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Accept, with safeguards. Fixed costs rise to $260,000 over 14,000 chairs, or about $18.57 per chair, so the average cost becomes about $53.57 against $85 now. The order brings $600,000 and costs $60,000 plus $350,000 in variable costs, so profit is about $190,000. Risk: dependence on one buyer, and the second shift would stand idle if the order is not repeated. I would insist on a signed contract with a deposit and keep the extra shift on a fixed-term basis, and try a counter price of $65 as a negotiating step."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates the effect of the second shift on average cost or order profit (about $53.57 or $190,000)",
+					"points": 2
+				},
+				{
+					"criterion": "Names a risk, such as dependence on one buyer or idle capacity",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a safeguard, such as a signed contract or a fixed-term shift",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Focus on fresh local products and service. The discounter’s edge is scale: bulk purchasing, and fixed costs such as logistics and advertising spread over 200 stores. Matching its prices would mean losing about 12% on purchasing alone, so margins would collapse. Local fresh produce and service are things customers pay a premium for, and scale helps the discounter little there. The trade-off is lower volume and loss of price-sensitive shoppers. A merger would give some scale but is expensive, slow, and risks diseconomies. I would monitor the share of customers who buy fresh products and consider a joint purchasing group with other chains."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the discounter’s advantage through purchasing and fixed-cost spreading",
+					"points": 2
+				},
+				{
+					"criterion": "Makes a clear choice and gives a reason that follows from scale",
+					"points": 1
+				},
+				{
+					"criterion": "Explains why matching prices or merging is weaker",
+					"points": 1
+				},
+				{
+					"criterion": "Names a trade-off or a risk and a metric",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The current plant has an average cost of $18.75 + $22 = $40.75, so it earns $3.25 a unit, or $260,000. The new plant would cost $37.50 + $20 = $57.50 per unit at 80,000, and $25 + $20 = $45 at 120,000, which is still above $44. At 200,000 units, it would cost $35. The break-even volume for the new plant is $3 million divided by $24, which is 125,000 units. The new plant pays only above that, which is more than the demand even in the best case. I would keep the current plant and negotiate a signed contract first. If the customer commits to a volume above 125,000, build or add capacity in stages. Risk: waiting could lose the customer, and the old plant may run out of capacity."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates average costs for current plant and new plant at 80,000 and 120,000 units",
+					"points": 2
+				},
+				{
+					"criterion": "Finds the break-even volume (125,000 units)",
+					"points": 1
+				},
+				{
+					"criterion": "Compares it with demand, including the unsigned customer",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends a decision (such as waiting for a signed contract or staged capacity) and names a risk",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Економія на масштабі стосується середньої собівартості одиниці, яка падає, бо постійні витрати розподіляються на більше одиниць, а великі покупці отримують кращі ціни. Загальні витрати все одно зростають з випуском, а поняття не визначають ні ціни, ні співпраця."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Витрати на оренду, обладнання й управління не зростають пропорційно випуску, тож їх розподіл на більше одиниць знижує вартість кожної. Ціни продажу, кількість клієнтів чи вибір пакування не є механізмом."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Після мінімального ефективного масштабу економія припиняється, а за дуже великого розміру негативний ефект масштабу може підняти середні витрати через проблеми координації, шари управління й повільніші рішення."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Економія, яку швидко отримують усі, стає нормою ринку. Тривала перевага потребує вигод масштабу, яких конкуренти не можуть повторити."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Постійні витрати на буханець падають з $1,20 до $0,40 ($12 000 ÷ 30 000), а $0,40 плюс змінні $1,50 дають $1,90. $1,50 ігнорує постійні витрати, $2,70 це старе значення, а $0,40 забуває змінні витрати."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Знижки на закупівлі й спеціалізоване обладнання це класична економія на масштабі, бо для окупності їм потрібен обсяг. Симпатія до бренду й вищі ціни не знижують собівартість одиниці, а подвоєння оренди це зростання витрат."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Більшість витрат на софт постійні, тож додана копія коштує майже нічого, і середня собівартість різко падає. Виробник меблів і далі платить за деревину й працю на кожен виріб, тож його середнє падає значно менше."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Працювати на п’ятій частині мінімального ефективного масштабу означає платити за пляшку більше, ніж лідери, тож за $0,40 кожна пляшка збиткова на $0,05. Бренд може виправдати націнку, але вона має перевищити $0,45. Ціна $0,30 дала б збиток $0,15 на пляшку, а собівартість без обсягу не падає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Потужності, що простоюють, піднімають собівартість одиниці, а нові технології роблять багато постійних витрат дешевими для оренди. Масштаб не гарантує прибутку, велика потужність знижує гнучкість, коли попит падає, а знижка, доступна конкурентам, не є тривалою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "За певного розміру додаткові рівні управління, повільніші рішення та складність логістики піднімають середні витрати. Більше замовлень зменшило б постійні витрати на замовлення, а досягнення мінімального ефективного масштабу зупинило б економію, але не підняло б витрат."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "За 20 000 кг постійні витрати на кілограм становлять $3 ($60 000 ÷ 20 000), тож середня собівартість $7. За 60 000 кг це $1, тож середня собівартість $5. Падіння на $2 повністю походить від розподілу тих самих постійних витрат на втричі більше кілограмів, бо змінні витрати лишаються $4 на кілограм."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Правильно розраховує обидві середні собівартості ($7 і $5)",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, що постійні витрати розподіляються на більше одиниць, а змінні на кілограм не змінюються",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Негативний ефект масштабу це зростання середніх витрат за дуже великого розміру. Служба доставки, що виросла з 300 до 3 000 працівників, додає шари менеджерів, довші ланцюги погодження й більше маршрутів для координації, тож помилок і затримок побільшало. Вартість посилки тоді може зростати, хоча накладні витрати розподілено на більше посилок. Компанії варто стежити за накладними витратами на посилку в міру зростання."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає негативний ефект масштабу й пояснює причини: координація, бюрократія, повільніша комунікація",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує до прикладу доставки з конкретною деталлю",
+					"points": 1
+				},
+				{
+					"criterion": "Показує вплив на середні витрати й радить стежити за ними",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Прийняти, із запобіжниками. Постійні витрати зростають до $260 000 на 14 000 стільців, тобто близько $18,57 на стілець, тож середня собівартість стає близько $53,57 проти $85 зараз. Замовлення приносить $600 000, а коштує $60 000 плюс $350 000 змінних, тож прибуток близько $190 000. Ризик: залежність від одного покупця, а друга зміна простоюватиме, якщо замовлення не повториться. Я наполягав би на підписаному договорі із завдатком і тримав би додаткову зміну на обмежений термін, а ціну $65 запропонував би як крок переговорів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Розраховує вплив другої зміни на середню собівартість чи прибуток із замовлення (близько $53,57 або $190 000)",
+					"points": 2
+				},
+				{
+					"criterion": "Називає ризик, як-от залежність від одного покупця чи простій потужностей",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує запобіжник, як-от підписаний договір чи зміна на обмежений термін",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зосередитися на свіжих місцевих продуктах і сервісі. Перевага дискаунтера це масштаб: оптові закупівлі та постійні витрати, як-от логістика й реклама, розподілені на 200 магазинів. Зрівняти ціни означало б втратити близько 12% лише на закупівлях, тож маржа обвалилася б. За місцеві свіжі продукти й сервіс клієнти платять більше, а масштаб дискаунтеру тут майже не допомагає. Компроміс: менший обсяг і втрата чутливих до ціни покупців. Об’єднання дало б дещо масштабу, але дороге, повільне й несе ризик негативного ефекту масштабу. Я стежив би за часткою покупців, які беруть свіжі продукти, і розглянув би спільну закупівельну групу з іншими мережами."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює перевагу дискаунтера через закупівлі й розподіл постійних витрат",
+					"points": 2
+				},
+				{
+					"criterion": "Робить чіткий вибір і дає причину, що випливає з масштабу",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, чому зрівняти ціни чи об’єднатися слабше",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс чи ризик і показник",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Чинний завод має середню собівартість $18,75 + $22 = $40,75, тож заробляє $3,25 на одиницю, або $260 000. Новий завод коштував би $37,50 + $20 = $57,50 за одиницю за 80 000 і $25 + $20 = $45 за 120 000, що все ще вище за $44. За 200 000 одиниць собівартість була б $35. Обсяг беззбитковості нового заводу це $3 млн ÷ $24, тобто 125 000 одиниць. Новий завод окупається лише вище цього обсягу, а це більше за попит навіть у найкращому випадку. Я б залишив чинний завод і спершу домовився про підписаний контракт. Якщо клієнт зобов’яжеться на обсяг понад 125 000, будувати або додавати потужність етапами. Ризик: очікування може коштувати клієнта, а старий завод може вичерпати потужність."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Розраховує середні витрати чинного заводу й нового за 80 000 і 120 000 одиниць",
+					"points": 2
+				},
+				{
+					"criterion": "Знаходить обсяг беззбитковості (125 000 одиниць)",
+					"points": 1
+				},
+				{
+					"criterion": "Порівнює його з попитом, зокрема з непідписаним клієнтом",
+					"points": 1
+				},
+				{
+					"criterion": "Рекомендує рішення (як-от чекати підписаного контракту чи нарощувати етапами) і називає ризик",
+					"points": 2
+				}
+			]
+		}
+	}
+}

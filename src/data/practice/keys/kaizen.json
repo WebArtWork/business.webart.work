@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Kaizen is a habit of many small changes, found and tested by the people closest to the work. A one-off redesign, top-down targets and a yearly contest all depend on rare, big moves, which is exactly what kaizen avoids."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Gemba is the workplace itself, such as the kitchen line, the shop floor or the front desk. Problems are studied there because reports and meetings hide details that are visible only when you watch the actual work."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Kaizen prefers many cheap, safe, daily improvements to rare, costly and risky transformations. The gains compound over time and are hard for rivals to copy."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Without a written standard, people slowly drift back to old habits and new staff are trained the old way. Each improvement must become the new standard, which then becomes the baseline for the next improvement."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A documented current method gives a baseline, and a regular short meeting at the workplace creates the rhythm kaizen needs. A one-off workshop fades within weeks, a yearly prize pushes people toward rare big ideas, and a chain-wide software rollout is a big-bang change."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A small test with one clear measure and fast replies to every idea are core kaizen habits. Top-down layouts, a yearly collection and a ban on staff ideas all remove the daily involvement of the people doing the work."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "It tests a small change, measures one clear indicator and standardises the result if it works. Waiting delays learning, a new system is a large and risky change for a small problem, and a reminder blames people instead of fixing the cause."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The change was found but never standardised, so it depended on a few people’s memory. Four minutes across many rooms adds up quickly, pay is not the cause, and kaizen applies to any repeated work, including services."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A single large prize invites hoarding and rare big ideas, and a quota on ideas rewards quantity instead of results. Meetings at the workplace, operator ideas and small tests are what kaizen recommends."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Kaizen cannot replace strategic change when technology makes the whole process obsolete. Polishing a shrinking process wastes effort. Kaizen suits office work, and a bigger bonus does not fix a wrong target."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "First, write down how drinks are made now, with the steps and the current 5-minute time, so there is a baseline. Second, hold a 10-minute weekly meeting at the bar where each barista brings one problem, such as the milk fridge being too far away. Third, test one small change, such as moving the fridge next to the machine, for two weeks, measure drink time, and if it falls, write the new layout into the standard guide."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Documents the current method and time as a baseline",
+					"points": 1
+				},
+				{
+					"criterion": "Sets a short regular meeting at the workplace where each person brings a problem",
+					"points": 1
+				},
+				{
+					"criterion": "Tests a small change, measures one indicator and standardises it if it works",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Eight changes of 15 seconds save 2 minutes, so order handling falls from 6 to 4 minutes, a reduction of one third, and the gains stack because each change becomes the new standard. Beyond time, the staff who found the changes learn to spot waste themselves, and a hundred small improvements are cheap and hard for a rival to copy."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates 8 × 15 seconds = 2 minutes, so 6 minutes becomes 4, about one third",
+					"points": 2
+				},
+				{
+					"criterion": "Explains compounding: each change is kept as the new standard and builds on the last",
+					"points": 1
+				},
+				{
+					"criterion": "Gives one extra benefit: staff involvement and learning, low cost or hard to copy",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Start weekly kaizen. The new press would cut waste from 9% to 3%, saving about two thirds of $4,500, or $3,000 a month, so it needs 40 months to pay back its $120,000. Kaizen costs about $2,000 a year, and even a 2 percentage point drop in waste saves roughly $1,000 a month. Operators see the causes at the machine, and each fix goes into a written standard. A one-time workshop tends to fade. Risk: the gains may stall, so track waste percentage monthly and revisit the press if it plateaus above 6%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses numbers from the case, such as $3,000 a month saving and a 40-month payback",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why weekly work at the machine and written standards beat a one-time event or a big purchase",
+					"points": 1
+				},
+				{
+					"criterion": "Names a risk and a way to watch it",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Kaizen alone is not enough. At 1% a month for 24 months the saving is at most about 21%, and real results usually run lower, so the plant would still sit well above a competitor with 30% lower costs. This is a strategic shift, which kaizen cannot replace. I recommend buying the technology and using kaizen to ramp it up, standardise the new line and keep trimming waste on top. The trade-off is $2 million of cash and some risk in the rollout. Kaizen is cheap but slow, and the plant would keep its learning habit either way."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Shows the gap with numbers: about 21% at best from 24 months of 1% against a 30% cost advantage",
+					"points": 2
+				},
+				{
+					"criterion": "Sees that kaizen cannot replace strategic change when technology resets costs",
+					"points": 1
+				},
+				{
+					"criterion": "Recommends a combination, with the technology first and kaizen to standardise and extend it",
+					"points": 1
+				},
+				{
+					"criterion": "States a trade-off or risk, such as cash cost or rollout risk",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Mistake one: kaizen was run as a one-off event, so there was no rhythm and the gains faded. Mistake two: 11 of 14 ideas got no reply, which kills participation. Mistake three: the quarterly $1,000 prize rewards rare big ideas, not daily fixes, and the three changes that worked were never written into a station standard. Restart: hold a 15-minute weekly meeting at the line, answer every idea within three days, test one small change at a time while measuring ticket time, and write each successful change into a one-page station guide. Report how many ideas were adopted each month."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Identifies the one-off workshop without a regular rhythm",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies unanswered ideas as the reason participation has died",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the big prize and the missing standard",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a regular weekly meeting at the workplace and fast replies to every idea",
+					"points": 2
+				},
+				{
+					"criterion": "Proposes testing small changes with a measure and writing successes into the standard",
+					"points": 1
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кайдзен це звичка робити багато малих змін, які знаходять і випробовують люди, найближчі до роботи. Разова перебудова, директиви згори й щорічний конкурс спираються на рідкісні великі кроки, а кайдзен саме їх оминає."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Гемба це саме робоче місце: кухонна лінія, цех чи стійка рецепції. Проблеми вивчають там, бо звіти й наради приховують деталі, які видно лише тоді, коли спостерігаєш за справжньою роботою."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кайдзен надає перевагу багатьом дешевим, безпечним щоденним покращенням, а не рідкісним, дорогим і ризикованим трансформаціям. Здобутки накопичуються, і конкурентам їх важко скопіювати."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Без записаного стандарту люди поступово повертаються до старих звичок, а нових працівників навчають по-старому. Кожне покращення має стати новим стандартом, який потім слугує відправною точкою для наступного покращення."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Задокументований поточний метод дає точку відліку, а регулярна коротка нарада на робочому місці створює ритм, потрібний кайдзен. Разовий воркшоп згасає за кілька тижнів, щорічний приз штовхає до рідкісних великих ідей, а впровадження програми в усій мережі це зміна одним стрибком."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Невеликий тест з одним чітким показником і швидка відповідь на кожну ідею це основа кайдзен. Розташування згори, щорічний збір ідей і заборона пропозицій від працівників забирають щоденну участь людей, які виконують роботу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Так перевіряють невелику зміну, вимірюють один чіткий показник і стандартизують результат, якщо він спрацював. Очікування затримує навчання, нова система це велика й ризикована зміна заради малої проблеми, а нагадування звинувачує людей замість усунення причини."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зміну знайшли, але не стандартизували, тож вона трималася на пам’яті кількох людей. Чотири хвилини на багатьох номерах швидко складаються у значну суму, річ не в оплаті, а кайдзен застосовний до будь-якої повторюваної роботи, зокрема послуг."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Один великий приз спонукає приховувати ідеї й шукати рідкісні великі, а норма за кількістю ідей винагороджує обсяг, а не результат. Наради на робочому місці, ідеї операторів і малі тести це саме те, що радить кайдзен."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"B"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Кайдзен не замінить стратегічних змін, коли технологія робить увесь процес застарілим. Шліфувати процес, що зникає, це марна витрата сил. Кайдзен придатний і для офісної роботи, а більший бонус не виправляє хибної цілі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Спершу записати, як зараз готують напої, з кроками й поточним часом у 5 хвилин, щоб мати точку відліку. Потім щотижня проводити 10-хвилинну нараду біля бару, на яку кожен бариста приносить одну проблему, наприклад занадто далекий холодильник із молоком. Далі два тижні випробувати одну малу зміну, наприклад поставити холодильник поруч із кавомашиною, виміряти час напою й, якщо він зменшився, вписати нове розташування в стандарт."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Документує поточний метод і час як точку відліку",
+					"points": 1
+				},
+				{
+					"criterion": "Призначає коротку регулярну нараду на робочому місці, де кожен приносить проблему",
+					"points": 1
+				},
+				{
+					"criterion": "Випробовує малу зміну, вимірює один показник і стандартизує її, якщо вона спрацювала",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Вісім змін по 15 секунд заощаджують 2 хвилини, тож обробка замовлення скорочується з 6 до 4 хвилин, тобто на третину, а здобутки накопичуються, бо кожна зміна стає новим стандартом. Крім часу, працівники, які знайшли зміни, вчаться самі помічати втрати, а сотні малих покращень дешеві й конкурентам їх важко скопіювати."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує 8 × 15 секунд = 2 хвилини, тож 6 хвилин стають 4, приблизно на третину",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює накопичення: кожна зміна лишається новим стандартом і будується на попередній",
+					"points": 1
+				},
+				{
+					"criterion": "Називає додаткову користь: залучення й навчання персоналу, низька вартість або складність копіювання",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Запровадити щотижневий кайдзен. Нова машина знизить втрати з 9% до 3%, тобто заощадить дві третини від $4 500, або $3 000 на місяць, тож окупиться за 40 місяців від ціни $120 000. Кайдзен коштує близько $2 000 на рік, а навіть зниження втрат на 2 відсоткові пункти дає приблизно $1 000 економії на місяць. Оператори бачать причини біля верстата, і кожне виправлення потрапляє в записаний стандарт. Разовий воркшоп зазвичай згасає. Ризик: здобутки можуть зупинитися, тож щомісяця стежте за відсотком втрат і поверніться до купівлі машини, якщо він застрягне вище 6%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує числа з умови, наприклад економію $3 000 на місяць і окупність 40 місяців",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому щотижнева робота біля верстата й записані стандарти кращі за разовий захід чи велику покупку",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ризик і спосіб за ним стежити",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Самого кайдзен недостатньо. За 1% на місяць протягом 24 місяців економія становить щонайбільше близько 21%, а реальні результати зазвичай нижчі, тож завод усе одно залишиться значно дорожчим за конкурента з витратами на 30% меншими. Це стратегічний зсув, який кайдзен замінити не може. Раджу купити технологію, а кайдзен використати, щоб запустити її, стандартизувати нову лінію й далі зменшувати втрати. Компроміс: $2 млн готівки й певний ризик під час впровадження. Кайдзен дешевий, але повільний, а звичку вчитися завод збереже за будь-якого варіанту."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Показує розрив числами: близько 21% у найкращому разі за 24 місяці по 1% проти переваги у 30% за витратами",
+					"points": 2
+				},
+				{
+					"criterion": "Розуміє, що кайдзен не замінить стратегічних змін, коли технологія переписує витрати",
+					"points": 1
+				},
+				{
+					"criterion": "Рекомендує поєднання: спершу технологія, а кайдзен для стандартизації й розвитку",
+					"points": 1
+				},
+				{
+					"criterion": "Називає компроміс або ризик, наприклад вартість у готівці чи ризик впровадження",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Помилка перша: кайдзен провели як разовий захід, тож не було ритму, а здобутки згасли. Помилка друга: 11 із 14 ідей лишилися без відповіді, а це вбиває участь. Помилка третя: квартальний приз $1 000 винагороджує рідкісні великі ідеї, а не щоденні виправлення, і три зміни, що спрацювали, так і не записали в стандарт станції. Перезапуск: щотижня проводити 15-хвилинну нараду біля лінії, відповідати на кожну ідею протягом трьох днів, випробовувати по одній малій зміні з вимірюванням часу подачі й вписувати кожну вдалу зміну в одну сторінку інструкції для станції. Щомісяця звітувати, скільки ідей упроваджено."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Визначає разовий воркшоп без регулярного ритму",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає ідеї без відповіді як причину згасання участі",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає великий приз і відсутність стандарту",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує регулярну щотижневу нараду на робочому місці й швидку відповідь на кожну ідею",
+					"points": 2
+				},
+				{
+					"criterion": "Пропонує випробовувати малі зміни з вимірюванням і вписувати вдалі в стандарт",
+					"points": 1
+				}
+			]
+		}
+	}
+}

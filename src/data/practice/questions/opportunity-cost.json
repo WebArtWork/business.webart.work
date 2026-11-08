@@ -1,0 +1,884 @@
+{
+	"slug": "opportunity-cost",
+	"topicId": 58,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the opportunity cost of a decision?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The cash paid for the option you chose"
+					},
+					{
+						"id": "B",
+						"text": "The value of the best alternative you gave up"
+					},
+					{
+						"id": "C",
+						"text": "The total value of all the alternatives you gave up"
+					},
+					{
+						"id": "D",
+						"text": "The interest on money you borrowed to pay for it"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company keeps $200,000 in a current account that pays nothing, although a deposit would pay 4% a year. What is the yearly opportunity cost?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$0, because no money has been spent"
+					},
+					{
+						"id": "B",
+						"text": "$4,000"
+					},
+					{
+						"id": "C",
+						"text": "$200,000"
+					},
+					{
+						"id": "D",
+						"text": "$8,000"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Opportunity cost appears as a separate line in the company’s accounts."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If a firm gives up three alternatives worth $10,000, $8,000 and $5,000 by choosing a fourth, the opportunity cost is $10,000."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these is an "
+							},
+							{
+								"t": "implicit",
+								"b": true
+							},
+							{
+								"t": " cost for a shop owner who runs the shop herself?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The $60,000 salary she could earn in a job instead"
+					},
+					{
+						"id": "B",
+						"text": "The monthly rent paid to the landlord"
+					},
+					{
+						"id": "C",
+						"text": "Supplier invoices for stock"
+					},
+					{
+						"id": "D",
+						"text": "Wages paid to a shop assistant"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements about economic profit are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "It equals revenue minus only the cash costs."
+					},
+					{
+						"id": "B",
+						"text": "It equals accounting profit minus implicit costs."
+					},
+					{
+						"id": "C",
+						"text": "It ignores the value of the owner’s time."
+					},
+					{
+						"id": "D",
+						"text": "It can be negative while accounting profit is positive."
+					},
+					{
+						"id": "E",
+						"text": "It is always larger than accounting profit."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A freelance designer has 40 free hours. Option A: client X pays $50 an hour, so $2,000. Option B: client Y pays a fixed $2,600 but she must pay $500 for an assistant, so $2,100 net. Option C: teaching a course brings $1,900. She chooses A."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is the opportunity cost of choosing A?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$1,900"
+					},
+					{
+						"id": "B",
+						"text": "$4,000"
+					},
+					{
+						"id": "C",
+						"text": "$2,100"
+					},
+					{
+						"id": "D",
+						"text": "$2,000"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A bakery owner works 60 hours a week in his shop. The accounts show a profit of $3,800 a month, with no salary for himself. He could earn $5,000 a month as head baker at a hotel, and his $100,000 of capital could earn 6% a year, or $500 a month, elsewhere."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does this suggest?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The bakery is profitable at $3,800, so the decision is sound"
+					},
+					{
+						"id": "B",
+						"text": "Economic profit is about −$1,700 a month, so he is better off in the hotel unless he values the independence"
+					},
+					{
+						"id": "C",
+						"text": "Economic profit equals the $3,800 shown in the accounts"
+					},
+					{
+						"id": "D",
+						"text": "The only forgone return is $500, so economic profit is $3,300"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company has an empty warehouse. Using it for its own storage saves $120,000 a year. Renting it out would bring $150,000 a year. Selling it would free $1.5 million, which could earn 8% a year, or $120,000. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements are correct for own storage?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The opportunity cost of own use is $150,000, the best alternative."
+					},
+					{
+						"id": "B",
+						"text": "The opportunity cost is $270,000, rent plus interest."
+					},
+					{
+						"id": "C",
+						"text": "Compared with renting, own storage is worth $30,000 a year less."
+					},
+					{
+						"id": "D",
+						"text": "Own storage is free because the company owns the building."
+					},
+					{
+						"id": "E",
+						"text": "The opportunity cost is $120,000."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A firm has $500,000 spare. Option 1: a new project returning 8% a year. Option 2: repay a loan that costs 12% a year. Option 3: a bank account paying 3%. What is the right comparison?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Choose the project, since 8% is a positive return"
+					},
+					{
+						"id": "B",
+						"text": "Choose the bank account because it is the safest"
+					},
+					{
+						"id": "C",
+						"text": "The options are equal because all of them use the same money"
+					},
+					{
+						"id": "D",
+						"text": "Repay the loan: it saves 12%, which beats the project by $20,000 a year"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A consultant bills clients $80 an hour and has a waiting list. She spends 10 hours a week on her own bookkeeping. A bookkeeper would cost $30 an hour. Explain the opportunity cost of doing it herself and say what she should do."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why a shop can show an accounting profit while its economic profit is negative. Give a numerical example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A print shop has 100 free machine hours next month. Option A: one big order from a retailer, with $9,000 of revenue and $5,400 of costs. Option B: three smaller orders from regular customers, with $11,000 of revenue and $7,300 of costs. Option C: renting the machine to another shop for $3,000 with no costs. Choose one and justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company has $300,000 of spare cash. Option A: open a second location that earns $36,000 a year if it works, with a 25% chance of earning nothing. Option B: repay a 9% loan. Option C: buy software that frees 10 hours a week of the owner’s time, worth $60 an hour, over 52 weeks. Evaluate each option’s value, find the opportunity cost of your choice and decide."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A design studio founder works 50 hours a week. She bills 30 hours at $120 an hour, spends 8 hours on invoicing and scheduling, 6 hours on social media and 6 hours on unpaid pitches. Clients are on a waiting list, so any hour she frees could be billed at $120. An assistant would cost $25 an hour. The pitches win about $2,400 of profit each week, and social media produces no measurable work."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Put a price on each non-billable activity using opportunity cost, and recommend what she should delegate, stop or keep."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке альтернативна вартість рішення?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Гроші, сплачені за обраний варіант"
+					},
+					{
+						"id": "B",
+						"text": "Цінність найкращої альтернативи, від якої ви відмовилися"
+					},
+					{
+						"id": "C",
+						"text": "Загальна цінність усіх альтернатив, від яких ви відмовилися"
+					},
+					{
+						"id": "D",
+						"text": "Відсотки за позиченими грошима, взятими на оплату"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія тримає $200 000 на поточному рахунку, що не нараховує нічого, хоча депозит давав би 4% річних. Яка річна альтернативна вартість?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$0, бо гроші не витрачено"
+					},
+					{
+						"id": "B",
+						"text": "$4000"
+					},
+					{
+						"id": "C",
+						"text": "$200 000"
+					},
+					{
+						"id": "D",
+						"text": "$8000"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Альтернативна вартість з’являється окремим рядком у звітності компанії."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо фірма, обираючи четвертий варіант, відмовляється від трьох альтернатив вартістю $10 000, $8000 і $5000, альтернативна вартість становить $10 000."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що з наведеного є "
+							},
+							{
+								"t": "неявною",
+								"b": true
+							},
+							{
+								"t": " витратою для власниці магазину, яка сама його веде?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Зарплата $60 000, яку вона могла б отримувати на роботі"
+					},
+					{
+						"id": "B",
+						"text": "Щомісячна оренда, яку платять орендодавцю"
+					},
+					{
+						"id": "C",
+						"text": "Рахунки постачальників за товар"
+					},
+					{
+						"id": "D",
+						"text": "Зарплата помічника в магазині"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження про економічний прибуток правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Він дорівнює виторгу мінус лише грошові витрати."
+					},
+					{
+						"id": "B",
+						"text": "Він дорівнює бухгалтерському прибутку мінус неявні витрати."
+					},
+					{
+						"id": "C",
+						"text": "Він ігнорує цінність часу власника."
+					},
+					{
+						"id": "D",
+						"text": "Він може бути від’ємним, коли бухгалтерський прибуток додатний."
+					},
+					{
+						"id": "E",
+						"text": "Він завжди більший за бухгалтерський прибуток."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дизайнерка-фрилансерка має 40 вільних годин. Варіант A: клієнт X платить $50 за годину, тобто $2000. Варіант Б: клієнт Y платить фіксовані $2600, але вона мусить заплатити $500 помічникові, тож чистими $2100. Варіант В: викладання курсу приносить $1900. Вона обирає A."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка альтернативна вартість вибору A?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$1900"
+					},
+					{
+						"id": "B",
+						"text": "$4000"
+					},
+					{
+						"id": "C",
+						"text": "$2100"
+					},
+					{
+						"id": "D",
+						"text": "$2000"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Власник пекарні працює в ній 60 годин на тиждень. Звітність показує прибуток $3800 на місяць без зарплати для нього самого. Він міг би заробляти $5000 на місяць шеф-пекарем у готелі, а його $100 000 капіталу могли б заробляти деінде 6% річних, тобто $500 на місяць."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що це означає?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Пекарня прибуткова на $3800, тож рішення правильне"
+					},
+					{
+						"id": "B",
+						"text": "Економічний прибуток близько −$1700 на місяць, тож у готелі йому було б краще, якщо він не цінує незалежність"
+					},
+					{
+						"id": "C",
+						"text": "Економічний прибуток дорівнює $3800 зі звітності"
+					},
+					{
+						"id": "D",
+						"text": "Недоотримана віддача лише $500, тож економічний прибуток $3300"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія має порожній склад. Власне зберігання економить $120 000 на рік. Оренда принесла б $150 000 на рік. Продаж вивільнив би $1,5 млн, що могли б заробляти 8% річних, тобто $120 000. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження правильні для власного зберігання?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Альтернативна вартість власного використання $150 000, найкраща альтернатива."
+					},
+					{
+						"id": "B",
+						"text": "Альтернативна вартість $270 000, оренда плюс відсотки."
+					},
+					{
+						"id": "C",
+						"text": "Порівняно з орендою власне зберігання коштує на $30 000 на рік менше."
+					},
+					{
+						"id": "D",
+						"text": "Власне зберігання безкоштовне, бо компанія володіє будівлею."
+					},
+					{
+						"id": "E",
+						"text": "Альтернативна вартість $120 000."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фірма має $500 000 вільних коштів. Варіант 1: новий проєкт із віддачею 8% річних. Варіант 2: погасити позику, що коштує 12% річних. Варіант 3: банківський рахунок із 3%. Яке порівняння правильне?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Обрати проєкт, бо 8% це додатна віддача"
+					},
+					{
+						"id": "B",
+						"text": "Обрати банківський рахунок, бо він найнадійніший"
+					},
+					{
+						"id": "C",
+						"text": "Варіанти рівні, бо всі використовують ті самі гроші"
+					},
+					{
+						"id": "D",
+						"text": "Погасити позику: вона економить 12%, що на $20 000 на рік краще за проєкт"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Консультантка бере з клієнтів $80 за годину й має чергу охочих. Вона витрачає 10 годин на тиждень на власну бухгалтерію. Бухгалтер коштував би $30 за годину. Поясніть альтернативну вартість того, що вона робить це сама, і скажіть, що їй робити."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому магазин може показувати бухгалтерський прибуток, а його економічний прибуток від’ємний. Наведіть числовий приклад."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Друкарня має 100 вільних годин верстата наступного місяця. Варіант A: одне велике замовлення від рітейлера з виторгом $9000 і витратами $5400. Варіант Б: три менші замовлення від постійних клієнтів з виторгом $11 000 і витратами $7300. Варіант В: здати верстат в оренду іншій друкарні за $3000 без витрат. Оберіть один і обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія має $300 000 вільних грошей. Варіант A: відкрити другу точку, що заробляє $36 000 на рік, якщо спрацює, з імовірністю 25%, що не заробить нічого. Варіант Б: погасити позику під 9%. Варіант В: купити програму, що вивільняє 10 годин на тиждень часу власника вартістю $60 за годину протягом 52 тижнів. Оцініть цінність кожного варіанта, знайдіть альтернативну вартість свого вибору й ухваліть рішення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Засновниця дизайн-студії працює 50 годин на тиждень. 30 годин вона виставляє по $120 за годину, 8 годин іде на рахунки й планування, 6 годин на соціальні мережі та 6 годин на безоплатні пітчі. Клієнти стоять у черзі, тож кожну вивільнену годину можна виставити за $120. Помічник коштував би $25 за годину. Пітчі приносять близько $2400 прибутку щотижня, а соціальні мережі не дають вимірюваних замовлень."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оцініть кожну неоплачувану діяльність за альтернативною вартістю й порадьте, що їй делегувати, припинити чи залишити."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

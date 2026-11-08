@@ -1,0 +1,980 @@
+{
+	"slug": "sales-funnel",
+	"topicId": 52,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A funnel has three stages with conversion rates of 50%, 40% and 25%. What is the overall conversion from lead to customer?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "5%"
+					},
+					{
+						"id": "B",
+						"text": "38%"
+					},
+					{
+						"id": "C",
+						"text": "25%"
+					},
+					{
+						"id": "D",
+						"text": "12.5%"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which stage definition follows the rule of describing what the "
+							},
+							{
+								"t": "buyer",
+								"b": true
+							},
+							{
+								"t": " did?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "\"Proposal sent\""
+					},
+					{
+						"id": "B",
+						"text": "\"Lead called twice\""
+					},
+					{
+						"id": "C",
+						"text": "\"Demo booked by the rep\""
+					},
+					{
+						"id": "D",
+						"text": "\"Buyer agreed to an on-site visit\""
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Raising one weak stage's conversion rate from 20% to 25% has the same effect on final sales as getting 25% more leads."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A sales manager reports a $2 million pipeline by adding up all open deals, including several that have not been touched for nine months while the normal sales cycle is two months. This is a reliable forecast."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An accounting firm wants 30 new clients next quarter. Its rates are: lead to qualified 50%, qualified to proposal 40%, proposal to signed 25%. How many leads does it need?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "120"
+					},
+					{
+						"id": "B",
+						"text": "600"
+					},
+					{
+						"id": "C",
+						"text": "300"
+					},
+					{
+						"id": "D",
+						"text": "1,500"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Pipeline velocity is opportunities × win rate × average deal size ÷ cycle length. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " changes raise it, all else equal?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The sales cycle grows from 30 to 45 days"
+					},
+					{
+						"id": "B",
+						"text": "The win rate falls from 25% to 20%"
+					},
+					{
+						"id": "C",
+						"text": "The average deal size rises from $8,000 to $9,000"
+					},
+					{
+						"id": "D",
+						"text": "The number of open opportunities falls from 80 to 70"
+					},
+					{
+						"id": "E",
+						"text": "The sales cycle shrinks from 60 to 40 days"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A marketing agency compares this quarter with past quarters:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Leads: 400 (usually 400). Lead to meeting: 30% (usually 30%). Meeting to proposal: 60% (usually 60%). Proposal to signed: 10% (usually 25%)."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "The CEO wants to double the advertising budget. What should the agency do first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Double the advertising budget, as planned"
+					},
+					{
+						"id": "B",
+						"text": "Hire another person to book more meetings"
+					},
+					{
+						"id": "C",
+						"text": "Interview prospects lost after the proposal and fix that stage"
+					},
+					{
+						"id": "D",
+						"text": "Cut prices on every service"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software firm gets 800 leads a quarter. Lead to qualified is 40%, qualified to proposal 50%, proposal to won 20%. For the same $20,000 it can either buy 25% more leads or train the team so that proposal to won rises to 28%. Which gives more customers?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Buying leads: 25% more leads beats any single-stage fix"
+					},
+					{
+						"id": "B",
+						"text": "Training: about 45 customers against 40"
+					},
+					{
+						"id": "C",
+						"text": "Both are equal, since both raise output by 25%"
+					},
+					{
+						"id": "D",
+						"text": "Buying leads, because past stage rates cannot be changed"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A consultant warns a medical-equipment firm about relying too much on its sales funnel. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " warnings describe genuine limitations of the model?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Hospital committees loop back and some buyers arrive already decided, so the path is not linear."
+					},
+					{
+						"id": "B",
+						"text": "Stage rates multiply, so a weak stage hurts overall output."
+					},
+					{
+						"id": "C",
+						"text": "Velocity divides by the length of the sales cycle."
+					},
+					{
+						"id": "D",
+						"text": "Stage rates based on a few dozen deals can swing widely between quarters."
+					},
+					{
+						"id": "E",
+						"text": "Stages are defined by what buyers do."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A broadband provider started paying sales bonuses for conversion at every stage. Overall conversion rose from 8% to 12%, but the share of new customers cancelling within three months rose from 15% to 50%. What is the best reading?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The funnel change worked; cancellations are a separate issue"
+					},
+					{
+						"id": "B",
+						"text": "Spend more on leads to make use of the higher conversion"
+					},
+					{
+						"id": "C",
+						"text": "Shorten the sales cycle further to lock in the gain"
+					},
+					{
+						"id": "D",
+						"text": "Aggressive closing raised conversion but brought customers who leave, and the funnel ignores what happens after the sale"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online language school gets 2,000 trial sign-ups a quarter. 45% attend a first lesson, and 30% of those buy a $400 lesson package. Calculate customers, revenue and overall conversion. Then show the effect of raising trial-to-first-lesson to 55%."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why funnel stages should be defined by what the buyer did rather than what the salesperson did. Give an example of a stage that misleads."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A software firm has 120 open opportunities, a 25% win rate, a $10,000 average deal and a 60-day cycle. For the same cost it can: offer a 10% discount that lifts the win rate to 28%; add an implementation partner that cuts the cycle to 45 days; or run a campaign that raises opportunities to 140. Choose one using pipeline velocity."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A B2B training company has two lead sources:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Webinars: 500 leads a quarter for $30,000, overall conversion 4%, average deal $6,000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Partner referrals: 120 leads a quarter for $18,000 in referral fees, conversion 20%, average deal $9,000. Partners can supply at most 80 more leads at the same fee per lead."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "It has an extra $30,000 a quarter. Choose: all into webinars, all into referrals, or a split. Justify with expected revenue."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "An office fit-out company gets 400 leads a quarter. 50% qualify (200), 40% of those book a site survey (80), and 75% of surveys lead to a proposal (60)."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Only 15% of proposals are won, against 30% last year. The average project is $50,000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Notes on lost deals: 8 of 10 cite a six-week delivery time, while competitors deliver in three."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Marketing asks for $40,000 to raise leads by 30%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate quarterly revenue now, with the marketing plan, and with the proposal stage back at 30%. Name the leak and recommend what to do."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Воронка має три етапи з конверсією 50%, 40% і 25%. Яка загальна конверсія від ліда до клієнта?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "5%"
+					},
+					{
+						"id": "B",
+						"text": "38%"
+					},
+					{
+						"id": "C",
+						"text": "25%"
+					},
+					{
+						"id": "D",
+						"text": "12,5%"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яке визначення етапу відповідає правилу описувати, що зробив "
+							},
+							{
+								"t": "покупець",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "«Пропозицію надіслано»"
+					},
+					{
+						"id": "B",
+						"text": "«Ліду подзвонили двічі»"
+					},
+					{
+						"id": "C",
+						"text": "«Продавець призначив демонстрацію»"
+					},
+					{
+						"id": "D",
+						"text": "«Покупець погодився на виїзний огляд»"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Підвищення конверсії одного слабкого етапу з 20% до 25% дає той самий ефект для підсумкових продажів, що й на 25% більше лідів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Менеджер з продажів звітує про воронку на $2 млн, склавши всі відкриті угоди, зокрема кілька, до яких не торкалися дев’ять місяців, тоді як звичайний цикл продажу триває два місяці. Це надійний прогноз."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бухгалтерська фірма хоче 30 нових клієнтів у наступному кварталі. Її конверсії: лід у кваліфікований 50%, кваліфікований у пропозицію 40%, пропозиція в підписаний договір 25%. Скільки лідів їй потрібно?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "120"
+					},
+					{
+						"id": "B",
+						"text": "600"
+					},
+					{
+						"id": "C",
+						"text": "300"
+					},
+					{
+						"id": "D",
+						"text": "1 500"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Швидкість воронки дорівнює кількості можливостей × частка виграшу × середній розмір угоди ÷ тривалість циклу. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " зміни її підвищують за інших рівних умов?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Цикл продажу зростає з 30 до 45 днів"
+					},
+					{
+						"id": "B",
+						"text": "Частка виграшу падає з 25% до 20%"
+					},
+					{
+						"id": "C",
+						"text": "Середній розмір угоди зростає з $8 000 до $9 000"
+					},
+					{
+						"id": "D",
+						"text": "Кількість відкритих можливостей падає з 80 до 70"
+					},
+					{
+						"id": "E",
+						"text": "Цикл продажу скорочується з 60 до 40 днів"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Маркетингова агенція порівнює цей квартал із попередніми:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Ліди: 400 (зазвичай 400). Лід у зустріч: 30% (зазвичай 30%). Зустріч у пропозицію: 60% (зазвичай 60%). Пропозиція в договір: 10% (зазвичай 25%)."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Генеральний директор хоче подвоїти рекламний бюджет. Що агенції варто зробити спершу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Подвоїти рекламний бюджет, як і планувалося"
+					},
+					{
+						"id": "B",
+						"text": "Найняти ще одну людину, щоб призначати більше зустрічей"
+					},
+					{
+						"id": "C",
+						"text": "Поговорити з клієнтами, втраченими після пропозиції, і виправити цей етап"
+					},
+					{
+						"id": "D",
+						"text": "Знизити ціни на всі послуги"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Софтверна фірма отримує 800 лідів на квартал. Лід у кваліфікований 40%, кваліфікований у пропозицію 50%, пропозиція у виграну угоду 20%. За ті самі $20 000 вона може купити на 25% більше лідів або навчити команду, щоб конверсія пропозиції зросла до 28%. Що дасть більше клієнтів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Купівля лідів: 25% додаткових лідів переважать будь-яке покращення одного етапу"
+					},
+					{
+						"id": "B",
+						"text": "Навчання: близько 45 клієнтів проти 40"
+					},
+					{
+						"id": "C",
+						"text": "Обидва варіанти рівні, бо обидва збільшують результат на 25%"
+					},
+					{
+						"id": "D",
+						"text": "Купівля лідів, бо минулі конверсії етапів змінити неможливо"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Консультант застерігає фірму з продажу медичного обладнання від надмірної довіри до воронки. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " застереження описують справжні обмеження моделі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Лікарняні комісії повертаються до попередніх кроків, а деякі покупці приходять уже з готовим рішенням, тож шлях не лінійний."
+					},
+					{
+						"id": "B",
+						"text": "Конверсії етапів перемножуються, тож слабкий етап шкодить загальному результату."
+					},
+					{
+						"id": "C",
+						"text": "Швидкість ділиться на тривалість циклу продажу."
+					},
+					{
+						"id": "D",
+						"text": "Конверсії, пораховані на кількох десятках угод, можуть сильно коливатися між кварталами."
+					},
+					{
+						"id": "E",
+						"text": "Етапи визначено діями покупців."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інтернет-провайдер почав платити продавцям бонуси за конверсію на кожному етапі. Загальна конверсія зросла з 8% до 12%, але частка нових клієнтів, які відмовляються від послуги протягом трьох місяців, зросла з 15% до 50%. Як це найкраще пояснити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Зміна воронки спрацювала, а відмови це окреме питання"
+					},
+					{
+						"id": "B",
+						"text": "Витратити більше на ліди, щоб скористатися вищою конверсією"
+					},
+					{
+						"id": "C",
+						"text": "Ще більше скоротити цикл продажу, щоб закріпити успіх"
+					},
+					{
+						"id": "D",
+						"text": "Агресивне закриття підняло конверсію, але привело клієнтів, які йдуть, а воронка не бачить, що відбувається після продажу"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Онлайн-школа мов отримує 2 000 реєстрацій на пробний період за квартал. 45% приходять на перший урок, і 30% із них купують пакет уроків за $400. Порахуйте кількість клієнтів, виторг і загальну конверсію. Потім покажіть ефект від зростання переходу з пробного періоду на перший урок до 55%."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому етапи воронки варто визначати діями покупця, а не продавця. Наведіть приклад етапу, що вводить в оману."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Софтверна фірма має 120 відкритих можливостей, частку виграшу 25%, середню угоду $10 000 і цикл 60 днів. За однакові гроші вона може: дати знижку 10%, що підніме частку виграшу до 28%; залучити партнера з впровадження, що скоротить цикл до 45 днів; або запустити кампанію, що збільшить кількість можливостей до 140. Оберіть одне за швидкістю воронки."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "B2B-компанія з тренінгів має два джерела лідів:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Вебінари: 500 лідів на квартал за $30 000, загальна конверсія 4%, середня угода $6 000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Рекомендації партнерів: 120 лідів на квартал за $18 000 винагород, конверсія 20%, середня угода $9 000. Партнери можуть дати щонайбільше 80 додаткових лідів за тією самою ціною за лід."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія має додаткові $30 000 на квартал. Оберіть: усе у вебінари, усе в рекомендації або розподілити. Обґрунтуйте очікуваним виторгом."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Компанія з облаштування офісів отримує 400 лідів на квартал. 50% проходять кваліфікацію (200), 40% із них замовляють огляд приміщення (80), а 75% оглядів завершуються пропозицією (60)."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Виграють лише 15% пропозицій, тоді як торік вигравали 30%. Середній проєкт коштує $50 000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Нотатки про програні угоди: у 8 з 10 клієнти згадують термін виконання шість тижнів, тоді як конкуренти роблять за три."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Маркетинг просить $40 000, щоб збільшити кількість лідів на 30%."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Порахуйте квартальний виторг зараз, із планом маркетингу та з поверненням конверсії пропозицій до 30%. Назвіть витік і порекомендуйте, що робити."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

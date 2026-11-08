@@ -1,0 +1,838 @@
+{
+	"slug": "lean-management",
+	"topicId": 70,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In lean management, who defines value?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The plant manager, who knows the process best"
+					},
+					{
+						"id": "B",
+						"text": "The customer, through what they are willing to pay for"
+					},
+					{
+						"id": "C",
+						"text": "The finance department, through the cost of each step"
+					},
+					{
+						"id": "D",
+						"text": "The industry regulator, through its standards"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A purchase request sits in a manager’s inbox for three days before anyone opens it. Which of the seven wastes is this?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Overproduction"
+					},
+					{
+						"id": "B",
+						"text": "Motion"
+					},
+					{
+						"id": "C",
+						"text": "Waiting"
+					},
+					{
+						"id": "D",
+						"text": "Defects"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Lean means producing only what the next step or the customer actually pulls, rather than what a forecast pushes."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "If lean improvements lead to layoffs, employees become more willing to suggest further improvements."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A patient spends 90 minutes in a clinic and 12 minutes with the doctor. What share of the time is value-adding, and where does lean look first?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "About 13%, and lean looks first at the 78 minutes of waiting and handoffs"
+					},
+					{
+						"id": "B",
+						"text": "About 87%, and lean looks first at the consultation itself"
+					},
+					{
+						"id": "C",
+						"text": "About 78%, and lean looks first at the doctor’s speed"
+					},
+					{
+						"id": "D",
+						"text": "About 12%, and lean looks first at hiring more doctors"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements describe a pull system correctly?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Work is started on the basis of next year’s sales forecast"
+					},
+					{
+						"id": "B",
+						"text": "A kanban card or signal shows that a step needs more material"
+					},
+					{
+						"id": "C",
+						"text": "Every step makes as much as it can, to keep people busy"
+					},
+					{
+						"id": "D",
+						"text": "A step starts new work when the step after it signals free capacity"
+					},
+					{
+						"id": "E",
+						"text": "Large batches are preferred to cut the number of changeovers"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A repair shop takes 10 days per job, but only 5 hours is actual work. The map shows 3 days waiting for approval, 2 days waiting for parts and 12% of jobs redone. Where is the biggest opportunity?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Buying faster tools, to shorten the 5 hours of work"
+					},
+					{
+						"id": "B",
+						"text": "Painting the workshop floor and labelling shelves"
+					},
+					{
+						"id": "C",
+						"text": "Hiring more repair staff"
+					},
+					{
+						"id": "D",
+						"text": "Redesigning the approval and parts ordering, where most of the lead time is lost"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pharmacy chain’s supplier delivers late 30% of the time. A manager, wanting to be lean, proposes to cut safety stock to zero tomorrow. What is the best approach?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Do it, because lean means no stock at all"
+					},
+					{
+						"id": "B",
+						"text": "Reduce stock step by step as supplier reliability improves, and work with the supplier on the causes of lateness"
+					},
+					{
+						"id": "C",
+						"text": "Raise stock without limit, because lean has failed"
+					},
+					{
+						"id": "D",
+						"text": "Switch to ordering from the sales forecast"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A team finishes its own step 30% faster, but customers receive their orders no sooner. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " actions follow lean thinking?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Speed up every individual step further"
+					},
+					{
+						"id": "B",
+						"text": "Map the whole value stream from order to delivery and find where work waits"
+					},
+					{
+						"id": "C",
+						"text": "Add one more approval layer to check quality"
+					},
+					{
+						"id": "D",
+						"text": "Measure staff by how busy they are"
+					},
+					{
+						"id": "E",
+						"text": "Reduce batch sizes and handoffs between steps"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A design studio introduces standard work and a fixed takt time for the concept phase of its brand projects, where every brief is different. Ideas dry up and the best designers complain. Which limitation of lean does this show?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Lean tools are always too slow"
+					},
+					{
+						"id": "B",
+						"text": "The studio forgot to apply 5S to its desks"
+					},
+					{
+						"id": "C",
+						"text": "Standard work and takt time fit poorly in highly variable creative work"
+					},
+					{
+						"id": "D",
+						"text": "The studio did not recognise overproduction"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A dental lab takes 10 days per order, the actual work is 6 hours, and 25% of crowns have to be remade. Name two of the seven wastes visible in this case and propose one improvement for each."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why lean treats overproduction as the worst waste. Use a print shop as the example, with numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An accounts team needs 12 days to process an invoice, although the actual work is 40 minutes. Each invoice goes through 4 handoffs, and 15% are returned because of errors. Choose one: (1) hire two more clerks and ask everyone to work faster, (2) map the value stream, give each invoice a single owner, add required fields to the invoice form and review the queue daily on a pull basis, or (3) buy a $50,000 software tool that scans and routes invoices. Justify the choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "After lean improvements, a plant with 80 operators has cut cycle time by 30%, which frees the capacity of 12 operators. Choose one: (a) lay off 12 operators, (b) redeploy them to a new product line and to an improvement team while promising that nobody loses a job because of improvements, or (c) stop hiring and let attrition shrink the team. Explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A furniture workshop needs 30 days from order to delivery, although the actual work is 14 hours. The value stream map shows 6 days of waiting for fabric, 8 days of waiting for the finishing station (which works in batches of 10 pieces), and 5 days waiting for customers to approve drawings. About 10% of pieces are reworked because of wrong measurements, and 400 sofa legs for slow models sit in stock."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Define value, name the biggest wastes with evidence, design a future state with flow and pull, and say how you would run and measure the change."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Хто в ощадливому управлінні визначає цінність?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Керівник заводу, який найкраще знає процес"
+					},
+					{
+						"id": "B",
+						"text": "Клієнт через те, за що він готовий платити"
+					},
+					{
+						"id": "C",
+						"text": "Фінансовий відділ через вартість кожного кроку"
+					},
+					{
+						"id": "D",
+						"text": "Галузевий регулятор через свої стандарти"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Заявка на закупівлю три дні лежить у скриньці керівника, перш ніж хтось її відкриє. Яке з семи видів втрат це?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Перевиробництво"
+					},
+					{
+						"id": "B",
+						"text": "Зайві рухи"
+					},
+					{
+						"id": "C",
+						"text": "Очікування"
+					},
+					{
+						"id": "D",
+						"text": "Дефекти"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ощадливе управління означає виробляти лише те, що фактично «витягує» наступний етап чи клієнт, а не те, що «штовхає» прогноз."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Якщо ощадливі поліпшення призводять до звільнень, працівники охочіше пропонують нові поліпшення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Пацієнт проводить у клініці 90 хвилин, із них 12 хвилин з лікарем. Яка частка часу додає цінність і куди ощадливе управління дивиться передусім?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Близько 13%, а передусім на 78 хвилин очікування й передавання між етапами"
+					},
+					{
+						"id": "B",
+						"text": "Близько 87%, а передусім на сам прийом"
+					},
+					{
+						"id": "C",
+						"text": "Близько 78%, а передусім на швидкість лікаря"
+					},
+					{
+						"id": "D",
+						"text": "Близько 12%, а передусім на найм більшої кількості лікарів"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження правильно описують систему витягування?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Роботу починають на основі прогнозу продажів на наступний рік"
+					},
+					{
+						"id": "B",
+						"text": "Картка канбан або сигнал показує, що етапу потрібно більше матеріалу"
+					},
+					{
+						"id": "C",
+						"text": "Кожен етап робить скільки може, щоб люди були зайняті"
+					},
+					{
+						"id": "D",
+						"text": "Етап починає нову роботу, коли наступний за ним етап подає сигнал про вільну потужність"
+					},
+					{
+						"id": "E",
+						"text": "Великі партії кращі, бо зменшують кількість переналагоджень"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Ремонтна майстерня виконує замовлення 10 днів, але справжньої роботи лише 5 годин. Карта показує 3 дні очікування погодження, 2 дні очікування запчастин і 12% замовлень, що переробляють. Де найбільша можливість?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Купити швидші інструменти, щоб скоротити 5 годин роботи"
+					},
+					{
+						"id": "B",
+						"text": "Пофарбувати підлогу в майстерні й підписати полиці"
+					},
+					{
+						"id": "C",
+						"text": "Найняти більше ремонтників"
+					},
+					{
+						"id": "D",
+						"text": "Переробити погодження й замовлення запчастин, де втрачається більшість часу виконання"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Постачальник мережі аптек запізнюється з поставками в 30% випадків. Керівник, бажаючи бути «ощадливим», пропонує завтра ж скоротити страховий запас до нуля. Який підхід найкращий?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Зробити це, бо ощадливе управління означає відсутність запасів узагалі"
+					},
+					{
+						"id": "B",
+						"text": "Скорочувати запас поетапно, у міру зростання надійності постачальника, і разом із постачальником працювати над причинами запізнень"
+					},
+					{
+						"id": "C",
+						"text": "Необмежено збільшити запас, бо ощадливе управління зазнало невдачі"
+					},
+					{
+						"id": "D",
+						"text": "Перейти на замовлення за прогнозом продажів"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда виконує свій етап на 30% швидше, але клієнти отримують замовлення не раніше. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " дії відповідають ощадливому мисленню?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ще більше прискорювати кожен окремий етап"
+					},
+					{
+						"id": "B",
+						"text": "Змапити весь потік створення цінності від замовлення до доставки й знайти, де робота чекає"
+					},
+					{
+						"id": "C",
+						"text": "Додати ще один рівень погодження для перевірки якості"
+					},
+					{
+						"id": "D",
+						"text": "Оцінювати персонал за тим, наскільки він зайнятий"
+					},
+					{
+						"id": "E",
+						"text": "Зменшити розміри партій і кількість передавань між етапами"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дизайн-студія запроваджує стандартну роботу й фіксований такт часу на етапі концепцій для брендових проєктів, де кожне завдання різне. Ідеї вичерпуються, а найкращі дизайнери скаржаться. Яке обмеження ощадливого управління це показує?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ощадливі інструменти завжди надто повільні"
+					},
+					{
+						"id": "B",
+						"text": "Студія забула застосувати 5S до своїх столів"
+					},
+					{
+						"id": "C",
+						"text": "Стандартна робота й такт погано пасують до дуже змінної творчої роботи"
+					},
+					{
+						"id": "D",
+						"text": "Студія не розпізнала перевиробництва"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Зуботехнічна лабораторія виконує замовлення 10 днів, справжня робота займає 6 годин, а 25% коронок доводиться переробляти. Назвіть два з семи видів втрат, помітних у цьому прикладі, і запропонуйте по одному поліпшенню для кожного."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому ощадливе управління вважає перевиробництво найгіршою втратою. Використайте як приклад друкарню, з числами."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бухгалтерська команда обробляє рахунок 12 днів, хоча справжня робота займає 40 хвилин. Кожен рахунок проходить 4 передавання, і 15% повертають через помилки. Оберіть одне: (1) найняти ще двох клерків і попросити всіх працювати швидше, (2) змапити потік створення цінності, закріпити за кожним рахунком одного відповідального, додати обов’язкові поля до форми рахунку й щодня розбирати чергу за принципом витягування або (3) купити програму за $50 000, що сканує й маршрутизує рахунки. Обґрунтуйте вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Після ощадливих поліпшень завод із 80 операторами скоротив цикл на 30%, що вивільнило потужність 12 операторів. Оберіть одне: (a) звільнити 12 операторів, (b) перевести їх на нову лінію продукту й у команду поліпшень, пообіцявши, що ніхто не втратить роботу через поліпшення, або (c) припинити найм і дозволити команді скоротитися природним шляхом. Поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Меблева майстерня виконує замовлення від оформлення до доставки 30 днів, хоча справжня робота займає 14 годин. Карта потоку створення цінності показує 6 днів очікування тканини, 8 днів очікування дільниці оздоблення (яка працює партіями по 10 виробів) і 5 днів очікування, поки клієнти погодять креслення. Близько 10% виробів переробляють через хибні виміри, а 400 ніжок для диванів повільних моделей лежать на складі."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Визначте цінність, назвіть найбільші втрати з доказами, спроєктуйте майбутній стан із потоком і витягуванням та скажіть, як провести зміни й виміряти їх."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

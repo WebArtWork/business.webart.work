@@ -1,0 +1,918 @@
+{
+	"slug": "ge-mckinsey-nine-box-matrix",
+	"topicId": 12,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which two dimensions does the GE-McKinsey matrix use to rank business units?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Market growth and relative market share"
+					},
+					{
+						"id": "B",
+						"text": "Industry attractiveness and competitive strength"
+					},
+					{
+						"id": "C",
+						"text": "Revenue and profit"
+					},
+					{
+						"id": "D",
+						"text": "Risk and return"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which cells of the grid usually call for harvesting or divesting a unit?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The bottom-right cells"
+					},
+					{
+						"id": "B",
+						"text": "The top-left cells"
+					},
+					{
+						"id": "C",
+						"text": "The top-right cells"
+					},
+					{
+						"id": "D",
+						"text": "The centre cell only"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Each axis of the matrix is a single measure, such as market growth for attractiveness."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Changing the weights to see whether a unit moves to a different cell is good practice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A unit’s attractiveness is scored on three factors: growth (weight 30%, score 5), margins (weight 40%, score 2) and competitive intensity (weight 30%, score 4). What is its weighted attractiveness score?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "3.7"
+					},
+					{
+						"id": "B",
+						"text": "3.0"
+					},
+					{
+						"id": "C",
+						"text": "3.5"
+					},
+					{
+						"id": "D",
+						"text": "11.0"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " practices make a nine-box analysis more reliable?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Use the same factors for every industry without adjusting them."
+					},
+					{
+						"id": "B",
+						"text": "Choose factors that actually drive profit in each market."
+					},
+					{
+						"id": "C",
+						"text": "Record the evidence behind each rating."
+					},
+					{
+						"id": "D",
+						"text": "Present scores to two decimals so that they look exact."
+					},
+					{
+						"id": "E",
+						"text": "Rate competitive strength in absolute terms, not against rivals."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company scores four units (attractiveness / strength). High is 3.7 or more, medium 2.3 to 3.6, low below 2.3:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Unit A: 2.7 / 4.3"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Unit B: 4.0 / 1.8"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Unit C: 1.9 / 2.1"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Unit D: 4.4 / 4.1"
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which unit belongs in the invest and grow zone?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Unit A"
+					},
+					{
+						"id": "B",
+						"text": "Unit B"
+					},
+					{
+						"id": "C",
+						"text": "Unit C"
+					},
+					{
+						"id": "D",
+						"text": "Unit D"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A food company’s plant-based meat unit scores 4.2 on industry attractiveness (market growth about 20%) but 1.9 on competitive strength: rivals have five times its scale and the brand is unknown. What is the best response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Invest heavily on its own immediately"
+					},
+					{
+						"id": "B",
+						"text": "Harvest it for cash right away"
+					},
+					{
+						"id": "C",
+						"text": "Invest selectively to build strength, for example by partnership or acquisition, and exit if closing the gap would cost more than the market can return"
+					},
+					{
+						"id": "D",
+						"text": "Ignore the result, because strength scores are only opinions"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are genuine limitations of the GE-McKinsey matrix?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The weights and ratings are subjective, so it can give false precision."
+					},
+					{
+						"id": "B",
+						"text": "It looks at units separately and ignores synergies and shared resources."
+					},
+					{
+						"id": "C",
+						"text": "It has only four cells, which is too coarse."
+					},
+					{
+						"id": "D",
+						"text": "It cannot compare units from different industries."
+					},
+					{
+						"id": "E",
+						"text": "It requires exactly one factor on each axis."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A conglomerate runs turbines, plastics, appliances and medical imaging. Why did GE look for a richer tool than a growth-share matrix?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Different industries have different profit drivers, such as margins, regulation and technology risk, which growth and share alone miss"
+					},
+					{
+						"id": "B",
+						"text": "Growth-share matrices cannot be drawn with bubbles"
+					},
+					{
+						"id": "C",
+						"text": "The BCG matrix has too many cells"
+					},
+					{
+						"id": "D",
+						"text": "Market share cannot be measured in any industry"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why the GE-McKinsey matrix builds each axis from several weighted factors and uses three levels instead of two."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A unit’s strength factors are cost position (weight 40%, score 3), brand (30%, score 5) and distribution (30%, score 2). Its attractiveness factors are growth (50%, score 4) and margins (50%, score 2). Calculate both weighted scores and name the zone (high 3.7 or more, medium 2.3 to 3.6, low below 2.3)."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A packaging company’s biodegradable-packaging unit scores 4.3 on attractiveness (regulation pushes demand, market growth 18%) and 2.0 on strength (small, no distribution). A rival, GreenPack, is for sale at $8 million and has distribution in three countries. The company has $10 million. Choose one: buy GreenPack, invest $3 million alone to build a brand and sales team, or sell the unit. Justify the choice with the matrix."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A unit scores 3.8 on attractiveness (weights: growth 40%, margins 30%, intensity 30%), which puts it in the invest zone. The CFO, who prefers another project, proposes new weights (margins 60%, growth 20%, intensity 20%) that lower the score to 3.4, a medium cell. Choose one: accept the CFO’s weights, keep the original weights, or test both sets and decide using evidence for each factor. Explain your choice."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A building-products company scores four units (attractiveness / strength): solar mounting systems 4.4 / 3.8; fasteners 2.8 / 4.3; wind-turbine blades 3.9 / 1.8; hand winches 1.7 / 2.0. It has $5 million to allocate. Winches and fasteners buy steel from the same supplier. High is 3.7 or more, medium 2.3 to 3.6, low below 2.3."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Classify each unit, propose how to allocate the $5 million, say what to do about the wind blades, name how you would test the result and name one limitation tied to the case."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які два виміри використовує матриця GE-McKinsey для ранжування бізнес-одиниць?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Темп зростання ринку та відносна частка ринку"
+					},
+					{
+						"id": "B",
+						"text": "Привабливість галузі та конкурентна сила"
+					},
+					{
+						"id": "C",
+						"text": "Виторг і прибуток"
+					},
+					{
+						"id": "D",
+						"text": "Ризик і дохідність"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які клітинки сітки зазвичай вимагають збирати прибуток або позбуватися одиниці?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Нижні праві клітинки"
+					},
+					{
+						"id": "B",
+						"text": "Верхні ліві клітинки"
+					},
+					{
+						"id": "C",
+						"text": "Верхні праві клітинки"
+					},
+					{
+						"id": "D",
+						"text": "Лише центральна клітинка"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кожна вісь матриці це один показник, наприклад зростання ринку для привабливості."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Змінити ваги, щоб побачити, чи не перейде одиниця в іншу клітинку, це гарна практика."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Привабливість одиниці оцінюють за трьома чинниками: зростання (вага 30%, оцінка 5), маржа (вага 40%, оцінка 2) і конкурентна інтенсивність (вага 30%, оцінка 4). Яка зважена оцінка привабливості?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "3,7"
+					},
+					{
+						"id": "B",
+						"text": "3,0"
+					},
+					{
+						"id": "C",
+						"text": "3,5"
+					},
+					{
+						"id": "D",
+						"text": "11,0"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " практики роблять дев’ятиклітинковий аналіз надійнішим?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Використовувати ті самі чинники для кожної галузі без коригування."
+					},
+					{
+						"id": "B",
+						"text": "Обирати чинники, що справді визначають прибуток на кожному ринку."
+					},
+					{
+						"id": "C",
+						"text": "Фіксувати докази кожної оцінки."
+					},
+					{
+						"id": "D",
+						"text": "Подавати оцінки з двома знаками після коми, щоб вони виглядали точними."
+					},
+					{
+						"id": "E",
+						"text": "Оцінювати конкурентну силу в абсолютному вимірі, а не щодо конкурентів."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія оцінює чотири одиниці (привабливість / сила). Висока це 3,7 і більше, середня 2,3–3,6, низька нижче за 2,3:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Одиниця A: 2,7 / 4,3"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Одиниця B: 4,0 / 1,8"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Одиниця C: 1,9 / 2,1"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Одиниця D: 4,4 / 4,1"
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Яка одиниця належить до зони інвестицій і зростання?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Одиниця A"
+					},
+					{
+						"id": "B",
+						"text": "Одиниця B"
+					},
+					{
+						"id": "C",
+						"text": "Одиниця C"
+					},
+					{
+						"id": "D",
+						"text": "Одиниця D"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Підрозділ рослинного м’яса харчової компанії має 4,2 за привабливістю галузі (зростання ринку близько 20%), але 1,9 за конкурентною силою: у конкурентів у п’ять разів більший масштаб, а бренд невідомий. Яка реакція найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Одразу інвестувати великі кошти самостійно"
+					},
+					{
+						"id": "B",
+						"text": "Негайно збирати з нього готівку"
+					},
+					{
+						"id": "C",
+						"text": "Інвестувати вибірково, щоб нарощувати силу, наприклад через партнерство чи поглинання, і вийти, якщо подолання розриву коштуватиме більше, ніж ринок може повернути"
+					},
+					{
+						"id": "D",
+						"text": "Проігнорувати результат, бо оцінки сили це лише думки"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження є справжніми обмеженнями матриці GE-McKinsey?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Ваги й оцінки суб’єктивні, тож вона може створювати хибну точність."
+					},
+					{
+						"id": "B",
+						"text": "Вона розглядає одиниці окремо й ігнорує синергію та спільні ресурси."
+					},
+					{
+						"id": "C",
+						"text": "У ній лише чотири клітинки, що надто грубо."
+					},
+					{
+						"id": "D",
+						"text": "Вона не може порівнювати одиниці з різних галузей."
+					},
+					{
+						"id": "E",
+						"text": "Вона вимагає рівно одного чинника на кожній осі."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Конгломерат працює в турбінах, пластику, побутовій техніці та медичній візуалізації. Чому GE шукала багатший інструмент, ніж матриця зростання та частки?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "У різних галузях різні рушії прибутку, як-от маржа, регулювання й технологічний ризик, які зростання та частка самі не охоплюють"
+					},
+					{
+						"id": "B",
+						"text": "Матриці зростання та частки не можна малювати з бульбашками"
+					},
+					{
+						"id": "C",
+						"text": "У матриці BCG забагато клітинок"
+					},
+					{
+						"id": "D",
+						"text": "Частку ринку не можна виміряти в жодній галузі"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому матриця GE-McKinsey будує кожну вісь із кількох зважених чинників і використовує три рівні замість двох."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чинники сили одиниці: позиція за витратами (вага 40%, оцінка 3), бренд (30%, оцінка 5) і дистрибуція (30%, оцінка 2). Чинники привабливості: зростання (50%, оцінка 4) і маржа (50%, оцінка 2). Розрахуйте обидві зважені оцінки й назвіть зону (висока від 3,7, середня 2,3–3,6, низька нижче за 2,3)."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Підрозділ біорозкладного пакування компанії-пакувальника має 4,3 за привабливістю (регулювання підштовхує попит, зростання ринку 18%) і 2,0 за силою (малий, без дистрибуції). Конкурента GreenPack продають за $8 млн, і він має дистрибуцію в трьох країнах. У компанії є $10 млн. Оберіть одне: купити GreenPack, самостійно вкласти $3 млн у бренд і команду продажів або продати підрозділ. Обґрунтуйте вибір матрицею."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Одиниця має 3,8 за привабливістю (ваги: зростання 40%, маржа 30%, інтенсивність 30%), що ставить її в зону інвестицій. Фінансовий директор, який віддає перевагу іншому проєкту, пропонує нові ваги (маржа 60%, зростання 20%, інтенсивність 20%), що знижують оцінку до 3,4, тобто до середньої клітинки. Оберіть одне: прийняти ваги фінансового директора, залишити початкові ваги або перевірити обидва набори й вирішувати за доказами щодо кожного чинника. Поясніть вибір."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Компанія будівельних продуктів оцінює чотири одиниці (привабливість / сила): сонячні кріплення 4,4 / 3,8; кріпильні вироби 2,8 / 4,3; лопаті вітротурбін 3,9 / 1,8; ручні лебідки 1,7 / 2,0. Вона має $5 млн для розподілу. Лебідки й кріпильні вироби купують сталь в одного постачальника. Висока це 3,7 і більше, середня 2,3–3,6, низька нижче за 2,3."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Класифікуйте кожну одиницю, запропонуйте розподіл $5 млн, скажіть, що робити з лопатями вітротурбін, назвіть, як перевірити результат, і назвіть одне обмеження, пов’язане з умовою."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

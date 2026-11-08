@@ -1,0 +1,934 @@
+{
+	"slug": "cash-flow-cycle",
+	"topicId": 64,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "How is the cash conversion cycle calculated?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "DIO + DSO + DPO"
+					},
+					{
+						"id": "B",
+						"text": "DSO − DIO + DPO"
+					},
+					{
+						"id": "C",
+						"text": "DPO − DIO − DSO"
+					},
+					{
+						"id": "D",
+						"text": "DIO + DSO − DPO"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What does days sales outstanding (DSO) measure?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "How long customers take to pay"
+					},
+					{
+						"id": "B",
+						"text": "How long stock sits before it is sold"
+					},
+					{
+						"id": "C",
+						"text": "How long the business takes to pay its suppliers"
+					},
+					{
+						"id": "D",
+						"text": "How long an order takes to be delivered"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A business that reports a profit every month cannot run out of cash."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A web design agency that holds no inventory can still lock up a lot of cash in its cash conversion cycle."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A hardware distributor has DIO of 50 days, DSO of 40 days and DPO of 35 days. Its cost of goods sold is $6,000 a day. How much cash does the cycle lock up?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$750,000"
+					},
+					{
+						"id": "B",
+						"text": "$330,000"
+					},
+					{
+						"id": "C",
+						"text": "$540,000"
+					},
+					{
+						"id": "D",
+						"text": "$210,000"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A pet-food wholesaler wants to shorten its cycle without hurting the business. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " actions fit?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Drop slow-moving products that sit in the warehouse for 120 days"
+					},
+					{
+						"id": "B",
+						"text": "Send invoices on the day of delivery instead of at month end"
+					},
+					{
+						"id": "C",
+						"text": "Pay suppliers 30 days late without telling them"
+					},
+					{
+						"id": "D",
+						"text": "Cut stock of best-sellers so they run out every week"
+					},
+					{
+						"id": "E",
+						"text": "Offer customers 60-day terms to win more orders"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An online cosmetics shop sells its stock in 25 days, is paid by card within 2 days and pays suppliers in 45 days. The owner asks whether faster growth will need a loan for working capital. What is the best answer?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Yes, because growth always consumes cash"
+					},
+					{
+						"id": "B",
+						"text": "Yes, about 72 days of costs must be financed"
+					},
+					{
+						"id": "C",
+						"text": "No: the cycle is about −18 days, so suppliers fund the operations and growth generates cash"
+					},
+					{
+						"id": "D",
+						"text": "It cannot be judged without the profit figure"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A machine-parts maker grew sales by 30% and reports record profit, yet its bank account is empty. Its DIO is 60 days, DSO 75 days and DPO 30 days. Daily cost of goods rose from $10,000 to $13,000. What is the best diagnosis and response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The 105-day cycle now locks up about $315,000 more; shorten DSO with deposits, milestone billing or early-payment discounts before growing further"
+					},
+					{
+						"id": "B",
+						"text": "Cut prices so stock sells faster and the cash returns"
+					},
+					{
+						"id": "C",
+						"text": "Stop paying suppliers until the cash recovers"
+					},
+					{
+						"id": "D",
+						"text": "The accounts must be wrong, since profit and cash should match"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A toy retailer calculated its cycle from 31 December balances only. Stock was very low after the holiday rush, giving DIO of 20 days, and receivables include $40,000 owed by a chain that has gone bankrupt. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " limitations of the measure apply?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Year-end balances mislead in a seasonal business, so yearly averages are more honest."
+					},
+					{
+						"id": "B",
+						"text": "The ratio does not show quality: some receivables may never be collected."
+					},
+					{
+						"id": "C",
+						"text": "The formula should add DPO rather than subtract it."
+					},
+					{
+						"id": "D",
+						"text": "Retailers cannot use the cash conversion cycle."
+					},
+					{
+						"id": "E",
+						"text": "The cycle must be measured in months, not days."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A restaurant supplier wants to free cash by stretching its DPO from 30 to 90 days, simply by paying later. Its main suppliers offer a 2% discount for paying within 10 days. What is the best course?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Pay at 90 days, because supplier money is free money"
+					},
+					{
+						"id": "B",
+						"text": "Pay at 90 days only to the smallest suppliers, who cannot push back"
+					},
+					{
+						"id": "C",
+						"text": "Never use supplier credit at all"
+					},
+					{
+						"id": "D",
+						"text": "Negotiate longer terms openly where it costs nothing, and keep taking the early-payment discounts that are worth more than the cash"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An electronics repair chain reports for last year: average inventory $90,000, cost of goods sold $730,000, average receivables $40,000, sales $1,095,000, average payables $50,000. Calculate DIO, DSO, DPO, the cycle and the cash it locks up."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain why a fast-growing distributor can be profitable and still run out of cash. Use a small numeric example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A handmade-furniture online shop needs $120,000 to open a second workshop. Its daily cost of goods is $3,000. It has three ways to find the money:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option 1: a bank loan of $120,000 at 12% a year."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option 2: a working-capital programme: clear slow models to cut DIO from 80 to 60 days, and take 30% deposits to cut DSO from 40 to 20 days."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Option 3: pay all suppliers 40 days later than agreed, without negotiating."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Choose one option and justify it with numbers and risks."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An industrial bakery supplies cafés. Its daily cost of goods is $5,000, with DIO 10 days, DSO 20 days and DPO 25 days. A supermarket chain offers a contract that would add $5,000 a day of cost and $600 a day of profit, but it pays in 90 days. The bakery has $60,000 of spare cash and can borrow at 10%. Accept as offered, reject, or accept with conditions? Decide and show the numbers."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A clothing brand reports for last year: cost of goods sold $1,460,000, average inventory $480,000, sales $2,190,000, average receivables $270,000, average payables $120,000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Similar brands run at DIO 75 days, DSO 30 days and DPO 45 days."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "The founder plans 25% sales growth next year and wants to know how much cash it will need."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the brand's cycle and the cash it locks up, find the weakest part, estimate the cash freed by reaching peer levels and the extra cash growth would need at today's cycle, and propose levers."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Як розраховують цикл перетворення грошових коштів?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "DIO + DSO + DPO"
+					},
+					{
+						"id": "B",
+						"text": "DSO − DIO + DPO"
+					},
+					{
+						"id": "C",
+						"text": "DPO − DIO − DSO"
+					},
+					{
+						"id": "D",
+						"text": "DIO + DSO − DPO"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що вимірює період обороту дебіторської заборгованості (DSO)?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Скільки часу клієнти платять"
+					},
+					{
+						"id": "B",
+						"text": "Скільки часу запаси лежать до продажу"
+					},
+					{
+						"id": "C",
+						"text": "Скільки часу бізнес розраховується з постачальниками"
+					},
+					{
+						"id": "D",
+						"text": "Скільки часу триває доставка замовлення"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Бізнес, який щомісяця показує прибуток, не може залишитися без грошей."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Вебстудія без жодних запасів усе одно може заморожувати багато грошей у циклі перетворення грошових коштів."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Дистриб’ютор будівельних товарів має DIO 50 днів, DSO 40 днів і DPO 35 днів. Його собівартість продажів становить $6 000 на день. Скільки грошей заморожує цикл?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "$750 000"
+					},
+					{
+						"id": "B",
+						"text": "$330 000"
+					},
+					{
+						"id": "C",
+						"text": "$540 000"
+					},
+					{
+						"id": "D",
+						"text": "$210 000"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оптовик кормів для тварин хоче скоротити цикл, не зашкодивши бізнесу. Які "
+							},
+							{
+								"t": "дві",
+								"b": true
+							},
+							{
+								"t": " дії підходять?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вивести з асортименту повільні товари, що лежать на складі 120 днів"
+					},
+					{
+						"id": "B",
+						"text": "Виставляти рахунки в день доставки, а не наприкінці місяця"
+					},
+					{
+						"id": "C",
+						"text": "Платити постачальникам на 30 днів пізніше, не попереджаючи їх"
+					},
+					{
+						"id": "D",
+						"text": "Скоротити запаси хітів продажу так, щоб вони щотижня закінчувалися"
+					},
+					{
+						"id": "E",
+						"text": "Пропонувати клієнтам відстрочку 60 днів, щоб отримати більше замовлень"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інтернет-магазин косметики продає запаси за 25 днів, отримує оплату карткою протягом 2 днів і платить постачальникам через 45 днів. Власниця питає, чи знадобиться для швидшого зростання кредит на оборотний капітал. Яка відповідь найкраща?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Так, бо зростання завжди поглинає гроші"
+					},
+					{
+						"id": "B",
+						"text": "Так, треба фінансувати близько 72 днів витрат"
+					},
+					{
+						"id": "C",
+						"text": "Ні: цикл становить близько −18 днів, тож операції фінансують постачальники, а зростання генерує гроші"
+					},
+					{
+						"id": "D",
+						"text": "Без даних про прибуток оцінити неможливо"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Виробник деталей для верстатів збільшив продажі на 30% і показує рекордний прибуток, але його рахунок порожній. DIO становить 60 днів, DSO 75 днів, DPO 30 днів. Собівартість за день зросла з $10 000 до $13 000. Який діагноз і відповідь найкращі?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Цикл у 105 днів тепер заморожує приблизно на $315 000 більше; скоротити DSO через передоплати, оплату за етапами або знижки за ранню оплату, перш ніж зростати далі"
+					},
+					{
+						"id": "B",
+						"text": "Знизити ціни, щоб запаси продавалися швидше й гроші поверталися"
+					},
+					{
+						"id": "C",
+						"text": "Припинити платити постачальникам, доки гроші не відновляться"
+					},
+					{
+						"id": "D",
+						"text": "У звітності помилка, адже прибуток і гроші мають збігатися"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Магазин іграшок розрахував цикл лише за залишками на 31 грудня. Після святкового ажіотажу запасів було дуже мало, тож DIO вийшов 20 днів, а в дебіторській заборгованості є $40 000 від мережі, що збанкрутувала. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " обмеження показника тут спрацьовують?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Залишки на кінець року вводять в оману в сезонному бізнесі, тож середні за рік чесніші."
+					},
+					{
+						"id": "B",
+						"text": "Показник не відображає якості: частину дебіторської заборгованості можуть так і не сплатити."
+					},
+					{
+						"id": "C",
+						"text": "DPO у формулі треба додавати, а не віднімати."
+					},
+					{
+						"id": "D",
+						"text": "Роздрібні магазини не можуть користуватися циклом перетворення грошових коштів."
+					},
+					{
+						"id": "E",
+						"text": "Цикл треба вимірювати в місяцях, а не в днях."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Постачальник для ресторанів хоче вивільнити гроші, подовживши DPO з 30 до 90 днів, просто платячи пізніше. Його головні постачальники дають знижку 2% за оплату протягом 10 днів. Як краще вчинити?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Платити через 90 днів, бо гроші постачальників безкоштовні"
+					},
+					{
+						"id": "B",
+						"text": "Платити через 90 днів лише найменшим постачальникам, які не зможуть заперечити"
+					},
+					{
+						"id": "C",
+						"text": "Взагалі не користуватися кредитом постачальників"
+					},
+					{
+						"id": "D",
+						"text": "Відкрито домовлятися про довші умови там, де це нічого не коштує, і далі брати знижки за ранню оплату, які цінніші за ці гроші"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мережа ремонту електроніки звітує за минулий рік: середні запаси $90 000, собівартість продажів $730 000, середня дебіторська заборгованість $40 000, продажі $1 095 000, середня кредиторська заборгованість $50 000. Розрахуйте DIO, DSO, DPO, цикл і суму грошей, яку він заморожує."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть, чому дистриб’ютор, що швидко зростає, може бути прибутковим і все одно залишитися без грошей. Наведіть невеликий числовий приклад."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Інтернет-магазин меблів ручної роботи потребує $120 000, щоб відкрити другу майстерню. Його собівартість становить $3 000 на день. Є три способи знайти гроші:"
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант 1: банківський кредит $120 000 під 12% річних."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант 2: програма оборотного капіталу: розпродати повільні моделі, щоб скоротити DIO з 80 до 60 днів, і брати передоплату 30%, щоб скоротити DSO з 40 до 20 днів."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Варіант 3: платити всім постачальникам на 40 днів пізніше, ніж домовлено, без переговорів."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Оберіть один варіант і обґрунтуйте його цифрами й ризиками."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Промислова пекарня постачає кав’ярні. Її собівартість становить $5 000 на день, DIO 10 днів, DSO 20 днів, DPO 25 днів. Мережа супермаркетів пропонує контракт, що додасть $5 000 собівартості й $600 прибутку на день, але мережа платить через 90 днів. Пекарня має $60 000 вільних грошей і може позичити під 10%. Прийняти як є, відмовитися чи прийняти з умовами? Вирішіть і покажіть цифри."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Бренд одягу звітує за минулий рік: собівартість продажів $1 460 000, середні запаси $480 000, продажі $2 190 000, середня дебіторська заборгованість $270 000, середня кредиторська заборгованість $120 000."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Схожі бренди працюють із DIO 75 днів, DSO 30 днів і DPO 45 днів."
+							}
+						]
+					},
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Засновниця планує наступного року зростання продажів на 25% і хоче знати, скільки грошей для цього знадобиться."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розрахуйте цикл бренду й заморожені в ньому гроші, знайдіть найслабшу ланку, оцініть, скільки грошей вивільнить вихід на рівень конкурентів і скільки додатково потребуватиме зростання за нинішнього циклу, і запропонуйте важелі."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,838 @@
+{
+	"slug": "first-principles-thinking",
+	"topicId": 96,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "What is first principles thinking?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Copying the market leader as closely as possible"
+					},
+					{
+						"id": "B",
+						"text": "Brainstorming without any constraints"
+					},
+					{
+						"id": "C",
+						"text": "Breaking a problem into verified basic facts and rebuilding the solution from them"
+					},
+					{
+						"id": "D",
+						"text": "Following the first idea that comes to mind"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these is a first principle when working out the cost of a cup of coffee in a café?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The cost of beans, milk, energy and labour per cup"
+					},
+					{
+						"id": "B",
+						"text": "The price charged by the café next door"
+					},
+					{
+						"id": "C",
+						"text": "The margin that cafés usually target"
+					},
+					{
+						"id": "D",
+						"text": "What a friend thinks customers will pay"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "First principles thinking means ignoring all existing industry knowledge."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Reasoning by analogy is faster than first principles thinking, but it imports the hidden assumptions of the solution being copied."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A courier firm assumes that every van needs a full-time driver. Which question starts a first principles analysis?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "What do the rival firms’ vans look like?"
+					},
+					{
+						"id": "B",
+						"text": "What does the customer actually need, and what are the ways to provide it?"
+					},
+					{
+						"id": "C",
+						"text": "How can we paint our vans more cheaply?"
+					},
+					{
+						"id": "D",
+						"text": "How many drivers do the rivals employ?"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company redesigns the packaging of a premium face cream. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " are fundamental requirements and not conventions?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The cream must be protected from air and light"
+					},
+					{
+						"id": "B",
+						"text": "Premium cream comes in a glass jar"
+					},
+					{
+						"id": "C",
+						"text": "The box must be printed in gold"
+					},
+					{
+						"id": "D",
+						"text": "The ingredients must be shown, as the law requires"
+					},
+					{
+						"id": "E",
+						"text": "Competitors use outer boxes"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A would-be food-truck owner sees that rivals’ trucks cost about $60,000. What is a first principles approach?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Break down what the business needs (cooking, cold storage, mobile selling) and price each part from real quotes"
+					},
+					{
+						"id": "B",
+						"text": "Buy the same truck as the rivals"
+					},
+					{
+						"id": "C",
+						"text": "Wait until truck prices fall"
+					},
+					{
+						"id": "D",
+						"text": "Copy the best rival’s menu"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A fashion brand’s founder wants to drop the physical inspection of returned items because \"it is just an industry habit\". What fits the discipline of first principles best?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Drop it at once, since the industry copies itself"
+					},
+					{
+						"id": "B",
+						"text": "Keep it, because the rivals do"
+					},
+					{
+						"id": "C",
+						"text": "Ask investors what they think"
+					},
+					{
+						"id": "D",
+						"text": "Find out why the step exists, such as fraud or hygiene, and test removing it on a small share of returns"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A consultant presents first principles thinking as a universal solution. Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " limits should be added?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The method is quick and needs no expertise"
+					},
+					{
+						"id": "B",
+						"text": "It can underestimate the hidden value of established practices, such as reliability built over decades"
+					},
+					{
+						"id": "C",
+						"text": "It suits questions driven by culture and personal taste best"
+					},
+					{
+						"id": "D",
+						"text": "It guarantees lower costs"
+					},
+					{
+						"id": "E",
+						"text": "Popular accounts stress dramatic successes and rarely mention the failures"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A company has limited time for deep analysis. Which of these deserves a full first principles rebuild?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Choosing a font for a flyer"
+					},
+					{
+						"id": "B",
+						"text": "Picking the team’s lunch menu"
+					},
+					{
+						"id": "C",
+						"text": "A cost that makes up 60% of the price, where every rival suffers the same and copying them changes nothing"
+					},
+					{
+						"id": "D",
+						"text": "Renaming a shared file"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Explain the difference between reasoning by analogy and reasoning from first principles, using a restaurant opening a second location as an example."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A paint company spends $2.80 on packaging for each can of a product that sells for $9. Describe how a first principles analysis would proceed."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A coworking company wants to open a third location, but rent is 55% of revenue and rival locations have the same problem. Choose one: copy the rivals’ model in a cheaper district, negotiate a lower rent for a standard lease, or rebuild the model from the member’s need, for example by renting restaurants’ and cafés’ quiet daytime hours as desk space. Justify the choice with at least three elements of first principles thinking."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A regional grocery chain delivers fresh food in full-size refrigerated trucks every day. Cold chain is a legal requirement, but daily full-size trucks are a habit. Choose one: keep the fleet, outsource to a courier, or redesign with night consolidation hubs, smaller vans and pickup lockers. Explain the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Dobro Beds sells mattresses online. In stores, a mattress retails for $900: materials $180, factory $120, store and sales commission $450, advertising $150. The founder wants to sell at $450. Customers say they want to \"try before they buy\"."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Decompose the cost, separate facts from conventions, propose a rebuilt model with numbers, and say how you would validate it and what risk remains."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що таке мислення від першооснов?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Якомога точніше копіювати лідера ринку"
+					},
+					{
+						"id": "B",
+						"text": "Мозковий штурм без жодних обмежень"
+					},
+					{
+						"id": "C",
+						"text": "Розкладання проблеми на перевірені базові факти й побудова рішення з них"
+					},
+					{
+						"id": "D",
+						"text": "Слідування першій ідеї, що прийшла в голову"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що з наведеного є першоосновою, коли ви рахуєте вартість чашки кави в кав’ярні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вартість зерна, молока, енергії та праці на чашку"
+					},
+					{
+						"id": "B",
+						"text": "Ціна, яку бере кав’ярня по сусідству"
+					},
+					{
+						"id": "C",
+						"text": "Маржа, на яку зазвичай орієнтуються кав’ярні"
+					},
+					{
+						"id": "D",
+						"text": "Думка друга про те, скільки заплатять клієнти"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Мислення від першооснов означає ігнорувати всі наявні галузеві знання."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Міркування за аналогією швидше, ніж мислення від першооснов, але переймає приховані припущення скопійованого рішення."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Кур’єрська фірма вважає, що кожен фургон потребує водія на повну ставку. Яке питання розпочинає аналіз від першооснов?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Як виглядають фургони фірм-конкурентів?"
+					},
+					{
+						"id": "B",
+						"text": "Що клієнту справді потрібно і якими способами це можна забезпечити?"
+					},
+					{
+						"id": "C",
+						"text": "Як дешевше пофарбувати наші фургони?"
+					},
+					{
+						"id": "D",
+						"text": "Скільки водіїв наймають конкуренти?"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія переробляє пакування преміального крему для обличчя. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " з наведених є фундаментальними вимогами, а не умовностями?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Крем треба захистити від повітря й світла"
+					},
+					{
+						"id": "B",
+						"text": "Преміальний крем продають у скляній банці"
+					},
+					{
+						"id": "C",
+						"text": "Коробка має бути надрукована золотом"
+					},
+					{
+						"id": "D",
+						"text": "Склад мусить бути вказаний, як вимагає закон"
+					},
+					{
+						"id": "E",
+						"text": "Конкуренти використовують зовнішні коробки"
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Майбутній власник фудтрака бачить, що фудтраки конкурентів коштують близько $60 000. Який підхід від першооснов?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Розкласти, що потрібно бізнесу (готування, холодне зберігання, мобільні продажі), й оцінити кожну частину за реальними пропозиціями"
+					},
+					{
+						"id": "B",
+						"text": "Купити такий самий фудтрак, як у конкурентів"
+					},
+					{
+						"id": "C",
+						"text": "Зачекати, доки ціни на фудтраки впадуть"
+					},
+					{
+						"id": "D",
+						"text": "Скопіювати меню найкращого конкурента"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Засновник модного бренду хоче відмовитися від фізичної перевірки повернутих речей, бо «це просто галузева звичка». Що найкраще відповідає дисципліні першооснов?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Негайно відмовитися, бо галузь копіює саму себе"
+					},
+					{
+						"id": "B",
+						"text": "Залишити, бо так роблять конкуренти"
+					},
+					{
+						"id": "C",
+						"text": "Запитати думку інвесторів"
+					},
+					{
+						"id": "D",
+						"text": "З’ясувати, навіщо існує цей крок, наприклад через шахрайство чи гігієну, і перевірити відмову на невеликій частці повернень"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Консультант подає мислення від першооснов як універсальне рішення. Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " обмеження слід додати?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Метод швидкий і не потребує експертизи"
+					},
+					{
+						"id": "B",
+						"text": "Він може недооцінити приховану цінність усталених практик, як-от надійність, вибудувану десятиліттями"
+					},
+					{
+						"id": "C",
+						"text": "Він найкраще пасує до питань, що залежать від культури й особистих смаків"
+					},
+					{
+						"id": "D",
+						"text": "Він гарантує нижчі витрати"
+					},
+					{
+						"id": "E",
+						"text": "Популярні розповіді наголошують на ефектних успіхах і рідко згадують невдачі"
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У компанії обмаль часу на глибокий аналіз. Що з наведеного заслуговує на повну перебудову від першооснов?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Вибір шрифту для флаєра"
+					},
+					{
+						"id": "B",
+						"text": "Вибір обідів для команди"
+					},
+					{
+						"id": "C",
+						"text": "Витрата, що становить 60% ціни, з якою однаково борються всі конкуренти, а копіювання їх нічого не змінює"
+					},
+					{
+						"id": "D",
+						"text": "Перейменування спільного файлу"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Поясніть різницю між міркуванням за аналогією та міркуванням від першооснов на прикладі ресторану, що відкриває другу точку."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Фарбова компанія витрачає $2,80 на пакування кожної банки продукту, що продається за $9. Опишіть, як би йшов аналіз від першооснов."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія з коворкінгів хоче відкрити третю локацію, але оренда становить 55% виручки, і в конкурентів така сама проблема. Оберіть одне: скопіювати модель конкурентів у дешевшому районі, домовитися про нижчу оренду за стандартним договором або перебудувати модель від потреби учасника, наприклад орендувати тихі денні години ресторанів і кав’ярень під робочі місця. Обґрунтуйте вибір щонайменше трьома елементами мислення від першооснов."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Регіональна мережа продуктових магазинів щодня розвозить свіжі продукти великими рефрижераторами. Холодовий ланцюг це вимога закону, а щоденні великі вантажівки це звичка. Оберіть одне: залишити автопарк, віддати доставку кур’єрській службі або перебудувати модель із нічними консолідаційними хабами, меншими фургонами й поштоматами. Поясніть компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "«Добро Бедс» продає матраци онлайн. У магазинах матрац коштує $900: матеріали $180, фабрика $120, магазин і комісія продавців $450, реклама $150. Засновник хоче продавати за $450. Клієнти кажуть, що хочуть «спробувати перед купівлею»."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Розкладіть вартість, відокремте факти від умовностей, запропонуйте перебудовану модель із числами й скажіть, як ви її перевірите і який ризик лишається."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

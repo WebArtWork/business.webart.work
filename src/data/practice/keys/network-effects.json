@@ -1,0 +1,594 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A network effect means each user's value depends on how many others use the product. Falling unit cost is economies of scale, revenue growth can happen without any network, and switching costs are a separate source of lock-in."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "More participants on one side (sellers) attract more on another side (buyers), which is the indirect effect. A direct effect links users of the same kind, a negative effect lowers value, and economies of scale concern cost, not user value."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Visitors do not interact, so each reader's experience is the same however many others there are. Growing traffic is scale, not a network effect."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Multi-homing means users do not have to choose one network, so leaving the leader costs little and its crowd protects it less."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Swapping is local, so what matters is how many people within reach use the app, and the rival is dense in that city. The national total is spread thin, and price does not create the network value."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Noise, scams and congestion that cut value as the network grows are negative network effects. More buyers attracting sellers is a positive indirect effect, lower hosting cost is scale, and a new city is just expansion."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The effect works within the group that interacts, so density in one university matters more than thin coverage of 80. Features do not help an empty network, and charging users below critical mass slows growth further."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The data show critical mass at the team level: above roughly 12 colleagues the app holds users on its own. Scattered single users sit below that point and churn, and price cuts or features do not fix a network that is too thin."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Heavy multi-homing lowers lock-in, and if value does not change with the number of users there is no network effect at all, just growth. Shorter waits, rising engagement with density and self-sustaining groups are signs of a real effect."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The same loop that drives growth works backwards, so departures make the network less useful and trigger more departures. Fixed costs, regulators and boredom are not the mechanism the theory describes."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Yes: each new parent adds possible matches for routes and times, so the app gets more useful to every other parent as more join. The effect is local to each school, because a parent gains nothing from users at a school across the country. To estimate critical mass, the founder should compare retention by school: for example, if schools with fewer than 15 active families lose most users within a month while schools above 30 keep them, the threshold sits around there, and she should recruit each school past it."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that each new parent adds matches, so value grows with users",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the effect as local to each school",
+					"points": 1
+				},
+				{
+					"criterion": "Describes estimating critical mass from retention data by school, with an example threshold",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The law assumes every possible connection is equally valuable. A pastry chef in Lyon gains a lot from connecting with suppliers and restaurants nearby but almost nothing from a line cook in another country, so most of the theoretical connections are worth close to zero. Value grows mainly with relevant connections inside each cluster. On top of that, a bigger network brings recruiter spam and noise, and chefs often use other apps too, so the real value is far below the square of the user count."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that not all connections matter equally, so value grows with relevant connections",
+					"points": 2
+				},
+				{
+					"criterion": "Applies it to the chefs' app with a concrete contrast between valuable and worthless connections",
+					"points": 1
+				},
+				{
+					"criterion": "Adds another limit: congestion, spam or multi-homing",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Concentrate on City B. City A is past critical mass: 70% of searches find a lesson and churn is low, so it grows on its own. City B is close but below the threshold, with half its users leaving each month. Spending there to recruit tutors and raise the match rate toward City A's level can tip it into self-sustaining growth. An even split leaves every city where it is, and five new cities would start five empty networks. City C should be held steady for now. I would track B's match rate and aim to cut churn below 20%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Uses match rates and churn to judge which cities are past or below critical mass",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why spreading money or launching new cities is weaker",
+					"points": 1
+				},
+				{
+					"criterion": "Names a metric and target to check the result",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Invest in moderation and filtering. The signs point to negative network effects: growth has brought noise and promotion that bury useful posts, so each user gets less value even though the network is bigger. Losing top contributors is dangerous because the loop can run in reverse. Referral bonuses add more users to a network that is already congested and would speed the decline. A $2 fee would push out casual users without fixing the noise. I would add local feeds, limits on promotional posts and ranking by usefulness, then track time per user and contributor return rates."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies negative network effects (noise, congestion) from the data",
+					"points": 1
+				},
+				{
+					"criterion": "Explains the risk of the loop reversing as top contributors leave",
+					"points": 1
+				},
+				{
+					"criterion": "Explains why referral bonuses and fees do not solve the problem",
+					"points": 1
+				},
+				{
+					"criterion": "Names concrete fixes and metrics to monitor",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The effect is real but local: value depends on active partners for your language pair in your city. Pairs above 200 users keep 45% while pairs below 50 keep 9%, so critical mass is around a few hundred, and only 6 countries reach it. The 250,000 total protects less than it seems. The Polish rival is dense in one country and keeps 50%, so it will likely win Poland. Spam at 12% is a negative effect that drives good users away. Plan: put most of the $200,000 into pushing 10–15 language pairs in the six strong countries past 200 users, spend part on verification and spam filters, and stop marketing thin countries."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains the local effect and critical mass using the retention numbers",
+					"points": 2
+				},
+				{
+					"criterion": "Explains why the dense Polish rival is a threat despite fewer users",
+					"points": 1
+				},
+				{
+					"criterion": "Identifies the spam as a negative network effect",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes a budget plan that concentrates on dense clusters and addresses spam",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Мережевий ефект означає, що цінність для кожного користувача залежить від того, скільки ще людей користуються продуктом. Падіння собівартості це економія на масштабі, виручка може зростати без жодної мережі, а витрати на перехід це окреме джерело прив’язки."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Більше учасників з одного боку (продавців) приваблює більше з іншого (покупців), а це непрямий ефект. Прямий ефект пов’язує користувачів одного типу, негативний знижує цінність, а економія на масштабі стосується витрат, а не цінності для користувача."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Відвідувачі не взаємодіють, тож досвід кожного читача однаковий, хоч скільки інших людей зайде на сайт. Зростання трафіку це масштаб, а не мережевий ефект."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Мультихоумінг означає, що не треба обирати одну мережу, тож піти від лідера майже нічого не коштує, і його натовп захищає його слабше."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Обмін речами локальний, тож важить, скільки людей у межах досяжності користуються застосунком, а конкурент щільно представлений саме в цьому місті. Загальнонаціональна база розпорошена, а ціна не створює мережевої цінності."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Шум, шахрайство й перевантаження, що знижують цінність у міру зростання мережі, це негативні мережеві ефекти. Те, що покупці приваблюють продавців, це позитивний непрямий ефект, дешевший хостинг це масштаб, а нове місто просто розширення."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"C"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ефект працює в межах групи, яка взаємодіє, тож щільність в одному університеті важливіша за тонке покриття 80. Функції не допоможуть порожній мережі, а плата нижче критичної маси ще більше гальмує зростання."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Дані показують критичну масу на рівні команди: понад приблизно 12 колег застосунок утримує користувачів сам. Розпорошені поодинокі користувачі перебувають нижче цієї точки й ідуть, а знижки чи функції не виправлять надто тонку мережу."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Масовий мультихоумінг знижує прив’язку, а якщо цінність не змінюється з кількістю користувачів, мережевого ефекту немає зовсім, є лише зростання. Коротше очікування, вища активність зі зростанням щільності й самопідтримні групи це ознаки справжнього ефекту."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Та сама петля, що рухає зростання, працює у зворотний бік: відхід користувачів робить мережу менш корисною й спричиняє нові відходи. Постійні витрати, регулятори й нудьга не є механізмом, який описує теорія."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Так: кожен новий батько чи мати додає можливі збіги за маршрутами й часом, тож застосунок стає кориснішим для всіх інших, коли приєднується більше людей. Ефект локальний для кожної школи, бо батькам нічого не дають користувачі зі школи в іншому кінці країни. Щоб оцінити критичну масу, засновниці слід порівняти утримання за школами: наприклад, якщо школи з менш ніж 15 активними родинами втрачають більшість користувачів за місяць, а школи з понад 30 утримують їх, поріг десь поруч, і кожну школу треба довести за нього."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що кожен новий батько додає збіги, тож цінність зростає з кількістю користувачів",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає ефект як локальний для кожної школи",
+					"points": 1
+				},
+				{
+					"criterion": "Описує оцінку критичної маси за даними утримання за школами з прикладом порогу",
+					"points": 2
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Закон припускає, що кожен можливий зв’язок однаково цінний. Кондитерка з Ліона багато отримує від зв’язків із постачальниками й ресторанами поруч, але майже нічого від кухаря з іншої країни, тож більшість теоретичних зв’язків важать майже нуль. Цінність зростає переважно з кількістю доречних зв’язків усередині кожного кластера. До того ж більша мережа приносить спам від рекрутерів і шум, а кухарі часто користуються й іншими застосунками, тож реальна цінність значно нижча за квадрат кількості користувачів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що не всі зв’язки однаково важливі, тож цінність зростає з доречними зв’язками",
+					"points": 2
+				},
+				{
+					"criterion": "Застосовує це до мережі кухарів із конкретним протиставленням цінних і марних зв’язків",
+					"points": 1
+				},
+				{
+					"criterion": "Додає ще одне обмеження: перевантаження, спам або мультихоумінг",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Зосередитися на місті B. Місто A вже за критичною масою: 70% пошуків закінчуються заняттям, відтік низький, тож воно зростає саме. Місто B близько, але нижче порогу: щомісяця йде половина користувачів. Витрати там на залучення репетиторів і підвищення частки збігів до рівня міста A можуть перевести його в самопідтримне зростання. Рівний поділ залишить кожне місто там, де воно є, а п’ять нових міст означають п’ять порожніх мереж. Місто C поки варто тримати без змін. Я стежив би за часткою збігів у місті B і ставив би за мету знизити відтік нижче 20%."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує частку збігів і відтік, щоб визначити, які міста за критичною масою, а які нижче",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому розпорошення грошей чи запуск нових міст слабші",
+					"points": 1
+				},
+				{
+					"criterion": "Називає показник і цільове значення для перевірки результату",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Інвестувати в модерацію й фільтрацію. Ознаки вказують на негативні мережеві ефекти: зростання принесло шум і рекламу, що ховають корисні дописи, тож кожен користувач отримує менше цінності, хоча мережа більша. Втрата найактивніших авторів небезпечна, бо петля може запрацювати навпаки. Бонуси за запрошення додадуть ще більше людей у вже перевантажену мережу й пришвидшать спад. Плата $2 витіснить випадкових користувачів, не прибравши шуму. Я додав би місцеві стрічки, обмеження на рекламні дописи й ранжування за корисністю, а потім стежив би за часом на користувача й поверненням авторів."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає за даними негативні мережеві ефекти (шум, перевантаження)",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює ризик розвороту петлі через відхід найактивніших авторів",
+					"points": 1
+				},
+				{
+					"criterion": "Пояснює, чому бонуси й плата не вирішують проблеми",
+					"points": 1
+				},
+				{
+					"criterion": "Називає конкретні рішення й показники для відстеження",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Ефект справжній, але локальний: цінність залежить від активних партнерів для вашої мовної пари у вашому місті. Пари з понад 200 користувачами утримують 45%, а пари з менш ніж 50 лише 9%, тож критична маса становить кілька сотень, і її досягають лише 6 країн. Загальні 250 000 захищають слабше, ніж здається. Польський конкурент щільний в одній країні й утримує 50%, тож, імовірно, виграє Польщу. Спам на рівні 12% це негативний ефект, що відштовхує добрих користувачів. План: більшу частину $200 000 спрямувати на те, щоб 10–15 мовних пар у шести сильних країнах перевищили 200 користувачів, частину витратити на верифікацію й фільтри спаму, а рекламу в країнах із тонкою мережею зупинити."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює локальний ефект і критичну масу за даними утримання",
+					"points": 2
+				},
+				{
+					"criterion": "Пояснює, чому щільний польський конкурент небезпечний попри меншу кількість користувачів",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає спам як негативний мережевий ефект",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує план бюджету, що зосереджується на щільних кластерах і вирішує проблему спаму",
+					"points": 2
+				}
+			]
+		}
+	}
+}

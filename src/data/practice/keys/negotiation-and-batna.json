@@ -1,0 +1,586 @@
+{
+	"en": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The BATNA is what she will actually do if this deal fails: take the agency work. The lowest fee she will accept is the reservation price derived from it, $6,000 is her target, and the overlap of limits is the ZOPA."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The seller will not take less than the dealer's $18,000, and the buyer will not pay more than $21,000, so any price between them beats both alternatives. Prices outside that range leave one side worse off than walking away."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The ZOPA is the overlap between the two reservation prices. With no overlap, any price is worse than walking away for at least one side, so a deal on these terms should not happen unless the terms change."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Opening at your walk-away point gives away all the room in the ZOPA. The advice is to open with an ambitious figure backed by an objective standard and keep the reservation price private."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The job must cover its own costs and beat the BATNA: $2,800 + $1,200 = $4,000. $2,800 ignores the profit given up, $1,200 ignores the materials, and $5,200 counts the leaflet profit twice."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A written offer and a financed purchase are real alternatives that raise the walk-away point and make leaving credible. Tone, vague hints and opening demands are tactics inside the talks; they do not change what happens if the deal fails."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The position is \"20% off\", but the interest is fitting this year's budget. Deferring payment serves that interest without giving up price. Conceding, splitting the difference or walking away all argue over the position and ignore the reason behind it."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The client's real BATNA is a cheaper agency that misses the deadline, so its reservation price is higher than $20,000. Matching or splitting treats the quote as a real alternative, and walking away throws away a deal inside a wide ZOPA."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "A vague \"someone else\" is not an alternative, so he had no credible walk-away point, and opening at his limit left no room to move. Using a price index and asking about storage needs are exactly what principled negotiation recommends."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The seller's limit ($3 million) is above the buyer's ($2.4 million), so no price beats both alternatives. Accepting less than the other bid or splitting at $2.7 million leaves the founders worse off than their BATNA, and pressure cannot move a buyer past its own alternative."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The bakery's BATNA earns $1.50 per loaf, so with the $1.00 cost its reservation price is $2.50 per loaf. The hotel will not pay much more than its industrial offer, so its limit is about $2.80. The ZOPA is $2.50 to $2.80 per loaf; the bakery should open near the top, perhaps arguing fresher bread than the industrial option."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the bakery's reservation price of $2.50 from cost plus the BATNA profit",
+					"points": 2
+				},
+				{
+					"criterion": "Identifies the hotel's limit of about $2.80 from its alternative",
+					"points": 1
+				},
+				{
+					"criterion": "States the ZOPA of $2.50 to $2.80",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Once both sides know a deal is possible, they still have to agree where in the range to land, and haggling over positions turns that into a contest of will. An objective criterion, an independent standard both can accept, makes the split feel fair rather than forced. For example, a buyer and seller of a used forklift with a ZOPA of $12,000 to $16,000 can agree to use the average of three dealer listings for the same model and age, say $14,500, instead of trading demands."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Explains that criteria replace a contest of positions with a standard both see as fair",
+					"points": 2
+				},
+				{
+					"criterion": "Gives a concrete criterion (market price, expert valuation, index) in a business example",
+					"points": 1
+				},
+				{
+					"criterion": "Shows how the criterion selects a point inside the ZOPA",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Counter with a package. The alternative earns 30,000 × ($7.20 − $4) − $15,000 = $81,000, while $6 earns only $60,000. The reservation price is $4 + $81,000 / 30,000 = $6.70 a bottle. I would open at about $7.10, citing shelf prices of comparable local wines, and offer what the buyer actually wants: exclusivity in its region and a Christmas label. Anything below $6.70 is worse than the restaurant route, so there I would walk away."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates the BATNA value of $81,000 and a reservation price of $6.70",
+					"points": 2
+				},
+				{
+					"criterion": "Uses the buyer's interest (exclusive Christmas wine) in the package",
+					"points": 1
+				},
+				{
+					"criterion": "Sets a walk-away point or justifies the opening with an objective standard",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Propose the 8% cut for a two-year commitment. The agency's costs for this client are $560,000. At a 15% cut, revenue of $680,000 leaves $120,000 of profit, half of today's $240,000. If the client leaves, half the revenue returns after six months, worth about $60,000 of profit in year one, so the BATNA is weak and a cut is worth accepting. An 8% cut leaves $736,000 and $176,000 of profit. The client's three-month switching pain makes a moderate package plausible; the agency should also grow other clients to strengthen its BATNA."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Makes one clear choice",
+					"points": 1
+				},
+				{
+					"criterion": "Calculates profit at a 15% cut ($120,000) and an 8% cut ($176,000)",
+					"points": 2
+				},
+				{
+					"criterion": "Estimates the BATNA (about $60,000 in year one) and compares it with the options",
+					"points": 1
+				},
+				{
+					"criterion": "Uses the client's switching cost or proposes strengthening the BATNA",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "The gym's alternative over 60 months costs $9,500 × 60 = $570,000, plus $90,000 to move and 120 × $50 × 12 = $72,000 of lost fees: $732,000, or $12,200 a month. That is its reservation rent. The landlord's alternative: six months empty, $30,000 of fit-out, then about $11,250 for 54 months, $607,500 − $30,000 = $577,500, or about $9,625 a month. The ZOPA is roughly $9,625 to $12,200. The gym should offer about $11,000, the bottom of the market range, as a five-year lease with steps, and walk away above $12,200."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Calculates the gym's reservation rent of about $12,200 including moving and lost members",
+					"points": 2
+				},
+				{
+					"criterion": "Estimates the landlord's limit of about $9,625 from vacancy and fit-out costs",
+					"points": 1
+				},
+				{
+					"criterion": "States the ZOPA",
+					"points": 1
+				},
+				{
+					"criterion": "Proposes an offer backed by the market range and names a walk-away point",
+					"points": 2
+				}
+			]
+		}
+	},
+	"ua": {
+		"q1": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "BATNA це те, що вона справді зробить, якщо угода зірветься: візьме роботу в агенції. Найнижчий прийнятний гонорар це ціна відмови, виведена з BATNA, $6 000 це її ціль, а перетин меж це ZOPA."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q2": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Продавець не візьме менше за пропозицію дилера в $18 000, а покупець не заплатить більше за $21 000, тож будь-яка ціна між ними краща за обидві альтернативи. Ціни поза цим діапазоном ставлять одну зі сторін у гірше становище, ніж відмова від угоди."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q3": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "ZOPA це перетин двох цін відмови. Якщо перетину немає, будь-яка ціна гірша за відмову принаймні для однієї сторони, тож угоди на цих умовах не має бути, доки умови не зміняться."
+						}
+					]
+				}
+			],
+			"correct": true
+		},
+		"q4": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Почати з точки відмови означає віддати весь простір ZOPA. Рекомендують починати з амбітної цифри, підкріпленої об’єктивним стандартом, а ціну відмови тримати при собі."
+						}
+					]
+				}
+			],
+			"correct": false
+		},
+		"q5": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Замовлення має покрити власні витрати й перевершити BATNA: $2 800 + $1 200 = $4 000. $2 800 ігнорує втрачений прибуток, $1 200 ігнорує матеріали, а $5 200 враховує прибуток від листівок двічі."
+						}
+					]
+				}
+			],
+			"correct": [
+				"C"
+			]
+		},
+		"q6": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Письмова пропозиція й профінансована купівля це справжні альтернативи, які підвищують точку відмови й роблять готовність піти переконливою. Тон, туманні натяки й початкові вимоги це тактика всередині переговорів: вони не змінюють того, що станеться, якщо угода зірветься."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A",
+				"E"
+			]
+		},
+		"q7": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Позиція звучить як «мінус 20%», а інтерес полягає в тому, щоб укластися в цьогорічний бюджет. Відстрочка оплати задовольняє цей інтерес без поступки в ціні. Поступка, поділ різниці чи відмова сперечаються про позицію й ігнорують причину за нею."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B"
+			]
+		},
+		"q8": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Справжня BATNA клієнта це дешевша агенція, яка не встигає, тож його ціна відмови вища за $20 000. Зрівнятися чи поділити різницю означає сприйняти цю пропозицію як справжню альтернативу, а піти означає втратити угоду в широкій ZOPA."
+						}
+					]
+				}
+			],
+			"correct": [
+				"D"
+			]
+		},
+		"q9": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Туманне «хтось інший» не є альтернативою, тож переконливої точки відмови він не мав, а старт із власної межі не залишив простору для руху. Індекс цін і питання про зберігання це саме те, що радять принципові переговори."
+						}
+					]
+				}
+			],
+			"correct": [
+				"B",
+				"D"
+			]
+		},
+		"q10": {
+			"explanation": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Межа продавця ($3 млн) вища за межу покупця ($2,4 млн), тож жодна ціна не краща за обидві альтернативи. Погодитися на менше за іншу пропозицію чи на $2,7 млн означає опинитися гірше, ніж з BATNA, а тиск не зрушить покупця за межу його власної альтернативи."
+						}
+					]
+				}
+			],
+			"correct": [
+				"A"
+			]
+		},
+		"q11": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "BATNA пекарні дає $1,50 з буханця, тож разом із витратами $1,00 її ціна відмови становить $2,50 за буханець. Готель навряд чи заплатить набагато більше за пропозицію хлібозаводу, тож його межа близько $2,80. ZOPA: від $2,50 до $2,80 за буханець; пекарні варто почати ближче до верхньої межі, наприклад наголошуючи, що її хліб свіжіший за промисловий."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує ціну відмови пекарні $2,50 як витрати плюс прибуток BATNA",
+					"points": 2
+				},
+				{
+					"criterion": "Визначає межу готелю близько $2,80 за його альтернативою",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ZOPA від $2,50 до $2,80",
+					"points": 1
+				}
+			]
+		},
+		"q12": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Навіть коли обидві сторони знають, що угода можлива, їм ще треба вирішити, де в діапазоні зупинитися, і торг позиціями перетворює це на змагання впертості. Об’єктивний критерій, тобто незалежний стандарт, який приймають обидві сторони, робить поділ справедливим, а не вимушеним. Наприклад, покупець і продавець вживаного навантажувача із ZOPA від $12 000 до $16 000 можуть домовитися взяти середнє з трьох дилерських оголошень про таку саму модель і рік, скажімо $14 500, замість обмінюватися вимогами."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Пояснює, що критерії замінюють змагання позицій стандартом, який обидві сторони вважають справедливим",
+					"points": 2
+				},
+				{
+					"criterion": "Наводить конкретний критерій (ринкова ціна, експертна оцінка, індекс) у бізнесовому прикладі",
+					"points": 1
+				},
+				{
+					"criterion": "Показує, як критерій обирає точку всередині ZOPA",
+					"points": 1
+				}
+			]
+		},
+		"q13": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Запропонувати пакет. Альтернатива дає 30 000 × ($7,20 − $4) − $15 000 = $81 000, тоді як $6 дають лише $60 000. Ціна відмови становить $4 + $81 000 / 30 000 = $6,70 за пляшку. Я почав би приблизно з $7,10, посилаючись на полицеві ціни схожих місцевих вин, і запропонував би те, чого покупець справді хоче: ексклюзивність у його регіоні й різдвяну етикетку. Нижче $6,70 угода гірша за ресторанний шлях, тож тоді я пішов би."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує цінність BATNA $81 000 і ціну відмови $6,70",
+					"points": 2
+				},
+				{
+					"criterion": "Використовує в пакеті інтерес покупця (ексклюзивне різдвяне вино)",
+					"points": 1
+				},
+				{
+					"criterion": "Визначає точку відмови або обґрунтовує стартову ціну об’єктивним стандартом",
+					"points": 1
+				}
+			]
+		},
+		"q14": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Запропонувати знижку 8% за дворічне зобов’язання. Витрати агенції на цього клієнта становлять $560 000. За знижки 15% виторг $680 000 залишає $120 000 прибутку, половину нинішніх $240 000. Якщо клієнт піде, половина виторгу повернеться через шість місяців і дасть у перший рік близько $60 000 прибутку, тож BATNA слабка й поступатися варто. Знижка 8% дає $736 000 виторгу і $176 000 прибутку. Тримісячний клопіт клієнта зі зміною агенції робить помірний пакет правдоподібним; агенції також варто розвивати інших клієнтів, щоб посилити BATNA."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Робить один чіткий вибір",
+					"points": 1
+				},
+				{
+					"criterion": "Рахує прибуток за знижки 15% ($120 000) і 8% ($176 000)",
+					"points": 2
+				},
+				{
+					"criterion": "Оцінює BATNA (близько $60 000 у перший рік) і порівнює її з варіантами",
+					"points": 1
+				},
+				{
+					"criterion": "Використовує витрати клієнта на зміну агенції або пропонує посилити BATNA",
+					"points": 1
+				}
+			]
+		},
+		"q15": {
+			"sample": [
+				{
+					"k": "p",
+					"runs": [
+						{
+							"t": "Альтернатива залу за 60 місяців коштує $9 500 × 60 = $570 000, плюс $90 000 на переїзд і 120 × $50 × 12 = $72 000 втрачених внесків: $732 000, тобто $12 200 на місяць. Це його ціна відмови. Альтернатива орендодавця: шість місяців простою, $30 000 на облаштування, потім близько $11 250 протягом 54 місяців, $607 500 − $30 000 = $577 500, тобто близько $9 625 на місяць. ZOPA приблизно від $9 625 до $12 200. Залу варто запропонувати близько $11 000, нижню межу ринкового діапазону, на п’ять років зі ступінчастим зростанням і піти, якщо ціна перевищить $12 200."
+						}
+					]
+				}
+			],
+			"rubric": [
+				{
+					"criterion": "Рахує ціну відмови залу близько $12 200 з урахуванням переїзду й утрачених членів",
+					"points": 2
+				},
+				{
+					"criterion": "Оцінює межу орендодавця близько $9 625 з урахуванням простою й облаштування",
+					"points": 1
+				},
+				{
+					"criterion": "Називає ZOPA",
+					"points": 1
+				},
+				{
+					"criterion": "Пропонує умови, підкріплені ринковим діапазоном, і називає точку відмови",
+					"points": 2
+				}
+			]
+		}
+	}
+}

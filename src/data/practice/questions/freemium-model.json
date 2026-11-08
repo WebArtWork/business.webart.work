@@ -1,0 +1,852 @@
+{
+	"slug": "freemium-model",
+	"topicId": 48,
+	"questions": {
+		"en": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which description fits the freemium model?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A product is free for 14 days, and after that everyone must pay"
+					},
+					{
+						"id": "B",
+						"text": "A premium product is sold at a deep discount to win share"
+					},
+					{
+						"id": "C",
+						"text": "A basic product is free for a large audience, and the money comes from the small share of users who pay for premium features or higher limits"
+					},
+					{
+						"id": "D",
+						"text": "A product is free, and the money comes from selling user data"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which of these is an "
+							},
+							{
+								"t": "upgrade trigger",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A free user reaching the plan’s limit of one active project"
+					},
+					{
+						"id": "B",
+						"text": "A free user opening the homepage"
+					},
+					{
+						"id": "C",
+						"text": "A free user reading the company newsletter"
+					},
+					{
+						"id": "D",
+						"text": "A free user rating the app in the store"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "In freemium, the conversion rate from free to paid is typically in the low single digits."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Freemium suits any product, including complex business software that needs explanation and sales help."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which product is the best fit for freemium?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A restaurant lunch"
+					},
+					{
+						"id": "B",
+						"text": "Custom-made furniture"
+					},
+					{
+						"id": "C",
+						"text": "A consulting engagement billed by the hour"
+					},
+					{
+						"id": "D",
+						"text": "A note-taking app where one more user costs about $0.20 a month to serve"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " decisions place the paywall well?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "The free tier covers nearly every need of a typical user."
+					},
+					{
+						"id": "B",
+						"text": "The limit sits where a user’s success creates a need for more, such as a second active client."
+					},
+					{
+						"id": "C",
+						"text": "All features are locked until a payment card is entered."
+					},
+					{
+						"id": "D",
+						"text": "Premium features are visible, and previewed, inside the free product."
+					},
+					{
+						"id": "E",
+						"text": "Features that free users rely on are removed without notice."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A video-editing app has 50,000 free users, each costing about $0.40 a month to serve. 2.5% pay $10 a month. What does the monthly picture look like?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "A profit of $7,500"
+					},
+					{
+						"id": "B",
+						"text": "A loss of $7,500, so conversion, price or cost per free user must change"
+					},
+					{
+						"id": "C",
+						"text": "A profit of $12,500"
+					},
+					{
+						"id": "D",
+						"text": "A break-even position"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A team expands its free tier. Before: 10,000 sign-ups a month, 4% pay $20 a month. After: 30,000 sign-ups, 2% pay. Serving each free user costs $0.50 a month. Which verdict is correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Good, since the number of paying users rose from 400 to 600"
+					},
+					{
+						"id": "B",
+						"text": "Good, since sign-ups tripled"
+					},
+					{
+						"id": "C",
+						"text": "Bad: revenue rises by $4,000 but free-user costs rise by $9,900, so monthly net moves from +$3,200 to a loss of $2,700"
+					},
+					{
+						"id": "D",
+						"text": "Neutral, because conversion is only an average"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Which "
+							},
+							{
+								"t": "two",
+								"b": true
+							},
+							{
+								"t": " statements about the limits of freemium are correct?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Moving a feature from free to paid later often causes a backlash."
+					},
+					{
+						"id": "B",
+						"text": "Free users never create network effects or word of mouth."
+					},
+					{
+						"id": "C",
+						"text": "The model needs a very large audience because most users never pay."
+					},
+					{
+						"id": "D",
+						"text": "Freemium works for every kind of product."
+					},
+					{
+						"id": "E",
+						"text": "Freemium makes later price increases easier."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "An HR software company sells to firms of 500 or more employees at $60,000 a year. Each customer needs data migration and a consultant. The team proposes a free unlimited tier. What is the sound response?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Test a time-limited trial or a guided demo instead, because the product needs explanation and costs a lot to set up"
+					},
+					{
+						"id": "B",
+						"text": "Approve it, since freemium always grows the base faster"
+					},
+					{
+						"id": "C",
+						"text": "Approve it, but limit it to ten employees forever"
+					},
+					{
+						"id": "D",
+						"text": "Reject any form of free access"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A task-management app has 20,000 users. Serving each costs about $0.25 a month. 4% pay $15 a month. Calculate monthly revenue, monthly serving cost and net result, and say whether the model works."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Why must the free tier be neither too generous nor too stingy? Give an example of each failure."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A photo-storage service gives 5 GB free, and 2% of users pay for plans from 100 GB. A competitor offers 15 GB free. You can choose one: raise the free storage to 20 GB, keep 5 GB and add shared albums and prompts when users reach 80% of the limit, or remove the free tier and offer a 30-day trial. Justify the choice with freemium logic."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "A design-collaboration app has 200,000 free users, and 2% pay $12 a month. Free users cost about $90,000 a year in support and hosting. Data show that 70% of paying users used link sharing before upgrading, and 30% of new sign-ups come from shared links. The team proposes moving sharing from free to paid to raise conversion. Recommend what to do and weigh the trade-offs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "A meeting-notes app has 40,000 accounts, and serving each costs about $0.35 a month. 1,200 users pay $9 a month. The free plan allows 20 notes a month. Data show that users who hit the limit in their second month convert at 11%, while users who never reach it convert at 0.3%. 25% of new sign-ups come from shared notes. The team proposes raising the free limit to 50 notes, because a competitor offers unlimited notes."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Calculate the monthly revenue, cost and net result, say what the data imply for the limit, propose two changes with a test, and name one risk."
+							}
+						]
+					}
+				]
+			}
+		],
+		"ua": [
+			{
+				"id": "q1",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який опис відповідає моделі freemium?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Продукт безкоштовний 14 днів, після чого всі мусять платити"
+					},
+					{
+						"id": "B",
+						"text": "Преміальний продукт продають зі значною знижкою, щоб завоювати частку ринку"
+					},
+					{
+						"id": "C",
+						"text": "Базовий продукт безкоштовний для великої аудиторії, а гроші приходять від невеликої частки користувачів, які платять за преміальні функції чи вищі ліміти"
+					},
+					{
+						"id": "D",
+						"text": "Продукт безкоштовний, а гроші приходять від продажу даних користувачів"
+					}
+				]
+			},
+			{
+				"id": "q2",
+				"type": "single_choice",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Що з цього є "
+							},
+							{
+								"t": "тригером переходу на платний рівень",
+								"b": true
+							},
+							{
+								"t": "?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Безкоштовний користувач досягає ліміту плану в один активний проєкт"
+					},
+					{
+						"id": "B",
+						"text": "Безкоштовний користувач відкриває головну сторінку"
+					},
+					{
+						"id": "C",
+						"text": "Безкоштовний користувач читає розсилку компанії"
+					},
+					{
+						"id": "D",
+						"text": "Безкоштовний користувач оцінює застосунок у магазині"
+					}
+				]
+			},
+			{
+				"id": "q3",
+				"type": "true_false",
+				"difficulty": "foundation",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "У freemium конверсія з безкоштовного в платний зазвичай становить кілька відсотків."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q4",
+				"type": "true_false",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Freemium підходить для будь-якого продукту, зокрема складного бізнес-програмного забезпечення, якому потрібні пояснення й допомога продавців."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q5",
+				"type": "single_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Який продукт найкраще підходить для freemium?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Обід у ресторані"
+					},
+					{
+						"id": "B",
+						"text": "Меблі на замовлення"
+					},
+					{
+						"id": "C",
+						"text": "Консалтинг із погодинною оплатою"
+					},
+					{
+						"id": "D",
+						"text": "Застосунок для нотаток, де обслуговування ще одного користувача коштує близько $0,20 на місяць"
+					}
+				]
+			},
+			{
+				"id": "q6",
+				"type": "multiple_select",
+				"difficulty": "applied",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " рішення добре розміщують платну межу?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Безкоштовний рівень покриває майже всі потреби типового користувача."
+					},
+					{
+						"id": "B",
+						"text": "Ліміт стоїть там, де успіх користувача створює потребу в більшому, наприклад другий активний клієнт."
+					},
+					{
+						"id": "C",
+						"text": "Усі функції заблоковано, доки не введено платіжну картку."
+					},
+					{
+						"id": "D",
+						"text": "Преміальні функції видно й можна попередньо оглянути всередині безкоштовного продукту."
+					},
+					{
+						"id": "E",
+						"text": "Функції, на які покладаються безкоштовні користувачі, прибирають без попередження."
+					}
+				]
+			},
+			{
+				"id": "q7",
+				"type": "scenario_choice",
+				"difficulty": "applied",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для монтажу відео має 50 000 безкоштовних користувачів, обслуговування кожного коштує близько $0,40 на місяць. 2,5% платять по $10 на місяць. Як виглядає місячна картина?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Прибуток $7 500"
+					},
+					{
+						"id": "B",
+						"text": "Збиток $7 500, тож конверсію, ціну чи вартість безкоштовного користувача треба змінювати"
+					},
+					{
+						"id": "C",
+						"text": "Прибуток $12 500"
+					},
+					{
+						"id": "D",
+						"text": "Беззбитковість"
+					}
+				]
+			},
+			{
+				"id": "q8",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Команда розширює безкоштовний рівень. До: 10 000 реєстрацій на місяць, 4% платять $20 на місяць. Після: 30 000 реєстрацій, платять 2%. Обслуговування кожного безкоштовного користувача коштує $0,50 на місяць. Який вердикт правильний?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Добре, бо кількість платників зросла з 400 до 600"
+					},
+					{
+						"id": "B",
+						"text": "Добре, бо реєстрацій стало втричі більше"
+					},
+					{
+						"id": "C",
+						"text": "Погано: виручка зростає на $4 000, але витрати на безкоштовних користувачів зростають на $9 900, тож місячний результат переходить від +$3 200 до збитку $2 700"
+					},
+					{
+						"id": "D",
+						"text": "Нейтрально, бо конверсія лише середній показник"
+					}
+				]
+			},
+			{
+				"id": "q9",
+				"type": "multiple_select",
+				"difficulty": "advanced",
+				"points": 2,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Які "
+							},
+							{
+								"t": "два",
+								"b": true
+							},
+							{
+								"t": " твердження про межі freemium правильні?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Перенесення функції з безкоштовної в платну згодом часто викликає обурення."
+					},
+					{
+						"id": "B",
+						"text": "Безкоштовні користувачі ніколи не створюють мережевих ефектів чи усної реклами."
+					},
+					{
+						"id": "C",
+						"text": "Моделі потрібна дуже велика аудиторія, бо більшість користувачів не платить."
+					},
+					{
+						"id": "D",
+						"text": "Freemium працює для кожного виду продукту."
+					},
+					{
+						"id": "E",
+						"text": "Freemium полегшує пізніші підвищення цін."
+					}
+				]
+			},
+			{
+				"id": "q10",
+				"type": "scenario_choice",
+				"difficulty": "advanced",
+				"points": 1,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Компанія з програмного забезпечення для HR продає фірмам від 500 працівників по $60 000 на рік. Кожному клієнту потрібні міграція даних і консультант. Команда пропонує безкоштовний необмежений рівень. Яка відповідь слушна?"
+							}
+						]
+					}
+				],
+				"options": [
+					{
+						"id": "A",
+						"text": "Натомість перевірити обмежену в часі пробу чи керовану демонстрацію, бо продукт потребує пояснень і дорогий у впровадженні"
+					},
+					{
+						"id": "B",
+						"text": "Схвалити, бо freemium завжди швидше нарощує базу"
+					},
+					{
+						"id": "C",
+						"text": "Схвалити, але обмежити десятьма працівниками назавжди"
+					},
+					{
+						"id": "D",
+						"text": "Відхилити будь-яку форму безкоштовного доступу"
+					}
+				]
+			},
+			{
+				"id": "q11",
+				"type": "short_answer",
+				"difficulty": "applied",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для керування завданнями має 20 000 користувачів. Обслуговування кожного коштує близько $0,25 на місяць. 4% платять по $15 на місяць. Обчисліть місячну виручку, місячні витрати на обслуговування й чистий результат та скажіть, чи працює модель."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q12",
+				"type": "short_answer",
+				"difficulty": "advanced",
+				"points": 4,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Чому безкоштовний рівень не має бути ні надто щедрим, ні надто скупим? Наведіть приклад кожного провалу."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q13",
+				"type": "business_decision",
+				"difficulty": "advanced",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Сервіс зберігання фото дає 5 ГБ безкоштовно, і 2% користувачів платять за плани від 100 ГБ. Конкурент пропонує 15 ГБ безкоштовно. Можна обрати одне: підняти безкоштовне сховище до 20 ГБ, лишити 5 ГБ і додати спільні альбоми та підказки, коли користувачі досягають 80% ліміту, або прибрати безкоштовний рівень і запропонувати 30-денну пробу. Обґрунтуйте вибір логікою freemium."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q14",
+				"type": "business_decision",
+				"difficulty": "expert",
+				"points": 5,
+				"prompt": [
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Застосунок для спільної роботи над дизайном має 200 000 безкоштовних користувачів, і 2% платять по $12 на місяць. Безкоштовні користувачі коштують близько $90 000 на рік на підтримку й хостинг. Дані показують, що 70% платників користувалися поширенням за посиланням до оновлення, а 30% нових реєстрацій приходять зі спільних посилань. Команда пропонує перенести поширення з безкоштовного в платне, щоб підвищити конверсію. Порадьте, що робити, і зважте компроміси."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "q15",
+				"type": "case_study",
+				"difficulty": "expert",
+				"points": 6,
+				"prompt": [
+					{
+						"k": "quote",
+						"runs": [
+							{
+								"t": "Застосунок для нотаток зустрічей має 40 000 акаунтів, і обслуговування кожного коштує близько $0,35 на місяць. 1 200 користувачів платять по $9 на місяць. Безкоштовний план дозволяє 20 нотаток на місяць. Дані показують, що користувачі, які досягли ліміту на другий місяць, конвертуються з імовірністю 11%, а ті, хто його ніколи не досягає, 0,3%. 25% нових реєстрацій приходять зі спільних нотаток. Команда пропонує підняти безкоштовний ліміт до 50 нотаток, бо конкурент пропонує необмежену кількість."
+							}
+						]
+					},
+					{
+						"k": "p",
+						"runs": [
+							{
+								"t": "Обчисліть місячну виручку, витрати й чистий результат, скажіть, що дані означають для ліміту, запропонуйте дві зміни з тестом і назвіть один ризик."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
