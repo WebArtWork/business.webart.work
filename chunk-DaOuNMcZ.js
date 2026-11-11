@@ -1,0 +1,1 @@
+var t=[];var c=[];var i={sections:t,terms:c};export{i as n,t as r,c as t};
